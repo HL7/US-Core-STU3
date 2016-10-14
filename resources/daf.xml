@@ -7,12 +7,15 @@
 	<status value="draft"/>
 	<experimental value="false"/>
 	<publisher value="ONC"/>
+<!--	
 	<useContext>
 		<coding>
 			<system value="urn:iso:std:iso:3166"/>
 			<code value="US"/>
 		</coding>
 	</useContext>
+	
+-->	
 	<dependency>
 		<type value="reference"/>
 		<uri value="http://hl7.org/fhir/uslab"/>
