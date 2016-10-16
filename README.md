@@ -9,7 +9,7 @@ GitHub will automatically trigger a new build whenever you commit changes.
 
 ### Find your rendered IG automatically available at
 
-http://ig.fhir.me/Healthedata1/stu3-daf/
+http://ig.fhir.me/Healthedata1/stu3-daf
 
 ### Find debugging info about the build
 
