@@ -264,10 +264,6 @@
 			"base": "valueset-daf-product-form.html",
 			"template-base": null
 		},
-		"ValueSet/daf-race": {
-			"base": "valueset-daf-race.html",
-			"template-base": null
-		},
 		"ValueSet/daf-core-substance": {
 			"base": "valueset-daf-core-substance.html",
 			"template-base": null
@@ -360,10 +356,7 @@
 			"base": "valueset-daf-encounter-type.html",
 			"template-base": null
 		},
-		"ValueSet/daf-ethnicity": {
-			"base": "valueset-daf-ethnicity.html",
-			"template-base": null
-		},
+		
 		"ValueSet/daf-list-MedListCode": {
 			"base": "valueset-daf-list-MedListCode.html",
 			"template-base": null
