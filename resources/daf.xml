@@ -545,8 +545,8 @@
 				<reference value="StructureDefinition/daf-core-patient"/>
 			</exampleFor>
 		</resource>
-		<!--************************EXAMPLES EXAMPLES EXAMPLES **************************************  -->		
-		
+
+
 		
 		<!--daf-core-core valuesets-->
 <resource>

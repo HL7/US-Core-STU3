@@ -453,26 +453,6 @@
 		"CodeSystem/daf-careteam-status": {
 			"base": "codesystem-daf-careteam-status.html",
 			"template-base": null
-		},
-		"AllergyIntolerance/example": {
-			"base": "allergyintolerance-example.html",
-			"template-base": null
-		},
-		"Patient/example": {
-			"base": "patient-example.html",
-			"template-base": null
-		},
-		"CarePlan/example": {
-			"base": "careplan-example.html",
-			"template-base": null
-		},
-		"CareTeam/example": {
-			"base": "careteam-example.html",
-			"template-base": null
-		},
-		"Condition/example": {
-			"base": "condition-example.html",
-			"template-base": null
 		}
 	}
 }
