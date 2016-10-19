@@ -1,7 +1,7 @@
 {
 	"tool": "jekyll",
 	"paths": {
-		"resources": "resources",
+		"resources": ["resources","examples"],
 		"pages": "pages",
 		"temp": "temp",
 		"output": "output",
