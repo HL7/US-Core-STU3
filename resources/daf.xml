@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://hl7-fhir.github.io/implementationguide.xsd">
+<ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<id value="daf"/>
-	<url value="http://hl7.org/fhir/us/daf/implementationguide/daf"/>
+	<url value="http://hl7.org/fhir/us/daf/ImplementationGuide/daf"/>
 	<version value="1"/>
 	<name value="Data Access Framework"/>
 	<status value="draft"/>
@@ -13,14 +13,13 @@
 			<code value="US"/>
 		</coding>
 	</jurisdiction>
-	
 	<dependency>
 		<type value="reference"/>
 		<uri value="http://hl7.org/fhir/uslab"/>
 	</dependency>
 	<package>
 		<name value="base"/>
-		<!-- =========================VALUESETSVALUESETSVALUESETSVALUESETSVALUESETS================= -->
+		<!--  value sets -->
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -93,7 +92,7 @@
 				<reference value="ValueSet/concern-status"/>
 			</sourceReference>
 		</resource>
-		<!--============ PROFILES PROFILES PROFILES PROFILES PROFILES=====================  -->
+		<!--  profiles -->
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -447,7 +446,7 @@
 				<reference value="SearchParameter/familymemberhistory-daf-FamilyMemberHistory-relationship"/>
 			</sourceReference>
 		</resource>
-		<!--===================  CAPABILITYSTATEMENTCAPABILITYSTATEMENTCAPABILITYSTATEMENT ==================== -->
+		<!--  CapabilityStatement resources -->
 		<resource>
 			<example value="true"/>
 			<name value="DAF Responder"/>
@@ -491,7 +490,7 @@
 			</sourceReference>
 		</resource>
 		<!--************************EXAMPLES EXAMPLES EXAMPLES **************************************  -->
-		<!--		
+		
 		<resource>
 			<example value="true"/>
 			<name value="Condition Example"/>
@@ -501,7 +500,9 @@
 			<exampleFor>
 				<reference value="StructureDefinition/daf-core-condition"/>
 			</exampleFor>
-		</resource>
+		</resource>	
+		
+		
 		<resource>
 			<example value="true"/>
 			<name value="Care Team Example"/>
@@ -511,8 +512,9 @@
 			<exampleFor>
 				<reference value="StructureDefinition/daf-core-careteam"/>
 			</exampleFor>
-		</resource>
-		<resource>
+		</resource>	
+		
+				<resource>
 			<example value="true"/>
 			<name value="Care Plan Example"/>
 			<sourceReference>
@@ -521,7 +523,8 @@
 			<exampleFor>
 				<reference value="StructureDefinition/daf-core-careplan"/>
 			</exampleFor>
-		</resource>
+		</resource>	
+			
 		<resource>
 			<example value="true"/>
 			<name value="Allergy Intolerance Example"/>
@@ -542,15 +545,17 @@
 				<reference value="StructureDefinition/daf-core-patient"/>
 			</exampleFor>
 		</resource>
-
--->
-		<!--************************DAFCOREVALUESETSDAFCOREVALUESETSDAFCOREVALUESETS **************************************  -->
-		<resource>
+		<!--************************EXAMPLES EXAMPLES EXAMPLES **************************************  -->		
+		
+		
+		<!--daf-core-core valuesets-->
+<resource>
 			<example value="false"/>
 			<sourceReference>
 				<reference value="ValueSet/daf-condition-category"/>
 			</sourceReference>
-		</resource>
+		</resource>		
+		
 		<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -575,7 +580,8 @@
 				<reference value="ValueSet/daf-core-substance-unii"/>
 			</sourceReference>
 		</resource>
-		<!--		
+
+<!--		
 	<resource>
 			<example value="false"/>
 			<sourceReference>
@@ -620,18 +626,23 @@
 				<reference value="CodeSystem/daf-core-extension-codes"/>
 			</sourceReference>
 		</resource>
-		<resource>
+	
+				<resource>
 			<example value="false"/>
 			<sourceReference>
 				<reference value="CodeSystem/daf-careteam-status"/>
 			</sourceReference>
-		</resource>
-		<resource>
+		</resource>	
+		
+				
+			<resource>
 			<example value="false"/>
 			<sourceReference>
 				<reference value="ValueSet/daf-careteam-status"/>
 			</sourceReference>
-		</resource>
+		</resource>		
+
+		
 		<!-- **************************Operations OPERATIONS  OPERATIONs  OPERATIONS ************************************-->
 		<resource>
 			<example value="false"/>
@@ -660,10 +671,8 @@
   <acronym target="daf-diagnosticrequest" id="daf-dio"/>
   <acronym target="daf-resultobservationcode" id="daf-cod"/>
  -->
-	<!--=========================BINARY BINARY BINARY BINARY============================ -->
 	<binary value="daf-actors-and-interactions.png"/>
 	<binary value="daf-fhir-query-stack.png"/>
-	<!-- ========================PAGESPAGESPAGESPAGES============================== -->
 	<page>
 		<source value="daf.html"/>
 		<title value="Home Page"/>
@@ -673,6 +682,7 @@
 			<title value="Table of Contents"/>
 			<kind value="toc"/>
 		</page>
+	</page>
 		<page>
 			<source value="capabilitystatement-daf-query-responder.html"/>
 			<title value="DAF-Core Query Responder"/>
@@ -709,10 +719,4 @@
 			<kind value="resource"/>
 			<format value="generated"/>
 		</page>
-		<page>
-			<source/>
-			<title/>
-			<kind/>
-		</page>
-	</page>
 </ImplementationGuide>

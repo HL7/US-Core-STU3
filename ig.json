@@ -1,16 +1,14 @@
 {
 	"tool": "jekyll",
 	"paths": {
-		"resources": [
-			"resources", "examples"
-		],
+		"resources": "resources",
 		"pages": "pages",
 		"temp": "temp",
 		"output": "output",
 		"qa": "qa",
 		"txCache": "txCache",
 		"specification": "http://hl7-fhir.github.io/"
-	},
+},
 	"defaults": {
 		"Any": {
 			"template-format": "instance-template-format.html",
@@ -264,6 +262,10 @@
 			"base": "valueset-daf-product-form.html",
 			"template-base": null
 		},
+		"ValueSet/daf-race": {
+			"base": "valueset-daf-race.html",
+			"template-base": null
+		},
 		"ValueSet/daf-core-substance": {
 			"base": "valueset-daf-core-substance.html",
 			"template-base": null
@@ -356,7 +358,10 @@
 			"base": "valueset-daf-encounter-type.html",
 			"template-base": null
 		},
-		
+		"ValueSet/daf-ethnicity": {
+			"base": "valueset-daf-ethnicity.html",
+			"template-base": null
+		},
 		"ValueSet/daf-list-MedListCode": {
 			"base": "valueset-daf-list-MedListCode.html",
 			"template-base": null
@@ -447,6 +452,26 @@
 		},
 		"CodeSystem/daf-careteam-status": {
 			"base": "codesystem-daf-careteam-status.html",
+			"template-base": null
+		},
+		"AllergyIntolerance/example": {
+			"base": "allergyintolerance-example.html",
+			"template-base": null
+		},
+		"Patient/example": {
+			"base": "patient-example.html",
+			"template-base": null
+		},
+		"CarePlan/example": {
+			"base": "careplan-example.html",
+			"template-base": null
+		},
+		"CareTeam/example": {
+			"base": "careteam-example.html",
+			"template-base": null
+		},
+		"Condition/example": {
+			"base": "condition-example.html",
 			"template-base": null
 		}
 	}
