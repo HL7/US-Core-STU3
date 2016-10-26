@@ -1,5 +1,5 @@
 # DAF STU3 Profiles
-This is the repository for DAF STU3 FHIR IG which includes DAF Research and US-Core
+This is the repository for STU3 US-Core Resources
 
 GitHub will automatically trigger a new build whenever you commit changes.
 (To manually trigger a build, just `POST` to the Webhook URL yourself, for example via:
