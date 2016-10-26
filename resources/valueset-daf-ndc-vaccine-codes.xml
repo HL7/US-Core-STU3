@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://hl7.org/fhir">
 	<id value="daf-ndc-vaccine-codes"/>
-	<url value="http://hl7.org/fhir/us/daf/ValueSet/daf-ndc-vaccine-codes"/>
+	<url value="http://hl7.org/fhir/us/core/ValueSet/daf-ndc-vaccine-codes"/>
 	<name value="Vaccine National Drug Code (NDC)"/>
 	<status value="draft"/>
 	<publisher value="HL7 (FHIR Project)"/>

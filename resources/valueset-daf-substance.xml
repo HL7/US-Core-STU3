@@ -79,7 +79,7 @@
     
     </div>
   </text>
-  <url value="http://hl7.org/fhir/us/daf/ValueSet/daf-substance"/>
+  <url value="http://hl7.org/fhir/us/core/ValueSet/daf-substance"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113762.1.4.1010.1"/>
@@ -100,16 +100,16 @@
   <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
   <compose>
     <include>
-      <valueSet value="http://hl7.org/fhir/us/daf/ValueSet/daf-substance-ndfrt"/>
+      <valueSet value="http://hl7.org/fhir/us/core/ValueSet/daf-substance-ndfrt"/>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/us/daf/ValueSet/daf-substance-rxnorm"/>
+      <valueSet value="http://hl7.org/fhir/us/core/ValueSet/daf-substance-rxnorm"/>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/us/daf/ValueSet/daf-substance-unii"/>
+      <valueSet value="http://hl7.org/fhir/us/core/ValueSet/daf-substance-unii"/>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/us/daf/ValueSet/daf-substance-sct"/>
+      <valueSet value="http://hl7.org/fhir/us/core/ValueSet/daf-substance-sct"/>
     </include>
     <include>
       <system value="http://snomed.info/sct"/>

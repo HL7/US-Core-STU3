@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://hl7.org/fhir">
 	<id value="daf-core-extension-codes"/>
-	<url value="http://hl7.org/fhir/us/daf/CodeSystem/daf-core-extension-codes"/>
+	<url value="http://hl7.org/fhir/us/core/CodeSystem/daf-core-extension-codes"/>
 	<name value="DAFCoreExtensionCodes"/>
 	<status value="draft"/>
 	<publisher value="HL7 (FHIR Project)"/>
 	<description value="Set of codes that are needed for implementation of the DAF-Core profiles. These codes are used as extensions to the FHIR and DAF value sets.&#xa;"/>
 	<caseSensitive value="true"/>
-	<valueSet value="http://hl7.org/fhir/us/daf/ValueSet/daf-core-extension-codes"/>
+	<valueSet value="http://hl7.org/fhir/us/core/ValueSet/daf-core-extension-codes"/>
 	<content value="complete"/>
 	<concept>
 		<code value="problem"/>

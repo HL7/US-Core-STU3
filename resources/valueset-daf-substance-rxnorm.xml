@@ -17,7 +17,7 @@
       </ul>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/us/daf/ValueSet/daf-substance-rxnorm"/>
+  <url value="http://hl7.org/fhir/us/core/ValueSet/daf-substance-rxnorm"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113762.1.4.1010.7"/>

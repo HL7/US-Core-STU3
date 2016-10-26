@@ -1042,8 +1042,8 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s74"><Data ss:Type="String">extension.uri</Data></Cell>
-    <Cell ss:StyleID="s62" ss:HRef="http://hl7.org/fhir/us/daf/StructureDefinition/careplan"><Data
-      ss:Type="String">http://hl7.org/fhir/us/daf/StructureDefinition/careplan</Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="http://hl7.org/fhir/us/core/StructureDefinition/careplan"><Data
+      ss:Type="String">http://hl7.org/fhir/us/core/StructureDefinition/careplan</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">introduction</Data></Cell>
@@ -1336,7 +1336,7 @@
     <Cell ss:StyleID="s105"><Data ss:Type="String">1..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s105"><Data ss:Type="String">Reference(Patient){http://hl7.org/fhir/us/daf/StructureDefinition/daf-core-patient}</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">Reference(Patient){http://hl7.org/fhir/us/core/StructureDefinition/daf-core-patient}</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1408,7 +1408,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s105"><Data ss:Type="String">&lt;valueCodeableConcept&gt;&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/us/daf/CodeSystem/daf-core-extension-codes&quot;/&gt;&lt;code value=&quot;assess-plan&quot;/&gt;&lt;/coding&gt;&lt;/valueCodeableConcept&gt;&#10;</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">&lt;valueCodeableConcept&gt;&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/us/core/CodeSystem/daf-core-extension-codes&quot;/&gt;&lt;code value=&quot;assess-plan&quot;/&gt;&lt;/coding&gt;&lt;/valueCodeableConcept&gt;&#10;</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>

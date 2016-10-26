@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://hl7.org/fhir">
 	<id value="daf-careteam-status"/>
-	<url value="http://hl7.org/fhir/us/daf/CodeSystem/daf-careteam-status"/>
+	<url value="http://hl7.org/fhir/us/core/CodeSystem/daf-careteam-status"/>
 	<name value="DAFCareTeamStatus"/>
 	<status value="draft"/>
 	<publisher value="HL7 (FHIR Project)"/>
 	<description value="Indicates whether the team is current , represents future intentions or is now a historical record."/>
 	<caseSensitive value="true"/>
-	<valueSet value="http://hl7.org/fhir/us/daf/ValueSet/daf-careteam-status"/>
+	<valueSet value="http://hl7.org/fhir/us/core/ValueSet/daf-careteam-status"/>
 	<content value="complete"/>
 	<concept>
 		<code value="draft"/>

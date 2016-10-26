@@ -3,7 +3,7 @@
 	<id value="example"/>
 	<status>
 		<coding>
-			<system value="http://hl7.org/fhir/us/daf/CodeSystem/daf-careteam-status"/>
+			<system value="http://hl7.org/fhir/us/core/CodeSystem/daf-careteam-status"/>
 			<code id="active"/>
 			<display value="Active"/>
 		</coding>

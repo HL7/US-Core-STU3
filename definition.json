@@ -1,0 +1,1318 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$ref": "#/definitions/object_05",
+  "definitions": {
+    "object_01": {
+      "title": "paths",
+      "type": "object",
+      "required": [
+        "resources",
+        "pages",
+        "temp",
+        "output",
+        "qa",
+        "txCache",
+        "specification"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "resources": {
+          "$ref": "#/definitions/array_01"
+        },
+        "pages": {
+          "type": "string"
+        },
+        "temp": {
+          "type": "string"
+        },
+        "output": {
+          "type": "string"
+        },
+        "qa": {
+          "type": "string"
+        },
+        "txCache": {
+          "type": "string"
+        },
+        "specification": {
+          "type": "string"
+        }
+      }
+    },
+    "object_02": {
+      "title": "defaults",
+      "type": "object",
+      "required": [
+        "Any"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "Any": {
+          "$ref": "#/definitions/object_03"
+        }
+      }
+    },
+    "object_03": {
+      "type": "object",
+      "required": [
+        "template-base"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "base": {
+          "type": "string"
+        },
+        "template-format": {
+          "type": "string"
+        },
+        "template-base": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "object_04": {
+      "title": "resources",
+      "type": "object",
+      "required": [
+        "StructureDefinition/daf-core-allergyintolerance",
+        "StructureDefinition/daf-allergyintolerance",
+        "StructureDefinition/daf-allergylist",
+        "StructureDefinition/daf-core-careplan",
+        "StructureDefinition/daf-core-careteam",
+        "StructureDefinition/daf-condition",
+        "StructureDefinition/daf-core-condition",
+        "StructureDefinition/daf-capabilitystatement",
+        "StructureDefinition/daf-core-device",
+        "StructureDefinition/daf-diagnosticrequest",
+        "StructureDefinition/daf-diagnosticreport",
+        "StructureDefinition/daf-core-diagnosticreport",
+        "StructureDefinition/daf-encounter",
+        "StructureDefinition/daf-encounterlist",
+        "StructureDefinition/daf-familymemberhistory",
+        "StructureDefinition/daf-core-goal",
+        "StructureDefinition/daf-immunizationlist",
+        "StructureDefinition/daf-location",
+        "StructureDefinition/daf-core-location",
+        "StructureDefinition/daf-medication",
+        "StructureDefinition/daf-core-medication",
+        "StructureDefinition/daf-medicationadministration",
+        "StructureDefinition/daf-medicationlist",
+        "StructureDefinition/daf-medicationstatement",
+        "StructureDefinition/daf-core-medicationstatement",
+        "StructureDefinition/daf-core-operationdefinition",
+        "StructureDefinition/daf-operationdefinition",
+        "StructureDefinition/daf-organization",
+        "StructureDefinition/daf-core-organization",
+        "StructureDefinition/daf-patient",
+        "StructureDefinition/daf-core-patient",
+        "StructureDefinition/daf-pract",
+        "StructureDefinition/daf-core-pract",
+        "StructureDefinition/daf-problemlist",
+        "StructureDefinition/daf-procedure",
+        "StructureDefinition/daf-core-procedure",
+        "StructureDefinition/daf-provenance",
+        "StructureDefinition/daf-relatedperson",
+        "StructureDefinition/daf-resultlist",
+        "StructureDefinition/daf-resultobs",
+        "StructureDefinition/daf-core-resultobs",
+        "StructureDefinition/daf-smokingstatus",
+        "StructureDefinition/daf-core-smokingstatus",
+        "StructureDefinition/daf-spec",
+        "StructureDefinition/daf-substance",
+        "StructureDefinition/daf-task",
+        "StructureDefinition/daf-vitalsigns",
+        "StructureDefinition/daf-core-vitalsigns",
+        "StructureDefinition/daf-queryresults",
+        "StructureDefinition/daf-immunization",
+        "StructureDefinition/daf-core-immunization",
+        "StructureDefinition/daf-medicationdispense",
+        "StructureDefinition/daf-medicationorder",
+        "StructureDefinition/daf-core-medicationorder",
+        "StructureDefinition/daf-procedurelist",
+        "StructureDefinition/daf-research-data-models",
+        "StructureDefinition/daf-data-models",
+        "StructureDefinition/daf-query-formats",
+        "ValueSet/daf-procedure-type",
+        "ValueSet/daf-product-form",
+        "ValueSet/daf-race",
+        "ValueSet/daf-core-substance",
+        "ValueSet/daf-substance",
+        "ValueSet/daf-substance-ndfrt",
+        "ValueSet/daf-substance-rxnorm",
+        "ValueSet/daf-substance-sct",
+        "ValueSet/daf-substance-unii",
+        "ValueSet/daf-core-substance-ndfrt",
+        "ValueSet/daf-core-substance-rxnorm",
+        "ValueSet/daf-core-substance-sct",
+        "ValueSet/daf-core-substance-unii",
+        "ValueSet/daf-ucum-vitals-common",
+        "ValueSet/daf-ingredient-name",
+        "ValueSet/daf-medication-brandname",
+        "ValueSet/daf-medication-clinicalname",
+        "ValueSet/daf-medication-drugclass",
+        "ValueSet/daf-problem-severity",
+        "ValueSet/daf-problem-type",
+        "ValueSet/daf-bodysite",
+        "ValueSet/daf-concern-status",
+        "ValueSet/daf-cvx",
+        "ValueSet/daf-encounter-dischargedisposition",
+        "ValueSet/daf-encounter-reason",
+        "ValueSet/daf-encounter-type",
+        "ValueSet/daf-ethnicity",
+        "ValueSet/daf-list-MedListCode",
+        "ValueSet/daf-manifestation-ccda-codes",
+        "ValueSet/daf-medication-codes",
+        "ValueSet/daf-medication-route",
+        "ValueSet/daf-observation-ccdasmokingstatus",
+        "ValueSet/daf-observation-CCDAVitalSignResult",
+        "ValueSet/daf-problem",
+        "ValueSet/daf-research-data-models",
+        "ValueSet/daf-research-query-formats",
+        "ValueSet/daf-core-immunization-status",
+        "ValueSet/daf-core-careteam-provider-roles",
+        "ValueSet/daf-core-ucum-vitals-common",
+        "ValueSet/daf-core-observation-vitals",
+        "ValueSet/daf-core-narrative-status",
+        "ValueSet/daf-careteam-status",
+        "ValueSet/daf-procedure-icd10pcs",
+        "ValueSet/daf-provider-role",
+        "ValueSet/daf-provider-specialty",
+        "ValueSet/daf-ucum",
+        "ValueSet/daf-observation-value-codes",
+        "ValueSet/daf-ndc-vaccine-codes",
+        "ValueSet/daf-condition-category",
+        "CodeSystem/daf-careteam-status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "StructureDefinition/daf-core-allergyintolerance": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-allergyintolerance": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-allergylist": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-careplan": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-careteam": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-condition": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-condition": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-capabilitystatement": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-device": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-diagnosticrequest": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-diagnosticreport": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-diagnosticreport": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-encounter": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-encounterlist": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-familymemberhistory": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-goal": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-immunizationlist": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-location": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-location": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-medication": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-medication": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-medicationadministration": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-medicationlist": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-medicationstatement": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-medicationstatement": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-operationdefinition": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-operationdefinition": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-organization": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-organization": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-patient": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-patient": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-pract": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-pract": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-problemlist": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-procedure": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-procedure": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-provenance": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-relatedperson": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-resultlist": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-resultobs": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-resultobs": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-smokingstatus": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-smokingstatus": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-spec": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-substance": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-task": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-vitalsigns": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-vitalsigns": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-queryresults": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-immunization": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-immunization": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-medicationdispense": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-medicationorder": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-core-medicationorder": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-procedurelist": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-research-data-models": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-data-models": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "StructureDefinition/daf-query-formats": {
+          "type": "object",
+          "required": [
+            "defns",
+            "base"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "defns": {
+              "type": "string"
+            },
+            "base": {
+              "type": "string"
+            }
+          }
+        },
+        "ValueSet/daf-procedure-type": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-product-form": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-race": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-core-substance": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-substance": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-substance-ndfrt": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-substance-rxnorm": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-substance-sct": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-substance-unii": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-core-substance-ndfrt": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-core-substance-rxnorm": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-core-substance-sct": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-core-substance-unii": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-ucum-vitals-common": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-ingredient-name": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-medication-brandname": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-medication-clinicalname": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-medication-drugclass": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-problem-severity": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-problem-type": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-bodysite": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-concern-status": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-cvx": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-encounter-dischargedisposition": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-encounter-reason": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-encounter-type": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-ethnicity": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-list-MedListCode": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-manifestation-ccda-codes": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-medication-codes": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-medication-route": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-observation-ccdasmokingstatus": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-observation-CCDAVitalSignResult": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-problem": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-research-data-models": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-research-query-formats": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-core-immunization-status": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-core-careteam-provider-roles": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-core-ucum-vitals-common": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-core-observation-vitals": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-core-narrative-status": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-careteam-status": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-procedure-icd10pcs": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-provider-role": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-provider-specialty": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-ucum": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-observation-value-codes": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-ndc-vaccine-codes": {
+          "$ref": "#/definitions/object_03"
+        },
+        "ValueSet/daf-condition-category": {
+          "$ref": "#/definitions/object_03"
+        },
+        "CodeSystem/daf-careteam-status": {
+          "$ref": "#/definitions/object_03"
+        }
+      }
+    },
+    "object_05": {
+      "type": "object",
+      "required": [
+        "tool",
+        "paths",
+        "defaults",
+        "sct-edition",
+        "canonicalBase",
+        "source",
+        "spreadsheets",
+        "resources"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "tool": {
+          "type": "string"
+        },
+        "paths": {
+          "$ref": "#/definitions/object_01"
+        },
+        "defaults": {
+          "$ref": "#/definitions/object_02"
+        },
+        "sct-edition": {
+          "type": "string"
+        },
+        "canonicalBase": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "spreadsheets": {
+          "$ref": "#/definitions/array_01"
+        },
+        "resources": {
+          "$ref": "#/definitions/object_04"
+        }
+      }
+    },
+    "array_01": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
