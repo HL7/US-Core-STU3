@@ -8830,7 +8830,7 @@
     <Cell ss:StyleID="s110"/>
     <Cell ss:StyleID="s140"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s140"><Data ss:Type="String">extensible</Data></Cell>
-    <Cell ss:StyleID="s137"><Data ss:Type="String">valueset-daf-core-substance</Data></Cell>
+    <Cell ss:StyleID="s137"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/daf-core-substance</Data></Cell>
     <Cell ss:StyleID="s140"><Data ss:Type="String">Type of substance responsible for reaction.</Data></Cell>
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s140"/>

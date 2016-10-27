@@ -7,10 +7,10 @@
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>Grahame</Author>
-  <LastAuthor>nbashyam</LastAuthor>
+  <LastAuthor>Eric Haas</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
   <LastSaved>2015-09-07T05:59:09Z</LastSaved>
-  <Version>16.00</Version>
+  <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
@@ -22,7 +22,6 @@
   <WindowTopY>0</WindowTopY>
   <ActiveSheet>2</ActiveSheet>
   <FirstVisibleSheet>1</FirstVisibleSheet>
-  <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -900,7 +899,7 @@
  </Styles>
  <Worksheet ss:Name="Instructions">
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="5" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="15">
    <Column ss:AutoFitWidth="0" ss:Width="411"/>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s64"><Data ss:Type="String">FHIR Profile-authoring Spreadsheet</Data></Cell>
@@ -939,7 +938,8 @@
  </Worksheet>
  <Worksheet ss:Name="Metadata">
   <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="17" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s69" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:StyleID="s69" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
    <Column ss:StyleID="s69" ss:Width="98.25"/>
    <Column ss:StyleID="s69" ss:AutoFitWidth="0" ss:Width="363"/>
    <Row ss:AutoFitHeight="0">
@@ -1054,7 +1054,8 @@
     ss:RefersTo="='DAF-Core-Medication'!R1C1:R85C25" ss:Hidden="1"/>
   </Names>
   <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="86" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s85" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:StyleID="s85" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
    <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="121.5"/>
    <Column ss:StyleID="s86" ss:Width="67.5"/>
    <Column ss:StyleID="s86" ss:AutoFitWidth="0" ss:Width="59.25"/>
@@ -3491,9 +3492,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>3</ActiveRow>
-     <ActiveCol>0</ActiveCol>
-     <RangeSelection>R4:R10</RangeSelection>
+     <ActiveRow>31</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -3509,7 +3509,8 @@
     ss:Hidden="1"/>
   </Names>
   <Table ss:ExpandedColumnCount="24" ss:ExpandedRowCount="101" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s85" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:StyleID="s85" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
    <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="121.5"/>
    <Column ss:StyleID="s86" ss:Width="67.5"/>
    <Column ss:StyleID="s86" ss:AutoFitWidth="0" ss:Width="59.25"/>
@@ -6258,7 +6259,8 @@
     ss:RefersTo="='SomeStructure-Inv'!R1C1:R2C7" ss:Hidden="1"/>
   </Names>
   <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="51" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s120" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:StyleID="s120" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
    <Column ss:Index="2" ss:StyleID="s120" ss:AutoFitWidth="0" ss:Width="115.5"/>
    <Column ss:StyleID="s120" ss:Width="55.5"/>
    <Column ss:StyleID="s120" ss:Width="165"/>
@@ -6784,7 +6786,8 @@
     ss:Hidden="1"/>
   </Names>
   <Table ss:ExpandedColumnCount="23" ss:ExpandedRowCount="41" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s85" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:StyleID="s85" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
    <Column ss:StyleID="s86" ss:Width="227.25"/>
    <Column ss:StyleID="s85" ss:Width="51"/>
    <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="120"/>
@@ -7925,7 +7928,8 @@
     ss:Hidden="1"/>
   </Names>
   <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="31" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s130" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:StyleID="s130" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
    <Column ss:StyleID="s130" ss:AutoFitWidth="0" ss:Width="70.5"/>
    <Column ss:StyleID="s130" ss:AutoFitWidth="0" ss:Width="57"/>
    <Column ss:StyleID="s130" ss:AutoFitWidth="0" ss:Width="105.75"/>
@@ -8199,7 +8203,8 @@
     ss:Hidden="1"/>
   </Names>
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="51" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s130" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:StyleID="s130" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
    <Column ss:StyleID="s130" ss:AutoFitWidth="0" ss:Width="130.5"/>
    <Column ss:StyleID="s130" ss:AutoFitWidth="0" ss:Width="124.5"/>
    <Column ss:StyleID="s130" ss:Width="24"/>
@@ -8826,8 +8831,9 @@
    <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Bindings!R1C1:R1C13"
     ss:Hidden="1"/>
   </Names>
-  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="31" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s130" ss:DefaultRowHeight="15">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="30" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s130" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
    <Column ss:StyleID="s130" ss:Width="114.75"/>
    <Column ss:StyleID="s130" ss:AutoFitWidth="0" ss:Width="274.5"/>
    <Column ss:StyleID="s130" ss:AutoFitWidth="0" ss:Width="87.75"/>
@@ -8899,7 +8905,7 @@
     <Cell ss:StyleID="s96"><Data ss:Type="String">Prescribable medications</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">extensible</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">valueset-daf-medication-codes</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/daf-medication-codes</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">2.16.840.1.113762.1.4.1010.4</Data></Cell>
     <Cell ss:StyleID="s133"/>
     <Cell ss:StyleID="s133"/>
@@ -8908,21 +8914,6 @@
     <Cell ss:StyleID="s133"/>
     <Cell ss:StyleID="s133"/>
     <Cell ss:StyleID="s134"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s104"><Data ss:Type="String">DAFMedicationForm</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">Medication form</Data></Cell>
-    <Cell ss:StyleID="s133"><Data ss:Type="String">value set</Data></Cell>
-    <Cell ss:StyleID="s136"><Data ss:Type="String">extensible</Data></Cell>
-    <Cell ss:StyleID="s136"><Data ss:Type="String">valueset-daf-product-form</Data></Cell>
-    <Cell ss:StyleID="s136"><Data ss:Type="String">2.16.840.1.113883.3.88.12.3221.8.11 </Data></Cell>
-    <Cell ss:StyleID="s136"/>
-    <Cell ss:StyleID="s136"/>
-    <Cell ss:StyleID="s136"/>
-    <Cell ss:StyleID="s136"/>
-    <Cell ss:StyleID="s136"/>
-    <Cell ss:StyleID="s136"/>
-    <Cell ss:StyleID="s137"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s104"/>
@@ -9362,8 +9353,9 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>3</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>0</ActiveCol>
+     <RangeSelection>R3</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -9379,7 +9371,8 @@
     ss:Hidden="1"/>
   </Names>
   <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="51" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s154" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:StyleID="s154" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="15">
    <Column ss:StyleID="s154" ss:Width="80.25"/>
    <Column ss:StyleID="s154" ss:AutoFitWidth="0" ss:Width="34.5"/>
    <Column ss:StyleID="s154" ss:AutoFitWidth="0" ss:Width="155.25"/>

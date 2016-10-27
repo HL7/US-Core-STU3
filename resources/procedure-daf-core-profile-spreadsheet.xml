@@ -8923,7 +8923,7 @@
     <Cell ss:StyleID="s107"><Data ss:Type="String">Codes describing the Procedure Type</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">required</Data></Cell>
-    <Cell ss:StyleID="s136"><Data ss:Type="String">valueset-daf-procedure-type</Data></Cell>
+    <Cell ss:StyleID="s136"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/daf-procedure-type</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">This value set identifies a set of procedure types.</Data></Cell>
     <Cell ss:StyleID="s136"/>
     <Cell ss:StyleID="s136"/>
@@ -8938,7 +8938,7 @@
     <Cell ss:StyleID="s107"><Data ss:Type="String">Optional ICD-10PCS Code translations describing the Procedure Type</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">required</Data></Cell>
-    <Cell ss:StyleID="s136"><Data ss:Type="String">valueset-daf-procedure-icd10pcs</Data></Cell>
+    <Cell ss:StyleID="s136"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/daf-procedure-icd10pcs</Data></Cell>
     <Cell ss:StyleID="s136"/>
     <Cell ss:StyleID="s136"/>
     <Cell ss:StyleID="s136"/>

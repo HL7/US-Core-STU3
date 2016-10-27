@@ -2481,7 +2481,7 @@
     <Cell ss:StyleID="s125"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">example</Data></Cell>
     <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"><Data ss:Type="String">valueset-care-plan-category</Data></Cell>
+    <Cell ss:StyleID="s125"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/care-plan-category</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
@@ -2497,7 +2497,7 @@
     <Cell ss:StyleID="s125"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">required</Data></Cell>
     <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"><Data ss:Type="String">valueset-daf-core-narrative-status</Data></Cell>
+    <Cell ss:StyleID="s125"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/daf-core-narrative-status</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>

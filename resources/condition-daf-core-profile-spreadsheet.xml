@@ -8306,7 +8306,7 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">Valueset to describe the actual problem experienced by the patient</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">extensible</Data></Cell>
-    <Cell ss:StyleID="s136"><Data ss:Type="String">valueset-daf-problem</Data></Cell>
+    <Cell ss:StyleID="s136"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/daf-problem</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">Value set to identify the actual problem</Data></Cell>
     <Cell ss:StyleID="s136"/>
     <Cell ss:StyleID="s136"/>

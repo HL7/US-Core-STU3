@@ -9036,7 +9036,7 @@
     <Cell ss:StyleID="s95"><Data ss:Type="String">This value set indicates the current smoking status of a patient </Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">required</Data></Cell>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">valueset-daf-observation-ccdasmokingstatus</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/daf-observation-ccdasmokingstatus</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">Smoking Status value set</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">2.16.840.1.113883.4.642.2.0</Data></Cell>
     <Cell ss:StyleID="s154"/>
