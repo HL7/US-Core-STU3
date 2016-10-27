@@ -1,4 +1,6 @@
 #  STU3 US-Core Resources
+
+-----
 This is the repository for STU3 US-Core Resources
 
 GitHub will automatically trigger a new build whenever you commit changes.
@@ -14,4 +16,6 @@ http://ig.fhir.me/Healthedata1/stu3-daf
 ### Find debugging info about the build
 
 http://ig.fhir.me/Healthedata1/stu3-daf/debug.tgz
+
+------
 
