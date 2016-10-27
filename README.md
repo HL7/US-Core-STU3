@@ -1,4 +1,4 @@
-# DAF STU3 Profiles
+#  STU3 US-Core Resources
 This is the repository for STU3 US-Core Resources
 
 GitHub will automatically trigger a new build whenever you commit changes.
