@@ -12,122 +12,122 @@
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-ucum"/>
+				<reference value="ValueSet/us-core-ucum"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-provider-specialty"/>
+				<reference value="ValueSet/us-core-provider-specialty"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-provider-role"/>
+				<reference value="ValueSet/us-core-provider-role"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-procedure-type"/>
+				<reference value="ValueSet/us-core-procedure-type"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-procedure-icd10pcs"/>
+				<reference value="ValueSet/us-core-procedure-icd10pcs"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-problem"/>
+				<reference value="ValueSet/us-core-problem"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-observation-value-codes"/>
+				<reference value="ValueSet/us-core-observation-value-codes"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-observation-ccdavitalsignresult"/>
+				<reference value="ValueSet/us-core-observation-ccdavitalsignresult"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-observation-ccdasmokingstatus"/>
+				<reference value="ValueSet/us-core-observation-ccdasmokingstatus"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-ndc-vaccine-codes"/>
+				<reference value="ValueSet/us-core-ndc-vaccine-codes"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-medication-codes"/>
+				<reference value="ValueSet/us-core-medication-codes"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-cvx"/>
+				<reference value="ValueSet/us-core-cvx"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-core-substance"/>
+				<reference value="ValueSet/us-core-substance"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-core-substance-sct"/>
+				<reference value="ValueSet/us-core-substance-sct"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-core-substance-rxnorm"/>
+				<reference value="ValueSet/us-core-substance-rxnorm"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-core-substance-ndfrt"/>
+				<reference value="ValueSet/us-core-substance-ndfrt"/>
 			</sourceReference>
 		</resource>
 
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-core-narrative-status"/>
+				<reference value="ValueSet/us-core-narrative-status"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-core-immunization-status"/>
+				<reference value="ValueSet/us-core-immunization-status"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-core-careteam-provider-roles"/>
+				<reference value="ValueSet/us-core-careteam-provider-roles"/>
 			</sourceReference>
 		</resource>
 		<resource>
 			<example value="false"/>
 			<sourceReference>
-				<reference value="ValueSet/daf-careteam-status"/>
+				<reference value="ValueSet/us-core-careteam-status"/>
 			</sourceReference>
 		</resource>
 	</package>

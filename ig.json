@@ -31,68 +31,68 @@
 	"tool": "jekyll",
 	"sct-edition": "http://snomed.info/sct/731000124108",
 	"spreadsheets": [
-		"allergyintolerance-daf-core-profile-spreadsheet.xml", "careplan-daf-core-profile-spreadsheet.xml", "careteam-daf-core-profile-spreadsheet.xml", "condition-daf-core-profile-spreadsheet.xml", "device-daf-core-profile-spreadsheet.xml", "diagnosticreport-daf-core-profile-spreadsheet.xml", "goal-daf-core-profile-spreadsheet.xml", "immunization-daf-core-profile-spreadsheet.xml", "location-daf-core-profile-spreadsheet.xml", "medication-daf-core-profile-spreadsheet.xml", "medicationorder-daf-core-profile-spreadsheet.xml", "medicationstatement-daf-core-profile-spreadsheet.xml", "observation-daf-core-results-profile-spreadsheet.xml", "observation-daf-core-smokingstatus-profile-spreadsheet.xml", "observation-daf-core-vitalsigns-profile-spreadsheet.xml", "organization-daf-core-profile-spreadsheet.xml", "patient-daf-core-profile-spreadsheet.xml", "practitioner-daf-core-profile-spreadsheet.xml", "procedure-daf-core-profile-spreadsheet.xml"
+		"allergyintolerance-us-core-profile-spreadsheet.xml", "careplan-us-core-profile-spreadsheet.xml", "careteam-us-core-profile-spreadsheet.xml", "condition-us-core-profile-spreadsheet.xml", "device-us-core-profile-spreadsheet.xml", "diagnosticreport-us-core-profile-spreadsheet.xml", "goal-us-core-profile-spreadsheet.xml", "immunization-us-core-profile-spreadsheet.xml", "location-us-core-profile-spreadsheet.xml", "medication-us-core-profile-spreadsheet.xml", "medicationorder-us-core-profile-spreadsheet.xml", "medicationstatement-us-core-profile-spreadsheet.xml", "observation-us-core-results-profile-spreadsheet.xml", "observation-us-core-smokingstatus-profile-spreadsheet.xml", "observation-us-core-vitalsigns-profile-spreadsheet.xml", "organization-us-core-profile-spreadsheet.xml", "patient-us-core-profile-spreadsheet.xml", "practitioner-us-core-profile-spreadsheet.xml", "procedure-us-core-profile-spreadsheet.xml"
 	],
 	"resources": {
 		"ValueSet/daf-observation-ccdasmokingstatus": {
-			"base": "valueset-daf-observation-ccdasmokingstatus.html"
+			"base": "valueset-us-core-observation-ccdasmokingstatus.html"
 		},
 		"ValueSet/daf-careteam-status": {
-			"base": "valueset-daf-careteam-status.html"
+			"base": "valueset-us-core-careteam-status.html"
 		},
 		"ValueSet/daf-problem": {
-			"base": "valueset-daf-problem.html"
+			"base": "valueset-us-core-problem.html"
 		},
-		"ValueSet/daf-core-substance-sct": {
-			"base": "valueset-daf-core-substance-sct.html"
+		"ValueSet/us-core-substance-sct": {
+			"base": "valueset-us-core-substance-sct.html"
 		},
 		"ValueSet/daf-procedure-type": {
-			"base": "valueset-daf-procedure-type.html"
+			"base": "valueset-us-core-procedure-type.html"
 		},
-		"ValueSet/daf-core-substance-rxnorm": {
-			"base": "valueset-daf-core-substance-rxnorm.html"
+		"ValueSet/us-core-substance-rxnorm": {
+			"base": "valueset-us-core-substance-rxnorm.html"
 		},
-		"ValueSet/daf-core-immunization-status": {
-			"base": "valueset-daf-core-immunization-status.html"
+		"ValueSet/us-core-immunization-status": {
+			"base": "valueset-us-core-immunization-status.html"
 		},
-		"ValueSet/daf-core-substance": {
-			"base": "valueset-daf-core-substance.html"
+		"ValueSet/us-core-substance": {
+			"base": "valueset-us-core-substance.html"
 		},
-		"ValueSet/daf-core-substance-ndfrt": {
-			"base": "valueset-daf-core-substance-ndfrt.html"
+		"ValueSet/us-core-substance-ndfrt": {
+			"base": "valueset-us-core-substance-ndfrt.html"
 		},
 		"ValueSet/daf-cvx": {
-			"base": "valueset-daf-cvx.html"
+			"base": "valueset-us-core-cvx.html"
 		},
 		"ValueSet/daf-ucum": {
-			"base": "valueset-daf-ucum.html"
+			"base": "valueset-us-core-ucum.html"
 		},
 		"ValueSet/daf-procedure-icd10pcs": {
-			"base": "valueset-daf-procedure-icd10pcs.html"
+			"base": "valueset-us-core-procedure-icd10pcs.html"
 		},
-		"ValueSet/daf-core-narrative-status": {
-			"base": "valueset-daf-core-narrative-status.html"
+		"ValueSet/us-core-narrative-status": {
+			"base": "valueset-us-core-narrative-status.html"
 		},
 		"ValueSet/daf-provider-role": {
-			"base": "valueset-daf-provider-role.html"
+			"base": "valueset-us-core-provider-role.html"
 		},
 		"ValueSet/daf-ndc-vaccine-codes": {
-			"base": "valueset-daf-ndc-vaccine-codes.html"
+			"base": "valueset-us-core-ndc-vaccine-codes.html"
 		},
 		"ValueSet/daf-medication-codes": {
-			"base": "valueset-daf-medication-codes.html"
+			"base": "valueset-us-core-medication-codes.html"
 		},
 		"ValueSet/daf-observation-ccdavitalsignresult": {
-			"base": "valueset-daf-observation-ccdavitalsignresult.html"
+			"base": "valueset-us-core-observation-ccdavitalsignresult.html"
 		},
 		"ValueSet/daf-observation-value-codes": {
-			"base": "valueset-daf-observation-value-codes.html"
+			"base": "valueset-us-core-observation-value-codes.html"
 		},
-		"ValueSet/daf-core-careteam-provider-roles": {
-			"base": "valueset-daf-core-careteam-provider-roles.html"
+		"ValueSet/us-core-careteam-provider-roles": {
+			"base": "valueset-us-core-careteam-provider-roles.html"
 		},
 		"ValueSet/daf-provider-specialty": {
-			"base": "valueset-daf-provider-specialty.html"
+			"base": "valueset-us-core-provider-specialty.html"
 		}
 	}
 }
