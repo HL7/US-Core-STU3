@@ -11,9 +11,14 @@
 		]
 	},
 	"version": "1.7.0",
+	"extraTemplates": [
+		"mappings"
+	],
 	"defaults": {
 		"StructureDefinition": {
-			"template-base": "sd.html"
+			"template-base": "sd.html",
+			"template-defns": "sd-definitions.html",
+			"template-mappings": "sd-mappings.html"
 		},
 		"ConceptMap": {
 			"template-base": "cm.html"
