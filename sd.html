@@ -172,7 +172,7 @@ Formal Views of Profile Content
 
 <p><b>Summary of Argonaut Search Criteria for {{[type]}}-{{[id]}}</b></p>
 
-{% capture my-include %}{% include aboutsearch.md %}{% endcapture %}{{ my-include | markdownify }}
+{% capture my-include %}{% include {{[id]}}-search.md %}{% endcapture %}{{ my-include | markdownify }}
 
 
 
