@@ -514,30 +514,30 @@
 		  <tr>
             
             <th>
-              <a href="us-core-medicationorder.html">US Core-core-medicationorder</a>
+              <a href="us-core-medicationrequest.html">US Core-core-medicationrequest</a>
             </th>
             
             <td>
               
-              <a title="Allows discovery of US Core-core-medicationorder resources based on different search criteria" href="#US CoreMedicationOrderSearch">SHOULD</a>
+              <a title="Allows discovery of US Core-core-medicationrequest resources based on different search criteria" href="#US CoreMedicationRequestSearch">SHOULD</a>
             
             </td>
             
             <td>
               
-              <a title="Allows retrieval of a specific US Core-core-medicationorder by id">SHOULD</a>
+              <a title="Allows retrieval of a specific US Core-core-medicationrequest by id">SHOULD</a>
             
             </td>
             
             <td>
               
-              <a title="Allows retrieval of a historical version of a US Core-core-medicationorder">SHOULD</a>
+              <a title="Allows retrieval of a historical version of a US Core-core-medicationrequest">SHOULD</a>
             
             </td>
             
             <td>
               
-              <a title="Allows review of changes to US Core-core-medicationorder over time">SHOULD</a>
+              <a title="Allows review of changes to US Core-core-medicationrequest over time">SHOULD</a>
             
             </td>
           
@@ -1164,37 +1164,37 @@
       </interaction>
     </resource>
 	<resource>
-      <type value="MedicationOrder"/>
+      <type value="MedicationRequest"/>
       <profile>
-        <reference value="http://hl7.org/fhir/current/daf/us-core-medicationorder.html"/>
+        <reference value="http://hl7.org/fhir/current/daf/us-core-medicationrequest.html"/>
       </profile>
       <interaction>
         <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
           <valueCode value="SHOULD"/>
         </extension>
         <code value="search-type"/>
-        <documentation value="Allows discovery of existing US Core-core-medicationorder resources using different search criteria"/>
+        <documentation value="Allows discovery of existing US Core-core-medicationrequest resources using different search criteria"/>
       </interaction>
       <interaction>
         <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
           <valueCode value="SHOULD"/>
         </extension>
         <code value="read"/>
-        <documentation value="Allows retrieval of a specific US Core-core-medicationorder by id"/>
+        <documentation value="Allows retrieval of a specific US Core-core-medicationrequest by id"/>
       </interaction>
       <interaction>
         <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
           <valueCode value="SHOULD"/>
         </extension>
         <code value="history-instance"/>
-        <documentation value="Allows review of changes to US Core-core-medicationorder instance over time"/>
+        <documentation value="Allows review of changes to US Core-core-medicationrequest instance over time"/>
       </interaction>
       <interaction>
         <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
           <valueCode value="SHOULD"/>
         </extension>
         <code value="vread"/>
-        <documentation value="Allows retrieval of a historical version of a US Core-core-medicationorder instance"/>
+        <documentation value="Allows retrieval of a historical version of a US Core-core-medicationrequest instance"/>
       </interaction>
     </resource>
 	<resource>

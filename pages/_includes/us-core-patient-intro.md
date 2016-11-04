@@ -42,5 +42,5 @@ In addition, based upon the 2015 Edition Certification Requirements, the followi
 
 * none
 
-[Patient]: http://hl7-fhir.github.io/patient.html
+[Patient]: http://build.fhir.org/patient.html
 [Must Support]: us-core.html#mustsupport 

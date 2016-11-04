@@ -8,9 +8,9 @@
 1.  At least one practitioner role in `Practitioner.role`
     which must include a
     -   `Practitioner.role.organization`
-    -   `Practitioner.role.code` which has an [required](http://hl7-fhir.github.io/terminologies.html#required) binding to:
+    -   `Practitioner.role.code` which has an [required](http://build.fhir.org/terminologies.html#required) binding to:
         - [NUCC - Classification]
-    -   `Practitioner.role.specialty` which has an [required](http://hl7-fhir.github.io/terminologies.html#required) binding to:
+    -   `Practitioner.role.specialty` which has an [required](http://build.fhir.org/terminologies.html#required) binding to:
         - [NUCC - Specialization]
     -   `Practitioner.role.telecom`
     -   `Practitioner.role.location`

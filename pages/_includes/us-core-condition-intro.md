@@ -25,5 +25,5 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 * The US Core Condition Category Codes support the separate concepts of problems and health concerns so API consumers can separate health concerns and problems. However this is not mandatory for 2015 certification
 
-[Condition]: http://hl7-fhir.github.io/condition.html
+[Condition]: http://build.fhir.org/condition.html
 

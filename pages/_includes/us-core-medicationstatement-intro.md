@@ -1,4 +1,4 @@
-Both the [MedicationOrder] and [MedicationStatement] resources can be used to record a patient's medication.  For more information about the context for their usages, refer to the medication domains's [boundaries section].  This profile sets minimum expectations for the MedicationStatement resource to record, search and fetch medications associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
+Both the [MedicationRequest] and [MedicationStatement] resources can be used to record a patient's medication.  For more information about the context for their usages, refer to the medication domains's [boundaries section].  This profile sets minimum expectations for the MedicationStatement resource to record, search and fetch medications associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
 
 **Example Usage Scenarios:**
 
@@ -26,16 +26,16 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 **Profile specific implementation guidance:**
 
-*  The MedicationStatement and MedicationOrder resources can represent a medication, using either a code or refer to a [Medication] resource.  The server application can choose one way or both methods,  but the client application must support both methods.  More specific guidance is provided in the [conformance](conformance.html) resource for this profile
+*  The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a [Medication] resource.  The server application can choose one way or both methods,  but the client application must support both methods.  More specific guidance is provided in the [conformance](conformance.html) resource for this profile
 
 
   [Medication Clinical Drug (RxNorm)]: valueset-us-core-medication-codes.html
-  [MedicationOrderStatus]: http://hl7.org/fhir/us/daf/valueset-medication-order-status.html
+  [MedicationRequestStatus]: http://hl7.org/fhir/us/daf/valueset-medication-request-status.html
 [MedicationStatementStatus]: http://hl7.org/fhir/us/daf/valueset-medication-statement-status.html
-[MedicationStatement]:http://hl7-fhir.github.io/medicationstatement.html
- [MedicationOrder]: http://hl7-fhir.github.io/medicationorder.html
- [Medication]:http://hl7-fhir.github.io/medication.html
+[MedicationStatement]:http://build.fhir.org/medicationstatement.html
+ [MedicationRequest]: http://build.fhir.org/medicationrequest.html
+ [Medication]:http://build.fhir.org/medication.html
  [Conformance]: us-core-medicationstatement-conformance.html
- [boundaries section]: http://hl7-fhir.github.io/medicationorder.html#bnr
+ [boundaries section]: http://build.fhir.org/medicationrequest.html#bnr
 
  

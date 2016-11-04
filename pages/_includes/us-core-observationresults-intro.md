@@ -37,8 +37,8 @@ Each Observation *should* have:
 * If there is no result then you have to supply a reason unless Observation is being used to group other results then there is no value. Instead, it includes composite values or references to other Observations
 
  [SNOMED CT]: http://snomed.info/sct
-  [Observation Value Absent Reason]: http://hl7-fhir.github.io/valueset-observation-valueabsentreason.html
+  [Observation Value Absent Reason]: http://build.fhir.org/valueset-observation-valueabsentreason.html
   [UCUM]: http://unitsofmeasure.org
   [LOINC]: http://loinc.org
-[Observation]:  http://hl7-fhir.github.io/observation.html
-[DiagnosticReport]:  http://hl7-fhir.github.io/diagnosticreport.html
+[Observation]:  http://build.fhir.org/observation.html
+[DiagnosticReport]:  http://build.fhir.org/diagnosticreport.html

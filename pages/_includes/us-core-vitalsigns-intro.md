@@ -53,7 +53,7 @@ Diastolic blood pressure | 8462-4 | mm[Hg] | Observation.component code for a bl
 * Other profiles may make rules about which vital sign must be present or must be present as part of a panel.
 
 
-[Observation]: http://hl7-fhir.github.io/observation.html
-[extensible]: http://hl7-fhir.github.io/terminologies.html#extensible
+[Observation]: http://build.fhir.org/observation.html
+[extensible]: http://build.fhir.org/terminologies.html#extensible
 
 

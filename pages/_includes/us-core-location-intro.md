@@ -19,7 +19,7 @@ Each Location must have:
  
  * none
 
-[Location]:  http://hl7-fhir.github.io/location.html
+[Location]:  http://build.fhir.org/location.html
 
  **Note to Balloters:  the following elements are being considered for inclusion into this profile:**
 

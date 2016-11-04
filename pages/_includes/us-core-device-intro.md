@@ -23,4 +23,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 * none
 
-[Device]: http://hl7-fhir.github.io/device.html
+[Device]: http://build.fhir.org/device.html

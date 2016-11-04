@@ -29,5 +29,5 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 * Representing No Known Allergies: No Known Allergies will be represented using the US Core-AllergyIntolerance profile with appropriate negation code in AllergyIntolerence.code.
 
-[AllergyIntolerance]: http://hl7-fhir.github.io/allergyintolerance.html
+[AllergyIntolerance]: http://build.fhir.org/allergyintolerance.html
 

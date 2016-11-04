@@ -24,4 +24,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 * none
 
-[CarePlan]: http://hl7-fhir.github.io/careplan.html
+[CarePlan]: http://build.fhir.org/careplan.html
