@@ -38,10 +38,21 @@
 	"spreadsheets": [
 		"allergyintolerance-us-core-profile-spreadsheet.xml", "careplan-us-core-profile-spreadsheet.xml", "careteam-us-core-profile-spreadsheet.xml", "condition-us-core-profile-spreadsheet.xml", "device-us-core-profile-spreadsheet.xml", "diagnosticreport-us-core-profile-spreadsheet.xml", "goal-us-core-profile-spreadsheet.xml", "immunization-us-core-profile-spreadsheet.xml", "location-us-core-profile-spreadsheet.xml", "medication-us-core-profile-spreadsheet.xml", "medicationrequest-us-core-profile-spreadsheet.xml", "medicationstatement-us-core-profile-spreadsheet.xml", "observation-us-core-results-profile-spreadsheet.xml", "observation-us-core-smokingstatus-profile-spreadsheet.xml", "observation-us-core-vitalsigns-profile-spreadsheet.xml", "organization-us-core-profile-spreadsheet.xml", "patient-us-core-profile-spreadsheet.xml", "practitioner-us-core-profile-spreadsheet.xml", "procedure-us-core-profile-spreadsheet.xml"
 	],
-	"resources": {
+	"resources":
+	
+
+	
+	 {
+		"StructureDefinition/us-core-patient": {
+			"base": "structuredefinition-us-core-patient.html"
+		},
+		
+	 
 		"ValueSet/daf-observation-ccdasmokingstatus": {
 			"base": "valueset-us-core-observation-ccdasmokingstatus.html"
 		},
+		
+		
 		"ValueSet/daf-careteam-status": {
 			"base": "valueset-us-core-careteam-status.html"
 		},
