@@ -1,114 +1,185 @@
 {
 	"paths": {
-		"temp": "temp",
-		"specification": "http://build.fhir.org",
-		"qa": "qa",
 		"txCache": "txCache",
+		"specification": "http://build.fhir.org",
 		"output": "output",
+		"temp": "temp",
+		"qa": "qa",
 		"pages": "pages",
 		"resources": [
 			"resources", "examples"
 		]
 	},
+	"source": "ig.xml",
+	"sct-edition": "http://snomed.info/sct/731000124108",
+	"canonicalBase": "http://hl7.org/fhir/us/core",
 	"version": "1.7.0",
 	"extraTemplates": [
 		"mappings"
 	],
-	"defaults": {
-		"StructureDefinition": {
-			"template-base": "sd.html",
-			"template-defns": "sd-definitions.html",
-			"template-mappings": "sd-mappings.html"
+	"resources": {
+		"ValueSet/us-core-ucum": {
+			"base": "valueset-us-core-ucum.html"
 		},
+		"ValueSet/us-core-observation-ccdavitalsignresult": {
+			"base": "valueset-us-core-observation-ccdavitalsignresult.html"
+		},
+		"StructureDefinition/us-core-immunization": {
+			"base": "structuredefinition-us-core-immunization.html",
+			"defns": "us-core-immunizationdefinitions.html"
+		},
+		"StructureDefinition/us-core-patient": {
+			"base": "structuredefinition-us-core-patient.html",
+			"defns": "us-core-patientdefinitions.html"
+		},
+		"ValueSet/us-core-ndc-vaccine-codes": {
+			"base": "valueset-us-core-ndc-vaccine-codes.html"
+		},
+		"StructureDefinition/us-core-diagnosticreport": {
+			"base": "structuredefinition-us-core-diagnosticreport.html",
+			"defns": "us-core-diagnosticreportdefinitions.html"
+		},
+		"ValueSet/us-core-substance-ndfrt": {
+			"base": "valueset-us-core-substance-ndfrt.html"
+		},
+		"CapabilityStatement/capabilitystatement-us-core-query-requestor": {
+			"base": "capabilitystatement-capabilitystatement-us-core-query-requestor.html"
+		},
+		"CapabilityStatement/capabilitystatement-us-core-query-responder": {
+			"base": "capabilitystatement-capabilitystatement-us-core-query-responder.html"
+		},
+		"ValueSet/us-core-substance-sct": {
+			"base": "valueset-us-core-substance-sct.html"
+		},
+		"StructureDefinition/us-core-organization": {
+			"base": "structuredefinition-us-core-organization.html",
+			"defns": "us-core-organizationdefinitions.html"
+		},
+		"ValueSet/us-core-medication-codes": {
+			"base": "valueset-us-core-medication-codes.html"
+		},
+		"StructureDefinition/us-core-vitalsigns": {
+			"base": "structuredefinition-us-core-vitalsigns.html",
+			"defns": "us-core-vitalsignsdefinitions.html"
+		},
+		"ValueSet/us-core-provider-role": {
+			"base": "valueset-us-core-provider-role.html"
+		},
+		"StructureDefinition/us-core-allergyintolerance": {
+			"base": "structuredefinition-us-core-allergyintolerance.html",
+			"defns": "us-core-allergyintolerancedefinitions.html"
+		},
+		"StructureDefinition/us-core-smokingstatus": {
+			"base": "structuredefinition-us-core-smokingstatus.html",
+			"defns": "us-core-smokingstatusdefinitions.html"
+		},
+		"StructureDefinition/us-core-medicationstatement": {
+			"base": "structuredefinition-us-core-medicationstatement.html",
+			"defns": "us-core-medicationstatementdefinitions.html"
+		},
+		"ValueSet/us-core-procedure-type": {
+			"base": "valueset-us-core-procedure-type.html"
+		},
+		"ValueSet/us-core-narrative-status": {
+			"base": "valueset-us-core-narrative-status.html"
+		},
+		"ValueSet/us-core-careteam-status": {
+			"base": "valueset-us-core-careteam-status.html"
+		},
+		"StructureDefinition/us-core-medication": {
+			"base": "structuredefinition-us-core-medication.html",
+			"defns": "us-core-medicationdefinitions.html"
+		},
+		"StructureDefinition/us-core-location": {
+			"base": "structuredefinition-us-core-location.html",
+			"defns": "us-core-locationdefinitions.html"
+		},
+		"ValueSet/us-core-observation-value-codes": {
+			"base": "valueset-us-core-observation-value-codes.html"
+		},
+		"StructureDefinition/us-core-careplan": {
+			"base": "structuredefinition-us-core-careplan.html",
+			"defns": "us-core-careplandefinitions.html"
+		},
+		"ValueSet/us-core-provider-specialty": {
+			"base": "valueset-us-core-provider-specialty.html"
+		},
+		"ValueSet/us-core-substance-rxnorm": {
+			"base": "valueset-us-core-substance-rxnorm.html"
+		},
+		"ValueSet/us-core-cvx": {
+			"base": "valueset-us-core-cvx.html"
+		},
+		"StructureDefinition/us-core-observationresults": {
+			"base": "structuredefinition-us-core-observationresults.html",
+			"defns": "us-core-observationresultsdefinitions.html"
+		},
+		"ValueSet/us-core-careteam-provider-roles": {
+			"base": "valueset-us-core-careteam-provider-roles.html"
+		},
+		"StructureDefinition/us-core-procedure": {
+			"base": "structuredefinition-us-core-procedure.html",
+			"defns": "us-core-proceduredefinitions.html"
+		},
+		"StructureDefinition/us-core-pract": {
+			"base": "structuredefinition-us-core-pract.html",
+			"defns": "us-core-practdefinitions.html"
+		},
+		"ValueSet/us-core-procedure-icd10pcs": {
+			"base": "valueset-us-core-procedure-icd10pcs.html"
+		},
+		"ValueSet/us-core-problem": {
+			"base": "valueset-us-core-problem.html"
+		},
+		"StructureDefinition/us-core-medicationrequest": {
+			"base": "structuredefinition-us-core-medicationrequest.html",
+			"defns": "us-core-medicationrequestdefinitions.html"
+		},
+		"StructureDefinition/us-core-careteam": {
+			"base": "structuredefinition-us-core-careteam.html",
+			"defns": "us-core-careteamdefinitions.html"
+		},
+		"StructureDefinition/us-core-goal": {
+			"base": "structuredefinition-us-core-goal.html",
+			"defns": "us-core-goaldefinitions.html"
+		},
+		"ValueSet/us-core-immunization-status": {
+			"base": "valueset-us-core-immunization-status.html"
+		},
+		"ValueSet/us-core-observation-ccdasmokingstatus": {
+			"base": "valueset-us-core-observation-ccdasmokingstatus.html"
+		},
+		"ValueSet/us-core-substance": {
+			"base": "valueset-us-core-substance.html"
+		},
+		"StructureDefinition/us-core-device": {
+			"base": "structuredefinition-us-core-device.html",
+			"defns": "us-core-devicedefinitions.html"
+		},
+		"StructureDefinition/us-core-condition": {
+			"base": "structuredefinition-us-core-condition.html",
+			"defns": "us-core-conditiondefinitions.html"
+		}
+	},
+	"spreadsheets": [
+		"allergyintolerance-us-core-profile-spreadsheet.xml", "careplan-us-core-profile-spreadsheet.xml", "careteam-us-core-profile-spreadsheet.xml", "condition-us-core-profile-spreadsheet.xml", "device-us-core-profile-spreadsheet.xml", "diagnosticreport-us-core-profile-spreadsheet.xml", "goal-us-core-profile-spreadsheet.xml", "immunization-us-core-profile-spreadsheet.xml", "location-us-core-profile-spreadsheet.xml", "medication-us-core-profile-spreadsheet.xml", "medicationrequest-us-core-profile-spreadsheet.xml", "medicationstatement-us-core-profile-spreadsheet.xml", "observation-us-core-results-profile-spreadsheet.xml", "observation-us-core-smokingstatus-profile-spreadsheet.xml", "observation-us-core-vitalsigns-profile-spreadsheet.xml", "organization-us-core-profile-spreadsheet.xml", "patient-us-core-profile-spreadsheet.xml", "practitioner-us-core-profile-spreadsheet.xml", "procedure-us-core-profile-spreadsheet.xml"
+	],
+	"tool": "jekyll",
+	"defaults": {
 		"ConceptMap": {
 			"template-base": "cm.html"
+		},
+		"ValueSet": {
+			"template-base": "vs.html"
 		},
 		"Any": {
 			"template-format": "format.html",
 			"template-base": "base.html"
 		},
-		"ValueSet": {
-			"template-base": "vs.html"
-		}
-	},
-	"source": "ig.xml",
-	"canonicalBase": "http://hl7.org/fhir/us/core",
-	"tool": "jekyll",
-	"sct-edition": "http://snomed.info/sct/731000124108",
-	"spreadsheets": [
-		"allergyintolerance-us-core-profile-spreadsheet.xml", "careplan-us-core-profile-spreadsheet.xml", "careteam-us-core-profile-spreadsheet.xml", "condition-us-core-profile-spreadsheet.xml", "device-us-core-profile-spreadsheet.xml", "diagnosticreport-us-core-profile-spreadsheet.xml", "goal-us-core-profile-spreadsheet.xml", "immunization-us-core-profile-spreadsheet.xml", "location-us-core-profile-spreadsheet.xml", "medication-us-core-profile-spreadsheet.xml", "medicationrequest-us-core-profile-spreadsheet.xml", "medicationstatement-us-core-profile-spreadsheet.xml", "observation-us-core-results-profile-spreadsheet.xml", "observation-us-core-smokingstatus-profile-spreadsheet.xml", "observation-us-core-vitalsigns-profile-spreadsheet.xml", "organization-us-core-profile-spreadsheet.xml", "patient-us-core-profile-spreadsheet.xml", "practitioner-us-core-profile-spreadsheet.xml", "procedure-us-core-profile-spreadsheet.xml"
-	],
-	"resources":
-	
-
-	
-	 {
-		"StructureDefinition/us-core-patient": {
-			"base": "structuredefinition-us-core-patient.html"
-		},
-		
-	 
-		"ValueSet/daf-observation-ccdasmokingstatus": {
-			"base": "valueset-us-core-observation-ccdasmokingstatus.html"
-		},
-		
-		
-		"ValueSet/daf-careteam-status": {
-			"base": "valueset-us-core-careteam-status.html"
-		},
-		"ValueSet/daf-problem": {
-			"base": "valueset-us-core-problem.html"
-		},
-		"ValueSet/us-core-substance-sct": {
-			"base": "valueset-us-core-substance-sct.html"
-		},
-		"ValueSet/daf-procedure-type": {
-			"base": "valueset-us-core-procedure-type.html"
-		},
-		"ValueSet/us-core-substance-rxnorm": {
-			"base": "valueset-us-core-substance-rxnorm.html"
-		},
-		"ValueSet/us-core-immunization-status": {
-			"base": "valueset-us-core-immunization-status.html"
-		},
-		"ValueSet/us-core-substance": {
-			"base": "valueset-us-core-substance.html"
-		},
-		"ValueSet/us-core-substance-ndfrt": {
-			"base": "valueset-us-core-substance-ndfrt.html"
-		},
-		"ValueSet/daf-cvx": {
-			"base": "valueset-us-core-cvx.html"
-		},
-		"ValueSet/daf-ucum": {
-			"base": "valueset-us-core-ucum.html"
-		},
-		"ValueSet/daf-procedure-icd10pcs": {
-			"base": "valueset-us-core-procedure-icd10pcs.html"
-		},
-		"ValueSet/us-core-narrative-status": {
-			"base": "valueset-us-core-narrative-status.html"
-		},
-		"ValueSet/daf-provider-role": {
-			"base": "valueset-us-core-provider-role.html"
-		},
-		"ValueSet/daf-ndc-vaccine-codes": {
-			"base": "valueset-us-core-ndc-vaccine-codes.html"
-		},
-		"ValueSet/daf-medication-codes": {
-			"base": "valueset-us-core-medication-codes.html"
-		},
-		"ValueSet/daf-observation-ccdavitalsignresult": {
-			"base": "valueset-us-core-observation-ccdavitalsignresult.html"
-		},
-		"ValueSet/daf-observation-value-codes": {
-			"base": "valueset-us-core-observation-value-codes.html"
-		},
-		"ValueSet/us-core-careteam-provider-roles": {
-			"base": "valueset-us-core-careteam-provider-roles.html"
-		},
-		"ValueSet/daf-provider-specialty": {
-			"base": "valueset-us-core-provider-specialty.html"
+		"StructureDefinition": {
+			"template-mappings": "sd-mappings.html",
+			"template-base": "sd.html",
+			"template-defns": "sd-definitions.html"
 		}
 	}
 }
