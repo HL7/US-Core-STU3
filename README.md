@@ -13,6 +13,12 @@ GitHub will automatically trigger a new build whenever you commit changes.
 
 *Note: a build takes 2-3 minutes to complete. Then you can...*
 
+
+### NOTE the CI build is currently not working (11/1/2016) a recent build is available at
+
+http://healthedatainc.com/go-ftp/US-Core
+
+
 ### Find your rendered IG automatically available at
 
 http://ig.fhir.me/Healthedata1/US-Core
