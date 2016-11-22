@@ -6,23 +6,11 @@
   {% include header.html %}
 
 
- <div id="segment-breadcrumb" class="segmnt">  <!-- segment-breadcrumb -->
-  <div class="container">  <!-- container -->
-   <ul class="breadcrumb">
-       <li title="home"><a href="index.html"><b>Home</b></a></li>
-     <li><b>{{[title]}} Details</b></li>
-   </ul>
-  </div>  <!-- /container -->
- </div>  <!-- /segment-breadcrumb -->
+<!-- ============BreadCrumb=============== -->
 
+{% include container-start.html %}
 
- <div id="segment-content" class="segment">  <!-- segment-content -->
- <div class="container">  <!-- container -->
-            <div class="row">
-             <div class="inner-wrapper">
-  <!-- CONTENT CONTENT -->
-
-<div class="col-9">
+  <!-- ============CONTENT CONTENT=============== -->
 
 <ul class="nav nav-tabs"><li><a href="{{[type]}}-{{[id]}}.html">Content</a></li><li class="active"><a href="#">Detailed Descriptions</a></li><li><a href="{{[type]}}-{{[id]}}-mappings.html">Mappings</a></li><li><a href="{{[type]}}-{{[id]}}.xml.html">XML</a></li><li><a href="{{[type]}}-{{[id]}}.json.html">JSON</a></li></ul>
 
@@ -32,13 +20,12 @@
 
 {%include {{[type]}}-{{[id]}}-dict.xhtml%}
 
-</div>
 
-    </div>  <!-- /inner-wrapper -->
-            </div>  <!-- /row -->
-        </div>  <!-- /container -->
 
-    </div>  <!-- /segment-content --> 
+  <!-- ==============END CONTENT END CONTENT=================== -->
+
+{% include container-end.html %}
+
 {% include footer.html %}
 </body>
 </html>

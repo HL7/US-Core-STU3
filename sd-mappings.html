@@ -4,24 +4,11 @@
 
 
   {% include header.html %}
+<!-- ============BreadCrumb=============== -->
 
- <div id="segment-breadcrumb" class="segmnt">  <!-- segment-breadcrumb -->
-  <div class="container">  <!-- container -->
-   <ul class="breadcrumb">
-        <li title="home"><a href="index.html"><b>Home</b></a></li>
-     <li><b>{{[title]}} Mappings</b></li>
-   </ul>
-  </div>  <!-- /container -->
- </div>  <!-- /segment-breadcrumb -->
+{% include container-start.html %}
 
-
- <div id="segment-content" class="segment">  <!-- segment-content -->
- <div class="container">  <!-- container -->
-            <div class="row">
-             <div class="inner-wrapper">
-  <!-- CONTENT CONTENT -->
-
-<div class="col-9">
+  <!-- ============CONTENT CONTENT=============== -->
 
 <ul class="nav nav-tabs"><li><a href="{{[type]}}-{{[id]}}.html">Content</a></li><li><a href="{{[type]}}-{{[id]}}-definitions.html">Detailed Descriptions</a></li><li class="active"><a href="#">Mappings</a></li><li><a href="{{[type]}}-{{[id]}}.xml.html">XML</a></li><li><a href="{{[type]}}-{{[id]}}.json.html">JSON</a></li></ul>
 
@@ -31,13 +18,10 @@
 
 {%include {{[type]}}-{{[id]}}-maps.xhtml%}
 
-</div>
+  <!-- ==============END CONTENT END CONTENT=================== -->
 
-    </div>  <!-- /inner-wrapper -->
-            </div>  <!-- /row -->
-        </div>  <!-- /container -->
+{% include container-end.html %}
 
-    </div>  <!-- /segment-content --> 
 {% include footer.html %}
 </body>
 </html>
