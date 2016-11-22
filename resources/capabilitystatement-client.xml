@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CapabilityStatement xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/capabilitystatement.xsd">
+	<id value="client"/>
+	<name value="US Core Client"/>
+	<status value="draft"/>
+	<date value="2015-04-02"/>
+	<publisher value="U.S. Office of the National Coordinator (ONC)"/>
+	<contact>
+		<telecom>
+			<system value="other"/>
+			<value value="http://www.healthit.gov/"/>
+		</telecom>
+	</contact>
+	<description value="This profile defines the expected capabilities of the US Core Client actor when conforming to the US-Core IG."/>
+	<kind value="requirements"/>
+	<fhirVersion value="STU3"/>
+	<acceptUnknown value="extensions"/>
+	<format value="xml"/>
+	<format value="json"/>
+	<rest>
+		<mode value="client"/>
+		<documentation value="The US Core Client SHOULD support querying of one or more FHIR resources using appropriate US-Core profile(s), RESTful operations defined for the profile and Search parameters identified for the profile."/>
+		<security>
+			<description value="US Core Clients SHALL implement applicable security requirements documented in the US-Core IG."/>
+		</security>
+		<resource>
+			<type value="Patient"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-patient.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-patient resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-patients by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-patient instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-patient instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="AllergyIntolerance"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-allergyintolerance.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-AllergyIntolerance resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-AllergyIntolerance by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-AllergyIntolerance instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-AllergyIntolerance instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="CarePlan"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-careplan.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-careplan resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-careplan by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-careplan instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-careplan instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="CarePlan"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-careteam.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-careteam resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-careteam by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-careteam instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-careteam instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="Condition"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-condition.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-condition resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-condition by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-condition instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-condition instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="Device"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-device.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-device resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-device by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-device instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-device instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="Goal"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-goal.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-goal resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-goal by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-goal instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-goal instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="Immunization"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-immunization.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-immunization resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-immunization by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-immunization instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-immunization instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="DiagnosticReport"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-diagnosticreport.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-diagnosticreport resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-diagnosticreport by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-diagnosticreport instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-diagnosticreport instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="Observation"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-resultobs.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-resultobs resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-resultobs by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-resultobs instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-resultobs instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="MedicationStatement"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-medicationstatement.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-medicationstatement resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-medicationstatement by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-medicationstatement instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-medicationstatement instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="MedicationRequest"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-medicationrequest.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-medicationrequest resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-medicationrequest by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-medicationrequest instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-medicationrequest instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="Observation"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-smokingstatus.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-smokingstatus resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-smokingstatus by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-smokingstatus instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-smokingstatus instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="Observation"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-vitalsigns.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-vitalsigns resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-vitalsigns by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-vitalsigns instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-vitalsigns instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="Procedure"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/current/daf/us-core-procedure.html"/>
+			</profile>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core-core-procedure resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core-core-procedure by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core-core-procedure instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core-core-procedure instance"/>
+			</interaction>
+		</resource>
+		<operation>
+			<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+				<valueCode value="SHOULD"/>
+			</extension>
+			<name value="patient-everything"/>
+			<definition>
+				<reference value="http://hl7.org/fhir/OperationDefinition/patient-everything"/>
+			</definition>
+		</operation>
+	</rest>
+</CapabilityStatement>
