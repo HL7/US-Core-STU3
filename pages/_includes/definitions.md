@@ -165,13 +165,13 @@ In order to manage the number of search results returned, the server may choose 
 
 ------------------------------------------------------------------------
 
-  [core specification]: http://hl7-fhir.github.io/search.html#return
+  [core specification]: http://hl7.org/fhir/search.html#return
 
   [FHIR RESTful API]: http://hl7.org/fhir/DSTU2/http.html
-  [Searching]: http://hl7-fhir.github.io/search.html
+  [Searching]: http://hl7.org/fhir/search.html
   [Issue \#39]: https://github.com/argonautproject/implementation-program/issues/39
   [compartment]: http://hl7.org/fhir/DSTU2/compartments.html#compartments
-  [core specification]: http://hl7-fhir.github.io/extensibility.html#2.20.0.2.2
-  [DataAbsentReason Extension]: http://hl7-fhir.github.io/extension-data-absent-reason.html
+  [core specification]: http://hl7.org/fhir/extensibility.html#2.20.0.2.2
+  [DataAbsentReason Extension]: http://hl7.org/fhir/extension-data-absent-reason.html
   [http://hl7.org/fhir/StructureDefinition/data-absent-reason]: http://hl7.org/fhir/StructureDefinition/data-absent-reason
-  [FHIR Conformance Rules]: http://hl7-fhir.github.io/capabilitystatement-rules.html
+  [FHIR Conformance Rules]: http://hl7.org/fhir/capabilitystatement-rules.html
