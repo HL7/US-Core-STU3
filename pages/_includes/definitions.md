@@ -1,4 +1,4 @@
-## Definitions, Interpretations and Requirements common to all US-Core actors
+﻿## Definitions, Interpretations and Requirements common to all US-Core actors
 
 This section outlines important definitions and interpretations used in the US-Core IG.
 The conformance verbs used are defined in [FHIR Conformance Rules].
@@ -14,7 +14,7 @@ In the context of US-Core, Supported on any data element SHALL be interpreted as
 * US-Core Requestors SHALL be able to process resource instances containing data elements asserting missing information.
 
 * NOTE: US-Core Responders who do not have the capability to store or return a data element tagged as Supported in US-Core profiles can still claim conformance to the US-Core profiles per the US-Core conformance resources.
-* NOTE: The above definition of Supported is derived from HL7v2 concept "Required by may be empty - RE" described in HL7v2 V28_CH02B_Conformance.doc.
+* NOTE: The above definition of Supported is derived from HL7v2 concept "Required but may be empty - RE" described in HL7v2 V28_CH02B_Conformance.doc.
 * NOTE: Readers are advised to understand [FHIR Terminology] requirements, [FHIR RESTful API] based on the [HTTP] protocol, along with [FHIR Data Types], [FHIR Search] and [FHIR Resource] formats before implementing US-Core requirements.
 
 
