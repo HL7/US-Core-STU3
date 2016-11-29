@@ -4,7 +4,7 @@ This profile sets minimum expectations for the [Procedure] resource to record, s
 
 The following are example usage scenarios for the US Core-Procedure profile:
 
--   Query for procedures performed on a Patient
+-   Record or query for procedures performed on a Patient
 -   Query for all patients who have had a specific procedure
 -   Query for procedures performed during a time period
 
@@ -12,7 +12,7 @@ The following are example usage scenarios for the US Core-Procedure profile:
 ##### Mandatory Data Elements and Terminology
 
 
-The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and an [example](#example) are provided as well.  The [**Formal Profile Definition**](#profile) below provides the  formal summary, definitions, and  terminology requirements.  
+The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and examples are provided as well.  The [**Formal Profile Definition**](#profile) below provides the  formal summary, definitions, and  terminology requirements.  
 
 **Each Procedure must have:**
 

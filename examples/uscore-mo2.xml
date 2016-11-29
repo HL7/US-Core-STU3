@@ -1,0 +1,66 @@
+<MedicationRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/activitydefinition.xsd">
+	<!--this is an example using a contained reference to a medication
+-->
+	<id value="uscore-mo2"/>
+	<contained>
+		<Medication>
+			<id value="med2"/>
+			<code>
+				<coding>
+					<system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+					<code value="582620"/>
+					<display value="Nizatidine 15 MG/ML Oral Solution [Axid]"/>
+				</coding>
+				<text value="Nizatidine 15 MG/ML Oral Solution [Axid]"/>
+			</code>
+		</Medication>
+	</contained>
+	<status value="active"/>
+	<stage>
+		<coding>
+			<system value="http://hl7.org/fhir/request-stage"/>
+			<code value="original-order"/>
+		</coding>
+		<text value="Orginal Order"/>
+	</stage>
+	<!--  either a code or a reference to the medication being prescribed. As described earlier, this could be contained, separately    within a bundle or simply a reference to a remote server. -->
+	<medicationReference>
+		<reference value="#med2"/>
+		<display value="Nizatidine 15 MG/ML Oral Solution [Axid]"/>
+	</medicationReference>
+	<patient>
+		<reference value="patient-example.html"/>
+		<display value="Amy Shaw"/>
+	</patient>
+	<dateWritten value="2008-04-05"/>
+	<requester>
+		<reference value="Practitioner/1234"/>
+		<display value="John Smith, MD"/>
+	</requester>
+	<!--	The following elements are not mandatory for the uscorenaut Profile -->
+	<dosageInstruction>
+		<text value="10 mL bid"/>
+		<timing>
+			<repeat>
+				<boundsPeriod>
+					<start value="2008-04-05"/>
+				</boundsPeriod>
+			</repeat>
+		</timing>
+	</dosageInstruction>
+	<dispenseRequest>
+		<numberOfRepeatsAllowed value="1"/>
+		<quantity>
+			<value value="480"/>
+			<unit value="mL"/>
+			<system value="http://unitsofmeasure.org"/>
+			<code value="mL"/>
+		</quantity>
+		<expectedSupplyDuration>
+			<value value="30"/>
+			<unit value="days"/>
+			<system value="http://unitsofmeasure.org"/>
+			<code value="d"/>
+		</expectedSupplyDuration>
+	</dispenseRequest>
+</MedicationRequest>

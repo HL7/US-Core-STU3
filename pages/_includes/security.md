@@ -26,7 +26,7 @@ For the purposes of US-Core, security conformance requirements are as follows:
 
 
 
--   Systems SHALL use TLS version 1.0 or higher for all transmissions not taking place over a secure network connection.
+-   Systems SHALL use TLS version 1.2 or higher for all transmissions not taking place over a secure network connection.
     (Using TLS even within a secured network environment is still encouraged to provide defense in depth.) US Federal systems SHOULD conform with FIPS PUB 140-2.
 -   Systems SHALL conform to [FHIR Communications] requirements.
 -   For Authentication and Authorization, Systems SHALL use the [Smart On FHIR ![]] OAuth2 profiles. NOTE: The Smart On FHIR specifications include the required OAuth2 scopes for enabling security decisions.

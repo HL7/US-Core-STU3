@@ -5,13 +5,13 @@ his profile sets minimum expectations for the [Immunization] resource to record,
 The following are example usage scenarios for the US Core-Core Immunization
 profile:
 
--   Query for immunizations belonging to a Patient
+-   Record or query for immunizations belonging to a Patient
 -   Query for all patients who have had a specific vaccine administered
 
 ##### Mandatory Data Elements and Terminology
 
 
-The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and an [example](#example) are provided as well.  The [**Formal Profile Definition**](#profile) below provides the  formal summary, definitions, and  terminology requirements.  
+The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and examples are provided as well.  The [**Formal Profile Definition**](#profile) below provides the  formal summary, definitions, and  terminology requirements.  
 
 **Each Immunization must have:**
 
@@ -25,7 +25,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 **Profile specific implementation guidance:**
 
-* **NDC codes as a translational data element**: 
+* **NDC codes as a translational data element**:
 Based upon the 2015 Edition Certification Requirements, [CVX vaccine codes] are required and the [NDC vaccine codes] SHOULD be supported as translations to them.  A NDC to [CVX crosswalk table] is also provided by the CDC.
 
 

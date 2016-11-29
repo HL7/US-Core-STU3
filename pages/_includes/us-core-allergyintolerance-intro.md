@@ -10,24 +10,27 @@ This profile sets minimum expectations for the [AllergyIntolerance] resource to 
 The following are example usage scenarios for the US Core-Core AllergyIntolerance
 profile:
 
--   Query for allergies belonging to a Patient
+-   Record or query for allergies belonging to a Patient
 -   Query for all patients who have a specific allergy
 
 
 ##### Mandatory Data Elements and Terminology
 
 
-The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and an [example](#example) are provided as well.  The [**Formal Profile Definition**](#summary) below provides the  formal summary, definitions, and  terminology requirements.  
+The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and examples are provided as well.  The [**Formal Profile Definition**](#summary) below provides the  formal summary, definitions, and  terminology requirements.  
 
 **Each AllergyIntolerance must have:**
 
 1.  a status of the allergy
-2.  a code which tells you what the patient is allergic to 
+2.  a code which tells you what the patient is allergic to
 3.  a patient
 
 **Profile specific implementation guidance:**
 
 * Representing No Known Allergies: No Known Allergies will be represented using the US Core-AllergyIntolerance profile with appropriate negation code in AllergyIntolerence.code.
 
-[AllergyIntolerance]: http://build.fhir.org/allergyintolerance.html
+#### Examples
 
+- [AllergyIntolerance-example](AllergyIntolerance-example.html)
+
+[AllergyIntolerance]: http://build.fhir.org/allergyintolerance.html

@@ -4,15 +4,15 @@ Laboratory results are grouped and summarized using the [DiagnosticReport] resou
 
 The following are example usage scenarios for the US Core-Results profile:
 
--   Query for lab results belonging to a Patient
+-   Record or query for lab results belonging to a Patient
 -   Query for all patients who have had a specific lab result available
 -   Query for all patients with a lab test (e.g HbA1c) beyond the
     acceptable reference range
-    
+
 ##### Mandatory Data Elements and Terminology
 
 
-The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and an [example](#example) are provided as well.  The [**Formal Profile Definition**](#profile) below provides the  formal summary, definitions, and  terminology requirements.  
+The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and examples are provided as well.  The [**Formal Profile Definition**](#profile) below provides the  formal summary, definitions, and  terminology requirements.  
 
 **Each Observation must have:**
 
@@ -22,7 +22,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 1.   a patient
 1.   a result value and, if the result value is a numeric quantity, a standard [UCUM] unit
 
- 
+
 Each Observation *should* have:
 
 1.   a time indicating when the measurement was taken

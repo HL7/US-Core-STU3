@@ -4,14 +4,14 @@ This profile sets minimum expectations for the [CareTeam] resource for identifyi
 
 The following are example usage scenarios for the US Core-CareTeam profile:
 
--   Query for a Patient's CareTeam
--   Query for all Patient' with a particular careteam member 
+-   Record or query for a Patient's CareTeam
+-   Query for all Patient' with a particular careteam member
 
 
 ##### Mandatory Data Elements and Terminology
 
 
-The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and an [example](#example) are provided as well.  The [**Formal Profile Definition**](#profile) below provides the  formal summary, definitions, and  terminology requirements.  
+The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and examples are provided as well.  The [**Formal Profile Definition**](#profile) below provides the  formal summary, definitions, and  terminology requirements.  
 
 **Each CareTeam must have:**
 
@@ -28,5 +28,10 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 **Profile specific implementation guidance:**
 
 * none
+
+#### Examples
+
+- [CareTeam-example](CareTeam-example.html)
+
 
 [CareTeam]:  http://build.fhir.org/careteam.html

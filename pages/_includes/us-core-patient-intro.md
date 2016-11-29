@@ -13,11 +13,11 @@ The following are example usage scenarios for the US Core Patient profile:
 -   Query for Patients based on race, ethnicity, gender etc.
 -   Query for Patients less than 5 years of age
 -   Query for Patients between ages of 25 and 50
- 
+
 ##### Mandatory Data Elements and Terminology
 
 
-The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and an [example](#example) are provided as well.  The [**Formal Profile Definition**](#profile) below provides the  formal summary, definitions, and  terminology requirements.  
+The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and examples are provided as well.  The [**Formal Profile Definition**](#profile) below provides the  formal summary, definitions, and  terminology requirements.  
 
 **Each Patient must have:**
 
@@ -28,7 +28,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 **2015 Edition Certification Requirements ([Must Support]).**
 
 In addition, based upon the 2015 Edition Certification Requirements, the following data-elements must be supported.
- 
+
 '''If the data is present, Patient shall include:'''
 
 1. a birth date
@@ -42,5 +42,10 @@ In addition, based upon the 2015 Edition Certification Requirements, the followi
 
 * none
 
+#### Examples
+
+- [Patient-example](Patient-example.html)
+
+
 [Patient]: http://build.fhir.org/patient.html
-[Must Support]: us-core.html#mustsupport 
+[Must Support]: definitions#extensible-binding-for-codeableconcept-datatype
