@@ -2,8 +2,7 @@ When referring to medications, The [MedicationStatement] and [MedicationRequest]
 
 **Example Usage Scenarios:**
 
-Queries on Medication resource are expected to be within the context of
-a MedicationStatement,  MedicationRequest resource query. The following are
+QQueries on Medication resource are expected to be within the context of a MedicationStatement or a MedicationRequest resource query. The following are
 example usage scenarios for the US Core-Medication profile:
 
 -   Query for Medications with a particular code

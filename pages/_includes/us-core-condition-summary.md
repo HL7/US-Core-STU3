@@ -17,10 +17,10 @@
 
 The [US Core Condition Category Codes] supports the separate concepts of problems and health concerns in `Condition.category` in order for API consumers to be able to separate health concerns and problems. However this is not mandatory for 2015 certification.
 
-  [extensible]: Implementation_Guide#Extensible_binding_for_CodeableConcept_Datatype "wikilink"
+  [extensible]: http://build.fhir.org/terminologies.html#extensible
   [Problem Value Set]: valueset-us-core-problem.html
   [Invariants]: http://build.fhir.org/conformance-rules.html#constraints
   [Condition Clinical Status Codes]: http://build.fhir.org/valueset-condition-clinical.html
   [ConditionVerificationStatus]: http://build.fhir.org/valueset-condition-ver-status.html
-  [US Core Condition Profile]: http://hl7.org/fhir/us/daf/daf-condition.html
+  [US Core Condition Profile]: structuredefinition-us-core-condition.html
  [US Core Condition Category Codes]: valueset-us-core-condition-category.html
