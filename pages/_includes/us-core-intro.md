@@ -1,4 +1,4 @@
-[//]: # US-Core Index.html
+﻿	[//]: # US-Core Index.html
 
 ## Introduction
 
@@ -53,6 +53,9 @@ The list of US-Core Profiles is shown below.  Each profile defines the minimum m
 
 
 {% include list-profiles.xhtml %}
+
+
+{% capture my-include %}{% include conformance.md %}{% endcapture %}{{ my-include | markdownify }}
 
 ----
 
