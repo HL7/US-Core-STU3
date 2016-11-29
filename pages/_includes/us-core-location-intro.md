@@ -8,24 +8,18 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 **Each Location must have:**
 
-Each Location must have:
-
-1. A status of the Location
 1. A name
-1. A list of contact information
-1. A managing Organization
 
-**Profile specific implementation guidance:**
- 
- * none
+**Additional Profile specific implementation guidance:**
+
+When available the following must be sent:
+
+1.  Location.status
+2.  Location.name
+3.  Location.telecom
+4.  Location.address
+5.  managingOrganization
 
 [Location]:  http://build.fhir.org/location.html
-
- **Note to Balloters:  the following elements are being considered for inclusion into this profile:**
-
-1. A Location type
-1. A  Location identifier
-1. A  Location reference to endpoint
-
 
 
