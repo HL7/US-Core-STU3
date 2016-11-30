@@ -28,7 +28,7 @@ No| CCDS Data Element | FHR Resource
 (6) |  Preferred language | Patient
 (7) |  Smoking status | Observation
 (8) |  Problems | Condition
-(9) |  Medications | Medication, MedicationStatement, MedicationOrder
+(9) |  Medications | Medication, MedicationStatement, MedicationRequest
 (10) |  Medication allergies | AllergyIntolerance
 (11) |  Laboratory test(s) | Observation, DiagnosticReport
 (12) |  Laboratory value(s)/result(s) | Observation, DiagnosticReport
@@ -72,8 +72,6 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [US-Core]: US-Core.html
 [US-Core]: US-Core.html
 [US-Core-Research]: US-Core-research.html
-[Conformance requirements for the US-Core Requestor actor]: capabilitystatement-US-Core-query-requestor.html
-[Conformance requirements for the US-Core Responder actor]: capabilitystatement-US-Core-query-responder.html
 [US-Core Security]: US-Core-security.html
 [ONC]: http://www.healthit.gov/newsroom/about-onc
 [Data Access Framework (DAF)]: http://wiki.siframework.org/Data+Access+Framework+Homepage

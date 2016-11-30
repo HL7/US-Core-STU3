@@ -1,13 +1,11 @@
-This profile sets minimum expectations for the [Condition] resource to record, search and fetch a  list of problems and health concerns associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
+﻿This profile sets minimum expectations for the [Condition] resource to record, search and fetch a  list of problems and health concerns associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
 
 **Example Usage Scenarios:**
 
 The following are example usage scenarios for the US Core-Condition profile:
 
--   Record or query for a Patient’s problems
--   Query for all patients who have had a specific condition,problem or
-    finding
-
+-   Query for a Patient’s problems
+-   Record a Patient’s problem
 
 ##### Mandatory Data Elements and Terminology
 

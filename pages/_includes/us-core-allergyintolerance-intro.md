@@ -1,18 +1,17 @@
-#### US Core AllergyIntolerance Profile
-
-
-##### Scope and Usage
-
 This profile sets minimum expectations for the [AllergyIntolerance] resource to record, search and fetch allergies/adverse reactions associated with a patient.  It identifies the mandatory core elements, extensions, vocabularies and value sets which **SHALL** be present in the AllergyIntolerance resource when using this profile.
 
 **Example Usage Scenarios:**
 
-The following are example usage scenarios for the US Core-Core AllergyIntolerance
-profile:
 
--   Record or query for allergies belonging to a Patient
--   Query for all patients who have a specific allergy
 
+The following are example usage scenarios for the US-Core AllergyIntolerance
+ profile:
+
+
+
+-   Query for Allergies belonging to a Patient
+
+-   Record a Patient Allergy
 
 ##### Mandatory Data Elements and Terminology
 

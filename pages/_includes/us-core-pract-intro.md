@@ -4,9 +4,8 @@ This profile sets minimum expectations for the [Practitioner] resource to record
 
 The following are example usage scenarios for the US Core-Practitioner profile:
 
--   Query for an practitioner by name or specialty
--   Query for a practitioner within a city or state
--   Query for a practitiioner by orgnaizational relationships
+-   Query for an practitioner by name or NPI
+-   Reference from other Resources
 
 
 ##### Mandatory Data Elements and Terminology
@@ -18,16 +17,10 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 1.  An identifier (NPI preferred) 
 1.  A name
-1.  An associated role and organization
-1.  A list of qualifications
-
-**Note to Balloters:**
-
-1. Is Practioner.role sufficient or is the new resource PractitionerRole required?
-1. Should all Practitioners require an endpoint reference?
 
 **Profile specific implementation guidance:**
  
-* none
+- This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server], or a provider directory capability statement. 
 
 [Practitioner]: http://build.fhir.org/Practitioner.html
+[Conformance requirements for the US-Core Server]: capabilitystatement-server.html

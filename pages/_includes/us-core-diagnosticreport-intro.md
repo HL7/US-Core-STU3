@@ -1,12 +1,11 @@
-Laboratory results are grouped and summarized using the [DiagnosticReport] resource which reference [Observation] resource(s).  Each Observation resource represents an individual laboratory test and result value, a “nested” panel (such as a microbial susceptibility panel) which references other observations, or rarely a laboratory test with component result values.  This profile sets minimum expectations for the DiagnosticReport resource to record, search and fetch laboratory results associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
+﻿Laboratory results are grouped and summarized using the [DiagnosticReport] resource which reference [Observation] resource(s).  Each Observation resource represents an individual laboratory test and result value, a “nested” panel (such as a microbial susceptibility panel) which references other observations, or rarely a laboratory test with component result values.  This profile sets minimum expectations for the DiagnosticReport resource to record, search and fetch laboratory results associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
 
 **Example Usage Scenarios:**
 
 The following are example usage scenarios for the US Core-DiagnosticReport profile:
 
--   Record or query for lab reports belonging to a Patient
--   Query for all patients who have had a specific lab test or panel available
--   Query for all patients with a lab test or panel issued by a particular provider
+-   Query for lab reports belonging to a Patient
+-   Record a lab report for a specific Patient
 
 ##### Mandatory Data Elements and Terminology
 

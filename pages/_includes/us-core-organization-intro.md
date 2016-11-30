@@ -4,8 +4,7 @@ This profile sets minimum expectations for the [Organization] resource to search
 
 The following are example usage scenarios for the US Core-Organization profile:
 
--   Query for an address or telephone number by organization name
--   Query for an organization by name or address
+-   Query by organization name or NPI
 
 
 ##### Mandatory Data Elements and Terminology
@@ -15,21 +14,17 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 **Each Organization must have:**
 
-1.  A name
 1.  An identifier
 1.  A status of the organization
+1.  A name
 1.  A list of contact information
 1.  Endpoint information
  
 
 **Profile specific implementation guidance:**
 
-* none
-
- **Note to Balloters:  the following elements are being considered for inclusion into this profile:**
-
-1.  An Organization type
-
+- This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server], or a provider directory capability statement. 
 
 
 [Organization]: http://build.fhir.org/organization.html
+[Conformance requirements for the US-Core Server]: capabilitystatement-server.html

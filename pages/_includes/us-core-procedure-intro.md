@@ -4,9 +4,8 @@ This profile sets minimum expectations for the [Procedure] resource to record, s
 
 The following are example usage scenarios for the US Core-Procedure profile:
 
--   Record or query for procedures performed on a Patient
--   Query for all patients who have had a specific procedure
--   Query for procedures performed during a time period
+-   Query for procedures performed on a Patient
+-   Record a procedure performed on a Patient
 
 
 ##### Mandatory Data Elements and Terminology
@@ -27,6 +26,8 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
  - Based upon the 2015 Edition Certification Requirements, either SNOMED-CT or CPT-4/HCPC procedure codes are requied and  [ICD-10-PCS codes] MAY be supported as translations to them. If choosing to primarily to dental procedures, the [Code on Dental Procedures and Nomenclature (CDT Code)] may be used.
 
+ - This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server].
+
 
 
 
@@ -36,3 +37,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
   [Code on Dental Procedures and Nomenclature (CDT Code)]: http://www.ada.org/en/publications/cdt/
   [ProcedureStatus]: http://build.fhir.org/valueset-procedure-status.html
   [Procedure]: http://build.fhir.org/procedure.html
+  [Conformance requirements for the US-Core Server]: capabilitystatement-server.html

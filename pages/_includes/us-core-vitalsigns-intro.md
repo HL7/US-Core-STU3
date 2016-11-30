@@ -1,12 +1,12 @@
-This profile sets minimum expectations for the [Observation] resource to record, search and fetch vital signs associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
+﻿This profile sets minimum expectations for the [Observation] resource to record, search and fetch vital signs associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
 
 **Example Usage Scenarios:**
 
 The following are example usage scenarios for the US Core-VitalSigns
 profile:
 
--   Record or query for vital signs of a particular patient
--   Query for patients with a particular type of vital sign measurement
+-   Query for vital signs of a particular patient
+-   Record vital signs of a particular patient
 
 ##### Mandatory Data Elements and Terminology
 
@@ -27,6 +27,9 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 **Profile specific implementation guidance:**
 
 * This table represents a minimum set of vital sign concepts, the required LOINC codes, and UCUM units of measure codes used for representing vitals signs observations. These are [extensible] bindings and require that when a system support of any of these vital signs concepts, they must represent them using these codes. In addition, if you have a blood pressure observation, you must have both a systolic and a diastolic component, though one or both may have dataAbsentReason instead of a value.
+
+* This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server].
+
 
 ---
 
@@ -55,3 +58,4 @@ Diastolic blood pressure | 8462-4 | mm[Hg] | Observation.component code for a bl
 
 [Observation]: http://build.fhir.org/observation.html
 [extensible]: http://build.fhir.org/terminologies.html#extensible
+[Conformance requirements for the US-Core Server]: capabilitystatement-server.html

@@ -5,8 +5,8 @@ his profile sets minimum expectations for the [Immunization] resource to record,
 The following are example usage scenarios for the US Core-Core Immunization
 profile:
 
--   Record or query for immunizations belonging to a Patient
--   Query for all patients who have had a specific vaccine administered
+-   Query for immunizations belonging to a Patient
+-   Record immunizations belonging to a Patient
 
 ##### Mandatory Data Elements and Terminology
 

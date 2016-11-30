@@ -5,10 +5,10 @@ Both the [MedicationRequest] and [MedicationStatement] resources can be used to 
 The following are example usage scenarios for the US Core-MedicationRequest
 profile:
 
--   Record or query for medications that have been prescribed to a particular
+-   Query for medications that have been prescribed to a particular
     patient
--   Query for all patients who have been prescribed a particular medication
--   Query for all patients who were prescribed a particular medication within a particular time period
+-   Record medications that have been prescribed to a particular
+    patient
 
 ##### Mandatory Data Elements and Terminology
 

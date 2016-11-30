@@ -8,13 +8,8 @@ This profile sets minimum expectations for the [Observation] resource to record,
 The following are example usage scenarios for the US Core-SmokingStatus
 profile:
 
--   Record or query for Smoking Status of a particular patient
--   Query for all patients who have had a history of smoking
--   Query for all patients who have never had tobacco
--   Query for all patients who have smoked during a time period of
-    interest
--   Query for all patients who have a smoking history and are in an age
-    group
+- Query for Smoking Status of a particular patient
+- Record Smoking Status of a particular patient  
 
 ##### Mandatory Data Elements and Terminology
 
@@ -32,6 +27,8 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 **Profile specific implementation guidance:**
 
-* none
+
+ - This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server].
 
 [Observation]: http://build.fhir.org/observation.html
+[Conformance requirements for the US-Core Server]: capabilitystatement-server.html
