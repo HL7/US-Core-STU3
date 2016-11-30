@@ -10,7 +10,6 @@ The following are example usage scenarios for the US-Core AllergyIntolerance
 
 
 -   Query for Allergies belonging to a Patient
-
 -   Record a Patient Allergy
 
 ##### Mandatory Data Elements and Terminology
