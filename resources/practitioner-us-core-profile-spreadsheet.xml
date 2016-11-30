@@ -22,7 +22,6 @@
   <WindowTopY>0</WindowTopY>
   <TabRatio>663</TabRatio>
   <ActiveSheet>2</ActiveSheet>
-  <FirstVisibleSheet>1</FirstVisibleSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -3689,9 +3688,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>6</ActiveRow>
-     <ActiveCol>4</ActiveCol>
-     <RangeSelection>R6C5,R7C5</RangeSelection>
+     <ActiveRow>7</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -6294,7 +6291,7 @@
    x:FullRows="1" ss:StyleID="s131" ss:DefaultColumnWidth="65.25"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s131" ss:Width="114.75"/>
-   <Column ss:StyleID="s131" ss:AutoFitWidth="0" ss:Width="275.25"/>
+   <Column ss:StyleID="s131" ss:AutoFitWidth="0" ss:Width="462.75"/>
    <Column ss:StyleID="s131" ss:Width="51"/>
    <Column ss:StyleID="s131" ss:Width="68.25"/>
    <Column ss:StyleID="s131" ss:Width="54"/>
@@ -6368,7 +6365,7 @@
     <Cell ss:StyleID="s105"><Data ss:Type="String">US CorePractitionerRole</Data></Cell>
     <Cell ss:StyleID="s155"><Data ss:Type="String">Provider role codes consisting of NUCC Health Care Provider Taxonomy Code Set for providers. </Data></Cell>
     <Cell ss:StyleID="s134"><Data ss:Type="String">value set</Data></Cell>
-    <Cell ss:StyleID="s134"><Data ss:Type="String">required</Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="String">extensible</Data></Cell>
     <Cell ss:StyleID="s134"/>
     <Cell ss:StyleID="s134"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/us-core-provider-role</Data></Cell>
     <Cell ss:StyleID="s134"/>
@@ -6861,7 +6858,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>5</ActiveRow>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
