@@ -6,9 +6,6 @@ The following are example usage scenarios for the
 US Core-MedicationStatement profile:
 
 -   Record or Query active medications being taken by a patient
--   Query for all patients who are taking a particular medication
--   Query for all patients who are/were taking a particular medication
-    within a particular time period
 
 ##### Mandatory Data Elements and Terminology
 

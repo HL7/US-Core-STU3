@@ -34,7 +34,7 @@
 
 **Example:**
 
-GET http://fhir2.healthintersections.com.au/open/Device/argo-udi-1
+GET http://fhir2.healthintersections.com.au/open/Device/uscore-udi-1
 
 
   [(how to search by reference)]: http://hl7.org/fhir/DSTU2/search.html#reference

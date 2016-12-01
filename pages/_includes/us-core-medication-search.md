@@ -1,1 +1,1 @@
-**No Search criteria for argo-medication extension.**
+**No Search criteria for uscore-medication profile.**

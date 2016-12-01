@@ -1,1 +1,1 @@
-**No Search criteria for argo-ethnicity extension.**
+**No Search criteria for uscore-ethnicity extension.**

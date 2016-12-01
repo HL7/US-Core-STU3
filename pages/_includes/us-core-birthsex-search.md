@@ -1,1 +1,1 @@
-**No Search criteria for argo-birthsex extension.**
+**No Search criteria for uscore-birthsex extension.**

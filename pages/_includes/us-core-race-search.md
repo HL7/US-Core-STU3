@@ -1,1 +1,1 @@
-**No Search criteria for argo-race extension.**
+**No Search criteria for uscore-race extension.**

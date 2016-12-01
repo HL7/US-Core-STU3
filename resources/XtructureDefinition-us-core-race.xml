@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="us-core-race"/>
+
+  <url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"/>
+  <name value="US Core Race Extension"/>
+  <title value="US Core Race Extension"/>
+  <status value="draft"/>
+  <publisher value="Health Level Seven International (US Realm Steering Committee)"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://www.hl7.org/Special/Committees/usrealm"/>
+    </telecom>
+  </contact>
+  <date value="2013-12-03"/>
+  <description value="Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The race codes used to represent these concepts are based upon the [CDC Race and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 921 reference race.  The race concepts are grouped by and pre-mapped to the 5 OMB race categories:
+- American Indian or Alaska Native
+- Asian
+- Black or African American
+- Native Hawaiian or Other Pacific Islander
+- White."/>
+  <purpose value="Complies with 2015 Edition Common Clinical Data Set for patient race."/>
+  <fhirVersion value="1.7.0"/>
+  <mapping>
+    <identity value="rim"/>
+    <uri value="http://hl7.org/v3"/>
+    <name value="RIM Mapping"/>
+  </mapping>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <contextType value="resource"/>
+  <context value="Patient"/>
+  <type value="Extension"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+  <derivation value="constraint"/>
+
+  <differential>
+    <element id="Extension:race">
+      <path value="Extension"/>
+      <sliceName value="race"/>
+      <short value="US Core Race Extension"/>
+      <definition value="Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The race codes used to represent these concepts are based upon the [CDC Race and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 921 reference race.  The race concepts are grouped by and pre-mapped to the 5 OMB race categories:
+- American Indian or Alaska Native
+- Asian
+- Black or African American
+- Native Hawaiian or Other Pacific Islander
+- White."/>
+      <min value="0"/>
+      <max value="1"/>
+      <isModifier value="false"/>
+    </element>
+    <element id="Extension:race.extension:ombcategory">
+      <path value="Extension.extension"/>
+      <sliceName value="ombCategory"/>
+      <short value="American Indian or Alaska Native|Asian|Black or African American|Native Hawaiian or Other Pacific Islander|White"/>
+      <definition value="The 5 race category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
+      <min value="1"/>
+      <max value="5"/>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <isModifier value="false"/>
+      <mapping>
+        <identity value="cda"/>
+        <map value="/ClinicalDocument/recordTarget/patientRole/patient/raceCode"/>
+      </mapping>
+    </element>
+    <element id="Extension:race.extension:ombcategory.value[x]">
+      <path value="Extension.extension.value[x]"/>
+      <type>
+        <code value="Coding"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <description value="The 5 race category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
+        <valueSetReference>
+          <reference value="http://hl7.org/fhir/us/core/ValueSet/us-core-omb-race"/>
+        </valueSetReference>
+      </binding>
+    </element>
+    <element id="Extension:race.extension:detailed">
+      <path value="Extension.extension"/>
+      <sliceName value="detailed"/>
+      <short value="Extended race codes"/>
+      <definition value="The 900+ CDC race codes that are grouped under one of the 5 OMB race category codes:."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <isModifier value="false"/>
+      <mapping>
+        <identity value="cda"/>
+        <map value="/ClinicalDocument/recordTarget/patientRole/patient/sdtc:raceCode"/>
+      </mapping>
+    </element>
+    <element id="Extension:race.extension:detailed.value[x]">
+      <path value="Extension.extension.value[x]"/>
+      <type>
+        <code value="Coding"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <description value="The [900+ CDC Race codes](http://www.cdc.gov/phin/resources/vocabulary/index.html) that are grouped under one of the 5 OMB race category codes."/>
+        <valueSetReference>
+          <reference value="http://hl7.org/fhir/us/core/ValueSet/us-core-detailed-race"/>
+        </valueSetReference>
+      </binding>
+    </element>
+    <element id="Extension:race.extension:text">
+      <path value="Extension.extension"/>
+      <sliceName value="text"/>
+      <short value="Race Text"/>
+      <definition value="Plain text representation of the race concept(s)."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <isModifier value="false"/>
+    </element>
+    <element id="Extension:race.extension:text.value[x]">
+      <path value="Extension.extension.value[x]"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="Extension:race.url">
+      <path value="Extension.url"/>
+      <fixedUri value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"/>
+    </element>
+    <element id="Extension:race.value[x]">
+      <path value="Extension.value[x]"/>
+      <max value="0"/>
+    </element>
+  </differential>
+</StructureDefinition>

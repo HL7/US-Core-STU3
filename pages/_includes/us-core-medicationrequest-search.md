@@ -4,12 +4,12 @@
 
 **Clients**
 
--  A client has connected to a server and fetched a patient's medications using `GET /MedicationOrder?patient=[id]`.
+-  A client has connected to a server and fetched a patient's medications using `GET /MedicationRequest?patient=[id]`.
 
 
 **Servers**
 
-- A server is capable of returning a patient's medications `GET /MedicationOrder?patient=[id]`.
+- A server is capable of returning a patient's medications `GET /MedicationRequest?patient=[id]`.
 
 
 - A server has ensured that every API request includes a valid Authorization token, supplied via:Authorization: Bearer {server-specific-token-here}
@@ -17,11 +17,11 @@
 
 -----------
 
-`GET /MedicationOrder?patient={id}[edit]`
+`GET /MedicationRequest?patient={id}[edit]`
 
 *Support:* Mandatory to support search by patient.
 
-*Implementation Notes:*  Search for all MedicationOrder resources for a patient. Fetches a bundle of all MedicationOrder resources for the specified patient  [(how to search by reference)].
+*Implementation Notes:*  Search for all MedicationRequest resources for a patient. Fetches a bundle of all MedicationRequest resources for the specified patient  [(how to search by reference)].
 
 
 
@@ -34,7 +34,7 @@
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/MedicationOrder?patient=1137192
+GET https://fhir-open-api-dstu2.smarthealthit.org/MedicationRequest?patient=1137192
 
 -----------
 

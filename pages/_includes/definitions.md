@@ -157,7 +157,7 @@ NOTE:
 
 <!-- -->
 
--   In addition, Argonaut servers will not resolve full URLs that are external to their environment.
+-   In addition, US Core servers will not resolve full URLs that are external to their environment.
 
 #### Guidance on limiting the number of search results
 

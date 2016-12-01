@@ -51,7 +51,7 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&ca
 
 *Support:* Mandatory support search by a laboratory LOINC code. SHOULD support search by multiple LOINC codes.
 
-*Implementation Notes:* 1) Search based on laboratory LOINC code(s). This fetches a bundle of all Observation resources for a specific observation LOINC code(s) for the specified patient  [(how to search by reference)] and [(how to search by token)].   2) The Argonaut Observation "code" parameter has been defined to search both in both Observation.code and Observation.component.code.
+*Implementation Notes:* 1) Search based on laboratory LOINC code(s). This fetches a bundle of all Observation resources for a specific observation LOINC code(s) for the specified patient  [(how to search by reference)] and [(how to search by token)].   2) The Observation "code" parameter searches both in both Observation.code and Observation.component.code.
 
 
 
