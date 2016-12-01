@@ -1428,7 +1428,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s105"><Data ss:Type="String">&lt;valueCodeableConcept&gt;&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/us/core/CodeSystem/us-core-extension-codes&quot;/&gt;&lt;code value=&quot;assess-plan&quot;/&gt;&lt;/coding&gt;&lt;/valueCodeableConcept&gt;&#10;</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">&lt;valueCodeableConcept&gt;&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/us/core/CodeSystem/careplan-category&quot;/&gt;&lt;code value=&quot;assess-plan&quot;/&gt;&lt;/coding&gt;&lt;/valueCodeableConcept&gt;&#10;</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>

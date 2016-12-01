@@ -13,7 +13,7 @@
 			<system value="http://hl7.org/fhir/condition-category"/>
 		</include>
 		<include>
-			<system value="http://hl7.org/fhir/us/core/CodeSystem/us-core-condition-category"/>
+			<system value="http://hl7.org/fhir/us/core/CodeSystem/condition-category"/>
 			<concept>
 				<code value="problem"/>
 				<display value="Problem"/>
@@ -25,5 +25,3 @@
 		</include>
 	</compose>
 </ValueSet>
-
-

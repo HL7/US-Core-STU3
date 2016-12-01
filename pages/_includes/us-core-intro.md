@@ -1,4 +1,4 @@
-﻿	[//]: # US-Core Index.html
+## US-Core Implementation Guide
 
 ## Introduction
 

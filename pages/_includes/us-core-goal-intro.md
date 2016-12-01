@@ -14,9 +14,9 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 **Each Goal must have:**
 
+1.  a status
+1.  text description of the goal
 1.  a patient
-2.  text description of the goal
-3.  a status
 
 **Profile specific implementation guidance:**
 

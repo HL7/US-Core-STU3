@@ -8969,7 +8969,7 @@
     <Cell ss:StyleID="s107"><Data ss:Type="String">Code for sex assigned at birth</Data></Cell>
     <Cell ss:StyleID="s139"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s139"><Data ss:Type="String">required</Data></Cell>
-    <Cell ss:StyleID="s159"><Data ss:Type="String">http://hl7.org/fhir/ValueSet/usrealm-birthsex</Data></Cell>
+    <Cell ss:StyleID="s159"><Data ss:Type="String">http://hl7.org/fhir/ValueSet/us-core-birthsex</Data></Cell>
     <Cell ss:StyleID="s139"/>
     <Cell ss:StyleID="s139"/>
     <Cell ss:StyleID="s139"/>

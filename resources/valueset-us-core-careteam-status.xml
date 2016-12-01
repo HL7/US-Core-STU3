@@ -8,7 +8,7 @@
 	<description value="Indicates whether the team is current , represents future intentions or is now a historical record."/>
 	<compose>
 		<include>
-			<system value="http://hl7.org/fhir/us/core/CodeSystem/us-core-careteam-status"/>
+			<system value="http://hl7.org/fhir/us/core/CodeSystem/careteam-status"/>
 		</include>
 	</compose>
 </ValueSet>

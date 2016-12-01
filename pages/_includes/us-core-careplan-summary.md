@@ -8,7 +8,7 @@
     -   CarePlan.status is bound to **[CarePlanStatus]** Value set (Code set)
 
 1.  One category in **Careplan.category** which must have:
-    -   a fixed **Careplan.category.coding.system**= [http://hl7.org/fhir/us/daf/CodeSystem/us-core-extension-codes]
+    -   a fixed **Careplan.category.coding.system**= [http://hl7.org/fhir/us/daf/CodeSystem/careplan-category]
     -   a fixed *'Careplan.category.coding.code*'=“assess-plan”
 
 
@@ -17,4 +17,4 @@
   [<http://argonaut.hl7.org/ValueSet/extension-codes>]: Argonaut_Extension_Codes "wikilink"
   [CarePlanStatus]: http://hl7.org/fhir/valueset-care-plan-status.html
   [`CarePlan` `Resource` `Example`]: CarePlan_Resource_Example "wikilink"
- [http://hl7.org/fhir/us/daf/CodeSystem/us-core-extension-codes]: CodeSystem-us-core-extension-codes.html
+ [http://hl7.org/fhir/us/daf/CodeSystem/careplan-category]: CodeSystem-careplan-category.html
