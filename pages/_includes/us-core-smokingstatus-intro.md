@@ -30,5 +30,9 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
  - This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server].
 
+ #### Examples
+
+ - [observation-some-day-smoker](observation-some-day-smoker.html)
+
 [Observation]: http://build.fhir.org/observation.html
 [Conformance requirements for the US-Core Server]: capabilitystatement-server.html

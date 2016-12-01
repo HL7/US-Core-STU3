@@ -34,6 +34,43 @@ Each Observation *should* have:
    -  providing a more specific category codes such as "chemistry', [SNOMED CT] concepts, or system specific codes in addition to the "laboratory" category code.
 * If there is no result then you have to supply a reason unless Observation is being used to group other results then there is no value. Instead, it includes composite values or references to other Observations
 
+#### Examples
+
+ - [observation-usg](observation-usg.html)
+ - [observation-urobilinogen](observation-urobilinogen.html)
+ - [observation-urine-wbcs](observation-urine-wbcs.html)
+ - [observation-urine-sediment](observation-urine-sediment.html)
+ - [observation-urine-rbcs](observation-urine-rbcs.html)
+ - [observation-urine-protein](observation-urine-protein.html)
+ - [observation-urine-ph](observation-urine-ph.html)
+ - [observation-urine-nitrite](observation-urine-nitrite.html)
+ - [observation-urine-leukocyte-esterase](observation-urine-leukocyte-esterase.html)
+ - [observation-urine-ketone](observation-urine-ketone.html)
+ - [observation-urine-hemoglobin](observation-urine-hemoglobin.html)
+ - [observation-urine-glucose](observation-urine-glucose.html)
+ - [observation-urine-epi-cells](observation-urine-epi-cells.html)
+ - [observation-urine-color](observation-urine-color.html)
+ - [observation-urine-clarity](observation-urine-clarity.html)
+ - [observation-urine-cells](observation-urine-cells.html)
+ - [observation-urine-bilirubin](observation-urine-bilirubin.html)
+ - [observation-urine-bacteria](observation-urine-bacteria.html)
+ - [observation-serum-total-bilirubin](observation-serum-total-bilirubin.html)
+ - [observation-serum-sodium](observation-serum-sodium.html)
+ - [observation-serum-potassium](observation-serum-potassium.html)
+ - [observation-serum-creatinine](observation-serum-creatinine.html)
+ - [observation-serum-co2](observation-serum-co2.html)
+ - [observation-serum-chloride](observation-serum-chloride.html)
+ - [observation-serum-calcium](observation-serum-calcium.html)
+ - [observation-oxygen-saturation](observation-oxygen-saturation.html)
+ - [observation-neutrophils](observation-neutrophils.html)
+ - [observation-mchc](observation-mchc.html)
+ - [observation-hemoglobin](observation-hemoglobin.html)
+ - [observation-erythrocytes](observation-erythrocytes.html)
+ - [observation-BUN](observation-BUN.html)
+ - [observation-blood-pressure](observation-blood-pressure.html)
+ - [observation-blood-glucose](observation-blood-glucose.html)
+
+
  [SNOMED CT]: http://snomed.info/sct
   [Observation Value Absent Reason]: http://build.fhir.org/valueset-observation-valueabsentreason.html
   [UCUM]: http://unitsofmeasure.org

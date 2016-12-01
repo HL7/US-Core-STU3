@@ -4,8 +4,8 @@
 
 The following are example usage scenarios for the US Core-Device profile:
 
--   Query for a Patient's Devices 
--   Record a Patient Device 
+-   Query for a Patient's Devices
+-   Record a Patient Device
 
 ##### Mandatory Data Elements and Terminology
 
@@ -21,5 +21,9 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 **Profile specific implementation guidance:**
 
 * none
+
+#### Examples
+
+- [Device-udi-1](device-udi-1.html)
 
 [Device]: http://build.fhir.org/device.html

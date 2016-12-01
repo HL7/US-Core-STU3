@@ -22,8 +22,12 @@
 	</patient>
 	<dateWritten value="2008-04-05"/>
 	<requester>
-		<reference value="Practitioner/1234"/>
-		<display value="John Smith, MD"/>
+		<reference value="practitioner-practitioner-1.html"
+
+/>
+		<display value="Ronald Bone, MD"
+
+/>
 	</requester>
 	<!--  either a code or a reference to the medication being prescribed. As described earlier, this could be contained, separately
         within a bundle or simply a reference to a remote server. -->

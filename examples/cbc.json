@@ -1,0 +1,54 @@
+{
+	"resourceType": "DiagnosticReport",
+	"id": "cbc",
+	"meta": {
+		"versionId": "205814",
+		"lastUpdated": "2016-03-09T15:35:58.045+00:00"
+	},
+	"status": "final",
+	"category": {
+		"coding": [
+			{
+				"system": "http://hl7.org/fhir/v2/0074",
+				"code": "HM",
+				"display": "Hematology"
+			}
+		]
+	},
+	"code": {
+		"coding": [
+			{
+				"system": "http://loinc.org",
+				"code": "58410-2",
+				"display": "Complete blood count (hemogram) panel - Blood by Automated count"
+			}
+		]
+	},
+	"subject": {
+		"reference": "patient-peter-chalmers.html",
+		"display": "Amy Shaw"
+	},
+	"effectiveDateTime": "2005-07-05",
+	"issued": "2005-07-06T11:45:33+11:00",
+	"performer": [
+		{
+			"reference": "organization-acme-lab.html",
+			"display": "Acme Laboratory, Inc"
+		}
+	],
+	"result": [
+		{
+			"reference": "observation-neutrophils.html",
+			"display": "NEUTROPHILS"
+		}, {
+			"reference": "observation-mchc.html",
+			"display": "MCHC"
+		}, {
+			"reference": "observation-hemoglobin.html",
+			"display": "HEMOGLOBIN"
+		}, {
+			"reference": "observation-erythrocytes.html",
+			"display": "ERYTHROCYTES"
+		}
+	]
+}

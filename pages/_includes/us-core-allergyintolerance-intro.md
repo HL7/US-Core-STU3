@@ -18,8 +18,9 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 **Each AllergyIntolerance must have:**
 
 1.  a status of the allergy
-2.  a code which tells you what the patient is allergic to
-3.  a patient
+1.  a verification status
+1.  a code which tells you what the patient is allergic to
+1.  a patient
 
 **Profile specific implementation guidance:**
 
@@ -27,6 +28,6 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 #### Examples
 
-- [AllergyIntolerance-example](AllergyIntolerance-example.html)
+- [AllergyIntolerance-example](allergyintolerance-example.html)
 
 [AllergyIntolerance]: http://build.fhir.org/allergyintolerance.html

@@ -31,7 +31,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 #### Examples
 
-- [CareTeam-example](CareTeam-example.html)
+- [CareTeam-example](careTeam-example.html)
 
 
 [CareTeam]:  http://build.fhir.org/careteam.html

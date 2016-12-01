@@ -30,6 +30,11 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
    -  providing both a local system codes and a LOINC code that it map to
    -  providing a more specific category codes such as “CH” (chemistry) in addition to the "LAB"  category code.
 
+#### Examples
+
+- [Diagnosticreport-urinalysis](diagnosticreport-urinalysis.html)
+- [Diagnosticreport-metabolic-panel](diagnosticreport-metabolic-panel.html)
+- [Diagnosticreport-cbc](diagnosticreport-cbc.html)
 
 [Observation]:  http://build.fhir.org/observation.html
 [DiagnosticReport]:  http://build.fhir.org/diagnosticreport.html

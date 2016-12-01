@@ -1,0 +1,95 @@
+{
+	"resourceType": "DiagnosticReport",
+	"id": "urinalysis",
+	"meta": {
+		"versionId": "209563",
+		"lastUpdated": "2016-04-19T17:28:11.308+00:00"
+	},
+
+	"status": "final",
+	"category": {
+		"coding": [
+			{
+				"system": "http://hl7.org/fhir/v2/0074",
+				"code": "LAB",
+				"display": "Laboratory"
+			}
+		]
+	},
+	"code": {
+		"coding": [
+			{
+				"system": "http://loinc.org",
+				"code": "24356-8",
+				"display": "Urinalysis complete panel - Urine"
+			}
+		],
+		"text": "Complete Urinalysis"
+	},
+	"subject": {
+		"reference": "patient-peter-chalmers.html",
+		"display": "Amy Shaw"
+	},
+	"effectiveDateTime": "2005-07-05",
+	"issued": "2005-07-06T11:45:33+11:00",
+	"performer": [
+		{
+			"reference": "organization-acme-lab.html",
+			"display": "Acme Laboratory, Inc"
+		}
+	],
+	"result": [
+		{
+			"reference": "observation-urine-color.html",
+			"display": "COLOR=Yellow "
+		}, {
+			"reference": "observation-urine-clarity.html",
+			"display": "APPEARANCE=Hazy "
+		}, {
+			"reference": "observation-urine-glucose.html",
+			"display": "GLUCOSE=Negative "
+		}, {
+			"reference": "observation-urine-bilirubin.html",
+			"display": "BILIRUBIN=Negative "
+		}, {
+			"reference": "observation-urine-ketone.html",
+			"display": "KETONE=Negative "
+		}, {
+			"reference": "observation-usg.html",
+			"display": "SPEC GRAV=1.0169999999999999 "
+		}, {
+			"reference": "observation-urine-ph.html",
+			"display": "PH=6 (pH)"
+		}, {
+			"reference": "observation-urine-protein.html",
+			"display": "PROTEIN=Negative "
+		}, {
+			"reference": "observation-urobilinogen.html",
+			"display": "UROBILINOGEN=0.3 mg/dL"
+		}, {
+			"reference": "observation-urine-nitrite.html",
+			"display": "NITRITE=Positive "
+		}, {
+			"reference": "observation-urine-hemoglobin.html",
+			"display": "BLOOD=Trace "
+		}, {
+			"reference": "observation-urine-leukocute-esterase.html",
+			"display": "LEUK ESTERASE=2+ "
+		}, {
+			"reference": "observation-urine-sediment.html",
+			"display": "COMMENT=Recommend Urine Culture "
+		}, {
+			"reference": "observation-urine-bacteria.html",
+			"display": "BACTERIA=4+ "
+		}, {
+			"reference": "observation-urine-epi-cells.html",
+			"display": "EPITHELIAL CELLS=1-5 cells/HPF"
+		}, {
+			"reference": "observation-urine-wbcs.html",
+			"display": "WBC=20-30 cells/HPF"
+		}, {
+			"reference": "observation-urine-rbcs.html",
+			"display": "RBC=Occasional cells/HPF"
+		}
+	]
+}

@@ -28,6 +28,9 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 * **NDC codes as a translational data element**:
 Based upon the 2015 Edition Certification Requirements, [CVX vaccine codes] are required and the [NDC vaccine codes] SHOULD be supported as translations to them.  A NDC to [CVX crosswalk table] is also provided by the CDC.
 
+#### Examples
+
+- [Immunization-imm-1](immunization-imm-1.html)
 
   [CVX vaccine codes]: http://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx
   [NDC vaccine codes]: http://www2a.cdc.gov/vaccines/iis/iisstandards/ndc_crosswalk.asp

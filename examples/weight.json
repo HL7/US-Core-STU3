@@ -1,0 +1,40 @@
+{
+	"resourceType": "Observation",
+	"id": "weight",
+	"status": "final",
+	"category": {
+		"coding": [
+			{
+				"system": "http://hl7.org/fhir/observation-category",
+				"code": "vital-signs",
+				"display": "Vital Signs"
+			}
+		],
+		"text": "Vital Signs"
+	},
+	"code": {
+		"coding": [
+			{
+				"system": "http://loinc.org",
+				"code": "29463-7",
+				"display": "Body Weight"
+			}
+		],
+		"text": "weight"
+	},
+	"subject": {
+		"reference": "patient-example.html",
+		"display": "Amy Shaw"
+	},
+	"encounter": {
+		"reference": "#.html",
+		"display": "GP Visit"
+	},
+	"effectiveDateTime": "1999-07-02",
+	"valueQuantity": {
+		"value": 20.09414,
+		"unit": "kg",
+		"system": "http://unitsofmeasure.org",
+		"code": "kg"
+	}
+}

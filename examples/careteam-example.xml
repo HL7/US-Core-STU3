@@ -8,9 +8,9 @@
 			<display value="Active"/>
 		</coding>
 	</status>
-	<name value="DAF-Core exampe CareTeam"/>
+	<name value="US-Core example CareTeam"/>
 	<subject>
-		<reference value="Patient/example"/>
+		<reference value="patient-example.html"/><display value="Amy V. Shaw"/>
 	</subject>
 	<participant>
 		<role>
@@ -21,8 +21,8 @@
 			</coding>
 		</role>
 		<member>
-			<reference value="Practitioner/example"/>
-			<display value="Kurtis Giles, MD"/>
+			<reference value="practitioner-practitioner-1.html"/>
+			<display value="Ronald Bone, MD"/>
 		</member>
 	</participant>
 	<participant>
@@ -47,8 +47,7 @@
 			</coding>
 		</role>
 		<member>
-			<reference value="Patient/example"/>
-			<display value="Daniel A Johnson"/>
+<reference value="patient-example.html"/><display value="Amy V. Shaw"/>
 		</member>
 	</participant>
 </CareTeam>

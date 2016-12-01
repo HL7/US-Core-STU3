@@ -27,6 +27,9 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
  - This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server].
 
+#### Examples
+
+- [procedure-rehab](procedure-rehab.html)
 
 
 

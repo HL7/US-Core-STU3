@@ -1,4 +1,4 @@
-This profile sets minimum expectations for the [Practitioner] resource to record [content] associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile. 
+This profile sets minimum expectations for the [Practitioner] resource to record [content] associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
 
 **Example Usage Scenarios:**
 
@@ -15,12 +15,16 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 **Each Practitioner must have:**
 
-1.  An identifier (NPI preferred) 
+1.  An identifier (NPI preferred)
 1.  A name
 
 **Profile specific implementation guidance:**
- 
-- This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server], or a provider directory capability statement. 
+
+- This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server], or a provider directory capability statement.
+
+#### Examples
+
+[Practitioner-1](practitioner-practitioner-1.html)
 
 [Practitioner]: http://build.fhir.org/Practitioner.html
 [Conformance requirements for the US-Core Server]: capabilitystatement-server.html

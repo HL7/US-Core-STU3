@@ -1,0 +1,41 @@
+{
+  "resourceType": "Observation",
+  "id": "heart-rate",
+
+  "status": "final",
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/observation-category",
+        "code": "vital-signs",
+        "display": "Vital Signs"
+      }
+    ],
+    "text": "Vital Signs"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "8867-4",
+        "display": "heart_rate"
+      }
+    ],
+    "text": "heart_rate"
+  },
+  "subject": {
+    "reference": "patient-example.html","display": "Amy Shaw"
+  },
+  "encounter": {
+    "reference": "#.html","display": "GP Visit"
+
+
+  },
+  "effectiveDateTime": "1999-07-02",
+  "valueQuantity": {
+    "value": 44.0,
+    "unit": "{beats}/min",
+    "system": "http://unitsofmeasure.org",
+    "code": "{beats}/min"
+  }
+}

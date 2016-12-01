@@ -20,6 +20,8 @@ When available the following must be sent:
 4.  Location.address
 5.  managingOrganization
 
+#### Examples
+
+- [location-hl7east](location-hl7east.html)
+
 [Location]:  http://build.fhir.org/location.html
-
-

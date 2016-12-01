@@ -2,8 +2,6 @@
 
 1.  Conditionally One clinical status in `Condition.clinicalStatus`
     -   [Invariants]
-        -   required if `Condition.verificationStatus != ‘entered-in-error‘`
-        -   not present if `Condition.verificationStatus = ‘entered-in-error‘`
     -   Condition.clinicalStatus is bound to [Condition Clinical Status Codes] value set
 1.  One code in `Condition.verificationStatus`
     -   Condition.clnicalStatus is bound to [ConditionVerificationStatus] value set
@@ -19,7 +17,7 @@ The [US Core Condition Category Codes] supports the separate concepts of problem
 
   [extensible]: http://build.fhir.org/terminologies.html#extensible
   [Problem Value Set]: valueset-us-core-problem.html
-  [Invariants]: http://build.fhir.org/conformance-rules.html#constraints
+  [Invariants]: http://build.fhir.org/condition.html#invs
   [Condition Clinical Status Codes]: http://build.fhir.org/valueset-condition-clinical.html
   [ConditionVerificationStatus]: http://build.fhir.org/valueset-condition-ver-status.html
   [US Core Condition Profile]: structuredefinition-us-core-condition.html

@@ -1,50 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patient xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://hl7.org/fhir">
 	<id value="example"/>
-	<extension url="http://hl7.org/fhir/StructureDefinition/us-core-race">
-		<valueCodeableConcept>
-			<coding>
+	<text>
+		<status value="generated"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<p>
+				<b>Generated Narrative with Details</b>
+			</p>
+			<p>
+				<b>id</b>: example</p>
+			<p>
+				<b>identifier</b>: Medical Record Number = 1032702 (USUAL)</p>
+			<p>
+				<b>active</b>: true</p>
+			<p>
+				<b>name</b>: Amy V. Shaw </p>
+			<p>
+				<b>telecom</b>: ph: 555-555-5555(HOME), amy.shaw@example.com</p>
+			<p>
+				<b>gender</b>: </p>
+			<p>
+				<b>birthsex</b>: Female</p>
+			<p>
+				<b>birthDate</b>: Feb 20, 2007</p>
+			<p>
+				<b>address</b>: 49 Meadow St Mounds OK 74047 US </p>
+			<p>
+				<b>race</b>: White, American Indian or Alaska Native, Asian, Shoshone, Filipino</p>
+			<p>
+				<b>ethnicity</b>: Hispanic or Latino, Dominican, Mexican</p>
+		</div>
+	</text>
+	<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
+		<extension url="ombCategory">
+			<valueCoding>
 				<system value="http://hl7.org/fhir/v3/Race"/>
 				<code value="2106-3"/>
 				<display value="White"/>
-			</coding>
-			<text value="White"/>
-		</valueCodeableConcept>
-	</extension>
-	<extension url="http://hl7.org/fhir/StructureDefinition/us-core-race">
-		<valueCodeableConcept>
-			<coding>
+			</valueCoding>
+		</extension>
+		<extension url="ombCategory">
+			<valueCoding>
 				<system value="http://hl7.org/fhir/v3/Race"/>
 				<code value="1002-5"/>
 				<display value="American Indian or Alaska Native"/>
-			</coding>
-			<coding>
+			</valueCoding>
+		</extension>
+		<extension url="ombCategory">
+			<valueCoding>
+				<system value="http://hl7.org/fhir/v3/Race"/>
+				<code value="2028-9"/>
+				<display value="Asian"/>
+			</valueCoding>
+		</extension>
+		<extension url="detailed">
+			<valueCoding>
 				<system value="http://hl7.org/fhir/v3/Race"/>
 				<code value="1586-7"/>
 				<display value="Shoshone"/>
-			</coding>
-			<text value="Shoshone"/>
-		</valueCodeableConcept>
+			</valueCoding>
+		</extension>
+		<extension url="detailed">
+			<valueCoding>
+				<system value="http://hl7.org/fhir/v3/Race"/>
+				<code value="2036-2"/>
+				<display value="Filipino"/>
+			</valueCoding>
+		</extension>
 	</extension>
-	<extension url="http://hl7.org/fhir/StructureDefinition/us-core-ethnicity">
-		<valueCodeableConcept>
-			<coding>
+	<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+		<extension url="ombCategory">
+			<valueCoding>
 				<system value="http://hl7.org/fhir/v3/Ethnicity"/>
-				<code value="2186-5"/>
-				<display value="Not Hispanic or Latino"/>
-			</coding>
-			<text value="Not Hispanic or Latino"/>
-		</valueCodeableConcept>
+				<code value="2135-2"/>
+				<display value="Hispanic or Latino"/>
+			</valueCoding>
+		</extension>
+		<extension url="detailed">
+			<valueCoding>
+				<system value="http://hl7.org/fhir/v3/Ethnicity"/>
+				<code value="2184-0"/>
+				<display value="Dominican"/>
+			</valueCoding>
+		</extension>
+		<extension url="detailed">
+			<valueCoding>
+				<system value="http://hl7.org/fhir/us/v3/Ethnicity"/>
+				<code value="2148-5"/>
+				<display value="Mexican"/>
+			</valueCoding>
+		</extension>
 	</extension>
-	<extension url="http://hl7.org/fhir/StructureDefinition/us-core-birthsex">
-		<valueCodeableConcept>
-			<coding>
-				<system value="http://hl7.org/fhir/v3/AdministrativeGender"/>
-				<code value="F"/>
-				<display value="Female"/>
-			</coding>
-			<text value="Female"/>
-		</valueCodeableConcept>
+	<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
+		<valueCode value="F"/>
 	</extension>
 	<identifier>
 		<use value="usual"/>

@@ -19,12 +19,15 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 1.  A name
 1.  A list of contact information
 1.  Endpoint information
- 
+
 
 **Profile specific implementation guidance:**
 
-- This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server], or a provider directory capability statement. 
+- This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server], or a provider directory capability statement.
 
+#### Examples
+
+[Organization-acme-lab](organization-acme-lab.html)
 
 [Organization]: http://build.fhir.org/organization.html
 [Conformance requirements for the US-Core Server]: capabilitystatement-server.html

@@ -10,7 +10,7 @@
   <LastAuthor>Brett A Marquard</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
   <LastSaved>2016-11-28T00:35:05Z</LastSaved>
-  <Version>16.00</Version>
+  <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
@@ -20,7 +20,7 @@
   <WindowWidth>21690</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
-  <ActiveSheet>8</ActiveSheet>
+  <ActiveSheet>4</ActiveSheet>
   <FirstVisibleSheet>2</FirstVisibleSheet>
   <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
@@ -531,17 +531,6 @@
   <Style ss:ID="s120">
    <Alignment ss:Vertical="Top" ss:ShrinkToFit="1" ss:WrapText="1"/>
   </Style>
-  <Style ss:ID="s121">
-   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
-   <Borders>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
-   <Interior/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
   <Style ss:ID="s122">
    <Interior/>
   </Style>
@@ -888,6 +877,16 @@
     <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
    </Borders>
    <Interior/>
+  </Style>
+  <Style ss:ID="s165">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
   </Style>
  </Styles>
  <Worksheet ss:Name="Instructions">
@@ -1255,8 +1254,7 @@
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">us-core-1</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">code</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Y</Data><NamedCell
@@ -2844,8 +2842,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>4</ActiveRow>
-     <ActiveCol>9</ActiveCol>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>6</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -5652,7 +5650,7 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s121"><Data ss:Type="String">us-core-1</Data><NamedCell
+    <Cell ss:StyleID="s165"><Data ss:Type="String">!us-core-1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><Data ss:Type="String">US Core-ClinicalStatusInv</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6113,6 +6111,7 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
+   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -6132,7 +6131,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveCol>5</ActiveCol>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -8635,7 +8635,6 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
-   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>

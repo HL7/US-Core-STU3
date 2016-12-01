@@ -25,7 +25,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 #### Examples
 
-- [CarePlan-example](CarePlan-example.html)
+- [CarePlan-colonoscopy](CarePlan-colonoscopy.html)
 
 
 [CarePlan]: http://build.fhir.org/careplan.html

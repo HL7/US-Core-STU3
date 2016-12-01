@@ -11,7 +11,8 @@
 		<div xmlns="http://www.w3.org/1999/xhtml">Sensitivity to sulfonamide antibacterial</div>
 	</text>
 -->
-	<status value="active"/>
+	<clinicalStatus value="active"/>
+	<verificationStatus value="confirmed"></verificationStatus>
 	<category value="medication"/>
 	<criticality value="high"/>
 	<code>
@@ -23,9 +24,9 @@
 		<text value="sulfonamide antibacterial"/>
 	</code>
 	<patient>
-		<reference value="Patient/daf-core-example"/>
+		<reference value="patient-example.html"/><display value="Amy V. Shaw"/>
 	</patient>
-	<attestedDate value="2000"/>
+	<assertedDate value="2000"/>
 	<reaction>
 		<manifestation>
 			<coding>

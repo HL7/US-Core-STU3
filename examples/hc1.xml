@@ -1,0 +1,25 @@
+<Condition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/fhir-all.xsd">
+	<id value="hc1"/>
+
+	<clinicalStatus value="active"/>
+	<verificationStatus value="confirmed"/>
+		<category>
+		<coding>
+			<system value="http://argonaut.hl7.org"/>
+			<code value="additional-concern"/>
+			<display value="Health Concern"/>
+		</coding>
+		<text value="Health Concern"/>
+	</category>
+
+	<code>
+		<text value="Cost of medications"/>
+	</code>
+
+		<subject>
+		<reference value="patient-example.html"/>
+		<display value="Amy Shaw
+"/>
+	</subject>
+	<onsetDateTime value="2007-12-14"/>
+</Condition>

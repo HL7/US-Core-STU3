@@ -39,12 +39,12 @@ Additionally your system must return:
   [Patient.birthDate]: http://hl7.org/fhir/us/daf/daf-patient-definitions.html#daf-patient.Patient.birthDate
   [Patient.communication.language]: http://hl7.org/fhir/us/daf/daf-patient-definitions.html#daf-patient.Patient.communication.language
   [Common Languages]: http://build.fhir.org/valueset-languages.html
-  [US Core Patient Birth Sex]: http://build.fhir.org/extension-us-core-birthsex.html
-  [US Core Birth Sex]: http://build.fhir.org/valueset-us-core-birthsex.html
-  [US Core Patient Race]:  http://build.fhir.org/extension-us-core-race.html
-  [OMB Race Categories]: http://build.fhir.org/valueset-omb-race.html
-  [US Core Race Extension]: http://build.fhir.org/extension-us-core-race.html
-  [CDC Race Codes]:http://build.fhir.org/valueset-detailed-race.html
- [CDC Ethnicity Codes]: http://build.fhir.org/valueset-detailed-ethnicity.html
- [US Core ethnicity Extension]: http://build.fhir.org/extension-us-core-ethnicity.html
- [OMB Ethnicity Categories]: http://build.fhir.org/valueset-omb-ethnicity.html
+  [US Core Patient Birth Sex]: structuredefinition-us-core-birthsex.html
+  [US Core Birth Sex]: valueset-us-core-birthsex.html
+  [US Core Patient Race]:  structuredefinition-us-core-race.html
+  [OMB Race Categories]: valueset-omb-race.html
+  [US Core Race Extension]: structuredefinition-us-core-race.html
+  [CDC Race Codes]:valueset-detailed-race.html
+ [CDC Ethnicity Codes]: valueset-detailed-ethnicity.html
+ [US Core ethnicity Extension]: structuredefinition-us-core-ethnicity.html
+ [OMB Ethnicity Categories]: valueset-omb-ethnicity.html
