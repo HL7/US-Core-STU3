@@ -5,7 +5,7 @@
 -   [MedicationStatementStatus] value set.
 1.  One medication via `MedicationStatement.medicationCodeableConcept` or `MedicationStatement.medicationReference`   
 -  `MedicationStatement.medicationCodeableConcept` has an [extensible](http://build.fhir.org/terminologies.html#extensible) binding to [Medication Clinical Drug (RxNorm)] value set.
-1.  One patient reference in `MedicationStatement.patient`
+1.  One patient reference in `MedicationStatement.subject`
 1.  One date or period in `MedicationStatement.effectiveDateTime` or `MedicationStatment.effectivePeriod`
 
 

@@ -8,7 +8,7 @@
 -   SHOULD have a translation to the to the [NDC] value set
 1.  One patient in `Immunization.patient`
 1.  One boolean value in `Immunization.wasNotGiven`
-1.  One boolean value in `Immunization.reported`
+1.  One boolean value in `Immunization.primarySource`
 
   [Immunization Status]: valueset-us-core-immunization-status.html
   [CVX]: valueset-us-core-cvx.html

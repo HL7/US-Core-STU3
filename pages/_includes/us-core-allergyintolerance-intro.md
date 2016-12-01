@@ -7,8 +7,6 @@ This profile sets minimum expectations for the [AllergyIntolerance] resource to 
 The following are example usage scenarios for the US-Core AllergyIntolerance
  profile:
 
-
-
 -   Query for Allergies belonging to a Patient
 -   Record a Patient Allergy
 
