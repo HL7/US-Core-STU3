@@ -1,20 +1,21 @@
-## US-Core Implementation Guide
+## US Core Implementation Guide
 
 ## Introduction
 
-The data elements, extension, and terminology used in the US-Core Implemenation Guide are based upon [ONC 2015 Edition Common Clinical Data Set (CCDS)] as well as essential administrative and conformance requirements.   These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [ONC] sponsored [Data Access Framework (DAF)] project and were subsequently updated to define the minimum mandatory conformance requirements needed for accessing patient data as defined by the [Argonaut] pilot implementations.  In addition to Argonaut, these profiles are used by the [DAF-Research], [QI-Core], and [CIMI] and are intended to be a common core for other US Realm guides.
+The data elements, extension, and terminology used in the US Core Implemenation Guide are based upon [ONC 2015 Edition Common Clinical Data Set (CCDS)] as well as essential administrative and conformance requirements.   These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [ONC] sponsored [Data Access Framework (DAF)] project and were subsequently updated to define the minimum mandatory conformance requirements needed for accessing patient data as defined by the [Argonaut] pilot implementations.  In addition to Argonaut, these profiles are used by the [DAF-Research], [QI-Core], and [CIMI] and are intended to be a common core for other US Realm guides.
 
-## US-Core Actors
+## US Core Actors
 
-The following actors are part of the US-Core IG.
+The following actors are part of the US Core IG.
 
-* US-Core Requestor: An application that initiates a data access request to retrieve patient data. This can be thought of as the client in a client-server interaction.
-* US-Core Responder: A product that responds to the data access request providing patient data. This can be thought of as the server in a client-server interaction.
+* US Core Requestor: An application that initiates a data access request to retrieve patient data. This can be thought of as the client in a client-server interaction.
+* US Core Responder: A product that responds to the data access request providing patient data. This can be thought of as the server in a client-server interaction.
 
 
-## US-Core Profiles
+## US Core Profiles
 
-The US-Core Profiles are intended to meet the 2015 Edition certification criterion for Patient Selection 170.315(g)(7) and Application Access – Data Category Request 170.315(g)(8). They were created for each of the 2015 Edition Common Clinical Data Set. Where applicable they are based on the HL7 U.S. Data Access Framework ([DAF]) FHIR DSTU2 Implementation Guide. However, the requirements per resource are a subset of those of the DAF implementation guide.
+The US Core Profiles are intended to meet the 2015 Edition certification criterion for Patient Selection 170.315(g)(7) and Application Access – Data Category Request 170.315(g)(8). They were created for each of the 2015 Edition Common Clinical Data Set.  The Location, Organization and Practitioner Profiles are not called out specifically in the certification criteria but are included because they are directly referenced by other profiles.  Where applicable the US Core Profiles are based on the HL7 U.S. Data Access Framework ([DAF]) FHIR DSTU2 Implementation Guide. However, the requirements per resource are a subset of those of the DAF implementation guide.
+
 
 The table below lists the FHIR Resources used for the corresponding 2015 Edition Common Clinical Data Set (CCDS) Data elements:
 
@@ -49,7 +50,7 @@ Allergies, Immunizations, Medications, Problems and Health Concerns, UDI, Smokin
 Date range search requirements are included in the Quick Start section for the following resources - Vital Signs, Laboratory Results, Goals, Procedures, and Assessment and Plan of Treatment.
 
 
-The list of US-Core Profiles is shown below.  Each profile defines the minimum mandatory elements, extensions and terminology requirements that **MUST** be present. For each profile requirements and guidance are given in a simple narrative summary. A formal hierarchical table that presents a [logical view] of the content in both a differential and snapshot view is also provided along with references to appropriate terminologies and examples.
+The list of US Core Profiles is shown below.  Each profile defines the minimum mandatory elements, extensions and terminology requirements that **MUST** be present. For each profile requirements and guidance are given in a simple narrative summary. A formal hierarchical table that presents a [logical view] of the content in both a differential and snapshot view is also provided along with references to appropriate terminologies and examples.
 
 
 {% include list-profiles.xhtml %}
@@ -69,10 +70,10 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [QI-Core]:https://oncprojectracking.healthit.gov/wiki/display/TechLabSC/CQF+Home
 [CIMI]:http://www.opencimi.org
 [Argonaut]: http://argonautwiki.hl7.org/index.php?title=Main_Page
-[US-Core]: US-Core.html
-[US-Core]: US-Core.html
-[US-Core-Research]: US-Core-research.html
-[US-Core Security]: US-Core-security.html
+[US Core]: US Core.html
+[US Core]: US Core.html
+[US Core-Research]: US Core-research.html
+[US Core Security]: US Core-security.html
 [ONC]: http://www.healthit.gov/newsroom/about-onc
 [Data Access Framework (DAF)]: http://wiki.siframework.org/Data+Access+Framework+Homepage
 [PCORnet]: http://www.pcornet.org/

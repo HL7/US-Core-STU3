@@ -18,7 +18,7 @@
 				<tbody>
 					<tr>
 						<th>FHIR Version:</th>
-						<td>$ver$</td>
+						<td>1.7.0</td>
 					</tr>
 					<tr>
 						<th>Supported formats:</th>

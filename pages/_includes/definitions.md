@@ -1,4 +1,4 @@
-﻿## Definitions, Interpretations and Requirements common to all US-Core actors
+## Definitions, Interpretations and Requirements common to all US-Core actors
 
 This section outlines important definitions and interpretations used in the US-Core IG.
 The conformance verbs used are defined in [FHIR Conformance Rules].
@@ -10,7 +10,7 @@ In the context of US-Core, Supported on any data element SHALL be interpreted as
 * US-Core Requestors SHALL be capable of processing resource instances containing the data elements. In other words US-Core Requestors SHOULD be capable of displaying the data elements for human use or storing it for other purposes.
 * In situations where information on a particular data element is not present and the reason for absence is unknown, US-Core Responders SHALL NOT include the data elements in the resource instance returned as part of the query results.
 * When querying US-Core Responders, US-Core Requestors SHALL interpret missing data elements within resource instances as data not present in the US-Core Responder's systems.
-* In situations where information on a particular data element is missing and the US-Core Responder knows the precise reason for the absence of data, US-Core Responders SHALL send the reason for the missing information using values from the value set where they exist or using the dataAbsentReason extension.
+* In situations where information on a particular data element is missing and the US-Core Responder knows the precise reason for the absence of data, US-Core Responders SHALL send the reason for the missing information using values (such as nullFlavors) from the value set where they exist or using the dataAbsentReason extension.
 * US-Core Requestors SHALL be able to process resource instances containing data elements asserting missing information.
 
 * NOTE: US-Core Responders who do not have the capability to store or return a data element tagged as Supported in US-Core profiles can still claim conformance to the US-Core profiles per the US-Core conformance resources.
