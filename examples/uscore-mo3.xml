@@ -2,7 +2,7 @@
 <Bundle xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/fhir-all.xsd">
 	<id value="uscore-mo3"/>
 	<meta>
-		<lastUpdated value="2016-11-29T19:54:32Z"/>
+		<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
 	</meta>
 	<type value="searchset"/>
 	<total value="1"/>
@@ -40,12 +40,8 @@
 				</patient>
 				<dateWritten value="2008-04-05"/>
 				<requester>
-					<reference value="practitioner-practitioner-1.html"
-
-/>
-					<display value="Ronald Bone, MD"
-
-/>
+					<reference value="practitioner-practitioner-1.html"/>
+					<display value="Ronald Bone, MD"/>
 				</requester>
 			</MedicationRequest>
 		</resource>

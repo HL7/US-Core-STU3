@@ -1,7 +1,7 @@
 {
   "resourceType": "Observation",
   "id": "urine-leukocyte-esterase",
-  "meta": {
+  "meta": { "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"],
     "versionId": "206552",
     "lastUpdated": "2016-04-18T03:58:45.747+00:00"
   },

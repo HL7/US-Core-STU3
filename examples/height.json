@@ -1,42 +1,45 @@
 {
-  "resourceType": "Observation",
-  "id": "height",
-
-
-  "status": "final",
-  "category": {
-    "coding": [
-      {
-        "system": "http://hl7.org/fhir/observation-category",
-        "code": "vital-signs",
-        "display": "Vital Signs"
-      }
-    ],
-    "text": "Vital Signs"
-  },
-  "code": {
-    "coding": [
-      {
-        "system": "http://loinc.org",
-        "code": "8302-2",
-        "display": "height"
-      }
-    ],
-    "text": "height"
-  },
-  "subject": {
-    "reference": "patient-example.html","display": "Amy Shaw"
-  },
-  "encounter": {
-    "reference": "#.html","display": "GP Visit"
-
-
-  },
-  "effectiveDateTime": "1999-07-02",
-  "valueQuantity": {
-    "value": 111.506,
-    "unit": "cm",
-    "system": "http://unitsofmeasure.org",
-    "code": "cm"
-  }
+	"resourceType": "Observation",
+	"id": "height",
+	"meta": {
+		"profile": [
+			"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
+		]
+	},
+	"status": "final",
+	"category": {
+		"coding": [
+			{
+				"system": "http://hl7.org/fhir/observation-category",
+				"code": "vital-signs",
+				"display": "Vital Signs"
+			}
+		],
+		"text": "Vital Signs"
+	},
+	"code": {
+		"coding": [
+			{
+				"system": "http://loinc.org",
+				"code": "8302-2",
+				"display": "height"
+			}
+		],
+		"text": "height"
+	},
+	"subject": {
+		"reference": "patient-example.html",
+		"display": "Amy Shaw"
+	},
+	"encounter": {
+		"reference": "#.html",
+		"display": "GP Visit"
+	},
+	"effectiveDateTime": "1999-07-02",
+	"valueQuantity": {
+		"value": 111.506,
+		"unit": "cm",
+		"system": "http://unitsofmeasure.org",
+		"code": "cm"
+	}
 }

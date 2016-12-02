@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CarePlan xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/fhir-all.xsd">
 	<id value="colonoscopy"/>
+	<meta>
+		<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"/>
+	</meta>
 	<text>
 		<status value="additional"/>
 		<div xmlns="http://www.w3.org/1999/xhtml">
@@ -28,7 +31,6 @@
 			</table>
 		</div>
 	</text>
-
 	<status value="active"/>
 	<category>
 		<coding>
@@ -36,7 +38,7 @@
 			<code value="assess-plan"/>
 		</coding>
 	</category>
-		<subject>
+	<subject>
 		<reference value="patient-example.html"/>
 		<display value="Amy Shaw
 "/>

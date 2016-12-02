@@ -1,7 +1,7 @@
 {
 	"resourceType": "DiagnosticReport",
 	"id": "metabolic-panel",
-	"meta": {
+	"meta": { "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport"],
 		"versionId": "205790",
 		"lastUpdated": "2016-03-09T15:35:58.018+00:00"
 	},

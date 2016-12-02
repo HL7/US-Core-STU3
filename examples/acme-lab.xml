@@ -1,5 +1,6 @@
 <Organization xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/visionprescription.xsd">
 	<id value="acme-lab"/>
+	<meta><profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"></profile></meta>
 	<identifier>
 		<system value="http://hl7.org.fhir/sid/us-npi"/>
 		<value value="1144221847"/>
