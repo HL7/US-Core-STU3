@@ -39,7 +39,7 @@ Example: AllergyIntolerance resource with a status that is text only or cannot b
        "resourceType”:“AllergyIntolerance”,
        ...
        “status”:{
-        “url” : “[http://hl7.org/fhir/StructureDefinition/data-absent-reason]”,
+        “url” : “[http://build.fhir.org/StructureDefinition/data-absent-reason]”,
        “valueCode” : “unsupported”
         ...
       },
@@ -90,17 +90,50 @@ Example of translation of NDC vaccine code to CVX code.
     "vaccineCode" : {
         "coding" : [
           {
-            "system" : "http://hl7.org/fhir/sid/cvx",
+            "system" : "http://build.fhir.org/sid/cvx",
             "code" : "158",
             "display" : "influenza, injectable, quadrivalent"
           },
           {
-            "system" : "http://hl7.org/fhir/sid/ndc",
+            "system" : "http://build.fhir.org/sid/ndc",
             "code" : "49281-0623-78",
             "display" : "FLUZONE QUADRIVALENT"
           }
         ]
       },
+
+####  Guidance on using UCUM codes in the [Quantity] datatype
+
+The [US Core Vital Signs Profile] and [US Core Result Observation Profile] require using [UCUM] units. This guidance specifies how to represent the Quantity datatype when the ccorrect UCUM units are missing or the units are missing altogether which will likely occur in the real world.  If the wrong UCUM units are used for the vitals signs listed in the Vital Signs Profile, that should lead to a validation failure.
+
+**UCUM code provided**
+
+```
+ "valueQuantity": {
+    "value": 26.0,
+    "unit": "g/mL",
+   "system": "http://unitsofmeasure.org",
+   "code": "g/mL"
+  }
+```
+
+**free text units (no UCUM units)**: if have no UCUM units then represent units only in `units` element
+
+```
+ "valueQuantity": {
+    "value": 26.0,
+    "unit": "RR",
+     }
+```
+
+**no units**
+
+```
+      "valueQuantity": {
+    "value": 26.0
+ }
+```
+
 
 #### Read(Fetch) resource notation:
 
@@ -165,13 +198,17 @@ In order to manage the number of search results returned, the server may choose 
 
 ------------------------------------------------------------------------
 
-  [core specification]: http://hl7.org/fhir/search.html#return
+  [core specification]: http://build.fhir.org/search.html#return
 
-  [FHIR RESTful API]: http://hl7.org/fhir/DSTU2/http.html
-  [Searching]: http://hl7.org/fhir/search.html
+  [FHIR RESTful API]: http://build.fhir.org/DSTU2/http.html
+  [Searching]: http://build.fhir.org/search.html
   [Issue \#39]: https://github.com/argonautproject/implementation-program/issues/39
-  [compartment]: http://hl7.org/fhir/DSTU2/compartments.html#compartments
-  [core specification]: http://hl7.org/fhir/extensibility.html#2.20.0.2.2
-  [DataAbsentReason Extension]: http://hl7.org/fhir/extension-data-absent-reason.html
-  [http://hl7.org/fhir/StructureDefinition/data-absent-reason]: http://hl7.org/fhir/StructureDefinition/data-absent-reason
-  [FHIR Conformance Rules]: http://hl7.org/fhir/capabilitystatement-rules.html
+  [compartment]: http://build.fhir.org/DSTU2/compartments.html#compartments
+  [core specification]: http://build.fhir.org/extensibility.html#2.20.0.2.2
+  [DataAbsentReason Extension]: http://build.fhir.org/extension-data-absent-reason.html
+  [http://build.fhir.org/StructureDefinition/data-absent-reason]: http://build.fhir.org/StructureDefinition/data-absent-reason
+  [FHIR Conformance Rules]: http://build.fhir.org/capabilitystatement-rules.html
+[Quantity]: http://build.fhir.org/datatypes.html#quantity
+[UCUM]: http://unitsofmeasure.org
+[US Core Result Observation Profile]: structuredefinition-us-core-observationresults.html
+[US Core Vital Signs Profile]: structuredefinition-us-core-vitalsigns.html
