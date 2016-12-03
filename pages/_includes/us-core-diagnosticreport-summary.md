@@ -12,10 +12,12 @@
 1.  One patient in `DiagnosticReport.subject`
 1.  A date and time in `DiagnosticReport.effectiveDateTime` or `DiagnosticReport.effectivePeriod`
 1.  A date and time in `DiagnosticReport.issued`
-1.  A practitioner or organization in `DiagnosticReport.performer`
 1.  One or more `DiagnosticReport.result`
 -   `DiagnosticReport.result.reference` reference the [Observation] resources that are part of this report.
 
+Each DiagnosticReport *SHOULD* have:
+
+1.  A practitioner or organization in `DiagnosticReport.performer`
 
 [DiagnosticReportStatus]: http://build.fhir.org/valueset-diagnostic-report-status.html
 [Observation]: http://build.fhir.org/observation.html
