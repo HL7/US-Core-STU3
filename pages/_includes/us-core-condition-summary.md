@@ -5,15 +5,12 @@
     -   Condition.clinicalStatus is bound to [Condition Clinical Status Codes] value set
 1.  One code in `Condition.verificationStatus`
     -   Condition.clnicalStatus is bound to [ConditionVerificationStatus] value set
+1.  At least on code in `Condition.category`
+    -   Condition.clnicalStatus is bound to [[US Core Condition Category Codes] value set
 1.  One Identification of the problem or health concern in `Condition.code`which has an [extensible](http://build.fhir.org/terminologies.html#extensible) binding to:
     -   [Problem Value Set] value set.
 1.  One patient reference in `Condition.patient`
 
-
-
-#### problems and health concerns category codes
-
-The [US Core Condition Category Codes] supports the separate concepts of problems and health concerns in `Condition.category` in order for API consumers to be able to separate health concerns and problems. However this is not mandatory for 2015 certification.
 
   [extensible]: http://build.fhir.org/terminologies.html#extensible
   [Problem Value Set]: valueset-us-core-problem.html

@@ -12,8 +12,7 @@
 1.  One patient in `DiagnosticReport.subject`
 1.  A date and time in `DiagnosticReport.effectiveDateTime` or `DiagnosticReport.effectivePeriod`
 1.  A date and time in `DiagnosticReport.issued`
-1.  One or more `DiagnosticReport.result`
--   `DiagnosticReport.result.reference` reference the [Observation] resources that are part of this report.
+1.  One or more `DiagnosticReport.result` and/or one or more `DiagnosticReport.presentedForm`
 
 Each DiagnosticReport *SHOULD* have:
 

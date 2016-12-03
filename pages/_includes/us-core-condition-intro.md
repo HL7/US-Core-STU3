@@ -16,12 +16,13 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 1.  a status of the problem
 1.  a verification status
+1.  a category
 1.  a code that identifies the problem
 1.  a patient
 
 **Profile specific implementation guidance:**
 
-* The US Core Condition Category Codes support the separate concepts of problems and health concerns so API consumers can separate health concerns and problems. However this is not mandatory for 2015 certification
+* The [US Core Condition Category Codes] support the separate concepts of problems and health concerns so API consumers can separate health concerns and problems. However this is not mandatory for 2015 certification
 * The 2015 Certification rule requires the use of SNOMED CT for problem list entries. Following the rules for [extensible] binding to coded data types, ICD or other local codes can be used as translations to or in addition to SNOMED CT.
 
 #### Examples
@@ -31,3 +32,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 [Condition]: http://build.fhir.org/condition.html
 [extensible]: http://build.fhir.org/terminologies.html#extensible
+[US Core Condition Category Codes]: valueset-us-core-condition-category.html
