@@ -9,8 +9,7 @@ The following are example usage scenarios for the US Core Patient profile:
     Number (MRN), which is a type of identifier. The MRN is identifiable
     by identifier.system and may be location specific.
 -   Query for a Patient demographic information using first name, last
-    name etc.
--   Query for Patients based on race, ethnicity, gender etc.
+    name, birthdate, and gender.
 -   Query for Patients less than 5 years of age
 -   Query for Patients between ages of 25 and 50
 

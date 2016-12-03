@@ -232,7 +232,7 @@
 							<a href="structuredefinition-us-core-location.html">US Core Location</a>
 						</th>
 						<td>
-							<a title="Allows discovery of US Core location resources based on different search criteria" href="#US Core LocationSearch">SHALL</a>
+							<a title="Allows discovery of US Core Location resources based on different search criteria" href="#US Core LocationSearch">SHALL</a>
 						</td>
 						<td>
 							<a title="Allows retrieval of a specific US Core location by id">SHALL</a>
@@ -572,7 +572,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td id="US_Core_LocationSearch">US Core location</td>
+						<td id="US_Core_LocationSearch">US Core Location</td>
 						<td>
 							<ul>
 								<li>
@@ -676,12 +676,15 @@
 			</table>
 			<br/>
 			<br/>
+<!--			
 			<h3>US-Core Resource Specific Operations</h3>
 			<p>US Core Servers SHALL support the 	<a href="http://build.fhir.org/patient-operations.html#everything">
 					<b>Patient/$everything</b>
 				</a> operation using
 URL defintion [base]/Patient/[id]/$everything to return data for all the US Core profiles they support for a specific patient. </p>
 			<p/>
+			
+-->			
 		</div>
 	</text>
 	<name value="US Core  Server"/>
@@ -784,7 +787,6 @@ URL defintion [base]/Patient/[id]/$everything to return data for all the US Core
 				<code value="vread"/>
 				<documentation value="Allows retrieval of a historical version of a US Core patient instance"/>
 			</interaction>
-
 			<searchParam>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -1372,8 +1374,7 @@ URL defintion [base]/Patient/[id]/$everything to return data for all the US Core
  [include]: http://build.fhir.org/search.html#include
  [contained]: http://build.fhir.org/references.html#contained
  [Medication]:http://build.fhir.org/medication.html
-"></documentation>
-
+"/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -1402,9 +1403,11 @@ URL defintion [base]/Patient/[id]/$everything to return data for all the US Core
 				<code value="vread"/>
 				<documentation value="Allows retrieval of a historical version of a US Core medicationstatement instance"/>
 			</interaction>
-			<searchInclude value="MedicationStatement.medicationReference"><extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+			<searchInclude value="MedicationStatement.medicationReference">
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="MAY"/>
-				</extension></searchInclude>
+				</extension>
+			</searchInclude>
 			<searchParam>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -1427,8 +1430,7 @@ URL defintion [base]/Patient/[id]/$everything to return data for all the US Core
  [include]: http://build.fhir.org/search.html#include
  [contained]: http://build.fhir.org/references.html#contained
  [Medication]:http://build.fhir.org/medication.html
-"></documentation>
-
+"/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -1457,9 +1459,11 @@ URL defintion [base]/Patient/[id]/$everything to return data for all the US Core
 				<code value="vread"/>
 				<documentation value="Allows retrieval of a historical version of a US Core medicationrequest instance"/>
 			</interaction>
-						<searchInclude value="MedicationRequest.medicationReference"><extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+			<searchInclude value="MedicationRequest.medicationReference">
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="MAY"/>
-				</extension></searchInclude>
+				</extension>
+			</searchInclude>
 			<searchParam>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -1635,11 +1639,17 @@ URL defintion [base]/Patient/[id]/$everything to return data for all the US Core
 				<type value="date"/>
 			</searchParam>
 		</resource>
+<!--		
 		<operation>
+			<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+				<valueCode value="MAY"/>
+			</extension>
 			<name value="patient-everything"/>
 			<definition>
 				<reference value="http://hl7.org/fhir/OperationDefinition/patient-everything"/>
 			</definition>
 		</operation>
-	</rest>
+		
+-->	
+</rest>
 </CapabilityStatement>
