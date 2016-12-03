@@ -102,7 +102,7 @@ Example of translation of NDC vaccine code to CVX code.
         ]
       },
 
-####  Guidance on using UCUM codes in the [Quantity] datatype
+####  Using UCUM in the [Quantity] datatype
 
 The [US Core Vital Signs Profile] and [US Core Result Observation Profile] require using [UCUM] units. This guidance specifies how to represent the Quantity datatype when the ccorrect UCUM units are missing or the units are missing altogether which will likely occur in the real world.  If the wrong UCUM units are used for the vitals signs listed in the Vital Signs Profile, that should lead to a validation failure.
 

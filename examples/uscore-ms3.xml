@@ -18,8 +18,7 @@
  -->
 				<id value="ms3"/>
 				<meta>
-					<versionId value="1"/>
-					<lastUpdated value="2016-11-29T20:32:59Z"/>
+					<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
 				</meta>
 				<status value="active"/>
 				<!--   either a code or a reference to the medication being prescribed. As described earlier, this could be contained, separately
@@ -40,6 +39,28 @@
 		</resource>
 		<search>
 			<mode value="match"/>
+		</search>
+	</entry>
+		<entry>
+		<fullUrl value="/Medication/uscore-med2"/>
+		<resource>
+			<Medication xmlns="http://hl7.org/fhir">
+				<id value="uscore-med2"/>
+				<meta>
+					<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
+				</meta>
+				<code>
+					<coding>
+						<system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+						<code value="582620"/>
+						<display value="Nizatidine 15 MG/ML Oral Solution [Axid]"/>
+					</coding>
+					<text value="Nizatidine 15 MG/ML Oral Solution [Axid]"/>
+				</code>
+			</Medication>
+		</resource>
+		<search>
+			<mode value="include"/>
 		</search>
 	</entry>
 </Bundle>
