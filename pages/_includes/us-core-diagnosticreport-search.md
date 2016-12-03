@@ -43,7 +43,7 @@
 
 **Example:**
 
-GET http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB
+[GET http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB](http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB)
 
 -----------
 
@@ -65,12 +65,12 @@ GET http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB
 **Example:**
 Search for all metabolic panel reports for a patient
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/DiagnosticReport?patient=1032702&code=24323-8
+[GET https://fhir-open-api-dstu2.smarthealthit.org/DiagnosticReport?patient=1032702&code=24323-8](https://fhir-open-api-dstu2.smarthealthit.org/DiagnosticReport?patient=1032702&code=24323-8)
 
 **Example:**
 Search for all cbc, metabolic panel, and urinalysis panels for a patient
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/DiagnosticReport?patient=1032702&code=24323-8,58410-2,24356-8
+[GET https://fhir-open-api-dstu2.smarthealthit.org/DiagnosticReport?patient=1032702&code=24323-8,58410-2,24356-8](https://fhir-open-api-dstu2.smarthealthit.org/DiagnosticReport?patient=1032702&code=24323-8,58410-2,24356-8)
 
 
 -----------
@@ -93,7 +93,7 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/DiagnosticReport?patient=10327
 **Example:**
 Find all the lab reports issued after 2010-01-14
 
-GET http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB&date=ge2010-01-14
+[GET http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB&date=ge2010-01-14](http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB&date=ge2010-01-14)
 
 
   [(how to search by reference)]: http://hl7.org/fhir/DSTU2/search.html#reference

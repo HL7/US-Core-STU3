@@ -34,7 +34,7 @@
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Immunization?patient=1032702
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Immunization?patient=1032702](https://fhir-open-api-dstu2.smarthealthit.org/Immunization?patient=1032702)
 
 
   [(how to search by reference)]: http://hl7.org/fhir/DSTU2/search.html#reference

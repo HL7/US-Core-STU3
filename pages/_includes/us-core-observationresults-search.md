@@ -43,7 +43,7 @@
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&category=laboratory
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&category=laboratory](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&category=laboratory)
 
 -----------
 
@@ -65,12 +65,12 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&ca
 **Example:**
 Search for all blood glucose lab results for a patient:
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0)
 
 **Example:**
 Search for all blood glucose, urine glucose and urine ketones for a patient
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0,25428-4,2514-8
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0,25428-4,2514-8](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0,25428-4,2514-8)
 
 -----------
 
@@ -94,7 +94,7 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&co
 **Example:**
 Find all the laboratory results after 2013-03-14
 
-GET http://fhir2.healthintersections.com.au/open/Observation?patient=555580&category=laboratory&date=ge2015-01-14
+[GET http://fhir2.healthintersections.com.au/open/Observation?patient=555580&category=laboratory&date=ge2015-01-14](http://fhir2.healthintersections.com.au/open/Observation?patient=555580&category=laboratory&date=ge2015-01-14)
 
   [(how to search by reference)]: http://hl7.org/fhir/DSTU2/search.html#reference
   [(how to search by token)]: http://hl7.org/fhir/DSTU2/search.html#token

@@ -36,7 +36,6 @@
 *Example:*
 
 [GET https://fhir-open-api-dstu2.smarthealthit.org/Procedure?patient=1291938](https://fhir-open-api-dstu2.smarthealthit.org/Procedure?patient=1291938)
-
 -----------
 
 

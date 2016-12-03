@@ -30,7 +30,7 @@
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702](https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702)
 
 -----------
 
@@ -52,7 +52,7 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&clinicalstatus=active,relapse,remission
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&clinicalstatus=active,relapse,remission](https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&clinicalstatus=active,relapse,remission)
 
 -----------
 `GET /Condition?patient=[id]&category=problem`
@@ -72,7 +72,7 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&clin
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&category=problem
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&category=problem](https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&category=problem)
 
 -----------
 
@@ -93,7 +93,7 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&cate
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&category=health-concern
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&category=health-concern](https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&category=health-concern)
 
 -----------
 

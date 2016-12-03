@@ -24,15 +24,18 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 1.  a prescriber
 
 
-
 **Profile specific implementation guidance:**
 
-*  The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or reference to a [Medication] resource.  The server application can choose one way or both methods,  but the client application must support both methods.  More specific guidance is provided in the [conformance](conformance.html) resource for this profile
+*  The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a [Medication] resource.
+    *  When referencing a Medication resource,  the resource may be [contained] or an external resource.
+    *  The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the [include] parameter for searching this element.
+    *  The client application must support both methods.  
+    *  Additional guidance is provided below in the Search section and in the [CapabilityStatement] section.
 
 #### Examples
 
 - [MedicationRequest-uscore-mo1](MedicationRequest-uscore-mo1.html) This example uses an inline medication code to represent the medication.
-- [MedicationRequest-uscore-mo2](MedicationRequest-uscore-mo2.html)  This example references a [contained(http://build.fhir.org/references.html#contained) Medication resource.
+- [MedicationRequest-uscore-mo2](MedicationRequest-uscore-mo2.html)  This example references a [contained](http://build.fhir.org/references.html#contained) Medication resource.
 - [MedicationRequest-uscore-mo3](Bundle-uscore-mo3.html) This example is a search [Bundle](http://build.fhir.org/bundle.html) with a MedicationRequest and an included Medication resource in the Bundle.
 
   [Medication Clinical Drug (RxNorm)]: valueset-us-core-medication-codes.html
@@ -41,5 +44,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 [MedicationStatement]:http://build.fhir.org/medicationstatement.html
  [MedicationRequest]: http://build.fhir.org/medicationrequest.html
  [Medication]:http://build.fhir.org/medication.html
- [Conformance]: us-core-medicationstatement-conformance.html
+ [CapabilityStatement]: capstmnts.html
  [boundaries section]: http://build.fhir.org/medicationrequest.html#bnr
+ [include]: http://build.fhir.org/search.html#include
+ [contained]: http://build.fhir.org/references.html#contained

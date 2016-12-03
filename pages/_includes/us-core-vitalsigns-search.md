@@ -43,7 +43,7 @@
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&category=vital-signs
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&category=vital-signs](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&category=vital-signs)
 
 
 -----------
@@ -65,12 +65,12 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&ca
 **Example:**
 Search for all heart rate observations for a patient:
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&code=8867-4
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&code=8867-4](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&code=8867-4)
 
 **Example:**
 Search for all heart rate, respiratory rate and blood pressure observations for a patient
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&code=8867-4,9279-1,55284-4
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&code=8867-4,9279-1,55284-4](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&code=8867-4,9279-1,55284-4)
 
 
 -----------
@@ -92,7 +92,7 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&co
 **Example:**
 Find all the blood pressures after 2013-03-14
 
-GET http://fhir2.healthintersections.com.au/open/Observation?patient=555580&code=55284-4&date=ge2015-01-14
+[GET http://fhir2.healthintersections.com.au/open/Observation?patient=555580&code=55284-4&date=ge2015-01-14](http://fhir2.healthintersections.com.au/open/Observation?patient=555580&code=55284-4&date=ge2015-01-14)
 
 --------
 

@@ -36,7 +36,7 @@
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192](https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192)
 
 -----------
 
@@ -57,9 +57,9 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192&date=ge2015-01-14
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192&date=ge2015-01-14](https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192&date=ge2015-01-14)
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192&date=ge2015-01-14&date=le2016-01-14
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192&date=ge2015-01-14&date=le2016-01-14](https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192&date=ge2015-01-14&date=le2016-01-14)
 
 
   [(how to search by reference)]: http://hl7.org/fhir/DSTU2/search.html#reference

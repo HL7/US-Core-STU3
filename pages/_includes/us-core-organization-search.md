@@ -63,7 +63,7 @@
 
 [GET https://fhir-open-api-dstu2.smarthealthit.org/Organization?name=Health](https://fhir-open-api-dstu2.smarthealthit.org/Organization?name=Health)
 
------------
+-----
 
 
 **GET [base]/Organization?address=[string]**
@@ -84,7 +84,6 @@
 [GET https://fhir-open-api-dstu2.smarthealthit.org/Organization?address=Arbor](https://fhir-open-api-dstu2.smarthealthit.org/Organization?address=Arbor)
 
 [GET https://fhir-open-api-dstu2.smarthealthit.org/Organization?address-postalcode=48104](https://fhir-open-api-dstu2.smarthealthit.org/Organization?address-postalcode=48104)
-
 
   [(how to search by reference)]: http://hl7.org/fhir/DSTU2/search.html#reference
   [(how to search by token)]: http://hl7.org/fhir/DSTU2/search.html#token

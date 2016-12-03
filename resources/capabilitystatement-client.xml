@@ -782,11 +782,55 @@
 				<documentation value="Allows retrieval of a historical version of a US Core resultobs instance"/>
 			</interaction>
 		</resource>
+				<resource>
+			<type value="Medication"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/us/core/us-core-medication.html"/>
+			</profile>
+			<documentation value="The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a [Medication] resource.  If the Medication Resource is used in a MedicationStatement or a MedicationRequest,  then the READ and SEARCH Criteria **SHALL** be supported."/>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="IF the Medication Resource is used in a MedicationStatement or a MedicationRequest.   Allows discovery of existing US Core Medication resources using different search criteria."/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="IF the Medication Resource is used in a MedicationStatement or a MedicationRequest.  Allows retrieval of a specific US Core Medication by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core Medication instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core Medication instance"/>
+			</interaction>
+		</resource>
 		<resource>
 			<type value="MedicationStatement"/>
 			<profile>
 				<reference value="http://hl7.org/fhir/current/daf/daf-core-medicationstatement.html"/>
 			</profile>
+			<documentation value="The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a [Medication] resource.
+  *  When referencing a Medication resource,  the resource may be [contained] or an external resource.
+  *  The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the [include] parameter for searching this element.
+  *  The client application must support both methods. 
+    
+ [include]: http://build.fhir.org/search.html#include
+ [contained]: http://build.fhir.org/references.html#contained
+ [Medication]:http://build.fhir.org/medication.html
+"></documentation>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHOULD"/>
@@ -821,6 +865,15 @@
 			<profile>
 				<reference value="http://hl7.org/fhir/current/daf/daf-core-medicationorder.html"/>
 			</profile>
+			<documentation value="The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a [Medication] resource.
+  *  When referencing a Medication resource,  the resource may be [contained] or an external resource.
+  *  The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the [include] parameter for searching this element.
+  *  The client application must support both methods. 
+    
+ [include]: http://build.fhir.org/search.html#include
+ [contained]: http://build.fhir.org/references.html#contained
+ [Medication]:http://build.fhir.org/medication.html
+"></documentation>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHOULD"/>

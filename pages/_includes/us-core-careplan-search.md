@@ -45,7 +45,7 @@
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan
+[GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan)](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan)
 
 -----------
 
@@ -66,9 +66,9 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&categ
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14
+[GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14)](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14)
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14&date=le2016-01-14
+[GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14&date=le2016-01-14](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14&date=le2016-01-14)](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14&date=le2016-01-14](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14&date=le2016-01-14)
 
 -----------
 
@@ -89,7 +89,7 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&categ
 
 **Example:**
 
- GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&status=active
+ [GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&status=active](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&status=active)
 
 
 -----------
@@ -110,7 +110,7 @@ GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&categ
 
 **Example:**
 
- GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&datatus=active&date=ge2015-01-14
+ [GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&datatus=active&date=ge2015-01-14](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&datatus=active&date=ge2015-01-14)
 
 
 

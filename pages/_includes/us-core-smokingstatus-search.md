@@ -32,7 +32,7 @@
 
 **Example:**
 
-GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1032702&code=72166-2
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1032702&code=72166-2](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1032702&code=72166-2)
 
 
   [(how to search by reference)]: http://hl7.org/fhir/DSTU2/search.html#reference
