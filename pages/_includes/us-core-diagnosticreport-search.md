@@ -96,7 +96,7 @@ Find all the lab reports issued after 2010-01-14
 [GET http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB&date=ge2010-01-14](http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB&date=ge2010-01-14)
 
 
-  [(how to search by reference)]: http://hl7.org/fhir/DSTU2/search.html#reference
-  [(how to search by token)]: http://hl7.org/fhir/DSTU2/search.html#token
+  [(how to search by reference)]: http://build.fhir.org/search.html#reference
+  [(how to search by token)]: http://build.fhir.org/search.html#token
   [Composite Search Parameters]: http://build.fhir.org/search.html#combining
-  [(how to search by date)]: http://hl7.org/fhir/DSTU2/search.html#date
+  [(how to search by date)]: http://build.fhir.org/search.html#date

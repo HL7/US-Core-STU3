@@ -1249,7 +1249,7 @@
     <Cell><Data ss:Type="String">Committee Notes - issues</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45">
-    <Cell ss:StyleID="s92"><Data ss:Type="String">US CoreSmokingStatus</Data><NamedCell
+    <Cell ss:StyleID="s92"><Data ss:Type="String">USCoremokingStatus</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1293,7 +1293,7 @@
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s106"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s106"><Data ss:Type="String">US CoreObsStatus</Data><NamedCell
+    <Cell ss:StyleID="s106"><Data ss:Type="String">USCorebsStatus</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -9141,7 +9141,7 @@
     <Cell ss:StyleID="s134"><Data ss:Type="String">Value Set: Smoking Status 2.16.840.1.113883.11.20.9.38 STATIC 2012-07-01  Code System(s):  SNOMED CT 2.16.840.1.113883.6.96 </Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s106"><Data ss:Type="String">US CoreObsStatus</Data></Cell>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">USCorebsStatus</Data></Cell>
     <Cell ss:StyleID="s106"/>
     <Cell ss:StyleID="s136"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">required</Data></Cell>

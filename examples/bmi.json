@@ -27,7 +27,7 @@
     "reference": "patient-example.html","display": "Amy Shaw"
   },
   "encounter": {
-    "reference": "#.html","display": "GP Visit"
+    "display": "GP Visit"
 
 
   },

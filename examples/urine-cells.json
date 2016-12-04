@@ -35,13 +35,13 @@
     "low": {
       "value": 1,
       "unit": "cells/HPF",
-      "system": " http://unitsofmeasure.org",
+      "system": "http://unitsofmeasure.org",
       "code": "/[HPF]"
     },
     "high": {
       "value": 5,
       "unit": "cells/HPF",
-      "system": " http://unitsofmeasure.org",
+      "system": "http://unitsofmeasure.org",
       "code": "/[HPF]"
     }
   },

@@ -2,13 +2,10 @@
 
 1.  Conditionally One clinical status in `Condition.clinicalStatus`
     -   [Invariants]
-    -   Condition.clinicalStatus is bound to [Condition Clinical Status Codes] value set
-1.  One code in `Condition.verificationStatus`
-    -   Condition.clnicalStatus is bound to [ConditionVerificationStatus] value set
-1.  At least on code in `Condition.category`
-    -   Condition.clnicalStatus is bound to [[US Core Condition Category Codes] value set
-1.  One Identification of the problem or health concern in `Condition.code`which has an [extensible](http://build.fhir.org/terminologies.html#extensible) binding to:
-    -   [Problem Value Set] value set.
+    -   Condition.clinicalStatus is bound to [Condition Clinical Status Codes]
+1.  One code in `Condition.verificationStatus` which is bound to [ConditionVerificationStatus] value set
+1.  At least on code in `Condition.category` which has an [extensible](http://build.fhir.org/terminologies.html#extensible) binding to [US Core Condition Category Codes] value set
+1.  One Identification of the problem or health concern in `Condition.code` which has an [extensible](http://build.fhir.org/terminologies.html#extensible) binding to [Problem Value Set]
 1.  One patient reference in `Condition.patient`
 
 

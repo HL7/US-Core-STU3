@@ -203,7 +203,7 @@ In order to manage the number of search results returned, the server may choose 
   [FHIR RESTful API]: http://build.fhir.org/DSTU2/http.html
   [Searching]: http://build.fhir.org/search.html
   [Issue \#39]: https://github.com/argonautproject/implementation-program/issues/39
-  [compartment]: http://build.fhir.org/DSTU2/compartments.html#compartments
+  [compartment]: http://build.fhir.org/compartmentdefinition.html
   [core specification]: http://build.fhir.org/extensibility.html#2.20.0.2.2
   [DataAbsentReason Extension]: http://build.fhir.org/extension-data-absent-reason.html
   [http://build.fhir.org/StructureDefinition/data-absent-reason]: http://build.fhir.org/StructureDefinition/data-absent-reason

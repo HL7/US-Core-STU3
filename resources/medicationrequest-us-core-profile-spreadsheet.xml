@@ -1213,7 +1213,7 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">US CoreMedicationRequest</Data><NamedCell
+    <Cell ss:StyleID="s94"><Data ss:Type="String">USCoreedicationRequest</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1256,7 +1256,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s108"><Data ss:Type="String">US CoreMedicationRequestStatus</Data><NamedCell
+    <Cell ss:StyleID="s108"><Data ss:Type="String">USCoreedicationRequestStatus</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1287,7 +1287,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s108"><Data ss:Type="String">US CoreMedications</Data><NamedCell
+    <Cell ss:StyleID="s108"><Data ss:Type="String">USCoreedications</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8508,7 +8508,7 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">US CoreMedications</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">USCoreedications</Data></Cell>
     <Cell ss:StyleID="s97"><Data ss:Type="String">Prescribable medications</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s139"><Data ss:Type="String">extensible</Data></Cell>
@@ -8521,7 +8521,7 @@
     <Cell ss:StyleID="s137"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s108"><Data ss:Type="String">US CoreMedicationRequestStatus</Data></Cell>
+    <Cell ss:StyleID="s108"><Data ss:Type="String">USCoreedicationRequestStatus</Data></Cell>
     <Cell ss:StyleID="s157"><Data ss:Type="String">A code specifying the state of the prescribing event. Describes the lifecycle of the prescription.</Data></Cell>
     <Cell ss:StyleID="s139"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s139"><Data ss:Type="String">required</Data></Cell>

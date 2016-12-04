@@ -28,7 +28,7 @@
 
 2. RxNorm codes limited to term types (TTY) , 'BN' Brand Name, 'IN' ingredient, 'MIN' multiple ingredient, and 'PIN' precise ingredient for drug ingredient allergies
 
-3. SNOMED CT if no other code from above code systems are available
+3. SNOMED CT including concepts from SCTID 716186003 No Known allergy (situation) and if no other code from above code systems are available
 "/>
 	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
 	<compose>
@@ -41,6 +41,7 @@
 		<include>
       <valueSet value="http://hl7.org/fhir/us/core/ValueSet/us-core-substance-sct"/>
     </include>
+<!--    
 		<include>
 			<system value="http://snomed.info/sct"/>
 			<concept>
@@ -60,5 +61,7 @@
 				<display value="No Known Environmental Allergy"/>
 			</concept>
 		</include>
-	</compose>
+
+-->	
+</compose>
 </ValueSet>

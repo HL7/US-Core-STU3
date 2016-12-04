@@ -7,7 +7,8 @@
 			<h2>US Core  Server</h2>
 			<p>(Requirements Definition)</p>
 			<p>Published: 2016-08-10 (draft)</p>
-			<p>Published by: <b>U.S. Office of the National Coordinator (ONC)</b></p>
+			<p>Published by: <b>U.S. Office of the National Coordinator (ONC)</b>
+			</p>
 			<p>This profile defines the expected capabilities of the US Core  Server actor when conforming to the US-Core IG  The statement includes the complete list of actual profiles, RESTful operations, search parameters supported by US Core Servers. US Core Requesters have the option of choosing from this list to access necessary data based on their local use cases and other contextual requirements.</p>
 			<h2>General</h2>
 			<table>
@@ -427,7 +428,8 @@
 			<br/>
 			<br/>
 			<h3>Patient</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-patient.html">US CORE PATIENT</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-patient.html">US CORE PATIENT</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -534,7 +536,8 @@
 			<br/>
 			<br/>
 			<h3>AllergyIntolerance</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-allergyintolerance.html">US CORE ALLERGYINTOLERANCE</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-allergyintolerance.html">US CORE ALLERGYINTOLERANCE</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -609,7 +612,8 @@
 			<br/>
 			<br/>
 			<h3>CarePlan</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-careplan.html">US CORE CAREPLAN</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-careplan.html">US CORE CAREPLAN</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -704,7 +708,8 @@
 			<br/>
 			<br/>
 			<h3>CareTeam</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-careteam.html">US CORE CARETEAM</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-careteam.html">US CORE CARETEAM</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -775,12 +780,6 @@
 						<td/>
 					</tr>
 					<tr>
-						<th>category</th>
-						<td>SHALL</td>
-						<td>token</td>
-						<td/>
-					</tr>
-					<tr>
 						<th>status</th>
 						<td>SHALL</td>
 						<td>token</td>
@@ -791,7 +790,8 @@
 			<br/>
 			<br/>
 			<h3>Condition</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-condition.html">US CORE CONDITION</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-condition.html">US CORE CONDITION</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -878,7 +878,8 @@
 			<br/>
 			<br/>
 			<h3>Device</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-device.html">US CORE DEVICE</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-device.html">US CORE DEVICE</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -953,7 +954,8 @@
 			<br/>
 			<br/>
 			<h3>Goal</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-Goal.html">US CORE GOAL</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-Goal.html">US CORE GOAL</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -1036,7 +1038,8 @@
 			<br/>
 			<br/>
 			<h3>Immunization</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-immunization.html">US CORE IMMUNIZATION</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-immunization.html">US CORE IMMUNIZATION</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -1111,7 +1114,8 @@
 			<br/>
 			<br/>
 			<h3>DiagnosticReport</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-diagnosticreport.html">US CORE DIAGNOSTICREPORT</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-diagnosticreport.html">US CORE DIAGNOSTICREPORT</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -1206,7 +1210,8 @@
 			<br/>
 			<br/>
 			<h3>Observation</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-observationresults.html">US CORE OBSERVATIONRESULTS</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-observationresults.html">US CORE OBSERVATIONRESULTS</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -1301,7 +1306,8 @@
 			<br/>
 			<br/>
 			<h3>Medication</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-medication.html">US CORE MEDICATION</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-medication.html">US CORE MEDICATION</a>
+			</p>
 			<p>The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.  If the Medication Resource is used in a MedicationStatement or a MedicationRequest,  then the READ and SEARCH Criteria  <b>SHALL</b> be supported.</p>
 			<h4>Interactions</h4>
 			<table class="list">
@@ -1358,7 +1364,8 @@
 			<br/>
 			<br/>
 			<h3>MedicationStatement</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-medicationstatement.html">US CORE MEDICATIONSTATEMENT</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-medicationstatement.html">US CORE MEDICATIONSTATEMENT</a>
+			</p>
 			<p>    The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.    When referencing a Medication resource,  the resource may be <a href="http://build.fhir.org/references.html#contained">contained</a> or an external resource.   The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the <a href="http://build.fhir.org/search.html#include">include</a> parameter for searching this element.   The client application must support both methods.</p>
 			<h4>Interactions</h4>
 			<table class="list">
@@ -1435,7 +1442,8 @@
 			<br/>
 			<br/>
 			<h3>MedicationRequest</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-medicationrequest.html">US CORE MEDICATIONREQUEST</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-medicationrequest.html">US CORE MEDICATIONREQUEST</a>
+			</p>
 			<p>    The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.    When referencing a Medication resource,  the resource may be <a href="http://build.fhir.org/references.html#contained">contained</a> or an external resource.   The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the <a href="http://build.fhir.org/search.html#include">include</a> parameter for searching this element.   The client application must support both methods.</p>
 			<h4>Interactions</h4>
 			<table class="list">
@@ -1512,7 +1520,8 @@
 			<br/>
 			<br/>
 			<h3>Observation</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-smokingstatus.html">US CORE SMOKINGSTATUS</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-smokingstatus.html">US CORE SMOKINGSTATUS</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -1593,7 +1602,8 @@
 			<br/>
 			<br/>
 			<h3>Observation</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-vitalsigns.html">US CORE VITALSIGNS</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-vitalsigns.html">US CORE VITALSIGNS</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -1688,7 +1698,8 @@
 			<br/>
 			<br/>
 			<h3>Procedure</h3>
-			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-procedure.html">US CORE PROCEDURE</a></p>
+			<p>Profile: <a href="http://hl7.org/fhir/us/core/structuredefinition-us-core-procedure.html">US CORE PROCEDURE</a>
+			</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -1770,7 +1781,6 @@
 			</table>
 		</div>
 	</text>
-	
 	<name value="US Core  Server"/>
 	<status value="draft"/>
 	<date value="2016-08-10"/>
@@ -2088,14 +2098,6 @@
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
 				</extension>
-				<name value="category"/>
-				<definition value="http://hl7.org/fhir/SearchParameter/CareTeam-Category"/>
-				<type value="token"/>
-			</searchParam>
-			<searchParam>
-				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
-					<valueCode value="SHALL"/>
-				</extension>
 				<name value="status"/>
 				<definition value="http://hl7.org/fhir/SearchParameter/CareTeam-Status"/>
 				<type value="token"/>
@@ -2357,73 +2359,6 @@
 				</extension>
 				<name value="date"/>
 				<definition value="http://hl7.org/fhir/SearchParameter/DiagnosticReport-Date"/>
-				<type value="date"/>
-				<documentation value="The server SHALL support the [http://build.fhir.org/search.html#prefix date search modifiers] 'ge','le','eq' for this profile"/>
-			</searchParam>
-		</resource>
-		<resource>
-			<type value="Observation"/>
-			<profile>
-				<reference value="http://hl7.org/fhir/us/core/structuredefinition-us-core-observationresults.html"/>
-			</profile>
-			<interaction>
-				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
-					<valueCode value="SHALL"/>
-				</extension>
-				<code value="search-type"/>
-				<documentation value="Allows discovery of existing US Core observation results resources using different search criteria"/>
-			</interaction>
-			<interaction>
-				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
-					<valueCode value="SHALL"/>
-				</extension>
-				<code value="read"/>
-				<documentation value="Allows retrieval of a specific US Core observation results by id"/>
-			</interaction>
-			<interaction>
-				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
-					<valueCode value="SHOULD"/>
-				</extension>
-				<code value="history-instance"/>
-				<documentation value="Allows review of changes to US Core observation results instance over time"/>
-			</interaction>
-			<interaction>
-				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
-					<valueCode value="SHOULD"/>
-				</extension>
-				<code value="vread"/>
-				<documentation value="Allows retrieval of a historical version of a US Core observation results instance"/>
-			</interaction>
-			<searchParam>
-				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
-					<valueCode value="SHALL"/>
-				</extension>
-				<name value="patient"/>
-				<definition value="http://hl7.org/fhir/SearchParameter/Observation-Patient"/>
-				<type value="reference"/>
-			</searchParam>
-			<searchParam>
-				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
-					<valueCode value="SHALL"/>
-				</extension>
-				<name value="category"/>
-				<definition value="http://hl7.org/fhir/SearchParameter/Observation-Category"/>
-				<type value="token"/>
-			</searchParam>
-			<searchParam>
-				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
-					<valueCode value="SHALL"/>
-				</extension>
-				<name value="code"/>
-				<definition value="http://hl7.org/fhir/SearchParameter/Observation-Code"/>
-				<type value="token"/>
-			</searchParam>
-			<searchParam>
-				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
-					<valueCode value="SHALL"/>
-				</extension>
-				<name value="date"/>
-				<definition value="http://hl7.org/fhir/SearchParameter/Observation-Date"/>
 				<type value="date"/>
 				<documentation value="The server SHALL support the [http://build.fhir.org/search.html#prefix date search modifiers] 'ge','le','eq' for this profile"/>
 			</searchParam>

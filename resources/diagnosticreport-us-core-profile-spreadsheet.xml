@@ -1196,7 +1196,7 @@
     <Cell ss:StyleID="s93"/>
     <Cell ss:StyleID="s94"/>
     <Cell ss:StyleID="s94"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">US CoreDiagnosticReport</Data><NamedCell
+    <Cell ss:StyleID="s95"><Data ss:Type="String">USCoreiagnosticReport</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s96"><Data ss:Type="String">DiagnosticReport</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1239,7 +1239,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s108"><Data ss:Type="String">US CoreDRStatus</Data><NamedCell
+    <Cell ss:StyleID="s108"><Data ss:Type="String">USCoreRStatus</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1302,7 +1302,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s108"><Data ss:Type="String">US CoreDRCode</Data><NamedCell
+    <Cell ss:StyleID="s108"><Data ss:Type="String">USCoreRCode</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5967,7 +5967,7 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s108"><Data ss:Type="String">US CoreDRCode</Data></Cell>
+    <Cell ss:StyleID="s108"><Data ss:Type="String">USCoreRCode</Data></Cell>
     <Cell ss:StyleID="s158"><Data ss:Type="String">LOINC codes</Data></Cell>
     <Cell ss:StyleID="s140"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s137"><Data ss:Type="String">extensible</Data></Cell>
@@ -5982,7 +5982,7 @@
     <Cell ss:StyleID="s141"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s106"><Data ss:Type="String">US CoreDRStatus</Data></Cell>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">USCoreRStatus</Data></Cell>
     <Cell ss:StyleID="s108"/>
     <Cell ss:StyleID="s140"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s140"><Data ss:Type="String">required</Data></Cell>

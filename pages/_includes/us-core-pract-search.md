@@ -58,7 +58,7 @@
 
 [GET https://fhir-open-api-dstu2.smarthealthit.org/Practitioner?family=Smith&given=John](https://fhir-open-api-dstu2.smarthealthit.org/Practitioner?family=Smith&given=John)
 
-  [(how to search by reference)]: http://hl7.org/fhir/DSTU2/search.html#reference
-  [(how to search by token)]: http://hl7.org/fhir/DSTU2/search.html#token
- [(how to search by date)]: http://hl7.org/fhir/DSTU2/search.html#date
- [(how to search by string)]: http://hl7.org/fhir/DSTU2/search.html#string
+  [(how to search by reference)]: http://build.fhir.org/search.html#reference
+  [(how to search by token)]: http://build.fhir.org/search.html#token
+ [(how to search by date)]: http://build.fhir.org/search.html#date
+ [(how to search by string)]: http://build.fhir.org/search.html#string

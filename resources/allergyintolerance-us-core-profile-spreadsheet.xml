@@ -1216,7 +1216,7 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s96"><Data ss:Type="String">US CoreAllergyIntolerance</Data><NamedCell
+    <Cell ss:StyleID="s96"><Data ss:Type="String">USCorellergyIntolerance</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s97"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s97"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1325,7 +1325,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s110"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s110"><Data ss:Type="String">US CoreAllergySubstance</Data><NamedCell
+    <Cell ss:StyleID="s110"><Data ss:Type="String">USCorellergySubstance</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s110"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s110"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8878,7 +8878,7 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s107"><Data ss:Type="String">US CoreAllergySubstance</Data></Cell>
+    <Cell ss:StyleID="s107"><Data ss:Type="String">USCorellergySubstance</Data></Cell>
     <Cell ss:StyleID="s110"/>
     <Cell ss:StyleID="s139"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s139"><Data ss:Type="String">extensible</Data></Cell>
