@@ -1283,9 +1283,9 @@
     <Cell ss:StyleID="s97"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s97"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s97"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">US Core Implantable Devices/UDI Profile</Data><NamedCell
+    <Cell ss:StyleID="s96"><Data ss:Type="String">US Core Implanted Device Profile</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">The US Core Implantable Devices/UDI Profile is based upon the core FHIR Device Resource and created to meet the 2015 Edition Common Clinical Data Set 'Unique device identifier(s) for a patient’s implantable device(s)' requirements.</Data><NamedCell
+    <Cell ss:StyleID="s96"><Data ss:Type="String">The US Core Implanted Device Profile is based upon the core FHIR Device Resource and created to meet the 2015 Edition Common Clinical Data Set 'Unique device identifier(s) for a patient’s implantable device(s)' requirements.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s96"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>

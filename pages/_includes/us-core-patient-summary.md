@@ -22,8 +22,8 @@
 Additionally your system must return:
 
 1.  A date of birth in `Patient.birthDate`
-2.  One or more languages spoken in `Patient.communication.language` which has an [required](http://build.fhir.org/terminologies.html#required) binding to:
-    -    [Common Languages]
+2.  One or more languages spoken in `Patient.communication.language` which has an [extensible](http://build.fhir.org/terminologies.html#extensible) binding to:
+    -    [Common Languages] with the extensbility limited to [All Languages]
 3.  One or more race codes in  `Patient.extension`= [US Core Race Extension] which:
     - Must include at least one code from [OMB Race Categories]
     - May include additional race codes from [CDC Race Codes]
@@ -39,6 +39,7 @@ Additionally your system must return:
   [Patient.birthDate]: http://hl7.org/fhir/us/daf/daf-patient-definitions.html#daf-patient.Patient.birthDate
   [Patient.communication.language]: http://hl7.org/fhir/us/daf/daf-patient-definitions.html#daf-patient.Patient.communication.language
   [Common Languages]: http://build.fhir.org/valueset-languages.html
+  [All Languages]: http://build.fhir.org/valueset-all-languages.html
   [US Core Patient Birth Sex]: structuredefinition-us-core-birthsex.html
   [US Core Birth Sex]: valueset-us-core-birthsex.html
   [US Core Patient Race]:  structuredefinition-us-core-race.html
