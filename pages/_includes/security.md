@@ -1,6 +1,6 @@
 ﻿
 
-### General Security Considerations
+## General Security Considerations
 
 US-Core transactions often make use of patient-specific information which could be exploited by malicious actors resulting in exposure of patient data. For this reason, all US-Core transactions must be secured appropriately with access to limited authorized individuals, data protected in transit, and appropriate audit measures taken.
 

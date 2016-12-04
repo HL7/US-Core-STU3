@@ -1,9 +1,11 @@
+﻿
+
 ## Definitions, Interpretations and Requirements common to all US-Core actors
 
 This section outlines important definitions and interpretations used in the US-Core IG.
 The conformance verbs used are defined in [FHIR Conformance Rules].
 
-#### Must Support
+### Must Support
 In the context of US-Core, Supported on any data element SHALL be interpreted as follows:
 
 * US-Core Responders SHALL be capable of including the data element as part of the query results as specified by the US-Core conformance resources.
@@ -18,11 +20,11 @@ In the context of US-Core, Supported on any data element SHALL be interpreted as
 * NOTE: Readers are advised to understand [FHIR Terminology] requirements, [FHIR RESTful API] based on the [HTTP] protocol, along with [FHIR Data Types], [FHIR Search] and [FHIR Resource] formats before implementing US-Core requirements.
 
 
-#### Extensible binding for CodeableConcept Datatype
+### Extensible binding for CodeableConcept Datatype
 
 Extensible binding to a value set definition for this IG means that if the data type is CodeableConcept, then one of the coding values SHALL be from the specified value set if a code applies, but if no suitable code exists in the value set, alternate code(s) may be provided in its place. **If only text available, then just text may be used.**
 
-#### Required binding for Code and CodeableConcept Datatype
+### Required binding for Code and CodeableConcept Datatype
 
 Required binding to a value set definition for this IG means that one of the codes from the specified value set SHALL be used. For CodeableConcept you may have additional codings elements as translations as is discussed below. If only text is available or the local (proprietary, system) cannot be mapped to one of the required codes the The [core specification] provides guidance which we have summarized:
 
@@ -46,7 +48,7 @@ Example: AllergyIntolerance resource with a status that is text only or cannot b
      }
 
 
-#### Using multiple codes with CodeableConcept Datatype
+### Using multiple codes with CodeableConcept Datatype
 
 Atlernate codes may be provided in addition to the standards codes defined in required or extensible value sets. The alternate codes are called “translations”. These translations may be equivalent to or narrower in meaning to the standard concept code.
 
@@ -102,7 +104,7 @@ Example of translation of NDC vaccine code to CVX code.
         ]
       },
 
-####  Using UCUM in the [Quantity] datatype
+###  Using UCUM in the [Quantity] datatype
 
 The [US Core Vital Signs Profile] and [US Core Result Observation Profile] require using [UCUM] units. This guidance specifies how to represent the Quantity datatype when the ccorrect UCUM units are missing or the units are missing altogether which will likely occur in the real world.  If the wrong UCUM units are used for the vitals signs listed in the Vital Signs Profile, that should lead to a validation failure.
 
@@ -135,7 +137,7 @@ The [US Core Vital Signs Profile] and [US Core Result Observation Profile] requi
 ```
 
 
-#### Read(Fetch) resource notation:
+### Read(Fetch) resource notation:
 
 The interactions on IG page are defined like this:
 
@@ -151,7 +153,7 @@ The interactions on IG page are defined like this:
 
 For more information see the [FHIR RESTful API]
 
-#### Search Syntax
+### Search Syntax
 
 In the simplest case, a search is executed by performing a GET operation in the RESTful framework:
 
@@ -159,7 +161,7 @@ In the simplest case, a search is executed by performing a GET operation in the 
 
 For this RESTful search (see definition in RESTful API), the parameters are a series of name=\[value\] pairs encoded in the URL. The search parameter names are defined for each resource. For example the Observation resource the name “code” for search on the LOINC code. See [Searching] for more information about searching in REST, messaging, and services.
 
-#### Syntax for searches limited by patient
+### Syntax for searches limited by patient
 
 There are three ways to search for resources associated with a specific patient depending on the context and implementation. These three searches result in the same outcome.:
 
@@ -192,7 +194,7 @@ NOTE:
 
 -   In addition, US Core servers will not resolve full URLs that are external to their environment.
 
-#### Guidance on limiting the number of search results
+### Guidance on limiting the number of search results
 
 In order to manage the number of search results returned, the server may choose to return the results in a series of pages. The search result set contains the URLs that the client uses to request additional pages from the search set. For a simple RESTful search, the page links are contained in the returned bundle as links. See the [core specification] for more information
 
