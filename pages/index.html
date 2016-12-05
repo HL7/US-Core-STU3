@@ -1,5 +1,6 @@
 ---
 # jekyll header
+title: US Core Implementation Guide
 ---
 {% include header.html %}
 
@@ -13,7 +14,9 @@
 This is the Current Draft of the US-Core FHIR Implementation Guide. See the <a href="http://hl7.org/fhir/us/core/history.html">Directory of published versions <img src="external.png" style="text-align: baseline"></a>
 </p>
 
-    {% capture my-include %}{% include us-core-intro.md %}{% endcapture %}{{ my-include | markdownify }}
+<h2>{{ page.title }}</h2>
+
+{% capture my-include %}{% include us-core-intro.md %}{% endcapture %}{{ my-include | markdownify }}
 
 
 

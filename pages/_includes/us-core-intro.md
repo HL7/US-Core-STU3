@@ -1,4 +1,4 @@
-﻿## US Core Implementation Guide
+
 
 ## Introduction
 
