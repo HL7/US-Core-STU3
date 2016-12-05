@@ -1,4 +1,4 @@
-## US Core Implementation Guide
+﻿## US Core Implementation Guide
 
 ## Introduction
 
@@ -36,7 +36,7 @@ No| CCDS Data Element | FHR Resource
 (13) |  Vital signs | Observation
 (14) |  (no longer required) | -
 (15) |  Procedures | Procedure
-(16) |  Care team member(s) | CarePlan
+(16) |  Care team member(s) | CareTeam
 (17) |  Immunizations | Immunization
 (18) |  Unique device identifier(s) for a patient’s implantable device(s) | Device
 (19) |  Assessment and plan of treatment | CarePlan
