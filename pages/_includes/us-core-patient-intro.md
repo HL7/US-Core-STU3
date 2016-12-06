@@ -46,5 +46,5 @@ In addition, based upon the 2015 Edition Certification Requirements, the followi
 - [Patient-example](Patient-example.html)
 
 
-[Patient]: http://build.fhir.org/patient.html
+[Patient]: http://hl7.org/fhir/2017Jan/patient.html
 [Must Support]: definitions#extensible-binding-for-codeableconcept-datatype

@@ -21,6 +21,6 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 *  Since the binding is [extensible](definitions.html#extensible-binding-for-codeableconcept-datatype), when a code is unavailable just text is allowed.
 
-[MedicationStatement]: http://build.fhir.org/medicationstatement.html
- [MedicationRequest]: http://build.fhir.org/MedicationRequest.html
- [Medication]: http://build.fhir.org/medication.html
+[MedicationStatement]: http://hl7.org/fhir/2017Jan/medicationstatement.html
+ [MedicationRequest]: http://hl7.org/fhir/2017Jan/MedicationRequest.html
+ [Medication]: http://hl7.org/fhir/2017Jan/medication.html

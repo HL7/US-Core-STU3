@@ -24,4 +24,4 @@ When available the following must be sent:
 
 - [location-hl7east](location-hl7east.html)
 
-[Location]:  http://build.fhir.org/location.html
+[Location]:  http://hl7.org/fhir/2017Jan/location.html

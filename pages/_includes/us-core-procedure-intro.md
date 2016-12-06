@@ -33,10 +33,10 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 
 
-  [SNOMED CT]: http://build.fhir.org/ValueSet-procedure-code.html
-  [CPT-4/HCPC for procedures]: http://build.fhir.org/ValueSet-procedure-code.html
+  [SNOMED CT]: http://hl7.org/fhir/2017Jan/valueset-procedure-code.html
+  [CPT-4/HCPC for procedures]: http://hl7.org/fhir/2017Jan/valueset-procedure-code.html
   [ICD-10-PCS codes]: http://www.icd10data.com/icd10pcs
   [Code on Dental Procedures and Nomenclature (CDT Code)]: http://www.ada.org/en/publications/cdt/
-  [ProcedureStatus]: http://build.fhir.org/ValueSet-procedure-status.html
-  [Procedure]: http://build.fhir.org/procedure.html
+  [ProcedureStatus]: http://hl7.org/fhir/2017Jan/valueset-procedure-status.html
+  [Procedure]: http://hl7.org/fhir/2017Jan/procedure.html
   [Conformance requirements for the US-Core Server]: CapabilityStatement-server.html

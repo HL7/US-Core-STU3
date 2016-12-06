@@ -495,7 +495,7 @@
 		"temp": "temp",
 		"resources": ["resources",
 		"examples"],
-		"specification": "http://build.fhir.org",
+		"specification": "http://hl7.org/fhir/2017Jan",
 		"txCache": "txCache",
 		"qa": "qa",
 		"pages": "pages",

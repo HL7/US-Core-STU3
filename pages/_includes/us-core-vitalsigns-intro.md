@@ -145,7 +145,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
  - [observation-bp-data-absent]Observation-bp-data-absent.html)
 
 
-[Observation]: http://build.fhir.org/observation.html
-[extensible]: http://build.fhir.org/terminologies.html#extensible
+[Observation]: http://hl7.org/fhir/2017Jan/observation.html
+[extensible]: http://hl7.org/fhir/2017Jan/terminologies.html#extensible
 [Conformance requirements for the US-Core Server]: CapabilityStatement-server.html
 [General Guidance Section]: definitions.html

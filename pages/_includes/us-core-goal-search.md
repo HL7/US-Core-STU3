@@ -62,7 +62,7 @@
 [GET https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192&date=ge2015-01-14&date=le2016-01-14](https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192&date=ge2015-01-14&date=le2016-01-14)
 
 
-  [(how to search by reference)]: http://build.fhir.org/search.html#reference
-  [(how to search by token)]: http://build.fhir.org/search.html#token
-  [Composite Search Parameters]: http://build.fhir.org/search.html#combining
-  [(how to search by date)]: http://build.fhir.org/search.html#date
+  [(how to search by reference)]: http://hl7.org/fhir/2017Jan/search.html#reference
+  [(how to search by token)]: http://hl7.org/fhir/2017Jan/search.html#token
+  [Composite Search Parameters]: http://hl7.org/fhir/2017Jan/search.html#combining
+  [(how to search by date)]: http://hl7.org/fhir/2017Jan/search.html#date

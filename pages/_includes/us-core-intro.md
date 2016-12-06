@@ -82,7 +82,7 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [profiles]: http://hl7.org/fhir/profiling.html
 [logical view]: http://hl7.org/fhir/formats.html#table
 [StructureDefinitions]: http://hl7.org/fhir/structuredefinition.html
-[Value sets]: http://build.fhir.org/valueset.html
+[Value sets]: http://hl7.org/fhir/2017Jan/valueset.html
 [CodeSystem]: http://hl7.org/fhir/codesystem.html
 [ConceptMap]: http://hl7.org/fhir/conceptmap.html
 [NamingSystem]: http://hl7.org/fhir/namingsystem.html

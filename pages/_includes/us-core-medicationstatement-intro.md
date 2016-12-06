@@ -32,16 +32,16 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 #### Examples
 
 - [MedicationStatement-uscore-ms1](MedicationStatement-uscore-ms1.html) This example uses an inline medication code to represent the medication.
-- [MedicationStatement-uscore-ms2](MedicationStatement-uscore-ms2.html)  This example references a [contained](http://build.fhir.org/references.html#contained) Medication resource.
-- [MedicationStatement-uscore-ms3](Bundle-uscore-ms3.html) This example is a search [Bundle](http://build.fhir.org/bundle.html) with a MedicationStatement and an included Medication resource in the Bundle.
+- [MedicationStatement-uscore-ms2](MedicationStatement-uscore-ms2.html)  This example references a [contained](http://hl7.org/fhir/2017Jan/references.html#contained) Medication resource.
+- [MedicationStatement-uscore-ms3](Bundle-uscore-ms3.html) This example is a search [Bundle](http://hl7.org/fhir/2017Jan/bundle.html) with a MedicationStatement and an included Medication resource in the Bundle.
 
   [Medication Clinical Drug (RxNorm)]: ValueSet-us-core-medication-codes.html
   [MedicationRequestStatus]: http://hl7.org/fhir/us/daf/ValueSet-medication-request-status.html
 [MedicationStatementStatus]: http://hl7.org/fhir/us/daf/ValueSet-medication-statement-status.html
-[MedicationStatement]:http://build.fhir.org/medicationstatement.html
- [MedicationRequest]: http://build.fhir.org/medicationrequest.html
- [Medication]:http://build.fhir.org/medication.html
+[MedicationStatement]:http://hl7.org/fhir/2017Jan/medicationstatement.html
+ [MedicationRequest]: http://hl7.org/fhir/2017Jan/medicationrequest.html
+ [Medication]:http://hl7.org/fhir/2017Jan/medication.html
  [CapabilityStatement]: capstmnts.html
- [boundaries section]: http://build.fhir.org/medicationrequest.html#bnr
-[include]: http://build.fhir.org/search.html#include
-[contained]: http://build.fhir.org/references.html#contained
+ [boundaries section]: http://hl7.org/fhir/2017Jan/medicationrequest.html#bnr
+[include]: http://hl7.org/fhir/2017Jan/search.html#include
+[contained]: http://hl7.org/fhir/2017Jan/references.html#contained

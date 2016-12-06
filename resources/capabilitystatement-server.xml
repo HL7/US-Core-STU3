@@ -82,7 +82,7 @@
 			</table>
 			<h2>REST  behavior</h2>
 			<p>
-				<h4>The US Core  Server SHALL:</h4>     1.Support the US Core Patient resource profile.      2.Support at least one additional resource profile from the list of US Core Profiles      2. Implement REST behavior according to the FHIR specification      3.  Support json resource formats for all US Core interactions.      4. Identify the US Core profile(s) supported as part of the FHIR <a href="http://build.fhir.org/resource-definitions.html#Meta.profile">Meta profile attribute</a> for each instance.     5.  Declare a CapabilityStatement identifying the list of profiles, operations, search parameter supported.                <h4>The US Core  Server SHOULD:</h4>     1. Support xml resource formats for all US Core interactions.  </p>
+				<h4>The US Core  Server SHALL:</h4>     1.Support the US Core Patient resource profile.      2.Support at least one additional resource profile from the list of US Core Profiles      2. Implement REST behavior according to the FHIR specification      3.  Support json resource formats for all US Core interactions.      4. Identify the US Core profile(s) supported as part of the FHIR <a href="http://hl7.org/fhir/2017Jan/resource-definitions.html#Meta.profile">Meta profile attribute</a> for each instance.     5.  Declare a CapabilityStatement identifying the list of profiles, operations, search parameter supported.                <h4>The US Core  Server SHOULD:</h4>     1. Support xml resource formats for all US Core interactions.  </p>
 			<p>
 				<b>Security:</b>
 			</p>
@@ -700,7 +700,7 @@
 						<td>SHALL</td>
 						<td>date</td>
 						<td>
-							<p>The server SHALL support the <a href="http://build.fhir.org/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</p>
+							<p>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</p>
 						</td>
 					</tr>
 				</tbody>
@@ -1030,7 +1030,7 @@
 						<td>SHALL</td>
 						<td>date</td>
 						<td>
-							<p>The server SHALL support the <a href="http://build.fhir.org/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</p>
+							<p>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</p>
 						</td>
 					</tr>
 				</tbody>
@@ -1202,7 +1202,7 @@
 						<td>SHALL</td>
 						<td>date</td>
 						<td>
-							<p>The server SHALL support the <a href="http://build.fhir.org/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</p>
+							<p>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</p>
 						</td>
 					</tr>
 				</tbody>
@@ -1298,7 +1298,7 @@
 						<td>SHALL</td>
 						<td>date</td>
 						<td>
-							<p>The server SHALL support the <a href="http://build.fhir.org/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</p>
+							<p>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</p>
 						</td>
 					</tr>
 				</tbody>
@@ -1366,7 +1366,7 @@
 			<h3>MedicationStatement</h3>
 			<p>Profile: <a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationstatement.html">US CORE MEDICATIONSTATEMENT</a>
 			</p>
-			<p>    The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.    When referencing a Medication resource,  the resource may be <a href="http://build.fhir.org/references.html#contained">contained</a> or an external resource.   The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the <a href="http://build.fhir.org/search.html#include">include</a> parameter for searching this element.   The client application must support both methods.</p>
+			<p>    The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.    When referencing a Medication resource,  the resource may be <a href="http://hl7.org/fhir/2017Jan/references.html#contained">contained</a> or an external resource.   The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#include">include</a> parameter for searching this element.   The client application must support both methods.</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -1444,7 +1444,7 @@
 			<h3>MedicationRequest</h3>
 			<p>Profile: <a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html">US CORE MEDICATIONREQUEST</a>
 			</p>
-			<p>    The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.    When referencing a Medication resource,  the resource may be <a href="http://build.fhir.org/references.html#contained">contained</a> or an external resource.   The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the <a href="http://build.fhir.org/search.html#include">include</a> parameter for searching this element.   The client application must support both methods.</p>
+			<p>    The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.    When referencing a Medication resource,  the resource may be <a href="http://hl7.org/fhir/2017Jan/references.html#contained">contained</a> or an external resource.   The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#include">include</a> parameter for searching this element.   The client application must support both methods.</p>
 			<h4>Interactions</h4>
 			<table class="list">
 				<thead>
@@ -1690,7 +1690,7 @@
 						<td>SHALL</td>
 						<td>date</td>
 						<td>
-							<p>The server SHALL support the <a href="http://build.fhir.org/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</p>
+							<p>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</p>
 						</td>
 					</tr>
 				</tbody>
@@ -1774,7 +1774,7 @@
 						<td>SHALL</td>
 						<td>date</td>
 						<td>
-							<p>The server SHALL support the <a href="http://build.fhir.org/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</p>
+							<p>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</p>
 						</td>
 					</tr>
 				</tbody>
@@ -1847,7 +1847,7 @@
 	</profile>
 	<rest>
 		<mode value="server"/>
-		<documentation value="==The US Core  Server SHALL:==     1.Support the US Core Patient resource profile.      2.Support at least one additional resource profile from the list of US Core Profiles      2. Implement REST behavior according to the FHIR specification      3.  Support json resource formats for all US Core interactions.      4. Identify the US Core profile(s) supported as part of the FHIR [http://build.fhir.org/resource-definitions.html#Meta.profile Meta profile attribute] for each instance.     5.  Declare a CapabilityStatement identifying the list of profiles, operations, search parameter supported.                ==The US Core  Server SHOULD:==     1. Support xml resource formats for all US Core interactions.  "/>
+		<documentation value="==The US Core  Server SHALL:==     1.Support the US Core Patient resource profile.      2.Support at least one additional resource profile from the list of US Core Profiles      2. Implement REST behavior according to the FHIR specification      3.  Support json resource formats for all US Core interactions.      4. Identify the US Core profile(s) supported as part of the FHIR [http://hl7.org/fhir/2017Jan/resource-definitions.html#Meta.profile Meta profile attribute] for each instance.     5.  Declare a CapabilityStatement identifying the list of profiles, operations, search parameter supported.                ==The US Core  Server SHOULD:==     1. Support xml resource formats for all US Core interactions.  "/>
 		<security>
 			<description value="US Core  Servers '''SHALL''' implement the [security.html security requirements]  documented in the US-Core IG."/>
 		</security>
@@ -2050,7 +2050,7 @@
 				<name value="date"/>
 				<definition value="http://hl7.org/fhir/SearchParameter/CarePlan-Date"/>
 				<type value="date"/>
-				<documentation value="The server SHALL support the [http://build.fhir.org/search.html#prefix date search modifiers] 'ge','le','eq' for this profile"/>
+				<documentation value="The server SHALL support the [http://hl7.org/fhir/2017Jan/search.html#prefix date search modifiers] 'ge','le','eq' for this profile"/>
 			</searchParam>
 		</resource>
 		<resource>
@@ -2251,7 +2251,7 @@
 				<name value="date"/>
 				<definition value="http://hl7.org/fhir/SearchParameter/Goal-Date"/>
 				<type value="date"/>
-				<documentation value="The server SHALL support the [http://build.fhir.org/search.html#prefix date search modifiers] 'ge','le','eq' for this profile"/>
+				<documentation value="The server SHALL support the [http://hl7.org/fhir/2017Jan/search.html#prefix date search modifiers] 'ge','le','eq' for this profile"/>
 			</searchParam>
 		</resource>
 		<resource>
@@ -2360,7 +2360,7 @@
 				<name value="date"/>
 				<definition value="http://hl7.org/fhir/SearchParameter/DiagnosticReport-Date"/>
 				<type value="date"/>
-				<documentation value="The server SHALL support the [http://build.fhir.org/search.html#prefix date search modifiers] 'ge','le','eq' for this profile"/>
+				<documentation value="The server SHALL support the [http://hl7.org/fhir/2017Jan/search.html#prefix date search modifiers] 'ge','le','eq' for this profile"/>
 			</searchParam>
 		</resource>
 		<resource>
@@ -2403,7 +2403,7 @@
 			<profile>
 				<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationstatement.html"/>
 			</profile>
-			<documentation value="    The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.    When referencing a Medication resource,  the resource may be [http://build.fhir.org/references.html#contained contained] or an external resource.   The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the [http://build.fhir.org/search.html#include include] parameter for searching this element.   The client application must support both methods."/>
+			<documentation value="    The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.    When referencing a Medication resource,  the resource may be [http://hl7.org/fhir/2017Jan/references.html#contained contained] or an external resource.   The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the [http://hl7.org/fhir/2017Jan/search.html#include include] parameter for searching this element.   The client application must support both methods."/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2451,7 +2451,7 @@
 			<profile>
 				<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html"/>
 			</profile>
-			<documentation value="    The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.    When referencing a Medication resource,  the resource may be [http://build.fhir.org/references.html#contained contained] or an external resource.   The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the [http://build.fhir.org/search.html#include include] parameter for searching this element.   The client application must support both methods."/>
+			<documentation value="    The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.    When referencing a Medication resource,  the resource may be [http://hl7.org/fhir/2017Jan/references.html#contained contained] or an external resource.   The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the [http://hl7.org/fhir/2017Jan/search.html#include include] parameter for searching this element.   The client application must support both methods."/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2608,7 +2608,7 @@
 				<name value="date"/>
 				<definition value="http://hl7.org/fhir/SearchParameter/Observation-Date"/>
 				<type value="date"/>
-				<documentation value="The server SHALL support the [http://build.fhir.org/search.html#prefix date search modifiers] 'ge','le','eq' for this profile"/>
+				<documentation value="The server SHALL support the [http://hl7.org/fhir/2017Jan/search.html#prefix date search modifiers] 'ge','le','eq' for this profile"/>
 			</searchParam>
 		</resource>
 		<resource>
@@ -2659,7 +2659,7 @@
 				<name value="date"/>
 				<definition value="http://hl7.org/fhir/SearchParameter/Procedure-Date"/>
 				<type value="date"/>
-				<documentation value="The server SHALL support the [http://build.fhir.org/search.html#prefix date search modifiers] 'ge','le','eq' for this profile"/>
+				<documentation value="The server SHALL support the [http://hl7.org/fhir/2017Jan/search.html#prefix date search modifiers] 'ge','le','eq' for this profile"/>
 			</searchParam>
 		</resource>
 		<!--

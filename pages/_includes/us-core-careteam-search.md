@@ -20,7 +20,7 @@
 
 *Support:* Mandatory to support search by patient, category and status.
 
-*Implementation Notes:* Search for all current care team members for a patient. Fetches a bundle of all current CarePlan resource(s) and the participants referenced by the CarePlan resource(s) for the specified patient. [(how to search by reference)], [(how to search by token)] and [(how to include referenced resources in search result)](http://build.fhir.org/search.html#include).
+*Implementation Notes:* Search for all current care team members for a patient. Fetches a bundle of all current CarePlan resource(s) and the participants referenced by the CarePlan resource(s) for the specified patient. [(how to search by reference)], [(how to search by token)] and [(how to include referenced resources in search result)](http://hl7.org/fhir/2017Jan/search.html#include).
 
 
 
@@ -37,10 +37,10 @@
 
 
 
-  [(how to search by reference)]: http://build.fhir.org/search.html#reference
-  [(how to search by token)]: http://build.fhir.org/search.html#token
-  [Composite Search Parameters]: http://build.fhir.org/search.html#combining
-  [(how to search by date)]: http://build.fhir.org/search.html#date
+  [(how to search by reference)]: http://hl7.org/fhir/2017Jan/search.html#reference
+  [(how to search by token)]: http://hl7.org/fhir/2017Jan/search.html#token
+  [Composite Search Parameters]: http://hl7.org/fhir/2017Jan/search.html#combining
+  [(how to search by date)]: http://hl7.org/fhir/2017Jan/search.html#date
 
 
 
@@ -159,9 +159,9 @@
 
 
 
-  [(how to search by reference)]: http://build.fhir.org/search.html#reference
+  [(how to search by reference)]: http://hl7.org/fhir/2017Jan/search.html#reference
   [`https://fhir-open-api-dstu2.smarthealthit.org/AllergyIntolerance?patient=1137192`]: https://fhir-open-api-dstu2.smarthealthit.org/AllergyIntolerance?patient=1137192
-  [(how to search by token)]: http://build.fhir.org/search.html#token
-  [Composite Search Parameters]: http://build.fhir.org/search.html#combining
+  [(how to search by token)]: http://hl7.org/fhir/2017Jan/search.html#token
+  [Composite Search Parameters]: http://hl7.org/fhir/2017Jan/search.html#combining
   [`https://fhir-open-api-dstu2.smarthealthit.org/AllergyIntolerance?patient=1137192&status=active,unconfirmed,confirmed`]: https://fhir-open-api-dstu2.smarthealthit.org/AllergyIntolerance?patient=1137192&status=active,unconfirmed,confirmed
-   [(how to search by date)]: http://build.fhir.org/search.html#date
+   [(how to search by date)]: http://hl7.org/fhir/2017Jan/search.html#date

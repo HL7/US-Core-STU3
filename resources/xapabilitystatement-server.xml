@@ -28,7 +28,7 @@
 			</table>
 			<h2>REST  behavior</h2>
 			<p>The US Core  Server SHALL support the <a href=StructureDefinition-us-core-patient.html">US Core patient</a> resource profile. In addition to the US Core patient, the US Core  Server SHALL support at least one additional resource profile from the list of <a href="us-core.html#us-core-profiles">US-Core profiles</a>.
-	  The US Core  Server SHALL implement REST behavior according to the <a href="http://build.fhir.org/http.html">FHIR</a> specification.
+	  The US Core  Server SHALL implement REST behavior according to the <a href="http://hl7.org/fhir/2017Jan/http.html">FHIR</a> specification.
 	  The US Core  Server SHALL support json, and SHOULD support xml resource formats for all US Core  interactions. The US Core  Server SHALL identify the US Core  profile(s) supported as part of the FHIR BaseResource.Meta.profile attribute for each instance. The US Core  Server SHALL declare a Capability statement and identify the list of profiles, operations, search parameter supported.
       </p>
 			<p>
@@ -43,16 +43,16 @@
 					<tr>
 						<th>Resource(Profile Name)</th>
 						<th>
-							<a href="http://build.fhir.org/http.html.html">Search</a>
+							<a href="http://hl7.org/fhir/2017Jan/http.html.html">Search</a>
 						</th>
 						<th>
-							<a href="http://build.fhir.org/http.html.html">Read</a>
+							<a href="http://hl7.org/fhir/2017Jan/http.html.html">Read</a>
 						</th>
 						<th>
-							<a href="http://build.fhir.org/http.html.html">Version Read</a>
+							<a href="http://hl7.org/fhir/2017Jan/http.html.html">Version Read</a>
 						</th>
 						<th>
-							<a href="http://build.fhir.org/http.html.html">Instance History</a>
+							<a href="http://hl7.org/fhir/2017Jan/http.html.html">Instance History</a>
 						</th>
 					</tr>
 				</thead>
@@ -388,30 +388,30 @@
 			<p>US Core  Servers SHALL support the following common parameters as part of queries related to US-Core profiles:</p>
 			<ul>
 				<li>
-					<a href="http://build.fhir.org/search.html#id">_id</a>
+					<a href="http://hl7.org/fhir/2017Jan/search.html#id">_id</a>
 				</li>
 				<li>
-					<a href="http://build.fhir.org/search.html#lastUpdated">_lastUpdated</a>
+					<a href="http://hl7.org/fhir/2017Jan/search.html#lastUpdated">_lastUpdated</a>
 				</li>
 				<li>
-					<a href="http://build.fhir.org/search.html#profile">_profile</a>
+					<a href="http://hl7.org/fhir/2017Jan/search.html#profile">_profile</a>
 				</li>
 				<li>
-					<a href="http://build.fhir.org/search.html#count">_count</a>
+					<a href="http://hl7.org/fhir/2017Jan/search.html#count">_count</a>
 				</li>
 				<li>
-					<a href="http://build.fhir.org/search.html#include">_include</a>
+					<a href="http://hl7.org/fhir/2017Jan/search.html#include">_include</a>
 				</li>
 			</ul>
 			<p>US Core  Servers SHALL support the following search contexts defined within the
-        <a href="http://build.fhir.org/search.html#Introduction">FHIR</a>specification.
+        <a href="http://hl7.org/fhir/2017Jan/search.html#Introduction">FHIR</a>specification.
       </p>
 			<ul>
 				<li>Search context by specifying a particular resource type</li>
 			</ul>
 			<p>US Core  Servers SHALL support
-        <a href="http://build.fhir.org/search.html#Modifiers">Modifiers</a> as applicable to the data types of the search parameters. US Core  Servers SHALL also support
-        <a href="http://build.fhir.org/search.html#Composite Search Parameters">Composite Search Parameters</a> as defined in the FHIR specification.
+        <a href="http://hl7.org/fhir/2017Jan/search.html#Modifiers">Modifiers</a> as applicable to the data types of the search parameters. US Core  Servers SHALL also support
+        <a href="http://hl7.org/fhir/2017Jan/search.html#Composite Search Parameters">Composite Search Parameters</a> as defined in the FHIR specification.
       </p>
 			<table class="grid">
 				<thead>
@@ -426,24 +426,24 @@
 						<td>
 							<ul>
 								<li>id="US Core
-									<a href="http://build.fhir.org/patient.html#search">id</a> - Search based on resource id (
-                  <a href="http://build.fhir.org/search.html#string">string</a>)
+									<a href="http://hl7.org/fhir/2017Jan/patient.html#search">id</a> - Search based on resource id (
+                  <a href="http://hl7.org/fhir/2017Jan/search.html#string">string</a>)
                 </li>
 								<li>
-									<a href="http://build.fhir.org/patient.html#search">identifier</a> - Search based on patient identifier (
-                  <a href="http://build.fhir.org/search.html#token">token</a>)
+									<a href="http://hl7.org/fhir/2017Jan/patient.html#search">identifier</a> - Search based on patient identifier (
+                  <a href="http://hl7.org/fhir/2017Jan/search.html#token">token</a>)
                 </li>
 								<li>
-									<a href="http://build.fhir.org/patient.html#search">name</a> and <a href="http://build.fhir.org/patient.html#search">gender</a>- Search based on given name or family name or text name and gender.
+									<a href="http://hl7.org/fhir/2017Jan/patient.html#search">name</a> and <a href="http://hl7.org/fhir/2017Jan/patient.html#search">gender</a>- Search based on given name or family name or text name and gender.
                 </li>
 								<li>
-									<a href="http://build.fhir.org/patient.html#search">family</a> and <a href="http://build.fhir.org/patient.html#search">gender</a>- Search based on family name and gender.
+									<a href="http://hl7.org/fhir/2017Jan/patient.html#search">family</a> and <a href="http://hl7.org/fhir/2017Jan/patient.html#search">gender</a>- Search based on family name and gender.
                 </li>
 								<li>
-									<a href="http://build.fhir.org/patient.html#search">given</a> and <a href="http://build.fhir.org/patient.html#search">gender</a>- Search based on given name and gender.
+									<a href="http://hl7.org/fhir/2017Jan/patient.html#search">given</a> and <a href="http://hl7.org/fhir/2017Jan/patient.html#search">gender</a>- Search based on given name and gender.
                 </li>
 								<li>
-									<a href="http://build.fhir.org/patient.html#search">name</a> and <a href="http://build.fhir.org/patient.html#search">birthdate</a>- Search based on given name or family name or text name and birthdate.
+									<a href="http://hl7.org/fhir/2017Jan/patient.html#search">name</a> and <a href="http://hl7.org/fhir/2017Jan/patient.html#search">birthdate</a>- Search based on given name or family name or text name and birthdate.
                 </li>
 							</ul>
 						</td>
@@ -453,8 +453,8 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/allergyintolerance.html#search">patient</a> - Search allergies for a patient(
-                  <a href="http://build.fhir.org/search.html#reference">reference</a>)
+									<a href="http://hl7.org/fhir/2017Jan/allergyintolerance.html#search">patient</a> - Search allergies for a patient(
+                  <a href="http://hl7.org/fhir/2017Jan/search.html#reference">reference</a>)
                 </li>
 							</ul>
 						</td>
@@ -464,16 +464,16 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/careplan.html#search">patient</a> and <a href="http://build.fhir.org/careplan.html#search"> category </a> - Search for CarePlan by patient and category
+									<a href="http://hl7.org/fhir/2017Jan/careplan.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/careplan.html#search"> category </a> - Search for CarePlan by patient and category
                 </li>
 								<li>
-									<a href="http://build.fhir.org/careplan.html#search">patient</a> and <a href="http://build.fhir.org/careplan.html#search"> category </a> and <a href="http://build.fhir.org/careplan.html#search"> status </a> - Search for CarePlan by patient and category and status
+									<a href="http://hl7.org/fhir/2017Jan/careplan.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/careplan.html#search"> category </a> and <a href="http://hl7.org/fhir/2017Jan/careplan.html#search"> status </a> - Search for CarePlan by patient and category and status
                 </li>
 								<li>
-									<a href="http://build.fhir.org/careplan.html#search">patient</a> and <a href="http://build.fhir.org/careplan.html#search"> category </a> and <a href="http://build.fhir.org/careplan.html#search"> date </a> - Search for CarePlan by patient and category and one or more dates
+									<a href="http://hl7.org/fhir/2017Jan/careplan.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/careplan.html#search"> category </a> and <a href="http://hl7.org/fhir/2017Jan/careplan.html#search"> date </a> - Search for CarePlan by patient and category and one or more dates
                 </li>
 								<li>
-									<a href="http://build.fhir.org/careplan.html#search">patient</a> and <a href="http://build.fhir.org/careplan.html#search"> category </a> and <a href="http://build.fhir.org/careplan.html#search"> status </a> and <a href="http://build.fhir.org/careplan.html#search"> date </a> - Search for CarePlan by patient and category and status and one or more dates
+									<a href="http://hl7.org/fhir/2017Jan/careplan.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/careplan.html#search"> category </a> and <a href="http://hl7.org/fhir/2017Jan/careplan.html#search"> status </a> and <a href="http://hl7.org/fhir/2017Jan/careplan.html#search"> date </a> - Search for CarePlan by patient and category and status and one or more dates
                 </li>
 							</ul>
 						</td>
@@ -483,7 +483,7 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/careplan.html#search">patient</a> and <a href="http://build.fhir.org/careplan.html#search"> category </a> and <a href="http://build.fhir.org/careplan.html#search"> status </a> - Search for CareTeam by patient and category and status
+									<a href="http://hl7.org/fhir/2017Jan/careplan.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/careplan.html#search"> category </a> and <a href="http://hl7.org/fhir/2017Jan/careplan.html#search"> status </a> - Search for CareTeam by patient and category and status
                 </li>
 							</ul>
 						</td>
@@ -493,10 +493,10 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/condition.html#search">patient</a> and <a href="http://build.fhir.org/condition.html#search"> category </a> - Search for Condition by patient and category
+									<a href="http://hl7.org/fhir/2017Jan/condition.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/condition.html#search"> category </a> - Search for Condition by patient and category
                 </li>
 								<li>
-									<a href="http://build.fhir.org/condition.html#search">patient</a> and <a href="http://build.fhir.org/condition.html#search"> clinicalstatus </a> - Search for Condition by patient and clinicalstatus
+									<a href="http://hl7.org/fhir/2017Jan/condition.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/condition.html#search"> clinicalstatus </a> - Search for Condition by patient and clinicalstatus
                 </li>
 							</ul>
 						</td>
@@ -506,8 +506,8 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/device.html#search">patient</a> - Search Devices for a patient(
-                  <a href="http://build.fhir.org/search.html#reference">reference</a>)
+									<a href="http://hl7.org/fhir/2017Jan/device.html#search">patient</a> - Search Devices for a patient(
+                  <a href="http://hl7.org/fhir/2017Jan/search.html#reference">reference</a>)
                 </li>
 							</ul>
 						</td>
@@ -517,7 +517,7 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/Medication.html#search">patient</a> and <a href="http://build.fhir.org/Medication.html#search">  date </a> - Search for Medications by patient and one or more dates
+									<a href="http://hl7.org/fhir/2017Jan/Medication.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/Medication.html#search">  date </a> - Search for Medications by patient and one or more dates
                 </li>
 							</ul>
 						</td>
@@ -527,7 +527,7 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/immunization.html#search">patient</a> - Search for Immunizations by patient (<a href="http://build.fhir.org/search.html#reference">reference</a>)
+									<a href="http://hl7.org/fhir/2017Jan/immunization.html#search">patient</a> - Search for Immunizations by patient (<a href="http://hl7.org/fhir/2017Jan/search.html#reference">reference</a>)
                 </li>
 							</ul>
 						</td>
@@ -537,17 +537,17 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/diagnosticreport.html#search">patient</a> and <a href="http://build.fhir.org/diagnosticreport.html#search"> code </a> - Search for DiagnosticReport by patient and code
+									<a href="http://hl7.org/fhir/2017Jan/diagnosticreport.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/diagnosticreport.html#search"> code </a> - Search for DiagnosticReport by patient and code
                 </li>
 								<li>
-									<a href="http://build.fhir.org/diagnosticreport.html#search">patient</a> and <a href="http://build.fhir.org/diagnosticreport.html#search"> category  </a> - Search for DiagnosticReport by patient and category
+									<a href="http://hl7.org/fhir/2017Jan/diagnosticreport.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/diagnosticreport.html#search"> category  </a> - Search for DiagnosticReport by patient and category
                 </li>
 								<li>
-									<a href="http://build.fhir.org/diagnosticreport.html#search">patient</a> and <a href="http://build.fhir.org/diagnosticreport.html#search"> category </a> and <a href="http://build.fhir.org/diagnosticreport.html#search">  date </a> - Search for DiagnosticReport by patient and category and one or more dates
+									<a href="http://hl7.org/fhir/2017Jan/diagnosticreport.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/diagnosticreport.html#search"> category </a> and <a href="http://hl7.org/fhir/2017Jan/diagnosticreport.html#search">  date </a> - Search for DiagnosticReport by patient and category and one or more dates
                 </li>
 								<li>
-									<a href="http://build.fhir.org/diagnosticreport.html#search">patient</a> and <a href="http://build.fhir.org/diagnosticreport.html#search"> category </a>  and <a href="http://build.fhir.org/diagnosticreport.html#search"> code </a>
-									and <a href="http://build.fhir.org/diagnosticreport.html#search">  date </a> - Search for DiagnosticReport by patient and category and code and one or more dates
+									<a href="http://hl7.org/fhir/2017Jan/diagnosticreport.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/diagnosticreport.html#search"> category </a>  and <a href="http://hl7.org/fhir/2017Jan/diagnosticreport.html#search"> code </a>
+									and <a href="http://hl7.org/fhir/2017Jan/diagnosticreport.html#search">  date </a> - Search for DiagnosticReport by patient and category and code and one or more dates
                 </li>
 							</ul>
 						</td>
@@ -557,16 +557,16 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/observation.html#search">patient</a> and <a href="http://build.fhir.org/observation.html#search"> code </a> - Search for Observation by patient and code
+									<a href="http://hl7.org/fhir/2017Jan/observation.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search"> code </a> - Search for Observation by patient and code
                 </li>
 								<li>
-									<a href="http://build.fhir.org/observation.html#search">patient</a> and <a href="http://build.fhir.org/observation.html#search"> category </a> - Search for Observation by patient and category
+									<a href="http://hl7.org/fhir/2017Jan/observation.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search"> category </a> - Search for Observation by patient and category
                 </li>
 								<li>
-									<a href="http://build.fhir.org/observation.html#search">patient</a> and <a href="http://build.fhir.org/observation.html#search"> category </a> and <a href="http://build.fhir.org/observation.html#search">  date </a> - Search for Observation by patient and category and one or more dates
+									<a href="http://hl7.org/fhir/2017Jan/observation.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search"> category </a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search">  date </a> - Search for Observation by patient and category and one or more dates
                 </li>
 								<li>
-									<a href="http://build.fhir.org/observation.html#search">patient</a> and <a href="http://build.fhir.org/observation.html#search"> category </a> and <a href="http://build.fhir.org/observation.html#search"> code </a> and <a href="http://build.fhir.org/observation.html#search">  date </a> - Search for Observation by patient and category and code and one or more dates
+									<a href="http://hl7.org/fhir/2017Jan/observation.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search"> category </a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search"> code </a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search">  date </a> - Search for Observation by patient and category and code and one or more dates
                 </li>
 							</ul>
 						</td>
@@ -596,8 +596,8 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/medicationstatement.html#search">patient</a> - Search MedicationStatement for a patient(
-                  <a href="http://build.fhir.org/search.html#reference">reference</a>)
+									<a href="http://hl7.org/fhir/2017Jan/medicationstatement.html#search">patient</a> - Search MedicationStatement for a patient(
+                  <a href="http://hl7.org/fhir/2017Jan/search.html#reference">reference</a>)
                 </li>
 							</ul>
 						</td>
@@ -607,8 +607,8 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/medicationrequest.html#search">patient</a> - Search MedicationRequest for a patient(
-                  <a href="http://build.fhir.org/search.html#reference">reference</a>)
+									<a href="http://hl7.org/fhir/2017Jan/medicationrequest.html#search">patient</a> - Search MedicationRequest for a patient(
+                  <a href="http://hl7.org/fhir/2017Jan/search.html#reference">reference</a>)
                 </li>
 							</ul>
 						</td>
@@ -618,7 +618,7 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/observation.html#search">patient</a> and <a href="http://build.fhir.org/observation.html#search"> code </a> - Search for Observation (SmokingStatus) by patient and code
+									<a href="http://hl7.org/fhir/2017Jan/observation.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search"> code </a> - Search for Observation (SmokingStatus) by patient and code
                 </li>
 							</ul>
 						</td>
@@ -628,16 +628,16 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/observation.html#search">patient</a> and <a href="http://build.fhir.org/observation.html#search"> code </a> - Search for Observation (Vital Signs) by patient and code
+									<a href="http://hl7.org/fhir/2017Jan/observation.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search"> code </a> - Search for Observation (Vital Signs) by patient and code
                 </li>
 								<li>
-									<a href="http://build.fhir.org/observation.html#search">patient</a> and <a href="http://build.fhir.org/observation.html#search"> category </a> - Search for Observation (Vital Signs) by patient and category
+									<a href="http://hl7.org/fhir/2017Jan/observation.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search"> category </a> - Search for Observation (Vital Signs) by patient and category
                 </li>
 								<li>
-									<a href="http://build.fhir.org/observation.html#search">patient</a> and <a href="http://build.fhir.org/observation.html#search"> category </a> and <a href="http://build.fhir.org/observation.html#search">  date </a> - Search for Observation (Vital Signs) by patient and category and one or more dates
+									<a href="http://hl7.org/fhir/2017Jan/observation.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search"> category </a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search">  date </a> - Search for Observation (Vital Signs) by patient and category and one or more dates
                 </li>
 								<li>
-									<a href="http://build.fhir.org/observation.html#search">patient</a> and <a href="http://build.fhir.org/observation.html#search"> code </a> and <a href="http://build.fhir.org/observation.html#search">  date </a> - Search for Observation (Vital Signs) by patient and code and one or more dates
+									<a href="http://hl7.org/fhir/2017Jan/observation.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search"> code </a> and <a href="http://hl7.org/fhir/2017Jan/observation.html#search">  date </a> - Search for Observation (Vital Signs) by patient and code and one or more dates
                 </li>
 							</ul>
 						</td>
@@ -667,7 +667,7 @@
 						<td>
 							<ul>
 								<li>
-									<a href="http://build.fhir.org/procedure.html#search">patient</a> and <a href="http://build.fhir.org/procedure.html#search"> date </a> - Search for Procedure by patient and date
+									<a href="http://hl7.org/fhir/2017Jan/procedure.html#search">patient</a> and <a href="http://hl7.org/fhir/2017Jan/procedure.html#search"> date </a> - Search for Procedure by patient and date
                 </li>
 							</ul>
 						</td>
@@ -678,7 +678,7 @@
 			<br/>
 <!--			
 			<h3>US-Core Resource Specific Operations</h3>
-			<p>US Core Servers SHALL support the 	<a href="http://build.fhir.org/patient-operations.html#everything">
+			<p>US Core Servers SHALL support the 	<a href="http://hl7.org/fhir/2017Jan/patient-operations.html#everything">
 					<b>Patient/$everything</b>
 				</a> operation using
 URL defintion [base]/Patient/[id]/$everything to return data for all the US Core profiles they support for a specific patient. </p>
@@ -1371,9 +1371,9 @@ URL defintion [base]/Patient/[id]/$everything to return data for all the US Core
   *  The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the [include] parameter for searching this element.
   *  The client application must support both methods. 
     
- [include]: http://build.fhir.org/search.html#include
- [contained]: http://build.fhir.org/references.html#contained
- [Medication]:http://build.fhir.org/medication.html
+ [include]: http://hl7.org/fhir/2017Jan/search.html#include
+ [contained]: http://hl7.org/fhir/2017Jan/references.html#contained
+ [Medication]:http://hl7.org/fhir/2017Jan/medication.html
 "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
@@ -1427,9 +1427,9 @@ URL defintion [base]/Patient/[id]/$everything to return data for all the US Core
   *  The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the [include] parameter for searching this element.
   *  The client application must support both methods. 
     
- [include]: http://build.fhir.org/search.html#include
- [contained]: http://build.fhir.org/references.html#contained
- [Medication]:http://build.fhir.org/medication.html
+ [include]: http://hl7.org/fhir/2017Jan/search.html#include
+ [contained]: http://hl7.org/fhir/2017Jan/references.html#contained
+ [Medication]:http://hl7.org/fhir/2017Jan/medication.html
 "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
