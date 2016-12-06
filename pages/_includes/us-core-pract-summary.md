@@ -9,5 +9,5 @@
 
 
 
-[NUCC - Classification]: valueset-us-core-provider-role.html
-[NUCC - Specialization]: valueset-us-core-provider-specialty.html
+[NUCC - Classification]: Valueset-us-core-provider-role.html
+[NUCC - Specialization]: Valueset-us-core-provider-specialty.html

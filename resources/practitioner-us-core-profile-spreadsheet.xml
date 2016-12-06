@@ -1177,7 +1177,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="20.0625">
     <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s93"><Data ss:Type="String">USCoreract</Data><NamedCell
+    <Cell ss:StyleID="s93"><Data ss:Type="String">USCorePract</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><Data ss:Type="String">Practitioner</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1416,7 +1416,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s105"><Data ss:Type="String">USCoreractitionerRole</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">USCorePractitionerRole</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1445,7 +1445,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s105"><Data ss:Type="String">USCoreractitionerSpecialty</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">USCorePractitionerSpecialty</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3758,7 +3758,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s119"><Data ss:Type="String">!1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s100"><Data ss:Type="String">USCoreameandorID</Data><NamedCell
+    <Cell ss:StyleID="s100"><Data ss:Type="String">USCoreNameandorID</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s100"><Data ss:Type="String">error</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6374,7 +6374,7 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s105"><Data ss:Type="String">USCoreractitionerRole</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">USCorePractitionerRole</Data></Cell>
     <Cell ss:StyleID="s155"><Data ss:Type="String">Provider role codes consisting of NUCC Health Care Provider Taxonomy Code Set for providers. </Data></Cell>
     <Cell ss:StyleID="s134"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s134"><Data ss:Type="String">extensible</Data></Cell>
@@ -6390,7 +6390,7 @@
     <Cell ss:StyleID="s135"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s105"><Data ss:Type="String">USCoreractitionerSpecialty</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">USCorePractitionerSpecialty</Data></Cell>
     <Cell ss:StyleID="s155"><Data ss:Type="String">Provider specialty codes consist of NUCC Health Care Provider Taxonomy Code Set for providers. </Data></Cell>
     <Cell ss:StyleID="s137"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s137"><Data ss:Type="String">required</Data></Cell>

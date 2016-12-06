@@ -9,7 +9,7 @@
 		<text value="Patient is targeting a pulse oximetry of 92% and a weight of 195 lbs"/>
 	</description>
 	<subject>
-		<reference value="patient-example.html"/>
+		<reference value="Patient-example.html"/>
 		<display value="Amy Shaw
 "/>
 	</subject>

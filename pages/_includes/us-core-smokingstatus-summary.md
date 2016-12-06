@@ -14,7 +14,7 @@
 
 
 
-  [ObservationStatus]: http://build.fhir.org/valueset-observation-status.html
+  [ObservationStatus]: http://build.fhir.org/Valueset-observation-status.html
   [instant]: http://hl7.org/fhir/datatypes.html#instant
-  [Smoking Status]: valueset-us-core-observation-ccdasmokingstatus.html
+  [Smoking Status]: Valueset-us-core-observation-ccdasmokingstatus.html
 

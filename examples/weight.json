@@ -28,7 +28,7 @@
 		"text": "weight"
 	},
 	"subject": {
-		"reference": "patient-example.html",
+		"reference": "Patient-example.html",
 		"display": "Amy Shaw"
 	},
 	"encounter": {

@@ -86,7 +86,7 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [CodeSystem]: http://hl7.org/fhir/codesystem.html
 [ConceptMap]: http://hl7.org/fhir/conceptmap.html
 [NamingSystem]: http://hl7.org/fhir/namingsystem.html
-[FHIR Conformance Rules]: http://hl7.org/fhir/capabilitystatement-rules.html
+[FHIR Conformance Rules]: http://hl7.org/fhir/CapabilityStatement-rules.html
 [dataAbsentReason]: http://hl7.org/fhir/extension-data-absent-reason.html
 [FHIR Terminology]: http://hl7.org/fhir/terminologies.html
 [FHIR RESTful API]: http://hl7.org/fhir/http.html

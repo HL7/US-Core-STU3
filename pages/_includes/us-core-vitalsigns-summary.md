@@ -41,9 +41,9 @@
     to Observations in `Observation.related.target`
     -   a fixed `Observation.related.type`=“has-member”
 
- [Vital Signs]: valueset-us-core-observation-CCDAVitalSignResult.html
-  [Vital Signs Units]: http://build.fhir.org/valueset-ucum-vitals-common.html
+ [Vital Signs]: Valueset-us-core-observation-CCDAVitalSignResult.html
+  [Vital Signs Units]: http://build.fhir.org/Valueset-ucum-vitals-common.html
   [extensible bindings]: Implementation_Guide#Extensible_binding_for_CodeableConcept_Datatype "wikilink"
   [using multiple codes]: Implementation_Guide#Using_multiple_codes_with_CodeableConcept_Datatype "wikilink"
-  [ObservationStatus]: http://build.fhir.org/valueset-observation-status.html
- [Observation Value Absent Reason]: http://build.fhir.org/valueset-observation-valueabsentreason.html
+  [ObservationStatus]: http://build.fhir.org/Valueset-observation-status.html
+ [Observation Value Absent Reason]: http://build.fhir.org/Valueset-observation-valueabsentreason.html

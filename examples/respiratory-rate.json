@@ -28,7 +28,7 @@
 		"text": "respiratory_rate"
 	},
 	"subject": {
-		"reference": "patient-example.html",
+		"reference": "Patient-example.html",
 		"display": "Amy Shaw"
 	},
 	"encounter": {

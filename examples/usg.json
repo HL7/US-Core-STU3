@@ -27,7 +27,7 @@
 		"text": "SPEC GRAV"
 	},
 	"subject": {
-		"reference": "patient-example.html",
+		"reference": "Patient-example.html",
 		"display": "Amy Shaw"
 	},
 	"effectiveDateTime": "2005-07-05",

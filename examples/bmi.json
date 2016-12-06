@@ -24,7 +24,7 @@
     "text": "bmi"
   },
   "subject": {
-    "reference": "patient-example.html","display": "Amy Shaw"
+    "reference": "Patient-example.html","display": "Amy Shaw"
   },
   "encounter": {
     "display": "GP Visit"

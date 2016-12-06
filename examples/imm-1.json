@@ -17,7 +17,7 @@
 		]
 	},
 	"patient": {
-		"reference": "patient-peter-chalmers.html",
+		"reference": "Patient-example.html",
 	"display": "Amy Shaw"
 	},
 	"wasNotGiven": false,

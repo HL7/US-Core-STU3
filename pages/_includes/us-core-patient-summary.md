@@ -14,7 +14,7 @@
 3.  One administrative gender in `Patient.gender`
     -   Patient.gender is bound to [AdministrativeGender] Value set (Code Set)
 
-  [AdministrativeGender]: http://build.fhir.org/valueset-administrative-gender.html
+  [AdministrativeGender]: http://build.fhir.org/Valueset-administrative-gender.html
 
 
 #### Summary of the Must Suport Requirements
@@ -38,14 +38,14 @@ Additionally your system must return:
 
   [Patient.birthDate]: http://hl7.org/fhir/us/daf/daf-patient-definitions.html#daf-patient.Patient.birthDate
   [Patient.communication.language]: http://hl7.org/fhir/us/daf/daf-patient-definitions.html#daf-patient.Patient.communication.language
-  [Common Languages]: http://build.fhir.org/valueset-languages.html
-  [All Languages]: http://build.fhir.org/valueset-all-languages.html
-  [US Core Patient Birth Sex]: structuredefinition-us-core-birthsex.html
-  [US Core Birth Sex]: valueset-us-core-birthsex.html
-  [US Core Patient Race]:  structuredefinition-us-core-race.html
-  [OMB Race Categories]: valueset-omb-race.html
-  [US Core Race Extension]: structuredefinition-us-core-race.html
-  [CDC Race Codes]:valueset-detailed-race.html
- [CDC Ethnicity Codes]: valueset-detailed-ethnicity.html
- [US Core ethnicity Extension]: structuredefinition-us-core-ethnicity.html
- [OMB Ethnicity Categories]: valueset-omb-ethnicity.html
+  [Common Languages]: http://build.fhir.org/Valueset-languages.html
+  [All Languages]: http://build.fhir.org/Valueset-all-languages.html
+  [US Core Patient Birth Sex]:StructureDefinition-us-core-birthsex.html
+  [US Core Birth Sex]: Valueset-us-core-birthsex.html
+  [US Core Patient Race]: StructureDefinition-us-core-race.html
+  [OMB Race Categories]: Valueset-omb-race.html
+  [US Core Race Extension]:StructureDefinition-us-core-race.html
+  [CDC Race Codes]:Valueset-detailed-race.html
+ [CDC Ethnicity Codes]: Valueset-detailed-ethnicity.html
+ [US Core ethnicity Extension]:StructureDefinition-us-core-ethnicity.html
+ [OMB Ethnicity Categories]: Valueset-omb-ethnicity.html

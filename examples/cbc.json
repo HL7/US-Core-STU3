@@ -25,29 +25,29 @@
 		]
 	},
 	"subject": {
-		"reference": "patient-peter-chalmers.html",
+		"reference": "Patient-example.html",
 		"display": "Amy Shaw"
 	},
 	"effectiveDateTime": "2005-07-05",
 	"issued": "2005-07-06T11:45:33+11:00",
 	"performer": [
 		{
-			"reference": "organization-acme-lab.html",
+			"reference": "Organization-acme-lab.html",
 			"display": "Acme Laboratory, Inc"
 		}
 	],
 	"result": [
 		{
-			"reference": "observation-neutrophils.html",
+			"reference": "Observation-neutrophils.html",
 			"display": "NEUTROPHILS"
 		}, {
-			"reference": "observation-mchc.html",
+			"reference": "Observation-mchc.html",
 			"display": "MCHC"
 		}, {
-			"reference": "observation-hemoglobin.html",
+			"reference": "Observation-hemoglobin.html",
 			"display": "HEMOGLOBIN"
 		}, {
-			"reference": "observation-erythrocytes.html",
+			"reference": "Observation-erythrocytes.html",
 			"display": "ERYTHROCYTES"
 		}
 	]

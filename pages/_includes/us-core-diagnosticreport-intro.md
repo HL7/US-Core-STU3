@@ -35,9 +35,9 @@ Each DiagnosticReport *should* have:
 
 #### Examples
 
-- [Diagnosticreport-urinalysis](diagnosticreport-urinalysis.html)
-- [Diagnosticreport-metabolic-panel](diagnosticreport-metabolic-panel.html)
-- [Diagnosticreport-cbc](diagnosticreport-cbc.html)
+- [Diagnosticreport-urinalysis](DiagnosticReport-urinalysis.html)
+- [Diagnosticreport-metabolic-panel](DiagnosticReport-metabolic-panel.html)
+- [Diagnosticreport-cbc](DiagnosticReport-cbc.html)
 
 [Observation]:  http://build.fhir.org/observation.html
 [DiagnosticReport]:  http://build.fhir.org/diagnosticreport.html

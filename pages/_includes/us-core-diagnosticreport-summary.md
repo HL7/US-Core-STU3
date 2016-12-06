@@ -18,6 +18,6 @@ Each DiagnosticReport *SHOULD* have:
 
 1.  A practitioner or organization in `DiagnosticReport.performer`
 
-[DiagnosticReportStatus]: http://build.fhir.org/valueset-diagnostic-report-status.html
+[DiagnosticReportStatus]: http://build.fhir.org/Valueset-diagnostic-report-status.html
 [Observation]: http://build.fhir.org/observation.html
-[LOINC Diagnostic Report Codes]: http://build.fhir.org/valueset-report-codes.html
+[LOINC Diagnostic Report Codes]: http://build.fhir.org/Valueset-report-codes.html

@@ -17,14 +17,14 @@
 	<criticality value="high"/>
 	<code>
 		<coding>
-			<system value="http://rxnav.nlm.nih.gov/REST/Ndfrt"/>
+			<system value="http://hl7.org/fhir/ndfrt"/>
 			<code value="N0000175503"/>
 			<display value="sulfonamide antibacterial"/>
 		</coding>
 		<text value="sulfonamide antibacterial"/>
 	</code>
 	<patient>
-		<reference value="patient-example.html"/><display value="Amy V. Shaw"/>
+		<reference value="Patient-example.html"/><display value="Amy V. Shaw"/>
 	</patient>
 	<assertedDate value="2000"/>
 	<reaction>

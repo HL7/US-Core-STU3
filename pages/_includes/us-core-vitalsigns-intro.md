@@ -131,21 +131,21 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 #### Examples
 
- - [observation-vitals-panel](observation-vitals-panel.html)
- - [observation-weight](observation-weight.html)
- - [observation-temperature](observation-temperature.html)
- - [observation-heart-rate](observation-heart-rate.html)
- - [observation-respiratory-rate](observation-respiratory-rate.html)
- - [observation-oxygen-saturation](observation-oxygen-saturation.html)
- - [observation-length](observation-length.html)
- - [observation-height](observation-height.html)
- - [observation-head-circumference](observation-head-circumference.html)
- - [observation-bmi](observation-bmi.html)
- - [observation-blood-pressure](observation-blood-pressure.html)
- - [observation-bp-data-absent](observation-bp-data-absent.html)
+ - [observation-vitals-panel]Observation-vitals-panel.html)
+ - [observation-weight]Observation-weight.html)
+ - [observation-temperature]Observation-temperature.html)
+ - [observation-heart-rate]Observation-heart-rate.html)
+ - [observation-respiratory-rate]Observation-respiratory-rate.html)
+ - [observation-oxygen-saturation]Observation-oxygen-saturation.html)
+ - [observation-length]Observation-length.html)
+ - [observation-height]Observation-height.html)
+ - [observation-head-circumference]Observation-head-circumference.html)
+ - [observation-bmi]Observation-bmi.html)
+ - [observation-blood-pressure]Observation-blood-pressure.html)
+ - [observation-bp-data-absent]Observation-bp-data-absent.html)
 
 
 [Observation]: http://build.fhir.org/observation.html
 [extensible]: http://build.fhir.org/terminologies.html#extensible
-[Conformance requirements for the US-Core Server]: capabilitystatement-server.html
+[Conformance requirements for the US-Core Server]: CapabilityStatement-server.html
 [General Guidance Section]: definitions.html

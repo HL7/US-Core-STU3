@@ -27,9 +27,9 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 #### Examples
 
- - [Condition-hc1](condition-hc1.html) this is an example of a condition categorized as a "problem"
- - [Condition-example](condition-example.html) this is an example of a condition categorized as a "health-concern"
+ - [Condition-hc1]Condition-hc1.html) this is an example of a condition categorized as a "problem"
+ - [Condition-example]Condition-example.html) this is an example of a condition categorized as a "health-concern"
 
 [Condition]: http://build.fhir.org/condition.html
 [extensible]: http://build.fhir.org/terminologies.html#extensible
-[US Core Condition Category Codes]: valueset-us-core-condition-category.html
+[US Core Condition Category Codes]: Valueset-us-core-condition-category.html

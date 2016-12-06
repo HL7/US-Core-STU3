@@ -25,7 +25,7 @@
 		<display value="lisinopril oral 10 mg"/>
 	</medicationReference>
 <subject>
-		<reference value="patient-example.html"/><display value="Amy Shaw"/>
+		<reference value="Patient-example.html"/><display value="Amy Shaw"/>
 	</subject>
 		<effectivePeriod>
 		<start value="2010-05-01"/>

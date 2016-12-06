@@ -1230,7 +1230,7 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s93"><Data ss:Type="String">USCoreareTeam</Data><NamedCell
+    <Cell ss:Index="2" ss:StyleID="s93"><Data ss:Type="String">USCoreCareTeam</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1276,7 +1276,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreareTeamStatus</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreCareTeamStatus</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1374,7 +1374,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreareTeamRole</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreCareTeamRole</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2410,7 +2410,7 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreareTeamStatus</Data></Cell>
+    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreCareTeamStatus</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Indicates whether the team is current , represents future intentions or is now a historical record.</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">required</Data></Cell>
@@ -2426,7 +2426,7 @@
     <Cell ss:StyleID="s126"><Data ss:Type="String">fix this to be daf coding system</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s104"><Data ss:Type="String">USCoreareTeamRole</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">USCoreCareTeamRole</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Indicates specific responsibility of an individual within the care team, such as Primary physician, Team coordinator, Caregiver, etc.</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">required</Data></Cell>

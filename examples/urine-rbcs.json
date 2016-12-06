@@ -28,7 +28,7 @@
     "text": "RBC"
   },
   "subject": {
-    "reference": "patient-example.html","display": "Amy Shaw"
+    "reference": "Patient-example.html","display": "Amy Shaw"
   },
   "effectiveDateTime": "2005-07-05",
   "valueCodeableConcept": {

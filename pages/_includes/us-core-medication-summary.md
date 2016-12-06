@@ -5,4 +5,4 @@
         -  [Medication Clinical Drug (RxNorm)] value set
    
 
-  [Medication Clinical Drug (RxNorm)]: valueset-us-core-medication-codes.html
+  [Medication Clinical Drug (RxNorm)]: Valueset-us-core-medication-codes.html

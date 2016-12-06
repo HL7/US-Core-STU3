@@ -25,7 +25,7 @@
 		]
 	},
 	"subject": {
-		"reference": "patient-peter-chalmers.html",
+		"reference": "Patient-example.html",
 		"display": "Amy Shaw"
 	},
 
@@ -33,37 +33,37 @@
 	"issued": "2005-07-06T11:45:33+11:00",
 		"performer": [
 		{
-			"reference": "organization-acme-lab.html",
+			"reference": "Organization-acme-lab.html",
 			"display": "Acme Laboratory, Inc"
 		}
 	],
 	"result": [
 		{
-			"reference": "observation-serum-total-bilirubin.html",
+			"reference": "Observation-serum-total-bilirubin.html",
 			"display": "TOTAL BILIRUBIN"
 		}, {
-			"reference": "observation-serum-sodium.html",
+			"reference": "Observation-serum-sodium.html",
 			"display": "SODIUM"
 		}, {
-			"reference": "observation-serum-potassium.html",
+			"reference": "Observation-serum-potassium.html",
 			"display": "Potassium"
 		}, {
-			"reference": "observation-serum-creatinine.html",
+			"reference": "Observation-serum-creatinine.html",
 			"display": "CREATININE"
 		}, {
-			"reference": "observation-serum-co2.html",
+			"reference": "Observation-serum-co2.html",
 			"display": "TOTAL CO2"
 		}, {
-			"reference": "observation-serum-chloride.html",
+			"reference": "Observation-serum-chloride.html",
 			"display": "CHLORIDE"
 		}, {
-			"reference": "observation-serum-calcium.html",
+			"reference": "Observation-serum-calcium.html",
 			"display": "CALCIUM"
 		}, {
-			"reference": "observation-BUN.html",
+			"reference": "Observation-BUN.html",
 			"display": "BUN"
 		}, {
-			"reference": "observation-blood-glucose.html",
+			"reference": "Observation-blood-glucose.html",
 			"display": "GLUCOSE"
 		}
 	]

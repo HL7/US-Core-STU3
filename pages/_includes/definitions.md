@@ -209,8 +209,8 @@ In order to manage the number of search results returned, the server may choose 
   [core specification]: http://build.fhir.org/extensibility.html#2.20.0.2.2
   [DataAbsentReason Extension]: http://build.fhir.org/extension-data-absent-reason.html
   [http://build.fhir.org/StructureDefinition/data-absent-reason]: http://build.fhir.org/StructureDefinition/data-absent-reason
-  [FHIR Conformance Rules]: http://build.fhir.org/capabilitystatement-rules.html
+  [FHIR Conformance Rules]: http://build.fhir.org/conformance-rules.html
 [Quantity]: http://build.fhir.org/datatypes.html#quantity
 [UCUM]: http://unitsofmeasure.org
-[US Core Result Observation Profile]: structuredefinition-us-core-observationresults.html
-[US Core Vital Signs Profile]: structuredefinition-us-core-vitalsigns.html
+[US Core Result Observation Profile]:StructureDefinition-us-core-observationresults.html
+[US Core Vital Signs Profile]:StructureDefinition-us-core-vitalsigns.html

@@ -27,68 +27,68 @@
 		"text": "Complete Urinalysis"
 	},
 	"subject": {
-		"reference": "patient-peter-chalmers.html",
+		"reference": "Patient-example.html",
 		"display": "Amy Shaw"
 	},
 	"effectiveDateTime": "2005-07-05",
 	"issued": "2005-07-06T11:45:33+11:00",
 	"performer": [
 		{
-			"reference": "organization-acme-lab.html",
+			"reference": "Organization-acme-lab.html",
 			"display": "Acme Laboratory, Inc"
 		}
 	],
 	"result": [
 		{
-			"reference": "observation-urine-color.html",
+			"reference": "Observation-urine-color.html",
 			"display": "COLOR=Yellow "
 		}, {
-			"reference": "observation-urine-clarity.html",
+			"reference": "Observation-urine-clarity.html",
 			"display": "APPEARANCE=Hazy "
 		}, {
-			"reference": "observation-urine-glucose.html",
+			"reference": "Observation-urine-glucose.html",
 			"display": "GLUCOSE=Negative "
 		}, {
-			"reference": "observation-urine-bilirubin.html",
+			"reference": "Observation-urine-bilirubin.html",
 			"display": "BILIRUBIN=Negative "
 		}, {
-			"reference": "observation-urine-ketone.html",
+			"reference": "Observation-urine-ketone.html",
 			"display": "KETONE=Negative "
 		}, {
-			"reference": "observation-usg.html",
+			"reference": "Observation-usg.html",
 			"display": "SPEC GRAV=1.0169999999999999 "
 		}, {
-			"reference": "observation-urine-ph.html",
+			"reference": "Observation-urine-ph.html",
 			"display": "PH=6 (pH)"
 		}, {
-			"reference": "observation-urine-protein.html",
+			"reference": "Observation-urine-protein.html",
 			"display": "PROTEIN=Negative "
 		}, {
-			"reference": "observation-urobilinogen.html",
+			"reference": "Observation-urobilinogen.html",
 			"display": "UROBILINOGEN=0.3 mg/dL"
 		}, {
-			"reference": "observation-urine-nitrite.html",
+			"reference": "Observation-urine-nitrite.html",
 			"display": "NITRITE=Positive "
 		}, {
-			"reference": "observation-urine-hemoglobin.html",
+			"reference": "Observation-urine-hemoglobin.html",
 			"display": "BLOOD=Trace "
 		}, {
-			"reference": "observation-urine-leukocute-esterase.html",
+			"reference": "Observation-urine-leukocute-esterase.html",
 			"display": "LEUK ESTERASE=2+ "
 		}, {
-			"reference": "observation-urine-sediment.html",
+			"reference": "Observation-urine-sediment.html",
 			"display": "COMMENT=Recommend Urine Culture "
 		}, {
-			"reference": "observation-urine-bacteria.html",
+			"reference": "Observation-urine-bacteria.html",
 			"display": "BACTERIA=4+ "
 		}, {
-			"reference": "observation-urine-epi-cells.html",
+			"reference": "Observation-urine-epi-cells.html",
 			"display": "EPITHELIAL CELLS=1-5 cells/HPF"
 		}, {
-			"reference": "observation-urine-wbcs.html",
+			"reference": "Observation-urine-wbcs.html",
 			"display": "WBC=20-30 cells/HPF"
 		}, {
-			"reference": "observation-urine-rbcs.html",
+			"reference": "Observation-urine-rbcs.html",
 			"display": "RBC=Occasional cells/HPF"
 		}
 	]

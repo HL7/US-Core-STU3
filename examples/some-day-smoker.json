@@ -23,7 +23,7 @@
 		"text": "Tobacco smoking status"
 	},
 	"subject": {
-		"reference": "patient-peter-chalmers.html",
+		"reference": "Patient-example.html",
 		"display": "Amy Shaw"
 	},
 	"issued": "2016-03-18T05:27:04Z",

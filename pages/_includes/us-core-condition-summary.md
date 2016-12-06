@@ -10,9 +10,9 @@
 
 
   [extensible]: http://build.fhir.org/terminologies.html#extensible
-  [Problem Value Set]: valueset-us-core-problem.html
+  [Problem Value Set]: Valueset-us-core-problem.html
   [Invariants]: http://build.fhir.org/condition.html#invs
-  [Condition Clinical Status Codes]: http://build.fhir.org/valueset-condition-clinical.html
-  [ConditionVerificationStatus]: http://build.fhir.org/valueset-condition-ver-status.html
-  [US Core Condition Profile]: structuredefinition-us-core-condition.html
- [US Core Condition Category Codes]: valueset-us-core-condition-category.html
+  [Condition Clinical Status Codes]: http://build.fhir.org/Valueset-condition-clinical.html
+  [ConditionVerificationStatus]: http://build.fhir.org/Valueset-condition-ver-status.html
+  [US Core Condition Profile]:StructureDefinition-us-core-condition.html
+ [US Core Condition Category Codes]: Valueset-us-core-condition-category.html

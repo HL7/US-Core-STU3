@@ -31,7 +31,7 @@
       "text":"Blood pressure systolic and diastolic"
    },
    "subject":{
-      "reference":"patient-example.html","display": "Amy Shaw"
+      "reference":"Patient-example.html","display": "Amy Shaw"
    },
    "encounter":{
       "reference":"Encounter/691"

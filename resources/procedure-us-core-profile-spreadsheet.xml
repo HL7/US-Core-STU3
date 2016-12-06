@@ -1237,7 +1237,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">USCorerocStatus</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreProcStatus</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1301,7 +1301,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">USCorerocedureType</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreProcedureType</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1332,7 +1332,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">USCorerocedureICD10PCS</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreProcedureICD10PCS</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8890,7 +8890,7 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell ss:StyleID="s93"><Data ss:Type="String">USCorerocStatus</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">USCoreProcStatus</Data></Cell>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s133"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">required</Data></Cell>
@@ -8905,7 +8905,7 @@
     <Cell ss:StyleID="s134"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s104"><Data ss:Type="String">USCorerocedureType</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">USCoreProcedureType</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Codes describing the Procedure Type</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">required</Data></Cell>
@@ -8920,7 +8920,7 @@
     <Cell ss:StyleID="s137"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s104"><Data ss:Type="String">USCorerocedureICD10PCS</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">USCoreProcedureICD10PCS</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Optional ICD-10PCS Code translations describing the Procedure Type</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">required</Data></Cell>

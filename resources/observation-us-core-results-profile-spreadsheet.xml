@@ -1236,7 +1236,7 @@
     <Cell ss:StyleID="s94"/>
     <Cell ss:StyleID="s95"/>
     <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">USCorebs</Data><NamedCell
+    <Cell ss:StyleID="s96"><Data ss:Type="String">USCoreObss</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s97"><Data ss:Type="String">Observation</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1279,7 +1279,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s109"><Data ss:Type="String">USCorebsStatus</Data><NamedCell
+    <Cell ss:StyleID="s109"><Data ss:Type="String">USCoreObssStatus</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1585,7 +1585,7 @@
     <Cell ss:StyleID="s105"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String" x:Ticked="1">@type</Data></Cell>
     <Cell ss:StyleID="s106"/>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">USCorealueType</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreValueType</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><Data ss:Type="String">Observation.value[x]</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1618,7 +1618,7 @@
     <Cell ss:StyleID="s105"/>
     <Cell ss:StyleID="s109"/>
     <Cell ss:StyleID="s106"/>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">USCorealueQuantity</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreValueQuantity</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><Data ss:Type="String">Observation.valueQuantity</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1651,7 +1651,7 @@
     <Cell ss:StyleID="s105"/>
     <Cell ss:StyleID="s106"/>
     <Cell ss:StyleID="s106"/>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">USCorealueCode</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreValueCode</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><Data ss:Type="String">Observation.valueCodeableConcept</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6586,7 +6586,7 @@
     <Cell ss:StyleID="s141"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s107"><Data ss:Type="String">USCorebsStatus</Data></Cell>
+    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreObssStatus</Data></Cell>
     <Cell ss:StyleID="s109"/>
     <Cell ss:StyleID="s140"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s140"><Data ss:Type="String">required</Data></Cell>

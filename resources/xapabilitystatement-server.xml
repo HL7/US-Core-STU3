@@ -27,7 +27,7 @@
 				</tbody>
 			</table>
 			<h2>REST  behavior</h2>
-			<p>The US Core  Server SHALL support the <a href="structuredefinition-us-core-patient.html">US Core patient</a> resource profile. In addition to the US Core patient, the US Core  Server SHALL support at least one additional resource profile from the list of <a href="us-core.html#us-core-profiles">US-Core profiles</a>.
+			<p>The US Core  Server SHALL support the <a href=StructureDefinition-us-core-patient.html">US Core patient</a> resource profile. In addition to the US Core patient, the US Core  Server SHALL support at least one additional resource profile from the list of <a href="us-core.html#us-core-profiles">US-Core profiles</a>.
 	  The US Core  Server SHALL implement REST behavior according to the <a href="http://build.fhir.org/http.html">FHIR</a> specification.
 	  The US Core  Server SHALL support json, and SHOULD support xml resource formats for all US Core  interactions. The US Core  Server SHALL identify the US Core  profile(s) supported as part of the FHIR BaseResource.Meta.profile attribute for each instance. The US Core  Server SHALL declare a Capability statement and identify the list of profiles, operations, search parameter supported.
       </p>
@@ -59,7 +59,7 @@
 				<tbody>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-patient.html">US Core patient</a>
+							<a href=StructureDefinition-us-core-patient.html">US Core patient</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core patient resources based on different search criteria" href="#US Core PatientSearch">SHALL</a>
@@ -76,7 +76,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-allergyintolerance.html">US Core AllergyIntolerance</a>
+							<a href=StructureDefinition-us-core-allergyintolerance.html">US Core AllergyIntolerance</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core allergyintolerance resources based on different search criteria" href="#US Core AllergyIntoleranceRequestSearch">SHALL</a>
@@ -93,7 +93,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-careplan.html">US Core CarePlan</a>
+							<a href=StructureDefinition-us-core-careplan.html">US Core CarePlan</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core careplan resources based on different search criteria" href="#US Core CarePlanRequestSearch">SHALL</a>
@@ -110,7 +110,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-careteam.html">US Core CareTeam</a>
+							<a href=StructureDefinition-us-core-careteam.html">US Core CareTeam</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core careteam resources based on different search criteria" href="#US Core CareTeamRequestSearch">SHALL</a>
@@ -127,7 +127,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-condition.html">US Core Condition</a>
+							<a href=StructureDefinition-us-core-condition.html">US Core Condition</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core condition resources based on different search criteria" href="#US Core ConditionRequestSearch">SHALL</a>
@@ -144,7 +144,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-device.html">US Core Device</a>
+							<a href=StructureDefinition-us-core-device.html">US Core Device</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core device resources based on different search criteria" href="#US Core DeviceRequestSearch">SHALL</a>
@@ -161,7 +161,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-Medication.html">US Core Medication</a>
+							<a href=StructureDefinition-us-core-Medication.html">US Core Medication</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core Medication resources based on different search criteria" href="#US Core MedicationRequestSearch">SHALL</a>
@@ -178,7 +178,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-immunization.html">US Core Immunization</a>
+							<a href=StructureDefinition-us-core-immunization.html">US Core Immunization</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core immunization resources based on different search criteria" href="#US Core ImmunizationRequestSearch">SHALL</a>
@@ -195,7 +195,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-diagnosticreport.html">US Core DiagnosticReport</a>
+							<a href=StructureDefinition-us-core-diagnosticreport.html">US Core DiagnosticReport</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core diagnosticreport resources based on different search criteria" href="#US Core DiagnosticReportSearch">SHALL</a>
@@ -212,7 +212,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-observationresults.html">US Core Observation Results</a>
+							<a href=StructureDefinition-us-core-observationresults.html">US Core Observation Results</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core observation results resources based on different search criteria" href="#US Core ResultsSearch">SHALL</a>
@@ -229,7 +229,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-location.html">US Core Location</a>
+							<a href=StructureDefinition-us-core-location.html">US Core Location</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core Location resources based on different search criteria" href="#US Core LocationSearch">SHALL</a>
@@ -246,7 +246,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-medication.html">US Core Medication</a>
+							<a href=StructureDefinition-us-core-medication.html">US Core Medication</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core medication resources based on different search criteria" href="#US Core MedicationSearch">SHALL</a>
@@ -263,7 +263,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-medicationstatement.html">US Core MedicationStatement</a>
+							<a href=StructureDefinition-us-core-medicationstatement.html">US Core MedicationStatement</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core medicationstatement resources based on different search criteria" href="#US Core MedicationStatementSearch">SHALL</a>
@@ -280,7 +280,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-medicationrequest.html">US Core MedicationRequest</a>
+							<a href=StructureDefinition-us-core-medicationrequest.html">US Core MedicationRequest</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core medicationrequest resources based on different search criteria" href="#US Core MedicationRequestSearch">SHALL</a>
@@ -297,7 +297,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-smokingstatus.html">US Core Smoking Status Observation</a>
+							<a href=StructureDefinition-us-core-smokingstatus.html">US Core Smoking Status Observation</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core smokingstatus resources based on different search criteria" href="#US Core SmokingStatusSearch">SHALL</a>
@@ -314,7 +314,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-vitalsigns.html">US Core Vital Signs Observation</a>
+							<a href=StructureDefinition-us-core-vitalsigns.html">US Core Vital Signs Observation</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core vitalsigns resources based on different search criteria" href="#US Core VitalSignsSearch">SHALL</a>
@@ -331,7 +331,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-organization.html">US Core Organization</a>
+							<a href=StructureDefinition-us-core-organization.html">US Core Organization</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core organization resources based on different search criteria" href="#US Core OrganizationSearch">SHALL</a>
@@ -348,7 +348,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-pract.html">US Core Practitioner</a>
+							<a href=StructureDefinition-us-core-pract.html">US Core Practitioner</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core pract resources based on different search criteria" href="#US Core PractSearch">SHALL</a>
@@ -365,7 +365,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href="structuredefinition-us-core-procedure.html">US Core Procedure</a>
+							<a href=StructureDefinition-us-core-procedure.html">US Core Procedure</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core procedure resources based on different search criteria" href="#US Core ProcedureSearch">SHALL</a>

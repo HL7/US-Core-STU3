@@ -23,7 +23,7 @@
 		"text": "Vital signs panel (respiratory rate, heart rate, blood pressure)"
 	},
 	"subject": {
-		"reference": "patient-example.html",
+		"reference": "Patient-example.html",
 		"display": "Amy Shaw"
 	},
 	"encounter": {

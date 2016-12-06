@@ -1211,7 +1211,7 @@
     <Cell><Data ss:Type="String">CDA</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="27.9375">
-    <Cell ss:StyleID="s92"><Data ss:Type="String">USCoreitalSigns</Data><NamedCell
+    <Cell ss:StyleID="s92"><Data ss:Type="String">USCoreVitalSigns</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s93"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1257,7 +1257,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s106"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s106"><Data ss:Type="String">USCorebsStatus</Data><NamedCell
+    <Cell ss:StyleID="s106"><Data ss:Type="String">USCoreObssStatus</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8746,7 +8746,7 @@
     <Cell ss:StyleID="s140"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s103"><Data ss:Type="String">USCorebsStatus</Data></Cell>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">USCoreObssStatus</Data></Cell>
     <Cell ss:StyleID="s106"/>
     <Cell ss:StyleID="s139"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">required</Data></Cell>

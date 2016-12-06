@@ -32,7 +32,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
  #### Examples
 
- - [observation-some-day-smoker](observation-some-day-smoker.html)
+ - [observation-some-day-smoker]Observation-some-day-smoker.html)
 
 [Observation]: http://build.fhir.org/observation.html
-[Conformance requirements for the US-Core Server]: capabilitystatement-server.html
+[Conformance requirements for the US-Core Server]: CapabilityStatement-server.html

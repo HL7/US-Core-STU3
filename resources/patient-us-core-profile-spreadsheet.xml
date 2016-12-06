@@ -1213,7 +1213,7 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s93"><Data ss:Type="String">USCoreatient</Data><NamedCell
+    <Cell ss:StyleID="s93"><Data ss:Type="String">USCorePatient</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1532,7 +1532,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s104"><Data ss:Type="String">USCoreender</Data><NamedCell
+    <Cell ss:StyleID="s104"><Data ss:Type="String">USCoreGender</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1650,7 +1650,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreanguage</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">USCoreLanguage</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -8032,10 +8032,10 @@
    xmlns="urn:schemas-microsoft-com:office:excel">
   </AutoFilter>
  </Worksheet>
- <Worksheet ss:Name="USCoreatient-Search">
+ <Worksheet ss:Name="USCorePatient-Search">
   <Names>
    <NamedRange ss:Name="_FilterDatabase"
-    ss:RefersTo="='USCoreatient-Search'!R1C1:R1C5" ss:Hidden="1"/>
+    ss:RefersTo="='USCorePatient-Search'!R1C1:R1C5" ss:Hidden="1"/>
   </Names>
   <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="21" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s135" ss:DefaultColumnWidth="54"
@@ -8955,7 +8955,7 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s104"><Data ss:Type="String">USCoreender</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">USCoreGender</Data></Cell>
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s138"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">required</Data></Cell>
@@ -8970,7 +8970,7 @@
     <Cell ss:StyleID="s139"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s104"><Data ss:Type="String">USCoreanguage</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">USCoreLanguage</Data></Cell>
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s158"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">extensible</Data></Cell>

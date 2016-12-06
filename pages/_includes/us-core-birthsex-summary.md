@@ -1,4 +1,4 @@
 #### Summary of the Mandatory Requirements
 
 1. One Birth Sex in Patient.extension= US Core Patient Birth Sex which has an required binding to:
-[US Core Birth Sex](valueset-us-core-birthsex.html)
+[US Core Birth Sex](Valueset-us-core-birthsex.html)

@@ -24,6 +24,6 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 #### Examples
 
-- [Device-udi-1](device-udi-1.html)
+- [Device-udi-1](Device-udi-1.html)
 
 [Device]: http://build.fhir.org/device.html
