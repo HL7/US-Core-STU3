@@ -10,6 +10,6 @@
 1.  One boolean value in `Immunization.wasNotGiven`
 1.  One boolean value in `Immunization.primarySource`
 
-  [Immunization Status]: Valueset-us-core-immunization-status.html
-  [CVX]: Valueset-us-core-cvx.html
-  [NDC]: Valueset-us-core-ndc-vaccine-codes.html
+  [Immunization Status]: ValueSet-us-core-immunization-status.html
+  [CVX]: ValueSet-us-core-cvx.html
+  [NDC]: ValueSet-us-core-ndc-vaccine-codes.html

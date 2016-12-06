@@ -9,8 +9,8 @@
 1.  A date or a time period in `Procedure.performedDateTime` or `Procedure.performedPeriod`
 
 
-  [SNOMED CT]: Valueset-us-core-procedure-type.html
-  [CPT-4/HCPC for procedures]: Valueset-us-core-procedure-type.html
+  [SNOMED CT]: ValueSet-us-core-procedure-type.html
+  [CPT-4/HCPC for procedures]: ValueSet-us-core-procedure-type.html
   [ICD-10-PCS codes]: http://www.icd10data.com/icd10pcs
   [Code on Dental Procedures and Nomenclature (CDT Code)]: http://www.ada.org/en/publications/cdt/
-  [ProcedureStatus]: http://build.fhir.org/Valueset-procedure-status.html
+  [ProcedureStatus]: http://build.fhir.org/ValueSet-procedure-status.html

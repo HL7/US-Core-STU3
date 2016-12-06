@@ -13,7 +13,7 @@
 1.  One date or period in `MedicationStatement.effectiveDateTime` or `MedicationStatment.effectivePeriod`
 
 
-  [Medication Clinical Drug (RxNorm)]: Valueset-us-core-medication-codes.html
-  [MedicationStatusStatus]: http://build.fhir.org/Valueset-medication-request-status.html
+  [Medication Clinical Drug (RxNorm)]: ValueSet-us-core-medication-codes.html
+  [MedicationStatusStatus]: http://build.fhir.org/ValueSet-medication-request-status.html
 
-[MedicationStatementStatus]: http://build.fhir.org/Valueset-medication-statement-status.html
+[MedicationStatementStatus]: http://build.fhir.org/ValueSet-medication-statement-status.html

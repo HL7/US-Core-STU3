@@ -5,4 +5,4 @@
 1.  A  text description in `Goal.description.text`
 1.  A patient reference in `Goal.subject`
 
-  [GoalStatus]: http://build.fhir.org/Valueset-goal-status.html
+  [GoalStatus]: http://build.fhir.org/ValueSet-goal-status.html

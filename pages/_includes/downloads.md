@@ -4,7 +4,7 @@
 
 - [XML](definitions.xml.zip)
 - [JSON](definitions.json.zip)
-- [TTl](defintions.ttl.zip)
+- [TTl](definitions.ttl.zip)
 
 These definitions should be the first choice whenever generating any implementation artifacts since they contain all of the rules about what makes these DAF-Reseach profiles valid. Implementers will still need to be familiar with the content of the specification and profiles that apply in order to make a conformant implementation.  See the overview on [validating FHIR profiles and resources](http://build.fhir.org/validation.html) for more information about validating profiles and how to use these artifacts
 

@@ -6,4 +6,4 @@
     -   [Device Types] (SNOMED-CT) value set.
 1.  One patient reference in `Device.patient`
 
-  [Device Types]: http://build.fhir.org/Valueset-device-kind.html
+  [Device Types]: http://build.fhir.org/ValueSet-device-kind.html

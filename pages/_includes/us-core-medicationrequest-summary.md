@@ -9,6 +9,6 @@
 1.  One practitioner in `MedicationRequest.requester`
 
 
-  [Medication Clinical Drug (RxNorm)]: Valueset-us-core-medication-codes.html
-  [MedicationRequestStatus]: http://build.fhir.org/Valueset-medication-request-status.html
-[MedicationStatementStatus]: http://build.fhir.org/Valueset-medication-statement-status.html
+  [Medication Clinical Drug (RxNorm)]: ValueSet-us-core-medication-codes.html
+  [MedicationRequestStatus]: http://build.fhir.org/ValueSet-medication-request-status.html
+[MedicationStatementStatus]: http://build.fhir.org/ValueSet-medication-statement-status.html

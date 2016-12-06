@@ -10,6 +10,6 @@
 1.  One reference to a patient in `CarePlan.subject`
 
 
-  [CarePlan.text.status]: http://build.fhir.org/Valueset-narrative-status.html
-  [CarePlanStatus]: http://build.fhir.org/Valueset-care-plan-status.html
+  [CarePlan.text.status]: http://build.fhir.org/ValueSet-narrative-status.html
+  [CarePlanStatus]: http://build.fhir.org/ValueSet-care-plan-status.html
  [http://hl7.org/fhir/us/daf/CodeSystemCarePlan-category]: CodeSystem-careplan-category.html

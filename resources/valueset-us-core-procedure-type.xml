@@ -4,7 +4,7 @@
   <id value="us-core-procedure-type"/>
   <meta>
     <lastUpdated value="2016-05-25T16:59:08.250+10:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/ValueSet-shareable-definition"/>
   </meta>
   <url value="http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-type"/>
   <identifier>

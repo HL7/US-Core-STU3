@@ -14,7 +14,7 @@
 3.  One administrative gender in `Patient.gender`
     -   Patient.gender is bound to [AdministrativeGender] Value set (Code Set)
 
-  [AdministrativeGender]: http://build.fhir.org/Valueset-administrative-gender.html
+  [AdministrativeGender]: http://build.fhir.org/ValueSet-administrative-gender.html
 
 
 #### Summary of the Must Suport Requirements
@@ -38,14 +38,14 @@ Additionally your system must return:
 
   [Patient.birthDate]: http://hl7.org/fhir/us/daf/daf-patient-definitions.html#daf-patient.Patient.birthDate
   [Patient.communication.language]: http://hl7.org/fhir/us/daf/daf-patient-definitions.html#daf-patient.Patient.communication.language
-  [Common Languages]: http://build.fhir.org/Valueset-languages.html
-  [All Languages]: http://build.fhir.org/Valueset-all-languages.html
+  [Common Languages]: http://build.fhir.org/ValueSet-languages.html
+  [All Languages]: http://build.fhir.org/ValueSet-all-languages.html
   [US Core Patient Birth Sex]:StructureDefinition-us-core-birthsex.html
-  [US Core Birth Sex]: Valueset-us-core-birthsex.html
+  [US Core Birth Sex]: ValueSet-us-core-birthsex.html
   [US Core Patient Race]: StructureDefinition-us-core-race.html
-  [OMB Race Categories]: Valueset-omb-race.html
+  [OMB Race Categories]: ValueSet-omb-race.html
   [US Core Race Extension]:StructureDefinition-us-core-race.html
-  [CDC Race Codes]:Valueset-detailed-race.html
- [CDC Ethnicity Codes]: Valueset-detailed-ethnicity.html
+  [CDC Race Codes]:ValueSet-detailed-race.html
+ [CDC Ethnicity Codes]: ValueSet-detailed-ethnicity.html
  [US Core ethnicity Extension]:StructureDefinition-us-core-ethnicity.html
- [OMB Ethnicity Categories]: Valueset-omb-ethnicity.html
+ [OMB Ethnicity Categories]: ValueSet-omb-ethnicity.html

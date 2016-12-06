@@ -32,4 +32,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 [Condition]: http://build.fhir.org/condition.html
 [extensible]: http://build.fhir.org/terminologies.html#extensible
-[US Core Condition Category Codes]: Valueset-us-core-condition-category.html
+[US Core Condition Category Codes]: ValueSet-us-core-condition-category.html

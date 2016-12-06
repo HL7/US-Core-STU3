@@ -9,5 +9,5 @@
 Value Set] value set.
 1.  Careteam members in `CareTeam.participant.member`
 
- [CareTeamStatus]: Valueset-us-core-careteam-status.html
- [CareTeam Provider Role Value Set]: Valueset-us-core-careteam-provider-roles.html
+ [CareTeamStatus]: ValueSet-us-core-careteam-status.html
+ [CareTeam Provider Role Value Set]: ValueSet-us-core-careteam-provider-roles.html
