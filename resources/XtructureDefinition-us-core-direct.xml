@@ -16,7 +16,7 @@
   </contact>
   <date value="2013-12-03"/>
   <description value="This email address is associated with a &quot;direct&quot; service - e.g. http://wiki.directproject.org/Addressing+Specification."/>
-  <fhirVersion value="1.7.0"/>
+  <fhirVersion value="1.8.0"/>
   <mapping>
     <identity value="rim"/>
     <uri value="http://hl7.org/v3"/>
