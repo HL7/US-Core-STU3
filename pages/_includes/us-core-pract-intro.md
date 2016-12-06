@@ -26,5 +26,5 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 [Practitioner-1](practitioner-practitioner-1.html)
 
-[Practitioner]: http://hl7.org/fhir/2017Jan/Practitioner.html
+[Practitioner]: http://hl7.org/fhir/2017Jan/practitioner.html
 [Conformance requirements for the US-Core Server]: CapabilityStatement-server.html

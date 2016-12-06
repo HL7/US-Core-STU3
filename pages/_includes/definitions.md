@@ -202,7 +202,7 @@ In order to manage the number of search results returned, the server may choose 
 
   [core specification]: http://hl7.org/fhir/2017Jan/search.html#return
 
-  [FHIR RESTful API]: http://hl7.org/fhir/2017Jan/DSTU2/http.html
+  [FHIR RESTful API]: http://hl7.org/fhir/2017Jan/http.html
   [Searching]: http://hl7.org/fhir/2017Jan/search.html
   [Issue \#39]: https://github.com/argonautproject/implementation-program/issues/39
   [compartment]: http://hl7.org/fhir/2017Jan/compartmentdefinition.html
