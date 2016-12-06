@@ -28,7 +28,7 @@
     "text": "Bilirub SerPl-mCnc"
   },
   "subject": {
-    "reference": "Patient-example.html","display": "Amy Shaw"
+    "reference": "Patient/example","display": "Amy Shaw"
   },
   "effectiveDateTime": "2005-07-07",
   "valueQuantity": {

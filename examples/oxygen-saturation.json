@@ -28,7 +28,7 @@
 		"text": "oxygen_saturation"
 	},
 	"subject": {
-		"reference": "Patient-example.html",
+		"reference": "Patient/example",
 		"display": "Amy Shaw"
 	},
 	"encounter": {

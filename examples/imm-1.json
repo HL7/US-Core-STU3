@@ -17,7 +17,7 @@
 		]
 	},
 	"patient": {
-		"reference": "Patient-example.html",
+		"reference": "Patient/example",
 	"display": "Amy Shaw"
 	},
 	"wasNotGiven": false,

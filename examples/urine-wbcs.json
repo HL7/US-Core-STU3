@@ -27,7 +27,7 @@
     "text": "WBC"
   },
   "subject": {
-    "reference": "Patient-example.html","display": "Amy Shaw"
+    "reference": "Patient/example","display": "Amy Shaw"
   },
   "effectiveDateTime": "2005-07-05",
   "valueRange": {

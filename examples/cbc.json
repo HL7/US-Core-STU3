@@ -25,29 +25,29 @@
 		]
 	},
 	"subject": {
-		"reference": "Patient-example.html",
+		"reference": "Patient/example",
 		"display": "Amy Shaw"
 	},
 	"effectiveDateTime": "2005-07-05",
 	"issued": "2005-07-06T11:45:33+11:00",
 	"performer": [
 		{
-			"reference": "Organization-acme-lab.html",
+			"reference": "Organization/acme-lab",
 			"display": "Acme Laboratory, Inc"
 		}
 	],
 	"result": [
 		{
-			"reference": "Observation-neutrophils.html",
+			"reference": "Observation/neutrophils",
 			"display": "NEUTROPHILS"
 		}, {
-			"reference": "Observation-mchc.html",
+			"reference": "Observation/mchc",
 			"display": "MCHC"
 		}, {
-			"reference": "Observation-hemoglobin.html",
+			"reference": "Observation/hemoglobin",
 			"display": "HEMOGLOBIN"
 		}, {
-			"reference": "Observation-erythrocytes.html",
+			"reference": "Observation/erythrocytes",
 			"display": "ERYTHROCYTES"
 		}
 	]
