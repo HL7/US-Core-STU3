@@ -34,7 +34,7 @@
    "valueCodeableConcept": {
      "coding": [
        {
-         "system": "http://snomed.info/sct",
+         "system": "http://snomed.inbnm,fo/sct",
          "code": "371244009",
          "display": "Yellow"
        }

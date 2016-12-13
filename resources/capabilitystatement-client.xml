@@ -1274,8 +1274,8 @@
 			</table>
 		</div>
 	</text>
-	
 
+	<url value="http://hl7.org/fhir/us/core/CapabilityStatement/client"/>
 	<name value="US Core Requestor"/>
 	<status value="draft"/>
 	<date value="2015-04-02"/>

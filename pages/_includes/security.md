@@ -35,7 +35,7 @@ For the purposes of US-Core, security conformance requirements are as follows:
   [FHIR Communications]: http://hl7.org/fhir/2017Jan/security.html#http
   [Smart On FHIR]: http://fhir-docs.smarthealthit.org/argonaut-dev/authorization/backend-services/
   [FHIR Security Labels]: http://hl7.org/fhir/2017Jan/security-labels.html
-  [General Security Considerations]: #general
+  [General Security Considerations]: #general-security-considerations
   [FHIR Provenance]: http://hl7.org/fhir/2017Jan/provenance.html
   [FHIR Digital Signatures]: http://hl7.org/fhir/2017Jan/security.html#digital%20signatures
 

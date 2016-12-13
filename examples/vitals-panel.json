@@ -27,7 +27,7 @@
 		"display": "Amy Shaw"
 	},
 	"encounter": {
-		
+
 		"display": "GP Visit"
 	},
 	"effectiveDateTime": "1999-07-02",
@@ -35,19 +35,19 @@
 		{
 			"type": "has-member",
 			"target": {
-				"reference": "/Observation/691-respiratoryrate",
+				"reference": "Observation/respiratory-rate",
 				"display": "Respiratory Rate"
 			}
 		}, {
 			"type": "has-member",
 			"target": {
-				"reference": "/Observation/691-heartrate",
+				"reference": "Observation/heart-rate",
 				"display": "Heart Rate"
 			}
 		}, {
 			"type": "has-member",
 			"target": {
-				"reference": "/Observation/691-bp",
+				"reference": "Observation/blood-pressure",
 				"display": "Blood Pressure"
 			}
 		}

@@ -41,7 +41,7 @@
     to Observations in `Observation.related.target`
     -   a fixed `Observation.related.type`=“has-member”
 
- [Vital Signs]: ValueSet-us-core-observation-CCDAVitalSignResult.html
+ [Vital Signs]: ValueSet-us-core-observation-ccdavitalsignresult.html
   [Vital Signs Units]: http://hl7.org/fhir/2017Jan/valueset-ucum-vitals-common.html
   [extensible bindings]: Implementation_Guide#Extensible_binding_for_CodeableConcept_Datatype "wikilink"
   [using multiple codes]: Implementation_Guide#Using_multiple_codes_with_CodeableConcept_Datatype "wikilink"

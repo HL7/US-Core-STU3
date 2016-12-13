@@ -1781,6 +1781,7 @@
 			</table>
 		</div>
 	</text>
+	<url value="http://hl7.org/fhir/us/core/CapabilityStatement/server"/>
 	<name value="US Core  Server"/>
 	<status value="draft"/>
 	<date value="2016-08-10"/>

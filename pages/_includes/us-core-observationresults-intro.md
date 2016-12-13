@@ -37,39 +37,9 @@ Each Observation *should* have:
 
 #### Examples
 
- - [observation-usg]Observation-usg.html)
- - [observation-urobilinogen]Observation-urobilinogen.html)
- - [observation-urine-wbcs]Observation-urine-wbcs.html)
- - [observation-urine-sediment]Observation-urine-sediment.html)
- - [observation-urine-rbcs]Observation-urine-rbcs.html)
- - [observation-urine-protein]Observation-urine-protein.html)
- - [observation-urine-ph]Observation-urine-ph.html)
- - [observation-urine-nitrite]Observation-urine-nitrite.html)
- - [observation-urine-leukocyte-esterase]Observation-urine-leukocyte-esterase.html)
- - [observation-urine-ketone]Observation-urine-ketone.html)
- - [observation-urine-hemoglobin]Observation-urine-hemoglobin.html)
- - [observation-urine-glucose]Observation-urine-glucose.html)
- - [observation-urine-epi-cells]Observation-urine-epi-cells.html)
- - [observation-urine-color]Observation-urine-color.html)
- - [observation-urine-clarity]Observation-urine-clarity.html)
- - [observation-urine-cells]Observation-urine-cells.html)
- - [observation-urine-bilirubin]Observation-urine-bilirubin.html)
- - [observation-urine-bacteria]Observation-urine-bacteria.html)
- - [observation-serum-total-bilirubin]Observation-serum-total-bilirubin.html)
- - [observation-serum-sodium]Observation-serum-sodium.html)
- - [observation-serum-potassium]Observation-serum-potassium.html)
- - [observation-serum-creatinine]Observation-serum-creatinine.html)
- - [observation-serum-co2]Observation-serum-co2.html)
- - [observation-serum-chloride]Observation-serum-chloride.html)
- - [observation-serum-calcium]Observation-serum-calcium.html)
- - [observation-oxygen-saturation]Observation-oxygen-saturation.html)
- - [observation-neutrophils]Observation-neutrophils.html)
- - [observation-mchc]Observation-mchc.html)
- - [observation-hemoglobin]Observation-hemoglobin.html)
- - [observation-erythrocytes]Observation-erythrocytes.html)
- - [observation-BUN]Observation-BUN.html)
- - [observation-blood-pressure]Observation-blood-pressure.html)
- - [observation-blood-glucose]Observation-blood-glucose.html)
+ - [observation-usg](Observation-usg.html)
+ - [observation-serum-total-bilirubin](Observation-serum-total-bilirubin.html)
+ - [observation-erythrocytes](Observation-erythrocytes.html)
 
  [SNOMED CT]: http://snomed.info/sct
   [Observation Value Absent Reason]: http://hl7.org/fhir/2017Jan/valueset-observation-valueabsentreason.html
@@ -77,4 +47,4 @@ Each Observation *should* have:
   [LOINC]: http://loinc.org
 [Observation]:  http://hl7.org/fhir/2017Jan/observation.html
 [DiagnosticReport]:  http://hl7.org/fhir/2017Jan/diagnosticreport.html
-[General Guidance Section]: definitions.html
+[General Guidance Section]: definitions.html#using-ucum-in-the-quantity-datatype

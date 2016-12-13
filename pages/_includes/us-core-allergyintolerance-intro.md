@@ -28,6 +28,6 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 #### Examples
 
-- [AllergyIntolerance-example](allergyintolerance-example.html)
+- [AllergyIntolerance-example](AllergyIntolerance-example.html)
 
 [AllergyIntolerance]: http://hl7.org/fhir/2017Jan/allergyintolerance.html
