@@ -60,7 +60,7 @@
 			"reference": "Observation/serum-calcium",
 			"display": "CALCIUM"
 		}, {
-			"reference": "Observation/BUN",
+			"reference": "Observation/bun",
 			"display": "BUN"
 		}, {
 			"reference": "Observation/blood-glucose",
