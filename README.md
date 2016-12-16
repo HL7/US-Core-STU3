@@ -1,11 +1,12 @@
-#  STU3 US-Core Resources
+
+#  Welcome to the US Core Implemenation Guide Repository
+
+Authors:  Eric Haas, Brett Marquard
+
 
 -----
-This is the repository for STU3 US-Core Resources
+FHIR STU3 Implementation Guide
 
-<!--
-### NOTE the CI build is currently not working (11/1/2016) a recent build is available [here](http://healthedatainc.com/go-ftp/US-Core/)
--->
 
 GitHub will automatically trigger a new build whenever you commit changes.
 (To manually trigger a build, just `POST` to the Webhook URL yourself, for example via:
@@ -13,18 +14,13 @@ GitHub will automatically trigger a new build whenever you commit changes.
 
 *Note: a build takes 2-3 minutes to complete. Then you can...*
 
-
-### NOTE the CI build is currently not working (11/1/2016) a recent build is available at
-
-http://healthedatainc.com/go-ftp/US-Core
+(If the CI Build is unavailable a recent version of the build is available here : http://healthedatainc.com/go-ftp/US-Core/)
 
 
 ### Find your rendered IG automatically available at
 
-http://ig.fhir.me/Healthedata1/US-Core
+http://build.fhir.org/Healthedata1/US-Core
 
 ### Find debugging info about the build
 
-http://ig.fhir.me/Healthedata1/US-Core/debug.tgz
-
-------
+http://build.fhir.org/Healthedata1/US-Core/debug.tgz
