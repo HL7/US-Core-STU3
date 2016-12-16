@@ -19,7 +19,7 @@ Each Observation *SHOULD* have:
 
   [Observation Value Codes (SNOMED-CT)]: ValueSet-us-core-observation-value-codes.html
   [Observation Value Absent Reason]: http://hl7.org/fhir/2017Jan/valueset-observation-valueabsentreason.html
-  [UCUM units]: ValueSet-us-core-ucum.html
+  [UCUM units]: http://build.fhir.org/valueset-ucum-units.html
   [LOINC]: http://loinc.org
   [LOINC Observation Codes]: http://hl7.org/fhir/2017Jan/valueset-observation-codes.html
   [ObservationStatus]: http://hl7.org/fhir/2017Jan/valueset-observation-status.html

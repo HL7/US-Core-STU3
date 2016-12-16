@@ -6,11 +6,11 @@
 
 **Clients**
 
--   A client has connected to a server and fetched a patient's profile using [GET /Profile?patient=\[id]\].
+-   A client has connected to a server and fetched a patient's allergies using `GET /AllergyIntolerance?patient=[id]`.
 
 **Servers**
 
--   A server is capable of returning a patient's profile list using [GET /AllergyIntolerance?patient=\[id]\].
+- A server is capable of returning a patient's allergies using `GET /AllergyIntolerance?patient=[id]`.
 -   A server has ensured that every API request includes a valid Authorization token, supplied via:Authorization: Bearer {server-specific-token-here}
 -   A server has rejected any unauthorized requests by returning an HTTP 401 Unauthorized response code.
 

@@ -1,0 +1,16 @@
+CS - Search  Punch list
+
+Convert the Markup to xhtml - manually :( -done  - figure out how to do 
+Change Argonaut to Use Core in Search -done
+fix example for STU3
+Confirm if can only have quick start in search and move the rest to CS
+Discuss What should go in Client CS? 
+Note that Goal require a date based search but not a mandatory element - Ticket?
+fix extension definition - done
+add location and organization practitioner -done
+
+need to post process the stylevision output
+xmlns="http://www.w3.org/1999/xhtml"
+The entity 'nbsp' was referenced,but not declared.
+#### all bad
+

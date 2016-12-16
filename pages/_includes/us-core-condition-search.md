@@ -10,6 +10,10 @@
 **Servers**
 
 - A server is capable of returning a patient's conditions list using `GET/Condition?patient=[id]`.
+
+- A server **SHOULD** be capable returning all of a patient's active problems and health concerns using 'GET /Condition?patient=[id]&clinicalstatus=active,recurrance,remission'
+- A server **SHOULD** be capable returning all of a patient's problems or all of patient's health concerns using 'GET /Condition?patient=[id]&&category=[problem|health-concern]'
+
 - A server has ensured that every API request includes a valid Authorization token, supplied via:Authorization: Bearer {server-specific-token-here}
 - A server has rejected any unauthorized requests by returning an HTTP 401 Unauthorized response code.
 
@@ -34,7 +38,7 @@
 
 -----------
 
-`GET /Condition?patient=[id]&clinicalstatus=active,relapse,remission`
+`GET /Condition?patient=[id]&clinicalstatus=active,recurrance,remission'`
 
 *Support:* Optional to support search by status.
 
