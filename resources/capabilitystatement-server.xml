@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CapabilityStatement xmlns="http://hl7.org/fhir">
+<CapabilityStatement xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://build.fhir.org/device.xsd">
 	<id value="server"/>
 	<text>
 		<status value="generated"/>
@@ -30,53 +30,18 @@
 			</h4>
 			<br/>
 			<hr/>
-			<p>
-				<span>Description: </span>
-				<span>
-					<p>
-						<strong>The US Core Server SHALL:</strong>
-					</p>
-					<ol>
-						<li>Support the US Core Patient resource profile.</li>
-						<li>Support at least one additional resource profile from the list of US Core Profiles</li>
-						<li>Implement REST behavior according to the FHIR specification</li>
-						<li>Support json resource formats for all US Core interactions.</li>
-						<li>Identify the US Core profile(s) supported as part of the <a href="http://build.fhir.org/resource-definitions.html#Meta.profile">FHIR Meta profile attribute</a> for each instance.</li>
-						<li>Declare a CapabilityStatement identifying the list of profiles, operations, search parameter supported.</li>
-					</ol>
-					<p>
-						<strong>The US Core Server SHOULD:</strong>
-					</p>
-					<ol>
-						<li>Support xml resource formats for all US Core interactions.</li>
-					</ol>
-				</span>
-				<br/>
-			</p>
-			<br/>
-			<p>
-				<span>Security: </span>
-				<span>
-					<p>
-						<strong>US Core Servers SHALL</strong>
-					</p>
-					<ol>
-						<li>implement the <a href="http://hl7.org/fhir/us/core/security.html">security requirements</a> documented in the US-Core IG.</li>
-						<li>A server has ensured that every API request includes a valid Authorization token, supplied via: <code>Authorization: Bearer {server-specific-token-here}</code>
-						</li>
-						<li>A server has rejected any unauthorized requests by returning an <code>HTTP 401</code> Unauthorized response code.</li>
-					</ol>
-				</span>
-				<br/>
-			</p>
-			<br/>
+			<div>
+				<span>Description: </span><p><strong>The US Core  Server SHALL:</strong></p> <ol> <li>Support the US Core Patient resource profile.</li> <li>Support at least one additional resource profile from the list of US Core Profiles</li> <li>Implement REST behavior according to the FHIR specification</li> <li>Support json resource formats for all US Core interactions.</li> <li>Identify the US Core profile(s) supported as part of the <a href="http://build.fhir.org/resource-definitions.html#Meta.profile">FHIR Meta profile attribute</a> for each instance.</li> <li>Declare a CapabilityStatement identifying the list of profiles, operations, search parameter supported.    </li> </ol> <p><strong>The US Core  Server SHOULD:</strong> </p> <ol> <li>Support xml resource formats for all US Core interactions.  </li> </ol><br/></div>
+			<div>
+				<span>Security: </span><p><strong>US Core  Servers SHALL</strong></p>   <ol>   <li>Implement the <a href="http://hl7.org/fhir/us/core/security.html">security.html security requirements</a>  documented in the US-Core IG.</li>   <li>A server has ensured that every API request includes a valid Authorization token, supplied via: <code>Authorization: Bearer {server-specific-token-here}</code></li>   <li>A server has rejected any unauthorized requests by returning an <code>HTTP 401</code> Unauthorized response code.</li>   </ol><br/></div>
 			<h4>
 				<span style="font-weight:bold; ">Profile Summary:</span>
 			</h4>
-			<br/>
 			<p>
 				<br/>
-				<span>All servers SHALL make available the </span>
+				<span>All servers </span>
+				<span style="font-weight:bold; ">SHALL</span>
+				<span> make available the </span>
 				<a href="http://build.fhir.org/http.html#read">
 					<span>read</span>
 				</a>
@@ -86,7 +51,9 @@
 				</a>
 				<span> interactions for the US Core Profiles the server chooses to support.</span>
 				<br/>
-				<span>All servers SHOULD make available the </span>
+				<span>All servers </span>
+				<span style="font-weight:bold; ">SHOULD</span>
+				<span> make available the </span>
 				<a href="http://build.fhir.org/http.html#vread">
 					<span>vread</span>
 				</a>
@@ -102,7 +69,7 @@
 				<span>Summary of US Core Profile search criteria. Specific server search capabilities are described in detail below in each of the resource sections.</span>
 			</p>
 			<br/>
-			<table border="2">
+			<table border="1">
 				<thead>
 					<tr>
 						<th>
@@ -129,6 +96,7 @@
 						<td>
 							<span>US Core Patient Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>name</span>
@@ -143,7 +111,6 @@
 							<span>, </span>
 							<span>birthdate</span>
 							<br/>
-							<span>, </span>
 							<span>name</span>
 							<span> + </span>
 							<span>gender</span>
@@ -160,7 +127,7 @@
 							<span> + </span>
 							<span>gender</span>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -171,12 +138,13 @@
 						<td>
 							<span>US Core AllergyIntolerance Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>patient</span>
 							<br/>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -187,6 +155,7 @@
 						<td>
 							<span>US Core CarePlan Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>patient</span>
@@ -197,7 +166,6 @@
 							<span>, </span>
 							<span>date</span>
 							<br/>
-							<span>, </span>
 							<span>patient</span>
 							<span> + </span>
 							<span>category</span>
@@ -222,7 +190,7 @@
 							<span> + </span>
 							<span>date</span>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -233,18 +201,18 @@
 						<td>
 							<span>US Core CareTeam Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>patient</span>
 							<span>, </span>
 							<span>status</span>
 							<br/>
-							<span>, </span>
 							<span>patient</span>
 							<span> + </span>
 							<span>status</span>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -255,6 +223,7 @@
 						<td>
 							<span>US Core Condition Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>patient</span>
@@ -263,7 +232,6 @@
 							<span>, </span>
 							<span>clinicalstatus</span>
 							<br/>
-							<span>, </span>
 							<span>patient</span>
 							<span> + </span>
 							<span>clinicalstatus</span>
@@ -272,7 +240,7 @@
 							<span> + </span>
 							<span>category</span>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -283,12 +251,13 @@
 						<td>
 							<span>US Core Device Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>patient</span>
 							<br/>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -299,18 +268,18 @@
 						<td>
 							<span>US Core Goal Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>patient</span>
 							<span>, </span>
 							<span>date</span>
 							<br/>
-							<span>, </span>
 							<span>patient</span>
 							<span> + </span>
 							<span>date</span>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -321,12 +290,13 @@
 						<td>
 							<span>US Core Immunization Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>patient</span>
 							<br/>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -337,6 +307,7 @@
 						<td>
 							<span>US Core DiagnosticReport Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>patient</span>
@@ -347,7 +318,6 @@
 							<span>, </span>
 							<span>date</span>
 							<br/>
-							<span>, </span>
 							<span>patient</span>
 							<span> + </span>
 							<span>category</span>
@@ -372,7 +342,7 @@
 							<span> + </span>
 							<span>date</span>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -383,6 +353,7 @@
 						<td>
 							<span>US Core Location Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>name</span>
@@ -390,7 +361,7 @@
 							<span>address</span>
 							<br/>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -401,11 +372,12 @@
 						<td>
 							<span>US Core Medication Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<br/>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -415,6 +387,7 @@
 						</td>
 						<td>
 							<span>US Core MedicationStatement Profile</span>
+							<br/>
 							<br/>
 						</td>
 						<td style="text-align:center; ">
@@ -434,6 +407,7 @@
 						<td>
 							<span>US Core MedicationRequest Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>patient</span>
@@ -452,9 +426,10 @@
 						<td>
 							<span>US Core Result Observation Profile</span>
 							<br/>
+							<span>US Core Vital Signs Profile</span>
+							<br/>
 							<span>US Core Smoking Status Observation Profile</span>
 							<br/>
-							<span>US Core Vital Signs Profile</span>
 							<br/>
 						</td>
 						<td style="text-align:center; ">
@@ -466,9 +441,6 @@
 							<span>, </span>
 							<span>date</span>
 							<br/>
-							<span>, </span>
-							<span>, </span>
-							<span>, </span>
 							<span>patient</span>
 							<span> + </span>
 							<span>category</span>
@@ -493,7 +465,7 @@
 							<span> + </span>
 							<span>date</span>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -504,6 +476,7 @@
 						<td>
 							<span>US Core Organization Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>identifier</span>
@@ -513,7 +486,7 @@
 							<span>address</span>
 							<br/>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -524,6 +497,7 @@
 						<td>
 							<span>US Core Practitioner Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>identifier</span>
@@ -531,7 +505,7 @@
 							<span>name</span>
 							<br/>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 					<tr style="height:0.36in; ">
 						<td>
@@ -542,24 +516,24 @@
 						<td>
 							<span>US Core Procedure Profile</span>
 							<br/>
+							<br/>
 						</td>
 						<td style="text-align:center; ">
 							<span>patient</span>
 							<span>, </span>
 							<span>date</span>
 							<br/>
-							<span>, </span>
 							<span>patient</span>
 							<span> + </span>
 							<span>date</span>
 						</td>
-						<td/>
+						<td> </td>
 					</tr>
 				</tbody>
 			</table>
 			<br/>
 			<h4>
-				<span style="font-weight:bold; ">Resource Details:</span>
+				<span style="font-weight:bold; ">Resource  Details:</span>
 			</h4>
 			<br/>
 			<ol>
@@ -569,30 +543,13 @@
 						<span style="font-weight:bold; ">Patient</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-patient.html">
 							<span>US Core Patient Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-patient</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning a patient using GET [base]/Patient/[id].</li>
-							<li>A server returns valid FHIR Patient resources according to the Data Access Framework (DAF) Patient Profile..</li>
-							<li>A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters:</li>
-							<li>identifier</li>
-							<li>A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters when at least 2 (example name and gender) are present:</li>
-							<li>name</li>
-							<li>gender</li>
-							<li>birthdate</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-patient</strong></p> <ul> <li>A server is capable of returning a patient using GET [base]/Patient/[id].</li> <li>A server returns valid FHIR Patient resources according to the Data Access Framework (DAF) Patient Profile..</li> <li>A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters: <ul> <li>identifier</li> </ul></li> <li>A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters when at least 2 (example name and gender) are present: <ul> <li>name</li> <li>gender</li> <li>birthdate</li> </ul></li> </ul>   <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -620,7 +577,7 @@
 								<td style="width:2.11in; ">
 									<span>string</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -632,7 +589,7 @@
 								<td style="width:2.11in; ">
 									<span>string</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -644,7 +601,7 @@
 								<td style="width:2.11in; ">
 									<span>string</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -656,7 +613,7 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -668,7 +625,7 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -680,14 +637,11 @@
 								<td style="width:2.11in; ">
 									<span>date</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p>
+					</table><p/><p>
 						<span>Supported Search Combinations:</span>
-						<span>, </span>
 						<span>name</span>
 						<span> + </span>
 						<span>gender</span>
@@ -703,33 +657,20 @@
 						<span>given</span>
 						<span> + </span>
 						<span>gender</span>
-					</p>
-					<p/>
-					<hr/>
-				</li>
+					</p><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="AllergyIntolerance">
 						<span style="font-weight:bold; ">AllergyIntolerance</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-allergyintolerance.html">
 							<span>US Core AllergyIntolerance Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-allergyintolerance</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning a patient’s allergies using GET /AllergyIntolerance?patient=[id].</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-allergyintolerance</strong></p> <ul> <li>A server is capable of returning a patient’s allergies using GET /AllergyIntolerance?patient=[id].</li> </ul> <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -757,44 +698,23 @@
 								<td style="width:2.11in; ">
 									<span>reference</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p/>
-					<hr/>
-				</li>
+					</table><p/><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="CarePlan">
 						<span style="font-weight:bold; ">CarePlan</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-careplan.html">
 							<span>US Core CarePlan Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-careplan</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning all of a patient’s Assessment and Plan of Treatment information using GET /CarePlan?patient=[id]&amp;category=assess-plan.</li>
-							<li>
-								<p>A server is capable of returning a patient’s Assessment and Plan of Treatment information over a specified time period using GET /CarePlan?patient=[id]&amp;category=assess-plan&amp;date=[date].</p>
-							</li>
-							<li>A server <strong>SHOULD</strong> be capable returning all of a patient’s active Assessment and Plan of Treatment information using GET /CarePlan?patient=[id]&amp;category=assess-plan&amp;status=active.</li>
-							<li>
-								<p>A server <strong>SHOULD</strong> be capable returning a patient’s active Assessment and Plan of Treatment information over a specified time period using GET /CarePlan?patient=[id]&amp;category=assess-plan&amp;status=active&amp;date=[date].</p>
-							</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-careplan</strong></p> <ul> <li>A server is capable of returning all of a patient’s Assessment and Plan of Treatment information using GET /CarePlan?patient=[id]&amp;category=assess-plan.</li> <li><p>A server is capable of returning a patient’s Assessment and Plan of Treatment information over a specified time period using GET /CarePlan?patient=[id]&amp;category=assess-plan&amp;date=[date].</p></li> <li>A server <strong>SHOULD</strong> be capable returning all of a patient’s active Assessment and Plan of Treatment information using GET /CarePlan?patient=[id]&amp;category=assess-plan&amp;status=active.</li> <li><p>A server <strong>SHOULD</strong> be capable returning a patient’s active Assessment and Plan of Treatment information over a specified time period using GET /CarePlan?patient=[id]&amp;category=assess-plan&amp;status=active&amp;date=[date].</p></li> </ul>      <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -822,7 +742,7 @@
 								<td style="width:2.11in; ">
 									<span>reference</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -834,7 +754,7 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -846,7 +766,7 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -858,16 +778,11 @@
 								<td style="width:2.11in; ">
 									<span>date</span>
 								</td>
-								<td style="width:2.90in; ">
-									<span>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</span>
-								</td>
+								<td style="width:2.90in; "><p>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> ‘ge’,‘le’,‘eq’ for this profile</p></td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p>
+					</table><p/><p>
 						<span>Supported Search Combinations:</span>
-						<span>, </span>
 						<span>patient</span>
 						<span> + </span>
 						<span>category</span>
@@ -891,34 +806,20 @@
 						<span>status</span>
 						<span> + </span>
 						<span>date</span>
-					</p>
-					<p/>
-					<hr/>
-				</li>
+					</p><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="CareTeam">
 						<span style="font-weight:bold; ">CareTeam</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-careteam.html">
 							<span>US Core CareTeam Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-careteam</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning a patient’s current care team members using GET[base]/CareTeam?patient=[id]&amp;status=active
-							</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-careteam</strong></p> <ul> <li>A server is capable of returning a patient’s current care team members using GET[base]/CareTeam?patient=[id]&amp;status=active</li> </ul>     <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -946,7 +847,7 @@
 								<td style="width:2.11in; ">
 									<span>reference</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -958,50 +859,28 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p>
+					</table><p/><p>
 						<span>Supported Search Combinations:</span>
-						<span>, </span>
 						<span>patient</span>
 						<span> + </span>
 						<span>status</span>
-					</p>
-					<p/>
-					<hr/>
-				</li>
+					</p><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="Condition">
 						<span style="font-weight:bold; ">Condition</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-condition.html">
 							<span>US Core Condition Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-condition</strong>
-						</p>
-						<ul>
-							<li>
-								<p>A server is capable of returning a patient’s conditions list using GET/Condition?patient=[id].</p>
-							</li>
-							<li>A server <strong>SHOULD</strong> be capable returning all of a patient’s active problems and health concerns using ‘GET /Condition?patient=[id]&amp;clinicalstatus=active,recurrance,remission’</li>
-							<li>
-								<p>A server <strong>SHOULD</strong> be capable returning all of a patient’s problems or all of patient’s health concerns using ‘GET /Condition?patient=[id]&amp;category=[problem|health-concern]’</p>
-							</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-condition</strong></p> <ul> <li><p>A server is capable of returning a patient’s conditions list using GET/Condition?patient=[id].</p></li> <li>A server <strong>SHOULD</strong> be capable returning all of a patient’s active problems and health concerns using ‘GET /Condition?patient=[id]&amp;clinicalstatus=active,recurrance,remission’</li> <li><p>A server <strong>SHOULD</strong> be capable returning all of a patient’s problems or all of patient’s health concerns using ‘GET /Condition?patient=[id]&amp;category=[problem|health-concern]’</p></li> </ul>     <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1029,7 +908,7 @@
 								<td style="width:2.11in; ">
 									<span>reference</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1041,7 +920,7 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1053,14 +932,11 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p>
+					</table><p/><p>
 						<span>Supported Search Combinations:</span>
-						<span>, </span>
 						<span>patient</span>
 						<span> + </span>
 						<span>clinicalstatus</span>
@@ -1068,33 +944,20 @@
 						<span>patient</span>
 						<span> + </span>
 						<span>category</span>
-					</p>
-					<p/>
-					<hr/>
-				</li>
+					</p><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="Device">
 						<span style="font-weight:bold; ">Device</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-device.html">
 							<span>US Core Device Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-device</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning all Unique device identifier(s)(UDI) for a patient’s implanted device(s) using GET /Device?patient=[id].</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-device</strong></p> <ul> <li>A server is capable of returning all Unique device identifier(s)(UDI) for a patient’s implanted device(s) using GET /Device?patient=[id].</li> </ul>    <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1122,36 +985,23 @@
 								<td style="width:2.11in; ">
 									<span>reference</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p/>
-					<hr/>
-				</li>
+					</table><p/><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="Goal">
 						<span style="font-weight:bold; ">Goal</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-goal.html">
 							<span>US Core Goal Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>*Summary of US Core Search Criteria for StructureDefinition-us-core-goal**</p>
-						<ul>
-							<li>A server is capable of returning all of a patient’s goals using GET [base]/Goal?patient=[id].</li>
-							<li>A server is capable of returning all of all of a patient’s goals over a specified time period using GET [base]/Goal?patient=[id]&amp;date=[date]{&amp;date=[date]}.</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-device</strong></p> <ul> <li>A server is capable of returning all of a patient’s goals using GET [base]/Goal?patient=[id].</li> <li>A server is capable of returning all of all of a patient’s goals over a specified time period using GET [base]/Goal?patient=[id]&amp;date=[date]{&amp;date=[date]}.</li> </ul>     <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1179,7 +1029,7 @@
 								<td style="width:2.11in; ">
 									<span>reference</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1191,46 +1041,28 @@
 								<td style="width:2.11in; ">
 									<span>date</span>
 								</td>
-								<td style="width:2.90in; ">
-									<span>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</span>
-								</td>
+								<td style="width:2.90in; "><p>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> ‘ge’,‘le’,‘eq’ for this profile</p></td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p>
+					</table><p/><p>
 						<span>Supported Search Combinations:</span>
-						<span>, </span>
 						<span>patient</span>
 						<span> + </span>
 						<span>date</span>
-					</p>
-					<p/>
-					<hr/>
-				</li>
+					</p><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="Immunization">
 						<span style="font-weight:bold; ">Immunization</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-immunization.html">
 							<span>US Core Immunization Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-immunization</strong>
-						</p>
-						<ul>
-							<li>A client has connected to a server and fetched all immunizations for a patient using GET /Immunization?patient=[id].</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-immunization</strong></p> <ul> <li>A client has connected to a server and fetched all immunizations for a patient using GET /Immunization?patient=[id].</li> </ul>     <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1258,44 +1090,23 @@
 								<td style="width:2.11in; ">
 									<span>reference</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p/>
-					<hr/>
-				</li>
+					</table><p/><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="DiagnosticReport">
 						<span style="font-weight:bold; ">DiagnosticReport</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-diagnosticreport.html">
 							<span>US Core DiagnosticReport Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-diagnosticreport</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning all of a patient’s laboratory diagnostic reports queried by category using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB.</li>
-							<li>A server is capable of returning all of a patient’s laboratory diagnostic reports queried by category code and date range using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;date=[date]{&amp;date=[date]}.</li>
-							<li>
-								<p>A server is capable of returning all of a patient’s laboratory diagnostic reports queried by category and code using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;code=[LOINC].</p>
-							</li>
-							<li>
-								<p>A server <strong>SHOULD</strong> be capable of returning all of a patient’s laboratory diagnostic reports queried by category and one or more codes and date range using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;code=[LOINC1{,LOINC2,LOINC3,...}]&amp;date=[date]{&amp;date=[date]}.</p>
-							</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-diagnosticreport</strong></p> <ul> <li>A server is capable of returning all of a patient’s laboratory diagnostic reports queried by category using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB.</li> <li>A server is capable of returning all of a patient’s laboratory diagnostic reports queried by category code and date range using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;date=[date]{&amp;date=[date]}.</li> <li><p>A server is capable of returning all of a patient’s laboratory diagnostic reports queried by category and code using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;code=[LOINC].</p></li> <li><p>A server <strong>SHOULD</strong> be capable of returning all of a patient’s laboratory diagnostic reports queried by category and one or more codes and date range using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;code=[LOINC1{,LOINC2,LOINC3,…}]&amp;date=[date]{&amp;date=[date]}.</p></li> </ul>     <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1323,7 +1134,7 @@
 								<td style="width:2.11in; ">
 									<span>reference</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1335,7 +1146,7 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1347,7 +1158,7 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1359,16 +1170,11 @@
 								<td style="width:2.11in; ">
 									<span>date</span>
 								</td>
-								<td style="width:2.90in; ">
-									<span>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</span>
-								</td>
+								<td style="width:2.90in; "><p>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> ‘ge’,‘le’,‘eq’ for this profile</p></td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p>
+					</table><p/><p>
 						<span>Supported Search Combinations:</span>
-						<span>, </span>
 						<span>patient</span>
 						<span> + </span>
 						<span>category</span>
@@ -1392,36 +1198,20 @@
 						<span>code</span>
 						<span> + </span>
 						<span>date</span>
-					</p>
-					<p/>
-					<hr/>
-				</li>
+					</p><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="Location">
 						<span style="font-weight:bold; ">Location</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-location.html">
 							<span>US Core Location Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-location</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning a location by name using GET [base]/Location?name=[string]
-							</li>
-							<li>A server is capable of returning a location by address using GET [base]/Location?address=[string]
-							</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-location</strong></p> <ul> <li>A server is capable of returning a location by name using GET [base]/Location?name=[string]</li> <li>A server is capable of returning a location by address using GET [base]/Location?address=[string]</li> </ul>     <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1449,7 +1239,7 @@
 								<td style="width:2.11in; ">
 									<span>string</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1461,32 +1251,23 @@
 								<td style="width:2.11in; ">
 									<span>string</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p/>
-					<hr/>
-				</li>
+					</table><p/><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="Medication">
 						<span style="font-weight:bold; ">Medication</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medication.html">
 							<span>US Core Medication Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource. If the Medication Resource is used in a MedicationStatement or a MedicationRequest, then the READ and SEARCH Criteria <strong>SHALL</strong> be supported.</p>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p>The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource. If the Medication Resource is used in a MedicationStatement or a MedicationRequest, then the READ and SEARCH Criteria <strong>SHALL</strong> be supported.</p><p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1508,43 +1289,20 @@
 								<td/>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p/>
-					<hr/>
-				</li>
+					</table><p/><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="MedicationStatement">
 						<span style="font-weight:bold; ">MedicationStatement</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationstatement.html">
 							<span>US Core MedicationStatement Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-medicationstatement</strong>
-						</p>
-						<p>The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource. When referencing a Medication resource, the resource may be <a href="http://hl7.org/fhir/2017Jan/references.html#contained">contained</a> or an external resource. The server application can choose any one way or more than one method, but <strong>IF</strong> the an external reference to Medication is used, the server <strong>SHALL</strong> support the <a href="http://hl7.org/fhir/2017Jan/references.html#include">include</a> parameter for searching this element. The client application must support both methods.</p>
-						<ul>
-							<li>A server is capable of returning a patient’s medications using one of or both</li>
-						</ul>
-						<ol>
-							<li>
-								GET /MedicationStatement?patient=[id]
-							</li>
-							<li>
-								GET /MedicationStatement?patient=[id]&amp;_include=MedicationStatement:medication
-							</li>
-						</ol>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-medicationstatement</strong></p> <p>The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource. When referencing a Medication resource, the resource may be <a href="http://hl7.org/fhir/2017Jan/references.html#contained">contained</a> or an external resource. The server application can choose any one way or more than one method, but <strong>IF</strong> the an external reference to Medication is used, the server <strong>SHALL</strong> support the <a href="http://hl7.org/fhir/2017Jan/references.html#include">include</a> parameter for searching this element. The client application must support both methods.</p> <ul> <li>A server is capable of returning a patient’s medications using one of or both</li> </ul> <ol> <li>GET /MedicationStatement?patient=[id]</li> <li>GET /MedicationStatement?patient=[id]&amp;_include=MedicationStatement:medication</li> </ol> <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1572,50 +1330,26 @@
 								<td style="width:2.11in; ">
 									<span>reference</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p>
+					</table><p/><p>
 						<span>Supported Includes: </span>
 						<span>MedicationStatement.medicationReference</span>
-					</p>
-					<p/>
-					<hr/>
-				</li>
+					</p><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="MedicationRequest">
 						<span style="font-weight:bold; ">MedicationRequest</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html">
 							<span>US Core MedicationRequest Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-medicationrequest</strong>
-						</p>
-						<p>The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource. When referencing a Medication resource, the resource may be <a href="http://hl7.org/fhir/2017Jan/references.html#contained">contained</a> or an external resource. The server application can choose any one way or more than one method, but if the an external reference to Medication is used, the server SHALL support the <a href="http://hl7.org/fhir/2017Jan/references.html#include">include</a> parameter for searching this element. The client application must support both methods.</p>
-						<ul>
-							<li>A server is capable of returning a patient’s medications using one of or both</li>
-						</ul>
-						<ol>
-							<li>
-								GET /MedicationRequest?patient=[id]
-							</li>
-							<li>
-								GET /MedicationRequest?patient=[id]&amp;_include=MedicationRequest:medication
-							</li>
-						</ol>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-medicationrequest</strong></p> <p>The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource. When referencing a Medication resource, the resource may be <a href="http://hl7.org/fhir/2017Jan/references.html#contained">contained</a> or an external resource. The server application can choose any one way or more than one method, but if the an external reference to Medication is used, the server SHALL support the <a href="http://hl7.org/fhir/2017Jan/references.html#include">include</a> parameter for searching this element. The client application must support both methods.</p> <ul> <li>A server is capable of returning a patient’s medications using one of or both</li> </ul> <ol> <li>GET /MedicationRequest?patient=[id]</li> <li>GET /MedicationRequest?patient=[id]&amp;_include=MedicationRequest:medication</li> </ol> <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1643,75 +1377,34 @@
 								<td style="width:2.11in; ">
 									<span>reference</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p>
+					</table><p/><p>
 						<span>Supported Includes: </span>
 						<span>MedicationRequest.medicationReference</span>
-					</p>
-					<p/>
-					<hr/>
-				</li>
+					</p><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="Observation">
 						<span style="font-weight:bold; ">Observation</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html">
 							<span>US Core Result Observation Profile</span>
+							<br/>
 						</a>
-						<br/>
-						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-smokingstatus.html">
-							<span>US Core Smoking Status Observation Profile</span>
-						</a>
-						<br/>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-vitalsigns.html">
 							<span>US Core Vital Signs Profile</span>
+							<br/>
+						</a>
+						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-smokingstatus.html">
+							<span>US Core Smoking Status Observation Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-observationresults</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning all of a patient’s laboratory results queried by category using GET [base]/Observation?patient=[id]&amp;category=laboratory.</li>
-							<li>A server is capable of returning all of a patient’s laboratory results queried by category code and date range usingGET [base]/Observation?patient=[id]&amp;category=laboratory&amp;date=[date]{&amp;date=[date]}.</li>
-							<li>
-								<p>A server is capable of returning all of a patient’s laboratory results queried by category and code using GET [base]/Observation?patient=[id]&amp;category=laboratory&amp;code=[LOINC].</p>
-							</li>
-							<li>
-								<p>A server SHOULD be capable of returning all of a patient’s laboratory results queried by category and one or more codes and date range using GET [base]/Observation?patient=[id]&amp;category=laboratory&amp;code=[LOINC1{,LOINC2,LOINC3,…}]&amp;date=[date]{&amp;date=[date]}.</p>
-							</li>
-						</ul>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-smokingstatus</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning a a patient’s smoking status using GET [base]/Observation?patient=[id]&amp;code=72166-2</li>
-						</ul>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-vitalsigns</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning all of a patient’s vital signs that it supports using GET [base]/Observation?patient=[id]&amp;category=vital-signs.</li>
-							<li>A server is capable of returning all of a patient’s vital signs queried by date range using GET [base]/Observation?patient=[id]&amp;category=vital-signs&amp;date=[date]{&amp;date=[date]}.</li>
-							<li>
-								<p>A server is capable of returning any of a patient’s vital signs queried by one or more of the codes listed below using GET [base]/Observation?patient=[id]&amp;code[vital sign LOINC{,LOINC2,LOINC3,…}].</p>
-							</li>
-							<li>
-								<p>A server <strong>SHOULD</strong> be capable of returning any of a patient’s vital signs queried by one or more of the codes listed below and date range using GET [base]/Observation?patient=[id]&amp;code=[LOINC{,LOINC2…}]vital-signs&amp;date=[date]{&amp;date=[date]}.</p>
-							</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p>.  <p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-observationresults</strong></p> <p>A server is capable of returning all of a patient’s laboratory results queried by category using GET [base]/Observation?patient=[id]&amp;category=laboratory.<br /> A server is capable of returning all of a patient’s laboratory results queried by category code and date range usingGET [base]/Observation?patient=[id]&amp;category=laboratory&amp;date=[date]{&amp;date=[date]}.<br /> A server is capable of returning all of a patient’s laboratory results queried by category and code using GET [base]/Observation?patient=[id]&amp;category=laboratory&amp;code=[LOINC].</p> <p>A server SHOULD be capable of returning all of a patient’s laboratory results queried by category and one or more codes and date range using GET [base]/Observation?patient=[id]&amp;category=laboratory&amp;code=[LOINC1{,LOINC2,LOINC3,…}]&amp;date=[date]{&amp;date=[date]}.</p> <p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-smokingstatus</strong></p> <ul> <li>A server is capable of returning a a patient’s smoking status using GET [base]/Observation?patient=[id]&amp;code=72166-2</li> </ul> <p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-vitalsigns</strong></p> <ul> <li>A server is capable of returning all of a patient’s vital signs that it supports using GET [base]/Observation?patient=[id]&amp;category=vital-signs.</li> <li>A server is capable of returning all of a patient’s vital signs queried by date range using GET [base]/Observation?patient=[id]&amp;category=vital-signs&amp;date=[date]{&amp;date=[date]}.</li> <li><p>A server is capable of returning any of a patient’s vital signs queried by one or more of the codes listed below using GET [base]/Observation?patient=[id]&amp;code[vital sign LOINC{,LOINC2,LOINC3,…}].</p></li> <li><p>A server <strong>SHOULD</strong> be capable of returning any of a patient’s vital signs queried by one or more of the codes listed below and date range using GET [base]/Observation?patient=[id]&amp;code=[LOINC{,LOINC2…}]vital-signs&amp;date=[date]{&amp;date=[date]}.</p></li> </ul>     <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1739,7 +1432,7 @@
 								<td style="width:2.11in; ">
 									<span>reference</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1751,7 +1444,7 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1763,7 +1456,7 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1775,18 +1468,11 @@
 								<td style="width:2.11in; ">
 									<span>date</span>
 								</td>
-								<td style="width:2.90in; ">
-									<span>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</span>
-								</td>
+								<td style="width:2.90in; "><p>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> ‘ge’,‘le’,‘eq’ for this profile</p></td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p>
+					</table><p/><p>
 						<span>Supported Search Combinations:</span>
-						<span>, </span>
-						<span>, </span>
-						<span>, </span>
 						<span>patient</span>
 						<span> + </span>
 						<span>category</span>
@@ -1810,35 +1496,20 @@
 						<span>code</span>
 						<span> + </span>
 						<span>date</span>
-					</p>
-					<p/>
-					<hr/>
-				</li>
+					</p><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="Organization">
 						<span style="font-weight:bold; ">Organization</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-organization.html">
 							<span>US Core Organization Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-organization</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning an organization by identifier using GET [base]/Organization?identifier=[system]|[code]</li>
-							<li>A server is capable of returning an organization by name using GET [base]/Organization?name=[string]</li>
-							<li>A server is capable of returning an organization by address using GET [base]/Organization?address=[string]</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p>     <p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-organization</strong></p> <ul> <li>A server is capable of returning an organization by identifier using GET [base]/Organization?identifier=[system]|[code]</li> <li>A server is capable of returning an organization by name using GET [base]/Organization?name=[string]</li> <li>A server is capable of returning an organization by address using GET [base]/Organization?address=[string]</li> </ul>    <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1866,7 +1537,7 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1878,7 +1549,7 @@
 								<td style="width:2.11in; ">
 									<span>string</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1890,38 +1561,23 @@
 								<td style="width:2.11in; ">
 									<span>string</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p/>
-					<hr/>
-				</li>
+					</table><p/><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="Practitioner">
 						<span style="font-weight:bold; ">Practitioner</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-pract.html">
 							<span>US Core Practitioner Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-practitioner</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning a practitioner by identifier using GET [base]/Practitioner?identifier=[system]|[code]</li>
-							<li>A server is capable of returning a practitioner by name using GET [base]/Practitioner?family=[string]&amp;given=[string]</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p> <p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-practitioner</strong></p> <ul> <li>A server is capable of returning a practitioner by identifier using GET [base]/Practitioner?identifier=[system]|[code]</li> <li>A server is capable of returning a practitioner by name using GET [base]/Practitioner?family=[string]&amp;given=[string]</li> </ul>     <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1949,7 +1605,7 @@
 								<td style="width:2.11in; ">
 									<span>token</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -1961,38 +1617,23 @@
 								<td style="width:2.11in; ">
 									<span>string</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p/>
-					<hr/>
-				</li>
+					</table><p/><p/><hr/></li>
 				<li>
 					<span style="font-weight:bold; ">Resource Type: </span>
 					<a name="Procedure">
 						<span style="font-weight:bold; ">Procedure</span>
 					</a>
 					<p>
-						<span>Supported Profiles: </span>
+						<span>Supported Profiles:  </span>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-procedure.html">
 							<span>US Core Procedure Profile</span>
+							<br/>
 						</a>
 						<br/>
-					</p>
-					<span>
-						<p>
-							<strong>Summary of US Core Search Criteria for StructureDefinition-us-core-procedure</strong>
-						</p>
-						<ul>
-							<li>A server is capable of returning a patient’s procedures using GET/Procedure?patient=[id].</li>
-							<li>A server is capable of returning all of all of a patient’s procedures over a specified time period using GET /Procedure?patient=[id]&amp;date=[date]{&amp;date=[date]}.</li>
-						</ul>
-					</span>
-					<p/>
-					<span>Search Parameters:</span>
-					<table border="1">
+					</p> <p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-procedure</strong></p> <ul> <li>A server is capable of returning a patient’s procedures using GET/Procedure?patient=[id].</li> <li>A server is capable of returning all of all of a patient’s procedures over a specified time period using GET /Procedure?patient=[id]&amp;date=[date]{&amp;date=[date]}.</li> </ul>   <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -2020,7 +1661,7 @@
 								<td style="width:2.11in; ">
 									<span>reference</span>
 								</td>
-								<td style="width:2.90in; "/>
+								<td style="width:2.90in; "> </td>
 							</tr>
 							<tr>
 								<td style="width:2.71in; ">
@@ -2032,29 +1673,22 @@
 								<td style="width:2.11in; ">
 									<span>date</span>
 								</td>
-								<td style="width:2.90in; ">
-									<span>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> 'ge','le','eq' for this profile</span>
-								</td>
+								<td style="width:2.90in; "><p>The server SHALL support the <a href="http://hl7.org/fhir/2017Jan/search.html#prefix">date search modifiers</a> ‘ge’,‘le’,‘eq’ for this profile</p></td>
 							</tr>
 						</tbody>
-					</table>
-					<p/>
-					<p>
+					</table><p/><p>
 						<span>Supported Search Combinations:</span>
-						<span>, </span>
 						<span>patient</span>
 						<span> + </span>
 						<span>date</span>
-					</p>
-					<p/>
-					<hr/>
-				</li>
+					</p><p/><hr/></li>
 			</ol>
 			<br/>
 			<br/>
 			<br/>
 		</div>
 	</text>
+
 	<url value="http://hl7.org/fhir/us/core/CapabilityStatement/server"/>
 	<name value="US Core  Server"/>
 	<status value="draft"/>
@@ -2066,115 +1700,152 @@
 			<value value="http://www.healthit.gov/"/>
 		</telecom>
 	</contact>
-	<description value="This profile defines the expected capabilities of the US Core  Server actor when conforming to the US-Core IG  The statement includes the complete list of actual profiles, RESTful operations, search parameters supported by US Core Servers. US Core Requesters have the option of choosing from this list to access necessary data based on their local use cases and other contextual requirements."/>
+	<description value="This profile defines the expected capabilities of the US Core  Server actor when conforming to the US-Core IG  The statement includes the complete list of actual profiles, RESTful operations, and search parameters supported by US Core Servers. US Core Clients have the option of choosing from this list to access necessary data based on their local use cases and other contextual requirements."/>
 	<kind value="requirements"/>
 	<fhirVersion value="1.8.0"/>
 	<acceptUnknown value="extensions"/>
 	<format value="xml"/>
 	<format value="json"/>
-	<profile id="1">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="AllergyIntolerance"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-allergyintolerance.html"/>
 		<display value="US Core AllergyIntolerance Profile"/>
 	</profile>
-	<profile id="2">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="CarePlan"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-careplan.html"/>
 		<display value="US Core CarePlan Profile"/>
 	</profile>
-	<profile id="3">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="CareTeam"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-careteam.html"/>
 		<display value="US Core CareTeam Profile"/>
 	</profile>
-	<profile id="4">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Condition"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-condition.html"/>
 		<display value="US Core Condition Profile"/>
 	</profile>
-	<profile id="5">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Device"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-device.html"/>
 		<display value="US Core Device Profile"/>
 	</profile>
-	<profile id="6">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Goal"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-goal.html"/>
 		<display value="US Core Goal Profile"/>
 	</profile>
-	<profile id="7">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Immunization"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-immunization.html"/>
 		<display value="US Core Immunization Profile"/>
 	</profile>
-	<profile id="8">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="DiagnosticReport"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-diagnosticreport.html"/>
 		<display value="US Core DiagnosticReport Profile"/>
 	</profile>
-	<profile id="9">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Observation"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html"/>
 		<display value="US Core Result Observation Profile"/>
 	</profile>
-	<profile id="10">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Location"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-location.html"/>
 		<display value="US Core Location Profile"/>
 	</profile>
-	<profile id="11">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Medication"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medication.html"/>
 		<display value="US Core Medication Profile"/>
 	</profile>
-	<profile id="12">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="MedicationRequest"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html"/>
 		<display value="US Core MedicationRequest Profile"/>
 	</profile>
-	<profile id="17">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="MedicationStatement"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationstatement.html"/>
 		<display value="US Core MedicationStatement Profile"/>
 	</profile>
-	<profile id="13">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Observation"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-vitalsigns.html"/>
 		<display value="US Core Vital Signs Profile"/>
 	</profile>
-	<profile id="18">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Observation"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-smokingstatus.html"/>
 		<display value="US Core Smoking Status Observation Profile"/>
 	</profile>
-	<profile id="19">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Organization"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-organization.html"/>
 		<display value="US Core Organization Profile"/>
 	</profile>
-	<profile id="14">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Patient"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-patient.html"/>
 		<display value="US Core Patient Profile"/>
 	</profile>
-	<profile id="15">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Practitioner"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-pract.html"/>
 		<display value="US Core Practitioner Profile"/>
 	</profile>
-	<profile id="16">
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
+			<valueCode value="Procedure"/>
+		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-procedure.html"/>
 		<display value="US Core Procedure Profile"/>
 	</profile>
 	<rest>
 		<mode value="server"/>
-		<documentation value="**The US Core  Server SHALL:**
-
-1. Support the US Core Patient resource profile.
-1. Support at least one additional resource profile from the list of US Core Profiles
-1. Implement REST behavior according to the FHIR specification
-1.  Support json resource formats for all US Core interactions.
-1. Identify the US Core profile(s) supported as part of the [FHIR Meta profile attribute](http://build.fhir.org/resource-definitions.html#Meta.profile) for each instance.
-1.  Declare a CapabilityStatement identifying the list of profiles, operations, search parameter supported.    
-
-**The US Core  Server SHOULD:** 
-
-1. Support xml resource formats for all US Core interactions.  "/>
+		<documentation value="&lt;p&gt;&lt;strong&gt;The US Core  Server SHALL:&lt;/strong&gt;&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Support the US Core Patient resource profile.&lt;/li&gt; &lt;li&gt;Support at least one additional resource profile from the list of US Core Profiles&lt;/li&gt; &lt;li&gt;Implement REST behavior according to the FHIR specification&lt;/li&gt; &lt;li&gt;Support json resource formats for all US Core interactions.&lt;/li&gt; &lt;li&gt;Identify the US Core profile(s) supported as part of the &lt;a href=&quot;http://build.fhir.org/resource-definitions.html#Meta.profile&quot;&gt;FHIR Meta profile attribute&lt;/a&gt; for each instance.&lt;/li&gt; &lt;li&gt;Declare a CapabilityStatement identifying the list of profiles, operations, search parameter supported.    &lt;/li&gt; &lt;/ol&gt; &lt;p&gt;&lt;strong&gt;The US Core  Server SHOULD:&lt;/strong&gt; &lt;/p&gt; &lt;ol&gt; &lt;li&gt;Support xml resource formats for all US Core interactions.  &lt;/li&gt; &lt;/ol&gt;"/>
 		<security>
-			<description value="**US Core  Servers SHALL**
-
-1. implement the [security.html security requirements](http://hl7.org/fhir/us/core/security.html)  documented in the US-Core IG.
-1. A server has ensured that every API request includes a valid Authorization token, supplied via: Authorization: Bearer {server-specific-token-here}
-1. A server has rejected any unauthorized requests by returning an HTTP 401 Unauthorized response code."/>
+			<description value="&lt;p&gt;&lt;strong&gt;US Core  Servers SHALL&lt;/strong&gt;&lt;/p&gt;   &lt;ol&gt;   &lt;li&gt;Implement the &lt;a href=&quot;http://hl7.org/fhir/us/core/security.html&quot;&gt;security requirements&lt;/a&gt;  documented in the US-Core IG.&lt;/li&gt;   &lt;li&gt;A server has ensured that every API request includes a valid Authorization token, supplied via: &lt;code&gt;Authorization: Bearer {server-specific-token-here}&lt;/code&gt;&lt;/li&gt;   &lt;li&gt;A server has rejected any unauthorized requests by returning an &lt;code&gt;HTTP 401&lt;/code&gt; Unauthorized response code.&lt;/li&gt;   &lt;/ol&gt;"/>
 		</security>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="14"/>
-			</extension>
-			<!--	Todo:	Add these query combos where needed and fix the xlst to display
--->
 			<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination">
 				<extension url="required">
 					<valueString value="name"/>
@@ -2208,20 +1879,7 @@
 				</extension>
 			</extension>
 			<type value="Patient"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-patient**
-
-
-- A server is capable of returning a patient using GET [base]/Patient/[id].
-- A server returns valid FHIR Patient resources according to the Data Access Framework (DAF) Patient Profile..
-- A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters:
-   - identifier
-- A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters when at least 2 (example name and gender) are present:
-   - name
-   - gender
-   - birthdate
-
-
-"/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-patient&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning a patient using GET [base]/Patient/[id].&lt;/li&gt; &lt;li&gt;A server returns valid FHIR Patient resources according to the Data Access Framework (DAF) Patient Profile..&lt;/li&gt; &lt;li&gt;A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters: &lt;ul&gt; &lt;li&gt;identifier&lt;/li&gt; &lt;/ul&gt;&lt;/li&gt; &lt;li&gt;A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters when at least 2 (example name and gender) are present: &lt;ul&gt; &lt;li&gt;name&lt;/li&gt; &lt;li&gt;gender&lt;/li&gt; &lt;li&gt;birthdate&lt;/li&gt; &lt;/ul&gt;&lt;/li&gt; &lt;/ul&gt;   "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2300,15 +1958,9 @@
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="1"/>
-			</extension>
+
 			<type value="AllergyIntolerance"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-allergyintolerance**
-
--  A server is capable of returning a patient's allergies using GET /AllergyIntolerance?patient=[id].
-
-"/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-allergyintolerance&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning a patient’s allergies using GET /AllergyIntolerance?patient=[id].&lt;/li&gt; &lt;/ul&gt; "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2347,9 +1999,7 @@
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="2"/>
-			</extension>
+
 			<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination">
 				<extension url="required">
 					<valueString value="patient"/>
@@ -2395,17 +2045,7 @@
 				</extension>
 			</extension>
 			<type value="CarePlan"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-careplan**
-
--  A server is capable of returning all of a patient's Assessment and Plan of Treatment information using GET /CarePlan?patient=[id]&amp;category=assess-plan.
-- A server is capable of returning a patient's Assessment and Plan of Treatment information over a specified time period using GET /CarePlan?patient=[id]&amp;category=assess-plan&amp;date=[date].
-
-- A server **SHOULD** be capable returning all of a patient's active Assessment and Plan of Treatment information using GET /CarePlan?patient=[id]&amp;category=assess-plan&amp;status=active.
-- A server **SHOULD** be capable returning a patient's active Assessment and Plan of Treatment information over a specified time period using GET /CarePlan?patient=[id]&amp;category=assess-plan&amp;status=active&amp;date=[date].
-
-			
-			
-			"/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-careplan&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning all of a patient’s Assessment and Plan of Treatment information using GET /CarePlan?patient=[id]&amp;amp;category=assess-plan.&lt;/li&gt; &lt;li&gt;&lt;p&gt;A server is capable of returning a patient’s Assessment and Plan of Treatment information over a specified time period using GET /CarePlan?patient=[id]&amp;amp;category=assess-plan&amp;amp;date=[date].&lt;/p&gt;&lt;/li&gt; &lt;li&gt;A server &lt;strong&gt;SHOULD&lt;/strong&gt; be capable returning all of a patient’s active Assessment and Plan of Treatment information using GET /CarePlan?patient=[id]&amp;amp;category=assess-plan&amp;amp;status=active.&lt;/li&gt; &lt;li&gt;&lt;p&gt;A server &lt;strong&gt;SHOULD&lt;/strong&gt; be capable returning a patient’s active Assessment and Plan of Treatment information over a specified time period using GET /CarePlan?patient=[id]&amp;amp;category=assess-plan&amp;amp;status=active&amp;amp;date=[date].&lt;/p&gt;&lt;/li&gt; &lt;/ul&gt;      "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2465,13 +2105,11 @@
 				<name value="date"/>
 				<definition value="http://hl7.org/fhir/SearchParameter/CarePlan-Date"/>
 				<type value="date"/>
-				<documentation value="The server SHALL support the [date search modifiers](http://hl7.org/fhir/2017Jan/search.html#prefix) 'ge','le','eq' for this profile"/>
+				<documentation value="&lt;p&gt;The server SHALL support the &lt;a href=&quot;http://hl7.org/fhir/2017Jan/search.html#prefix&quot;&gt;date search modifiers&lt;/a&gt; ‘ge’,‘le’,‘eq’ for this profile&lt;/p&gt;"/>
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="3"/>
-			</extension>
+
 			<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination">
 				<extension url="required">
 					<valueString value="patient"/>
@@ -2481,12 +2119,7 @@
 				</extension>
 			</extension>
 			<type value="CareTeam"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-careteam**
-
--  A server is capable of returning a patient's current care team members using GET[base]/CareTeam?patient=[id]&amp;status=active
-			
-			
-			"/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-careteam&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning a patient’s current care team members using GET[base]/CareTeam?patient=[id]&amp;amp;status=active&lt;/li&gt; &lt;/ul&gt;     "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2533,9 +2166,7 @@
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="4"/>
-			</extension>
+
 			<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination">
 				<extension url="required">
 					<valueString value="patient"/>
@@ -2553,15 +2184,7 @@
 				</extension>
 			</extension>
 			<type value="Condition"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-condition**
-			
-- A server is capable of returning a patient's conditions list using GET/Condition?patient=[id].	
-
-- A server **SHOULD** be capable returning all of a patient's active problems and health concerns using 'GET /Condition?patient=[id]&amp;clinicalstatus=active,recurrance,remission'
-- A server **SHOULD** be capable returning all of a patient's problems or all of patient's health concerns using 'GET /Condition?patient=[id]&amp;category=[problem|health-concern]'
-
-		
-			"/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-condition&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;A server is capable of returning a patient’s conditions list using GET/Condition?patient=[id].&lt;/p&gt;&lt;/li&gt; &lt;li&gt;A server &lt;strong&gt;SHOULD&lt;/strong&gt; be capable returning all of a patient’s active problems and health concerns using ‘GET /Condition?patient=[id]&amp;amp;clinicalstatus=active,recurrance,remission’&lt;/li&gt; &lt;li&gt;&lt;p&gt;A server &lt;strong&gt;SHOULD&lt;/strong&gt; be capable returning all of a patient’s problems or all of patient’s health concerns using ‘GET /Condition?patient=[id]&amp;amp;category=[problem|health-concern]’&lt;/p&gt;&lt;/li&gt; &lt;/ul&gt;     "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2616,16 +2239,9 @@
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="5"/>
-			</extension>
-			<type value="Device"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-device**
-			
-- A server is capable of returning all Unique device identifier(s)(UDI) for a patient's implanted device(s) using GET /Device?patient=[id].
 
-			
-			"/>
+			<type value="Device"/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-device&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning all Unique device identifier(s)(UDI) for a patient’s implanted device(s) using GET /Device?patient=[id].&lt;/li&gt; &lt;/ul&gt;    "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2664,9 +2280,7 @@
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="6"/>
-			</extension>
+
 			<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination">
 				<extension url="required">
 					<valueString value="patient"/>
@@ -2676,13 +2290,7 @@
 				</extension>
 			</extension>
 			<type value="Goal"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-device**
-			
-- A server is capable of returning all of a patient's goals using GET [base]/Goal?patient=[id].
-- A server is capable of returning all of all of a patient's goals over a specified time period using GET [base]/Goal?patient=[id]&amp;date=[date]{&amp;date=[date]}.
-
-
-			"/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-device&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning all of a patient’s goals using GET [base]/Goal?patient=[id].&lt;/li&gt; &lt;li&gt;A server is capable of returning all of all of a patient’s goals over a specified time period using GET [base]/Goal?patient=[id]&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/li&gt; &lt;/ul&gt;     "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2726,7 +2334,7 @@
 				<name value="date"/>
 				<definition value="http://hl7.org/fhir/SearchParameter/Goal-Date"/>
 				<type value="date"/>
-				<documentation value="The server SHALL support the [date search modifiers](http://hl7.org/fhir/2017Jan/search.html#prefix) 'ge','le','eq' for this profile"/>
+				<documentation value="&lt;p&gt;The server SHALL support the &lt;a href=&quot;http://hl7.org/fhir/2017Jan/search.html#prefix&quot;&gt;date search modifiers&lt;/a&gt; ‘ge’,‘le’,‘eq’ for this profile&lt;/p&gt;"/>
 			</searchParam>
 		</resource>
 		<resource>
@@ -2734,12 +2342,7 @@
 				<valueString value="7"/>
 			</extension>
 			<type value="Immunization"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-immunization**
-			
--  A client has connected to a server and fetched all immunizations for a patient using GET /Immunization?patient=[id].
-
-
-			"/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-immunization&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A client has connected to a server and fetched all immunizations for a patient using GET /Immunization?patient=[id].&lt;/li&gt; &lt;/ul&gt;     "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2778,9 +2381,7 @@
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="8"/>
-			</extension>
+
 			<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination">
 				<extension url="required">
 					<valueString value="patient"/>
@@ -2826,18 +2427,7 @@
 				</extension>
 			</extension>
 			<type value="DiagnosticReport"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-diagnosticreport**
-
-- A server is capable of returning all of a patient's laboratory diagnostic reports queried by category using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB.
-- A server is capable of returning all of a patient's laboratory diagnostic reports queried by category code and date range using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;date=[date]{&amp;date=[date]}.
-- A server is capable of returning all of a patient's laboratory diagnostic reports queried by category and code using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;code=[LOINC].
-
-
-- A server **SHOULD** be capable of returning all of a patient's laboratory diagnostic reports queried by category and one or more codes and date range using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;code=[LOINC1{,LOINC2,LOINC3,...}]&amp;date=[date]{&amp;date=[date]}.
-
-
-			
-			"/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-diagnosticreport&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning all of a patient’s laboratory diagnostic reports queried by category using GET [base]/DiagnosticReport?patient=[id]&amp;amp;category=LAB.&lt;/li&gt; &lt;li&gt;A server is capable of returning all of a patient’s laboratory diagnostic reports queried by category code and date range using GET [base]/DiagnosticReport?patient=[id]&amp;amp;category=LAB&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/li&gt; &lt;li&gt;&lt;p&gt;A server is capable of returning all of a patient’s laboratory diagnostic reports queried by category and code using GET [base]/DiagnosticReport?patient=[id]&amp;amp;category=LAB&amp;amp;code=[LOINC].&lt;/p&gt;&lt;/li&gt; &lt;li&gt;&lt;p&gt;A server &lt;strong&gt;SHOULD&lt;/strong&gt; be capable of returning all of a patient’s laboratory diagnostic reports queried by category and one or more codes and date range using GET [base]/DiagnosticReport?patient=[id]&amp;amp;category=LAB&amp;amp;code=[LOINC1{,LOINC2,LOINC3,…}]&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/p&gt;&lt;/li&gt; &lt;/ul&gt;     "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2897,22 +2487,13 @@
 				<name value="date"/>
 				<definition value="http://hl7.org/fhir/SearchParameter/DiagnosticReport-Date"/>
 				<type value="date"/>
-				<documentation value="The server SHALL support the [date search modifiers](http://hl7.org/fhir/2017Jan/search.html#prefix) 'ge','le','eq' for this profile"/>
+				<documentation value="&lt;p&gt;The server SHALL support the &lt;a href=&quot;http://hl7.org/fhir/2017Jan/search.html#prefix&quot;&gt;date search modifiers&lt;/a&gt; ‘ge’,‘le’,‘eq’ for this profile&lt;/p&gt;"/>
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="10"/>
-			</extension>
+
 			<type value="Location"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-location**
-
-- A server is capable of returning a location by name using GET [base]/Location?name=[string]
-- A server is capable of returning a location by address using GET [base]/Location?address=[string]
-
-			
-			
-			"/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-location&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning a location by name using GET [base]/Location?name=[string]&lt;/li&gt; &lt;li&gt;A server is capable of returning a location by address using GET [base]/Location?address=[string]&lt;/li&gt; &lt;/ul&gt;     "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2959,11 +2540,9 @@
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="11"/>
-			</extension>
+
 			<type value="Medication"/>
-			<documentation value="The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.  If the Medication Resource is used in a MedicationStatement or a MedicationRequest,  then the READ and SEARCH Criteria  **SHALL** be supported."/>
+			<documentation value="&lt;p&gt;The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource. If the Medication Resource is used in a MedicationStatement or a MedicationRequest, then the READ and SEARCH Criteria &lt;strong&gt;SHALL&lt;/strong&gt; be supported.&lt;/p&gt;"/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHOULD"/>
@@ -2994,19 +2573,9 @@
 			</interaction>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="17"/>
-			</extension>
+
 			<type value="MedicationStatement"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-medicationstatement**
-			
-The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.    When referencing a Medication resource,  the resource may be [contained](http://hl7.org/fhir/2017Jan/references.html#contained) or an external resource.   The server application can choose any one way or more than one method,  but **IF** the an external reference to Medication is used, the server **SHALL** support the [include](http://hl7.org/fhir/2017Jan/references.html#include) parameter for searching this element.   The client application must support both methods.
-
-- A server is capable of returning a patient's medications using one of or both
-
-1. GET /MedicationStatement?patient=[id]
-1. GET /MedicationStatement?patient=[id]&amp;_include=MedicationStatement:medication
-"/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-medicationstatement&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource. When referencing a Medication resource, the resource may be &lt;a href=&quot;http://hl7.org/fhir/2017Jan/references.html#contained&quot;&gt;contained&lt;/a&gt; or an external resource. The server application can choose any one way or more than one method, but &lt;strong&gt;IF&lt;/strong&gt; the an external reference to Medication is used, the server &lt;strong&gt;SHALL&lt;/strong&gt; support the &lt;a href=&quot;http://hl7.org/fhir/2017Jan/references.html#include&quot;&gt;include&lt;/a&gt; parameter for searching this element. The client application must support both methods.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning a patient’s medications using one of or both&lt;/li&gt; &lt;/ul&gt; &lt;ol&gt; &lt;li&gt;GET /MedicationStatement?patient=[id]&lt;/li&gt; &lt;li&gt;GET /MedicationStatement?patient=[id]&amp;amp;_include=MedicationStatement:medication&lt;/li&gt; &lt;/ol&gt; "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -3050,19 +2619,9 @@ The MedicationStatement and MedicationRequest resources can represent a medicati
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="12"/>
-			</extension>
-			<type value="MedicationRequest"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-medicationrequest**
-			
-The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource.    When referencing a Medication resource,  the resource may be [contained](http://hl7.org/fhir/2017Jan/references.html#contained) or an external resource.   The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the [include](http://hl7.org/fhir/2017Jan/references.html#include) parameter for searching this element.   The client application must support both methods.
-			
-- A server is capable of returning a patient's medications using one of or both
 
-1. GET /MedicationRequest?patient=[id]
-1. GET /MedicationRequest?patient=[id]&amp;_include=MedicationRequest:medication
-"/>
+			<type value="MedicationRequest"/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-medicationrequest&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a Medication resource. When referencing a Medication resource, the resource may be &lt;a href=&quot;http://hl7.org/fhir/2017Jan/references.html#contained&quot;&gt;contained&lt;/a&gt; or an external resource. The server application can choose any one way or more than one method, but if the an external reference to Medication is used, the server SHALL support the &lt;a href=&quot;http://hl7.org/fhir/2017Jan/references.html#include&quot;&gt;include&lt;/a&gt; parameter for searching this element. The client application must support both methods.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning a patient’s medications using one of or both&lt;/li&gt; &lt;/ul&gt; &lt;ol&gt; &lt;li&gt;GET /MedicationRequest?patient=[id]&lt;/li&gt; &lt;li&gt;GET /MedicationRequest?patient=[id]&amp;amp;_include=MedicationRequest:medication&lt;/li&gt; &lt;/ol&gt; "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -3106,15 +2665,11 @@ The MedicationStatement and MedicationRequest resources can represent a medicati
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="9"/>
-			</extension>
+
 			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
 				<valueString value="18"/>
 			</extension>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="13"/>
-			</extension>
+
 			<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination">
 				<extension url="required">
 					<valueString value="patient"/>
@@ -3160,30 +2715,7 @@ The MedicationStatement and MedicationRequest resources can represent a medicati
 				</extension>
 			</extension>
 			<type value="Observation"/>
-			<documentation value=".
-
-**Summary of US Core Search Criteria for StructureDefinition-us-core-observationresults**
-
-A server is capable of returning all of a patient’s laboratory results queried by category using GET [base]/Observation?patient=[id]&amp;category=laboratory.
-A server is capable of returning all of a patient’s laboratory results queried by category code and date range usingGET [base]/Observation?patient=[id]&amp;category=laboratory&amp;date=[date]{&amp;date=[date]}.
-A server is capable of returning all of a patient’s laboratory results queried by category and code using GET [base]/Observation?patient=[id]&amp;category=laboratory&amp;code=[LOINC].
-
-A server SHOULD be capable of returning all of a patient’s laboratory results queried by category and one or more codes and date range using GET [base]/Observation?patient=[id]&amp;category=laboratory&amp;code=[LOINC1{,LOINC2,LOINC3,...}]&amp;date=[date]{&amp;date=[date]}.
-
-**Summary of US Core Search Criteria for StructureDefinition-us-core-smokingstatus**
-			
-- A server is capable of returning a a patient's smoking status using GET [base]/Observation?patient=[id]&amp;code=72166-2
-			
-**Summary of US Core Search Criteria for StructureDefinition-us-core-vitalsigns**
-
-- A server is capable of returning all of a patient's vital signs that it supports using GET [base]/Observation?patient=[id]&amp;category=vital-signs.
-- A server is capable of returning all of a patient's vital signs queried by date range using GET [base]/Observation?patient=[id]&amp;category=vital-signs&amp;date=[date]{&amp;date=[date]}.
-- A server is capable of returning any of a patient's vital signs queried by one or more of the codes listed below using GET [base]/Observation?patient=[id]&amp;code[vital sign LOINC{,LOINC2,LOINC3,...}].
-
-
-- A server **SHOULD** be capable of returning any of a patient's vital signs queried by one or more of the codes listed below and date range using GET [base]/Observation?patient=[id]&amp;code=[LOINC{,LOINC2...}]vital-signs&amp;date=[date]{&amp;date=[date]}.
-
-			"/>
+			<documentation value=".  &lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-observationresults&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;A server is capable of returning all of a patient’s laboratory results queried by category using GET [base]/Observation?patient=[id]&amp;amp;category=laboratory.&lt;br /&gt; A server is capable of returning all of a patient’s laboratory results queried by category code and date range usingGET [base]/Observation?patient=[id]&amp;amp;category=laboratory&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;br /&gt; A server is capable of returning all of a patient’s laboratory results queried by category and code using GET [base]/Observation?patient=[id]&amp;amp;category=laboratory&amp;amp;code=[LOINC].&lt;/p&gt; &lt;p&gt;A server SHOULD be capable of returning all of a patient’s laboratory results queried by category and one or more codes and date range using GET [base]/Observation?patient=[id]&amp;amp;category=laboratory&amp;amp;code=[LOINC1{,LOINC2,LOINC3,…}]&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-smokingstatus&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning a a patient’s smoking status using GET [base]/Observation?patient=[id]&amp;amp;code=72166-2&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-vitalsigns&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning all of a patient’s vital signs that it supports using GET [base]/Observation?patient=[id]&amp;amp;category=vital-signs.&lt;/li&gt; &lt;li&gt;A server is capable of returning all of a patient’s vital signs queried by date range using GET [base]/Observation?patient=[id]&amp;amp;category=vital-signs&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/li&gt; &lt;li&gt;&lt;p&gt;A server is capable of returning any of a patient’s vital signs queried by one or more of the codes listed below using GET [base]/Observation?patient=[id]&amp;amp;code[vital sign LOINC{,LOINC2,LOINC3,…}].&lt;/p&gt;&lt;/li&gt; &lt;li&gt;&lt;p&gt;A server &lt;strong&gt;SHOULD&lt;/strong&gt; be capable of returning any of a patient’s vital signs queried by one or more of the codes listed below and date range using GET [base]/Observation?patient=[id]&amp;amp;code=[LOINC{,LOINC2…}]vital-signs&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/p&gt;&lt;/li&gt; &lt;/ul&gt;     "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -3243,22 +2775,13 @@ A server SHOULD be capable of returning all of a patient’s laboratory results 
 				<name value="date"/>
 				<definition value="http://hl7.org/fhir/SearchParameter/Organization-Date"/>
 				<type value="date"/>
-				<documentation value="The server SHALL support the [date search modifiers](http://hl7.org/fhir/2017Jan/search.html#prefix) 'ge','le','eq' for this profile"/>
+				<documentation value="&lt;p&gt;The server SHALL support the &lt;a href=&quot;http://hl7.org/fhir/2017Jan/search.html#prefix&quot;&gt;date search modifiers&lt;/a&gt; ‘ge’,‘le’,‘eq’ for this profile&lt;/p&gt;"/>
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="19"/>
-			</extension>
-			<type value="Organization"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-organization**
-			
-- A server is capable of returning an organization by identifier using GET [base]/Organization?identifier=[system]|[code]
-- A server is capable of returning an organization by name using GET [base]/Organization?name=[string]
-- A server is capable of returning an organization by address using GET [base]/Organization?address=[string]
 
-			
-			"/>
+			<type value="Organization"/>
+			<documentation value="     &lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-organization&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning an organization by identifier using GET [base]/Organization?identifier=[system]|[code]&lt;/li&gt; &lt;li&gt;A server is capable of returning an organization by name using GET [base]/Organization?name=[string]&lt;/li&gt; &lt;li&gt;A server is capable of returning an organization by address using GET [base]/Organization?address=[string]&lt;/li&gt; &lt;/ul&gt;    "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -3313,17 +2836,9 @@ A server SHOULD be capable of returning all of a patient’s laboratory results 
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="15"/>
-			</extension>
-			<type value="Practitioner"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-practitioner**
-			
-- A server is capable of returning a practitioner by identifier using GET [base]/Practitioner?identifier=[system]|[code]
-- A server is capable of returning a practitioner by name using GET [base]/Practitioner?family=[string]&amp;given=[string]
 
-			
-			"/>
+			<type value="Practitioner"/>
+			<documentation value=" &lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-practitioner&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning a practitioner by identifier using GET [base]/Practitioner?identifier=[system]|[code]&lt;/li&gt; &lt;li&gt;A server is capable of returning a practitioner by name using GET [base]/Practitioner?family=[string]&amp;amp;given=[string]&lt;/li&gt; &lt;/ul&gt;     "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -3370,9 +2885,7 @@ A server SHOULD be capable of returning all of a patient’s laboratory results 
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="16"/>
-			</extension>
+
 			<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination">
 				<extension url="required">
 					<valueString value="patient"/>
@@ -3382,13 +2895,7 @@ A server SHOULD be capable of returning all of a patient’s laboratory results 
 				</extension>
 			</extension>
 			<type value="Procedure"/>
-			<documentation value="**Summary of US Core Search Criteria for StructureDefinition-us-core-procedure**
-			
--  A server is capable of returning a patient's procedures using GET/Procedure?patient=[id].
-- A server is capable of returning all of all of a patient's procedures over a specified time period using GET /Procedure?patient=[id]&amp;date=[date]{&amp;date=[date]}.
-
-			
-			"/>
+			<documentation value=" &lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-procedure&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning a patient’s procedures using GET/Procedure?patient=[id].&lt;/li&gt; &lt;li&gt;A server is capable of returning all of all of a patient’s procedures over a specified time period using GET /Procedure?patient=[id]&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/li&gt; &lt;/ul&gt;   "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -3432,7 +2939,7 @@ A server SHOULD be capable of returning all of a patient’s laboratory results 
 				<name value="date"/>
 				<definition value="http://hl7.org/fhir/SearchParameter/Procedure-Date"/>
 				<type value="date"/>
-				<documentation value="The server SHALL support the [date search modifiers](http://hl7.org/fhir/2017Jan/search.html#prefix) 'ge','le','eq' for this profile"/>
+				<documentation value="&lt;p&gt;The server SHALL support the &lt;a href=&quot;http://hl7.org/fhir/2017Jan/search.html#prefix&quot;&gt;date search modifiers&lt;/a&gt; ‘ge’,‘le’,‘eq’ for this profile&lt;/p&gt;"/>
 			</searchParam>
 		</resource>
 		<!--

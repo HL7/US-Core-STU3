@@ -1,22 +1,10 @@
 
-
-
-
--------------------------
-
-**Clients**
-
--   A client has connected to a server and fetched a patient's allergies using `GET /AllergyIntolerance?patient=[id]`.
-
-**Servers**
-
-- A server is capable of returning a patient's allergies using `GET /AllergyIntolerance?patient=[id]`.
--   A server has ensured that every API request includes a valid Authorization token, supplied via:Authorization: Bearer {server-specific-token-here}
--   A server has rejected any unauthorized requests by returning an HTTP 401 Unauthorized response code.
-
------------
-
 `GET /AllergyIntolerance?patient=\[id\]`
+
+**Example:**
+
+[GET https://fhir-open-api-dstu2.smarthealthit.org/AllergyIntolerance?patient=1137192](https://fhir-open-api-dstu2.smarthealthit.org/AllergyIntolerance?patient=1137192)
+
 
 *Support:* Mandatory to support search by patient.
 
@@ -29,9 +17,6 @@
 -   (Status 401/4xx): unauthorized request
 -   (Status 403): insufficient scope
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/AllergyIntolerance?patient=1137192](https://fhir-open-api-dstu2.smarthealthit.org/AllergyIntolerance?patient=1137192)
 
 
   [(how to search by reference)]: http://hl7.org/fhir/2017Jan/search.html#reference

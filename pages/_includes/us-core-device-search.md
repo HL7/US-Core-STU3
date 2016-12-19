@@ -1,23 +1,11 @@
 
-
--------------------------
-
-**Clients**
-
--  A client has connected to a server and fetched all Unique device identifier(s)(UDI)for a patient’s implantable device(s)using `GET /Device?patient=[id]`.
-
-
-**Servers**
-
-- A server is capable of returning all Unique device identifier(s)(UDI) for a patient’s implantable device(s) using `GET /Device?patient=[id]`.
-
-
-- A server has ensured that every API request includes a valid Authorization token, supplied via:Authorization: Bearer {server-specific-token-here}
-- A server has rejected any unauthorized requests by returning an HTTP 401 Unauthorized response code.
-
------------
-
 `GET /Device?patient=[id]`
+
+**Example:**
+
+[GET http://fhir2.healthintersections.com.au/open/Device/uscore-udi-1](http://fhir2.healthintersections.com.au/open/Device/uscore-udi-1)
+
+
 
 *Support:* Mandatory to support search by patient.
 
@@ -31,10 +19,6 @@
 -   (Status 400): invalid parameter
 -   (Status 401/4xx): unauthorized request
 -   (Status 403): insufficient scope
-
-**Example:**
-
-[GET http://fhir2.healthintersections.com.au/open/Device/uscore-udi-1](http://fhir2.healthintersections.com.au/open/Device/uscore-udi-1)
 
 
   [(how to search by reference)]: http://hl7.org/fhir/2017Jan/search.html#reference

@@ -9,12 +9,6 @@
 	<caseSensitive value="true"/>
 	<valueSet value="http://hl7.org/fhir/us/core/ValueSet/careplan-category"/>
 	<content value="complete"/>
-
-	<concept>
-		<code value="careteam"/>
-		<display value="Care Team"/>
-		<definition value="Careplan for identifying all the people and /or organizations who plan to participate in the coordination of delivery of care."/>
-	</concept>
 	<concept>
 		<code value="assess-plan"/>
 		<display value="Assessment and Plan of Treatment"/>

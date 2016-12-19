@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Markdown to HTML</title>
+      <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(197, 200, 198); overflow: auto; background-color: rgb(29, 31, 33); }
+.markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
+.markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) h1 { font-size: 2.4em; font-weight: 300; }
+.markdown-preview:not([data-use-github-style]) h2 { font-size: 1.8em; font-weight: 400; }
+.markdown-preview:not([data-use-github-style]) h3 { font-size: 1.5em; font-weight: 500; }
+.markdown-preview:not([data-use-github-style]) h4 { font-size: 1.2em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h5 { font-size: 1.1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h6 { font-size: 1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) strong { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) del { color: rgb(155, 160, 157); }
+.markdown-preview:not([data-use-github-style]) a, .markdown-preview:not([data-use-github-style]) a code { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) img { max-width: 100%; }
+.markdown-preview:not([data-use-github-style]) > p { margin-top: 0px; margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) > ul, .markdown-preview:not([data-use-github-style]) > ol { margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) blockquote { margin: 1.5em 0px; font-size: inherit; color: rgb(155, 160, 157); border-color: rgb(67, 72, 76); border-width: 4px; }
+.markdown-preview:not([data-use-github-style]) hr { margin: 3em 0px; border-top: 2px dashed rgb(67, 72, 76); background: none; }
+.markdown-preview:not([data-use-github-style]) table { margin: 1.5em 0px; }
+.markdown-preview:not([data-use-github-style]) th { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) th, .markdown-preview:not([data-use-github-style]) td { padding: 0.66em 1em; border: 1px solid rgb(67, 72, 76); }
+.markdown-preview:not([data-use-github-style]) code { color: rgb(255, 255, 255); background-color: rgb(48, 51, 55); }
+.markdown-preview:not([data-use-github-style]) pre.editor-colors { margin: 1.5em 0px; padding: 1em; font-size: 0.92em; border-radius: 3px; background-color: rgb(39, 41, 44); }
+.markdown-preview:not([data-use-github-style]) kbd { color: rgb(255, 255, 255); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(67, 72, 76) rgb(67, 72, 76) rgb(53, 57, 60); background-color: rgb(48, 51, 55); }
+.markdown-preview[data-use-github-style] { font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; line-height: 1.6; word-wrap: break-word; padding: 30px; font-size: 16px; color: rgb(51, 51, 51); overflow: scroll; background-color: rgb(255, 255, 255); }
+.markdown-preview[data-use-github-style] > :first-child { margin-top: 0px !important; }
+.markdown-preview[data-use-github-style] > :last-child { margin-bottom: 0px !important; }
+.markdown-preview[data-use-github-style] a:not([href]) { color: inherit; text-decoration: none; }
+.markdown-preview[data-use-github-style] .absent { color: rgb(204, 0, 0); }
+.markdown-preview[data-use-github-style] .anchor { position: absolute; top: 0px; left: 0px; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; }
+.markdown-preview[data-use-github-style] .anchor:focus { outline: none; }
+.markdown-preview[data-use-github-style] h1, .markdown-preview[data-use-github-style] h2, .markdown-preview[data-use-github-style] h3, .markdown-preview[data-use-github-style] h4, .markdown-preview[data-use-github-style] h5, .markdown-preview[data-use-github-style] h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; }
+.markdown-preview[data-use-github-style] h1 .octicon-link, .markdown-preview[data-use-github-style] h2 .octicon-link, .markdown-preview[data-use-github-style] h3 .octicon-link, .markdown-preview[data-use-github-style] h4 .octicon-link, .markdown-preview[data-use-github-style] h5 .octicon-link, .markdown-preview[data-use-github-style] h6 .octicon-link { display: none; color: rgb(0, 0, 0); vertical-align: middle; }
+.markdown-preview[data-use-github-style] h1:hover .anchor, .markdown-preview[data-use-github-style] h2:hover .anchor, .markdown-preview[data-use-github-style] h3:hover .anchor, .markdown-preview[data-use-github-style] h4:hover .anchor, .markdown-preview[data-use-github-style] h5:hover .anchor, .markdown-preview[data-use-github-style] h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; }
+.markdown-preview[data-use-github-style] h1:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h2:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h3:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h4:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h5:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h6:hover .anchor .octicon-link { display: inline-block; }
+.markdown-preview[data-use-github-style] h1 tt, .markdown-preview[data-use-github-style] h2 tt, .markdown-preview[data-use-github-style] h3 tt, .markdown-preview[data-use-github-style] h4 tt, .markdown-preview[data-use-github-style] h5 tt, .markdown-preview[data-use-github-style] h6 tt, .markdown-preview[data-use-github-style] h1 code, .markdown-preview[data-use-github-style] h2 code, .markdown-preview[data-use-github-style] h3 code, .markdown-preview[data-use-github-style] h4 code, .markdown-preview[data-use-github-style] h5 code, .markdown-preview[data-use-github-style] h6 code { font-size: inherit; }
+.markdown-preview[data-use-github-style] h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h1 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h2 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h3 { font-size: 1.5em; line-height: 1.43; }
+.markdown-preview[data-use-github-style] h3 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h4 { font-size: 1.25em; }
+.markdown-preview[data-use-github-style] h4 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h5 { font-size: 1em; }
+.markdown-preview[data-use-github-style] h5 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] h6 { font-size: 1em; color: rgb(119, 119, 119); }
+.markdown-preview[data-use-github-style] h6 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] p, .markdown-preview[data-use-github-style] blockquote, .markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol, .markdown-preview[data-use-github-style] dl, .markdown-preview[data-use-github-style] table, .markdown-preview[data-use-github-style] pre { margin-top: 0px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] hr { height: 4px; padding: 0px; margin: 16px 0px; border: 0px none; background-color: rgb(231, 231, 231); }
+.markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol { padding-left: 2em; }
+.markdown-preview[data-use-github-style] ul.no-list, .markdown-preview[data-use-github-style] ol.no-list { padding: 0px; list-style-type: none; }
+.markdown-preview[data-use-github-style] ul ul, .markdown-preview[data-use-github-style] ul ol, .markdown-preview[data-use-github-style] ol ol, .markdown-preview[data-use-github-style] ol ul { margin-top: 0px; margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] li > p { margin-top: 16px; }
+.markdown-preview[data-use-github-style] dl { padding: 0px; }
+.markdown-preview[data-use-github-style] dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; }
+.markdown-preview[data-use-github-style] dl dd { padding: 0px 16px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] blockquote { padding: 0px 15px; color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] blockquote > :first-child { margin-top: 0px; }
+.markdown-preview[data-use-github-style] blockquote > :last-child { margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] table { display: block; width: 100%; overflow: auto; word-break: keep-all; }
+.markdown-preview[data-use-github-style] table th { font-weight: bold; }
+.markdown-preview[data-use-github-style] table th, .markdown-preview[data-use-github-style] table td { padding: 6px 13px; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] table tr { border-top: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 255); }
+.markdown-preview[data-use-github-style] table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+.markdown-preview[data-use-github-style] img { max-width: 100%; box-sizing: border-box; }
+.markdown-preview[data-use-github-style] .emoji { max-width: none; }
+.markdown-preview[data-use-github-style] span.frame { display: block; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.frame > span { display: block; float: left; width: auto; padding: 7px; margin: 13px 0px 0px; overflow: hidden; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] span.frame span img { display: block; float: left; }
+.markdown-preview[data-use-github-style] span.frame span span { display: block; padding: 5px 0px 0px; clear: both; color: rgb(51, 51, 51); }
+.markdown-preview[data-use-github-style] span.align-center { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-center > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-center span img { margin: 0px auto; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-right { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-right > span { display: block; margin: 13px 0px 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] span.align-right span img { margin: 0px; text-align: right; }
+.markdown-preview[data-use-github-style] span.float-left { display: block; float: left; margin-right: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-left span { margin: 13px 0px 0px; }
+.markdown-preview[data-use-github-style] span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-right > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] code, .markdown-preview[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; border-radius: 3px; background-color: rgba(0, 0, 0, 0.0392157); }
+.markdown-preview[data-use-github-style] code::before, .markdown-preview[data-use-github-style] tt::before, .markdown-preview[data-use-github-style] code::after, .markdown-preview[data-use-github-style] tt::after { letter-spacing: -0.2em; content: " "; }
+.markdown-preview[data-use-github-style] code br, .markdown-preview[data-use-github-style] tt br { display: none; }
+.markdown-preview[data-use-github-style] del code { text-decoration: inherit; }
+.markdown-preview[data-use-github-style] pre > code { padding: 0px; margin: 0px; font-size: 100%; word-break: normal; white-space: pre; border: 0px; background: transparent; }
+.markdown-preview[data-use-github-style] .highlight { margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] .highlight pre, .markdown-preview[data-use-github-style] pre { padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; border-radius: 3px; background-color: rgb(247, 247, 247); }
+.markdown-preview[data-use-github-style] .highlight pre { margin-bottom: 0px; word-break: normal; }
+.markdown-preview[data-use-github-style] pre { word-wrap: normal; }
+.markdown-preview[data-use-github-style] pre code, .markdown-preview[data-use-github-style] pre tt { display: inline; max-width: initial; padding: 0px; margin: 0px; overflow: initial; line-height: inherit; word-wrap: normal; border: 0px; background-color: transparent; }
+.markdown-preview[data-use-github-style] pre code::before, .markdown-preview[data-use-github-style] pre tt::before, .markdown-preview[data-use-github-style] pre code::after, .markdown-preview[data-use-github-style] pre tt::after { content: normal; }
+.markdown-preview[data-use-github-style] kbd { display: inline-block; padding: 3px 5px; font-size: 11px; line-height: 10px; color: rgb(85, 85, 85); vertical-align: middle; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187); border-radius: 3px; box-shadow: rgb(187, 187, 187) 0px -1px 0px inset; background-color: rgb(252, 252, 252); }
+.markdown-preview[data-use-github-style] a { color: rgb(51, 122, 183); }
+.markdown-preview[data-use-github-style] code { color: inherit; }
+.markdown-preview[data-use-github-style] pre.editor-colors { padding: 0.8em 1em; margin-bottom: 1em; font-size: 0.85em; border-radius: 4px; overflow: auto; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors::shadow .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors::shadow .horizontal-scrollbar { visibility: hidden; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors:hover::shadow .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors:hover::shadow .horizontal-scrollbar { visibility: visible; }
+.markdown-preview .task-list-item-checkbox { position: absolute; margin: 0.25em 0px 0px -1.4em; }
+.bracket-matcher .region {
+  border-bottom: 1px dotted lime;
+  position: absolute;
+}
+
+.spell-check-misspelling .region {
+  border-bottom: 2px dotted rgba(255, 51, 51, 0.75);
+}
+.spell-check-corrections {
+  width: 25em !important;
+}
+
+pre.editor-colors,
+.host {
+  background-color: #1d1f21;
+  color: #c5c8c6;
+}
+pre.editor-colors .wrap-guide,
+.host .wrap-guide {
+  background-color: #676a6c;
+}
+pre.editor-colors .indent-guide,
+.host .indent-guide {
+  color: #676a6c;
+}
+pre.editor-colors .invisible-character,
+.host .invisible-character {
+  color: #676a6c;
+}
+pre.editor-colors .gutter,
+.host .gutter {
+  background-color: #1d1f21;
+  color: #969896;
+}
+pre.editor-colors .gutter .line-number,
+.host .gutter .line-number {
+  padding: 0 0.25em 0 0.5em;
+  -webkit-font-smoothing: antialiased;
+}
+pre.editor-colors .gutter .line-number.cursor-line,
+.host .gutter .line-number.cursor-line {
+  background-color: #373b41;
+  color: #c5c8c6;
+}
+pre.editor-colors .gutter .line-number.cursor-line-no-selection,
+.host .gutter .line-number.cursor-line-no-selection {
+  color: #c5c8c6;
+}
+pre.editor-colors .gutter .line-number.folded,
+.host .gutter .line-number.folded,
+pre.editor-colors .gutter .line-number:after,
+.host .gutter .line-number:after,
+pre.editor-colors .fold-marker:after,
+.host .fold-marker:after {
+  color: #969896;
+}
+pre.editor-colors .invisible,
+.host .invisible {
+  color: #c5c8c6;
+}
+pre.editor-colors .cursor,
+.host .cursor {
+  color: #ffffff;
+}
+pre.editor-colors .selection .region,
+.host .selection .region {
+  background-color: #373b41;
+}
+pre.editor-colors .bracket-matcher .region,
+.host .bracket-matcher .region {
+  border-color: #969896;
+}
+.comment {
+  color: #969896;
+}
+.entity.name.type {
+  color: #f0c674;
+}
+.entity.other.inherited-class {
+  color: #b5bd68;
+}
+.keyword {
+  color: #b294bb;
+}
+.keyword.control {
+  color: #b294bb;
+}
+.keyword.operator {
+  color: #c5c8c6;
+}
+.keyword.other.special-method {
+  color: #81a2be;
+}
+.keyword.other.unit {
+  color: #de935f;
+}
+.storage {
+  color: #b294bb;
+}
+.constant {
+  color: #de935f;
+}
+.constant.character.escape {
+  color: #8abeb7;
+}
+.constant.numeric {
+  color: #de935f;
+}
+.constant.other.color {
+  color: #8abeb7;
+}
+.constant.other.symbol {
+  color: #b5bd68;
+}
+.variable {
+  color: #cc6666;
+}
+.variable.interpolation {
+  color: #a3685a;
+}
+.variable.parameter.function {
+  color: #c5c8c6;
+}
+.invalid.illegal {
+  background-color: #cc6666;
+  color: #1d1f21;
+}
+.string {
+  color: #b5bd68;
+}
+.string.regexp {
+  color: #8abeb7;
+}
+.string.regexp .source.ruby.embedded {
+  color: #f0c674;
+}
+.string.other.link {
+  color: #cc6666;
+}
+.punctuation.definition.parameters,
+.punctuation.definition.array {
+  color: #c5c8c6;
+}
+.punctuation.definition.heading,
+.punctuation.definition.identity {
+  color: #81a2be;
+}
+.punctuation.definition.bold {
+  color: #f0c674;
+  font-weight: bold;
+}
+.punctuation.definition.italic {
+  color: #b294bb;
+  font-style: italic;
+}
+.punctuation.section.embedded {
+  color: #a3685a;
+}
+.punctuation.section.method,
+.punctuation.section.class,
+.punctuation.section.inner-class {
+  color: #c5c8c6;
+}
+.support.class {
+  color: #f0c674;
+}
+.support.function {
+  color: #8abeb7;
+}
+.support.function.any-method {
+  color: #81a2be;
+}
+.entity.name.function {
+  color: #81a2be;
+}
+.entity.name.class,
+.entity.name.type.class {
+  color: #f0c674;
+}
+.entity.name.section {
+  color: #81a2be;
+}
+.entity.name.tag {
+  color: #cc6666;
+}
+.entity.other.attribute-name {
+  color: #de935f;
+}
+.entity.other.attribute-name.id {
+  color: #81a2be;
+}
+.meta.class {
+  color: #f0c674;
+}
+.meta.class.body {
+  color: #c5c8c6;
+}
+.meta.link {
+  color: #de935f;
+}
+.meta.method-call,
+.meta.method {
+  color: #c5c8c6;
+}
+.meta.require {
+  color: #81a2be;
+}
+.meta.selector {
+  color: #b294bb;
+}
+.meta.separator {
+  background-color: #373b41;
+  color: #c5c8c6;
+}
+.meta.tag {
+  color: #c5c8c6;
+}
+.none {
+  color: #c5c8c6;
+}
+.markup.bold {
+  color: #de935f;
+  font-weight: bold;
+}
+.markup.changed {
+  color: #b294bb;
+}
+.markup.deleted {
+  color: #cc6666;
+}
+.markup.italic {
+  color: #b294bb;
+  font-style: italic;
+}
+.markup.heading {
+  color: #cc6666;
+}
+.markup.heading .punctuation.definition.heading {
+  color: #81a2be;
+}
+.markup.link {
+  color: #81a2be;
+}
+.markup.inserted {
+  color: #b5bd68;
+}
+.markup.quote {
+  color: #de935f;
+}
+.markup.raw {
+  color: #b5bd68;
+}
+.source.gfm .markup {
+  -webkit-font-smoothing: auto;
+}
+.source.gfm .link .entity {
+  color: #8abeb7;
+}
+.source.cs .keyword.operator {
+  color: #b294bb;
+}
+.source.json .meta.structure.dictionary.json > .string.quoted.json {
+  color: #cc6666;
+}
+.source.json .meta.structure.dictionary.json > .string.quoted.json > .punctuation.string {
+  color: #cc6666;
+}
+.source.json .meta.structure.dictionary.json > .value.json > .string.quoted.json,
+.source.json .meta.structure.array.json > .value.json > .string.quoted.json,
+.source.json .meta.structure.dictionary.json > .value.json > .string.quoted.json > .punctuation,
+.source.json .meta.structure.array.json > .value.json > .string.quoted.json > .punctuation {
+  color: #b5bd68;
+}
+.source.json .meta.structure.dictionary.json > .constant.language.json,
+.source.json .meta.structure.array.json > .constant.language.json {
+  color: #8abeb7;
+}
+</style>
+  </head>
+  <body class='markdown-preview' data-use-github-style><p>Typically, DocumentReference resources are used with document indexing systems, such as [IHE XDS]. However, document references may also may be created &quot;on-the-fly&quot; in response to a Document Query request.  In other words there MAY NOT be pre-existing indes of references to a patient&#39;s documents at the FHIR endpoint. This results in an empty bundle being returned when searching using a normal FHIR Query.  Therefore, the [$docref operation] has been defined to both create and fetch patient DocumentReference Resources.</p>
+<p>The following search criteria describe fetching pre-indexed documents and those created &quot;on-the-fly&quot;.</p>
+<p><strong>Searching pre-indexed documents:</strong></p>
+<p><em>Clients</em></p>
+<p>A client has connected to a server and fetched references to documents for a patient using <code>GET [base]/DocumentReference?patient=[id]</code></p>
+<p>A client <strong>SHOULD</strong> be capable of connecting to a server and fetching references to documents for a patient searched by type and/or date using:<code>GET [base]/DocumentReference?patient=[id]{&amp;type=[type]}{&amp;period=[date]}</code></p>
+<p><em>Servers</em></p>
+<p>A server is capable of returning at references to documents for a patient using:<code>GET [base]/DocumentReference?patient=[id]</code></p>
+<p> A server <strong>SHOULD</strong> be capable of connecting to a server and fetching references to documents for a patient searched by type and/or date using:<code>GET [base]/DocumentReference?patient=[id]{&amp;type=[type]}{&amp;period=[date]}</code></p>
+<ul>
+<li>A server has ensured that every API request includes a valid Authorization token, supplied via:Authorization: Bearer {server-specific-token-here}</li>
+<li>A server has rejected any unauthorized requests by returning an HTTP 401 Unauthorized response code.</li>
+</ul>
+<p><em>Clients</em></p>
+<h4 id="summary-of-argonaut-search-criteria-for-structuredefinition-argo-careteam">Summary of Argonaut Search Criteria for StructureDefinition-argo-careteam</h4>
+<p>A client has connected to a server and fetches document references for a patient:</p>
+<ul>
+<li><code>GET [base]/DocumentReference/$docref?patient=[id]</code></li>
+</ul>
+<p>A client <strong>SHOULD</strong> be capable of connecting to a server and fetching references for a patient searched by type and/or date using:</p>
+<ul>
+<li><code>GET [base]/DocumentReference/$docref?patient=[id]{&amp;type=[type]}{&amp;period=[date]
+}</code></li>
+</ul>
+<p><em>Servers</em></p>
+<h4 id="summary-of-argonaut-search-criteria-for-structuredefinition-argo-careteam">Summary of Argonaut Search Criteria for StructureDefinition-argo-careteam</h4>
+<p> A server is capable of returning at at least the most recent CCD document references and <strong>MAY</strong> provide most recent references to other document for a patient using:<code>GET [base]/DocumentReference/$docref?patient=[id]</code></p>
+<p> A server <strong>SHOULD</strong> be capable of returning references to CCD documents and <strong>MAY</strong> provide references to other document types for a patient searched by type and/or date using:<code>GET [base]/DocumentReference/$docref?patient=[id]{&amp;type=[type]}{&amp;period=[date]
+  }</code></p>
+<ul>
+<li>A server has ensured that every API request includes a valid Authorization token, supplied via:Authorization: Bearer {server-specific-token-here}</li>
+<li>A server has rejected any unauthorized requests by returning an HTTP 401 Unauthorized response code.</li>
+</ul>
+<hr>
+<p><strong>Clients</strong></p>
+<ul>
+<li>A client is able to connect to a server and fetch all current care team members for a patient using <code>GET[base]/CarePlan?patient=[id]&amp;category=careteam&amp;status=active</code></li>
+</ul>
+<p><strong>Servers</strong></p>
+<ul>
+<li>A server is capable of returning a patient&#39;s current care team members using <code>GET[base]/CarePlan?patient=[id]&amp;category=careteam&amp;status=active</code></li>
+</ul>
+<ul>
+<li>A server has ensured that every API request includes a valid Authorization token, supplied via:Authorization: Bearer {server-specific-token-here}</li>
+<li>A server has rejected any unauthorized requests by returning an HTTP 401 Unauthorized response code.</li>
+</ul></body>
+</html>
