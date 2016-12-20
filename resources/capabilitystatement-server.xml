@@ -2338,9 +2338,7 @@
 			</searchParam>
 		</resource>
 		<resource>
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="7"/>
-			</extension>
+
 			<type value="Immunization"/>
 			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-immunization&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A client has connected to a server and fetched all immunizations for a patient using GET /Immunization?patient=[id].&lt;/li&gt; &lt;/ul&gt;     "/>
 			<interaction>
@@ -2666,9 +2664,7 @@
 		</resource>
 		<resource>
 
-			<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-associated-profile">
-				<valueString value="18"/>
-			</extension>
+
 
 			<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination">
 				<extension url="required">

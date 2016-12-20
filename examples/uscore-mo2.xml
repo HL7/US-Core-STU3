@@ -19,31 +19,25 @@
 		</Medication>
 	</contained>
 	<status value="active"/>
-	<stage>
-		<coding>
-			<system value="http://hl7.org/fhir/request-stage"/>
-			<code value="original-order"/>
-		</coding>
-		<text value="Orginal Order"/>
-	</stage>
+	<intent value="order"/>
 	<!--  either a code or a reference to the medication being prescribed. As described earlier, this could be contained, separately    within a bundle or simply a reference to a remote server. -->
 	<medicationReference>
 		<reference value="#med2"/>
 		<display value="Nizatidine 15 MG/ML Oral Solution [Axid]"/>
 	</medicationReference>
-	<patient>
+	<subject>
 		<reference value="Patient-example.html"/>
 		<display value="Amy Shaw"/>
-	</patient>
-	<dateWritten value="2008-04-05"/>
-	<requester>
+	</subject>
+	<authoredOn value="2008-04-05"/>
+	<requester><agent>
 		<reference value="Practitioner-practitioner-1.html"
 
 />
 		<display value="Ronald Bone, MD"
 
 />
-	</requester>
+	</agent></requester>
 	<!--	The following elements are not mandatory for the uscorenaut Profile -->
 	<dosageInstruction>
 		<text value="10 mL bid"/>
