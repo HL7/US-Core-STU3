@@ -2889,7 +2889,7 @@
     <Cell ss:StyleID="s123"><Data ss:Type="String">error</Data></Cell>
     <Cell ss:StyleID="s123"><Data ss:Type="String">Observation</Data></Cell>
     <Cell ss:StyleID="s123"><Data ss:Type="String">If there is no component or related element then either a value[x] or a data absent reason must be present</Data></Cell>
-    <Cell ss:StyleID="s124"><Data ss:Type="String">(component.empty() or related.empty()) implies (value.exists() or dataAbsentReason.exists())</Data></Cell>
+    <Cell ss:StyleID="s124"><Data ss:Type="String">(component.empty() and related.empty()) implies (value.exists() or dataAbsentReason.exists())</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">exists(f:component) or exists(f:related) or exists(f:*[starts-with(local-name(.), 'value)]) or exists(f:dataAbsentReason)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
