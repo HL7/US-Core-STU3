@@ -12,7 +12,7 @@
   <name value="Vaccine Administered Value Set (CVX)"/>
   <status value="active"/>
   <experimental value="true"/>
-  <publisher value="HL7 FHIR"/>
+  <publisher value="Health Level Seven International (US Realm Steering Committee)"/>
   <contact>
     <telecom>
       <system value="other"/>

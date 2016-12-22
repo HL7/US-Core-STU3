@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <SearchParameter xmlns="http://hl7.org/fhir">
-  <id value="us-core-ethnicity"/>
-  <url value="http://hl7.org/fhir/us/core/SearchParameter/us-core-ethnicity"/>
-  <name value="ethnicity"/>
-  <status value="draft"/>
-  <experimental value="true"/>
-  <code value="ethnicity"/>
-  <base value="Patient"/>
-  <type value="token"/>
-  <description value="Returns patients with an ethnicity extension matching the specified code."/>
-  <xpath value="f:Patient/f:extension[@url=&#39;http://hl7.org/fhir/StructureDefinition/us-core-ethnicity&#39;] | f:Patient/f:extension[@url=&#39;http://hl7.org/fhir/StructureDefinition/us-core-ethnicity&#39;]"/>
-  <xpathUsage value="normal"/>
+	<id value="us-core-ethnicity"/>
+	<url value="http://hl7.org/fhir/us/core/SearchParameter/us-core-ethnicity"/>
+	<name value="USCoreEthnicity"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2016-12-22"/>
+	<publisher value="US Realm Steering Committee"/>
+	<contact>
+		<telecom>
+			<system value="other"/>
+			<value value="http://www.healthit.gov/"/>
+		</telecom>
+	</contact>
+	<code value="ethnicity"/>
+	<base value="Patient"/>
+	<type value="token"/>
+	<description value="Returns patients with an ethnicity extension matching the specified code."/>
+	<xpath value="f:Patient/f:extension[@url=&apos;http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity&apos;]/f:extension[@url=&apos;ombCategory&apos; or @url=&apos;detailed&apos;]"/>
+	<xpathUsage value="normal"/>
 </SearchParameter>

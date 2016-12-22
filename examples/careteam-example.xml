@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CareTeam xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://hl7.org/fhir">
+<CareTeam xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/medicationrequest.xsd">
 	<id value="example"/>
 	<meta>
 		<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam"/>
@@ -33,9 +33,9 @@
 		<role>
 			<coding>
 				<system value="http://nucc.org/provider-taxonomy"/>
-				<code value="103T00000X"/>
-				<display value="Behavioral Health &amp;amp; Social Service Providers:Psychologist"/>
+
 			</coding>
+			<text value="Good Guy"/>
 		</role>
 		<member>
 			<reference value="Practitioner/example2"/>

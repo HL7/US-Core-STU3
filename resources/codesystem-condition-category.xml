@@ -4,7 +4,7 @@
 	<url value="http://hl7.org/fhir/us/core/CodeSystem/condition-category"/>
 	<name value="US Core Condition Category Extension Codes"/>
 	<status value="draft"/>
-	<publisher value="HL7 (FHIR Project)"/>
+	<publisher value="Health Level Seven International (US Realm Steering Committee)"/>
 	<description value="Set of codes that are needed for implementation of the US-Core profiles. These codes are used as extensions to the FHIR and US Core value sets.&#xa;"/>
 	<caseSensitive value="true"/>
 		<valueSet value="http://hl7.org/fhir/us/core/ValueSet/condition-category"/>

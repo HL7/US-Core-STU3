@@ -47,4 +47,4 @@ In addition, based upon the 2015 Edition Certification Requirements, the followi
 
 
 [Patient]: http://hl7.org/fhir/2017Jan/patient.html
-[Must Support]: definitions#extensible-binding-for-codeableconcept-datatype
+[Must Support]: definitions.html#must-support

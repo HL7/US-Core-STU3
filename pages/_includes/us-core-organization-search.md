@@ -1,29 +1,9 @@
 
-
-
-
--------------------------
-
-**Clients**
-
--  A client has connected to a server and fetched an organization by identifier using `GET [base]/Organization?identifier=[system]|[code]`
-- A client has connected to a server and fetched an organization by name using`GET [base]/Organization?name=[string]`
-- A client has connected to a server and fetched an organization by address using `GET [base]/Organization?address=[string]`
-
-
-**Servers**
-
-- A server is capable of returning an organization by identifier using `GET [base]/Organization?identifier=[system]|[code]`
-- A server is capable of returning an organization by name using `GET [base]/Organization?name=[string]`
-- A server is capable of returning an organization by address using `GET [base]/Organization?address=[string]`
-
-
--   A server has ensured that every API request includes a valid Authorization token, supplied via:Authorization: Bearer {server-specific-token-here}
--   A server has rejected any unauthorized requests by returning an HTTP 401 Unauthorized response code.
-
------------
-
 **GET [base]/Organization?identifier=[system]|[code]**
+
+*Example:*
+
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Organization?name=Health](https://fhir-open-api-dstu2.smarthealthit.org/Organization?name=Health)
 
 *Support:* Mandatory
 
@@ -36,14 +16,13 @@
 -   (Status 401/4xx): unauthorized request
 -   (Status 403): insufficient scope
 
+-----------
+
+**GET [base]/Organization?name=[string]**
+
 *Example:*
 
 [GET https://fhir-open-api-dstu2.smarthealthit.org/Organization?name=Health](https://fhir-open-api-dstu2.smarthealthit.org/Organization?name=Health)
-
------------
-
-
-**GET [base]/Organization?name=[string]**
 
 *Support:* Mandatory
 
@@ -59,14 +38,14 @@
 -   (Status 401/4xx): unauthorized request
 -   (Status 403): insufficient scope
 
-*Example:*
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Organization?name=Health](https://fhir-open-api-dstu2.smarthealthit.org/Organization?name=Health)
-
 -----
 
-
 **GET [base]/Organization?address=[string]**
+*Example:*
+
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Organization?address=Arbor](https://fhir-open-api-dstu2.smarthealthit.org/Organization?address=Arbor)
+
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Organization?address-postalcode=48104](https://fhir-open-api-dstu2.smarthealthit.org/Organization?address-postalcode=48104)
 
 *Support:* Mandatory
 
@@ -79,11 +58,6 @@
 -   (Status 401/4xx): unauthorized request
 -   (Status 403): insufficient scope
 
-*Example:*
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Organization?address=Arbor](https://fhir-open-api-dstu2.smarthealthit.org/Organization?address=Arbor)
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Organization?address-postalcode=48104](https://fhir-open-api-dstu2.smarthealthit.org/Organization?address-postalcode=48104)
 
   [(how to search by reference)]: http://hl7.org/fhir/2017Jan/search.html#reference
   [(how to search by token)]: http://hl7.org/fhir/2017Jan/search.html#token

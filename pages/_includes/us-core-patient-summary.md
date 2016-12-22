@@ -32,7 +32,7 @@ Additionally your system must return:
     - Must include one code from [OMB Ethnicity Categories]
     - May include additional race codes from [CDC Ethnicity Codes]
 
-5.  One Birth Sex in `Patient.extension`= [US Core Patient Birth Sex] which has an [required](http://hl7.org/fhir/2017Jan/terminologies.html#required) binding to:
+5.  One Birth Sex in `Patient.extension`= [US Core Patient Birth Sex] which has a [required](http://hl7.org/fhir/2017Jan/terminologies.html#required) binding to:
     -   [US Core Birth Sex]
 
 

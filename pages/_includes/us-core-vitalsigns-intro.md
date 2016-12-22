@@ -131,18 +131,18 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 #### Examples
 
- - [observation-vitals-panel]Observation-vitals-panel.html)
- - [observation-weight]Observation-weight.html)
- - [observation-temperature]Observation-temperature.html)
- - [observation-heart-rate]Observation-heart-rate.html)
- - [observation-respiratory-rate]Observation-respiratory-rate.html)
- - [observation-oxygen-saturation]Observation-oxygen-saturation.html)
- - [observation-length]Observation-length.html)
- - [observation-height]Observation-height.html)
- - [observation-head-circumference]Observation-head-circumference.html)
- - [observation-bmi]Observation-bmi.html)
- - [observation-blood-pressure]Observation-blood-pressure.html)
- - [observation-bp-data-absent]Observation-bp-data-absent.html)
+ - [observation-vitals-panel](Observation-vitals-panel.html)
+ - [observation-weight](Observation-weight.html)
+ - [observation-temperature](Observation-temperature.html)
+ - [observation-heart-rate](Observation-heart-rate.html)
+ - [observation-respiratory-rate](Observation-respiratory-rate.html)
+ - [observation-oxygen-saturation](Observation-oxygen-saturation.html)
+ - [observation-length](Observation-length.html)
+ - [observation-height](Observation-height.html)
+ - [observation-head-circumference](Observation-head-circumference.html)
+ - [observation-bmi](Observation-bmi.html)
+ - [observation-blood-pressure](Observation-blood-pressure.html)
+ - [observation-bp-data-absent](Observation-bp-data-absent.html)
 
 
 [Observation]: http://hl7.org/fhir/2017Jan/observation.html

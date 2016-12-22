@@ -73,7 +73,7 @@
 			"reference": "Observation/urine-hemoglobin",
 			"display": "BLOOD=Trace "
 		}, {
-			"reference": "Observation/urine-leukocute-esterase",
+			"reference": "Observation/urine-leukocyte-esterase",
 			"display": "LEUK ESTERASE=2+ "
 		}, {
 			"reference": "Observation/urine-sediment",

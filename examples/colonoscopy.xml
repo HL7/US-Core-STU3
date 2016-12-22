@@ -34,7 +34,7 @@
 	<status value="active"/>
 	<category>
 		<coding>
-			<system value="http://argonaut.hl7.org"/>
+			<system value="http://hl7.org/fhir/us/core/CodeSystem/careplan-category"/>
 			<code value="assess-plan"/>
 		</coding>
 	</category>

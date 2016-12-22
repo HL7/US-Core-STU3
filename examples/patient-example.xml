@@ -125,7 +125,7 @@
 		<system value="email"/>
 		<value value="amy.shaw@example.com"/>
 	</telecom>
-	<gender/>
+	<gender value="female"/>
 	<birthDate value="2007-02-20"/>
 	<address>
 		<line value="49 Meadow St"/>

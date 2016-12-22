@@ -23,13 +23,13 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 **Profile specific implementation guidance:**
 
 
- - Based upon the 2015 Edition Certification Requirements, either SNOMED-CT or CPT-4/HCPC procedure codes are requied and  [ICD-10-PCS codes] MAY be supported as translations to them. If choosing to primarily to dental procedures, the [Code on Dental Procedures and Nomenclature (CDT Code)] may be used.
+ - Based upon the 2015 Edition Certification Requirements, either SNOMED-CT or CPT-4/HCPC procedure codes are required and [ICD-10-PCS codes] MAY be supported as translations to them. If choosing to primarily to dental procedures, the [Code on Dental Procedures and Nomenclature (CDT Code)] may be used.
 
  - This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server].
 
 #### Examples
 
-- [procedure-rehab](procedure-rehab.html)
+- [procedure-rehab](Procedure-rehab.html)
 
 
 

@@ -1,6 +1,7 @@
 
 
 
+
 This profile sets minimum expectations for the [Observation] resource to record, search and fetch smoking status data associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
 
 **Example Usage Scenarios:**
@@ -32,7 +33,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
  #### Examples
 
- - [observation-some-day-smoker]Observation-some-day-smoker.html)
+ - [observation-some-day-smoker](Observation-some-day-smoker.html)
 
 [Observation]: http://hl7.org/fhir/2017Jan/observation.html
 [Conformance requirements for the US-Core Server]: CapabilityStatement-server.html

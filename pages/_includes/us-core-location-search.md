@@ -1,28 +1,10 @@
 
-
-
-
--------------------------
-
-**Clients**
-
--  A client has connected to a server and fetched a location by name using `GET [base]/Location?name=[string]`
-- A client has connected to a server and fetched a location by address using `GET [base]/Location?address=[string]`
-
-
-
-**Servers**
-
-- A server is capable of returning a location by name using `GET [base]/Location?name=[string]`
-- A server is capable of returning a location by address using `GET [base]/Location?address=[string]`
-
-
--   A server has ensured that every API request includes a valid Authorization token, supplied via:Authorization: Bearer {server-specific-token-here}
--   A server has rejected any unauthorized requests by returning an HTTP 401 Unauthorized response code.
-
------------
-
 **GET [base]/Location?name=[string]**
+
+*Example:*
+
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Location?name=Health](https://fhir-open-api-dstu2.smarthealthit.org/Location?name=Health)
+
 
 *Support:* Mandatory
 
@@ -38,14 +20,17 @@
 -   (Status 401/4xx): unauthorized request
 -   (Status 403): insufficient scope
 
-*Example:*
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Location?name=Health](https://fhir-open-api-dstu2.smarthealthit.org/Location?name=Health)
 
 -----------
 
 
 **GET [base]/Location?address=[string]**
+
+*Example:*
+
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Location?address=Arbor](https://fhir-open-api-dstu2.smarthealthit.org/Location?address=Arbor)
+
+[GET https://fhir-open-api-dstu2.smarthealthit.org/Location?address-postalcode=48104](https://fhir-open-api-dstu2.smarthealthit.org/Location?address-postalcode=48104)
 
 *Support:* Mandatory
 
@@ -62,13 +47,6 @@ SHOULD support:
 -   (Status 400): invalid parameter
 -   (Status 401/4xx): unauthorized request
 -   (Status 403): insufficient scope
-
-*Example:*
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Location?address=Arbor](https://fhir-open-api-dstu2.smarthealthit.org/Location?address=Arbor)
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Location?address-postalcode=48104](https://fhir-open-api-dstu2.smarthealthit.org/Location?address-postalcode=48104)
-
 
   [(how to search by reference)]: http://hl7.org/fhir/2017Jan/search.html#reference
   [(how to search by token)]: http://hl7.org/fhir/2017Jan/search.html#token

@@ -7,7 +7,7 @@
 	<verificationStatus value="confirmed"/>
 		<category>
 		<coding>
-			<system value="http://argonaut.hl7.org"/>
+			<system value="http://hl7.org/fhir/us/core/ValueSet/condition-category"/>
 			<code value="additional-concern"/>
 			<display value="Health Concern"/>
 		</coding>

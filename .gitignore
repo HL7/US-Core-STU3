@@ -46,7 +46,8 @@ qa
 temp
 output
 archive
-
+sandbox
+capstmnt_markup
 # Altova files #
 ################
 *.spp

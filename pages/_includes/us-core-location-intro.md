@@ -22,6 +22,6 @@ When available the following must be sent:
 
 #### Examples
 
-- [location-hl7east](location-hl7east.html)
+- [Location-hl7east](Location-hl7east.html)
 
 [Location]:  http://hl7.org/fhir/2017Jan/location.html
