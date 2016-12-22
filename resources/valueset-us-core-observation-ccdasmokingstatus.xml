@@ -14,7 +14,7 @@
 	<name value="Smoking Status"/>
 	<status value="active"/>
 	<experimental value="true"/>
-	<publisher value="FHIR OO CDA Template team"/>
+	<publisher value="Health Level Seven International (US Realm Steering Committee)"/>
 	<contact>
 		<telecom>
 			<system value="other"/>

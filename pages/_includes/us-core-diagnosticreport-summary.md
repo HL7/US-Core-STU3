@@ -1,7 +1,7 @@
 #### Complete Summary of the Mandatory Requirements
 
 
-1.  One status in `DiagnosticReport.status` which has an [required](http://hl7.org/fhir/2017Jan/terminologies.html#required) binding to:
+1.  One status in `DiagnosticReport.status` which has a [required](http://hl7.org/fhir/2017Jan/terminologies.html#required) binding to:
     -   [DiagnosticReportStatus] value set.
 1.  One category in `DiagnosticReport.category` which must have:
     -   a fixed `DiagnosticReport.category.coding.system`= "http://hl7.org/fhir/DiagnosticReport-category”

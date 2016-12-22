@@ -4,7 +4,7 @@
 	<url value="http://hl7.org/fhir/us/core/ValueSet/us-core-careteam-status"/>
 	<name value="CareTeamStatus"/>
 	<status value="draft"/>
-	<publisher value="HL7 (FHIR Project)"/>
+	<publisher value="Health Level Seven International (US Realm Steering Committee)"/>
 	<description value="Indicates whether the team is current , represents future intentions or is now a historical record."/>
 	<compose>
 		<include>

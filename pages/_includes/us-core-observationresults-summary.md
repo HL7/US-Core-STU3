@@ -1,6 +1,6 @@
 #### Complete Summary of the Mandatory Requirements
 
-1.  One status in `Observation.status` which has an [required](http://hl7.org/fhir/2017Jan/terminologies.html#required) binding to [ObservationStatus]
+1.  One status in `Observation.status` which has a [required](http://hl7.org/fhir/2017Jan/terminologies.html#required) binding to [ObservationStatus]
 1.  One category in `Observation.category` which must have:
     -   a fixed `Observation.category.coding.system`=“<http://hl7.org/fhir/observation-category>”
     -   a fixed `Observation.category.coding.code`=“laboratory”
@@ -8,7 +8,7 @@
     -   Other additional codes are allowed - e.g. system specific codes. All codes SHALL have a code system value
 1.  One patient in `Observation.subject`
 1.  Either one `Observation.value[x]` or one code in `Observation.DataAbsentReason` (unless `Observation.component` or `Observation.related` is present)
-    -   Observation.valueQuantity has an [required](http://hl7.org/fhir/2017Jan/terminologies.html#required) binding to [UCUM units]
+    -   Observation.valueQuantity has a [required](http://hl7.org/fhir/2017Jan/terminologies.html#required) binding to [UCUM units]
     -   Observation.valueCodeableConcept has an [preferred](http://hl7.org/fhir/2017Jan/terminologies.html#preferred) binding to [Observation Value Codes (SNOMED-CT)]
     -   Observation.DataAbsentReason has an [extensible](http://hl7.org/fhir/2017Jan/terminologies.html#extensible) binding to [Observation Value Absent Reason]
 

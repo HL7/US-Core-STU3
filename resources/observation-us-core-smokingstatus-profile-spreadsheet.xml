@@ -10,21 +10,21 @@
   <LastAuthor>Eric Haas</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
   <LastSaved>2016-08-08T08:21:25Z</LastSaved>
-  <Version>16.00</Version>
+  <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
   <SupBook>
-   <Path>\Users\ehaas\Documents\FHIR\US-Core\resources\observation-spreadsheet.xml</Path>
+   <Path>\\ERICS-AIR-2\ehaas\Users\ehaas\Documents\FHIR\US-Core\resources\observation-spreadsheet.xml</Path>
    <SheetName>Invariants</SheetName>
   </SupBook>
   <WindowHeight>12360</WindowHeight>
   <WindowWidth>28800</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
-  <ActiveSheet>1</ActiveSheet>
+  <ActiveSheet>8</ActiveSheet>
   <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -905,7 +905,7 @@
  </Styles>
  <Names>
   <NamedRange ss:Name="Invariantids"
-   ss:RefersTo="='\Users\ehaas\Documents\FHIR\US-Core\resources\[observation-spreadsheet.xml]Invariants'!R2C1:R50C1"/>
+   ss:RefersTo="='\\ERICS-AIR-2\ehaas\Users\ehaas\Documents\FHIR\US-Core\resources\[observation-spreadsheet.xml]Invariants'!R2C1:R50C1"/>
  </Names>
  <Worksheet ss:Name="Instructions">
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="5" x:FullColumns="1"
@@ -1040,7 +1040,6 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
-   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -3587,7 +3586,7 @@
    <SplitHorizontal>1</SplitHorizontal>
    <TopRowBottomPane>1</TopRowBottomPane>
    <SplitVertical>4</SplitVertical>
-   <LeftColumnRightPane>10</LeftColumnRightPane>
+   <LeftColumnRightPane>8</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -3603,7 +3602,7 @@
     <Pane>
      <Number>0</Number>
      <ActiveRow>6</ActiveRow>
-     <ActiveCol>12</ActiveCol>
+     <ActiveCol>9</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -9022,7 +9021,7 @@
     <Cell ss:StyleID="Default"><Data ss:Type="String">C-CDASmokingStatusValue</Data></Cell>
     <Cell ss:StyleID="s95"><Data ss:Type="String">This value set indicates the current smoking status of a patient </Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">value set</Data></Cell>
-    <Cell ss:StyleID="s133"><Data ss:Type="String">required</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String">extensible</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/us-core-observation-ccdasmokingstatus</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">Smoking Status value set</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">2.16.840.1.113883.4.642.2.0</Data></Cell>
@@ -9452,6 +9451,7 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
+   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -9471,8 +9471,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>5</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

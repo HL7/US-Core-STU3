@@ -6,7 +6,7 @@
   <url value="http://hl7.org/fhir/us/core/ValueSet/us-core-narrative-status"/>
   <name value="Narrative Status"/>
   <status value="draft"/>
-  <publisher value="FHIR Project Team"/>
+  <publisher value="Health Level Seven International (US Realm Steering Committee)"/>
   <contact>
     <telecom>
       <system value="other"/>

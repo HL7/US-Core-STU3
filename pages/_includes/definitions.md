@@ -22,13 +22,29 @@ In the context of US-Core, Supported on any data element SHALL be interpreted as
 
 ### Extensible binding for CodeableConcept Datatype
 
-Extensible binding to a value set definition for this IG means that if the data type is CodeableConcept, then one of the coding values SHALL be from the specified value set if a code applies, but if no suitable code exists in the value set, alternate code(s) may be provided in its place. **If only text available, then just text may be used.**
+Extensible binding to a value set definition for this IG means that if the data type is CodeableConcept, then one of the coding values SHALL be from the specified value set if a code applies, but if no suitable code exists in the value set, alternate code(s) may be provided in its place. If only text available, then just text may be used.
 
-### Required binding for Code and CodeableConcept Datatype
+### Extensible + Max-ValueSet binding for CodeableConcept Datatype
 
-Required binding to a value set definition for this IG means that one of the codes from the specified value set SHALL be used. For CodeableConcept you may have additional codings elements as translations as is discussed below. If only text is available or the local (proprietary, system) cannot be mapped to one of the required codes the The [core specification] provides guidance which we have summarized:
+For this IG, we have defined the Extensible + Max-ValueSet binding to allow for either a code from the defined value set or text if the code is not available.  (for example, legacy data). This means,unlike a regular extensible binding, alternate code(s) are not permitted and a text value SHALL be supplied if the code is not available.  However, multiple codings (translations) are allowed as is discussed below.
 
-1.  Send the resource with coded element element empty
+Example: Immunization resource vaccineCode's CVX coding - the source only has the text "4-way Influenza" and no CVX code.
+
+    /{
+      "resourceType": "Immunization",
+      ...
+      "vaccineCode": {
+        "text":"4-way Influenza"
+      },
+      ...
+    }
+
+
+### Required binding for Code Datatype
+
+Required binding to a value set definition for this IG means that one of the codes from the specified value set SHALL be used. If only text is available or the local (proprietary, system) cannot be mapped to one of the required codes the The [core specification] provides guidance which we have summarized:
+
+1.  Send the resource with the code element empty
 2.  Use the [DataAbsentReason Extension] in the data type
 3.  Use the code ‘unsupported’ - The source system wasn't capable of supporting this element.
 
@@ -36,16 +52,19 @@ Note that is will still be ambiguous when using a status based queries
 
 Example: AllergyIntolerance resource with a status that is text only or cannot be mapped to the status value set.
 
-
-    \{
+    /{
        "resourceType”:“AllergyIntolerance”,
        ...
-       “status”:{
-        “url” : “[http://hl7.org/fhir/2017Jan/StructureDefinition/data-absent-reason]”,
+       “_status”:{
+        “url” : “http://hl7.org/fhir/2017Jan/StructureDefinition/data-absent-reason”,
        “valueCode” : “unsupported”
         ...
       },
      }
+
+### Required binding for CodeableConcept Datatype
+
+Required binding to a value set definition means that one of the codes from the specified value set SHALL be used and using only text is not valid. In this IG, we have defined the Extensible + Max-ValueSet binding to allow for either a code from the specified value set or text. Multiple codings (translations) are permitted as is discussed below.
 
 
 ### Using multiple codes with CodeableConcept Datatype

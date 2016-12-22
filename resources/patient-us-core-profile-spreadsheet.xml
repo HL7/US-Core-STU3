@@ -9,7 +9,7 @@
   <Author>Grahame</Author>
   <LastAuthor>Eric Haas</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
-  <LastSaved>2016-12-15T03:23:16Z</LastSaved>
+  <LastSaved>2016-12-22T07:35:04Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -7080,7 +7080,7 @@
     <Cell ss:StyleID="s107"><Data ss:Type="String">OMB Race Category</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">1..5</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">0..5</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Coding</Data><NamedCell
@@ -7210,7 +7210,7 @@
     <Cell ss:StyleID="s107"><Data ss:Type="String">OMB ethnicity Category</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">1..1</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">0..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Coding</Data><NamedCell
@@ -7306,7 +7306,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">CapabilityStatement.profile</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Associated Profile Extension</Data><NamedCell
+    <Cell ss:StyleID="s107"><Data ss:Type="String">Profile-Resource Assocation</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">0..*</Data><NamedCell
@@ -7322,7 +7322,7 @@
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Resource that this profile is based on</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s108"><Data ss:Type="String">This is a code that references a  resource listed in CapabilityStatement.rest.resource.  This is used to link the profile to the resources for the purpose of describing profile specific capababiltiss such as specific search criteria or operations which are supported on a profile by profile bases.</Data><NamedCell
+    <Cell ss:StyleID="s108"><Data ss:Type="String">This is a code that references a  resource listed in CapabilityStatement.rest.resource.  This is used to link the profile to the resources for the purpose of describing profile specific capababilties such as specific search criteria or operations which are supported on a profile by profile bases.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">To allow profiles to be associated with resources in CapabilityStatements</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8035,7 +8035,7 @@
    <SplitHorizontal>1</SplitHorizontal>
    <TopRowBottomPane>1</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>6</LeftColumnRightPane>
+   <LeftColumnRightPane>3</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -8050,8 +8050,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>11</ActiveRow>
-     <ActiveCol>14</ActiveCol>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>11</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -8073,7 +8073,7 @@
    <Column ss:StyleID="s135" ss:AutoFitWidth="0" ss:Width="116.25"/>
    <Column ss:StyleID="s135" ss:AutoFitWidth="0" ss:Width="57"/>
    <Column ss:StyleID="s135" ss:AutoFitWidth="0" ss:Width="105.75"/>
-   <Column ss:StyleID="s135" ss:AutoFitWidth="0" ss:Width="233.25"/>
+   <Column ss:StyleID="s135" ss:AutoFitWidth="0" ss:Width="374.25"/>
    <Column ss:StyleID="s135" ss:AutoFitWidth="0" ss:Width="383.25"/>
    <Row ss:AutoFitHeight="0" ss:StyleID="s136">
     <Cell ss:StyleID="s88"><Data ss:Type="String">Name</Data><Comment ss:Author=""><ss:Data
@@ -8098,15 +8098,15 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s137"><Data ss:Type="String">race</Data></Cell>
+    <Cell ss:StyleID="s137"><Data ss:Type="String">!race</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107" ss:HRef="http://hl7.org/fhir/StructureDefinition/us-core-race"><Data
-      ss:Type="String">Patient.extension{http://hl7.org/fhir/StructureDefinition/us-core-race}</Data></Cell>
+      ss:Type="String">Patient.extension{http://hl7.org/fhir/StructureDefinition/us-core-race}.extension{ombCategory}</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">Returns patients with a race extension matching the specified code.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s137"><Data ss:Type="String">ethnicity</Data></Cell>
+    <Cell ss:StyleID="s137"><Data ss:Type="String">!ethnicity</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"><Data ss:Type="String">Patient.extension{http://hl7.org/fhir/StructureDefinition/us-core-ethnicity}</Data></Cell>
@@ -8264,8 +8264,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveCol>0</ActiveCol>
-     <RangeSelection>R2:R3</RangeSelection>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -9033,7 +9033,7 @@
     <Cell ss:StyleID="s107"><Data ss:Type="String">OMBRace</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">The 5 race category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards).</Data></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">value set</Data></Cell>
-    <Cell ss:StyleID="s138"><Data ss:Type="String">required</Data></Cell>
+    <Cell ss:StyleID="s138"><Data ss:Type="String">extensible</Data></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/omb-race</Data></Cell>
     <Cell ss:StyleID="s138"/>
     <Cell ss:StyleID="s138"/>
@@ -9063,7 +9063,7 @@
     <Cell ss:StyleID="s107"><Data ss:Type="String">OMBEthnicity</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">The 2 ethnicity category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards).</Data></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">value set</Data></Cell>
-    <Cell ss:StyleID="s138"><Data ss:Type="String">required</Data></Cell>
+    <Cell ss:StyleID="s138"><Data ss:Type="String">extensible</Data></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity</Data></Cell>
     <Cell ss:StyleID="s138"/>
     <Cell ss:StyleID="s138"/>
@@ -9229,8 +9229,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>2</ActiveRow>
-     <ActiveCol>0</ActiveCol>
+     <ActiveRow>22</ActiveRow>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

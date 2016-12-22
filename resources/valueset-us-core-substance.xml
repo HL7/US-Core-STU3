@@ -14,7 +14,7 @@
 	<name value="US Core Substance-Reactant for Intolerance and Negation Codes"/>
 	<status value="draft"/>
 	<experimental value="true"/>
-	<publisher value="FHIR Project team"/>
+	<publisher value="Health Level Seven International (US Realm Steering Committee)"/>
 	<contact>
 		<telecom>
 			<system value="other"/>

@@ -9,7 +9,7 @@
   </identifier>
   <name value="US Core SNOMED CT Substances Other Than Clinical Drugs"/>
   <status value="draft"/>
-  <publisher value="FHIR Project team"/>
+  <publisher value="Health Level Seven International (US Realm Steering Committee)"/>
   <contact>
     <telecom>
       <system value="other"/>

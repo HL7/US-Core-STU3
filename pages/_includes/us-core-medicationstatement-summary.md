@@ -1,7 +1,7 @@
 #### Complete Summary of the Mandatory Requirements
 
 
-1.  One status in `MedicationStatement.status` which has an [required](http://hl7.org/fhir/2017Jan/terminologies.html#required) binding to:
+1.  One status in `MedicationStatement.status` which has a [required](http://hl7.org/fhir/2017Jan/terminologies.html#required) binding to:
 -   [MedicationStatementStatus] value set.
 1.  One medication via `MedicationStatement.medicationCodeableConcept` or `MedicationStatement.medicationReference`   
 -  `MedicationStatement.medicationCodeableConcept` has an [extensible](http://hl7.org/fhir/2017Jan/terminologies.html#extensible) binding to [Medication Clinical Drug (RxNorm)] value set.
