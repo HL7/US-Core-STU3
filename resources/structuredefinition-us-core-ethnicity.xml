@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/appointment.xsd">
-	<id value="us-core-race"/>
-	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"/>
-	<name value="US Core Race Extension"/>
-	<title value="US Core Race Extension"/>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="us-core-ethnicity"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"/>
+	<name value="US Core ethnicity Extension"/>
+	<title value="US Core ethnicity Extension"/>
 	<status value="draft"/>
 	<publisher value="Health Level Seven International (FHIR-Infrastructure)"/>
 	<contact>
@@ -13,12 +13,9 @@
 		</telecom>
 	</contact>
 	<date value="2016-08-01"/>
-	<description value="Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The race codes used to represent these concepts are based upon the [CDC Race and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 921 reference race.  The race concepts are grouped by and pre-mapped to the 5 OMB race categories:
-- American Indian or Alaska Native
-- Asian
-- Black or African American
-- Native Hawaiian or Other Pacific Islander
-- White."/>
+	<description value="Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories:
+- Hispanic or Latino
+- Not Hispanic or Latino."/>
 	<purpose value="Complies with 2015 Edition Common Clinical Data Set for patient race."/>
 	<fhirVersion value="1.8.0"/>
 	<mapping>
@@ -34,16 +31,13 @@
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
 	<derivation value="constraint"/>
 	<snapshot>
-		<element id="Extension:race">
+		<element id="Extension:ethnicity">
 			<path value="Extension"/>
-			<sliceName value="race"/>
-			<short value="US Core Race Extension"/>
-			<definition value="Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The race codes used to represent these concepts are based upon the [CDC Race and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 921 reference race.  The race concepts are grouped by and pre-mapped to the 5 OMB race categories:
-- American Indian or Alaska Native
-- Asian
-- Black or African American
-- Native Hawaiian or Other Pacific Islander
-- White."/>
+			<sliceName value="ethnicity"/>
+			<short value="US Core ethnicity Extension"/>
+			<definition value="Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories:
+- Hispanic or Latino
+- Not Hispanic or Latino."/>
 			<min value="0"/>
 			<max value="1"/>
 			<base>
@@ -70,7 +64,7 @@
 			</constraint>
 			<isModifier value="false"/>
 		</element>
-		<element id="Extension:race.id">
+		<element id="Extension:ethnicity.id">
 			<path value="Extension.id"/>
 			<representation value="xmlAttr"/>
 			<short value="xml:id (or equivalent in JSON)"/>
@@ -90,9 +84,9 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension">
+		<element id="Extension:ethnicity.extension">
 			<path value="Extension.extension"/>
-			<slicing id="1">
+			<slicing id="2">
 				<discriminator value="url"/>
 				<ordered value="false"/>
 				<rules value="open"/>
@@ -110,13 +104,13 @@
 				<code value="Extension"/>
 			</type>
 		</element>
-		<element id="Extension:race.extension:ombcategory">
+		<element id="Extension:ethnicity.extension:ombcategory">
 			<path value="Extension.extension"/>
 			<sliceName value="ombCategory"/>
-			<short value="American Indian or Alaska Native|Asian|Black or African American|Native Hawaiian or Other Pacific Islander|White"/>
-			<definition value="The 5 race category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
+			<short value="Hispanic or Latino|Not Hispanic or Latino"/>
+			<definition value="The 2 ethnicity category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
 			<min value="1"/>
-			<max value="5"/>
+			<max value="1"/>
 			<base>
 				<path value="Element.extension"/>
 				<min value="0"/>
@@ -128,10 +122,10 @@
 			<isModifier value="false"/>
 			<mapping>
 				<identity value="iso11179"/>
-				<map value="/ClinicalDocument/recordTarget/patientRole/patient/raceCode"/>
+				<map value="/ClinicalDocument/recordTarget/patientRole/patient/ethnicGroupCode"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:ombcategory.id">
+		<element id="Extension:ethnicity.extension:ombcategory.id">
 			<path value="Extension.extension.id"/>
 			<representation value="xmlAttr"/>
 			<short value="xml:id (or equivalent in JSON)"/>
@@ -151,7 +145,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:ombcategory.extension">
+		<element id="Extension:ethnicity.extension:ombcategory.extension">
 			<path value="Extension.extension.extension"/>
 			<short value="Additional Content defined by implementations"/>
 			<definition value="May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
@@ -173,7 +167,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:ombcategory.url">
+		<element id="Extension:ethnicity.extension:ombcategory.url">
 			<path value="Extension.extension.url"/>
 			<representation value="xmlAttr"/>
 			<short value="identifies the meaning of the extension"/>
@@ -194,7 +188,7 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:ombcategory.valueCoding">
+		<element id="Extension:ethnicity.extension:ombcategory.valueCoding">
 			<path value="Extension.extension.valueCoding"/>
 			<short value="Value of extension"/>
 			<definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)."/>
@@ -210,9 +204,9 @@
 			</type>
 			<binding>
 				<strength value="required"/>
-				<description value="The 5 race category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
+				<description value="The 2 ethnicity category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
 				<valueSetReference>
-					<reference value="http://hl7.org/fhir/us/core/ValueSet/omb-race"/>
+					<reference value="http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity"/>
 				</valueSetReference>
 			</binding>
 			<mapping>
@@ -220,11 +214,11 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:detailed">
+		<element id="Extension:ethnicity.extension:detailed">
 			<path value="Extension.extension"/>
 			<sliceName value="detailed"/>
-			<short value="Extended race codes"/>
-			<definition value="The 900+ CDC race codes that are grouped under one of the 5 OMB race category codes:."/>
+			<short value="Extended ethnicity codes"/>
+			<definition value="The 41 CDC ethnicity codes that are grouped under one of the 2 OMB ethnicity category codes."/>
 			<min value="0"/>
 			<max value="*"/>
 			<base>
@@ -238,10 +232,10 @@
 			<isModifier value="false"/>
 			<mapping>
 				<identity value="iso11179"/>
-				<map value="/ClinicalDocument/recordTarget/patientRole/patient/sdtc:raceCode"/>
+				<map value="/ClinicalDocument/recordTarget/patientRole/patient/sdtc:ethnicGroupCode"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:detailed.id">
+		<element id="Extension:ethnicity.extension:detailed.id">
 			<path value="Extension.extension.id"/>
 			<representation value="xmlAttr"/>
 			<short value="xml:id (or equivalent in JSON)"/>
@@ -261,7 +255,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:detailed.extension">
+		<element id="Extension:ethnicity.extension:detailed.extension">
 			<path value="Extension.extension.extension"/>
 			<short value="Additional Content defined by implementations"/>
 			<definition value="May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
@@ -283,7 +277,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:detailed.url">
+		<element id="Extension:ethnicity.extension:detailed.url">
 			<path value="Extension.extension.url"/>
 			<representation value="xmlAttr"/>
 			<short value="identifies the meaning of the extension"/>
@@ -304,7 +298,7 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:detailed.valueCoding">
+		<element id="Extension:ethnicity.extension:detailed.valueCoding">
 			<path value="Extension.extension.valueCoding"/>
 			<short value="Value of extension"/>
 			<definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)."/>
@@ -320,9 +314,9 @@
 			</type>
 			<binding>
 				<strength value="required"/>
-				<description value="The [900+ CDC Race codes](http://www.cdc.gov/phin/resources/vocabulary/index.html) that are grouped under one of the 5 OMB race category codes."/>
+				<description value="The 41 [CDC ethnicity codes](http://www.cdc.gov/phin/resources/vocabulary/index.html) that are grouped under one of the 2 OMB ethnicity category codes."/>
 				<valueSetReference>
-					<reference value="http://hl7.org/fhir/us/core/ValueSet/detailed-race"/>
+					<reference value="http://hl7.org/fhir/us/core/ValueSet/detailed-ethnicity"/>
 				</valueSetReference>
 			</binding>
 			<mapping>
@@ -330,11 +324,11 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:text">
+		<element id="Extension:ethnicity.extension:text">
 			<path value="Extension.extension"/>
 			<sliceName value="text"/>
-			<short value="Race Text"/>
-			<definition value="Plain text representation of the race concept(s)."/>
+			<short value="ethnicity Text"/>
+			<definition value="Plain text representation of the ethnicity concept(s)."/>
 			<min value="0"/>
 			<max value="1"/>
 			<base>
@@ -347,7 +341,7 @@
 			</type>
 			<isModifier value="false"/>
 		</element>
-		<element id="Extension:race.extension:text.id">
+		<element id="Extension:ethnicity.extension:text.id">
 			<path value="Extension.extension.id"/>
 			<representation value="xmlAttr"/>
 			<short value="xml:id (or equivalent in JSON)"/>
@@ -367,7 +361,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:text.extension">
+		<element id="Extension:ethnicity.extension:text.extension">
 			<path value="Extension.extension.extension"/>
 			<short value="Additional Content defined by implementations"/>
 			<definition value="May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
@@ -389,7 +383,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:text.url">
+		<element id="Extension:ethnicity.extension:text.url">
 			<path value="Extension.extension.url"/>
 			<representation value="xmlAttr"/>
 			<short value="identifies the meaning of the extension"/>
@@ -410,7 +404,7 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:text.valueString">
+		<element id="Extension:ethnicity.extension:text.valueString">
 			<path value="Extension.extension.valueString"/>
 			<short value="Value of extension"/>
 			<definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)."/>
@@ -429,7 +423,7 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.url">
+		<element id="Extension:ethnicity.url">
 			<path value="Extension.url"/>
 			<representation value="xmlAttr"/>
 			<short value="identifies the meaning of the extension"/>
@@ -445,13 +439,13 @@
 			<type>
 				<code value="uri"/>
 			</type>
-			<fixedUri value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"/>
+			<fixedUri value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"/>
 			<mapping>
 				<identity value="rim"/>
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.value[x]">
+		<element id="Extension:ethnicity.value[x]">
 			<path value="Extension.value[x]"/>
 			<short value="Value of extension"/>
 			<definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)."/>
@@ -583,27 +577,24 @@
 		</element>
 	</snapshot>
 	<differential>
-		<element id="Extension:race">
+		<element id="Extension:ethnicity">
 			<path value="Extension"/>
-			<sliceName value="race"/>
-			<short value="US Core Race Extension"/>
-			<definition value="Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The race codes used to represent these concepts are based upon the [CDC Race and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 921 reference race.  The race concepts are grouped by and pre-mapped to the 5 OMB race categories:
-- American Indian or Alaska Native
-- Asian
-- Black or African American
-- Native Hawaiian or Other Pacific Islander
-- White."/>
+			<sliceName value="ethnicity"/>
+			<short value="US Core ethnicity Extension"/>
+			<definition value="Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories:
+- Hispanic or Latino
+- Not Hispanic or Latino."/>
 			<min value="0"/>
 			<max value="1"/>
 			<isModifier value="false"/>
 		</element>
-		<element id="Extension:race.extension:ombcategory">
+		<element id="Extension:ethnicity.extension:ombcategory">
 			<path value="Extension.extension"/>
 			<sliceName value="ombCategory"/>
-			<short value="American Indian or Alaska Native|Asian|Black or African American|Native Hawaiian or Other Pacific Islander|White"/>
-			<definition value="The 5 race category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
+			<short value="Hispanic or Latino|Not Hispanic or Latino"/>
+			<definition value="The 2 ethnicity category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
 			<min value="0"/>
-			<max value="5"/>
+			<max value="1"/>
 			<type>
 				<code value="Extension"/>
 			</type>
@@ -611,14 +602,14 @@
 			<isModifier value="false"/>
 			<mapping>
 				<identity value="iso11179"/>
-				<map value="/ClinicalDocument/recordTarget/patientRole/patient/raceCode"/>
+				<map value="/ClinicalDocument/recordTarget/patientRole/patient/ethnicGroupCode"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:ombcategory.extension">
+		<element id="Extension:ethnicity.extension:ombcategory.extension">
 			<path value="Extension.extension.extension"/>
 			<max value="0"/>
 		</element>
-		<element id="Extension:race.extension:ombcategory.url">
+		<element id="Extension:ethnicity.extension:ombcategory.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -627,7 +618,7 @@
 			</type>
 			<fixedUri value="ombCategory"/>
 		</element>
-		<element id="Extension:race.extension:ombcategory.valueCoding">
+		<element id="Extension:ethnicity.extension:ombcategory.valueCoding">
 			<path value="Extension.extension.valueCoding"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -636,17 +627,17 @@
 			</type>
 			<binding>
 				<strength value="required"/>
-				<description value="The 5 race category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
+				<description value="The 2 ethnicity category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
 				<valueSetReference>
-					<reference value="http://hl7.org/fhir/us/core/ValueSet/omb-race"/>
+					<reference value="http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity"/>
 				</valueSetReference>
 			</binding>
 		</element>
-		<element id="Extension:race.extension:detailed">
+		<element id="Extension:ethnicity.extension:detailed">
 			<path value="Extension.extension"/>
 			<sliceName value="detailed"/>
-			<short value="Extended race codes"/>
-			<definition value="The 900+ CDC race codes that are grouped under one of the 5 OMB race category codes:."/>
+			<short value="Extended ethnicity codes"/>
+			<definition value="The 41 CDC ethnicity codes that are grouped under one of the 2 OMB ethnicity category codes."/>
 			<min value="0"/>
 			<max value="*"/>
 			<type>
@@ -655,14 +646,14 @@
 			<isModifier value="false"/>
 			<mapping>
 				<identity value="iso11179"/>
-				<map value="/ClinicalDocument/recordTarget/patientRole/patient/sdtc:raceCode"/>
+				<map value="/ClinicalDocument/recordTarget/patientRole/patient/sdtc:ethnicGroupCode"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:detailed.extension">
+		<element id="Extension:ethnicity.extension:detailed.extension">
 			<path value="Extension.extension.extension"/>
 			<max value="0"/>
 		</element>
-		<element id="Extension:race.extension:detailed.url">
+		<element id="Extension:ethnicity.extension:detailed.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -671,7 +662,7 @@
 			</type>
 			<fixedUri value="detailed"/>
 		</element>
-		<element id="Extension:race.extension:detailed.valueCoding">
+		<element id="Extension:ethnicity.extension:detailed.valueCoding">
 			<path value="Extension.extension.valueCoding"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -680,17 +671,17 @@
 			</type>
 			<binding>
 				<strength value="required"/>
-				<description value="The [900+ CDC Race codes](http://www.cdc.gov/phin/resources/vocabulary/index.html) that are grouped under one of the 5 OMB race category codes."/>
+				<description value="The 41 [CDC ethnicity codes](http://www.cdc.gov/phin/resources/vocabulary/index.html) that are grouped under one of the 2 OMB ethnicity category codes."/>
 				<valueSetReference>
-					<reference value="http://hl7.org/fhir/us/core/ValueSet/detailed-race"/>
+					<reference value="http://hl7.org/fhir/us/core/ValueSet/detailed-ethnicity"/>
 				</valueSetReference>
 			</binding>
 		</element>
-		<element id="Extension:race.extension:text">
+		<element id="Extension:ethnicity.extension:text">
 			<path value="Extension.extension"/>
 			<sliceName value="text"/>
-			<short value="Race Text"/>
-			<definition value="Plain text representation of the race concept(s)."/>
+			<short value="ethnicity Text"/>
+			<definition value="Plain text representation of the ethnicity concept(s)."/>
 			<min value="1"/>
 			<max value="1"/>
 			<type>
@@ -699,11 +690,11 @@
 			<mustSupport value="true"/>
 			<isModifier value="false"/>
 		</element>
-		<element id="Extension:race.extension:text.extension">
+		<element id="Extension:ethnicity.extension:text.extension">
 			<path value="Extension.extension.extension"/>
 			<max value="0"/>
 		</element>
-		<element id="Extension:race.extension:text.url">
+		<element id="Extension:ethnicity.extension:text.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -712,7 +703,7 @@
 			</type>
 			<fixedUri value="text"/>
 		</element>
-		<element id="Extension:race.extension:text.valueString">
+		<element id="Extension:ethnicity.extension:text.valueString">
 			<path value="Extension.extension.valueString"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -720,13 +711,13 @@
 				<code value="string"/>
 			</type>
 		</element>
-		<element id="Extension:race.url">
+		<element id="Extension:ethnicity.url">
 			<path value="Extension.url"/>
 			<min value="1"/>
 			<max value="1"/>
-			<fixedUri value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"/>
+			<fixedUri value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"/>
 		</element>
-		<element id="Extension:race.value[x]">
+		<element id="Extension:ethnicity.value[x]">
 			<path value="Extension.value[x]"/>
 			<max value="0"/>
 		</element>
