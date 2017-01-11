@@ -33,11 +33,13 @@
 	"effectiveDateTime": "2005-07-05",
 	"issued": "2005-07-06T11:45:33+11:00",
 	"performer": [
-		{
-			"reference": "Organization/acme-lab",
-			"display": "Acme Laboratory, Inc"
-		}
-	],
+    {
+      "actor": {
+        "reference": "Organization/acme-lab",
+        "display": "Acme Laboratory, Inc"
+      }
+    }
+  ],
 	"result": [
 		{
 			"reference": "Observation/urine-color",

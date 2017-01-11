@@ -31,12 +31,14 @@
 
 	"effectiveDateTime": "2005-07-04",
 	"issued": "2005-07-06T11:45:33+11:00",
-		"performer": [
-		{
-			"reference": "Organization/acme-lab",
-			"display": "Acme Laboratory, Inc"
-		}
-	],
+	"performer": [
+    {
+      "actor": {
+        "reference": "Organization/acme-lab",
+        "display": "Acme Laboratory, Inc"
+      }
+    }
+  ],
 	"result": [
 		{
 			"reference": "Observation/serum-total-bilirubin",

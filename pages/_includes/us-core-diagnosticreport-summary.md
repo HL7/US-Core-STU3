@@ -16,7 +16,7 @@
 
 Each DiagnosticReport *SHOULD* have:
 
-1.  A practitioner or organization in `DiagnosticReport.performer`
+1.  A practitioner or organization in `DiagnosticReport.performer.actor`
 
 [DiagnosticReportStatus]: http://hl7.org/fhir/2017Jan/valueset-diagnostic-report-status.html
 [Observation]: http://hl7.org/fhir/2017Jan/observation.html
