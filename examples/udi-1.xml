@@ -22,8 +22,7 @@
 		</coding>
 	</type>
 	<patient>
-		<reference value="Patient-example.html"/>
-		<display value="Amy Shaw
-"/>
+		<reference value="Patient/example"/>
+		<display value="Amy Shaw"/>
 	</patient>
 </Device>

@@ -115,7 +115,7 @@
 			<sliceName value="ombCategory"/>
 			<short value="American Indian or Alaska Native|Asian|Black or African American|Native Hawaiian or Other Pacific Islander|White"/>
 			<definition value="The 5 race category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
-			<min value="1"/>
+			<min value="0"/>
 			<max value="5"/>
 			<base>
 				<path value="Element.extension"/>
@@ -125,7 +125,7 @@
 			<type>
 				<code value="Extension"/>
 			</type>
-			<isModifier value="false"/>
+			<mustSupport value="true"/><isModifier value="false"/>
 			<mapping>
 				<identity value="iso11179"/>
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/raceCode"/>
@@ -159,7 +159,7 @@
 			<alias value="extensions"/>
 			<alias value="user content"/>
 			<min value="0"/>
-			<max value="*"/>
+			<max value="0"/>
 			<base>
 				<path value="Element.extension"/>
 				<min value="0"/>
@@ -188,7 +188,7 @@
 			</base>
 			<type>
 				<code value="uri"/>
-			</type>
+			</type>		<fixedUri value="ombCategory"/>
 			<mapping>
 				<identity value="rim"/>
 				<map value="N/A"/>
@@ -198,7 +198,7 @@
 			<path value="Extension.extension.valueCoding"/>
 			<short value="Value of extension"/>
 			<definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="1"/>
 			<base>
 				<path value="Extension.value[x]"/>
@@ -269,7 +269,7 @@
 			<alias value="extensions"/>
 			<alias value="user content"/>
 			<min value="0"/>
-			<max value="*"/>
+			<max value="0"/>
 			<base>
 				<path value="Element.extension"/>
 				<min value="0"/>
@@ -298,7 +298,7 @@
 			</base>
 			<type>
 				<code value="uri"/>
-			</type>
+			</type>	<fixedUri value="detailed"/>
 			<mapping>
 				<identity value="rim"/>
 				<map value="N/A"/>
@@ -308,7 +308,7 @@
 			<path value="Extension.extension.valueCoding"/>
 			<short value="Value of extension"/>
 			<definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="1"/>
 			<base>
 				<path value="Extension.value[x]"/>
@@ -335,7 +335,7 @@
 			<sliceName value="text"/>
 			<short value="Race Text"/>
 			<definition value="Plain text representation of the race concept(s)."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="1"/>
 			<base>
 				<path value="Element.extension"/>
@@ -345,7 +345,7 @@
 			<type>
 				<code value="Extension"/>
 			</type>
-			<isModifier value="false"/>
+				<mustSupport value="true"/><isModifier value="false"/>
 		</element>
 		<element id="Extension:race.extension:text.id">
 			<path value="Extension.extension.id"/>
@@ -375,7 +375,7 @@
 			<alias value="extensions"/>
 			<alias value="user content"/>
 			<min value="0"/>
-			<max value="*"/>
+			<max value="0"/>
 			<base>
 				<path value="Element.extension"/>
 				<min value="0"/>
@@ -404,7 +404,7 @@
 			</base>
 			<type>
 				<code value="uri"/>
-			</type>
+			</type>	<fixedUri value="text"/>
 			<mapping>
 				<identity value="rim"/>
 				<map value="N/A"/>
@@ -414,7 +414,7 @@
 			<path value="Extension.extension.valueString"/>
 			<short value="Value of extension"/>
 			<definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)."/>
-			<min value="0"/>
+			<min value="1"/>
 			<max value="1"/>
 			<base>
 				<path value="Extension.value[x]"/>
@@ -614,10 +614,7 @@
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/raceCode"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:ombcategory.extension">
-			<path value="Extension.extension.extension"/>
-			<max value="0"/>
-		</element>
+
 		<element id="Extension:race.extension:ombcategory.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
@@ -658,10 +655,7 @@
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/sdtc:raceCode"/>
 			</mapping>
 		</element>
-		<element id="Extension:race.extension:detailed.extension">
-			<path value="Extension.extension.extension"/>
-			<max value="0"/>
-		</element>
+
 		<element id="Extension:race.extension:detailed.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
@@ -699,10 +693,7 @@
 			<mustSupport value="true"/>
 			<isModifier value="false"/>
 		</element>
-		<element id="Extension:race.extension:text.extension">
-			<path value="Extension.extension.extension"/>
-			<max value="0"/>
-		</element>
+
 		<element id="Extension:race.extension:text.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
@@ -726,9 +717,6 @@
 			<max value="1"/>
 			<fixedUri value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"/>
 		</element>
-		<element id="Extension:race.value[x]">
-			<path value="Extension.value[x]"/>
-			<max value="0"/>
-		</element>
+
 	</differential>
 </StructureDefinition>
