@@ -15,6 +15,7 @@
 1.  One date or period in `MedicationStatement.effectiveDateTime` or `MedicationStatment.effectivePeriod`
 
 
+
   [Medication Clinical Drug (RxNorm)]: ValueSet-us-core-medication-codes.html
   [MedicationStatusStatus]: http://hl7.org/fhir/2017Jan/valueset-medication-request-status.html
 
