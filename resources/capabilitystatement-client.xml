@@ -313,7 +313,7 @@
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
-						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-pract.html">
+						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-practitioner.html">
 							<span>US Core Practitioner Profile</span>
 							<br/>
 						</a>
@@ -375,126 +375,126 @@
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="CarePlan"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-careplan.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"/>
 		<display value="US Core CarePlan Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="CareTeam"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-careteam.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam"/>
 		<display value="US Core CareTeam Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Condition"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-condition.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
 		<display value="US Core Condition Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Device"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-device.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-device"/>
 		<display value="US Core Device Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Goal"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-goal.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal"/>
 		<display value="US Core Goal Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Immunization"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-immunization.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization"/>
 		<display value="US Core Immunization Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="DiagnosticReport"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-diagnosticreport.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport"/>
 		<display value="US Core DiagnosticReport Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Observation"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"/>
 		<display value="US Core Result Observation Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Location"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-location.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"/>
 		<display value="US Core Location Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Medication"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medication.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
 		<display value="US Core Medication Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="MedicationRequest"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
 		<display value="US Core MedicationRequest Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="MedicationStatement"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationstatement.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
 		<display value="US Core MedicationStatement Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Observation"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-vitalsigns.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-vitalsigns"/>
 		<display value="US Core Vital Signs Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Observation"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-smokingstatus.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"/>
 		<display value="US Core Smoking Status Observation Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Organization"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-organization.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
 		<display value="US Core Organization Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Patient"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-patient.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
 		<display value="US Core Patient Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Practitioner"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-pract.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
 		<display value="US Core Practitioner Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-fromResource">
 			<valueCode value="Procedure"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-procedure.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
 		<display value="US Core Procedure Profile"/>
 	</profile>
 	<rest>

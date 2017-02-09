@@ -30,7 +30,7 @@ Based upon the 2015 Edition Certification Requirements, [CVX vaccine codes] are 
 
 #### Examples
 
-- [Immunization-imm-1]Immunization-imm-1.html)
+- [Immunization-imm-1](Immunization-imm-1.html)
 
   [CVX vaccine codes]: http://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx
   [NDC vaccine codes]: http://www2a.cdc.gov/vaccines/iis/iisstandards/ndc_crosswalk.asp

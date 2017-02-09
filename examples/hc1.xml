@@ -7,8 +7,8 @@
 	<verificationStatus value="confirmed"/>
 		<category>
 		<coding>
-			<system value="http://hl7.org/fhir/us/core/ValueSet/condition-category"/>
-			<code value="additional-concern"/>
+			<system value="http://hl7.org/fhir/us/core/CodeSystem/condition-category"/>
+			<code value="health-concern"/>
 			<display value="Health Concern"/>
 		</coding>
 		<text value="Health Concern"/>
@@ -19,9 +19,8 @@
 	</code>
 
 		<subject>
-		<reference value="Patient-example.html"/>
-		<display value="Amy Shaw
-"/>
+		<reference value="Patient/example"/>
+		<display value="Amy Shaw"/>
 	</subject>
 	<onsetDateTime value="2007-12-14"/>
 </Condition>

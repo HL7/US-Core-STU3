@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AllergyIntolerance xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/allergyintolerance.xsd">
+<AllergyIntolerance xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://build.fhir.org/device.xsd">
 	<id value="example"/>
 	<meta>
-		<profile value="http://hl7.org/fhir/us/core/structureDefinition/daf-core-allergyintolerance">
+		<profile value="http://hl7.org/fhir/us/core/structureDefinition/us-core-allergyintolerance">
 		</profile>
 	</meta>
 	<!--
@@ -12,8 +12,15 @@
 	</text>
 -->
 	<clinicalStatus value="active"/>
-	<verificationStatus value="confirmed"></verificationStatus>
-	<category value="medication"/>
+	<verificationStatus value="confirmed"/>
+	<category>
+		<coding>
+			<system value="http://hl7.org/fhir/allergy-intolerance-category"/>
+			<code value="medication"/>
+			<display value="Medication"/>
+		</coding>
+		<text value="Medication"/>
+	</category>
 	<criticality value="high"/>
 	<code>
 		<coding>
@@ -24,7 +31,8 @@
 		<text value="sulfonamide antibacterial"/>
 	</code>
 	<patient>
-		<reference value="Patient-example.html"/><display value="Amy V. Shaw"/>
+		<reference value="Patient/example"/>
+		<display value="Amy V. Shaw"/>
 	</patient>
 	<assertedDate value="2000"/>
 	<reaction>

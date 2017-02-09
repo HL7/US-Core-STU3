@@ -26,12 +26,12 @@
 		<display value="Nizatidine 15 MG/ML Oral Solution [Axid]"/>
 	</medicationReference>
 	<subject>
-		<reference value="Patient-example.html"/>
+		<reference value="Patient/example"/>
 		<display value="Amy Shaw"/>
 	</subject>
 	<authoredOn value="2008-04-05"/>
 	<requester><agent>
-		<reference value="Practitioner-practitioner-1.html"
+		<reference value="Practitioner/practitioner-1"
 
 />
 		<display value="Ronald Bone, MD"

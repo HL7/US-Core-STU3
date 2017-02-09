@@ -33,7 +33,7 @@
    "subject":{
       "reference":"Patient/example","display": "Amy Shaw"
    },
-   "encounter":{
+   "context":{
       "reference":"Encounter/691"
    },
    "effectiveDateTime":"1999-07-02",

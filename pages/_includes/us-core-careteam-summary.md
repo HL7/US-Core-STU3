@@ -9,5 +9,5 @@
 Value Set] value set.
 1.  Careteam members in `CareTeam.participant.member`
 
- [CareTeamStatus]: ValueSet-us-core-careteam-status.html
+ [CareTeamStatus]: http://build.fhir.org/valueset-care-team-status.html
  [CareTeam Provider Role Value Set]: ValueSet-us-core-careteam-provider-roles.html

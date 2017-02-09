@@ -31,7 +31,7 @@
 		"reference": "Patient/example",
 		"display": "Amy Shaw"
 	},
-	"encounter": {
+	"context": {
 		
 		"display": "GP Visit"
 	},

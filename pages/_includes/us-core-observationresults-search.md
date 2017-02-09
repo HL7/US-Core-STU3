@@ -24,12 +24,12 @@
 
 
 **Example:**
-Search for all blood glucose lab results for a patient:
+Search for all blood glucose lab results (LOINC = 2339-0 *Glucose [Mass/volume] in Blood*) for a patient:
 
 [GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0)
 
 **Example:**
-Search for all blood glucose, urine glucose and urine ketones for a patient
+Search for all blood glucose, urine glucose (LOINC = 25428-4 *Glucose [Presence] in Urine by Test strip*) and urine ketones (LOINC = 2339-0 *Ketones [Presence] in Urine by Test strip*) for a patient
 
 [GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0,25428-4,2514-8](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0,25428-4,2514-8)
 

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Bundle xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/fhir-all.xsd">
+<Bundle xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://build.fhir.org/device.xsd">
 	<id value="uscore-ms3"/>
-	<meta>
-		<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
-	</meta>
 	<type value="searchset"/>
 	<total value="1"/>
 	<link>
@@ -11,12 +8,12 @@
 		<url value="http://fhir3.healthintersections.com.au/open/MedicationStatement?search-id=8b934668-fc67-4f1a-b991-0dfd10d178&amp;&amp;_id=ms3&amp;_include=MedicationStatement%3Amedication&amp;_sort=_id"/>
 	</link>
 	<entry>
-		<fullUrl value="http://fhir3.healthintersections.com.au/open/MedicationStatement/ms3"/>
+		<fullUrl value="http://fhir3.healthintersections.com.au/open/MedicationStatement/uscore-ms3"/>
 		<resource>
 			<MedicationStatement xmlns="http://hl7.org/fhir">
 				<!-- this is an example using an external reference to a medication
  -->
-				<id value="ms3"/>
+				<id value="uscore-ms3"/>
 				<meta>
 					<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
 				</meta>
@@ -27,21 +24,22 @@
 					<reference value="Medication/uscore-med1"/>
 					<display value="lisinopril oral 10 mg"/>
 				</medicationReference>
-				<subject>
-					<reference value="Patient-example.html"/>
-					<display value="Amy Shaw"/>
-				</subject>
 				<effectivePeriod>
 					<start value="2010-05-01"/>
 				</effectivePeriod>
 				<dateAsserted value="2016-05-01T16:13:03Z"/>
+				<subject>
+					<reference value="Patient/example"/>
+					<display value="Amy Shaw"/>
+				</subject>
+				<taken value="y"/>
 			</MedicationStatement>
 		</resource>
 		<search>
 			<mode value="match"/>
 		</search>
 	</entry>
-		<entry>
+	<entry>
 		<fullUrl value="/Medication/uscore-med2"/>
 		<resource>
 			<Medication xmlns="http://hl7.org/fhir">

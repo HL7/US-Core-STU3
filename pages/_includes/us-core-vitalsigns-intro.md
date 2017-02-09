@@ -1,4 +1,4 @@
-﻿This profile sets minimum expectations for the [Observation] resource to record, search and fetch vital signs associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
+This profile sets minimum expectations for the [Observation] resource to record, search and fetch vital signs associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
 
 **Example Usage Scenarios:**
 
@@ -21,7 +21,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
     -   note: If a more specific code is recorded, the generic code and the translated coded must be sent - e.g. method specific LOINC Codes, SNOMED CT concepts, system specific codes
 1.  a patient
 1.  a time indicating when the measurement was taken
-1.  a numeric result value and standard UCUM unit which is taken from the “LOINC Code” column in the table below.
+1.  a numeric result value and standard UCUM unit which is taken from the “UCUM Unit Code” column in the table below.
     -   note: if there is no numeric result then you have to supply a reason
 
 **Profile specific implementation guidance:**
@@ -37,96 +37,113 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 ---
 
 <table class="grid">
-<thead>
-<tr>
-<th style="text-align:left">Vital Sign Name</th>
-<th style="text-align:center">LOINC Code</th>
-<th style="text-align:center">UCUM Unit Code</th>
-<th style="text-align:left">Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Vital Signs Panel</td>
-<td style="text-align:center">8716-3</td>
-<td style="text-align:center">-</td>
-<td style="text-align:left">This is the top-level grouping structure for a set of vital signs.  It has no value in Observation.valueQuantity ; instead, it just includes related links (with type=has-member) to the Observations in this set (e.g. respiratory rate, heart rate, BP).  Note that querying for the panel may miss individual results that are not part of an actual panel.</td>
-</tr>
-<tr>
-<td style="text-align:left">Respiratory Rate</td>
-<td style="text-align:center">9279-1</td>
-<td style="text-align:center">/min</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">Heart rate</td>
-<td style="text-align:center">8867-4</td>
-<td style="text-align:center">/min</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">Oxygen saturation</td>
-<td style="text-align:center">59408-5</td>
-<td style="text-align:center">%</td>
-<td style="text-align:left">59408-5 (Oxygen saturation in Arterial blood by Pulse oximetry) replaces the deprecated code 2710-2 which had been listed in C-CDA.</td>
-</tr>
-<tr>
-<td style="text-align:left">Body temperature</td>
-<td style="text-align:center">8310-5</td>
-<td style="text-align:center">Cel, [degF]</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">Body height</td>
-<td style="text-align:center">8302-2</td>
-<td style="text-align:center">cm, [in_i]</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">Body length</td>
-<td style="text-align:center">8306-3</td>
-<td style="text-align:center">cm, [in_i]</td>
-<td style="text-align:left">Like height, but lying down, typically this is used for infants</td>
-</tr>
-<tr>
-<td style="text-align:left">Head circumference</td>
-<td style="text-align:center">8287-5</td>
-<td style="text-align:center">cm, [in_i]</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">Body weight</td>
-<td style="text-align:center">29463-7</td>
-<td style="text-align:center">g, kg,[lb_av]</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">Body mass index</td>
-<td style="text-align:center">39156-5</td>
-<td style="text-align:center">kg/m2</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">Blood pressure systolic and diastolic</td>
-<td style="text-align:center">55284-4</td>
-<td style="text-align:center">-</td>
-<td style="text-align:left">This is a grouping structure. It has no value in Observation.valueQuantity but contains at least one component (systolic and/or diastolic).</td>
-</tr>
-<tr>
-<td style="text-align:left">Systolic blood pressure</td>
-<td style="text-align:center">8480-6</td>
-<td style="text-align:center">mm[Hg]</td>
-<td style="text-align:left">Observation.component code for a blood pressure Observation</td>
-</tr>
-<tr>
-<td style="text-align:left">Diastolic blood pressure</td>
-<td style="text-align:center">8462-4</td>
-<td style="text-align:center">mm[Hg]</td>
-<td style="text-align:left">Observation.component code for a blood pressure Observation</td>
-</tr>
-</tbody>
+	<thead>
+		<tr>
+			<th>Vital Sign Name</th>
+			<th>LOINC Code</th>
+			<th>LOINC Name and Comments</th>
+			<th>UCUM Unit Code</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Vital Signs Panel</td>
+			<td>85353-1</td>
+			<td>
+				<em>Vital signs, weight, height, head circumference, oxygen saturation and BMI panel</em> - It represent a panel of vital signs listed in this table.  All members of the panel are optional and note that querying for the panel may miss individual results that are not part of the actual panel.    When used, Observation.valueQuantity is not present ; instead, related links (with type=has-member) reference the vital signs observations  (e.g. respiratory rate, heart rate, BP, etc).   Note that querying for the panel may miss individual results that are not part of an actual panel.  This code replaces the deprecated code 8716-3  - <em>Vital signs</em>  which is used in the Argonaut Data Query Implementation Guide. </td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Respiratory Rate</td>
+			<td>9279-1</td>
+			<td>
+				<em>Respiratory Rate</em>
+			</td>
+			<td>/min</td>
+		</tr>
+		<tr>
+			<td>Heart rate</td>
+			<td>8867-4</td>
+			<td>
+				<em>Heart rate</em> - To supplement this vital sign observation, 8887-2  -<em> Heart rate device type</em> MAY be used as an additional observation.</td>
+			<td>/min</td>
+		</tr>
+		<tr>
+			<td>Oxygen saturation</td>
+			<td>59408-5</td>
+			<td>
+				<em>Oxygen saturation in Arterial blood by Pulse oximetry</em> - This code replaces the deprecated code 2710-2 -<em> Deprecated Oxygen saturation in Capillary blood by Oximetry</em> which had been listed in C-CDA.</td>
+			<td>%</td>
+		</tr>
+		<tr>
+			<td>Body temperature</td>
+			<td>8310-5</td>
+			<td>
+				<em>Body temperature</em> - o supplement this vital sign observation, 8327-9 - <em>Body temperature measurement site</em> (oral, forehead, rectal, etc.)  and 8326-1  -<em>Type of body temperature device</em> MAY be used as additional observations</td>
+			<td>Cel, [degF]</td>
+		</tr>
+		<tr>
+			<td>Body height</td>
+			<td>8302-2</td>
+			<td>
+				<em>Body height</em>
+			</td>
+			<td>cm, [in_i]</td>
+		</tr>
+		<tr>
+			<td>Body length</td>
+			<td>8306-3</td>
+			<td>
+				<em>Body height --lying</em> - Like height, but lying down, typically this is used for infants</td>
+			<td>cm, [in_i]</td>
+		</tr>
+		<tr>
+			<td>Head circumference</td>
+			<td>8287-5</td>
+			<td>
+				<em>Head Occipital-frontal circumference by Tape measure</em>
+			</td>
+			<td>cm, [in_i]</td>
+		</tr>
+		<tr>
+			<td>Body weight</td>
+			<td>29463-7</td>
+			<td>
+				<em>Body weight</em> - To supplement this vital sign observation, 8352-7  - <em>Clothing worn during measure</em>  and  8361-8 - <em>Body position with respect to gravity</em> MAY be used as additional observations.</td>
+			<td>g, kg,[lb_av]</td>
+		</tr>
+		<tr>
+			<td>Body mass index</td>
+			<td>39156-5</td>
+			<td>
+				<em>Body mass index (BMI) [Ratio]</em>
+			</td>
+			<td>kg/m2</td>
+		</tr>
+		<tr>
+			<td>Blood pressure systolic and diastolic</td>
+			<td>55284-4</td>
+			<td>
+				<em>Blood pressure systolic and diastolic</em> - This is component observation.  It has no value in Observation.valueQuantity and  contains at least one component (systolic and/or diastolic).  To supplement this vital sign observation, 8478-0  - <em>Mean blood pressure</em>, 8357-6 - <em>Blood pressure method</em>, 41904-4 - <em>Blood pressure measurement site</em>, 8358-4 - <em>Blood pressure device cuff size</em>, 41901-0 - <em>Type of blood pressure device</em>  MAY be used as additional observations.</td>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>Systolic blood pressure</td>
+			<td>8480-6</td>
+			<td>
+				<em>Systolic blood pressure</em> - Observation.component code for a blood pressure Observation</td>
+			<td>mm[Hg]</td>
+		</tr>
+		<tr>
+			<td>Diastolic blood pressure</td>
+			<td>8462-4</td>
+			<td>
+				<em>Diastolic blood pressure</em> - Observation.component code for a blood pressure Observation</td>
+			<td>mm[Hg]</td>
+		</tr>
+	</tbody>
 </table>
-
+		
 ---
 
 #### Examples

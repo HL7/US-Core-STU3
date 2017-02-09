@@ -49,7 +49,7 @@
          "system": "http://unitsofmeasure.org",
          "code": "mmol/L"
        },
-       "meaning": {
+       "appliesTo": {
          "coding": [
            {
              "system": "http://hl7.org/fhir/referencerange-meaning",

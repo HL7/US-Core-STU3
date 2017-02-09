@@ -20,19 +20,20 @@
 		</Medication>
 	</contained>
 		<status value="active"/>
+		<!--  either a code or a reference to the medication being prescribed. As described earlier, this could be contained, separately
+					within a bundle or simply a reference to a remote server. -->
 			<medicationReference>
 		<reference value="#med1"/>
 		<display value="lisinopril oral 10 mg"/>
 	</medicationReference>
+	<effectivePeriod>
+	<start value="2010-05-01"/>
+</effectivePeriod>
+
+<dateAsserted value="2016-05-01T16:13:03Z"/>
+
 <subject>
-		<reference value="Patient-example.html"/><display value="Amy Shaw"/>
+		<reference value="Patient/example"/><display value="Amy Shaw"/>
 	</subject>
-		<effectivePeriod>
-		<start value="2010-05-01"/>
-	</effectivePeriod>
-
-	<dateAsserted value="2016-05-01T16:13:03Z"/>
-	<!--  either a code or a reference to the medication being prescribed. As described earlier, this could be contained, separately
-        within a bundle or simply a reference to a remote server. -->
-
+	<taken value="y"/>
 </MedicationStatement>

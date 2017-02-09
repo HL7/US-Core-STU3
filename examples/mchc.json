@@ -50,7 +50,7 @@
          "system": "http://unitsofmeasure.org",
          "code": "g/dL"
        },
-       "meaning": {
+       "appliesTo": {
          "coding": [
            {
              "system": "http://hl7.org/fhir/referencerange-meaning",

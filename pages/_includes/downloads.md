@@ -29,7 +29,7 @@ These definitions should be the first choice whenever generating any implementat
 - [us-core-observationresults](us-core-observationresults.sch)
 - [us-core-organization](us-core-organization.sch)
 - [us-core-patient](us-core-patient.sch)
-- [us-core-pract](us-core-pract.sch)
+- [us-core-practitioner](us-core-practitioner.sch)
 - [us-core-procedure](us-core-procedure.sch)
 - [us-core-race](us-core-race.sch)
 - [us-core-smokingstatus](us-core-smokingstatus.sch)

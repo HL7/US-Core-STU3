@@ -43,46 +43,46 @@
 	"result": [
 		{
 			"reference": "Observation/urine-color",
-			"display": "COLOR=Yellow "
+			"display": "COLOR=Yellow"
 		}, {
 			"reference": "Observation/urine-clarity",
-			"display": "APPEARANCE=Hazy "
+			"display": "APPEARANCE=Hazy"
 		}, {
 			"reference": "Observation/urine-glucose",
-			"display": "GLUCOSE=Negative "
+			"display": "GLUCOSE=Negative"
 		}, {
 			"reference": "Observation/urine-bilirubin",
-			"display": "BILIRUBIN=Negative "
+			"display": "BILIRUBIN=Negative"
 		}, {
 			"reference": "Observation/urine-ketone",
-			"display": "KETONE=Negative "
+			"display": "KETONE=Negative"
 		}, {
 			"reference": "Observation/usg",
-			"display": "SPEC GRAV=1.0169999999999999 "
+			"display": "SPEC GRAV=1.017"
 		}, {
 			"reference": "Observation/urine-ph",
 			"display": "PH=6 (pH)"
 		}, {
 			"reference": "Observation/urine-protein",
-			"display": "PROTEIN=Negative "
+			"display": "PROTEIN=Negative"
 		}, {
 			"reference": "Observation/urobilinogen",
 			"display": "UROBILINOGEN=0.3 mg/dL"
 		}, {
 			"reference": "Observation/urine-nitrite",
-			"display": "NITRITE=Positive "
+			"display": "NITRITE=Positive"
 		}, {
 			"reference": "Observation/urine-hemoglobin",
-			"display": "BLOOD=Trace "
+			"display": "BLOOD=Trace"
 		}, {
 			"reference": "Observation/urine-leukocyte-esterase",
-			"display": "LEUK ESTERASE=2+ "
+			"display": "LEUK ESTERASE=2+e"
 		}, {
 			"reference": "Observation/urine-sediment",
-			"display": "COMMENT=Recommend Urine Culture "
+			"display": "COMMENT=Recommend Urine Culture"
 		}, {
 			"reference": "Observation/urine-bacteria",
-			"display": "BACTERIA=4+ "
+			"display": "BACTERIA=4+"
 		}, {
 			"reference": "Observation/urine-epi-cells",
 			"display": "EPITHELIAL CELLS=1-5 cells/HPF"

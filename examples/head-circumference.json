@@ -31,7 +31,7 @@
 		"reference": "Patient/example",
 		"display": "Amy V Shaw"
 	},
-	"encounter": {
+	"context": {
 		"reference": "Encounter/1036"
 	},
 	"effectiveDateTime": "2010-08-12",

@@ -10,7 +10,6 @@ The following are example usage scenarios for the US Core-SmokingStatus
 profile:
 
 - Query for Smoking Status of a particular patient
-- Record Smoking Status of a particular patient  
 
 ##### Mandatory Data Elements and Terminology
 
@@ -28,10 +27,10 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 **Profile specific implementation guidance:**
 
-
+ - Smoking observation LOINC = 72166-2 *Tobacco smoking status NHIS*
  - This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server].
 
- #### Examples
+#### Examples
 
  - [observation-some-day-smoker](Observation-some-day-smoker.html)
 

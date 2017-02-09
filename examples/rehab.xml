@@ -19,9 +19,8 @@
 		<text value="Alcohol rehabilitation"/>
 	</code>
 		<subject>
-		<reference value="Patient-example.html"/>
-		<display value="Amy Shaw
-"/>
+		<reference value="Patient/example"/>
+		<display value="Amy Shaw"/>
 	</subject>
 	<performedDateTime value="2002-05-23"/>
 </Procedure>

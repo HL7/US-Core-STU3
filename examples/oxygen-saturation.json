@@ -22,7 +22,7 @@
 			{
 				"system": "http://loinc.org",
 				"code": "59408-5",
-				"display": "Oxygen saturation in Arterial blood by Pulse oximetry "
+				"display": "Oxygen saturation in Arterial blood by Pulse oximetry"
 			}
 		],
 		"text": "oxygen_saturation"
@@ -31,8 +31,8 @@
 		"reference": "Patient/example",
 		"display": "Amy Shaw"
 	},
-	"encounter": {
-	
+	"context": {
+
 		"display": "GP Visit"
 	},
 	"effectiveDateTime": "1999-07-02",

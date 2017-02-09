@@ -348,7 +348,7 @@
 					</tr>
 					<tr>
 						<th>
-							<a href=StructureDefinition-us-core-pract.html">US Core Practitioner</a>
+							<a href=StructureDefinition-us-core-practitioner.html">US Core Practitioner</a>
 						</th>
 						<td>
 							<a title="Allows discovery of US Core pract resources based on different search criteria" href="#US Core PractSearch">SHALL</a>
@@ -743,7 +743,7 @@ URL defintion [base]/Patient/[id]/$everything to return data for all the US Core
 		<reference value="http://hl7.org/fhir/us/core/us-core-patient.html"/>
 	</profile>
 	<profile>
-		<reference value="http://hl7.org/fhir/us/core/us-core-pract.html"/>
+		<reference value="http://hl7.org/fhir/us/core/us-core-practitioner.html"/>
 	</profile>
 	<profile>
 		<reference value="http://hl7.org/fhir/us/core/us-core-procedure.html"/>

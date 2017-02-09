@@ -4,16 +4,12 @@
 	<meta>
 		<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam"/>
 	</meta>
-	<status>
-		<coding>
-			<system value="http://hl7.org/fhir/us/core/CodeSystem/daf-careteam-status"/>
-			<code value="active"/>
-			<display value="Active"/>
-		</coding>
+	<status value = "active">
+
 	</status>
 	<name value="US-Core example CareTeam"/>
 	<subject>
-		<reference value="Patient-example.html"/>
+		<reference value="Patient/example"/>
 		<display value="Amy V. Shaw"/>
 	</subject>
 	<participant>
@@ -25,7 +21,7 @@
 			</coding>
 		</role>
 		<member>
-			<reference value="Practitioner-practitioner-1.html"/>
+			<reference value="Practitioner/practitioner-1"/>
 			<display value="Ronald Bone, MD"/>
 		</member>
 	</participant>
@@ -38,7 +34,7 @@
 			<text value="Good Guy"/>
 		</role>
 		<member>
-			<reference value="Practitioner/example2"/>
+			<reference value="Practitioner/practitioner-2"/>
 			<display value="Kathy Fielding, MD"/>
 		</member>
 	</participant>
@@ -51,7 +47,7 @@
 			</coding>
 		</role>
 		<member>
-			<reference value="Patient-example.html"/>
+			<reference value="Patient/example"/>
 			<display value="Amy V. Shaw"/>
 		</member>
 	</participant>

@@ -4,12 +4,15 @@
     -   `[CarePlan.text.status]` is either “generated” or “additional”
 1.  One status in `CarePlan.status`
     -   CarePlan.status is bound to [CarePlanStatus] Value set (Code set)
+1.  One intent in `CarePlan.intent`
+    -   CarePlan.intent is bound to [CarePlanIntent] Value set (Code set)
 1.  One category in `Careplan.category` which must have:
     -   a fixed `Careplan.category.coding.system`= "http://hl7.org/fhir/us/CodeSystem/careplan-category"
     -   a fixed 'Careplan.category.coding.code'=“assess-plan”
 1.  One reference to a patient in `CarePlan.subject`
 
 
-  [CarePlan.text.status]: http://hl7.org/fhir/2017Jan/valueset-narrative-status.html
-  [CarePlanStatus]: http://hl7.org/fhir/2017Jan/valueset-care-plan-status.html
+  [CarePlan.text.status]: http://hl7.org/fhir/valueset-narrative-status.html
+  [CarePlanStatus]: http://hl7.org/fhir/valueset-care-plan-status.html
+  [CarePlanStatus]: http://hl7.org/fhir/valueset-care-plan-intent.html
  [http://hl7.org/fhir/us/daf/CodeSystemCarePlan-category]: CodeSystem-careplan-category.html

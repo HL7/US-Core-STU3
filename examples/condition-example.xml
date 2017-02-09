@@ -23,7 +23,7 @@
 		<text value="Single liveborn, born in hospital, delivered without mention of cesarean section"/>
 	</code>
 	<subject>
-		<reference value="Patient-example.html"/>
+		<reference value="Patient/example"/>
 		<display value="Amy V. Shaw"/>
 	</subject>
 	<assertedDate value="2016-08-10"/>

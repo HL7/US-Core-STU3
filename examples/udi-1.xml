@@ -1,19 +1,12 @@
 <Device xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/fhir-all.xsd">
 	<id value="udi-1"/>
-		<meta>
+	<meta>
 		<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-device"/>
 	</meta>
-	<udiCarrier>
-		<type>
-			<coding>
-				<system value="http://hl7.org/fhir/identifier-type"/>
-				<code value="UDI"/>
-			</coding>
-		</type>
-		<system value="http://hl7.org/fhir/NamingSystem/fda-udi"/>
-		<value value="{01}09504000059118{17}141120{10}7654321D{21}10987654d321"/>
-	</udiCarrier>
-	<status value="available"/>
+	<udi>
+	<carrierHRF value="(01)09504000059118(17)141120(10)7654321D(21)10987654d321"/>
+	</udi>
+	<status value="active"/>
 	<type>
 		<coding>
 			<system value="http://snomed.info/sct"/>

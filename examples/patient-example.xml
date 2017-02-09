@@ -70,6 +70,9 @@
 				<display value="Filipino"/>
 			</valueCoding>
 		</extension>
+		<extension url="text">
+			<valueString value="Mixed"/>
+		</extension>
 	</extension>
 	<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
 		<extension url="ombCategory">
@@ -92,6 +95,9 @@
 				<code value="2148-5"/>
 				<display value="Mexican"/>
 			</valueCoding>
+		</extension>
+		<extension url="text">
+			<valueString value="Hispanic or Latino"/>
 		</extension>
 	</extension>
 	<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">

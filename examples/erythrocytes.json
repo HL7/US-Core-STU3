@@ -50,7 +50,7 @@
          "system": "http://unitsofmeasure.org",
          "code": "10*6/uL"
        },
-       "meaning": {
+       "appliesTo": {
          "coding": [
            {
              "system": "http://hl7.org/fhir/referencerange-meaning",
