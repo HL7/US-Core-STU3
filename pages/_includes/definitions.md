@@ -56,7 +56,7 @@ Example: AllergyIntolerance resource with a status that is text only or cannot b
        "resourceType”:“AllergyIntolerance”,
        ...
        “_status”:{
-        “url” : “http://hl7.org/fhir/2017Jan/StructureDefinition/data-absent-reason”,
+        “url” : “http://build.fhir.org/StructureDefinition/data-absent-reason”,
        “valueCode” : “unsupported”
         ...
       },
@@ -111,12 +111,12 @@ Example of translation of NDC vaccine code to CVX code.
     "vaccineCode" : {
         "coding" : [
           {
-            "system" : "http://hl7.org/fhir/2017Jan/sid/cvx",
+            "system" : "http://build.fhir.org/sid/cvx",
             "code" : "158",
             "display" : "influenza, injectable, quadrivalent"
           },
           {
-            "system" : "http://hl7.org/fhir/2017Jan/sid/ndc",
+            "system" : "http://build.fhir.org/sid/ndc",
             "code" : "49281-0623-78",
             "display" : "FLUZONE QUADRIVALENT"
           }
@@ -220,17 +220,17 @@ In order to manage the number of search results returned, the server may choose 
 
 ------------------------------------------------------------------------
 
-  [core specification]: http://hl7.org/fhir/2017Jan/search.html#return
+  [core specification]: http://build.fhir.org/search.html#return
 
-  [FHIR RESTful API]: http://hl7.org/fhir/2017Jan/http.html
-  [Searching]: http://hl7.org/fhir/2017Jan/search.html
+  [FHIR RESTful API]: http://build.fhir.org/http.html
+  [Searching]: http://build.fhir.org/search.html
   [Issue \#39]: https://github.com/argonautproject/implementation-program/issues/39
-  [compartment]: http://hl7.org/fhir/2017Jan/compartmentdefinition.html
-  [core specification]: http://hl7.org/fhir/2017Jan/extensibility.html#2.20.0.2.2
-  [DataAbsentReason Extension]: http://hl7.org/fhir/2017Jan/extension-data-absent-reason.html
-  [http://hl7.org/fhir/2017Jan/StructureDefinition/data-absent-reason]: http://hl7.org/fhir/2017Jan/StructureDefinition/data-absent-reason
-  [FHIR Conformance Rules]: http://hl7.org/fhir/2017Jan/conformance-rules.html
-[Quantity]: http://hl7.org/fhir/2017Jan/datatypes.html#quantity
+  [compartment]: http://build.fhir.org/compartmentdefinition.html
+  [core specification]: http://build.fhir.org/extensibility.html#2.20.0.2.2
+  [DataAbsentReason Extension]: http://build.fhir.org/extension-data-absent-reason.html
+  [http://build.fhir.org/StructureDefinition/data-absent-reason]: http://build.fhir.org/StructureDefinition/data-absent-reason
+  [FHIR Conformance Rules]: http://build.fhir.org/conformance-rules.html
+[Quantity]: http://build.fhir.org/datatypes.html#quantity
 [UCUM]: http://unitsofmeasure.org
 [US Core Result Observation Profile]:StructureDefinition-us-core-observationresults.html
 [US Core Vital Signs Profile]:StructureDefinition-us-core-vitalsigns.html

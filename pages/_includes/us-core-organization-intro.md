@@ -29,5 +29,5 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 [Organization-acme-lab](Organization-acme-lab.html)
 
-[Organization]: http://hl7.org/fhir/2017Jan/organization.html
+[Organization]: http://build.fhir.org/organization.html
 [Conformance requirements for the US-Core Server]: CapabilityStatement-server.html

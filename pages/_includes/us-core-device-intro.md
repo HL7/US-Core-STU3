@@ -26,4 +26,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 - [Device-udi-1](Device-udi-1.html)
 
-[Device]: http://hl7.org/fhir/2017Jan/device.html
+[Device]: http://build.fhir.org/device.html

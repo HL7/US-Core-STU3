@@ -79,18 +79,18 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [PCORnet]: http://www.pcornet.org/
 [Argonaut]: http://argonautwiki.hl7.org/index.php?title=Main_Page
 [ONC 2015 Edition Common Clinical Data Set (CCDS)]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf
-[profiles]: http://hl7.org/fhir/profiling.html
-[logical view]: http://hl7.org/fhir/formats.html#table
-[StructureDefinitions]: http://hl7.org/fhir/structuredefinition.html
-[Value sets]: http://hl7.org/fhir/2017Jan/valueset.html
-[CodeSystem]: http://hl7.org/fhir/codesystem.html
-[ConceptMap]: http://hl7.org/fhir/conceptmap.html
-[NamingSystem]: http://hl7.org/fhir/namingsystem.html
-[FHIR Conformance Rules]: http://hl7.org/fhir/CapabilityStatement-rules.html
-[dataAbsentReason]: http://hl7.org/fhir/extension-data-absent-reason.html
-[FHIR Terminology]: http://hl7.org/fhir/terminologies.html
-[FHIR RESTful API]: http://hl7.org/fhir/http.html
-[HTTP]: http://hl7.org/fhir/http.html
-[FHIR Data Types]: http://hl7.org/fhir/datatypes.html
-[FHIR Search]: http://hl7.org/fhir/search.html
-[FHIR Resource]: http://hl7.org/fhir/formats.html
+[profiles]: http://build.fhir.orgprofiling.html
+[logical view]: http://build.fhir.orgformats.html#table
+[StructureDefinitions]: http://build.fhir.orgstructuredefinition.html
+[Value sets]: http://build.fhir.org/valueset.html
+[CodeSystem]: http://build.fhir.orgcodesystem.html
+[ConceptMap]: http://build.fhir.orgconceptmap.html
+[NamingSystem]: http://build.fhir.orgnamingsystem.html
+[FHIR Conformance Rules]: http://build.fhir.orgCapabilityStatement-rules.html
+[dataAbsentReason]: http://build.fhir.orgextension-data-absent-reason.html
+[FHIR Terminology]: http://build.fhir.orgterminologies.html
+[FHIR RESTful API]: http://build.fhir.orghttp.html
+[HTTP]: http://build.fhir.orghttp.html
+[FHIR Data Types]: http://build.fhir.orgdatatypes.html
+[FHIR Search]: http://build.fhir.orgsearch.html
+[FHIR Resource]: http://build.fhir.orgformats.html

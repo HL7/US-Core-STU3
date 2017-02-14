@@ -8832,7 +8832,7 @@
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s133"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">required</Data></Cell>
-    <Cell ss:StyleID="s154"><Data ss:Type="String">http://hl7.org/fhir/ValueSet/procedure-status</Data></Cell>
+    <Cell ss:StyleID="s154"><Data ss:Type="String">http://hl7.org/fhir/ValueSet/event-status</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">This value set identifies the Body Site Value Set. </Data></Cell>
     <Cell ss:StyleID="s133"/>
     <Cell ss:StyleID="s133"/>

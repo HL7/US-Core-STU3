@@ -27,4 +27,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 - [Goal-1]Gaol-goal-1.html)
 
 
-[Goal]:  http://hl7.org/fhir/2017Jan/goal.html
+[Goal]:  http://build.fhir.org/goal.html
