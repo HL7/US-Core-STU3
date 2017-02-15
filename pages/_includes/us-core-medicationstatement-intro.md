@@ -1,4 +1,4 @@
-Both the [MedicationRequest] and [MedicationStatement] resources can be used to record a patient's medication.  For more information about the context for their usages, refer to the medication domains's [boundaries section].  This profile sets minimum expectations for the MedicationStatement resource to record, search and fetch medications associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
+Both the [MedicationRequest] and [MedicationStatement] resources can be used to record a patient's medication.  For more information about the context for their usages, refer to the medication domain's [boundaries section].  This profile sets minimum expectations for the MedicationStatement resource to record, search and fetch medications associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
 
 **Example Usage Scenarios:**
 
@@ -24,7 +24,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 *  The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a [Medication] resource.
     *  When referencing a Medication resource,  the resource may be [contained] or an external resource.
-    *  The server application can choose any one way or more than one method,  but if the an external reference to Medication is used, the server SHALL support the [include] parameter for searching this element.
+    *  The server application can choose any one way or more than one method,  but if an external reference to Medication is used, the server SHALL support the [include] parameter for searching this element.
     *  The client application must support both methods.  
     *  Additional guidance is provided below in the Search section and in the [CapabilityStatement] section.
 
