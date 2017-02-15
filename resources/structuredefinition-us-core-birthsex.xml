@@ -61,10 +61,7 @@
         <source value="Extension"/>
       </constraint>
       <isModifier value="false"/>
-      <mapping>
-        <identity value="v2"/>
-        <map value="PID-8"/>
-      </mapping>
+
       <mapping>
         <identity value="rim"/>
         <map value="player[classCode=PSN|ANM and determinerCode=INSTANCE]/administrativeGender"/>
@@ -174,10 +171,7 @@
       <min value="0"/>
       <max value="1"/>
       <isModifier value="false"/>
-      <mapping>
-        <identity value="v2"/>
-        <map value="PID-8"/>
-      </mapping>
+
       <mapping>
         <identity value="rim"/>
         <map value="player[classCode=PSN|ANM and determinerCode=INSTANCE]/administrativeGender"/>
@@ -198,6 +192,13 @@
       <type>
         <code value="code"/>
       </type>
+            <binding>
+        <strength value="required"/>
+        <description value="Code for sex assigned at birth"/>
+        <valueSetReference>
+          <reference value="http://hl7.org/fhir/us/core/ValueSet/us-core-birthsex"/>
+        </valueSetReference>
+      </binding>
     </element>
   </differential>
 </StructureDefinition>
