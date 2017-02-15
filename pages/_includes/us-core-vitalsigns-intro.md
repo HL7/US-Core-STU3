@@ -165,4 +165,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 [Observation]: http://build.fhir.org/observation.html
 [extensible]: http://build.fhir.org/terminologies.html#extensible
 [Conformance requirements for the US-Core Server]: CapabilityStatement-server.html
-[General Guidance Section]: definitions.html
+[General Guidance Section]: guidance.html

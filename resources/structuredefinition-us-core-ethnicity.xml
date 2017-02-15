@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir">
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://build.fhir.org/device.xsd">
 	<id value="us-core-ethnicity"/>
 	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"/>
 	<name value="US Core ethnicity Extension"/>
@@ -87,7 +87,10 @@
 		<element id="Extension:ethnicity.extension">
 			<path value="Extension.extension"/>
 			<slicing id="2">
-				<discriminator value="url"/>
+				<discriminator>
+					<type value="value"/>
+					<path value="url"/>
+				</discriminator>
 				<ordered value="false"/>
 				<rules value="open"/>
 			</slicing>
@@ -119,7 +122,8 @@
 			<type>
 				<code value="Extension"/>
 			</type>
-			<mustSupport value="true"/><isModifier value="false"/>
+			<mustSupport value="true"/>
+			<isModifier value="false"/>
 			<mapping>
 				<identity value="iso11179"/>
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/ethnicGroupCode"/>
@@ -182,7 +186,8 @@
 			</base>
 			<type>
 				<code value="uri"/>
-			</type><fixedUri value="ombCategory"/>
+			</type>
+			<fixedUri value="ombCategory"/>
 			<mapping>
 				<identity value="rim"/>
 				<map value="N/A"/>
@@ -292,7 +297,8 @@
 			</base>
 			<type>
 				<code value="uri"/>
-			</type><fixedUri value="detailed"/>
+			</type>
+			<fixedUri value="detailed"/>
 			<mapping>
 				<identity value="rim"/>
 				<map value="N/A"/>
@@ -339,7 +345,8 @@
 			<type>
 				<code value="Extension"/>
 			</type>
-			<mustSupport value="true"/><isModifier value="false"/>
+			<mustSupport value="true"/>
+			<isModifier value="false"/>
 		</element>
 		<element id="Extension:ethnicity.extension:text.id">
 			<path value="Extension.extension.id"/>
@@ -398,7 +405,8 @@
 			</base>
 			<type>
 				<code value="uri"/>
-			</type><fixedUri value="text"/>
+			</type>
+			<fixedUri value="text"/>
 			<mapping>
 				<identity value="rim"/>
 				<map value="N/A"/>
@@ -605,7 +613,6 @@
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/ethnicGroupCode"/>
 			</mapping>
 		</element>
-
 		<element id="Extension:ethnicity.extension:ombcategory.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
@@ -646,7 +653,6 @@
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/sdtc:ethnicGroupCode"/>
 			</mapping>
 		</element>
-
 		<element id="Extension:ethnicity.extension:detailed.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
@@ -684,7 +690,6 @@
 			<mustSupport value="true"/>
 			<isModifier value="false"/>
 		</element>
-
 		<element id="Extension:ethnicity.extension:text.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
@@ -708,6 +713,5 @@
 			<max value="1"/>
 			<fixedUri value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"/>
 		</element>
-
 	</differential>
 </StructureDefinition>

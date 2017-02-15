@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/appointment.xsd">
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://build.fhir.org/device.xsd">
 	<id value="us-core-race"/>
 	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"/>
 	<name value="US Core Race Extension"/>
@@ -93,7 +93,10 @@
 		<element id="Extension:race.extension">
 			<path value="Extension.extension"/>
 			<slicing id="1">
-				<discriminator value="url"/>
+				 <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
 				<ordered value="false"/>
 				<rules value="open"/>
 			</slicing>
@@ -125,7 +128,8 @@
 			<type>
 				<code value="Extension"/>
 			</type>
-			<mustSupport value="true"/><isModifier value="false"/>
+			<mustSupport value="true"/>
+			<isModifier value="false"/>
 			<mapping>
 				<identity value="iso11179"/>
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/raceCode"/>
@@ -188,7 +192,8 @@
 			</base>
 			<type>
 				<code value="uri"/>
-			</type>		<fixedUri value="ombCategory"/>
+			</type>
+			<fixedUri value="ombCategory"/>
 			<mapping>
 				<identity value="rim"/>
 				<map value="N/A"/>
@@ -298,7 +303,8 @@
 			</base>
 			<type>
 				<code value="uri"/>
-			</type>	<fixedUri value="detailed"/>
+			</type>
+			<fixedUri value="detailed"/>
 			<mapping>
 				<identity value="rim"/>
 				<map value="N/A"/>
@@ -345,7 +351,8 @@
 			<type>
 				<code value="Extension"/>
 			</type>
-				<mustSupport value="true"/><isModifier value="false"/>
+			<mustSupport value="true"/>
+			<isModifier value="false"/>
 		</element>
 		<element id="Extension:race.extension:text.id">
 			<path value="Extension.extension.id"/>
@@ -404,7 +411,8 @@
 			</base>
 			<type>
 				<code value="uri"/>
-			</type>	<fixedUri value="text"/>
+			</type>
+			<fixedUri value="text"/>
 			<mapping>
 				<identity value="rim"/>
 				<map value="N/A"/>
@@ -614,7 +622,6 @@
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/raceCode"/>
 			</mapping>
 		</element>
-
 		<element id="Extension:race.extension:ombcategory.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
@@ -655,7 +662,6 @@
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/sdtc:raceCode"/>
 			</mapping>
 		</element>
-
 		<element id="Extension:race.extension:detailed.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
@@ -693,7 +699,6 @@
 			<mustSupport value="true"/>
 			<isModifier value="false"/>
 		</element>
-
 		<element id="Extension:race.extension:text.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
@@ -717,6 +722,5 @@
 			<max value="1"/>
 			<fixedUri value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"/>
 		</element>
-
 	</differential>
 </StructureDefinition>

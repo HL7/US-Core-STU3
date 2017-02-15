@@ -6,18 +6,25 @@ This section outlines important definitions and interpretations used in the US-C
 The conformance verbs used are defined in [FHIR Conformance Rules].
 
 ### Must Support
-In the context of US-Core, Supported on any data element SHALL be interpreted as follows:
+In the context of US-Core, *Must Support* on any data element SHALL be interpreted as follows:
+
 
 * US-Core Responders SHALL be capable of including the data element as part of the query results as specified by the US-Core conformance resources.
-* US-Core Requestors SHALL be capable of processing resource instances containing the data elements. In other words US-Core Requestors SHOULD be capable of displaying the data elements for human use or storing it for other purposes.
+* US-Core Requestors SHALL be capable of processing resource instances containing the data elements without generating an error an causing the application to fail. In other words US-Core Requestors SHOULD be capable of displaying the data elements for human use or storing it for other purposes.
 * In situations where information on a particular data element is not present and the reason for absence is unknown, US-Core Responders SHALL NOT include the data elements in the resource instance returned as part of the query results.
 * When querying US-Core Responders, US-Core Requestors SHALL interpret missing data elements within resource instances as data not present in the US-Core Responder's systems.
 * In situations where information on a particular data element is missing and the US-Core Responder knows the precise reason for the absence of data, US-Core Responders SHALL send the reason for the missing information using values (such as nullFlavors) from the value set where they exist or using the dataAbsentReason extension.
 * US-Core Requestors SHALL be able to process resource instances containing data elements asserting missing information.
 
+
+* NOTE: that typically *US-Core Responder* Actor = Server and *US-Core Requestor Actor* = Client
 * NOTE: US-Core Responders who do not have the capability to store or return a data element tagged as Supported in US-Core profiles can still claim conformance to the US-Core profiles per the US-Core conformance resources.
 * NOTE: The above definition of Supported is derived from HL7v2 concept "Required but may be empty - RE" described in HL7v2 V28_CH02B_Conformance.doc.
 * NOTE: Readers are advised to understand [FHIR Terminology] requirements, [FHIR RESTful API] based on the [HTTP] protocol, along with [FHIR Data Types], [FHIR Search] and [FHIR Resource] formats before implementing US-Core requirements.
+
+### Referencing US-Core profiles
+
+Many of the profiles in this guide [reference](http://build.fhir.org/references.html) other FHIR resources that are also US-Core profiles.  This is defined in the formal profile definitions.  For example [US Core Careteam](StructureDefinition-us-core-careteam.html#profile) references US Core Patient.  For any other references not formally defined in a US-Core profiles, the referenced resource SHOULD be a US-Core profile if a US Core profile exists for the resource type.  For example, although `Condition.asserter` is not constrained by this guide, the reference to Patient should be a valid US-Core Patient.
 
 
 ### Extensible binding for CodeableConcept Datatype

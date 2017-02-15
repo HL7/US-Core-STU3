@@ -47,4 +47,4 @@ In addition, based upon the 2015 Edition Certification Requirements, the followi
 
 
 [Patient]: http://build.fhir.org/patient.html
-[Must Support]: definitions.html#must-support
+[Must Support]: guidance.html#must-support
