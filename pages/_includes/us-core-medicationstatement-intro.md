@@ -16,9 +16,14 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 1.  a status
 1.  a medication
-1.  a date
+1.  an assertion date
 1.  a patient
 1.  a code indicating whether the medication was taken
+
+Additionally your system [Must Support]:
+
+1. the time medication was taken
+2. whether the statement was derived from another resource
 
 **Profile specific implementation guidance:**
 
@@ -44,3 +49,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
  [boundaries section]: http://build.fhir.org/medicationrequest.html#bnr
 [include]: http://build.fhir.org/search.html#include
 [contained]: http://build.fhir.org/references.html#contained
+[Must Support]: guidance.html#must-support
