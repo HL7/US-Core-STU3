@@ -12,7 +12,7 @@
     <value value="urn:oid:2.16.840.1.113883.4.642.2.607"/>
   </identifier>
   <version value="1.6.0"/>
-  <name value="US CoreProcedureType"/>
+  <name value="US Core Procedure Type"/>
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="Health Level Seven International (US Realm Steering Committee)"/>

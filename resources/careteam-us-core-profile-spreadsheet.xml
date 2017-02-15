@@ -16,11 +16,11 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6195</WindowHeight>
-  <WindowWidth>25260</WindowWidth>
-  <WindowTopX>-9675</WindowTopX>
-  <WindowTopY>630</WindowTopY>
-  <ActiveSheet>3</ActiveSheet>
+  <WindowHeight>6435</WindowHeight>
+  <WindowWidth>19260</WindowWidth>
+  <WindowTopX>-15</WindowTopX>
+  <WindowTopY>-15</WindowTopY>
+  <ActiveSheet>2</ActiveSheet>
   <FirstVisibleSheet>1</FirstVisibleSheet>
   <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
@@ -2289,6 +2289,7 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
+   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -2309,8 +2310,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>2</ActiveRow>
-     <ActiveCol>10</ActiveCol>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -2332,7 +2333,7 @@
    <Column ss:StyleID="s124" ss:AutoFitWidth="0" ss:Width="140.25"/>
    <Column ss:StyleID="s124" ss:AutoFitWidth="0" ss:Width="686.25"/>
    <Column ss:StyleID="s124" ss:Width="51" ss:Span="1"/>
-   <Column ss:Index="5" ss:StyleID="s124" ss:Width="45"/>
+   <Column ss:Index="5" ss:StyleID="s124" ss:Width="68.25"/>
    <Column ss:StyleID="s124" ss:AutoFitWidth="0" ss:Width="338.25"/>
    <Column ss:StyleID="s124" ss:Width="173.25"/>
    <Column ss:StyleID="s124" ss:AutoFitWidth="0" ss:Width="98.25"/>
@@ -2356,9 +2357,7 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s89"><Data ss:Type="String">Conformance</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Example</Data><Comment
-      ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40">        <Font
-        html:Face="Tahoma" x:Family="Swiss" html:Size="8" html:Color="#000000">Y = example, blank = incomplete.  Only relevant if binding is &quot;value set&quot;</Font>       </ss:Data></Comment><NamedCell
+    <Cell ss:StyleID="s89"><Data ss:Type="String">max-valueset</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s89"><Data ss:Type="String">Reference</Data><Comment
       ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40">        <Font
@@ -2402,7 +2401,7 @@
     <Cell ss:StyleID="s107"><Data ss:Type="String">Indicates whether the team is current , represents future intentions or is now a historical record.</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">required</Data></Cell>
-    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s148"/>
     <Cell ss:StyleID="s107"><Data ss:Type="String"> http://hl7.org/fhir/ValueSet/care-team-status</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
@@ -2418,7 +2417,7 @@
     <Cell ss:StyleID="s107"><Data ss:Type="String">Indicates specific responsibility of an individual within the care team, such as Primary physician, Team coordinator, Caregiver, etc.</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">extensible</Data></Cell>
-    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s107"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/us-core-careteam-provider-roles</Data></Cell>
     <Cell ss:StyleID="s107"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/us-core-careteam-provider-roles</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
@@ -2546,23 +2545,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s126"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s104"/>
-    <Cell ss:StyleID="s107"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s127"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
@@ -2578,24 +2561,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s126"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s104"/>
-    <Cell ss:StyleID="s107"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
+    <Cell ss:Index="6" ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
@@ -2610,24 +2576,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s126"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s104"/>
-    <Cell ss:StyleID="s107"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
+    <Cell ss:Index="6" ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
@@ -2642,8 +2591,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
-    <Cell ss:StyleID="s125"/>
+    <Cell ss:Index="6" ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
@@ -2658,8 +2606,52 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
+    <Cell ss:Index="6" ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s126"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s104"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:Index="6" ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s126"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s104"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:Index="6" ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s126"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s104"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:Index="6" ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s125"/>
@@ -2674,8 +2666,7 @@
     <Cell ss:StyleID="s119"/>
     <Cell ss:StyleID="s127"/>
     <Cell ss:StyleID="s127"/>
-    <Cell ss:StyleID="s127"/>
-    <Cell ss:StyleID="s127"/>
+    <Cell ss:Index="6" ss:StyleID="s127"/>
     <Cell ss:StyleID="s127"/>
     <Cell ss:StyleID="s127"/>
     <Cell ss:StyleID="s127"/>
@@ -2699,7 +2690,6 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
-   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -2720,8 +2710,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>6</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

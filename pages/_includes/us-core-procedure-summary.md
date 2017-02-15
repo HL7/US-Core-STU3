@@ -4,13 +4,12 @@
 1.  A status code in Procedure.status which has a [required](http://build.fhir.org/terminologies.html#required) binding to:
 -  [EventStatus] value set.
 1.  One Identification of the procedure in `Procedure.code` which has:
-    - a [required](http://build.fhir.org/terminologies.html#required) binding to [SNOMED CT] or [CPT-4/HCPC for procedures] value set.
+    - a [extensible + max valuevet](definitions.html#extensible--max-valueset-binding-for-codeableconcept-datatype) binding to the [US Core Procedure Type] valueset (SNOMED CT or CPT-4/HCPC for procedures).
     - MAY have a translation to [ICD-10-PCS] or [Code on Dental Procedures and Nomenclature (CDT Codes)].
 1.  A date or a time period in `Procedure.performedDateTime` or `Procedure.performedPeriod`
 
 
-  [SNOMED CT]: ValueSet-us-core-procedure-type.html
-  [CPT-4/HCPC for procedures]: ValueSet-us-core-procedure-type.html
+  [US Core Procedure Type]: ValueSet-us-core-procedure-type.html
   [ICD-10-PCS]: http://www.icd10data.com/icd10pcs
   [Code on Dental Procedures and Nomenclature (CDT Codes)]: http://www.ada.org/en/publications/cdt/
   [EventStatus]: http://build.fhir.orgValueSet/event-status

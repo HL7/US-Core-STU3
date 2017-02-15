@@ -12,18 +12,17 @@
         -   a `name.given`
 
 3.  One administrative gender in `Patient.gender`
-    -   Patient.gender is bound to [AdministrativeGender] Value set 
+    -   Patient.gender is bound to [AdministrativeGender] Value set
 
   [AdministrativeGender]: http://build.fhir.org/valueset-administrative-gender.html
 
 
-#### Summary of the Must Suport Requirements
+#### Summary of the Must Support Requirements
 
-Additionally your system must return:
+Additionally your system must Support:
 
 1.  A date of birth in `Patient.birthDate`
-2.  One or more languages spoken in `Patient.communication.language` which has an [extensible](http://build.fhir.org/terminologies.html#extensible) binding to:
-    -    [Common Languages] with the extensbility limited to [All Languages]
+2.  One or more languages spoken in `Patient.communication.language` which has a [extensible + max valueset](definitions.html#extensible--max-valueset-binding-for-codeableconcept-datatype)  binding to the [Common Languages] valueset with the extensibility limited to the [All Languages] valueset
 3.  One or more race codes in  `Patient.extension`= [US Core Race Extension] which:
     - Must include at least one code from [OMB Race Categories]
     - May include additional race codes from [CDC Race Codes]
@@ -32,8 +31,7 @@ Additionally your system must return:
     - Must include one code from [OMB Ethnicity Categories]
     - May include additional race codes from [CDC Ethnicity Codes]
 
-5.  One Birth Sex in `Patient.extension`= [US Core Patient Birth Sex] which has a [required](http://build.fhir.org/terminologies.html#required) binding to:
-    -   [US Core Birth Sex]
+5.  One Birth Sex in `Patient.extension`= [US Core Patient Birth Sex] which has a [required](http://build.fhir.org/terminologies.html#required) binding to [US Core Birth Sex] valueset
 
 
   [Patient.birthDate]: http://build.fhir.orgus/daf/daf-patient-definitions.html#daf-patient.Patient.birthDate
