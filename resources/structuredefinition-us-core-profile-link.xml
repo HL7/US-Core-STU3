@@ -192,6 +192,13 @@
       <type>
         <code value="code"/>
       </type>
+            <binding>
+        <strength value="required"/>
+        <description value="One of the resource types defined as part of FHIR."/>
+        <valueSetReference>
+          <reference value="http://hl7.org/fhir/ValueSet/resource-types"/>
+        </valueSetReference>
+      </binding>
     </element>
   </differential>
 </StructureDefinition>
