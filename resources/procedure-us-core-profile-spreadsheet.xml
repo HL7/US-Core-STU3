@@ -8846,12 +8846,12 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s104"><Data ss:Type="String">USCoreProcedureType</Data></Cell>
-    <Cell ss:StyleID="s107"><Data ss:Type="String">Codes describing the Procedure Type</Data></Cell>
+    <Cell ss:StyleID="s107"><Data ss:Type="String">Codes describing the type of  Procedure</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">extensible</Data></Cell>
-    <Cell ss:StyleID="s136"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-type</Data></Cell>
-    <Cell ss:StyleID="s136"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-type</Data></Cell>
-    <Cell ss:StyleID="s136"><Data ss:Type="String">This value set identifies a set of procedure types.</Data></Cell>
+    <Cell ss:StyleID="s136"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-code</Data></Cell>
+    <Cell ss:StyleID="s136"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-code</Data></Cell>
+    <Cell ss:StyleID="s136"><Data ss:Type="String">This value set identifies a set of codes identifying a procedure.</Data></Cell>
     <Cell ss:StyleID="s136"/>
     <Cell ss:StyleID="s136"/>
     <Cell ss:StyleID="s136"/>
