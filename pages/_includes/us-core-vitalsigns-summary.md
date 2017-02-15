@@ -2,7 +2,7 @@
 
 1.  One status in `Observation.status`which has an [extensible](http://build.fhir.org/terminologies.html#extensible) binding to:
     -    [ObservationStatus] value set.
-1.  One category in `Observation.category` which must have:
+1.  A category in `Observation.category` which must have:
     -   a fixed `Observation.category.coding.system`="http://hl7.org/fhir/observation-category"
     -   a fixed `Observation.category.coding.code`=“vital-signs”
 1.  A code in `Observation.code`

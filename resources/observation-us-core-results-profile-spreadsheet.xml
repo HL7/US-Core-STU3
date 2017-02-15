@@ -9,17 +9,17 @@
   <Author>Grahame</Author>
   <LastAuthor>Eric Haas</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
-  <LastSaved>2016-12-20T00:22:40Z</LastSaved>
+  <LastSaved>2017-02-14T19:37:54Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>4440</WindowHeight>
+  <WindowHeight>6675</WindowHeight>
   <WindowWidth>19260</WindowWidth>
   <WindowTopX>-15</WindowTopX>
-  <WindowTopY>4380</WindowTopY>
+  <WindowTopY>6630</WindowTopY>
   <TabRatio>913</TabRatio>
   <ActiveSheet>2</ActiveSheet>
   <RefModeR1C1/>
@@ -1294,17 +1294,17 @@
     <Cell ss:StyleID="s108"><Data ss:Type="String">Observation.category</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s109"><Data ss:Type="String">1..1</Data><NamedCell
+    <Cell ss:StyleID="s109"><Data ss:Type="String">1..*</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">us-core-5</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">CodeableConcept</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s109"><Data ss:Type="String">&lt;valueCodeableConcept&gt;&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/observation-category&quot;/&gt;&lt;code value=&quot;laboratory&quot;/&gt;&lt;/coding&gt;&lt;/valueCodeableConcept&gt;&#13;</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2794,9 +2794,9 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>2</TopRowBottomPane>
+   <TopRowBottomPane>1</TopRowBottomPane>
    <SplitVertical>8</SplitVertical>
-   <LeftColumnRightPane>20</LeftColumnRightPane>
+   <LeftColumnRightPane>8</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -2808,11 +2808,10 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>1</ActiveRow>
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>7</ActiveRow>
+     <ActiveRow>4</ActiveRow>
      <ActiveCol>6</ActiveCol>
     </Pane>
    </Panes>
@@ -2912,13 +2911,13 @@
     <Cell ss:StyleID="s125"><Data ss:Type="String">not(exists(f:valueCodeableConcept/f:coding/f:system) ) or  f:valueCodeableConcept/f:coding/f:system[@value='http://snomed.info/sct'] </Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s126"/>
-    <Cell ss:StyleID="s110"/>
-    <Cell ss:StyleID="s110"/>
-    <Cell ss:StyleID="s110"/>
-    <Cell ss:StyleID="s110"/>
-    <Cell ss:StyleID="s110"/>
-    <Cell ss:StyleID="s127"/>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">us-core-5</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Must have laboratory</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">error</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Observation.category</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Must have a category of 'laboratory' and a code system 'http://hl7.org/fhir/observation-category'</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="String">where(coding.system='http://hl7.org/fhir/observation-category' and coding.code='laboratory').exists()</Data></Cell>
+    <Cell ss:StyleID="s125"><Data ss:Type="String">exists(f:coding/code[@value='laboratory']) and exists(f:coding/system[@value='http://hl7.org/fhir/observation-category'])</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s126"/>
@@ -3340,8 +3339,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>16</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>5</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

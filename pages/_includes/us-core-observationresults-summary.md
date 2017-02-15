@@ -1,7 +1,7 @@
 #### Complete Summary of the Mandatory Requirements
 
 1.  One status in `Observation.status` which has a [required](http://build.fhir.org/terminologies.html#required) binding to [ObservationStatus]
-1.  One category in `Observation.category` which must have:
+1.  A category in `Observation.category` which must have:
     -   a fixed `Observation.category.coding.system`=“<http://hl7.org/fhir/observation-category>”
     -   a fixed `Observation.category.coding.code`=“laboratory”
 1.  One code in `Observation.code` which has an [extensible](http://build.fhir.org/terminologies.html#extensible) binding to [LOINC Observation Codes]
