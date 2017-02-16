@@ -7,7 +7,7 @@
   <name value="Profile-resource association extension"/>
   <title value="Profile-resource association extension"/>
   <status value="draft"/>
-  <publisher value="Health Level Seven International (FHIR-Infrastructure)"/>
+  <publisher value="HL7 US Realm Steering Committee"/>
   <contact>
     <telecom>
       <system value="url"/>

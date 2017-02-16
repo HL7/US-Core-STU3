@@ -9,7 +9,7 @@
 	<version value="1.6.0"/>
 	<name value="US Core Vital Sign Codes"/>
 	<status value="active"/>
-	<publisher value="Health Level Seven International (US Realm Steering Committee)"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
 	<contact>
 		<telecom>
 			<system value="other"/>

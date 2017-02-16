@@ -995,7 +995,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s74"><Data ss:Type="String">author.name</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Health Level Seven International (FHIR-Infrastructure)</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">HL7 US Realm Steering Committee</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s74"><Data ss:Type="String">author.reference</Data></Cell>
@@ -1320,7 +1320,7 @@
     <Cell ss:StyleID="s108"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s108"><Data ss:Type="String">US Realm Laboratory Report Order Code</Data><NamedCell
+    <Cell ss:StyleID="s108"><Data ss:Type="String">US Core Laboratory Report Order Code</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s110"><Data ss:Type="String">The test, panel or battery that was ordered.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3333,7 +3333,7 @@
    <SplitHorizontal>1</SplitHorizontal>
    <TopRowBottomPane>1</TopRowBottomPane>
    <SplitVertical>5</SplitVertical>
-   <LeftColumnRightPane>9</LeftColumnRightPane>
+   <LeftColumnRightPane>15</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -3348,8 +3348,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>7</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>17</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

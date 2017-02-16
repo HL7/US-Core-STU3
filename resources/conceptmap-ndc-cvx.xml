@@ -12,7 +12,7 @@
 	<url value="http://hl7.org/fhir/us/core/ConceptMap/ndc-cvx"/>
 	<name value="US Core NDC to CVX Code Mapping"/>
 	<status value="active"/>
-	<publisher value="FHIR Project"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
 	<date value="2016-06-06"/>
 	<description value="Unit of Use [NDC code] (https://www2a.cdc.gov/vaccines/iis/iisstandards/ndc_crosswalk.asp) mapping  to the [CVX Vaccine codes](https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx).  Note: source = NDC and target = CVX"/>
 	<purpose value="Based upon the 2015 Edition Certification Requirements, the NDC vaccine codes SHOULD be supported as translations to the CVX vaccine codes."/>

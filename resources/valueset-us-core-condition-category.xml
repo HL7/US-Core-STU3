@@ -4,7 +4,7 @@
 	<url value="http://hl7.org/fhir/us/core/ValueSet/us-core-condition-category"/>
 	<name value="US Core Condition Category Codes"/>
 	<status value="draft"/>
-	<publisher value="Health Level Seven International (US Realm Steering Committee)"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
 	<date value="2016-08-10"/>
 	<description value="The US core Condition Category Codes support the separate concepts of problems and health concerns in Condition.category in order for API consumers to be able to separate health concerns and problems. However this is not mandatory for 2015 certification"/>
 	<purpose value="So API consumers can separate health concerns and problems."/>

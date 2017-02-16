@@ -15,7 +15,7 @@
   <name value="US Core Procedure Codes"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <publisher value="Health Level Seven International (US Realm Steering Committee)"/>
+  <publisher value="HL7 US Realm Steering Committee"/>
   <contact>
     <telecom>
       <system value="other"/>
