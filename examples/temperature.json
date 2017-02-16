@@ -3,7 +3,7 @@
 	"id": "temperature",
 	"meta": {
 		"profile": [
-			"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
+			"http://hl7.org/fhir/StructureDefinition/vitalsigns"
 		]
 	},
 	"status": "final",
@@ -32,7 +32,7 @@
 		"display": "Amy Shaw"
 	},
 	"context": {
-		
+
 		"display": "GP Visit"
 	},
 	"effectiveDateTime": "1999-07-02",

@@ -13,7 +13,7 @@
 #### Summary of the Must Support Requirements
 
 1.  One date or period in `MedicationStatement.effectiveDateTime` or `MedicationStatment.effectivePeriod`
-1.  One or more references in `MedicationStatement.derivedFrom`
+1.  One or more references in `MedicationStatement.derivedFrom` (likely references would be to the [US Core MedicationRequest Profile](StructureDefinition-us-core-medicationrequest.html))
 
   [Medication Clinical Drug (RxNorm)]: ValueSet-us-core-medication-codes.html
   [MedicationStatusStatus]: http://build.fhir.org/valueset-medication-request-status.html
