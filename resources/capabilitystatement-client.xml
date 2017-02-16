@@ -4,7 +4,7 @@
 	<text>
 		<status value="generated"/>
 		<div xmlns="http://www.w3.org/1999/xhtml">
-			<span style="font-size:larger; font-weight:bold; ">US Core Client</span>
+			<span style="font-size:larger; font-weight:bold;">US Core Client</span>
 			<hr/>
 			<p>
 				<span>FHIR Version: </span>
@@ -26,7 +26,7 @@
 			</p>
 			<br/>
 			<h4>
-				<span style="font-size:larger; font-weight:bold; ">RESTful Behavior</span>
+				<span style="font-size:larger; font-weight:bold;">RESTful Behavior</span>
 			</h4>
 			<br/>
 			<hr/>
@@ -39,14 +39,14 @@
 				<span>Security: </span>    <p><strong>US Core  Servers SHALL</strong></p>   <ol>   <li>implement the <a href="http://hl7.org/fhir/us/core/security.html">security requirements</a>  documented in the US-Core IG.</li>  </ol>     </div>
 			<br/>
 			<h4>
-				<span style="font-weight:bold; ">Resource  Details:</span>
+				<span style="font-weight:bold;">Resource  Details:</span>
 			</h4>
 			<br/>
 			<ol>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="Patient">
-						<span style="font-weight:bold; ">Patient</span>
+						<span style="font-weight:bold;">Patient</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -61,9 +61,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="AllergyIntolerance">
-						<span style="font-weight:bold; ">AllergyIntolerance</span>
+						<span style="font-weight:bold;">AllergyIntolerance</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -78,9 +78,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="CarePlan">
-						<span style="font-weight:bold; ">CarePlan</span>
+						<span style="font-weight:bold;">CarePlan</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -95,9 +95,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="CareTeam">
-						<span style="font-weight:bold; ">CareTeam</span>
+						<span style="font-weight:bold;">CareTeam</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -112,9 +112,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="Condition">
-						<span style="font-weight:bold; ">Condition</span>
+						<span style="font-weight:bold;">Condition</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -129,9 +129,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="Device">
-						<span style="font-weight:bold; ">Device</span>
+						<span style="font-weight:bold;">Device</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -146,9 +146,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="Goal">
-						<span style="font-weight:bold; ">Goal</span>
+						<span style="font-weight:bold;">Goal</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -163,9 +163,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="Immunization">
-						<span style="font-weight:bold; ">Immunization</span>
+						<span style="font-weight:bold;">Immunization</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -180,9 +180,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="DiagnosticReport">
-						<span style="font-weight:bold; ">DiagnosticReport</span>
+						<span style="font-weight:bold;">DiagnosticReport</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -197,9 +197,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="Observation">
-						<span style="font-weight:bold; ">Observation</span>
+						<span style="font-weight:bold;">Observation</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -207,8 +207,9 @@
 							<span>US Core Result Observation Profile</span>
 							<br/>
 						</a>
-						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-vitalsigns.html">
-							<span>US Core Vital Signs Profile</span>
+						<a href="http://build.fhir.org/vitalsigns.html">
+							<span>Vital
+ Signs Profile</span>
 							<br/>
 						</a>
 						<a href="http://hl7.org/fhir/us/core/StructureDefinition-us-core-smokingstatus.html">
@@ -217,14 +218,15 @@
 						</a>
 						<br/>
 					</p>
-					<div>    <h4>Summary of US Core Search Criteria for StructureDefinition-us-core-observationresults</h4> <ul> <li>A client has connected to a server and fetched all of a patient's laboratory results by searching by category using GET [base]/Observation?patient=[id]&amp;category=laboratory.</li> <li>A client has connected to a server and fetched all of a patient's laboratory results searching by category code and date range using GET [base]/Observation?patient=[id]&amp;category=laboratory&amp;date=[date]{&amp;date=[date]}.</li> <li>A client has connected to a server and fetched all of all of a patient's laboratory results searching by category and code using GET [base]/Observation?patient=[id]&amp;category=laboratory&amp;code=[LOINC].</li> </ul> <ul> <li>A client <strong>SHOULD</strong> be capable of connecting to a server and fetching any of a patient's laboratory results searching by category and one or more codes and date range using GET [base]/Observation?patient=[id]&amp;category=laboratory&amp;code=[LOINC1{,LOINC2,LOINC3,...}]&amp;date=[date]{&amp;date=[date]}.</li> </ul> <h4>Summary of US Core Search Criteria for StructureDefinition-us-core-smokingstatus</h4> <ul> <li>A client has connected to a server and fetched a patient's smoking status using GET [base]/Observation?patient=[id]&amp;code=72166-2.</li> </ul> <h4>Summary of US Core Search Criteria for StructureDefinition-us-core-vitalsigns</h4> <ul> <li>A client has connected to a server and fetched all of a patient's vital signs by searching by category using GET [base]/Observation?patient=[id]&amp;category=vital-signs.</li> <li>A client has connected to a server and fetched all of a patient's vital signs searching by category code and date range using GET [base]/Observation?patient=[id]&amp;category=vital-signs&amp;date=[date]{&amp;date=[date]}.</li> <li>A client has connected to a server and fetched any of a patient's vital signs by searching by one or more of the codes listed below using GET [base]/Observation?patient=[id]&amp;code[vital sign LOINC{,LOINC2,LOINC3,...}].</li> </ul> <ul> <li>A client <strong>SHOULD</strong> be capable of connecting to a server and fetching any of a patient's vital signs searching by one or more of the codes listed below and date range using GET [base]/Observation?patient=[id]&amp;code=[LOINC{,LOINC2...}]vital-signs&amp;date=[date]{&amp;date=[date]}.</li> </ul>    </div>
+					<div>    <h4>Summary of US Core Search Criteria for StructureDefinition-us-core-observationresults</h4> <ul> <li>A client has connected to a server and fetched all of a patient's laboratory results by searching by category using GET [base]/Observation?patient=[id]&amp;category=laboratory.</li> <li>A client has connected to a server and fetched all of a patient's laboratory results searching by category code and date range using GET [base]/Observation?patient=[id]&amp;category=laboratory&amp;date=[date]{&amp;date=[date]}.</li> <li>A client has connected to a server and fetched all of all of a patient's laboratory results searching by category and code using GET [base]/Observation?patient=[id]&amp;category=laboratory&amp;code=[LOINC].</li> </ul> <ul> <li>A client <strong>SHOULD</strong> be capable of connecting to a server and fetching any of a patient's laboratory results searching by category and one or more codes and date range using GET [base]/Observation?patient=[id]&amp;category=laboratory&amp;code=[LOINC1{,LOINC2,LOINC3,...}]&amp;date=[date]{&amp;date=[date]}.</li> </ul> <h4>Summary of US Core Search Criteria for StructureDefinition-us-core-smokingstatus</h4> <ul> <li>A client has connected to a server and fetched a patient's smoking status using GET [base]/Observation?patient=[id]&amp;code=72166-2.</li> </ul> <h4>Summary of US Core Search Criteria for StructureDefinition-vitalsigns
+</h4> <ul> <li>A client has connected to a server and fetched all of a patient's vital signs by searching by category using GET [base]/Observation?patient=[id]&amp;category=vital-signs.</li> <li>A client has connected to a server and fetched all of a patient's vital signs searching by category code and date range using GET [base]/Observation?patient=[id]&amp;category=vital-signs&amp;date=[date]{&amp;date=[date]}.</li> <li>A client has connected to a server and fetched any of a patient's vital signs by searching by one or more of the codes listed below using GET [base]/Observation?patient=[id]&amp;code[vital sign LOINC{,LOINC2,LOINC3,...}].</li> </ul> <ul> <li>A client <strong>SHOULD</strong> be capable of connecting to a server and fetching any of a patient's vital signs searching by one or more of the codes listed below and date range using GET [base]/Observation?patient=[id]&amp;code=[LOINC{,LOINC2...}]vital-signs&amp;date=[date]{&amp;date=[date]}.</li> </ul>    </div>
 					<p/>
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="Location">
-						<span style="font-weight:bold; ">Location</span>
+						<span style="font-weight:bold;">Location</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -239,9 +241,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="Medication">
-						<span style="font-weight:bold; ">Medication</span>
+						<span style="font-weight:bold;">Medication</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -256,9 +258,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="MedicationStatement">
-						<span style="font-weight:bold; ">MedicationStatement</span>
+						<span style="font-weight:bold;">MedicationStatement</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -273,9 +275,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="MedicationRequest">
-						<span style="font-weight:bold; ">MedicationRequest</span>
+						<span style="font-weight:bold;">MedicationRequest</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -290,9 +292,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="Organization">
-						<span style="font-weight:bold; ">Organization</span>
+						<span style="font-weight:bold;">Organization</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -307,9 +309,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="Practitioner">
-						<span style="font-weight:bold; ">Practitioner</span>
+						<span style="font-weight:bold;">Practitioner</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -324,9 +326,9 @@
 					<hr/>
 				</li>
 				<li>
-					<span style="font-weight:bold; ">Resource Type: </span>
+					<span style="font-weight:bold;">Resource Type: </span>
 					<a name="Procedure">
-						<span style="font-weight:bold; ">Procedure</span>
+						<span style="font-weight:bold;">Procedure</span>
 					</a>
 					<p>
 						<span>Supported Profiles:  </span>
@@ -368,7 +370,7 @@
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-profile-link">
 			<valueCode value="AllergyIntolerance"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition-us-core-allergyintolerance.html"/>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"/>
 		<display value="US Core AllergyIntolerance Profile"/>
 	</profile>
 	<profile>
@@ -459,8 +461,10 @@
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-profile-link">
 			<valueCode value="Observation"/>
 		</extension>
-		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-vitalsigns"/>
-		<display value="US Core Vital Signs Profile"/>
+		<reference value="http://hl7.org/fhir/StructureDefinition/vitalsigns
+"/>
+		<display value="Vital
+ Signs Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-profile-link">
@@ -793,7 +797,8 @@
 		</resource>
 		<resource>
 			<type value="Observation"/>
-			<documentation value="    &lt;h4&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-observationresults&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;A client has connected to a server and fetched all of a patient's laboratory results by searching by category using GET [base]/Observation?patient=[id]&amp;amp;category=laboratory.&lt;/li&gt; &lt;li&gt;A client has connected to a server and fetched all of a patient's laboratory results searching by category code and date range using GET [base]/Observation?patient=[id]&amp;amp;category=laboratory&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/li&gt; &lt;li&gt;A client has connected to a server and fetched all of all of a patient's laboratory results searching by category and code using GET [base]/Observation?patient=[id]&amp;amp;category=laboratory&amp;amp;code=[LOINC].&lt;/li&gt; &lt;/ul&gt; &lt;ul&gt; &lt;li&gt;A client &lt;strong&gt;SHOULD&lt;/strong&gt; be capable of connecting to a server and fetching any of a patient's laboratory results searching by category and one or more codes and date range using GET [base]/Observation?patient=[id]&amp;amp;category=laboratory&amp;amp;code=[LOINC1{,LOINC2,LOINC3,...}]&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/li&gt; &lt;/ul&gt; &lt;h4&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-smokingstatus&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;A client has connected to a server and fetched a patient's smoking status using GET [base]/Observation?patient=[id]&amp;amp;code=72166-2.&lt;/li&gt; &lt;/ul&gt; &lt;h4&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-vitalsigns&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;A client has connected to a server and fetched all of a patient's vital signs by searching by category using GET [base]/Observation?patient=[id]&amp;amp;category=vital-signs.&lt;/li&gt; &lt;li&gt;A client has connected to a server and fetched all of a patient's vital signs searching by category code and date range using GET [base]/Observation?patient=[id]&amp;amp;category=vital-signs&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/li&gt; &lt;li&gt;A client has connected to a server and fetched any of a patient's vital signs by searching by one or more of the codes listed below using GET [base]/Observation?patient=[id]&amp;amp;code[vital sign LOINC{,LOINC2,LOINC3,...}].&lt;/li&gt; &lt;/ul&gt; &lt;ul&gt; &lt;li&gt;A client &lt;strong&gt;SHOULD&lt;/strong&gt; be capable of connecting to a server and fetching any of a patient's vital signs searching by one or more of the codes listed below and date range using GET [base]/Observation?patient=[id]&amp;amp;code=[LOINC{,LOINC2...}]vital-signs&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/li&gt; &lt;/ul&gt;    "/>
+			<documentation value="    &lt;h4&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-observationresults&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;A client has connected to a server and fetched all of a patient's laboratory results by searching by category using GET [base]/Observation?patient=[id]&amp;amp;category=laboratory.&lt;/li&gt; &lt;li&gt;A client has connected to a server and fetched all of a patient's laboratory results searching by category code and date range using GET [base]/Observation?patient=[id]&amp;amp;category=laboratory&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/li&gt; &lt;li&gt;A client has connected to a server and fetched all of all of a patient's laboratory results searching by category and code using GET [base]/Observation?patient=[id]&amp;amp;category=laboratory&amp;amp;code=[LOINC].&lt;/li&gt; &lt;/ul&gt; &lt;ul&gt; &lt;li&gt;A client &lt;strong&gt;SHOULD&lt;/strong&gt; be capable of connecting to a server and fetching any of a patient's laboratory results searching by category and one or more codes and date range using GET [base]/Observation?patient=[id]&amp;amp;category=laboratory&amp;amp;code=[LOINC1{,LOINC2,LOINC3,...}]&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/li&gt; &lt;/ul&gt; &lt;h4&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-smokingstatus&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;A client has connected to a server and fetched a patient's smoking status using GET [base]/Observation?patient=[id]&amp;amp;code=72166-2.&lt;/li&gt; &lt;/ul&gt; &lt;h4&gt;Summary of US Core Search Criteria for StructureDefinition-vitalsigns
+&lt;/h4&gt; &lt;ul&gt; &lt;li&gt;A client has connected to a server and fetched all of a patient's vital signs by searching by category using GET [base]/Observation?patient=[id]&amp;amp;category=vital-signs.&lt;/li&gt; &lt;li&gt;A client has connected to a server and fetched all of a patient's vital signs searching by category code and date range using GET [base]/Observation?patient=[id]&amp;amp;category=vital-signs&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/li&gt; &lt;li&gt;A client has connected to a server and fetched any of a patient's vital signs by searching by one or more of the codes listed below using GET [base]/Observation?patient=[id]&amp;amp;code[vital sign LOINC{,LOINC2,LOINC3,...}].&lt;/li&gt; &lt;/ul&gt; &lt;ul&gt; &lt;li&gt;A client &lt;strong&gt;SHOULD&lt;/strong&gt; be capable of connecting to a server and fetching any of a patient's vital signs searching by one or more of the codes listed below and date range using GET [base]/Observation?patient=[id]&amp;amp;code=[LOINC{,LOINC2...}]vital-signs&amp;amp;date=[date]{&amp;amp;date=[date]}.&lt;/li&gt; &lt;/ul&gt;    "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHOULD"/>
