@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The data elements, extension, and terminology used in the US Core Implemenation Guide are based upon [ONC 2015 Edition Common Clinical Data Set (CCDS)] as well as essential administrative and conformance requirements.   These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [ONC] sponsored [Data Access Framework (DAF)] project and were subsequently updated to define the minimum mandatory conformance requirements needed for accessing patient data as defined by the [Argonaut] pilot implementations.  In addition to Argonaut, these profiles are used by the [DAF-Research], [QI-Core], and [CIMI] and are intended to be a common core for other US Realm guides.
+The data elements, extension, and terminology used in the *US Core Implemenation Guide* Version 1.0.0 are based upon FHIR STU3 API. These requirements were Originally developed, balloted, and published in FHIR DSTU2 as part of the [ONC] sponsored [Data Access Framework (DAF)] project. THey were subsequently updated to define the minimum mandatory conformance requirements needed for accessing patient data as defined by the [Argonaut] pilot implementations and to meet the [ONC 2015 Edition Common Clinical Data Set (CCDS)] as well as essential administrative and conformance requirements.  In addition to Argonaut, these profiles are used by the [DAF-Research], [QI-Core], and [CIMI] and are intended to be a common core for other US Realm guides.
 
 ## US Core Actors
 
