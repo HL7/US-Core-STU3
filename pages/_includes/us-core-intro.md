@@ -17,6 +17,7 @@ The following actors are part of the US Core IG.
 The list of US Core Profiles is shown below.  Each profile defines the minimum mandatory elements, extensions and terminology requirements that **MUST** be present. For each profile requirements and guidance are given in a simple narrative summary. A formal hierarchical table that presents a [logical view] of the content in both a differential and snapshot view is also provided along with references to appropriate terminologies and examples.  In addition each profile has a "Quick Start" section which is intended as an implementer friendly overview of the required search and read operations.
 
 {% include list-simple-profiles.xhtml %}
+- [Vitals Signs Profile](us-core-vitalsigns.html) (From FHIR Core Profiles for Observation)
 
 *Note on Searches based on a date or date range:*
 
@@ -44,7 +45,7 @@ No| CCDS Data Element | US Core Profile | FHIR Resource
 (10) |  Medication allergies | US Core Allergies Profile | AllergyIntolerance
 (11) |  Laboratory test(s) | US Core Result Observation Profile, US Core Diagnostic Report Profile| Observation, DiagnosticReport
 (12) |  Laboratory value(s)/result(s) |  US Core Result Observation Profile, US Core Diagnostic Report Profile | Observation, DiagnosticReport
-(13) |  Vital signs | US Core Vital Signs Profile | Observation
+(13) |  Vital signs | Vital Signs Profile(From FHIR Core Profiles for Observation) | Observation
 (14) |  (no longer required) | -
 (15) |  Procedures | US Core Procedure Profile | Procedure
 (16) |  Care team member(s) | US Core CareTeam Profile | CareTeam

@@ -239,5 +239,5 @@ In order to manage the number of search results returned, the server may choose 
   [FHIR Conformance Rules]: http://build.fhir.org/conformance-rules.html
 [Quantity]: http://build.fhir.org/datatypes.html#quantity
 [UCUM]: http://unitsofmeasure.org
-[US Core Result Observation Profile]:StructureDefinition-us-core-observationresults.html
-[US Core Vital Signs Profile]:StructureDefinition-us-core-vitalsigns.html
+[US Core Result Observation Profile]: StructureDefinition-us-core-observationresults.html
+[Vital Signs Profile]: http://build.fhir.org/vitalsigns.html
