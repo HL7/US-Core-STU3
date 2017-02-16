@@ -22,7 +22,7 @@
 			{
 				"system": "http://loinc.org",
 				"code": "8306-3",
-				"display": "Body height--lying"
+				"display": "Body height --lying"
 			}
 		],
 		"text": "length"

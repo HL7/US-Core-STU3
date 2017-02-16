@@ -22,7 +22,7 @@
 			{
 				"system": "http://loinc.org",
 				"code": "8287-5",
-				"display": "head_circumference"
+				"display": "Head Occipital-frontal circumference by Tape measure"
 			}
 		],
 		"text": "head_circumference"
