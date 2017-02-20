@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="us-core-problem"/>
-  <meta>
+	<id value="us-core-problem"/>
+	<meta>
     <lastUpdated value="2016-05-25T16:59:08.250+10:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
   </meta>
-  <text>
+	<text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
       <h2>Problem Value Set</h2>
-      <p>This describes the problem. Diagnosis/Problem List is broadly defined as a series of brief statements that catalog a patient&#39;s medical, nursing, dental, social, preventative and psychiatric events and issues that are relevant to that patient&#39;s healthcare (e.g., signs, symptoms, and defined conditions)</p>
+      <p>This describes the problem. Diagnosis/Problem List is broadly defined as a series of brief statements that catalog a patient's medical, nursing, dental, social, preventative and psychiatric events and issues that are relevant to that patient's healthcare (e.g., signs, symptoms, and defined conditions)</p>
       <p>
         <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement
       </p>
@@ -22,26 +21,26 @@
       </ul>
     </div>
   </text>
-  <url value="http://hl7.org/fhir/us/core/ValueSet/us-core-problem"/>
-  <identifier>
+	<url value="http://hl7.org/fhir/us/core/ValueSet/us-core-problem"/>
+	<identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.3.88.12.3221.7.4"/>
   </identifier>
-  <version value="1.6.0"/>
-  <name value="Problem Value Set"/>
-  <status value="active"/>
-  <experimental value="true"/>
-  <publisher value="HL7 US Realm Steering Committee"/>
-  <contact>
+	<version value="1.6.0"/>
+	<name value="Problem Value Set"/>
+	<status value="active"/>
+	<experimental value="true"/>
+	<date value="2016-05-25T16:59:08+10:00"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
     <telecom>
       <system value="other"/>
       <value value="http://phinvads.cdc.gov/vads/ViewValueSet.action?oid=2.16.840.1.113883.3.88.12.3221.7.4"/>
     </telecom>
   </contact>
-  <date value="2016-05-25T16:59:08+10:00"/>
-  <description value="This describes the problem. Diagnosis/Problem List is broadly defined as a series of brief statements that catalog a patient&#39;s medical, nursing, dental, social, preventative and psychiatric events and issues that are relevant to that patient&#39;s healthcare (e.g., signs, symptoms, and defined conditions)"/>
-  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
-  <compose>
+	<description value="This describes the problem. Diagnosis/Problem List is broadly defined as a series of brief statements that catalog a patient's medical, nursing, dental, social, preventative and psychiatric events and issues that are relevant to that patient's healthcare (e.g., signs, symptoms, and defined conditions)"/>
+	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+	<compose>
     <include>
       <system value="http://snomed.info/sct"/>
       <concept>

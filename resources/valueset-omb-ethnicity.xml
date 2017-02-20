@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ValueSet xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://hl7.org/fhir">
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<id value="omb-ethnicity"/>
 	<url value="http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity"/>
 	<name value="OMB Ethnicity Categories"/>
 	<status value="draft"/>
-	<publisher value="HL7 US Realm Steering Committee"/>
 	<date value="2016-08-30"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
 	<description value="The codes for the ethnicity categories - 'Hispanic or Latino' and 'Non Hispanic or Latino' - as defined by the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
 	<compose>
 		<include>

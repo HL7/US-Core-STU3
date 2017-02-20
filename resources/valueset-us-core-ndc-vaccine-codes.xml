@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ValueSet xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://hl7.org/fhir">
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<id value="us-core-ndc-vaccine-codes"/>
 	<url value="http://hl7.org/fhir/us/core/ValueSet/us-core-ndc-vaccine-codes"/>
 	<name value="Vaccine National Drug Code (NDC)"/>
 	<status value="draft"/>
-	<publisher value="HL7 US Realm Steering Committee"/>
 	<date value="2016-08-10"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
 	<description value="This value set includes all the Vaccine National Drug Codes (NDC).  This source of this data is provided by the [CDC] (https://www2a.cdc.gov/vaccines/iis/iisstandards/ndc_crosswalk.asp)"/>
 	<purpose value="Codes that are used as translations for CVS code for implementation of the Argonaut Immunization IG and MU2015 certification."/>
 	<compose>

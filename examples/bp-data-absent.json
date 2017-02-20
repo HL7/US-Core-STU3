@@ -21,8 +21,8 @@
 		"coding": [
 			{
 				"system": "http://loinc.org",
-				"code": "55284-4",
-				"display": "Blood pressure systolic and diastolic"
+				"code": "85354-9",
+				"display": "Blood pressure panel with all children optional"
 			}
 		],
 		"text": "Blood pressure systolic and diastolic"

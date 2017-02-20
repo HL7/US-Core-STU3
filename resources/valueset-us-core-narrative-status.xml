@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="us-core-narrative-status"/>
-
-  <url value="http://hl7.org/fhir/us/core/ValueSet/us-core-narrative-status"/>
-  <name value="Narrative Status"/>
-  <status value="draft"/>
-  <publisher value="HL7 US Realm Steering Committee"/>
-  <contact>
+	<id value="us-core-narrative-status"/>
+	<url value="http://hl7.org/fhir/us/core/ValueSet/us-core-narrative-status"/>
+	<name value="Narrative Status"/>
+	<status value="draft"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
     <telecom>
       <system value="other"/>
       <value value="http://hl7.org/fhir"/>
     </telecom>
   </contact>
-  <description value="This value set limits the text status for the resource narrative."/>
-  <copyright value="HL7"/>
-  <compose>
+	<description value="This value set limits the text status for the resource narrative."/>
+	<copyright value="HL7"/>
+	<compose>
     <include>
       <system value="http://hl7.org/fhir/narrative-status"/>
       <concept>

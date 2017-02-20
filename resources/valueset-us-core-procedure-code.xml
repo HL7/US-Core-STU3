@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="us-core-procedure-code"/>
-  <meta>
+	<id value="us-core-procedure-code"/>
+	<meta>
     <lastUpdated value="2016-05-25T16:59:08.250+10:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
   </meta>
-  <url value="http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-code"/>
-  <identifier>
+	<url value="http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-code"/>
+	<identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.2.607"/>
   </identifier>
-  <version value="1.6.0"/>
-  <name value="US Core Procedure Codes"/>
-  <status value="draft"/>
-  <experimental value="true"/>
-  <publisher value="HL7 US Realm Steering Committee"/>
-  <contact>
+	<version value="1.6.0"/>
+	<name value="US Core Procedure Codes"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2016-05-25T16:59:08+10:00"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
     <telecom>
       <system value="other"/>
       <value value="http://hl7.org/fhir"/>
     </telecom>
   </contact>
-  <date value="2016-05-25T16:59:08+10:00"/>
-  <description value="This example value set defines a set of codes that can be used to indicate the type of procedure: a specific code indicating type of procedure performed, from CPT or SNOMED CT."/>
-  <copyright value="CPT copyright 2014 American Medical Association. All rights reserved. This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
-  <compose>
+	<description value="This example value set defines a set of codes that can be used to indicate the type of procedure: a specific code indicating type of procedure performed, from CPT or SNOMED CT."/>
+	<copyright value="CPT copyright 2014 American Medical Association. All rights reserved. This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+	<compose>
     <include>
       <system value="http://www.ama-assn.org/go/cpt"/>
     </include>
@@ -42,5 +41,4 @@
       <system value="http://www.icd10data.com/icd10pcs"/>
     </include>
 -->
-  </compose>
-</ValueSet>
+  </compose></ValueSet>
