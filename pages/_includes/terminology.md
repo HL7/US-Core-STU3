@@ -24,7 +24,14 @@ See the [FHIR terminology section](http://build.fhir.org/terminologies-systems.h
 
 |URI|Source|Comment|OID (for non-FHIR systems)
 |---|---|---|---|
-|http://snomed.info/sct|SNOMED CT (IHTSDO)|See Using SNOMED CT with FHIR|2.16.840.1.113883.6.96
+|`http://hl7.org/fhir/sid/icd-10-cm`|[CMS](http://www.cms.gov/Medicare/Coding/ICD10/)|*International Classification of Diseases, 10th Revision, Clinical Modification (ICD-10-CM)* -  See [Using ICD-[X] with FHIR](http://build.fhir.org/icd.html#4.2.11).|2.16.840.1.113883.6.90
+|`http://www.icd10data.com/icd10pcs`|[CMS](http://www.cms.gov/Medicare/Coding/ICD10/)|*International Classification of Diseases, 10th Revision, Procedure Coding System (ICD-10-PCS)* -  See [ICD-10 PCS Codes](http://www.icd10data.com/icd10pcs) for online access to codes for general information purposes. |2.16.840.1.113883.6.4
+|`http://hl7.org/fhir/us/sid/cdt`|[ADA](http://www.ada.org/en/publications/cdt)|*Code on Dental Procedures and Nomenclature*|2.16.840.1.113883.6.13
+|`http://www.cdc.gov/phin/resources/vocabulary/index.html`|[CDC](https://www.cdc.gov/phin/resources/vocabulary/index.html)|*Race & Ethnicity - CDC* - See [CDC Race and Ethnicity Code Set Version 1.0](https://www.cdc.gov/phin/resources/vocabulary/documents/cdc-race--ethnicity-background-and-purpose.pdf).|2.16.840.1.113883.6.238
+|`urn:oid:2.16.840.1.113883.6.316`|IETF language|*Tags for Identifying Languages - RFC5646* -  See [RFC 5646](http://www.rfc-editor.org/info/rfc5646).|2.16.840.1.113883.6.316
+
+<p>
+</p>
 
 #### ConceptMaps
 
