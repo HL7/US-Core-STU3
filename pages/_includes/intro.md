@@ -2,7 +2,9 @@
 
 ## Introduction
 
-The data elements, extension, and terminology used in the *US Core Implemenation Guide* Version 1.0.0 are based upon FHIR STU3 API. These requirements were Originally developed, balloted, and published in FHIR DSTU2 as part of the [ONC] sponsored [Data Access Framework (DAF)] project. THey were subsequently updated to define the minimum mandatory conformance requirements needed for accessing patient data as defined by the [Argonaut] pilot implementations and to meet the [ONC 2015 Edition Common Clinical Data Set (CCDS)] as well as essential administrative and conformance requirements.  In addition to Argonaut, these profiles are used by the [DAF-Research], [QI-Core], and [CIMI] and are intended to be a common core for other US Realm guides.
+The data elements, extension, and terminology used in the *US Core Implemenation Guide* Version 1.0.0 are based upon FHIR STU3 API. These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [ONC] sponsored [Data Access Framework (DAF)] project. They were subsequently updated to define the minimum mandatory conformance requirements needed for accessing patient data as defined by the [Argonaut] pilot implementations and to meet the [ONC 2015 Edition Common Clinical Data Set (CCDS)] as well as essential administrative and conformance requirements.  In addition to Argonaut, these profiles are used by the [DAF-Research], [QI-Core], and [CIMI] and are intended to be a common core set of profiles for other US Realm guides.
+
+ <p style="color:red">(add something about expectation to expand and move beyond DAF and CCDS)</p>
 
 ## US Core Actors
 
@@ -40,13 +42,10 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [QI-Core]:https://oncprojectracking.healthit.gov/wiki/display/TechLabSC/CQF+Home
 [CIMI]:http://www.opencimi.org
 [Argonaut]: http://argonautwiki.hl7.org/index.php?title=Main_Page
-[US Core]: US Core.html
-[US Core]: US Core.html
-[US Core-Research]: US Core-research.html
+[DAF-Research]: http://hl7.org/fhir/us/daf-research/index.html
 [US Core Security]: US Core-security.html
 [ONC]: http://www.healthit.gov/newsroom/about-onc
 [Data Access Framework (DAF)]: http://wiki.siframework.org/Data+Access+Framework+Homepage
-[PCORnet]: http://www.pcornet.org/
 [Argonaut]: http://argonautwiki.hl7.org/index.php?title=Main_Page
 [ONC 2015 Edition Common Clinical Data Set (CCDS)]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf
 [profiles]: http://build.fhir.orgprofiling.html

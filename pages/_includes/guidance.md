@@ -5,9 +5,12 @@
 This section outlines important definitions and interpretations used in the US-Core IG.
 The conformance verbs used are defined in [FHIR Conformance Rules].
 
+* TOC
+{:toc}
+
 ### 2015 Edition Common Clinical Data Set
 
-The US Core Profiles are intended to meet the 2015 Edition certification criterion for Patient Selection 170.315(g)(7) and Application Access – Data Category Request 170.315(g)(8). They were created for each of the 2015 Edition Common Clinical Data Set.  The Location, Organization and Practitioner Profiles are not called out specifically in the certification criteria but are included because they are directly referenced by other profiles.  Where applicable the US Core Profiles are based on the HL7 U.S. Data Access Framework ([DAF]) FHIR DSTU2 Implementation Guide. However, the requirements per resource are a subset of those of the DAF implementation guide.
+The US Core Profiles are intended to meet the 2015 Edition certification criterion for Patient Selection 170.315(g)(7) and Application Access – Data Category Request 170.315(g)(8). They were created for each of the 2015 Edition Common Clinical Data Set.  The Location, Organization and Practitioner Profiles are not called out specifically in the certification criteria but are included because they are directly referenced by other profiles.  Where applicable the US Core Profiles are based on the HL7 U.S. [Data Access Framework (DAF)] FHIR DSTU2 Implementation Guide. However, the requirements per resource are a subset of those of the DAF implementation guide.
 
 
 The table below lists the US Core Profile and FHIR Resources used for the corresponding 2015 Edition Common Clinical Data Set (CCDS) Data elements:
@@ -273,3 +276,4 @@ In order to manage the number of search results returned, the server may choose 
 [UCUM]: http://unitsofmeasure.org
 [US Core Result Observation Profile]: StructureDefinition-us-core-observationresults.html
 [Vital Signs Profile]: http://build.fhir.org/vitalsigns.html
+[Data Access Framework (DAF)]: http://wiki.siframework.org/Data+Access+Framework+Homepage
