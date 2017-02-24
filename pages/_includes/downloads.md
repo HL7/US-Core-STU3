@@ -15,7 +15,6 @@ These files should be the first choice whenever generating any implementation ar
 
 **Schematrons** are also available and listed below:
 
-
 - [us-core-allergyintolerance](us-core-allergyintolerance.sch)
 - [us-core-birthsex](us-core-birthsex.sch)
 - [us-core-careplan](us-core-careplan.sch)

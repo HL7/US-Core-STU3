@@ -26,12 +26,13 @@ In the context of US-Core, *Must Support* on any data element SHALL be interpret
 
 Many of the profiles in this guide [reference](http://build.fhir.org/references.html) other FHIR resources that are also US-Core profiles.  This is defined in the formal profile definitions.  For example [US Core Careteam](StructureDefinition-us-core-careteam.html#profile) references US Core Patient.  For any other references not formally defined in a US-Core profiles, the referenced resource SHOULD be a US-Core profile if a US Core profile exists for the resource type.  For example, although `Condition.asserter` is not constrained by this guide, the reference to Patient should be a valid US-Core Patient.
 
+### Using Codes in US Core profiles
 
-### Extensible binding for CodeableConcept Datatype
+#### Extensible binding for CodeableConcept Datatype
 
 Extensible binding to a value set definition for this IG means that if the data type is CodeableConcept, then one of the coding values SHALL be from the specified value set if a code applies, but if no suitable code exists in the value set, alternate code(s) may be provided in its place. If only text available, then just text may be used.
 
-### Extensible + Max-ValueSet binding for CodeableConcept Datatype
+#### Extensible + Max-ValueSet binding for CodeableConcept Datatype
 
 For this IG, we have defined the Extensible + Max-ValueSet binding to allow for either a code from the defined value set or text if the code is not available.  (for example, legacy data). This means,unlike a regular extensible binding, alternate code(s) are not permitted and a text value SHALL be supplied if the code is not available.  However, multiple codings (translations) are allowed as is discussed below.
 
@@ -47,7 +48,7 @@ Example: Immunization resource vaccineCode's CVX coding - the source only has th
     }
 
 
-### Required binding for Code Datatype
+#### Required binding for Code Datatype
 
 Required binding to a value set definition for this IG means that one of the codes from the specified value set SHALL be used. If only text is available or the local (proprietary, system) cannot be mapped to one of the required codes the The [core specification] provides guidance which we have summarized:
 
@@ -69,12 +70,12 @@ Example: AllergyIntolerance resource with a status that is text only or cannot b
       },
      }
 
-### Required binding for CodeableConcept Datatype
+#### Required binding for CodeableConcept Datatype
 
 Required binding to a value set definition means that one of the codes from the specified value set SHALL be used and using only text is not valid. In this IG, we have defined the Extensible + Max-ValueSet binding to allow for either a code from the specified value set or text. Multiple codings (translations) are permitted as is discussed below.
 
 
-### Using multiple codes with CodeableConcept Datatype
+#### Using multiple codes with CodeableConcept Datatype
 
 Atlernate codes may be provided in addition to the standards codes defined in required or extensible value sets. The alternate codes are called “translations”. These translations may be equivalent to or narrower in meaning to the standard concept code.
 
@@ -130,9 +131,9 @@ Example of translation of NDC vaccine code to CVX code.
         ]
       },
 
-###  Using UCUM in the [Quantity] datatype
+####  Using UCUM codes in the [Quantity] datatype
 
-Both the [US Core Vital Signs Profile] and [US Core Result Observation Profile] valueQuantity datatypes are bound to the [UCUM] code system.  This guidance specifies how to represent the Quantity datatype when the correct UCUM units are missing or the units are missing altogether which will likely occur in the real world.  
+Both the [US Core Vital Signs Profile] and [US Core Result Observation Profile] bind the `valueQuantity` datatypes to the [UCUM] code system.  This guidance specifies how to represent the Quantity datatype when the correct UCUM units are missing or the units are missing altogether which will likely occur in the real world.  
 
 **UCUM code provided**
 
