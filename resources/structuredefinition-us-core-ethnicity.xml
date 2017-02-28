@@ -211,7 +211,7 @@
 				<strength value="required"/>
 				<description value="The 2 ethnicity category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
 				<valueSetReference>
-					<reference value="http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity"/>
+					<reference value="http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity-category"/>
 				</valueSetReference>
 			</binding>
 			<mapping>
@@ -633,7 +633,7 @@
 				<strength value="required"/>
 				<description value="The 2 ethnicity category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards)."/>
 				<valueSetReference>
-					<reference value="http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity"/>
+					<reference value="http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity-category"/>
 				</valueSetReference>
 			</binding>
 		</element>

@@ -9056,7 +9056,7 @@
     <Cell ss:StyleID="s138"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">extensible</Data></Cell>
     <Cell ss:StyleID="s138"/>
-    <Cell ss:StyleID="s138"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/omb-race</Data></Cell>
+    <Cell ss:StyleID="s138"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/omb-race-category</Data></Cell>
     <Cell ss:StyleID="s138"/>
     <Cell ss:StyleID="s138"/>
     <Cell ss:StyleID="s138"/>
@@ -9088,7 +9088,7 @@
     <Cell ss:StyleID="s138"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">extensible</Data></Cell>
     <Cell ss:StyleID="s138"/>
-    <Cell ss:StyleID="s138"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity</Data></Cell>
+    <Cell ss:StyleID="s138"><Data ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity-category</Data></Cell>
     <Cell ss:StyleID="s138"/>
     <Cell ss:StyleID="s138"/>
     <Cell ss:StyleID="s138"/>

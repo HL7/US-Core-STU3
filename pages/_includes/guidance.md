@@ -5,7 +5,7 @@
 This section outlines important definitions and interpretations used in the US-Core IG.
 The conformance verbs used are defined in [FHIR Conformance Rules].
 
-**Contents**
+** Page Contents:**
 
 * TOC
 {:toc}
@@ -169,7 +169,7 @@ Example of translation of NDC vaccine code to CVX code.
 
 ####  Using UCUM codes in the [Quantity] datatype
 
-Both the [US Core Vital Signs Profile] and [US Core Result Observation Profile] bind the `valueQuantity` datatypes to the [UCUM] code system.  This guidance specifies how to represent the Quantity datatype when the correct UCUM units are missing or the units are missing altogether which will likely occur in the real world.  
+Both the [Vital Signs Profile] and [US Core Result Observation Profile] bind the `valueQuantity` datatypes to the [UCUM] code system.  A FHIR [UCUM Codes value set] that defines all UCUM codes is in the FHIR specification. This guidance specifies how to represent the Quantity datatype when the correct UCUM units are missing or the units are missing altogether which will likely occur in the real world.  
 
 **UCUM code provided**
 
@@ -279,3 +279,4 @@ In order to manage the number of search results returned, the server may choose 
 [US Core Result Observation Profile]: StructureDefinition-us-core-observationresults.html
 [Vital Signs Profile]: http://build.fhir.org/vitalsigns.html
 [Data Access Framework (DAF)]: http://wiki.siframework.org/Data+Access+Framework+Homepage
+[UCUM Codes value set]: http://build.fhir.org/valueset-ucum-units.html

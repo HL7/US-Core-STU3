@@ -41,9 +41,9 @@ Additionally your system must Support:
   [US Core Patient Birth Sex]:StructureDefinition-us-core-birthsex.html
   [US Core Birth Sex]: ValueSet-us-core-birthsex.html
   [US Core Patient Race]: StructureDefinition-us-core-race.html
-  [OMB Race Categories]: ValueSet-omb-race.html
+  [OMB Race Categories]: ValueSet-omb-race-category.html
   [US Core Race Extension]:StructureDefinition-us-core-race.html
   [CDC Race Codes]:ValueSet-detailed-race.html
  [CDC Ethnicity Codes]: ValueSet-detailed-ethnicity.html
  [US Core ethnicity Extension]:StructureDefinition-us-core-ethnicity.html
- [OMB Ethnicity Categories]: ValueSet-omb-ethnicity.html
+ [OMB Ethnicity Categories]: ValueSet-omb-ethnicity-category.html
