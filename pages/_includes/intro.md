@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The data elements, extension, and terminology used in the *US Core Implemenation Guide* Version 1.0.0 are based upon FHIR STU3 API. These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [ONC] sponsored [Data Access Framework (DAF)] project. They were subsequently updated to define the minimum mandatory conformance requirements needed for accessing patient data as defined by the [Argonaut] pilot implementations and to meet the [ONC 2015 Edition Common Clinical Data Set (CCDS)] as well as essential administrative and conformance requirements.  In addition to Argonaut, these profiles are used by the [DAF-Research], [QI-Core], and [CIMI] and are intended to be a common core set of profiles for other US Realm guides.
+The *US Core Implementation Guide* version 1.0.0 defines the minimum conformance requirements for accessing patient data as defined by the [Argonaut] pilot implementations and the [ONC 2015 Edition Common Clinical Data Set (CCDS)]. These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [ONC] sponsored [Data Access Framework (DAF)] project. In addition to Argonaut, these profiles are used by [DAF-Research], [QI-Core], and [CIMI], and are intended to be the foundation for future US Realm guides.
 
- <p style="color:red">(add something about expectation to expand and move beyond DAF and CCDS)</p>
+US Core version 1.0.0 is based on the FHIR STU3. HL7 will expand and publish future versions of US Core under the guidance of the HL7 US Realm Steering Committee. 
 
 ## US Core Actors
 
@@ -26,7 +26,7 @@ The list of US Core Profiles is shown below.  Each profile defines the minimum m
 - Allergies, Immunizations, Medications, Problems and Health Concerns, UDI, Smoking Status do not require a date range search since a system should return all relevant resources.
 - Date range search requirements are included in the Quick Start section for the following resources - Vital Signs, Laboratory Results, Goals, Procedures, and Assessment and Plan of Treatment.
 
-See [General Guidance] for a mapping to the CCDS.
+See [2015 Edition Common Clinical Data Set] for a mapping to the CCDS.
 
 {% capture my-include %}{% include conformance.md %}{% endcapture %}{{ my-include | markdownify }}
 
@@ -63,4 +63,4 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [FHIR Data Types]: http://build.fhir.orgdatatypes.html
 [FHIR Search]: http://build.fhir.orgsearch.html
 [FHIR Resource]: http://build.fhir.orgformats.html
-[General Guidance]: guidance.html
+[2015 Edition Common Clinical Data Set]: file:///C:/US-Core/output/guidance.html#edition-common-clinical-data-set
