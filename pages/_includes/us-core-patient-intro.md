@@ -28,7 +28,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 In addition, based upon the 2015 Edition Certification Requirements, the following data-elements must be supported.
 
-'''If the data is present, Patient shall include:'''
+**If the data is available Patient shall include:**
 
 1. a birth date
 1. a communication language
