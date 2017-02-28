@@ -8,11 +8,16 @@
 	<publisher value="HL7 US Realm Steering Committee"/>
 	<description value="The 900+ [CDC Race codes](http://www.cdc.gov/phin/resources/vocabulary/index.html) that are grouped under one of the 5 OMB race category codes."/>
 	<compose>
-	<include>
-		<valueSet value="http://hl7.org/fhir/ValueSet/v3-Race"/>
-	</include>
+		<include>
+			<system value="uri:oid:2.16.840.1.113883.6.238"/>
+			<filter>
+				<property value="concept"/>
+				<op value="is-a"/>
+				<value value="1000-9"/>
+			</filter>
+		</include>
 		<exclude>
-			<system value="http://hl7.org/fhir/v3/Race"/>
+			<system value="uri:oid:2.16.840.1.113883.6.238"/>
 			<concept>
 				<code value="1002-5"/>
 			</concept>

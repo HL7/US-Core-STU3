@@ -24,7 +24,7 @@
 	<version value="1.6.0"/>
 	<name value="Medication Clinical Drug (RxNorm)"/>
 	<status value="draft"/>
-	<experimental value="true"/>
+	
 	<date value="2016-05-25T16:59:08+10:00"/>
 	<publisher value="HL7 US Realm Steering Committee"/>
 	<contact>

@@ -5,7 +5,7 @@
 	<url value="http://hl7.org/fhir/us/core/SearchParameter/us-core-race"/>
 	<name value="USCoreRace"/>
 	<status value="draft"/>
-	<experimental value="true"/>
+	
 	<date value="2016-12-22"></date>
   <publisher value="US Realm Steering Committee"/>
   <contact>

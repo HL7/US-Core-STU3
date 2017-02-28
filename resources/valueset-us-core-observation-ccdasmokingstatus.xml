@@ -13,7 +13,7 @@
 	<version value="1.6.0"/>
 	<name value="Smoking Status"/>
 	<status value="active"/>
-	<experimental value="true"/>
+	
 	<date value="2016-08-10"/>
 	<publisher value="HL7 US Realm Steering Committee"/>
 	<contact>
