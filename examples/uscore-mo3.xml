@@ -13,12 +13,12 @@
 			<MedicationRequest xmlns="http://hl7.org/fhir">
 				<id value="uscore-mo3"/>
 				<meta>
-      		<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+					<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
 				</meta>
 				<!-- this is an example using an external reference to a medication resource
  -->
 				<status value="active"/>
-	<intent value="order"/>
+				<intent value="order"/>
 				<!--  either a code or a reference to the medication being prescribed. As described earlier, this could be contained, separately    within a bundle or simply a reference to a remote server. -->
 				<medicationReference>
 					<reference value="Medication/uscore-med2"/>
@@ -29,10 +29,12 @@
 					<display value="Amy Shaw"/>
 				</subject>
 				<authoredOn value="2008-04-05"/>
-				<requester><agent>
-					<reference value="Practitioner/practitioner-1"/>
-					<display value="Ronald Bone, MD"/>
-				</agent></requester>
+				<requester>
+					<agent>
+						<reference value="Practitioner/practitioner-1"/>
+						<display value="Ronald Bone, MD"/>
+					</agent>
+				</requester>
 			</MedicationRequest>
 		</resource>
 		<search>
@@ -47,6 +49,7 @@
 				<meta>
 					<versionId value="1"/>
 					<lastUpdated value="2016-11-29T19:45:46Z"/>
+					<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
 				</meta>
 				<code>
 					<coding>
