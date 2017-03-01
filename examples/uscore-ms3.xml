@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Bundle xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://build.fhir.org/device.xsd">
+<Bundle xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://build.fhir.org/codesystem.xsd">
 	<id value="uscore-ms3"/>
+	<meta>
+		<lastUpdated value="2017-03-01T17:46:08.490-05:00"/>
+	</meta>
 	<type value="searchset"/>
 	<total value="1"/>
 	<link>
 		<relation value="self"/>
-		<url value="http://fhir3.healthintersections.com.au/open/MedicationStatement?search-id=8b934668-fc67-4f1a-b991-0dfd10d178&amp;&amp;_id=ms3&amp;_include=MedicationStatement%3Amedication&amp;_sort=_id"/>
+		<url value="http://fhirtest.uhn.ca/baseDstu3/MedicationStatement?_id=uscore-ms3&amp;_include=MedicationStatement%3Amedication"/>
 	</link>
 	<entry>
 		<fullUrl value="http://fhir3.healthintersections.com.au/open/MedicationStatement/uscore-ms3"/>
@@ -45,7 +48,7 @@
 			<Medication xmlns="http://hl7.org/fhir">
 				<id value="uscore-med2"/>
 				<meta>
-					<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement"/>
+					<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
 				</meta>
 				<code>
 					<coding>
