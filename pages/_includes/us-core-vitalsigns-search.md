@@ -1,11 +1,7 @@
 
 `GET [base]/Observation?patient=[id]&category=vital-signs`
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&category=vital-signs](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&category=vital-signs)
-
-
+**Example:** GET [base]/Observation?patient=1186747&category=vital-signs
 
 *Support:*  Mandatory to support search by category code.
 
@@ -23,14 +19,13 @@
 `GET [base]/Observation?patient=[id]&code=[vital sign LOINC{,LOINC2,LOINC3,...}]`
 
 **Example:**
-Search for all heart rate observations for a patient:
 
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&code=8867-4](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&code=8867-4)
+- Search for all heart rate observations for a patient:
+  - GET [base]/Observation?patient=1186747&code=8867-4
 
-**Example:**
-Search for all heart rate, respiratory rate and blood pressure observations for a patient
 
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&code=8867-4,9279-1,55284-4](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1186747&code=8867-4,9279-1,55284-4)
+- Search for all heart rate, respiratory rate and blood pressure observations for a patient
+  - GET [base]/Observation?patient=1186747&code=8867-4,9279-1,55284-4
 
 *Support:*  Mandatory to support search by vital sign LOINC(s) listed above.
 
@@ -49,9 +44,9 @@ Search for all heart rate, respiratory rate and blood pressure observations for 
 `GET [base]/Observation?patient=[id]&category=vital-signs&date=[date]{&date=[date]}`
 
 **Example:**
-Find all the blood pressures after 2013-03-14
 
-[GET http://fhir2.healthintersections.com.au/open/Observation?patient=555580&code=55284-4&date=ge2015-01-14](http://fhir2.healthintersections.com.au/open/Observation?patient=555580&code=55284-4&date=ge2015-01-14)
+- Find all the blood pressures after 2013-03-14
+  - GET [base]Observation?patient=555580&code=55284-4&date=ge2015-01-14
 
 *Support:*  Mandatory to support search by category code and date
 

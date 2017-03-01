@@ -3,7 +3,7 @@
 
 *Example:*
 
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Procedure?patient=1291938](https://fhir-open-api-dstu2.smarthealthit.org/Procedure?patient=1291938)
+GET [base]/Procedure?patient=1291938
 
 *Support:* Mandatory to support search by patient.
 
@@ -22,9 +22,9 @@
 
 *Example:*
 
-[GET http://fhir2.healthintersections.com.au/open/Procedure?example&date=ge2002](http://fhir2.healthintersections.com.au/open/Procedure?example&date=ge2002)
+[GET [base]Procedure?example&date=ge2002](http://fhir2.healthintersections.com.au/open/Procedure?example&date=ge2002)
 
-[GET http://fhir2.healthintersections.com.au/open/Procedure?example&date=ge2010$date=le2015](http://fhir2.healthintersections.com.au/open/Procedure?example&date=ge2010&date=le2015)
+[GET [base]Procedure?example&date=ge2010$date=le2015](http://fhir2.healthintersections.com.au/open/Procedure?example&date=ge2010&date=le2015)
 
 *Support:* Mandatory to support search by patient and date or period.
 

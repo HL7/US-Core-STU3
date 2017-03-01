@@ -9,12 +9,9 @@
 
   <!-- ============CONTENT CONTENT=============== -->
 
-  <h2>
-  Extensions defined for the US Core Implementation Guide
-  </h2>
-  {% include list-simple-extensions.xhtml %}
 
 
+  {% capture my-include %}{% include extensions.md %}{% endcapture %}{{ my-include | markdownify }}
 
 
   <!-- ==============END CONTENT END CONTENT=================== -->

@@ -5,7 +5,7 @@
 This section outlines important definitions and interpretations used in the US-Core IG.
 The conformance verbs used are defined in [FHIR Conformance Rules].
 
-** Page Contents:**
+**Contents:**
 
 * TOC
 {:toc}

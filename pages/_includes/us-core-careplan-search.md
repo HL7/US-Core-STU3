@@ -2,9 +2,7 @@
 
 `GET /CarePlan?patient=[id]&category=assess-plan`
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan)](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan)
+**Example:** GET [base]/CarePlan?patient=1137192&category=assess-plan
 
 *Support:* Mandatory to support search by patient.
 
@@ -25,10 +23,8 @@
 
 **Example:**
 
-[GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14)](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14)
-
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14&date=le2016-01-14](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14&date=le2016-01-14)](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14&date=le2016-01-14](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14&date=le2016-01-14)
+- GET [base]/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14
+- GET [base]/CarePlan?patient=1137192&category=assess-plan&date=ge2015-01-14&date=le2016-01-14
 
 *Support:* Mandatory to support search by date
 
@@ -47,9 +43,7 @@
 
 `GET /CarePlan?patient=[id]&category=assess-plan&status=active`
 
-**Example:**
-
- [GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&status=active](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&status=active)
+**Example:** GET [base]/CarePlan?patient=1137192&status=active
 
 *Support:* SHOULD support search by patient and status = 'active'.
 
@@ -68,9 +62,7 @@
 
 `GET /CarePlan?patient=[id]&category=assess-plan&status=active&date=[date]`
 
-**Example:**
-
- [GET https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&datatus=active&date=ge2015-01-14](https://fhir-open-api-dstu2.smarthealthit.org/CarePlan?patient=1137192&category=assess-plan&datatus=active&date=ge2015-01-14)
+**Example:** GET [base]/CarePlan?patient=1137192&category=assess-plan&datatus=active&date=ge2015-01-14
 
 *Support:* SHOULD support search by patient and status = 'active' and date.
 

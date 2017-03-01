@@ -1,10 +1,7 @@
 
 `GET /Condition?patient=[id]`
 
-
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702](https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702)
+**Example:** GET [base]/Condition?patient=1032702
 
 *Support:* Mandatory to support search by patient.
 
@@ -20,9 +17,8 @@
 -----------
 
 `GET /Condition?patient=[id]&clinicalstatus=active,recurrance,remission'`
-**Example:**
 
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&clinicalstatus=active,relapse,remission](https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&clinicalstatus=active,relapse,remission)
+**Example:** GET [base]/Condition?patient=1032702&clinicalstatus=active,relapse,remission
 
 *Support:* Optional to support search by status.
 
@@ -39,9 +35,7 @@
 -----------
 `GET /Condition?patient=[id]&category=problem`
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&category=problem](https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&category=problem)
+**Example:** GET [base]/Condition?patient=1032702&category=problem
 
 *Support:* Optional to support search by patient and category.
 
@@ -60,9 +54,7 @@
 `GET /Condition?patient=[id]&category=health-concern`
 
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&category=health-concern](https://fhir-open-api-dstu2.smarthealthit.org/Condition?patient=1032702&category=health-concern)
+**Example:** GET [base]/Condition?patient=1032702&category=health-concern
 
 *Support:* Optional to support search by patient and category.
 

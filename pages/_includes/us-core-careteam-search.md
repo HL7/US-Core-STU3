@@ -5,9 +5,7 @@
 `GET/CareTeam?patient=[id]&status=active`
 
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/CareTeam?patient=1137192&status=active](https://fhir-open-api-dstu2.smarthealthit.org/CareTeam?patient=1137192&status=active)
+**Example:** GET [base]/CareTeam?patient=1137192&status=active
 
 
 *Support:* Mandatory to support search by patient and status.

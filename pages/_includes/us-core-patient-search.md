@@ -1,9 +1,7 @@
 
 `GET [base]/Patient/[id]`
 
-**Example:**
-
-[GET https://fhir-open-api.smarthealthit.org/Patient/1032702](https://fhir-open-api.smarthealthit.org/Patient/1032702)
+**Example:** GET [base]/Patient/1032702
 
 
 *Support:* Mandatory
@@ -23,9 +21,7 @@
 
 **`GET [base]/Patient/identifier=[system]|[code]`**
 
-Example:
-
-[GET https://fhir-open-api.smarthealthit.org/Patient?identifier=http://hospital.smarthealthit.org|1032702](https://fhir-open-api.smarthealthit.org/Patient?identifier=http://hospital.smarthealthit.org|1032702)
+Example: GET [base]/Patient?identifier=http://hospital.smarthealthit.org|1032702
 
 *Support:* Mandatory
 
@@ -44,9 +40,7 @@ Example:
 
 `GET [base]/Patient?name=[string]&birthdate=[date]`
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Patient?name=Shaw&birthdate=2007-03-20](https://fhir-open-api-dstu2.smarthealthit.org/Patient?name=Shaw&birthdate=2007-03-20)
+**Example:** GET [base]/Patient?name=Shaw&birthdate=2007-03-20
 
 
 *Support:* Mandatory
@@ -66,9 +60,7 @@ Example:
 -----------
 `GET [base]/Patient?name=[string]&gender=[code]`
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Patient?name=Shaw&gender=female](https://fhir-open-api-dstu2.smarthealthit.org/Patient?name=Shaw&gender=female)
+**Example:** GET [base]/Patient?name=Shaw&gender=female
 
 *Support:* Mandatory
 
@@ -87,9 +79,7 @@ Example:
 
 `GET [base]/Patient?family=[string]&gender=[code]`
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Patient?family=shaw&gender=female](https://fhir-open-api-dstu2.smarthealthit.org/Patient?family=shaw&gender=female)
+**Example:** GET [base]/Patient?family=shaw&gender=female
 
 *Support:* SHOULD support Patient search by family name and gender
 
@@ -108,9 +98,7 @@ Example:
 
 `GET [base]/Patient?given=[string]&gender=[code]`
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Patient?given=amy&gender=female](https://fhir-open-api-dstu2.smarthealthit.org/Patient?given=amy&gender=female)
+**Example:** GET [base]/Patient?given=amy&gender=female
 
 *Support:* SHOULD support Patient search by given name and gender
 

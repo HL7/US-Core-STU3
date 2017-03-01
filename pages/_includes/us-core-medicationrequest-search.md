@@ -2,9 +2,7 @@
 
 `GET /MedicationRequest?patient={id}`
 
-**Example:**
-
-[GET http://fhirtest.uhn.ca/baseDstu2/MedicationRequest?patient=14676](http://fhirtest.uhn.ca/baseDstu2/MedicationRequest?patient=14676)
+**Example:** GET [base]/MedicationRequest?patient=14676
 
 *Support:* Mandatory for client to support search by patient.  Optional for server to support.
 
@@ -21,9 +19,7 @@
 
 `GET /MedicationRequest?patient={id}&_include=MedicationRequest:medication`
 
-**Example:**
-
-[GET http://fhirtest.uhn.ca/baseDstu2/MedicationRequest?patient=14676&_include=MedicationRequest:medication](http://fhirtest.uhn.ca/baseDstu2/MedicationRequest?patient=14676&_include=MedicationRequest:medication)
+**Example:** GET [base]/MedicationRequest?patient=14676&_include=MedicationRequest:medication
 
 *Support:* Mandatory for client to support search by patient using the include parameter.  Optional for server to support.
 

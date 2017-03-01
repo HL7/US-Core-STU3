@@ -1,9 +1,7 @@
 
 `GET /Goal?patient=[id]`
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192](https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192)
+**Example:** GET [base]/Goal?patient=1137192
 
 *Support:* Mandatory to support search by patient.
 
@@ -23,9 +21,8 @@
 
 **Example:**
 
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192&date=ge2015-01-14](https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192&date=ge2015-01-14)
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192&date=ge2015-01-14&date=le2016-01-14](https://fhir-open-api-dstu2.smarthealthit.org/Goal?patient=1137192&date=ge2015-01-14&date=le2016-01-14)
+- GET [base]/Goal?patient=1137192&date=ge2015-01-14
+- GET [base]/Goal?patient=1137192&date=ge2015-01-14&date=le2016-01-14
 
 *Support:* Mandatory to support search by date.
 

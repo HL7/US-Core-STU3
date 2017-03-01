@@ -2,16 +2,11 @@
 
 `GET [base]/DiagnosticReport?patient=[id]&category=LAB`
 
-**Example:**
-
-[GET http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB](http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB)
-
+**Example:** GET [base]/DiagnosticReport?patient=f201&category=LAB
 
 *Support:* Mandatory to support search by patient and category code = 'LAB'.
 
 *Implementation Notes:* Search based on diagnostic report category code = 'LAB'. This fetches a bundle of all lab related DiagnosticReport resources for the specified patient  [(how to search by reference)] and [(how to search by token)].
-
-
 
 *Response Class:*
 
@@ -20,20 +15,17 @@
 -   (Status 401/4xx): unauthorized request
 -   (Status 403): insufficient scope
 
-
 -----------
 
 `GET [base]/DiagnosticReport?patient=[id]&code=[LOINC{,LOINC2,LOINC3,...}]`
 
-Example:
-Search for all metabolic panel reports (LOINC = 24323-8 *Comprehensive metabolic 2000 panel - Serum or Plasma*) for a patient
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/DiagnosticReport?patient=1032702&code=24323-8](https://fhir-open-api-dstu2.smarthealthit.org/DiagnosticReport?patient=1032702&code=24323-8)
-
 **Example:**
-Search for all cbc (LOINC = 58410-2 *Complete blood count (hemogram) panel - Blood by Automated count*), metabolic panel, and urinalysis panels (LOINC = 24356-8 *Urinalysis complete panel - Urine*) for a patient
+-  Search for all metabolic panel reports (LOINC = 24323-8 *Comprehensive metabolic 2000 panel - Serum or Plasma*) for a patient
+  - GET [base]/DiagnosticReport?patient=1032702&code=24323-8
 
-[GET https://fhir-open-api-dstu2.smarthealthit.org/DiagnosticReport?patient=1032702&code=24323-8,58410-2,24356-8](https://fhir-open-api-dstu2.smarthealthit.org/DiagnosticReport?patient=1032702&code=24323-8,58410-2,24356-8)
+
+- Search for all cbc (LOINC = 58410-2 *Complete blood count (hemogram) panel - Blood by Automated count*), metabolic panel, and urinalysis panels (LOINC = 24356-8 *Urinalysis complete panel - Urine*) for a patient
+  - GET [base]/DiagnosticReport?patient=1032702&code=24323-8,58410-2,24356-8
 
 *Support:* Mandatory support search by a laboratory order code. SHOULD support search by multiple order codes.
 
@@ -49,10 +41,9 @@ Search for all cbc (LOINC = 58410-2 *Complete blood count (hemogram) panel - Blo
 
 `GET [base]/DiagnosticReport?patient=[id]&category=LAB&date=[date]{&date=[date]}`
 
-**Example:**
-Find all the lab reports issued after 2010-01-14
+**Example:** Find all the lab reports issued after 2010-01-14
 
-[GET http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB&date=ge2010-01-14](http://spark.furore.com/fhir/DiagnosticReport?patient=f201&category=LAB&date=ge2010-01-14)
+- GET [base]/DiagnosticReport?patient=f201&category=LAB&date=ge2010-01-14
 
 *Support:*  Mandatory support search by category code = 'LAB' and date or period.
 

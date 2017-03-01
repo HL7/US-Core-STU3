@@ -1,10 +1,7 @@
 
 `GET /Device?patient=[id]`
 
-**Example:**
-
-[GET http://fhir2.healthintersections.com.au/open/Device/uscore-udi-1](http://fhir2.healthintersections.com.au/open/Device/uscore-udi-1)
-
+**Example:** GET [base]/Device?patient=1032702
 
 
 *Support:* Mandatory to support search by patient.

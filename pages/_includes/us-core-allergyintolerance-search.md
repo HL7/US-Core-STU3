@@ -1,9 +1,7 @@
 
-`GET /AllergyIntolerance?patient=\[id\]`
+`GET /AllergyIntolerance?patient=[id]`
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/AllergyIntolerance?patient=1137192](https://fhir-open-api-dstu2.smarthealthit.org/AllergyIntolerance?patient=1137192)
+**Example:** GET [base]/AllergyIntolerance?patient=1137192
 
 
 *Support:* Mandatory to support search by patient.

@@ -1,9 +1,7 @@
 
 `GET [base]/Observation?patient=[id]&category=laboratory`
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&category=laboratory](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&category=laboratory)
+**Example:** GET [base]/Observation?patient=1134281&category=laboratory
 
 *Support:* Mandatory to support search by patient and category code = 'laboratory'.
 
@@ -24,14 +22,13 @@
 
 
 **Example:**
-Search for all blood glucose lab results (LOINC = 2339-0 *Glucose [Mass/volume] in Blood*) for a patient:
 
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0)
+- Search for all blood glucose lab results (LOINC = 2339-0 *Glucose [Mass/volume] in Blood*) for a patient:
+  - GET [base]/Observation?patient=1134281&code=2339-0
 
-**Example:**
-Search for all blood glucose, urine glucose (LOINC = 25428-4 *Glucose [Presence] in Urine by Test strip*) and urine ketones (LOINC = 2339-0 *Ketones [Presence] in Urine by Test strip*) for a patient
 
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0,25428-4,2514-8](https://fhir-open-api-dstu2.smarthealthit.org/Observation?patient=1134281&code=2339-0,25428-4,2514-8)
+- Search for all blood glucose, urine glucose (LOINC = 25428-4 *Glucose [Presence] in Urine by Test strip*) and urine ketones (LOINC = 2339-0 *Ketones [Presence] in Urine by Test strip*) for a patient
+  - GET [base]/Observation?patient=1134281&code=2339-0,25428-4,2514-8
 
 *Support:* Mandatory support search by a laboratory LOINC code. SHOULD support search by multiple LOINC codes.
 
@@ -49,9 +46,9 @@ Search for all blood glucose, urine glucose (LOINC = 25428-4 *Glucose [Presence]
 `GET [base]/Observation?patient=[id]&category=laboratory&date=[date]{&date=[date]}`
 
 **Example:**
-Find all the laboratory results after 2013-03-14
 
-[GET http://fhir2.healthintersections.com.au/open/Observation?patient=555580&category=laboratory&date=ge2015-01-14](http://fhir2.healthintersections.com.au/open/Observation?patient=555580&category=laboratory&date=ge2015-01-14)
+- Find all the laboratory results after 2013-03-14
+  - GET [base]Observation?patient=555580&category=laboratory&date=ge2015-01-14
 
 *Support:*  Mandatory support search by category code ="laboratory" and date or period
 

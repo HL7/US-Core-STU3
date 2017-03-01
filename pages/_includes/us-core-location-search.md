@@ -3,7 +3,7 @@
 
 *Example:*
 
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Location?name=Health](https://fhir-open-api-dstu2.smarthealthit.org/Location?name=Health)
+GET [base]/Location?name=Health
 
 
 *Support:* Mandatory
@@ -28,9 +28,9 @@
 
 *Example:*
 
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Location?address=Arbor](https://fhir-open-api-dstu2.smarthealthit.org/Location?address=Arbor)
+GET [base]/Location?address=Arbor
 
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Location?address-postalcode=48104](https://fhir-open-api-dstu2.smarthealthit.org/Location?address-postalcode=48104)
+GET [base]/Location?address-postalcode=48104
 
 *Support:* Mandatory
 

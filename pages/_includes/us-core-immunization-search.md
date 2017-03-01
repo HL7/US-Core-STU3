@@ -1,9 +1,7 @@
 
 `GET /Immunization?patient=[id]`
 
-**Example:**
-
-[GET https://fhir-open-api-dstu2.smarthealthit.org/Immunization?patient=1032702](https://fhir-open-api-dstu2.smarthealthit.org/Immunization?patient=1032702)
+**Example:** GET [base]/Immunization?patient=1032702
 
 *Support:* Mandatory to support search by patient.
 

@@ -9,12 +9,7 @@
 
   <!-- ============CONTENT CONTENT=============== -->
 
-  <h2>
-  Search Parameters defined for the US Core Implementation Guide
-  </h2>
-  {% include list-simple-searchparameters.xhtml %}
-  
-<p></p>
+  {% capture my-include %}{% include searchparameters.md %}{% endcapture %}{{ my-include | markdownify }}
 
   <!-- ==============END CONTENT END CONTENT=================== -->
 
