@@ -1,10 +1,9 @@
 ﻿
-
 ## Introduction
 
 The *US Core Implementation Guide* version 1.0.0 defines the minimum conformance requirements for accessing patient data as defined by the [Argonaut] pilot implementations and the [ONC 2015 Edition Common Clinical Data Set (CCDS)]. These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [ONC] sponsored [Data Access Framework (DAF)] project. In addition to Argonaut, these profiles are used by [DAF-Research], [QI-Core], and [CIMI], and are intended to be the foundation for future US Realm guides.
 
-US Core version 1.0.0 is based on the FHIR STU3. HL7 will expand and publish future versions of US Core under the guidance of the HL7 US Realm Steering Committee. 
+US Core version 1.0.0 is based on the FHIR STU3. HL7 will expand and publish future versions of US Core under the guidance of the HL7 US Realm Steering Committee.
 
 ## US Core Actors
 
@@ -63,4 +62,4 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [FHIR Data Types]: http://build.fhir.orgdatatypes.html
 [FHIR Search]: http://build.fhir.orgsearch.html
 [FHIR Resource]: http://build.fhir.orgformats.html
-[2015 Edition Common Clinical Data Set]: file:///C:/US-Core/output/guidance.html#edition-common-clinical-data-set
+[2015 Edition Common Clinical Data Set]: file:///C:/US-Core/output/guidance.html#2015-edition-common-clinical-data-set
