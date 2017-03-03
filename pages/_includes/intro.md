@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The *US Core Implementation Guide version 1.0.0* defines the minimum conformance requirements for accessing patient data as defined by the [Argonaut] pilot implementations and the ONC 2015 Edition Common Clinical Data Set (CCDS). These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [ONC] sponsored [Data Access Framework] (DAF) project. In addition to Argonaut, these profiles are used by [DAF-Research], [QI-Core], and [CIMI], and are intended to be the foundation for future US Realm guides.
+The *US Core Implementation Guide version 1.0.0* defines the minimum conformance requirements for accessing patient data as defined by the [Argonaut] pilot implementations and the [ONC 2015 Edition Common Clinical Data Set (CCDS)]. These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [ONC] sponsored [Data Access Framework] (DAF) project. In addition to Argonaut, these profiles are used by [DAF-Research], [QI-Core], and [CIMI], and are intended to be the foundation for future US Realm guides.
 
 US Core version 1.0.0 is based on the FHIR STU3. HL7 will expand and publish future versions of US Core under the guidance of the HL7 US Realm Steering Committee.
 
@@ -24,7 +24,7 @@ The list of US Core Profiles is shown below.  Each profile defines the minimum m
 *Note on Searches based on a date or date range:*
 
 - Allergies, Immunizations, Medications, Problems and Health Concerns, UDI, Smoking Status do not require a date range search since a system should return all relevant resources.
-- Date range search requirements are included in the Quick Start section for the following resources - Vital Signs, Laboratory Results, Goals, Procedures, and Assessment and Plan of Treatment.
+- Vital Signs, Laboratory Results, Goals, Procedures, and Assessment and Plan of Treatment include date range search requirements in the Quick Start section on the profile page.
 
 See [2015 Edition Common Clinical Data Set] for a mapping to the CCDS.
 
@@ -47,9 +47,9 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [ONC]: http://www.healthit.gov/newsroom/about-onc
 [Data Access Framework]: http://wiki.siframework.org/Data+Access+Framework+Homepage
 [Argonaut]: http://argonautwiki.hl7.org/index.php?title=Main_Page
-[ONC 2015 Edition Common Clinical Data Set]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf
+[ONC 2015 Edition Common Clinical Data Set (CCDS)]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf
 [profiles]: http://build.fhir.orgprofiling.html
-[logical view]: http://build.fhir.orgformats.html#table
+[logical view]: http://build.fhir.org/formats.html#table
 [StructureDefinitions]: http://build.fhir.orgstructuredefinition.html
 [Value sets]: http://build.fhir.org/valueset.html
 [CodeSystem]: http://build.fhir.orgcodesystem.html
