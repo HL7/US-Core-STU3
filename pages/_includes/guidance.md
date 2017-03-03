@@ -1,13 +1,12 @@
 ﻿
 
 ## Definitions, Interpretations and Requirements common to all US-Core actors
+{:.no_toc}
 
 This section outlines important definitions and interpretations used in the US-Core IG.
 The conformance verbs used are defined in [FHIR Conformance Rules].
 
-**Contents:**
-
-* TOC
+* Do not remove this line (it will not be displayed)
 {:toc}
 
 ### 2015 Edition Common Clinical Data Set
