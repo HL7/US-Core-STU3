@@ -29,8 +29,8 @@ Additionally your system [Must Support]:
 
 *  The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a [Medication] resource.
     *  When referencing a Medication resource,  the resource may be [contained] or an external resource.
-    *  The server application can choose any one way or more than one method,  but if an external reference to Medication is used, the server SHALL support the [include] parameter for searching this element.
-    *  The client application must support both methods.  
+    *  The server application MAY choose either or both ways, but if an external reference to Medication is used, the server SHALL support the [include] parameter for searching this element.
+    *  The client application SHALL support both methods.  
     *  Additional guidance is provided below in the Search section and in the [CapabilityStatement] section.
 
 #### Examples
