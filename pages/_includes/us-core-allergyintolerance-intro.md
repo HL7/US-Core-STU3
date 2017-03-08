@@ -8,7 +8,7 @@ The following are example usage scenarios for the US-Core AllergyIntolerance
  profile:
 
 -   Query for Allergies belonging to a Patient
--   Record a Patient Allergy
+-   Record or update a Patient Allergy
 
 ##### Mandatory Data Elements and Terminology
 
@@ -24,7 +24,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 **Profile specific implementation guidance:**
 
-* Representing No Known Allergies: No Known Allergies will be represented using the US Core-AllergyIntolerance profile with appropriate negation code in AllergyIntolerence.code.
+* No Known Allergies may be represented using the US Core-AllergyIntolerance profile with appropriate negation code in AllergyIntolerence.code.
 
 #### Examples
 

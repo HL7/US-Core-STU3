@@ -1,9 +1,7 @@
 
-**GET [base]/Location?name=[string]**
+`GET [base]/Location?name=[string]`
 
-*Example:*
-
-GET [base]/Location?name=Health
+**Example:** GET [base]/Location?name=Health
 
 
 *Support:* Mandatory
@@ -24,22 +22,21 @@ GET [base]/Location?name=Health
 -----------
 
 
-**GET [base]/Location?address=[string]**
+`GET [base]/Location?address=[string]`
 
-*Example:*
+**Example:** GET [base]/Location?address=Arbor
 
-GET [base]/Location?address=Arbor
-
-GET [base]/Location?address-postalcode=48104
+**Example:** GET [base]/Location?address-postalcode=48104
 
 *Support:* Mandatory
 
 *Implementation Notes:* Search based on text address [(how to search by string)].
 
 SHOULD support:
+
    - address-city
    - address-state
-   - address-postalcod
+   - address-postalcode
 
 *Response Class:*
 

@@ -5,7 +5,8 @@ Both the [MedicationRequest] and [MedicationStatement] resources can be used to 
 The following are example usage scenarios for the
 US Core-MedicationStatement profile:
 
--   Record or Query active medications being taken by a patient
+-   Query active medications being taken by a patient
+-   Record or update active medications being taken by a patient
 
 ##### Mandatory Data Elements and Terminology
 

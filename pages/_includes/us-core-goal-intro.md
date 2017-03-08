@@ -4,7 +4,8 @@ This profile sets minimum expectations for the [Goal] resource to record ,search
 
 The following are example usage scenarios for the US Core-Goal profile:
 
--   Record or query for a Patient's Goals
+-   Query for a Patient's Goals
+-   Record or update a Patient's Goals
 
 
 ##### Mandatory Data Elements and Terminology

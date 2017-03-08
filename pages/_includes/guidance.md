@@ -6,12 +6,9 @@
 This section outlines important definitions and interpretations used in the US-Core IG.
 The conformance verbs used are defined in [FHIR Conformance Rules].
 
-* Do not remove this line (it will not be displayed)
-{:toc}
-
 ### 2015 Edition Common Clinical Data Set
 
-The US Core Profiles are intended to meet the 2015 Edition certification criterion for Patient Selection 170.315(g)(7) and Application Access – Data Category Request 170.315(g)(8). They were created for each of the [2015 Edition Common Clinical Data Set] (CCDS).  The Location, Organization and Practitioner Profiles are not called out specifically in the certification criteria but are included because they are directly referenced by other profiles.  Where applicable the US Core Profiles are based on the HL7 U.S. [Data Access Framework (DAF)] FHIR DSTU2 Implementation Guide. However, the requirements per resource are a subset of those of the DAF implementation guide.
+The US Core Profiles are intended to meet the 2015 Edition certification criterion for Patient Selection 170.315(g)(7), and Application Access – Data Category Request 170.315(g)(8). They were created for each of the [2015 Edition Common Clinical Data Set (CCDS)].  The Location, Organization, and Practitioner Profiles are not called out specifically in the certification criteria but are included because they are directly referenced by other profiles.  Where applicable the US Core Profiles are based on the HL7 U.S. [Data Access Framework (DAF)] FHIR DSTU2 Implementation Guide. However, the requirements per resource are a subset of those of the DAF implementation guide.
 
 
 The table below lists the US Core Profile and FHIR Resources used for the corresponding 2015 Edition Common Clinical Data Set (CCDS) Data elements:
@@ -44,7 +41,7 @@ No| CCDS Data Element | US Core Profile | FHIR Resource
 In the context of US-Core, *Must Support* on any data element SHALL be interpreted as follows:
 
 
-* US-Core Responders SHALL be capable of including the data element as part of the query results as specified by the US-Core conformance resources.
+* US-Core Responders SHALL be capable of including the data element as part of the query results as specified by the [US Core Server Capability Statement].
 * US-Core Requestors SHALL be capable of processing resource instances containing the data elements without generating an error an causing the application to fail. In other words US-Core Requestors SHOULD be capable of displaying the data elements for human use or storing it for other purposes.
 * In situations where information on a particular data element is not present and the reason for absence is unknown, US-Core Responders SHALL NOT include the data elements in the resource instance returned as part of the query results.
 * When querying US-Core Responders, US-Core Requestors SHALL interpret missing data elements within resource instances as data not present in the US-Core Responder's systems.
@@ -52,14 +49,14 @@ In the context of US-Core, *Must Support* on any data element SHALL be interpret
 * US-Core Requestors SHALL be able to process resource instances containing data elements asserting missing information.
 
 
-* NOTE: that typically *US-Core Responder* Actor = Server and *US-Core Requestor Actor* = Client
+* NOTE: Typically *US-Core Responder* Actor = Server and *US-Core Requestor Actor* = Client
 * NOTE: US-Core Responders who do not have the capability to store or return a data element tagged as Supported in US-Core profiles can still claim conformance to the US-Core profiles per the US-Core conformance resources.
 * NOTE: The above definition of Supported is derived from HL7v2 concept "Required but may be empty - RE" described in HL7v2 V28_CH02B_Conformance.doc.
 * NOTE: Readers are advised to understand [FHIR Terminology] requirements, [FHIR RESTful API] based on the [HTTP] protocol, along with [FHIR Data Types], [FHIR Search] and [FHIR Resource] formats before implementing US-Core requirements.
 
 ### Referencing US-Core profiles
 
-Many of the profiles in this guide [reference](http://build.fhir.org/references.html) other FHIR resources that are also US-Core profiles.  This is defined in the formal profile definitions.  For example [US Core Careteam](StructureDefinition-us-core-careteam.html#profile) references US Core Patient.  For any other references not formally defined in a US-Core profiles, the referenced resource SHOULD be a US-Core profile if a US Core profile exists for the resource type.  For example, although `Condition.asserter` is not constrained by this guide, the reference to Patient should be a valid US-Core Patient.
+Many of the profiles in this guide [reference](http://build.fhir.org/references.html) other FHIR resources that are also US-Core profiles.  This is defined in the formal profile definitions.  For example, [US Core Careteam](StructureDefinition-us-core-careteam.html#profile) references US Core Patient.  For any other references not formally defined in a US-Core profiles, the referenced resource SHOULD be a US-Core profile if a US Core profile exists for the resource type.  For example, although `Condition.asserter` is not constrained by this guide, the reference to Patient or Practitioner should be a valid US Core Patient or US Core Practitioner.
 
 ### Using Codes in US Core profiles
 
@@ -69,7 +66,7 @@ Extensible binding to a value set definition for this IG means that if the data 
 
 #### Extensible + Max-ValueSet binding for CodeableConcept Datatype
 
-For this IG, we have defined the Extensible + Max-ValueSet binding to allow for either a code from the defined value set or text if the code is not available.  (for example, legacy data). This means,unlike a regular extensible binding, alternate code(s) are not permitted and a text value SHALL be supplied if the code is not available.  However, multiple codings (translations) are allowed as is discussed below.
+For this IG, we have defined the Extensible + Max-ValueSet binding to allow for either a code from the defined value set or text if the code is not available.  (for example, legacy data). This means, unlike a FHIR extensible binding, alternate code(s) are not permitted and a text value SHALL be supplied if the code is not available.  However, multiple codings (translations) are allowed as is discussed below.
 
 Example: Immunization resource vaccineCode's CVX coding - the source only has the text "4-way Influenza" and no CVX code.
 
@@ -222,7 +219,7 @@ In the simplest case, a search is executed by performing a GET operation in the 
 
 **GET [base]/[Resource-type]?name=value&...**
 
-For this RESTful search (see definition in RESTful API), the parameters are a series of name=\[value\] pairs encoded in the URL. The search parameter names are defined for each resource. For example the Observation resource the name “code” for search on the LOINC code. See [Searching] for more information about searching in REST, messaging, and services.
+For this RESTful search (see definition in RESTful API), the parameters are a series of name=\[value\] pairs encoded in the URL. The search parameter names are defined for each resource. For example the Observation resource the name “code” for search on the LOINC code. See [FHIR Search] for more information about searching in REST, messaging, and services.
 
 ### Syntax for searches limited by patient
 
@@ -265,18 +262,23 @@ In order to manage the number of search results returned, the server may choose 
 
   [core specification]: http://build.fhir.org/search.html#return
 
-  [FHIR RESTful API]: http://build.fhir.org/http.html
-  [Searching]: http://build.fhir.org/search.html
-  [Issue \#39]: https://github.com/argonautproject/implementation-program/issues/39
-  [compartment]: http://build.fhir.org/compartmentdefinition.html
-  [core specification]: http://build.fhir.org/extensibility.html#2.20.0.2.2
-  [DataAbsentReason Extension]: http://build.fhir.org/extension-data-absent-reason.html
-  [http://build.fhir.org/StructureDefinition/data-absent-reason]: http://build.fhir.org/StructureDefinition/data-absent-reason
-  [FHIR Conformance Rules]: http://build.fhir.org/conformance-rules.html
+[FHIR RESTful API]: http://build.fhir.org/http.html
+[FHIR Search]: http://build.fhir.org/search.html
+[FHIR Terminology]: http://build.fhir.org/terminologies.html
+[HTTP]: http://build.fhir.org/http.html
+[FHIR Data Types]: http://build.fhir.org/datatypes.html
+[FHIR Resource]: http://build.fhir.org/resource.html
+[Issue \#39]: https://github.com/argonautproject/implementation-program/issues/39
+[compartment]: http://build.fhir.org/compartmentdefinition.html
+[core specification]: http://build.fhir.org/extensibility.html#2.20.0.2.2
+[DataAbsentReason Extension]: http://build.fhir.org/extension-data-absent-reason.html
+[http://build.fhir.org/StructureDefinition/data-absent-reason]: http://build.fhir.org/StructureDefinition/data-absent-reason
+[FHIR Conformance Rules]: http://build.fhir.org/conformance-rules.html
 [Quantity]: http://build.fhir.org/datatypes.html#quantity
 [UCUM]: http://unitsofmeasure.org
+[US Core Server Capability Statement]: CapabilityStatement-server.html
 [US Core Result Observation Profile]: StructureDefinition-us-core-observationresults.html
 [Vital Signs Profile]: http://build.fhir.org/vitalsigns.html
-[Data Access Framework (DAF)]: http://wiki.siframework.org/Data+Access+Framework+Homepage
+[HL7 U.S. Data Access Framework (DAF)]: http://wiki.siframework.org/Data+Access+Framework+Homepage
 [UCUM Codes value set]: http://build.fhir.org/valueset-ucum-units.html
-[2015 Edition Common Clinical Data Set]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf
+[2015 Edition Common Clinical Data Set (CCDS)]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf

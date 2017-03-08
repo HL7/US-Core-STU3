@@ -5,7 +5,7 @@
 The following are example usage scenarios for the US Core-Condition profile:
 
 -   Query for a Patient’s problems
--   Record a Patient’s problem
+-   Record or update a Patient’s problem
 
 ##### Mandatory Data Elements and Terminology
 

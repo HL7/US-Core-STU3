@@ -1,9 +1,7 @@
 
-**GET [base]/Organization?identifier=[system]|[code]**
+`GET [base]/Organization?identifier=[system]|[code]`
 
-*Example:*
-
-GET [base]/Organization?name=Health
+**Example:** GET [base]/Organization?name=Health
 
 *Support:* Mandatory
 
@@ -18,11 +16,9 @@ GET [base]/Organization?name=Health
 
 -----------
 
-**GET [base]/Organization?name=[string]**
+`GET [base]/Organization?name=[string]`
 
-*Example:*
-
-GET [base]/Organization?name=Health
+**Example:** GET [base]/Organization?name=Health
 
 *Support:* Mandatory
 
@@ -40,12 +36,11 @@ GET [base]/Organization?name=Health
 
 -----
 
-**GET [base]/Organization?address=[string]**
-*Example:*
+`GET [base]/Organization?address=[string]`
 
-GET [base]/Organization?address=Arbor
+**Example:** GET [base]/Organization?address=Arbor
 
-GET [base]/Organization?address-postalcode=48104
+**Example:** GET [base]/Organization?address-postalcode=48104
 
 *Support:* Mandatory
 

@@ -9,7 +9,8 @@ This profile sets minimum expectations for the [Observation] resource to record,
 The following are example usage scenarios for the US Core-SmokingStatus
 profile:
 
-- Query for Smoking Status of a particular patient
+- Query for the Smoking Status of a patient
+- Record or update the Smoking Status of a patient
 
 ##### Mandatory Data Elements and Terminology
 
