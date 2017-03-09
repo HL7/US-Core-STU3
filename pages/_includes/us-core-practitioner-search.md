@@ -3,11 +3,9 @@
 
 -----------
 
-**GET [base]/Practitioner?identifier=[system]|[code]**
+**`GET [base]/Practitioner?identifier=[system]|[code]`**
 
-*Example:*
-
-GET [base]/Practitioner?identifier=http://hl7.org/fhir/sid/us-npi%7C1497860456
+**Example:** GET [base]/Practitioner?identifier=http://hl7.org/fhir/sid/us-npi%7C1497860456
 
 *Support:* Mandatory
 
@@ -22,11 +20,9 @@ GET [base]/Practitioner?identifier=http://hl7.org/fhir/sid/us-npi%7C1497860456
 -----------
 
 
-**GET [base]/Practitioner?family=[string]&given=[string]**
+**`GET [base]/Practitioner?family=[string]&given=[string]`**
 
-*Example:*
-
-GET [base]/Practitioner?family=Smith&given=John
+**Example:** GET [base]/Practitioner?family=Smith&given=John
 
 *Support:* Mandatory
 

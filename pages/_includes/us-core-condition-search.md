@@ -16,13 +16,13 @@
 
 -----------
 
-`GET /Condition?patient=[id]&clinicalstatus=active,recurrance,remission'`
+`GET /Condition?patient=[id]&clinicalstatus=active,recurrance,remission`
 
 **Example:** GET [base]/Condition?patient=1032702&clinicalstatus=active,relapse,remission
 
 *Support:* Optional to support search by status.
 
-*Implementation Notes:* Search for all active problems and health concerns for a patient. Fetches a bundle of all Condition resources for the specified patient and all "active" statuses (active,relapse,remission)  [(how to search by reference)] and [(how to search by token)].  This will not return any "entered in error" resources because of the conditional presence of the clinicalStatus element.
+*Implementation Notes:* Search for all active problems and health concerns for a patient. Fetches a bundle of all Condition resources for the specified patient and all "active" statuses (active,relapse,remission)  [(how to search by reference)] and [(how to search by token)]. This will not return any "entered in error" resources because of the conditional presence of the clinicalStatus element.
 
 
 *Response Class:*

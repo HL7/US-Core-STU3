@@ -6,10 +6,7 @@
 
 *Support:* Mandatory
 
-*Implementation Notes:*  Search based on text name [(how to search by string)]. May also support:
-   - address-city
-   - address-state
-   - address-postalcode
+*Implementation Notes:*  Search based on text name [(how to search by string)]. 
 
 *Response Class:*
 

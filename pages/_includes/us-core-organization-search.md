@@ -1,7 +1,7 @@
 
 `GET [base]/Organization?identifier=[system]|[code]`
 
-**Example:** GET [base]/Organization?name=Health
+**Example:** GET [base]/Organization?identifier=12354
 
 *Support:* Mandatory
 

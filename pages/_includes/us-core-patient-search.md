@@ -21,7 +21,7 @@
 
 **`GET [base]/Patient/identifier=[system]|[code]`**
 
-Example: GET [base]/Patient?identifier=http://hospital.smarthealthit.org|1032702
+**Example:** GET [base]/Patient?identifier=http://hospital.smarthealthit.org|1032702
 
 *Support:* Mandatory
 

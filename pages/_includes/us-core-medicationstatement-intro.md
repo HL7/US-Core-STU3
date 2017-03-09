@@ -1,4 +1,4 @@
-Both the [MedicationRequest] and [MedicationStatement] resources can be used to record a patient's medication.  For more information about the context for their usages, refer to the medication domain's [boundaries section].  This profile sets minimum expectations for the MedicationStatement resource to record, search and fetch medications associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
+Both the [MedicationRequest] and [MedicationStatement] resources can be used to record a patient's medication.  For more information about the context for their usages, refer to the medication domain [boundaries section].  This profile sets minimum expectations for the MedicationStatement resource to record, search and fetch medications associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
 
 **Example Usage Scenarios:**
 
@@ -24,11 +24,11 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 Additionally your system [Must Support]:
 
 1. the time medication was taken
-2. whether the statement was derived from another resource
+2. whether the MedicatoinStatement was derived from another resource
 
 **Profile specific implementation guidance:**
 
-*  The MedicationStatement and MedicationRequest resources can represent a medication, using either a code or refer to a [Medication] resource.
+*  The MedicationStatement and MedicationRequest resources can represent a medication using either a code, or reference to a [Medication] resource.
     *  When referencing a Medication resource,  the resource may be [contained] or an external resource.
     *  The server application MAY choose either or both ways, but if an external reference to Medication is used, the server SHALL support the [include] parameter for searching this element.
     *  The client application SHALL support both methods.  
@@ -36,9 +36,9 @@ Additionally your system [Must Support]:
 
 #### Examples
 
-- [MedicationStatement-uscore-ms1](MedicationStatement-uscore-ms1.html) This example uses an inline medication code to represent the medication.
-- [MedicationStatement-uscore-ms2](MedicationStatement-uscore-ms2.html)  This example references a [contained](http://build.fhir.org/references.html#contained) Medication resource.
-- [MedicationStatement-uscore-ms3](Bundle-uscore-ms3.html) This example is a search [Bundle](http://build.fhir.org/bundle.html) with a MedicationStatement and an included Medication resource in the Bundle.
+- [MedicationStatement-uscore-ms1](MedicationStatement-uscore-ms1.html) Inline medication code to represent the medication.
+- [MedicationStatement-uscore-ms2](MedicationStatement-uscore-ms2.html) Reference to a [contained](http://build.fhir.org/references.html#contained) Medication resource.
+- [MedicationStatement-uscore-ms3](Bundle-uscore-ms3.html) A search [Bundle](http://build.fhir.org/bundle.html) with a MedicationStatement and an included Medication resource in the Bundle.
 
   [Medication Clinical Drug (RxNorm)]: ValueSet-us-core-medication-codes.html
   [MedicationRequestStatus]: http://build.fhir.orgus/daf/ValueSet-medication-request-status.html

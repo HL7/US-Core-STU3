@@ -1,7 +1,7 @@
 
-`GET [base]/Observation?patient=[id]&code=72166-2[edit]`
+`GET [base]/Observation?patient=[id]&code=72166-2`
 
-*Support:* Mandatory to support search by patient and LOINC = '72166-2'.
+*Support:* Mandatory to support search by patient and code = '72166-2'.
 
 **Example:** GET [base]/Observation?patient=1032702&code=72166-2
 

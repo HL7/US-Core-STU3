@@ -1,4 +1,4 @@
-This IG uses the Vital Signs Profile formal definitions from the FHIR [Observation] resource. However this IG provides the following additional guidance which sets the minimum expectations for recording, searching and fetching vital signs associated with a patient. Together they identify which elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
+﻿This Implementation Guide uses the [Vital Signs Profile] formal definitions from the FHIR [Observation] resource. However, this Implementation Guide provides the following additional guidance which sets the minimum expectations for recording, searching and fetching vital signs associated with a patient. Together they identify which elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
 
 **Example Usage Scenarios:**
 
@@ -51,6 +51,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
  - [observation-bp-data-absent](Observation-bp-data-absent.html)
 
 
+[Vital Signs Profile]: observation-profiles.html
 [Observation]: http://build.fhir.org/observation.html
 [extensible]: http://build.fhir.org/terminologies.html#extensible
 [Conformance requirements for the US-Core Server]: CapabilityStatement-server.html

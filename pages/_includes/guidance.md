@@ -1,9 +1,9 @@
 ﻿
 
-## Definitions, Interpretations and Requirements common to all US-Core actors
+## Definitions, Interpretations and Requirements common to all US Core actors
 {:.no_toc}
 
-This section outlines important definitions and interpretations used in the US-Core IG.
+This section outlines important definitions and interpretations used in the US Core IG.
 The conformance verbs used are defined in [FHIR Conformance Rules].
 
 ### 2015 Edition Common Clinical Data Set
@@ -38,25 +38,25 @@ No| CCDS Data Element | US Core Profile | FHIR Resource
 (21) |  Health concerns | US Core Condition Profile  | Condition
 
 ### Must Support
-In the context of US-Core, *Must Support* on any data element SHALL be interpreted as follows:
+In the context of US Core, *Must Support* on any data element SHALL be interpreted as follows:
 
 
-* US-Core Responders SHALL be capable of including the data element as part of the query results as specified by the [US Core Server Capability Statement].
-* US-Core Requestors SHALL be capable of processing resource instances containing the data elements without generating an error an causing the application to fail. In other words US-Core Requestors SHOULD be capable of displaying the data elements for human use or storing it for other purposes.
-* In situations where information on a particular data element is not present and the reason for absence is unknown, US-Core Responders SHALL NOT include the data elements in the resource instance returned as part of the query results.
-* When querying US-Core Responders, US-Core Requestors SHALL interpret missing data elements within resource instances as data not present in the US-Core Responder's systems.
-* In situations where information on a particular data element is missing and the US-Core Responder knows the precise reason for the absence of data, US-Core Responders SHALL send the reason for the missing information using values (such as nullFlavors) from the value set where they exist or using the dataAbsentReason extension.
-* US-Core Requestors SHALL be able to process resource instances containing data elements asserting missing information.
+* US Core Responders SHALL be capable of including the data element as part of the query results as specified by the [US Core Server Capability Statement].
+* US Core Requestors SHALL be capable of processing resource instances containing the data elements without generating an error an causing the application to fail. In other words US Core Requestors SHOULD be capable of displaying the data elements for human use or storing it for other purposes.
+* In situations where information on a particular data element is not present and the reason for absence is unknown, US Core Responders SHALL NOT include the data elements in the resource instance returned as part of the query results.
+* When querying US Core Responders, US Core Requestors SHALL interpret missing data elements within resource instances as data not present in the US Core Responder's systems.
+* In situations where information on a particular data element is missing and the US Core Responder knows the precise reason for the absence of data, US Core Responders SHALL send the reason for the missing information using values (such as nullFlavors) from the value set where they exist or using the dataAbsentReason extension.
+* US Core Requestors SHALL be able to process resource instances containing data elements asserting missing information.
 
 
-* NOTE: Typically *US-Core Responder* Actor = Server and *US-Core Requestor Actor* = Client
-* NOTE: US-Core Responders who do not have the capability to store or return a data element tagged as Supported in US-Core profiles can still claim conformance to the US-Core profiles per the US-Core conformance resources.
+* NOTE: Typically *US Core Responder* Actor = Server and *US Core Requestor Actor* = Client
+* NOTE: US Core Responders who do not have the capability to store or return a data element tagged as Supported in US Core profiles can still claim conformance to the US Core profiles per the US Core conformance resources.
 * NOTE: The above definition of Supported is derived from HL7v2 concept "Required but may be empty - RE" described in HL7v2 V28_CH02B_Conformance.doc.
-* NOTE: Readers are advised to understand [FHIR Terminology] requirements, [FHIR RESTful API] based on the [HTTP] protocol, along with [FHIR Data Types], [FHIR Search] and [FHIR Resource] formats before implementing US-Core requirements.
+* NOTE: Readers are advised to understand [FHIR Terminology] requirements, [FHIR RESTful API] based on the HTTP protocol, along with [FHIR Data Types], [FHIR Search] and [FHIR Resource] formats before implementing US Core requirements.
 
-### Referencing US-Core profiles
+### Referencing US Core profiles
 
-Many of the profiles in this guide [reference](http://build.fhir.org/references.html) other FHIR resources that are also US-Core profiles.  This is defined in the formal profile definitions.  For example, [US Core Careteam](StructureDefinition-us-core-careteam.html#profile) references US Core Patient.  For any other references not formally defined in a US-Core profiles, the referenced resource SHOULD be a US-Core profile if a US Core profile exists for the resource type.  For example, although `Condition.asserter` is not constrained by this guide, the reference to Patient or Practitioner should be a valid US Core Patient or US Core Practitioner.
+Many of the profiles in this guide [reference](http://build.fhir.org/references.html) other FHIR resources that are also US Core profiles.  This is defined in the formal profile definitions.  For example, [US Core Careteam](StructureDefinition-us-core-careteam.html#profile) references US Core Patient.  For any other references not formally defined in a US Core profiles, the referenced resource SHOULD be a US Core profile if a US Core profile exists for the resource type.  For example, although `Condition.asserter` is not constrained by this guide, the reference to Patient or Practitioner should be a valid US Core Patient or US Core Practitioner.
 
 ### Using Codes in US Core profiles
 
@@ -82,7 +82,7 @@ Example: Immunization resource vaccineCode's CVX coding - the source only has th
 
 #### Required binding for Code Datatype
 
-Required binding to a value set definition for this IG means that one of the codes from the specified value set SHALL be used. If only text is available or the local (proprietary, system) cannot be mapped to one of the required codes the The [core specification] provides guidance which we have summarized:
+Required binding to a value set definition for this IG means that one of the codes from the specified value set SHALL be used. If only text is available or the local (proprietary, system) cannot be mapped to one of the required codes the [core specification] provides guidance which we have summarized:
 
 1.  Send the resource with the code element empty
 2.  Use the [DataAbsentReason Extension] in the data type
@@ -143,7 +143,7 @@ Example of multiple translation for Body Weight concept code.
         "text": "weight"
       },
 
-Example of translation of NDC vaccine code to CVX code.
+Example of translation of CVX vaccine code to NDC code.
 
 
 
@@ -191,7 +191,7 @@ Both the [Vital Signs Profile] and [US Core Result Observation Profile] bind the
 **no units**
 
 ```
-      "valueQuantity": {
+ "valueQuantity": {
     "value": 26.0
  }
 ```
@@ -199,7 +199,7 @@ Both the [Vital Signs Profile] and [US Core Result Observation Profile] bind the
 
 ### Read(Fetch) resource notation:
 
-The interactions on IG page are defined like this:
+Interactions on profile pages are defined with the syntax:
 
  **`GET [base]/[Resource-type]/[id] {parameters}`**
 
@@ -219,7 +219,7 @@ In the simplest case, a search is executed by performing a GET operation in the 
 
 **GET [base]/[Resource-type]?name=value&...**
 
-For this RESTful search (see definition in RESTful API), the parameters are a series of name=\[value\] pairs encoded in the URL. The search parameter names are defined for each resource. For example the Observation resource the name “code” for search on the LOINC code. See [FHIR Search] for more information about searching in REST, messaging, and services.
+For this RESTful search ([FHIR Search]), the parameters are a series of name=\[value\] pairs encoded in the URL. The search parameter names are defined for each resource. For example, the Observation resource the name “code” for search on the LOINC code. See [FHIR Search] for more information about searching in REST, messaging, and services.
 
 ### Syntax for searches limited by patient
 
@@ -248,7 +248,7 @@ However there are several variations to this syntax: (see [Issue \#39])
 
 NOTE:
 
--   Patient [compartment] based search with a specified resource type in that compartment is not suported for this IG.
+-   Patient [compartment] based search with a specified resource type in that compartment is not required for this IG.
 
 <!-- -->
 
@@ -256,7 +256,7 @@ NOTE:
 
 ### Guidance on limiting the number of search results
 
-In order to manage the number of search results returned, the server may choose to return the results in a series of pages. The search result set contains the URLs that the client uses to request additional pages from the search set. For a simple RESTful search, the page links are contained in the returned bundle as links. See the [core specification] for more information
+In order to manage the number of search results returned, the server may choose to return the results in a series of pages. The search result set contains the URLs that the client uses to request additional pages from the search set. For a simple RESTful search, the page links are contained in the returned bundle as links. See the [FHIR Paging] for more information.
 
 ------------------------------------------------------------------------
 
@@ -265,6 +265,7 @@ In order to manage the number of search results returned, the server may choose 
 [FHIR RESTful API]: http://build.fhir.org/http.html
 [FHIR Search]: http://build.fhir.org/search.html
 [FHIR Terminology]: http://build.fhir.org/terminologies.html
+[FHIR Paging]: http://build.fhir.org/http.html#paging
 [HTTP]: http://build.fhir.org/http.html
 [FHIR Data Types]: http://build.fhir.org/datatypes.html
 [FHIR Resource]: http://build.fhir.org/resource.html

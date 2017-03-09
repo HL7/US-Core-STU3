@@ -1,4 +1,4 @@
-This profile sets minimum expectations for the [Goal] resource to record ,search and fetch Goal information associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
+This profile sets minimum expectations for the [Goal] resource to record, search and fetch Goal information associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
 
 **Example Usage Scenarios:**
 
@@ -25,7 +25,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 #### Examples
 
-- [Goal-1]Gaol-goal-1.html)
+- [Goal-1](Goal-goal-1.html)
 
 
 [Goal]:  http://build.fhir.org/goal.html

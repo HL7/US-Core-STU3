@@ -1,9 +1,7 @@
 
-**GET /Procedure?patient=[id][edit]**
+**`GET /Procedure?patient=[id][edit]`**
 
-*Example:*
-
-GET [base]/Procedure?patient=1291938
+**Example:** GET [base]/Procedure?patient=1291938
 
 *Support:* Mandatory to support search by patient.
 
@@ -17,14 +15,11 @@ GET [base]/Procedure?patient=1291938
 -   (Status 403): insufficient scope
 
 -----------
+**`GET /Procedure?patient=[id]&date=[date]{&date=[date]}`**
 
-**GET /Procedure?patient=[id]&date=[date]{&date=[date]}**
+**Example:** [GET [base]Procedure?example&date=ge2002](http://fhir2.healthintersections.com.au/open/Procedure?example&date=ge2002)
 
-*Example:*
-
-[GET [base]Procedure?example&date=ge2002](http://fhir2.healthintersections.com.au/open/Procedure?example&date=ge2002)
-
-[GET [base]Procedure?example&date=ge2010$date=le2015](http://fhir2.healthintersections.com.au/open/Procedure?example&date=ge2010&date=le2015)
+**Example:** [GET [base]Procedure?example&date=ge2010$date=le2015](http://fhir2.healthintersections.com.au/open/Procedure?example&date=ge2010&date=le2015)
 
 *Support:* Mandatory to support search by patient and date or period.
 

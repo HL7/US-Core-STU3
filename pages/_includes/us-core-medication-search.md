@@ -1,1 +1,1 @@
-**No Search criteria for uscore-medication profile.**
+**No required search criteria for us-core-medication profile.**

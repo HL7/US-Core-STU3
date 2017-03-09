@@ -30,7 +30,7 @@ Each DiagnosticReport *should* have:
 
 * Additional codes that translate or map to the DiagnosticReport codes or category codes are allowed.  For example:
    -  providing both a local system codes and a LOINC code that it map to
-   -  providing a more specific category codes such as “CH” (chemistry) in addition to the "LAB"  category code.
+   -  providing a more specific category codes to the “LAB” category code, such as “CH” (chemistry), in an additional coding element.
 * Results that are free text or report form may be represented using the valueAttachment element in Observation or alternatively using the presentedForm element in DiagnosticReport.
 
 #### Examples
