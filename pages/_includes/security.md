@@ -2,7 +2,7 @@
 
 ## General Security Considerations
 
-US-Core transactions often make use of patient-specific information which could be exploited by malicious actors resulting in exposure of patient data. For this reason, all US-Core transactions must be secured appropriately with access to limited authorized individuals, data protected in transit, and appropriate audit measures taken.
+US Core transactions often make use of patient-specific information which could be exploited by malicious actors resulting in exposure of patient data. For this reason, all US Core transactions must be secured appropriately with access to limited authorized individuals, data protected in transit, and appropriate audit measures taken.
 
 Implementers should be aware of the [security considerations] associated with FHIR transactions, particularly those related to:
 
@@ -14,7 +14,7 @@ Implementers should be aware of the [security considerations] associated with FH
 -   [Security Labels]
 -   [Narrative]
 
-For the purposes of US-Core, security conformance requirements are as follows:
+For the purposes of US Core, security conformance requirements are as follows:
 
 
 - Systems SHALL establish a risk analysis and management regime that conforms with HIPAA security regulatory requirements. In addition US Federal systems SHOULD conform with the risk management and mitigation requirements defined in NIST 800 series documents. This SHOULD include security category assignment in accordance with NIST 800-60 vol. 2 Appendix D.14. The coordination of risk management and the related security and privacy controls – policies, administrative practices, and technical controls – SHALL be defined in the Business Associate Agreements.
@@ -26,9 +26,9 @@ For the purposes of US-Core, security conformance requirements are as follows:
 -   Systems SHALL conform to [FHIR Communications] requirements.
 -   For Authentication and Authorization, Systems SHALL use the [Smart On FHIR ![]] OAuth2 profiles. NOTE: The Smart On FHIR specifications include the required OAuth2 scopes for enabling security decisions.
 -   Systems SHOULD implement requirements from [FHIR Security Labels] to provide information on the type and sensitivity of data.
--   Systems SHALL implement consent requirements per their state, local, and institutional policies. The Business Associate Agreements SHOULD document systems mutual consent requirements. US-Core actors SHALL ensure that any necessary consent records such DAF actors SHALL ensure that any necessary FHIR Consent records exist DAF actors SHALL ensure that FHIR [Consent] or other consent records exist and are reviewed prior to each exchange of patient-identifiable healthcare information. This verification should be logged in the same manner as other transactions, as discussed above under [General Security Considerations].
+-   Systems SHALL implement consent requirements per their state, local, and institutional policies. The Business Associate Agreements SHOULD document systems mutual consent requirements. US Core actors SHALL ensure that any necessary consent records such DAF actors SHALL ensure that any necessary FHIR Consent records exist DAF actors SHALL ensure that FHIR [Consent] or other consent records exist and are reviewed prior to each exchange of patient-identifiable healthcare information. This verification should be logged in the same manner as other transactions, as discussed above under [General Security Considerations].
 -   Systems SHOULD makes the right Provenance statements using the [FHIR Provenance] resource and associated requirements.
--   Systems MAY implement the [FHIR Digital Signatures] and provide feedback on it’s appropriateness for US-Core transactions.
+-   Systems MAY implement the [FHIR Digital Signatures] and provide feedback on it’s appropriateness for US Core transactions.
 -   Systems MAY protect the confidentiality of data at rest via encryption and associated access controls. The policies and methods used are outside the scope of this specification.
 
 

@@ -15,27 +15,27 @@ The table below lists the US Core Profile and FHIR Resources used for the corres
 
 No| CCDS Data Element | US Core Profile | FHIR Resource
 ---|---|---|
-(1) |  Patient Name | US Core Patient Profile| Patient
-(2) |  Sex | US Core Patient Profile | Patient
-(3) |  Date of birth | US Core Patient Profile | Patient
-(4) |  Race | US Core Patient Profile | Patient
-(5) |  Ethnicity | US Core Patient Profile | Patient
-(6) |  Preferred language | US Core Patient Profile | Patient
-(7) |  Smoking status | US Core Smoking Status Observation Profile | Observation
-(8) |  Problems | US Core Condition Profile | Condition
-(9) |  Medications | US Core Medication Profile, US Core Medication Statement Profile, US Core Medication Request Profile | Medication, MedicationStatement, MedicationRequest
-(10) |  Medication allergies | US Core Allergies Profile | AllergyIntolerance
-(11) |  Laboratory test(s) | US Core Result Observation Profile, US Core Diagnostic Report Profile| Observation, DiagnosticReport
-(12) |  Laboratory value(s)/result(s) |  US Core Result Observation Profile, US Core Diagnostic Report Profile | Observation, DiagnosticReport
-(13) |  Vital signs | Vital Signs Profile(From FHIR Core Profiles for Observation) | Observation
+(1) |  Patient Name | [US Core Patient Profile] | Patient
+(2) |  Sex | [US Core Patient Profile] | Patient
+(3) |  Date of birth | [US Core Patient Profile] | Patient
+(4) |  Race | [US Core Patient Profile] | Patient
+(5) |  Ethnicity | [US Core Patient Profile] | Patient
+(6) |  Preferred language | [US Core Patient Profile] | Patient
+(7) |  Smoking status | [US Core Smoking Status Observation Profile] | Observation
+(8) |  Problems | [US Core Condition Profile] | Condition
+(9) |  Medications | [US Core Medication Profile], [US Core Medication Statement Profile], [US Core Medication Request Profile] | Medication, MedicationStatement, MedicationRequest
+(10) |  Medication allergies | [US Core Allergies Profile] | AllergyIntolerance
+(11) |  Laboratory test(s) | [US Core Result Observation Profile], [US Core Diagnostic Report Profile]| Observation, DiagnosticReport
+(12) |  Laboratory value(s)/result(s) |  [US Core Result Observation Profile], [US Core Diagnostic Report Profile] | Observation, DiagnosticReport
+(13) |  Vital signs | [Vital Signs Profile] (From FHIR Core Profiles for Observation) | Observation
 (14) |  (no longer required) | -
-(15) |  Procedures | US Core Procedure Profile | Procedure
-(16) |  Care team member(s) | US Core CareTeam Profile | CareTeam
-(17) |  Immunizations | US Core Immunization Profile | Immunization
-(18) |  Unique device identifier(s) for a patient’s implantable device(s) | US Core Implanted Device Profile | Device
-(19) |  Assessment and plan of treatment | US Core CarePlan Profile | CarePlan
-(20) |  Goals | US Core Goal Profile | Goal
-(21) |  Health concerns | US Core Condition Profile  | Condition
+(15) |  Procedures | [US Core Procedure Profile] | Procedure
+(16) |  Care team member(s) | [US Core CareTeam Profile] | CareTeam
+(17) |  Immunizations | [US Core Immunization Profile] | Immunization
+(18) |  Unique device identifier(s) for a patient’s implantable device(s) | [US Core Implanted Device Profile] | Device
+(19) |  Assessment and plan of treatment | [US Core CarePlan Profile] | CarePlan
+(20) |  Goals | [US Core Goal Profile] | Goal
+(21) |  Health concerns | [US Core Condition Profile] | Condition
 
 ### Must Support
 In the context of US Core, *Must Support* on any data element SHALL be interpreted as follows:
@@ -278,8 +278,22 @@ In order to manage the number of search results returned, the server may choose 
 [Quantity]: http://build.fhir.org/datatypes.html#quantity
 [UCUM]: http://unitsofmeasure.org
 [US Core Server Capability Statement]: CapabilityStatement-server.html
-[US Core Result Observation Profile]: StructureDefinition-us-core-observationresults.html
-[Vital Signs Profile]: http://build.fhir.org/vitalsigns.html
 [HL7 U.S. Data Access Framework (DAF)]: http://wiki.siframework.org/Data+Access+Framework+Homepage
 [UCUM Codes value set]: http://build.fhir.org/valueset-ucum-units.html
 [2015 Edition Common Clinical Data Set (CCDS)]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf
+[US Core Patient Profile]: StructureDefinition-us-core-patient.html
+[US Core Smoking Status Observation Profile]: StructureDefinition-us-core-smokingstatus.html
+[US Core Condition Profile]: StructureDefinition-us-core-condition.html
+[US Core Medication Profile]: StructureDefinition-us-core-medication.html
+[US Core Medication Statement Profile]: StructureDefinition-us-core-medicationstatement.html
+[US Core Medication Request Profile]: StructureDefinition-us-core-medicationrequest.html
+[US Core Allergies Profile]: StructureDefinition-us-core-allergyintolerance.html
+[US Core Diagnostic Report Profile]: StructureDefinition-us-core-diagnosticreport.html
+[US Core Procedure Profile]: StructureDefinition-us-core-procedure.html
+[US Core CareTeam Profile]: StructureDefinition-us-core-careteam.html
+[US Core Immunization Profile]: StructureDefinition-us-core-immunization.html
+[US Core Implanted Device Profile]: StructureDefinition-us-core-device.html
+[US Core CarePlan Profile]: StructureDefinition-us-core-careplan.html
+[US Core Goal Profile]: StructureDefinition-us-core-goal.html
+[US Core Result Observation Profile]: StructureDefinition-us-core-observationresults.html
+[Vital Signs Profile]: http://build.fhir.org/vitalsigns.html
