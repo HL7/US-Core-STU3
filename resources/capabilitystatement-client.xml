@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CapabilityStatement xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/fhir-all.xsd">
+<CapabilityStatement xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<id value="client"/>
 	<text>
 		<status value="generated"/>
@@ -16,7 +16,7 @@
 				<span>json</span>
 				<br/>
 				<span>Published: </span>
-				<span>2016-12-15</span>
+				<span>2017-03-20</span>
 				<br/>
 				<span>Published by: </span>
 				<span>US Realm Steering Committee</span>
@@ -192,7 +192,7 @@
 						</a>
 						<br/>
 					</p>
-					<div>  <h4>Summary of US Core Search Criteria for StructureDefinition-us-core-diagnosticreport</h4> <ul> <li>A client has connected to a server and fetched all of a patient's laboratory diagnostic reports by searching by category using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB.</li> <li>A client has connected to a server and fetched all of a patient's laboratory diagnostic reports searching by category code and date range using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;date=[date]{&amp;date=[date]}.</li> <li>A client has connected to a server and fetched all of all of a patient's laboratory diagnostic reports searching by category and code using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;code=[LOINC].</li> </ul> <ul> <li>A client <strong>SHOULD</strong> be capable of connecting to a server and fetching any of a patient's laboratory diagnostic reports searching by category and one or more codes and date range using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;code=[LOINC1{,LOINC2,LOINC3,...}]&amp;date=[date]{&amp;date=[date]}.</li> </ul>      </div>
+					<div>  <p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-diagnosticreport</strong></p> <ul> <li>A client has connected to a server and fetched all of a patient's laboratory diagnostic reports by searching by category using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB.</li> <li>A client has connected to a server and fetched all of a patient's laboratory diagnostic reports searching by category code and date range using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;date=[date]{&amp;date=[date]}.</li> <li>A client has connected to a server and fetched all of all of a patient's laboratory diagnostic reports searching by category and code using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;code=[LOINC].</li> </ul> <ul> <li>A client <strong>SHOULD</strong> be capable of connecting to a server and fetching any of a patient's laboratory diagnostic reports searching by category and one or more codes and date range using GET [base]/DiagnosticReport?patient=[id]&amp;category=LAB&amp;code=[LOINC1{,LOINC2,LOINC3,...}]&amp;date=[date]{&amp;date=[date]}.</li> </ul>      </div>
 					<p/>
 					<hr/>
 				</li>
@@ -236,7 +236,7 @@
 						</a>
 						<br/>
 					</p>
-					<div> <h4>Summary of US Core Search Criteria for StructureDefinition-us-core-location</h4> <ul> <li>A client has connected to a server and fetched a location by name using GET [base]/Location?name=[string]</li> <li>A client has connected to a server and fetched a location by address using GET [base]/Location?address=[string]</li> </ul>     </div>
+					<div> <p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-location</strong></p> <ul> <li>A client has connected to a server and fetched a location by name using GET [base]/Location?name=[string]</li> <li>A client has connected to a server and fetched a location by address using GET [base]/Location?address=[string]</li> </ul>     </div>
 					<p/>
 					<hr/>
 				</li>
@@ -352,7 +352,7 @@
 	<url value="http://hl7.org/fhir/us/core/CapabilityStatement/client"/>
 	<name value="US Core Client"/>
 	<status value="draft"/>
-	<date value="2016-12-15"/>
+	<date value="2017-03-20"/>
 	<publisher value="HL7 US Realm Steering Committee"/>
 	<contact>
 		<telecom>

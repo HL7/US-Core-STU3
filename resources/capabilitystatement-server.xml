@@ -16,7 +16,7 @@
 				<span>json</span>
 				<br/>
 				<span>Published: </span>
-				<span>2016-12-15</span>
+				<span>2017-03-20</span>
 				<br/>
 				<span>Published by: </span>
 				<span>US Realm Steering Committee</span>
@@ -40,7 +40,7 @@
 			 <br/>
 		 </div>
 			<div>
-				<span>Security: </span><p><strong>US Core  Servers SHALL</strong></p>   <ol>   <li>Implement the <a href="http://hl7.org/fhir/us/core/security.html">security.html security requirements</a>  documented in the US-Core IG.</li>   <li>A server has ensured that every API request includes a valid Authorization token, supplied via: <code>Authorization: Bearer {server-specific-token-here}</code></li>   <li>A server has rejected any unauthorized requests by returning an <code>HTTP 401</code> Unauthorized response code.</li>   </ol><br/></div>
+				<span>Security: </span><p><strong>US Core  Servers SHALL</strong></p>   <ol>   <li>Implement the <a href="http://hl7.org/fhir/us/core/security.html">security.html security requirements</a>  documented in the US Core IG.</li>   <li>A server has ensured that every API request includes a valid Authorization token, supplied via: <code>Authorization: Bearer {server-specific-token-here}</code></li>   <li>A server has rejected any unauthorized requests by returning an <code>HTTP 401</code> Unauthorized response code.</li>   </ol><br/></div>
 			<h4>
 				<span style="font-weight:bold; ">Profile Summary:</span>
 			</h4>
@@ -556,7 +556,7 @@
 							<br/>
 						</a>
 						<br/>
-					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-patient</strong></p> <ul> <li>A server is capable of returning a patient using GET [base]/Patient/[id].</li> <li>A server returns valid FHIR Patient resources according to the Data Access Framework (DAF) Patient Profile..</li> <li>A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters: <ul> <li>identifier</li> </ul></li> <li>A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters when at least 2 (example name and gender) are present: <ul> <li>name</li> <li>gender</li> <li>birthdate</li> </ul></li> </ul>   <p/><span>Search Parameters:</span><table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-patient</strong></p> <ul> <li>A server is capable of returning a patient using GET [base]/Patient/[id].</li> <li>A server returns valid FHIR Patient resources according to the US Core Patient Profile.</li> <li>A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters: <ul> <li>identifier</li> </ul></li> <li>A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters when at least 2 (example name and gender) are present: <ul> <li>name</li> <li>gender</li> <li>birthdate</li> </ul></li> </ul>   <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -887,7 +887,7 @@
 							<br/>
 						</a>
 						<br/>
-					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-condition</strong></p> <ul> <li><p>A server is capable of returning a patient’s conditions list using GET/Condition?patient=[id].</p></li> <li>A server <strong>SHOULD</strong> be capable returning all of a patient’s active problems and health concerns using ‘GET /Condition?patient=[id]&amp;clinicalstatus=active,recurrance,remission’</li> <li><p>A server <strong>SHOULD</strong> be capable returning all of a patient’s problems or all of patient’s health concerns using ‘GET /Condition?patient=[id]&amp;category=[problem|health-concern]’</p></li> </ul>     <p/><span>Search Parameters:</span><table border="1">
+					</p><p><strong>Summary of US Core Search Criteria for StructureDefinition-us-core-condition</strong></p> <ul> <li><p>A server is capable of returning a patient’s conditions list using GET/Condition?patient=[id].</p></li> <li>A server <strong>SHOULD</strong> be capable returning all of a patient’s active problems and health concerns using GET /Condition?patient=[id]&amp;clinicalstatus=active,recurrance,remission</li> <li><p>A server <strong>SHOULD</strong> be capable returning all of a patient’s problems or all of patient’s health concerns using GET /Condition?patient=[id]&amp;category=[problem|health-concern]</p></li> </ul>     <p/><span>Search Parameters:</span><table border="1">
 						<thead>
 							<tr>
 								<th style="width:2.71in; ">
@@ -1708,7 +1708,7 @@
 	<url value="http://hl7.org/fhir/us/core/CapabilityStatement/server"/>
 	<name value="US Core  Server"/>
 	<status value="draft"/>
-	<date value="2016-12-15"/>
+	<date value="2017-03-20"/>
 	<publisher value="HL7 US Realm Steering Committee"/>
 	<contact>
 		<telecom>
@@ -1896,7 +1896,7 @@
 				</extension>
 			</extension>
 			<type value="Patient"/>
-			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-patient&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning a patient using GET [base]/Patient/[id].&lt;/li&gt; &lt;li&gt;A server returns valid FHIR Patient resources according to the Data Access Framework (DAF) Patient Profile..&lt;/li&gt; &lt;li&gt;A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters: &lt;ul&gt; &lt;li&gt;identifier&lt;/li&gt; &lt;/ul&gt;&lt;/li&gt; &lt;li&gt;A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters when at least 2 (example name and gender) are present: &lt;ul&gt; &lt;li&gt;name&lt;/li&gt; &lt;li&gt;gender&lt;/li&gt; &lt;li&gt;birthdate&lt;/li&gt; &lt;/ul&gt;&lt;/li&gt; &lt;/ul&gt;   "/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-patient&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;A server is capable of returning a patient using GET [base]/Patient/[id].&lt;/li&gt; &lt;li&gt;A server returns valid FHIR Patient resources according to the US Core Patient Profile.&lt;/li&gt; &lt;li&gt;A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters: &lt;ul&gt; &lt;li&gt;identifier&lt;/li&gt; &lt;/ul&gt;&lt;/li&gt; &lt;li&gt;A server has exposed a FHIR Patient search endpoint supporting at a minimum the following search parameters when at least 2 (example name and gender) are present: &lt;ul&gt; &lt;li&gt;name&lt;/li&gt; &lt;li&gt;gender&lt;/li&gt; &lt;li&gt;birthdate&lt;/li&gt; &lt;/ul&gt;&lt;/li&gt; &lt;/ul&gt;   "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
@@ -2201,7 +2201,7 @@
 				</extension>
 			</extension>
 			<type value="Condition"/>
-			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-condition&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;A server is capable of returning a patient’s conditions list using GET/Condition?patient=[id].&lt;/p&gt;&lt;/li&gt; &lt;li&gt;A server &lt;strong&gt;SHOULD&lt;/strong&gt; be capable returning all of a patient’s active problems and health concerns using ‘GET /Condition?patient=[id]&amp;amp;clinicalstatus=active,recurrance,remission’&lt;/li&gt; &lt;li&gt;&lt;p&gt;A server &lt;strong&gt;SHOULD&lt;/strong&gt; be capable returning all of a patient’s problems or all of patient’s health concerns using ‘GET /Condition?patient=[id]&amp;amp;category=[problem|health-concern]’&lt;/p&gt;&lt;/li&gt; &lt;/ul&gt;     "/>
+			<documentation value="&lt;p&gt;&lt;strong&gt;Summary of US Core Search Criteria for StructureDefinition-us-core-condition&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt;A server is capable of returning a patient’s conditions list using GET/Condition?patient=[id].&lt;/p&gt;&lt;/li&gt; &lt;li&gt;A server &lt;strong&gt;SHOULD&lt;/strong&gt; be capable returning all of a patient’s active problems and health concerns using GET /Condition?patient=[id]&amp;amp;clinicalstatus=active,recurrance,remission&lt;/li&gt; &lt;li&gt;&lt;p&gt;A server &lt;strong&gt;SHOULD&lt;/strong&gt; be capable returning all of a patient’s problems or all of patient’s health concerns using GET /Condition?patient=[id]&amp;amp;category=[problem|health-concern]&lt;/p&gt;&lt;/li&gt; &lt;/ul&gt;     "/>
 			<interaction>
 				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
 					<valueCode value="SHALL"/>
