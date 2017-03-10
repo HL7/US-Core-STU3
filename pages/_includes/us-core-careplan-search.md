@@ -8,14 +8,6 @@
 
 *Implementation Notes:* Search for all patient assessments and plans of treatment for a patient. Fetches a bundle of all CarePlan resources for the specified patient [(how to search by reference)] and [(how to search by token)].
 
-.
-
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
 
 -----------
 
@@ -30,14 +22,6 @@
 
 *Implementation Notes:* Search for all assessment and plan of treatment for a patient within a time period. Fetches a bundle of all CarePlan resources for the specified patient for a specified time period.  [(how to search by reference)], [(how to search by token)] and [(how to search by date)].
 
-.
-
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
 
 -----------
 
@@ -49,14 +33,6 @@
 
 *Implementation Notes:* SHOULD support search by reference and status. [(how to search by reference)], [(how to search by token)].
 
-.
-
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
 
 -----------
 
@@ -67,14 +43,8 @@
 *Support:* SHOULD support search by patient and status = 'active' and date.
 
 *Implementation Notes:* Search for all active assessment and plan of treatment for a patient within a time period. Fetches a bundle of all active (careplan = "active") CarePlan resources for the specified patient for a specified time period.  [(how to search by reference)], [(how to search by token)] and [(how to search by date)].
-.
 
-*Response Class:*
 
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
 
 
   [(how to search by reference)]: http://build.fhir.org/search.html#reference

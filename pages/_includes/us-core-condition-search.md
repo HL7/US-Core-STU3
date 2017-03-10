@@ -7,12 +7,6 @@
 
 *Implementation Notes:*  Search for all problems and health concerns for a patient. Fetches a bundle of all Condition resources for the specified patient. [(how to search by reference)] and [(how to search by token)].
 
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
 
 -----------
 
@@ -25,13 +19,6 @@
 *Implementation Notes:* Search for all active problems and health concerns for a patient. Fetches a bundle of all Condition resources for the specified patient and all "active" statuses (active,relapse,remission)  [(how to search by reference)] and [(how to search by token)]. This will not return any "entered in error" resources because of the conditional presence of the clinicalStatus element.
 
 
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
-
 -----------
 `GET /Condition?patient=[id]&category=problem`
 
@@ -41,13 +28,6 @@
 
 *Implementation Notes:*  earch for all Problems for a patient. Fetches a bundle of all Condition resources for the specified patient with a category code of "problem" [(how to search by reference)] and [(how to search by token)].
 
-
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
 
 -----------
 
@@ -59,13 +39,6 @@
 *Support:* Optional to support search by patient and category.
 
 *Implementation Notes:*  Search for all Health Concerns for a patient. Fetches a bundle of all Condition resources for the specified patient with a category code of "health-concern"[(how to search by reference)] and [(how to search by token)].
-
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
 
 
 -----------

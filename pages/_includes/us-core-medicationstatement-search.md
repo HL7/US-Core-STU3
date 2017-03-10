@@ -7,12 +7,6 @@
 
 *Implementation Notes:*  Used when the server application represents the medication using either an inline code or a contained Medication resource. This searches for all MedicationStatement resources for a patient and returns a Bundle of all MedicationStatement resources for the specified patient.  [(how to search by reference)].
 
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
 
 -----------
 
@@ -24,12 +18,6 @@
 
 *Implementation Notes:*  Used when the server application represents the medication with an external reference to  a Medication resource. This searches for all MedicationStatement resources for a patient and returns a Bundle of all MedicationStatement and Medication resources for the specified patient.  [(how to search by reference)].
 
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
 
 -------
 

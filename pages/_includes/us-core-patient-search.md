@@ -8,14 +8,6 @@
 
 *Implementation Notes:*  Fetches a single Patient
 
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
--   (Status 404): unknown resource
--   (Status 410): deleted resource
 
 -----------
 
@@ -27,14 +19,6 @@
 
 *Implementation Notes:*  Fetches a single Patient by an Identifier such as a MPI
 
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
--   (Status 404): unknown resource
--   (Status 410): deleted resource
 
 -----------
 
@@ -48,15 +32,6 @@
 *Implementation Notes:*  Search based on at least 2 patient elements -text name [(how to search by string)] and birthdate [(how to search by date)]
 
 
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
--   (Status 404): unknown resource
--   (Status 410): deleted resource
-
 -----------
 `GET [base]/Patient?name=[string]&gender=[code]`
 
@@ -65,15 +40,6 @@
 *Support:* Mandatory
 
 *Implementation Notes:*  Search based on at least 2 patient elements -text name [(how to search by string)] and gender [(how to search by token)].
-
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
--   (Status 404): unknown resource
--   (Status 410): deleted resource
 
 -----------
 
@@ -85,14 +51,6 @@
 
 *Implementation Notes:*  Search based on at least 2 patient elements -text family name [(how to search by string)] and gender [(how to search by token)].
 
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
--   (Status 404): unknown resource
--   (Status 410): deleted resource
 
 -----------
 
@@ -104,14 +62,6 @@
 
 *Implementation Notes:*  Search based on at least 2 patient elements -text given name [(how to search by string)] and gender [(how to search by token)]
 
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
--   (Status 404): unknown resource
--   (Status 410): deleted resource
 
 -----------
 

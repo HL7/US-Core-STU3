@@ -7,12 +7,6 @@
 
 *Implementation Notes:*   Search based on vital sign category code. This search fetches a bundle of all Observation resources with category 'vital-signs' for the specified patient  [(how to search by reference)] and [(how to search by token)].  The table above is the minimum set, additional vital signs are allowed.
 
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
 
 -----------
 
@@ -32,13 +26,6 @@
 *Implementation Notes:*   1)Search based on vital sign LOINC code(s). This fetches a bundle of all Observation resources for specific vital sign(s) listed in the table above for the specified patient [(how to search by reference)] and [how to search by token)]. 2) The Observation "code" parameter searches both in both Observation.code and Observation.component.code. For example when fetching blood pressures the same resources will be returned whether the search is based on 55284-4(Systolic and Diastolic BP), or the component codes 8480-6(Systolic BP) or 8462-4 (Diastolic BP).
 
 
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
-
 -----------
 
 `GET [base]/Observation?patient=[id]&category=vital-signs&date=[date]{&date=[date]}`
@@ -52,12 +39,6 @@
 
 *Implementation Notes:*  Search based on vital sign category code and date. This fetches a bundle of all Observation resources with category 'vital-signs' for the specified patient for a specified time period  [(how to search by reference)] and [(how to search by token)].
 
-*Response Class:*
-
--   (Status 200): successful operation
--   (Status 400): invalid parameter
--   (Status 401/4xx): unauthorized request
--   (Status 403): insufficient scope
 
 --------
 
