@@ -13,7 +13,7 @@
 			<value value="http://www.healthit.gov"/>
 		</telecom>
 	</contact>
-	<description value="A code classifying the person&#39;s sex assigned at birth  as specified by the [Office of the National Coordinator for Health IT (ONC)](https://www.healthit.gov/newsroom/about-onc)."/>
+	<description value="A code classifying the person&#39;s sex assigned at birth  as specified by the [Office of the National Coordinator for Health IT (ONC)](https://www.healthit.gov/newsroom/about-onc). This extension aligns wtih the C-CDA Birth Sex Observation (LOINC 76689-9)."/>
 	<fhirVersion value="1.9.0"/>
 	<mapping>
 		<identity value="rim"/>
