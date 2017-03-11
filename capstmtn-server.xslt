@@ -8,7 +8,7 @@
 	<!--   extension urls here:-->
 		<xsl:param name="ext1" select="'http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination'"/>
 			<xsl:param name="ext2" select="'http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation'"/>
-					<xsl:param name="ext3" select="'todo'"/>
+					<xsl:param name="ext3" select="'http://hl7.org/fhir/us/core/StructureDefinition/us-core-profile-link'"/>
 					
 	<xsl:param name="altova:bGeneratingFromPxf" select="false()"/>
 	<xsl:param name="SV_OutputFormat" select="'HTML'"/>
@@ -270,7 +270,7 @@
 				</span>
 			</a>
 			<span>
-				<xsl:text> interactions for the US Core Profiles the server chooses to support.</xsl:text>
+				<xsl:text> interactions for the Profiles the server chooses to support.</xsl:text>
 			</span>
 			<br/>
 			<span>
@@ -336,14 +336,14 @@
 				</span>
 			</a>
 			<span>
-				<xsl:text> interactions for the US Core Profiles the server chooses to support.</xsl:text>
+				<xsl:text> interactions for the Profiles the server chooses to support.</xsl:text>
 			</span>
 			<br/>
 		</p>
 		<br/>
 		<p>
 			<span>
-				<xsl:text>Summary of US Core Profile search criteria. Specific server search capabilities are described in detail below in each of the resource sections.</xsl:text>
+				<xsl:text>Summary of Profile search criteria. Specific server search capabilities are described in detail below in each of the resource sections.</xsl:text>
 			</span>
 		</p>
 		<br/>

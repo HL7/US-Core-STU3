@@ -33,26 +33,5 @@
 		<include>
       <valueSet value="http://hl7.org/fhir/us/core/ValueSet/us-core-substance-sct"/>
     </include>
-<!--
-		<include>
-			<system value="http://snomed.info/sct"/>
-			<concept>
-				<code value="160244002"/>
-				<display value="No Known Allergies"/>
-			</concept>
-			<concept>
-				<code value="429625007"/>
-				<display value="No Known Food Allergies"/>
-			</concept>
-			<concept>
-				<code value="409137002"/>
-				<display value="No Known Drug Allergies"/>
-			</concept>
-			<concept>
-				<code value="428607008"/>
-				<display value="No Known Environmental Allergy"/>
-			</concept>
-		</include>
 
--->
 </compose></ValueSet>

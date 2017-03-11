@@ -6,6 +6,18 @@
 This section outlines important definitions and interpretations used in the US Core IG.
 The conformance verbs used are defined in [FHIR Conformance Rules].
 
+---
+
+<!-- TOC -->
+**Contents**
+
+* Do not remove this line (it will not be displayed)
+{:toc}
+
+---
+
+<!-- end TOC -->
+
 ### 2015 Edition Common Clinical Data Set
 
 The US Core Profiles are intended to meet the 2015 Edition certification criterion for Patient Selection 170.315(g)(7), and Application Access – Data Category Request 170.315(g)(8). They were created for each of the [2015 Edition Common Clinical Data Set (CCDS)].  The Location, Organization, and Practitioner Profiles are not called out specifically in the certification criteria but are included because they are directly referenced by other profiles.  Where applicable the US Core Profiles are based on the HL7 U.S. [Data Access Framework (DAF)] FHIR DSTU2 Implementation Guide. However, the requirements per resource are a subset of those of the DAF implementation guide.
@@ -61,16 +73,18 @@ Many of the profiles in this guide [reference](http://build.fhir.org/references.
 ### Using Codes in US Core profiles
 
 #### Extensible binding for CodeableConcept Datatype
+{:.no_toc}
 
 Extensible binding to a value set definition for this IG means that if the data type is CodeableConcept, then one of the coding values SHALL be from the specified value set if a code applies, but if no suitable code exists in the value set, alternate code(s) may be provided in its place. If only text available, then just text may be used.
 
 #### Extensible + Max-ValueSet binding for CodeableConcept Datatype
+{:.no_toc}
 
 For this IG, we have defined the Extensible + Max-ValueSet binding to allow for either a code from the defined value set or text if the code is not available.  (for example, legacy data). This means, unlike a FHIR extensible binding, alternate code(s) are not permitted and a text value SHALL be supplied if the code is not available.  However, multiple codings (translations) are allowed as is discussed below.
 
 Example: Immunization resource vaccineCode's CVX coding - the source only has the text "4-way Influenza" and no CVX code.
 
-    /{
+    \{
       "resourceType": "Immunization",
       ...
       "vaccineCode": {
@@ -81,6 +95,7 @@ Example: Immunization resource vaccineCode's CVX coding - the source only has th
 
 
 #### Required binding for Code Datatype
+{:.no_toc}
 
 Required binding to a value set definition for this IG means that one of the codes from the specified value set SHALL be used. If only text is available or the local (proprietary, system) cannot be mapped to one of the required codes the [core specification] provides guidance which we have summarized:
 
@@ -92,10 +107,10 @@ Note that is will still be ambiguous when using a status based queries
 
 Example: AllergyIntolerance resource with a status that is text only or cannot be mapped to the status value set.
 
-    /{
+     \{
        "resourceType”:“AllergyIntolerance”,
        ...
-       “_status”:{
+       “\_status”:{
         “url” : “http://build.fhir.org/StructureDefinition/data-absent-reason”,
        “valueCode” : “unsupported”
         ...
@@ -103,13 +118,15 @@ Example: AllergyIntolerance resource with a status that is text only or cannot b
      }
 
 #### Required binding for CodeableConcept Datatype
+{:.no_toc}
 
 Required binding to a value set definition means that one of the codes from the specified value set SHALL be used and using only text is not valid. In this IG, we have defined the Extensible + Max-ValueSet binding to allow for either a code from the specified value set or text. Multiple codings (translations) are permitted as is discussed below.
 
 
 #### Using multiple codes with CodeableConcept Datatype
+{:.no_toc}
 
-Atlernate codes may be provided in addition to the standards codes defined in required or extensible value sets. The alternate codes are called “translations”. These translations may be equivalent to or narrower in meaning to the standard concept code.
+Alternate codes may be provided in addition to the standards codes defined in required or extensible value sets. The alternate codes are called “translations”. These translations may be equivalent to or narrower in meaning to the standard concept code.
 
 Example of multiple translation for Body Weight concept code.
 
@@ -146,8 +163,6 @@ Example of multiple translation for Body Weight concept code.
 Example of translation of CVX vaccine code to NDC code.
 
 
-
-
     "vaccineCode" : {
         "coding" : [
           {
@@ -164,6 +179,7 @@ Example of translation of CVX vaccine code to NDC code.
       },
 
 ####  Using UCUM codes in the [Quantity] datatype
+{:.no_toc}
 
 Both the [Vital Signs Profile] and [US Core Result Observation Profile] bind the `valueQuantity` datatypes to the [UCUM] code system.  A FHIR [UCUM Codes value set] that defines all UCUM codes is in the FHIR specification. This guidance specifies how to represent the Quantity datatype when the correct UCUM units are missing or the units are missing altogether which will likely occur in the real world.  
 
