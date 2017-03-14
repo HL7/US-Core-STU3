@@ -8,7 +8,7 @@ The conformance verbs used are defined in [FHIR Conformance Rules].
 
 ---
 
-<!-- TOC -->
+<!-- TOC  the css styling for this is \pages\assets\css\project.css under 'markdown-toc'-->
 **Contents**
 
 * Do not remove this line (it will not be displayed)
@@ -239,36 +239,29 @@ For this RESTful search ([FHIR Search]), the parameters are a series of name=\[v
 
 ### Syntax for searches limited by patient
 
-There are three ways to search for resources associated with a specific patient depending on the context and implementation. These three searches result in the same outcome.:
+There are several potential ways to search for resources associated with a specific patient depending on the context and implementation. These searches result in the same outcome.:
 
-1. An explicitly defined patient that controls which set of resources are being searched by resource type:
+1. An explicitly defined patient using the 'patient' parameter that controls which set of resources are being searched by resource type.  Note that all the search interactions in this IG are published using this syntax:
+  - **GET [base]/[Resource-type]?patient=24342{&otherparameters}**
+   - There are several variations to this syntax which are listed below:
 
-**GET [base]/[Resource-type]?patient=24342{&otherparameters}**
+        -   GET \[base\]/\[Resource-type\]?Subject=\[id\]{&other parameters}
+        -   GET \[base\]/\[Resource-type\]?Subject=Patient/\[id\]{&other parameters}
+        -   GET \[base\]/\[Resource-type\]?Subject.\_id=\[id\]{&other parameters}
+        -   GET \[base\]/\[Resource-type\]?subject:Patient=\[id\]{&other parameters}
+        -   GET \[base\]/\[Resource-type\]?subject:Patient=Patient/\[id\]{&other parameters}
+        -   GET \[base\]/\[Resource-type\]?subject:Patient=\[https://%5Burl%5D/Patient/id\]{&other parameters}
+        -   GET \[base\]/\[Resource-type\]?subject:Patient.\_id=\[id\]{&other parameters}
+        -   GET \[base\]/\[Resource-type\]?patient:Patient=\[https://%5Burl%5D/Patient/id\]{&other parameter
 
-Note that all the search interactions in this IG are published using the above syntax.
+1. The patient may be *implicit* in the context (e.g. using SMART). Then the patient parameter can be omitted:
+  - **GET [base]/[Resource-type]{?other-parameters}**
 
-However there are several variations to this syntax: (see [Issue \#39])
+1. Patient [compartment] based search with a specified resource type in that compartment. **NOTE this IG does not support compartment based searches**.
 
--   GET \[base\]/\[Resource-type\]?Subject=\[id\]{&other parameters}
--   GET \[base\]/\[Resource-type\]?Subject=Patient/\[id\]{&other parameters}
--   GET \[base\]/\[Resource-type\]?Subject.\_id=\[id\]{&other parameters}
--   GET \[base\]/\[Resource-type\]?subject:Patient=\[id\]{&other parameters}
--   GET \[base\]/\[Resource-type\]?subject:Patient=Patient/\[id\]{&other parameters}
--   GET \[base\]/\[Resource-type\]?subject:Patient=<https://%5Burl%5D/Patient/id>{&other parameters}
--   GET \[base\]/\[Resource-type\]?subject:Patient.\_id=\[id\]{&other parameters}
--   GET \[base\]/\[Resource-type\]?patient:Patient=<https://%5Burl%5D/Patient/id>{&other parameters}
+### Across Platform Searches
 
-2. if the patient is implicit in the context (e.g. UC-1 above or using SMART), then this search applies:
-
-**GET [base]/[Resource-type]?other-parameters**
-
-NOTE:
-
--   Patient [compartment] based search with a specified resource type in that compartment is not required for this IG.
-
-<!-- -->
-
--   In addition, US Core servers will not resolve full URLs that are external to their environment.
+US Core servers are not required to resolve full URLs that are external to their environment.
 
 ### Guidance on limiting the number of search results
 
