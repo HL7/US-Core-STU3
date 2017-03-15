@@ -41,8 +41,8 @@ Additionally your system [Must Support]:
 - [MedicationStatement-uscore-ms3](Bundle-uscore-ms3.html) A search [Bundle](http://build.fhir.org/bundle.html) with a MedicationStatement and an included Medication resource in the Bundle.
 
   [Medication Clinical Drug (RxNorm)]: ValueSet-us-core-medication-codes.html
-  [MedicationRequestStatus]: http://build.fhir.orgus/daf/ValueSet-medication-request-status.html
-[MedicationStatementStatus]: http://build.fhir.orgus/daf/ValueSet-medication-statement-status.html
+  [MedicationRequestStatus]: http://build.fhir.org/us/daf/ValueSet-medication-request-status.html
+[MedicationStatementStatus]: http://build.fhir.org/us/daf/ValueSet-medication-statement-status.html
 [MedicationStatement]:http://build.fhir.org/medicationstatement.html
  [MedicationRequest]: http://build.fhir.org/medicationrequest.html
  [Medication]:http://build.fhir.org/medication.html

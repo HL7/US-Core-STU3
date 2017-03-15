@@ -28,7 +28,9 @@ The list of US Core Profiles is shown below.  Each profile defines the minimum m
 
 See [2015 Edition Common Clinical Data Set] for a mapping to the CCDS.
 
-{% capture my-include %}{% include conformance.md %}{% endcapture %}{{ my-include | markdownify }}
+## US Core Conformance Requirements
+
+The [Capability Statements Section](capstmnts.html) outlines conformance requirements for the US Core Servers and Client applications, identifying the specific profiles that need to be supported, the specific RESTful operations that need to be supported, and the search parameters that need to be supported. Note: The individual US Core profiles identify the structural constraints, terminology bindings and invariants, however, implementers must refer to the conformance requirements for details on the RESTful operations, specific profiles and the search parameters applicable to each of the US Core actors.
 
 ----
 
@@ -48,19 +50,19 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [Data Access Framework]: http://wiki.siframework.org/Data+Access+Framework+Homepage
 [Argonaut]: http://argonautwiki.hl7.org/index.php?title=Main_Page
 [ONC 2015 Edition Common Clinical Data Set (CCDS)]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf
-[profiles]: http://build.fhir.orgprofiling.html
+[profiles]: http://build.fhir.org/profiling.html
 [logical view]: http://build.fhir.org/formats.html#table
-[StructureDefinitions]: http://build.fhir.orgstructuredefinition.html
+[StructureDefinitions]: http://build.fhir.org/structuredefinition.html
 [Value sets]: http://build.fhir.org/valueset.html
-[CodeSystem]: http://build.fhir.orgcodesystem.html
-[ConceptMap]: http://build.fhir.orgconceptmap.html
-[NamingSystem]: http://build.fhir.orgnamingsystem.html
-[FHIR Conformance Rules]: http://build.fhir.orgCapabilityStatement-rules.html
-[dataAbsentReason]: http://build.fhir.orgextension-data-absent-reason.html
-[FHIR Terminology]: http://build.fhir.orgterminologies.html
-[FHIR RESTful API]: http://build.fhir.orghttp.html
-[HTTP]: http://build.fhir.orghttp.html
-[FHIR Data Types]: http://build.fhir.orgdatatypes.html
-[FHIR Search]: http://build.fhir.orgsearch.html
-[FHIR Resource]: http://build.fhir.orgformats.html
+[CodeSystem]: http://build.fhir.org/codesystem.html
+[ConceptMap]: http://build.fhir.org/conceptmap.html
+[NamingSystem]: http://build.fhir.org/namingsystem.html
+[FHIR Conformance Rules]: http://build.fhir.org/CapabilityStatement-rules.html
+[dataAbsentReason]: http://build.fhir.org/extension-data-absent-reason.html
+[FHIR Terminology]: http://build.fhir.org/terminologies.html
+[FHIR RESTful API]: http://build.fhir.org/http.html
+[HTTP]: http://build.fhir.org/http.html
+[FHIR Data Types]: http://build.fhir.org/datatypes.html
+[FHIR Search]: http://build.fhir.org/search.html
+[FHIR Resource]: http://build.fhir.org/formats.html
 [2015 Edition Common Clinical Data Set]: guidance.html#edition-common-clinical-data-set

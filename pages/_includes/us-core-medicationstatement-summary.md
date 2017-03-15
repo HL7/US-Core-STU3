@@ -18,5 +18,5 @@
   [Medication Clinical Drug (RxNorm)]: ValueSet-us-core-medication-codes.html
   [MedicationStatusStatus]: http://build.fhir.org/valueset-medication-request-status.html
 
-[MedicationStatementStatus]: http://build.fhir.orgvalueset-medication-statement-status.html
-[MedicationStatementTaken]: http://build.fhir.orgvalueset-medication-statement-taken.html
+[MedicationStatementStatus]: http://build.fhir.org/valueset-medication-statement-status.html
+[MedicationStatementTaken]: http://build.fhir.org/valueset-medication-statement-taken.html

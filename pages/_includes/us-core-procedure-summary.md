@@ -12,4 +12,4 @@
   [US Core Procedure Codes]: ValueSet-us-core-procedure-code.html
   [ICD-10-PCS]: http://www.icd10data.com/icd10pcs
   [Code on Dental Procedures and Nomenclature (CDT Codes)]: http://www.ada.org/en/publications/cdt/
-  [EventStatus]: http://build.fhir.orgValueSet/event-status
+  [EventStatus]: http://build.fhir.org/ValueSet/event-status

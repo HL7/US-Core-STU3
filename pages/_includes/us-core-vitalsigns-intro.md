@@ -51,7 +51,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
  - [observation-bp-data-absent](Observation-bp-data-absent.html)
 
 
-[Vital Signs Profile]: observation-profiles.html
+[Vital Signs Profile]: http://build.fhir.org/observation-profiles.html
 [Observation]: http://build.fhir.org/observation.html
 [extensible]: http://build.fhir.org/terminologies.html#extensible
 [Conformance requirements for the US-Core Server]: CapabilityStatement-server.html

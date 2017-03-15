@@ -34,8 +34,8 @@ Additionally your system must Support:
 5.  One Birth Sex in `Patient.extension`= [US Core Patient Birth Sex] which has a [required](http://build.fhir.org/terminologies.html#required) binding to [US Core Birth Sex] valueset
 
 
-  [Patient.birthDate]: http://build.fhir.orgus/daf/daf-patient-guidance.html#daf-patient.Patient.birthDate
-  [Patient.communication.language]: http://build.fhir.orgus/daf/daf-patient-guidance.html#daf-patient.Patient.communication.language
+  [Patient.birthDate]: http://build.fhir.org/us/daf/daf-patient-guidance.html#daf-patient.Patient.birthDate
+  [Patient.communication.language]: http://build.fhir.org/us/daf/daf-patient-guidance.html#daf-patient.Patient.communication.language
   [All Language codes with language and optionally a region modifier]: ValueSet-simple-language.html
   [All Languages]: http://build.fhir.org/valueset-all-languages.html
   [US Core Patient Birth Sex]:StructureDefinition-us-core-birthsex.html
