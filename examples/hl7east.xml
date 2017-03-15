@@ -27,6 +27,6 @@
 		<latitude value="42.373222"/>
 	</position>
 	<managingOrganization>
-		<reference value="http://fhir3.healthintersections.com.au/open/Organization/1"/>
+		<display value="Health Level Seven International"/>
 	</managingOrganization>
 </Location>
