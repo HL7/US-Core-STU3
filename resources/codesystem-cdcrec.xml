@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://build.fhir.org/codesystem.xsd">
 	<id value="cdcrec"/>
-	<url value="http://hl7.org/fhir/us/core/CodeSystem/cdcrec"/>
+	<url value="urn:oid:2.16.840.1.113883.6.238"/>
 	<identifier>
 		<value value="2.16.840.1.113883.6.238"/>
 	</identifier>
