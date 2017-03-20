@@ -97,13 +97,13 @@ Example: Immunization resource vaccineCode's CVX coding - the source only has th
 #### Required binding for Code Datatype
 {:.no_toc}
 
-Required binding to a value set definition for this IG means that one of the codes from the specified value set SHALL be used. If only text is available or the local (proprietary, system) cannot be mapped to one of the required codes the [core specification] provides guidance which we have summarized:
+Required binding to a value set definition for this IG means that one of the codes from the specified value set SHALL be used. If only text is available or the local (proprietary, system) code cannot be mapped to one of the required codes the [core specification] provides guidance which we have summarized:
 
 1.  Send the resource with the code element empty
 2.  Use the [DataAbsentReason Extension] in the data type
 3.  Use the code ‘unsupported’ - The source system wasn't capable of supporting this element.
 
-Note that is will still be ambiguous when using a status based queries
+Note that when a query uses a status parameter, a status will be ambiguous.
 
 Example: AllergyIntolerance resource with a status that is text only or cannot be mapped to the status value set.
 
@@ -126,7 +126,7 @@ Required binding to a value set definition means that one of the codes from the 
 #### Using multiple codes with CodeableConcept Datatype
 {:.no_toc}
 
-Alternate codes may be provided in addition to the standards codes defined in required or extensible value sets. The alternate codes are called “translations”. These translations may be equivalent to or narrower in meaning to the standard concept code.
+Alternate codes may be provided in addition to the standard codes defined in required or extensible value sets. The alternate codes are called “translations”. These translations may be equivalent to or narrower in meaning to the standard concept code.
 
 Example of multiple translation for Body Weight concept code.
 
