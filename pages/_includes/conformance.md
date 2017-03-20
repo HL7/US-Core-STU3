@@ -540,7 +540,7 @@ Source Resource: [XML](CapabilityStatement-client.xml.html)/[JSON](CapabilitySta
 1. Published: 2017-03-08
 1. Published by: Health Level Seven International US Realm Steering Committee
 
-The Section describes the expected capabilities of the  US-Core Client which is responsible for creating and initiating the queries for information about an individual patient. The complete list of FHIR profiles, RESTful operations, and search parameters supported by US Core Servers are defined in the [Conformance requirements for the US-Core Server section](#conformance-requirements-for-the-us-core-server). US Core Clients have the option of choosing from this list to access necessary data based on their local use cases and other contextual requirements.
+The Section describes the expected capabilities of the  US Core Client which is responsible for creating and initiating the queries for information about an individual patient. The complete list of FHIR profiles, RESTful operations, and search parameters supported by US Core Servers are defined in the [Conformance requirements for the US Core Server section](#conformance-requirements-for-the-us-core-server). US Core Clients have the option of choosing from this list to access necessary data based on their local use cases and other contextual requirements.
 
 #### Behavior
 
@@ -554,7 +554,7 @@ security:
 
 The US Core Client **SHALL**:
 
-- implement the [security requirements](security.html) documented in the US-Core IG.
+- implement the [security requirements](security.html) documented in the US Core IG.
 
 #### Resource  Details:
 

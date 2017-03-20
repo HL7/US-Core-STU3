@@ -25,7 +25,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
  - Based upon the 2015 Edition Certification Requirements, either SNOMED-CT or CPT-4/HCPC procedure codes are required and [ICD-10-PCS codes] MAY be supported as translations to them. If choosing to primarily to dental procedures, the [Code on Dental Procedures and Nomenclature (CDT Code)] may be used.
 
- - This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server].
+ - This profile may be referenced by different capability statements, such as the [Conformance requirements for the US Core Server].
 
 #### Examples
 
@@ -39,4 +39,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
   [Code on Dental Procedures and Nomenclature (CDT Code)]: http://www.ada.org/en/publications/cdt/
   [ProcedureStatus]: http://hl7.org/fhir/STU3/valueset-procedure-status.html
   [Procedure]: http://hl7.org/fhir/STU3/procedure.html
-  [Conformance requirements for the US-Core Server]: CapabilityStatement-server.html
+  [Conformance requirements for the US Core Server]: CapabilityStatement-server.html

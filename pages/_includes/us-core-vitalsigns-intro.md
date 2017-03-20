@@ -28,7 +28,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 * This table represents a minimum set of vital sign concepts, the required LOINC codes, and UCUM units of measure codes used for representing vitals signs observations (See the [General Guidance Section] for further guidance on using UCUM). These are [extensible] bindings and require that when a system support of any of these vital signs concepts, they must represent them using these codes. In addition, if you have a blood pressure observation, you must have both a systolic and a diastolic component, though one or both may have dataAbsentReason instead of a value.
 
-* This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server].
+* This profile may be referenced by different capability statements, such as the [Conformance requirements for the US Core Server].
 
 * Alternate codes may be provided in addition to the standard LOINC and UCUM codes defined here.The examples illustrate using other codes as translations.
 
@@ -54,7 +54,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 [Vital Signs Profile]: http://hl7.org/fhir/STU3/observation-profiles.html
 [Observation]: http://hl7.org/fhir/STU3/observation.html
 [extensible]: http://hl7.org/fhir/STU3/terminologies.html#extensible
-[Conformance requirements for the US-Core Server]: CapabilityStatement-server.html
+[Conformance requirements for the US Core Server]: CapabilityStatement-server.html
 [General Guidance Section]: guidance.html
 [Vital Signs]: http://hl7.org/fhir/STU3/vitalsigns.html
 [Vital Signs Panel]: http://hl7.org/fhir/STU3/vitalspanel.html

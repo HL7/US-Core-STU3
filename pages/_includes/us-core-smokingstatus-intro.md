@@ -29,11 +29,11 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 **Profile specific implementation guidance:**
 
  - Smoking observation LOINC = 72166-2 *Tobacco smoking status NHIS*
- - This profile may be referenced by different capability statements, such as the [Conformance requirements for the US-Core Server].
+ - This profile may be referenced by different capability statements, such as the [Conformance requirements for the US Core Server].
 
 #### Examples
 
  - [observation-some-day-smoker](Observation-some-day-smoker.html)
 
 [Observation]: http://hl7.org/fhir/STU3/observation.html
-[Conformance requirements for the US-Core Server]: CapabilityStatement-server.html
+[Conformance requirements for the US Core Server]: CapabilityStatement-server.html
