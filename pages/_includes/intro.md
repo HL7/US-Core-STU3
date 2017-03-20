@@ -2,13 +2,13 @@
 
 ## Introduction
 
-The *US Core Implementation Guide STU2* which is based on FHIR Version 3.0.0, defines the minimum conformance requirements for accessing patient data as defined by the [Argonaut] pilot implementations and the [ONC 2015 Edition Common Clinical Data Set (CCDS)]. These profiles are intended to be the foundation for future US Realm FHIR implementation guides. In addition to Argonaut, they are used by [DAF-Research], [QI-Core], and [CIMI].  Under the guidance of HL7 and the HL7 US Realm Steering Committee, the content will expand in future versions to meet the needs specific to the US Realm.
+The *US Core Implementation Guide* is based on FHIR Version 3.0.0 and defines the minimum conformance requirements for accessing patient data as defined by the [Argonaut] pilot implementations and the [ONC 2015 Edition Common Clinical Data Set (CCDS)]. These profiles are intended to be the foundation for future US Realm FHIR implementation guides. In addition to Argonaut, they are used by [DAF-Research], [QI-Core], and [CIMI].  Under the guidance of HL7 and the HL7 US Realm Steering Committee, the content will expand in future versions to meet the needs specific to the US Realm.
 
 These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [Office of the National Coordinator for Health Information Technology (ONC)] sponsored [Data Access Framework] (DAF) project. For more information on how DAF became US Core see the [US Core change notes](uscore-change-notes.html).  
 
 ## US Core Actors
 
-The following actors are part of the US Core IG.
+The following actors are part of the US Core IG:
 
 * US Core Requestor: An application that initiates a data access request to retrieve patient data. This can be thought of as the client in a client-server interaction.
 * US Core Responder: A product that responds to the data access request providing patient data. This can be thought of as the server in a client-server interaction.
@@ -19,7 +19,7 @@ The following actors are part of the US Core IG.
 The list of US Core Profiles is shown below.  Each profile defines the minimum mandatory elements, extensions and terminology requirements that **MUST** be present. For each profile requirements and guidance are given in a simple narrative summary. A formal hierarchical table that presents a [logical view] of the content in both a differential and snapshot view is also provided along with references to appropriate terminologies and examples.  In addition each profile has a "Quick Start" section which is intended as an implementer friendly overview of the required search and read operations.
 
 {% include list-simple-profiles.xhtml %}
-- [Vitals Signs Profile](us-core-vitalsigns.html) (From FHIR Core Profiles for Observation)
+US Core adopts the [Vitals Signs Profile](us-core-vitalsigns.html) from FHIR Core.
 
 *Note on Searches based on a date or date range:*
 
