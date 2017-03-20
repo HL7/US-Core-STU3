@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CareTeam xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/medicationrequest.xsd">
+<CareTeam xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://hl7.org/fhir"  >
 	<id value="example"/>
 	<meta>
 		<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam"/>
 	</meta>
-	<status value = "active">
-
+	<status value="active">
 	</status>
 	<name value="US-Core example CareTeam"/>
 	<subject>
@@ -29,9 +28,9 @@
 		<role>
 			<coding>
 				<system value="http://nucc.org/provider-taxonomy"/>
-
+				<code value="208D00000X"/>
+				<display value="Allopathic &amp;amp; Osteopathic Physicians:General Practice"/>
 			</coding>
-			<text value="Good Guy"/>
 		</role>
 		<member>
 			<reference value="Practitioner/practitioner-2"/>

@@ -61,8 +61,8 @@ US Core Servers **SHALL**:
 
 #### Profile Interaction Summary:
 
-1. All servers **SHALL** make available the [read](http://build.fhir.org/http.html#read) and [search](http://build.fhir.org/http.html#search) interactions for the Profiles the server chooses to support.
-1. All servers **SHOULD** make available the [vread](http://build.fhir.org/http.html#vread) and [history-instance](http://build.fhir.org/http.html#history) interactions for the Profiles the server chooses to support.
+1. All servers **SHALL** make available the [read](http://hl7.org/fhir/STU3/http.html#read) and [search](http://hl7.org/fhir/STU3/http.html#search) interactions for the Profiles the server chooses to support.
+1. All servers **SHOULD** make available the [vread](http://hl7.org/fhir/STU3/http.html#vread) and [history-instance](http://hl7.org/fhir/STU3/http.html#history) interactions for the Profiles the server chooses to support.
 
 **Summary of US Core search criteria**
 
@@ -418,7 +418,7 @@ Supported Profiles:
 
     `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC1{,LOINC2,LOINC3,...}]&date=[date]{&date=[date]}`
 
-1. [Vital Signs Profile](http://build.fhir.org/vitalsigns.html)
+1. [Vital Signs Profile](http://hl7.org/fhir/STU3/vitalsigns.html)
 
   Search Criteria
 
@@ -825,7 +825,7 @@ Supported Profiles:
 
     `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC1{,LOINC2,LOINC3,...}]&date=[date]{&date=[date]}`
 
-1. [Vital Signs Profile](http://build.fhir.org/vitalsigns.html)
+1. [Vital Signs Profile](http://hl7.org/fhir/STU3/vitalsigns.html)
 
   Search Criteria
 

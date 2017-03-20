@@ -1,4 +1,4 @@
-<Location xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/fhir-all.xsd">
+<Location  xmlns="http://hl7.org/fhir" >
 	<id value="hl7east"/>
 		<meta>
 		<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"/>

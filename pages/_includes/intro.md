@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The *US Core Implementation Guide version 1.0.0* defines the minimum conformance requirements for accessing patient data as defined by the [Argonaut] pilot implementations and the [ONC 2015 Edition Common Clinical Data Set (CCDS)]. These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [Office of the National Coordinator for Health Information Technology (ONC)] sponsored [Data Access Framework] (DAF) project. In addition to Argonaut, these profiles are used by [DAF-Research], [QI-Core], and [CIMI], and are intended to be the foundation for future US Realm guides.
+The *US Core Implementation Guide STU2* which based on FHIR Version 3.0.0, defines the minimum conformance requirements for accessing patient data as defined by the [Argonaut] pilot implementations and the [ONC 2015 Edition Common Clinical Data Set (CCDS)]. These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [Office of the National Coordinator for Health Information Technology (ONC)] sponsored [Data Access Framework] (DAF) project. In addition to Argonaut, these profiles are used by [DAF-Research], [QI-Core], and [CIMI], and are intended to be the foundation for future US Realm guides.
 
-US Core version 1.0.0 is based on the FHIR STU3. HL7 will expand and publish future versions of US Core under the guidance of the HL7 US Realm Steering Committee.
+ Under the guidance of HL7 and the HL7 US Realm Steering Committee, the *US Core Implementation Guide* content will expand in future versions to meet the needs specific to the US Realm.
 
 ## US Core Actors
 
@@ -50,19 +50,19 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [Data Access Framework]: http://wiki.siframework.org/Data+Access+Framework+Homepage
 [Argonaut]: http://argonautwiki.hl7.org/index.php?title=Main_Page
 [ONC 2015 Edition Common Clinical Data Set (CCDS)]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf
-[profiles]: http://build.fhir.org/profiling.html
-[logical view]: http://build.fhir.org/formats.html#table
-[StructureDefinitions]: http://build.fhir.org/structuredefinition.html
-[Value sets]: http://build.fhir.org/valueset.html
-[CodeSystem]: http://build.fhir.org/codesystem.html
-[ConceptMap]: http://build.fhir.org/conceptmap.html
-[NamingSystem]: http://build.fhir.org/namingsystem.html
-[FHIR Conformance Rules]: http://build.fhir.org/CapabilityStatement-rules.html
-[dataAbsentReason]: http://build.fhir.org/extension-data-absent-reason.html
-[FHIR Terminology]: http://build.fhir.org/terminologies.html
-[FHIR RESTful API]: http://build.fhir.org/http.html
-[HTTP]: http://build.fhir.org/http.html
-[FHIR Data Types]: http://build.fhir.org/datatypes.html
-[FHIR Search]: http://build.fhir.org/search.html
-[FHIR Resource]: http://build.fhir.org/formats.html
+[profiles]: http://hl7.org/fhir/STU3/profiling.html
+[logical view]: http://hl7.org/fhir/STU3/formats.html#table
+[StructureDefinitions]: http://hl7.org/fhir/STU3/structuredefinition.html
+[Value sets]: http://hl7.org/fhir/STU3/valueset.html
+[CodeSystem]: http://hl7.org/fhir/STU3/codesystem.html
+[ConceptMap]: http://hl7.org/fhir/STU3/conceptmap.html
+[NamingSystem]: http://hl7.org/fhir/STU3/namingsystem.html
+[FHIR Conformance Rules]: http://hl7.org/fhir/STU3/CapabilityStatement-rules.html
+[dataAbsentReason]: http://hl7.org/fhir/STU3/extension-data-absent-reason.html
+[FHIR Terminology]: http://hl7.org/fhir/STU3/terminologies.html
+[FHIR RESTful API]: http://hl7.org/fhir/STU3/http.html
+[HTTP]: http://hl7.org/fhir/STU3/http.html
+[FHIR Data Types]: http://hl7.org/fhir/STU3/datatypes.html
+[FHIR Search]: http://hl7.org/fhir/STU3/search.html
+[FHIR Resource]: http://hl7.org/fhir/STU3/formats.html
 [2015 Edition Common Clinical Data Set]: guidance.html#edition-common-clinical-data-set

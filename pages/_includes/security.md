@@ -32,21 +32,21 @@ For the purposes of US Core, security conformance requirements are as follows:
 -   Systems MAY protect the confidentiality of data at rest via encryption and associated access controls. The policies and methods used are outside the scope of this specification.
 
 
-  [FHIR Communications]: http://build.fhir.org/security.html#http
+  [FHIR Communications]: http://hl7.org/fhir/STU3/security.html#http
   [Smart On FHIR]: http://fhir-docs.smarthealthit.org/argonaut-dev/authorization/backend-services/
-  [FHIR Security Labels]: http://build.fhir.org/security-labels.html
+  [FHIR Security Labels]: http://hl7.org/fhir/STU3/security-labels.html
   [General Security Considerations]: #general-security-considerations
-  [FHIR Provenance]: http://build.fhir.org/provenance.html
-  [FHIR Digital Signatures]: http://build.fhir.org/security.html#digital%20signatures
+  [FHIR Provenance]: http://hl7.org/fhir/STU3/provenance.html
+  [FHIR Digital Signatures]: http://hl7.org/fhir/STU3/security.html#digital%20signatures
 
-  [security considerations]: http://build.fhir.org/security.html
-  [Communications]: http://build.fhir.org/security.html#http
-  [Authentication]: http://build.fhir.org/security.html#authentication
-  [Authorization/Access Control]: http://build.fhir.org/security.html#authorization/access%20control
-  [Audit Logging]: http://build.fhir.org/security.html#audit%20logging
-  [Digital Signatures]: http://build.fhir.org/security.html#digital%20signatures
-  [Security Labels]: http://build.fhir.org/security-labels.html
-  [Narrative]: http://build.fhir.org/security.html#narrative
-  [AuditEvent]: http://build.fhir.org/auditevent.html
-  [Audit Logging]: http://build.fhir.org/security.html#audit
-  [Consent]: http://build.fhir.org/consent.html
+  [security considerations]: http://hl7.org/fhir/STU3/security.html
+  [Communications]: http://hl7.org/fhir/STU3/security.html#http
+  [Authentication]: http://hl7.org/fhir/STU3/security.html#authentication
+  [Authorization/Access Control]: http://hl7.org/fhir/STU3/security.html#authorization/access%20control
+  [Audit Logging]: http://hl7.org/fhir/STU3/security.html#audit%20logging
+  [Digital Signatures]: http://hl7.org/fhir/STU3/security.html#digital%20signatures
+  [Security Labels]: http://hl7.org/fhir/STU3/security-labels.html
+  [Narrative]: http://hl7.org/fhir/STU3/security.html#narrative
+  [AuditEvent]: http://hl7.org/fhir/STU3/auditevent.html
+  [Audit Logging]: http://hl7.org/fhir/STU3/security.html#audit
+  [Consent]: http://hl7.org/fhir/STU3/consent.html

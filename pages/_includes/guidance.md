@@ -68,7 +68,7 @@ In the context of US Core, *Must Support* on any data element SHALL be interpret
 
 ### Referencing US Core profiles
 
-Many of the profiles in this guide [reference](http://build.fhir.org/references.html) other FHIR resources that are also US Core profiles.  This is defined in the formal profile definitions.  For example, [US Core Careteam](StructureDefinition-us-core-careteam.html#profile) references US Core Patient.  For any other references not formally defined in a US Core profiles, the referenced resource SHOULD be a US Core profile if a US Core profile exists for the resource type.  For example, although `Condition.asserter` is not constrained by this guide, the reference to Patient or Practitioner should be a valid US Core Patient or US Core Practitioner.
+Many of the profiles in this guide [reference](http://hl7.org/fhir/STU3/references.html) other FHIR resources that are also US Core profiles.  This is defined in the formal profile definitions.  For example, [US Core Careteam](StructureDefinition-us-core-careteam.html#profile) references US Core Patient.  For any other references not formally defined in a US Core profiles, the referenced resource SHOULD be a US Core profile if a US Core profile exists for the resource type.  For example, although `Condition.asserter` is not constrained by this guide, the reference to Patient or Practitioner should be a valid US Core Patient or US Core Practitioner.
 
 ### Using Codes in US Core profiles
 
@@ -111,7 +111,7 @@ Example: AllergyIntolerance resource with a status that is text only or cannot b
        "resourceType”:“AllergyIntolerance”,
        ...
        “\_status”:{
-        “url” : “http://build.fhir.org/StructureDefinition/data-absent-reason”,
+        “url” : “http://hl7.org/fhir/STU3/StructureDefinition/data-absent-reason”,
        “valueCode” : “unsupported”
         ...
       },
@@ -166,12 +166,12 @@ Example of translation of CVX vaccine code to NDC code.
     "vaccineCode" : {
         "coding" : [
           {
-            "system" : "http://build.fhir.org/sid/cvx",
+            "system" : "http://hl7.org/fhir/STU3/sid/cvx",
             "code" : "158",
             "display" : "influenza, injectable, quadrivalent"
           },
           {
-            "system" : "http://build.fhir.org/sid/ndc",
+            "system" : "http://hl7.org/fhir/STU3/sid/ndc",
             "code" : "49281-0623-78",
             "display" : "FLUZONE QUADRIVALENT"
           }
@@ -269,26 +269,26 @@ In order to manage the number of search results returned, the server may choose 
 
 ------------------------------------------------------------------------
 
-  [core specification]: http://build.fhir.org/search.html#return
+  [core specification]: http://hl7.org/fhir/STU3/search.html#return
 
-[FHIR RESTful API]: http://build.fhir.org/http.html
-[FHIR Search]: http://build.fhir.org/search.html
-[FHIR Terminology]: http://build.fhir.org/terminologies.html
-[FHIR Paging]: http://build.fhir.org/http.html#paging
-[HTTP]: http://build.fhir.org/http.html
-[FHIR Data Types]: http://build.fhir.org/datatypes.html
-[FHIR Resource]: http://build.fhir.org/resource.html
+[FHIR RESTful API]: http://hl7.org/fhir/STU3/http.html
+[FHIR Search]: http://hl7.org/fhir/STU3/search.html
+[FHIR Terminology]: http://hl7.org/fhir/STU3/terminologies.html
+[FHIR Paging]: http://hl7.org/fhir/STU3/http.html#paging
+[HTTP]: http://hl7.org/fhir/STU3/http.html
+[FHIR Data Types]: http://hl7.org/fhir/STU3/datatypes.html
+[FHIR Resource]: http://hl7.org/fhir/STU3/resource.html
 [Issue \#39]: https://github.com/argonautproject/implementation-program/issues/39
-[compartment]: http://build.fhir.org/compartmentdefinition.html
-[core specification]: http://build.fhir.org/extensibility.html#2.20.0.2.2
-[DataAbsentReason Extension]: http://build.fhir.org/extension-data-absent-reason.html
-[http://build.fhir.org/StructureDefinition/data-absent-reason]: http://build.fhir.org/StructureDefinition/data-absent-reason
-[FHIR Conformance Rules]: http://build.fhir.org/conformance-rules.html
-[Quantity]: http://build.fhir.org/datatypes.html#quantity
+[compartment]: http://hl7.org/fhir/STU3/compartmentdefinition.html
+[core specification]: http://hl7.org/fhir/STU3/extensibility.html#2.20.0.2.2
+[DataAbsentReason Extension]: http://hl7.org/fhir/STU3/extension-data-absent-reason.html
+[http://hl7.org/fhir/STU3/StructureDefinition/data-absent-reason]: http://hl7.org/fhir/STU3/StructureDefinition/data-absent-reason
+[FHIR Conformance Rules]: http://hl7.org/fhir/STU3/conformance-rules.html
+[Quantity]: http://hl7.org/fhir/STU3/datatypes.html#quantity
 [UCUM]: http://unitsofmeasure.org
 [US Core Server Capability Statement]: CapabilityStatement-server.html
 [HL7 U.S. Data Access Framework (DAF)]: http://wiki.siframework.org/Data+Access+Framework+Homepage
-[UCUM Codes value set]: http://build.fhir.org/valueset-ucum-units.html
+[UCUM Codes value set]: http://hl7.org/fhir/STU3/valueset-ucum-units.html
 [2015 Edition Common Clinical Data Set (CCDS)]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf
 [US Core Patient Profile]: StructureDefinition-us-core-patient.html
 [US Core Smoking Status Observation Profile]: StructureDefinition-us-core-smokingstatus.html
@@ -305,4 +305,4 @@ In order to manage the number of search results returned, the server may choose 
 [US Core CarePlan Profile]: StructureDefinition-us-core-careplan.html
 [US Core Goal Profile]: StructureDefinition-us-core-goal.html
 [US Core Result Observation Profile]: StructureDefinition-us-core-observationresults.html
-[Vital Signs Profile]: http://build.fhir.org/vitalsigns.html
+[Vital Signs Profile]: http://hl7.org/fhir/STU3/vitalsigns.html

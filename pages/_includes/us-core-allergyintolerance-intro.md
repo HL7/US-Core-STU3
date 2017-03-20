@@ -30,4 +30,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 - [AllergyIntolerance-example](AllergyIntolerance-example.html)
 
-[AllergyIntolerance]: http://build.fhir.org/allergyintolerance.html
+[AllergyIntolerance]: http://hl7.org/fhir/STU3/allergyintolerance.html

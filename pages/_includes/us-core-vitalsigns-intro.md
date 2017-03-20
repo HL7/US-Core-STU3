@@ -51,22 +51,22 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
  - [observation-bp-data-absent](Observation-bp-data-absent.html)
 
 
-[Vital Signs Profile]: http://build.fhir.org/observation-profiles.html
-[Observation]: http://build.fhir.org/observation.html
-[extensible]: http://build.fhir.org/terminologies.html#extensible
+[Vital Signs Profile]: http://hl7.org/fhir/STU3/observation-profiles.html
+[Observation]: http://hl7.org/fhir/STU3/observation.html
+[extensible]: http://hl7.org/fhir/STU3/terminologies.html#extensible
 [Conformance requirements for the US-Core Server]: CapabilityStatement-server.html
 [General Guidance Section]: guidance.html
-[Vital Signs]: http://build.fhir.org/vitalsigns.html
-[Vital Signs Panel]: http://build.fhir.org/vitalspanel.html
-[Respiratory Rate]: http://build.fhir.org/resprate.html
-[Heart rate]: http://build.fhir.org/heartrate.html
-[Oxygen saturation]: http://build.fhir.org/oxygensat.html
-[Body temperature]: http://build.fhir.org/bodytemp.html
-[Body height]: http://build.fhir.org/bodyheight.html
-[Body length]: http://build.fhir.org/bodylength.html
-[Head circumference]: http://build.fhir.org/headcircum.html
-[Body weight]: http://build.fhir.org/bodyweight.html
-[Body mass index]: http://build.fhir.org/bmi.html
-[Blood pressure systolic and diastolic]: http://build.fhir.org/bp.html
-[Systolic blood pressure]: http://build.fhir.org/bp.html
-[Diastolic blood pressure]: http://build.fhir.org/bp.html
+[Vital Signs]: http://hl7.org/fhir/STU3/vitalsigns.html
+[Vital Signs Panel]: http://hl7.org/fhir/STU3/vitalspanel.html
+[Respiratory Rate]: http://hl7.org/fhir/STU3/resprate.html
+[Heart rate]: http://hl7.org/fhir/STU3/heartrate.html
+[Oxygen saturation]: http://hl7.org/fhir/STU3/oxygensat.html
+[Body temperature]: http://hl7.org/fhir/STU3/bodytemp.html
+[Body height]: http://hl7.org/fhir/STU3/bodyheight.html
+[Body length]: http://hl7.org/fhir/STU3/bodylength.html
+[Head circumference]: http://hl7.org/fhir/STU3/headcircum.html
+[Body weight]: http://hl7.org/fhir/STU3/bodyweight.html
+[Body mass index]: http://hl7.org/fhir/STU3/bmi.html
+[Blood pressure systolic and diastolic]: http://hl7.org/fhir/STU3/bp.html
+[Systolic blood pressure]: http://hl7.org/fhir/STU3/bp.html
+[Diastolic blood pressure]: http://hl7.org/fhir/STU3/bp.html

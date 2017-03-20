@@ -46,5 +46,5 @@ In addition, based upon the 2015 Edition Certification Requirements, the followi
 - [Patient-example](Patient-example.html)
 
 
-[Patient]: http://build.fhir.org/patient.html
+[Patient]: http://hl7.org/fhir/STU3/patient.html
 [Must Support]: guidance.html#must-support

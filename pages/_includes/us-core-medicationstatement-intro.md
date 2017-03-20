@@ -37,17 +37,17 @@ Additionally your system [Must Support]:
 #### Examples
 
 - [MedicationStatement-uscore-ms1](MedicationStatement-uscore-ms1.html) Inline medication code to represent the medication.
-- [MedicationStatement-uscore-ms2](MedicationStatement-uscore-ms2.html) Reference to a [contained](http://build.fhir.org/references.html#contained) Medication resource.
-- [MedicationStatement-uscore-ms3](Bundle-uscore-ms3.html) A search [Bundle](http://build.fhir.org/bundle.html) with a MedicationStatement and an included Medication resource in the Bundle.
+- [MedicationStatement-uscore-ms2](MedicationStatement-uscore-ms2.html) Reference to a [contained](http://hl7.org/fhir/STU3/references.html#contained) Medication resource.
+- [MedicationStatement-uscore-ms3](Bundle-uscore-ms3.html) A search [Bundle](http://hl7.org/fhir/STU3/bundle.html) with a MedicationStatement and an included Medication resource in the Bundle.
 
   [Medication Clinical Drug (RxNorm)]: ValueSet-us-core-medication-codes.html
-  [MedicationRequestStatus]: http://build.fhir.org/us/daf/ValueSet-medication-request-status.html
-[MedicationStatementStatus]: http://build.fhir.org/us/daf/ValueSet-medication-statement-status.html
-[MedicationStatement]:http://build.fhir.org/medicationstatement.html
- [MedicationRequest]: http://build.fhir.org/medicationrequest.html
- [Medication]:http://build.fhir.org/medication.html
+  [MedicationRequestStatus]: http://hl7.org/fhir/STU3/us/daf/ValueSet-medication-request-status.html
+[MedicationStatementStatus]: http://hl7.org/fhir/STU3/us/daf/ValueSet-medication-statement-status.html
+[MedicationStatement]:http://hl7.org/fhir/STU3/medicationstatement.html
+ [MedicationRequest]: http://hl7.org/fhir/STU3/medicationrequest.html
+ [Medication]:http://hl7.org/fhir/STU3/medication.html
  [CapabilityStatement]: capstmnts.html
- [boundaries section]: http://build.fhir.org/medicationrequest.html#bnr
-[include]: http://build.fhir.org/search.html#include
-[contained]: http://build.fhir.org/references.html#contained
+ [boundaries section]: http://hl7.org/fhir/STU3/medicationrequest.html#bnr
+[include]: http://hl7.org/fhir/STU3/search.html#include
+[contained]: http://hl7.org/fhir/STU3/references.html#contained
 [Must Support]: guidance.html#must-support

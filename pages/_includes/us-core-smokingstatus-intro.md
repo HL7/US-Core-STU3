@@ -35,5 +35,5 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
  - [observation-some-day-smoker](Observation-some-day-smoker.html)
 
-[Observation]: http://build.fhir.org/observation.html
+[Observation]: http://hl7.org/fhir/STU3/observation.html
 [Conformance requirements for the US-Core Server]: CapabilityStatement-server.html

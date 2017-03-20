@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CapabilityStatement xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://build.fhir.org/device.xsd">
+<CapabilityStatement xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/STU3/device.xsd">
 	<id value="client"/>
 	<text>
 		<status value="additional"/>
@@ -365,7 +365,7 @@ queried by category using:</p>
 			</ul>
 			<ol>
 				<li>
-					<a href="http://build.fhir.org/vitalsigns.html">Vital Signs Profile</a>
+					<a href="http://hl7.org/fhir/STU3/vitalsigns.html">Vital Signs Profile</a>
 				</li>
 			</ol>
 			<p>Search Criteria</p>

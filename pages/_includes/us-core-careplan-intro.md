@@ -30,4 +30,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 - [CarePlan-colonoscopy](CarePlan-colonoscopy.html)
 
 
-[CarePlan]: http://build.fhir.org/careplan.html
+[CarePlan]: http://hl7.org/fhir/STU3/careplan.html
