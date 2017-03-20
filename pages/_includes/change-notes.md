@@ -1,4 +1,5 @@
-﻿## {{page.title}}
+
+## {{page.title}}
 
 US Core was developed under the [Data Access Framework (DAF)](http://wiki.siframework.org/Data+Access+Framework+Homepage) initiative. DAF was a US initiative sponsored by the Office of the National Coordinator (ONC) which aimed to create FHIR profiles for access to discrete Meaningful Use Stage 2 data (Common MU Data Set) and key research data elements as FHIR resource instances. The initial HL7 DAF Implementation guide was published with the FHIR DSTU2 specification in October of 2015.  The [The Argonaut Project](http://argonautwiki.hl7.org/index.php?title=Main_Page) formed in December 2014 to accelerate the market readiness of open industry FHIR-based APIs for patient- and provider-driven interoperability use cases. Several Argonaut sprints were held based upon the DAF DSTU2 profiles. In 2015, ONC introduced a new rule which updated the required set of data elements to the [Common Clinical Data Set (CCDS)](https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf).
 

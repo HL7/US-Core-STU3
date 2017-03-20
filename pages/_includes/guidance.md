@@ -1,6 +1,5 @@
 
-
-﻿## Definitions, Interpretations and Requirements common to all US Core actors
+## Definitions, Interpretations and Requirements common to all US Core actors
 {:.no_toc}
 
 This section outlines important definitions and interpretations used in the US Core IG.
