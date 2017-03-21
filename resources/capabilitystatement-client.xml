@@ -77,7 +77,7 @@
 			</ul>
 			<!-- end TOC -->
 			<ul>
-				<li>FHIR Version: 1.9.0</li>
+				<li>FHIR Version: 3.0.0</li>
 				<li>Supported formats: xml, json</li>
 				<li>Published: 2017-03-08</li>
 				<li>Published by: Health Level Seven International US Realm Steering Committee</li>
@@ -337,7 +337,7 @@
 			<p>Search Criteria:</p>
 			<ul>
 				<li>
-					<p>A client <strong>SHOULD</strong> be capable of connecting to a server and fetching all of a patient's laboratory results 
+					<p>A client <strong>SHOULD</strong> be capable of connecting to a server and fetching all of a patient's laboratory results
 
 queried by category using:</p>
 					<p>
@@ -478,6 +478,7 @@ queried by category using:</p>
 		</div>
 	</text>
 	<url value="http://hl7.org/fhir/us/core/CapabilityStatement/client"/>
+	<version value="1.0.0"/>
 	<name value="US Core Client"/>
 	<status value="draft"/>
 	<date value="2017-03-20"/>
@@ -490,7 +491,7 @@ queried by category using:</p>
 	</contact>
 	<description value="This profile defines the expected capabilities of the US Core Client conforming to the US Core IG."/>
 	<kind value="requirements"/>
-	<fhirVersion value="1.8.0"/>
+	<fhirVersion value="3.0.0"/>
 	<acceptUnknown value="extensions"/>
 	<format value="xml"/>
 	<format value="json"/>

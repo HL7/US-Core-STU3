@@ -20,7 +20,7 @@ This section outlines conformance requirements for the US Core Servers and Clien
 
 Source Resource: [XML](CapabilityStatement-server.xml.html)/[JSON](CapabilityStatement-server.json.html)
 
-1. FHIR Version: 1.9.0
+1. FHIR Version: 3.0.0
 1. Supported formats: xml, json
 1. Published: 2017-03-08
 1. Published by: Health Level Seven International US Realm Steering Committee
@@ -535,7 +535,7 @@ Search Parameters:
 
 Source Resource: [XML](CapabilityStatement-client.xml.html)/[JSON](CapabilityStatement-client.json.html)
 
-1. FHIR Version: 1.9.0
+1. FHIR Version: 3.0.0
 1. Supported formats: xml, json
 1. Published: 2017-03-08
 1. Published by: Health Level Seven International US Realm Steering Committee

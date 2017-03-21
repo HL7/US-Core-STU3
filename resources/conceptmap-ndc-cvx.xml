@@ -9,7 +9,7 @@
 		</xhtml:div>
 	</text>
 -->
-	<url value="http://hl7.org/fhir/us/core/ConceptMap/ndc-cvx"/>
+	<url value="http://hl7.org/fhir/us/core/ConceptMap/ndc-cvx"/> <version value="1.0.0"/>
 	<name value="US Core NDC to CVX Code Mapping"/>
 	<status value="active"/>
 	<date value="2016-06-06"/>
