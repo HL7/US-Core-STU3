@@ -369,13 +369,24 @@ a.to-top {
 /* ----------TOC styling ------*/
 
 // Adding 'Contents' headline to the TOC
+#markdown-toc {
+
+}
 
 #markdown-toc::before {
-  content: "Table of Contents";
-  font-weight: bold;
+  content: 'Contents';
 }
+
+
 ul#markdown-toc {
   list-style: none;
-  padding: 0;
-  background-color: white;
+    margin: 4px;
+    padding: 4px;
+    float: right;
+    z-index: 10;
+    width: 150px;
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+
 }
