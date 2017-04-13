@@ -1,1 +1,1 @@
-{"resourceType":"OperationOutcome","issue":[{"details":{"text":"Error expanding ValueSet \"http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-type: Error unmarshalling resource: Unable to provide support for code system http://www.ama-assn.org/go/cpt"}}]}
+{"resourceType":"OperationOutcome","issue":[{"details":{"text":"Error expanding ValueSet \"http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-code: Error unmarshalling resource: Unable to provide support for code system http://www.ama-assn.org/go/cpt"}}]}

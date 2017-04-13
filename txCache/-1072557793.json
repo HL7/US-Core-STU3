@@ -1,1 +1,0 @@
-{"resourceType":"ValueSet","status":"draft","expansion":{"identifier":"urn:uuid:612c447e-eca9-4413-94d5-3f0721bc6b33","timestamp":"2016-12-19T01:03:44Z","parameter":[{"name":"expansion-profile","valueString":"http://hl7.org/fhir/ExpansionProfile/dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"limitedExpansion","valueBoolean":true}]}}
