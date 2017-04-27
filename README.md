@@ -21,6 +21,6 @@ GitHub will automatically trigger a new build whenever you commit changes.
 
 http://build.fhir.org/ig/Healthedata1/US-Core
 
-### Find debugging info about the build
+### For a build log see
 
-http://build.fhir.org/ig/Healthedata1/US-Core/debug.tgz
+http://build.fhir.org/ig/Healthedata1/US-Core/build.log
