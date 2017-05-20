@@ -3,7 +3,6 @@
 
 Authors:  Eric Haas, Brett Marquard
 
-
 -----
 FHIR STU3 Implementation Guide
 
