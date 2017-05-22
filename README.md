@@ -3,7 +3,6 @@
 
 Authors:  Eric Haas, Brett Marquard
 
-
 -----
 FHIR STU3 Implementation Guide
 
@@ -19,8 +18,8 @@ GitHub will automatically trigger a new build whenever you commit changes.
 
 ### Find your rendered IG automatically available at
 
-http://build.fhir.org/ig/Healthedata1/US-Core
+http://build.fhir.org/ig/HL7/US-Core
 
-### Find debugging info about the build
+### For a build log see
 
-http://build.fhir.org/ig/Healthedata1/US-Core/debug.tgz
+http://build.fhir.org/ig/HL7/US-Core/build.log
