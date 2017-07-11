@@ -31,9 +31,9 @@
 	</subject>
 	<authoredOn value="2008-04-05"/>
 	<requester><agent>
-		<reference value="Practitioner/practitioner-1"
-
-/>
+		<!-- MedicationRequest Practitioner reference causes a build error
+					<reference value="Practitioner/practitioner-1"/>
+		-->
 		<display value="Ronald Bone, MD"
 
 />

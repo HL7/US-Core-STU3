@@ -74,7 +74,7 @@ Many of the profiles in this guide [reference](http://hl7.org/fhir/STU3/referenc
 #### Extensible binding for CodeableConcept Datatype
 {:.no_toc}
 
-Extensible binding to a value set definition for this IG means that if the data type is CodeableConcept, then one of the coding values SHALL be from the specified value set if a code applies, but if no suitable code exists in the value set, alternate code(s) may be provided in its place. If only text available, then just text may be used.
+Extensible binding to a value set definition for this IG means that if the data type is CodeableConcept, then one of the coding values SHALL be from the specified value set if a code applies, but if no suitable code exists in the value set and no further restrictions have been applied (such as the max valueset binding described in the next section), alternate code(s) may be provided in its place. If only text available, then just text may be used.
 
 #### Extensible + Max-ValueSet binding for CodeableConcept Datatype
 {:.no_toc}

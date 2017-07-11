@@ -20,9 +20,10 @@
 			</coding>
 		</role>
 		<member>
-			<reference value="Practitioner/practitioner-1"/>
+						<reference value="Practitioner/practitioner-1"/>
 			<display value="Ronald Bone, MD"/>
 		</member>
+
 	</participant>
 	<participant>
 		<role>

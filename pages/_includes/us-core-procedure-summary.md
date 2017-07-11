@@ -1,6 +1,6 @@
 #### Complete Summary of the Mandatory Requirements
 
-1.  One patient reference in `Procedure.patient`
+1.  One patient reference in `Procedure.subject`
 1.  A status code in Procedure.status which has a [required](http://hl7.org/fhir/STU3/terminologies.html#required) binding to:
 -  [EventStatus] value set.
 1.  One Identification of the procedure in `Procedure.code` which has:
