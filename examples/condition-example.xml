@@ -18,9 +18,9 @@
 		<coding>
 			<system value="http://snomed.info/sct"/>
 			<code value="442311008"/>
-			<display value="Single liveborn, born in hospital, delivered without mention of cesarean section"/>
+			<display value="Liveborn born in hospital"/>
 		</coding>
-		<text value="Single liveborn, born in hospital, delivered without mention of cesarean section"/>
+		<text value="Single liveborn, born in hospital"/>
 	</code>
 	<subject>
 		<reference value="Patient/example"/>

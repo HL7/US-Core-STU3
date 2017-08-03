@@ -22,10 +22,10 @@
        {
          "system": "http://loinc.org",
          "code": "770-8",
-         "display": "Neutrophils NFr Bld Auto"
+         "display": "Neutrophils/100 leukocytes in Blood by Automated count"
        }
      ],
-     "text": "Neutrophils NFr Bld Auto"
+     "text": "Neutrophils %"
    },
    "subject": {
      "reference": "Patient/example","display": "Amy Shaw"
