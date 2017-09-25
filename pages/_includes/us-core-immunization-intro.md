@@ -35,5 +35,5 @@ Based upon the 2015 Edition Certification Requirements, [CVX vaccine codes] are 
   [CVX vaccine codes]: http://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx
   [NDC vaccine codes]: http://www2a.cdc.gov/vaccines/iis/iisstandards/ndc_crosswalk.asp
   [CVX crosswalk table]: http://www2a.cdc.gov/vaccines/iis/iisstandards/ndc_crosswalk.asp
-[Immunization]:  http://hl7.org/fhir/STU3/immunization.html
+[Immunization]:  {{site.data.fhir.path}}/immunization.html
 [NDC to CVX ConceptMap]: ConceptMap-ndc-cvx.html

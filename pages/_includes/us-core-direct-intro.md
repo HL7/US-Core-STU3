@@ -2,4 +2,4 @@
 
 
 
-Context of Use: [Datatype ContactPoint](http://hl7.org/fhir/STU3/datatypes.html#contactpoint)
+Context of Use: [Datatype ContactPoint]({{site.data.fhir.path}}/datatypes.html#contactpoint)

@@ -1,6 +1,6 @@
 #### Complete Summary of the Mandatory Requirements
 
-1.  One status in `Observation.status`which has a [required](http://hl7.org/fhir/STU3/terminologies.html#required) binding to:
+1.  One status in `Observation.status`which has a [required]({{site.data.fhir.path}}/terminologies.html#required) binding to:
     -   [ObservationStatus] value set.
 1.  One code in `Observation.code`
     -   a fixed `Observation.code.coding.system`= http://loinc.org
@@ -14,6 +14,6 @@
 
 
 
-  [ObservationStatus]: http://hl7.org/fhir/STU3/valueset-observation-status.html
-  [instant]: http://hl7.org/fhir/STU3/datatypes.html#instant
+  [ObservationStatus]: {{site.data.fhir.path}}/valueset-observation-status.html
+  [instant]: {{site.data.fhir.path}}/datatypes.html#instant
   [Smoking Status]: ValueSet-us-core-observation-ccdasmokingstatus.html

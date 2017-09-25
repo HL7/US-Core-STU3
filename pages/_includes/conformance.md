@@ -61,8 +61,8 @@ US Core Servers **SHALL**:
 
 #### Profile Interaction Summary:
 
-1. All servers **SHALL** make available the [read](http://hl7.org/fhir/STU3/http.html#read) and [search](http://hl7.org/fhir/STU3/http.html#search) interactions for the Profiles the server chooses to support.
-1. All servers **SHOULD** make available the [vread](http://hl7.org/fhir/STU3/http.html#vread) and [history-instance](http://hl7.org/fhir/STU3/http.html#history) interactions for the Profiles the server chooses to support.
+1. All servers **SHALL** make available the [read]({{site.data.fhir.path}}/http.html#read) and [search]({{site.data.fhir.path}}/http.html#search) interactions for the Profiles the server chooses to support.
+1. All servers **SHOULD** make available the [vread]({{site.data.fhir.path}}/http.html#vread) and [history-instance]({{site.data.fhir.path}}/http.html#history) interactions for the Profiles the server chooses to support.
 
 **Summary of US Core search criteria**
 
@@ -96,7 +96,7 @@ Specific server search capabilities are described in detail in each of the resou
 ##### 1. Patient
 {:.no_toc}
 
-Supported Profiles:  [US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-patient.html)
+Supported Profiles:  [US Core Patient Profile]({{site.data.structuredefinitions.us-core-patient.path}})
 
 Search Criteria:
 
@@ -133,7 +133,7 @@ Search Parameters:
 ##### 2. AllergyIntolerance
 {:.no_toc}
 
-Supported Profiles:  [US Core AllergyIntolerance Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-allergyintolerance.html)
+Supported Profiles:  [US Core AllergyIntolerance Profile]({{site.data.structuredefinitions.us-core-allergyintolerance.path}})
 
 Search Criteria:
 
@@ -151,7 +151,7 @@ Search Parameters:
 ##### 3. CarePlan
 {:.no_toc}
 
-Supported Profiles:  [US Core CarePlan Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-careplan.html)
+Supported Profiles:  [US Core CarePlan Profile]({{site.data.structuredefinitions.us-core-careplan.path}})
 
 Search Criteria:
 
@@ -184,7 +184,7 @@ Search Parameters:
 ##### 4. CareTeam
 {:.no_toc}
 
-Supported Profiles:  [US Core CareTeam Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-careteam.html)
+Supported Profiles:  [US Core CareTeam Profile]({{site.data.structuredefinitions.us-core-careteam.path}})
 
 Search Criteria:
 
@@ -202,7 +202,7 @@ Search Parameters:
 ##### 5. Condition
 {:.no_toc}
 
-Supported Profiles:  [US Core Condition Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-Condition.html)
+Supported Profiles:  [US Core Condition Profile]({{site.data.structuredefinitions.us-core-Condition.path}})
 
 Search Criteria:
 
@@ -230,7 +230,7 @@ Search Parameters:
 ##### 6. Device
 {:.no_toc}
 
-Supported Profiles:  [US Core Device Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-device.html)
+Supported Profiles:  [US Core Device Profile]({{site.data.structuredefinitions.us-core-device.path}})
 
 Search Criteria:
 
@@ -248,7 +248,7 @@ Search Parameters:
 ##### 7. DiagnosticReport
 {:.no_toc}
 
-Supported Profiles:  [US Core DiagnosticReport Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-diagnosticreport.html)
+Supported Profiles:  [US Core DiagnosticReport Profile]({{site.data.structuredefinitions.us-core-diagnosticreport.path}})
 
 Search Criteria:
 
@@ -282,7 +282,7 @@ Search Parameters:
 ##### 8. Goal
 {:.no_toc}
 
-Supported Profiles:  [US Core Goal Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-goal.html)
+Supported Profiles:  [US Core Goal Profile]({{site.data.structuredefinitions.us-core-goal.path}})
 
 Search Criteria:
 
@@ -305,7 +305,7 @@ Search Parameters:
 ##### 9. Immunization
 {:.no_toc}
 
-Supported Profiles:  [US Core Immunization Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-immunization.html)
+Supported Profiles:  [US Core Immunization Profile]({{site.data.structuredefinitions.us-core-immunization.path}})
 
 Search Criteria:
 
@@ -323,7 +323,7 @@ Search Parameters:
 ##### 10. Location
 {:.no_toc}
 
-Supported Profiles:  [US Core Location Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-location.html)
+Supported Profiles:  [US Core Location Profile]({{site.data.structuredefinitions.us-core-location.path}})
 
 Search Criteria:
 
@@ -346,18 +346,19 @@ Search Parameters:
 ##### 11. Medication
 {:.no_toc}
 
-Supported Profiles:  [US Core Medication Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-medication.html)
+Supported Profiles:  [US Core Medication Profile]({{site.data.structuredefinitions.us-core-medication.path}})
+
 
 The MedicationStatement and MedicationRequest resources can represent a medication, using an external reference to a Medication resource. If an external Medication Resource is used in a MedicationStatement or a MedicationRequest, then the READ and SEARCH Criteria SHALL be supported.
 
 ##### 12. MedicationStatement
 {:.no_toc}
 
-Supported Profiles:  [US Core MedicationStatement Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationstatement.html)
+Supported Profiles:  [US Core MedicationStatement Profile]({{site.data.structuredefinitions.us-core-medicationstatement.path}})
 
 Search Criteria:
 
- The MedicationStatement resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained](http://hl7.org/fhir/2017Jan/references.html#contained) or an external resource. The server application **MAY** choose any one way or more than one method, but *if* an external reference to Medication is used, the server **SHALL** support the [`_include`](http://hl7.org/fhir/2017Jan/references.html#include) parameter for searching this element. The client application must support all methods.
+ The MedicationStatement resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained]({{site.data.fhir.path}}/references.html#contained) or an external resource. The server application **MAY** choose any one way or more than one method, but *if* an external reference to Medication is used, the server **SHALL** support the [`_include`]({{site.data.fhir.path}}/references.html#include) parameter for searching this element. The client application must support all methods.
 
 A server **SHALL** be capable of returning all medications for a patient using one of or both:
 
@@ -375,11 +376,11 @@ Search Parameters:
 ##### 13. MedicationRequest
 {:.no_toc}
 
-Supported Profiles:  [US Core MedicationRequest Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html)
+Supported Profiles:  [US Core MedicationRequest Profile]({{site.data.structuredefinitions.us-core-medicationrequest.path}})
 
 Search Criteria:
 
- The MedicationRequest resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained](http://hl7.org/fhir/2017Jan/references.html#contained) or an external resource. The server application **MAY** choose any one way or more than one method, but *if* an external reference to Medication is used, the server **SHALL** support the [`_include`](http://hl7.org/fhir/2017Jan/references.html#include) parameter for searching this element. The client application must support all methods.
+ The MedicationRequest resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained]({{site.data.fhir.path}}/references.html#contained) or an external resource. The server application **MAY** choose any one way or more than one method, but *if* an external reference to Medication is used, the server **SHALL** support the [`_include`]({{site.data.fhir.path}}/references.html#include) parameter for searching this element. The client application must support all methods.
 
 A server **SHALL** be capable of returning all medications for a patient using one of or both:
 
@@ -398,7 +399,7 @@ Search Parameters:
 {:.no_toc}
 
 Supported Profiles:
-1. [US Core Result Observation Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)
+1. [US Core Result Observation Profile]({{site.data.structuredefinitions.us-core-observationresults.path}})
 
   Search Criteria:
 
@@ -418,7 +419,7 @@ Supported Profiles:
 
     `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC1{,LOINC2,LOINC3,...}]&date=[date]{&date=[date]}`
 
-1. [Vital Signs Profile](http://hl7.org/fhir/STU3/vitalsigns.html)
+1. [Vital Signs Profile]({{site.data.fhir.path}}/vitalsigns.html)
 
   Search Criteria
 
@@ -438,7 +439,7 @@ Supported Profiles:
 
       `GET [base]/Observation?patient=[id]&code=[LOINC{,LOINC2…}]vital-signs&date=[date]{&date=[date]}`
 
-1. [US Core Smoking Status Observation Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-smokingstatus.html)
+1. [US Core Smoking Status Observation Profile]({{site.data.structuredefinitions.us-core-smokingstatus.path}})
 
   Search Criteria:
 
@@ -459,7 +460,7 @@ Search Parameters:
 ##### 15. Organization
 {:.no_toc}
 
-Supported Profiles:  [US Core Organization Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-organization.html)
+Supported Profiles:  [US Core Organization Profile]({{site.data.structuredefinitions.us-core-organization.path}})
 
 Search Criteria:
 
@@ -487,7 +488,7 @@ Search Parameters:
 ##### 16. Practitioner
 {:.no_toc}
 
-Supported Profiles:  [US Core Practitioner Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-practitioner.html)
+Supported Profiles:  [US Core Practitioner Profile]({{site.data.structuredefinitions.us-core-practitioner.path}})
 
 Search Criteria:
 
@@ -510,7 +511,7 @@ Search Parameters:
 ##### 17. Procedure
 {:.no_toc}
 
-Supported Profiles:  [US Core Procedure Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-procedure.html)
+Supported Profiles:  [US Core Procedure Profile]({{site.data.structuredefinitions.us-core-procedure.path}})
 
 Search Criteria:
 
@@ -583,7 +584,7 @@ The US Core Client **SHALL**:
 ##### 1. Patient
 {:.no_toc}
 
-Supported Profiles:  [US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-patient.html)
+Supported Profiles:  [US Core Patient Profile]({{site.data.structuredefinitions.us-core-patient.path}})
 
 Search Criteria:
 
@@ -607,7 +608,7 @@ Search Criteria:
 ##### 2. AllergyIntolerance
 {:.no_toc}
 
-Supported Profiles:  [US Core AllergyIntolerance Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-allergyintolerance.html)
+Supported Profiles:  [US Core AllergyIntolerance Profile]({{site.data.structuredefinitions.us-core-allergyintolerance.path}})
 
 Search Criteria:
 
@@ -618,7 +619,7 @@ Search Criteria:
 ##### 3. CarePlan
 {:.no_toc}
 
-Supported Profiles:  [US Core CarePlan Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-careplan.html)
+Supported Profiles:  [US Core CarePlan Profile]({{site.data.structuredefinitions.us-core-careplan.path}})
 
 Search Criteria:
 
@@ -644,7 +645,7 @@ Search Criteria:
 ##### 4. CareTeam
 {:.no_toc}
 
-Supported Profiles:  [US Core CareTeam Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-careteam.html)
+Supported Profiles:  [US Core CareTeam Profile]({{site.data.structuredefinitions.us-core-careteam.path}})
 
 Search Criteria:
 
@@ -657,7 +658,7 @@ Search Criteria:
 ##### 5. Condition
 {:.no_toc}
 
-Supported Profiles:  [US Core Condition Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-Condition.html)
+Supported Profiles:  [US Core Condition Profile]({{site.data.structuredefinitions.us-core-Condition.path}})
 
 Search Criteria:
 
@@ -678,7 +679,7 @@ Search Criteria:
 ##### 6. Device
 {:.no_toc}
 
-Supported Profiles:  [US Core Device Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-device.html)
+Supported Profiles:  [US Core Device Profile]({{site.data.structuredefinitions.us-core-device.path}})
 
 Search Criteria:
 
@@ -691,7 +692,7 @@ Search Criteria:
 ##### 7. DiagnosticReport
 {:.no_toc}
 
-Supported Profiles:  [US Core DiagnosticReport Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-diagnosticreport.html)
+Supported Profiles:  [US Core DiagnosticReport Profile]({{site.data.structuredefinitions.us-core-diagnosticreport.path}})
 
 Search Criteria:
 
@@ -716,7 +717,7 @@ Search Criteria:
 ##### 8. Goal
 {:.no_toc}
 
-Supported Profiles:  [US Core Goal Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-goal.html)
+Supported Profiles:  [US Core Goal Profile]({{site.data.structuredefinitions.us-core-goal.path}})
 
 Search Criteria:
 
@@ -732,7 +733,7 @@ Search Criteria:
 ##### 9. Immunization
 {:.no_toc}
 
-Supported Profiles:  [US Core Immunization Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-immunization.html)
+Supported Profiles:  [US Core Immunization Profile]({{site.data.structuredefinitions.us-core-immunization.path}})
 
 Search Criteria:
 
@@ -745,7 +746,7 @@ Search Criteria:
 ##### 10. Location
 {:.no_toc}
 
-Supported Profiles:  [US Core Location Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-location.html)
+Supported Profiles:  [US Core Location Profile]({{site.data.structuredefinitions.us-core-location.path}})
 
 Search Criteria:
 
@@ -761,18 +762,18 @@ Search Criteria:
 ##### 11. Medication
 {:.no_toc}
 
-Supported Profiles:  [US Core Medication Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-medication.html)
+Supported Profiles:  [US Core Medication Profile]({{site.data.structuredefinitions.us-core-medication.path}})
 
 The MedicationStatement and MedicationRequest resources can represent a medication, using an external reference to a Medication resource. If an external Medication Resource is used in a MedicationStatement or a MedicationRequest, then the READ and SEARCH Criteria SHOULD be supported.
 
 ##### 12. MedicationStatement
 {:.no_toc}
 
-Supported Profiles:  [US Core MedicationStatement Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationstatement.html)
+Supported Profiles:  [US Core MedicationStatement Profile]({{site.data.structuredefinitions.us-core-medicationstatement.path}})
 
 Search Criteria:
 
-The MedicationStatement resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained](http://hl7.org/fhir/2017Jan/references.html#contained) or an external resource. IF, an external reference to Medication is used, the server **SHALL** support the [`_include`](http://hl7.org/fhir/2017Jan/references.html#include) parameter for searching this element. The client application **SHALL** support all methods.
+The MedicationStatement resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained]({{site.data.fhir.path}}/references.html#contained) or an external resource. IF, an external reference to Medication is used, the server **SHALL** support the [`_include`]({{site.data.fhir.path}}/references.html#include) parameter for searching this element. The client application **SHALL** support all methods.
 
 A client **SHOULD** be capable of connecting to a server and fetching all medications for a patient using both:
 
@@ -787,11 +788,11 @@ A client **SHOULD** be capable of connecting to a server and fetching all medica
 ##### 13. MedicationRequest
 {:.no_toc}
 
-Supported Profiles:  [US Core MedicationRequest Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html)
+Supported Profiles:  [US Core MedicationRequest Profile]({{site.data.structuredefinitions.us-core-medicationrequest.path}})
 
 Search Criteria:
 
- The MedicationRequest resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained](http://hl7.org/fhir/2017Jan/references.html#contained) or an external resource. If, an external reference to Medication is used, the server **SHALL** support the [`_include`](http://hl7.org/fhir/2017Jan/references.html#include) parameter for searching this element. The client application **SHALL** support all methods.
+ The MedicationRequest resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained]({{site.data.fhir.path}}/references.html#contained) or an external resource. If, an external reference to Medication is used, the server **SHALL** support the [`_include`]({{site.data.fhir.path}}/references.html#include) parameter for searching this element. The client application **SHALL** support all methods.
 
 A client **SHOULD** be capable of connecting to a server and fetching all medications for a patient using both:
 
@@ -805,7 +806,7 @@ A client **SHOULD** be capable of connecting to a server and fetching all medica
 {:.no_toc}
 
 Supported Profiles:
-1. [US Core Result Observation Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-observationresults.html)
+1. [US Core Result Observation Profile]({{site.data.structuredefinitions.us-core-observationresults.path}})
 
   Search Criteria:
 
@@ -825,7 +826,7 @@ Supported Profiles:
 
     `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC1{,LOINC2,LOINC3,...}]&date=[date]{&date=[date]}`
 
-1. [Vital Signs Profile](http://hl7.org/fhir/STU3/vitalsigns.html)
+1. [Vital Signs Profile]({{site.data.fhir.path}}/vitalsigns.html)
 
   Search Criteria
 
@@ -845,7 +846,7 @@ Supported Profiles:
 
       `GET [base]/Observation?patient=[id]&code=[LOINC{,LOINC2…}]vital-signs&date=[date]{&date=[date]}`
 
-1. [US Core Smoking Status Observation Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-smokingstatus.html)
+1. [US Core Smoking Status Observation Profile]({{site.data.structuredefinitions.us-core-smokingstatus.path}})
 
   Search Criteria:
 
@@ -859,7 +860,7 @@ Supported Profiles:
 ##### 15. Organization
 {:.no_toc}
 
-Supported Profiles:  [US Core Organization Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-organization.html)
+Supported Profiles:  [US Core Organization Profile]({{site.data.structuredefinitions.us-core-organization.path}})
 
 Search Criteria:
 
@@ -880,7 +881,7 @@ Search Criteria:
 ##### 16. Practitioner
 {:.no_toc}
 
-Supported Profiles:  [US Core Practitioner Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-practitioner.html)
+Supported Profiles:  [US Core Practitioner Profile]({{site.data.structuredefinitions.us-core-practitioner.path}})
 
 Search Criteria:
 
@@ -896,7 +897,7 @@ Search Criteria:
 ##### 17. Procedure
 {:.no_toc}
 
-Supported Profiles:  [US Core Procedure Profile](http://hl7.org/fhir/us/core/StructureDefinition-us-core-procedure.html)
+Supported Profiles:  [US Core Procedure Profile]({{site.data.structuredefinitions.us-core-procedure.path}})
 
 Search Criteria:
 

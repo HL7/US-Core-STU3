@@ -6,8 +6,8 @@
 This Complex Extension for ethnicity allows one or more ethnicity codes of which:
 
 - [Must Support](guidance.html#must-support) one code from OMB Ethnicity Categories
-- May include additional race codes from CDC Ethnicity Codes
-- Must include text description of race
+- May include additional ethnicity codes from CDC Ethnicity Codes
+- Must include text description of ethnicity
 
 
-Context of Use: [US Core Patient Profile](http://hl7.org/fhir/us/Core/StructureDefinition/us-core-patient)
+Context of Use: [US Core Patient Profile]({{site.data.fhir.canonical}}/us-core-patient)

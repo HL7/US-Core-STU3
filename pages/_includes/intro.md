@@ -62,19 +62,19 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [Data Access Framework]: http://wiki.siframework.org/Data+Access+Framework+Homepage
 [Argonaut]: http://argonautwiki.hl7.org/index.php?title=Main_Page
 [ONC 2015 Edition Common Clinical Data Set (CCDS)]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf
-[profiles]: http://hl7.org/fhir/STU3/profiling.html
-[logical view]: http://hl7.org/fhir/STU3/formats.html#table
-[StructureDefinitions]: http://hl7.org/fhir/STU3/structuredefinition.html
-[Value sets]: http://hl7.org/fhir/STU3/valueset.html
-[CodeSystem]: http://hl7.org/fhir/STU3/codesystem.html
-[ConceptMap]: http://hl7.org/fhir/STU3/conceptmap.html
-[NamingSystem]: http://hl7.org/fhir/STU3/namingsystem.html
-[FHIR Conformance Rules]: http://hl7.org/fhir/STU3/CapabilityStatement-rules.html
-[dataAbsentReason]: http://hl7.org/fhir/STU3/extension-data-absent-reason.html
-[FHIR Terminology]: http://hl7.org/fhir/STU3/terminologies.html
-[FHIR RESTful API]: http://hl7.org/fhir/STU3/http.html
-[HTTP]: http://hl7.org/fhir/STU3/http.html
-[FHIR Data Types]: http://hl7.org/fhir/STU3/datatypes.html
-[FHIR Search]: http://hl7.org/fhir/STU3/search.html
-[FHIR Resource]: http://hl7.org/fhir/STU3/formats.html
+[profiles]: {{site.data.fhir.path}}/profiling.html
+[logical view]: {{site.data.fhir.path}}/formats.html#table
+[StructureDefinitions]: {{site.data.fhir.path}}/structuredefinition.html
+[Value sets]: {{site.data.fhir.path}}/valueset.html
+[CodeSystem]: {{site.data.fhir.path}}/codesystem.html
+[ConceptMap]: {{site.data.fhir.path}}/conceptmap.html
+[NamingSystem]: {{site.data.fhir.path}}/namingsystem.html
+[FHIR Conformance Rules]: {{site.data.fhir.path}}/CapabilityStatement-rules.html
+[dataAbsentReason]: {{site.data.fhir.path}}/extension-data-absent-reason.html
+[FHIR Terminology]: {{site.data.fhir.path}}/terminologies.html
+[FHIR RESTful API]: {{site.data.fhir.path}}/http.html
+[HTTP]: {{site.data.fhir.path}}/http.html
+[FHIR Data Types]: {{site.data.fhir.path}}/datatypes.html
+[FHIR Search]: {{site.data.fhir.path}}/search.html
+[FHIR Resource]: {{site.data.fhir.path}}/formats.html
 [2015 Edition Common Clinical Data Set]: guidance.html#edition-common-clinical-data-set

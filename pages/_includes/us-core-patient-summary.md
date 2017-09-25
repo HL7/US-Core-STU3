@@ -14,7 +14,7 @@
 3.  One administrative gender in `Patient.gender`
     -   Patient.gender is bound to [AdministrativeGender] Value set
 
-  [AdministrativeGender]: http://hl7.org/fhir/STU3/valueset-administrative-gender.html
+  [AdministrativeGender]: {{site.data.fhir.path}}/valueset-administrative-gender.html
 
 
 #### Summary of the Must Support Requirements
@@ -31,13 +31,13 @@ Additionally your system must Support:
     - Must include one code from [OMB Ethnicity Categories]
     - May include additional race codes from [CDC Ethnicity Codes]
 
-5.  One Birth Sex in `Patient.extension`= [US Core Patient Birth Sex] which has a [required](http://hl7.org/fhir/STU3/terminologies.html#required) binding to [US Core Birth Sex] valueset
+5.  One Birth Sex in `Patient.extension`= [US Core Patient Birth Sex] which has a [required]({{site.data.fhir.path}}/terminologies.html#required) binding to [US Core Birth Sex] valueset
 
 
-  [Patient.birthDate]: http://hl7.org/fhir/STU3/us/daf/daf-patient-guidance.html#daf-patient.Patient.birthDate
-  [Patient.communication.language]: http://hl7.org/fhir/STU3/us/daf/daf-patient-guidance.html#daf-patient.Patient.communication.language
+  [Patient.birthDate]: {{site.data.fhir.path}}/us/daf/daf-patient-guidance.html#daf-patient.Patient.birthDate
+  [Patient.communication.language]: {{site.data.fhir.path}}/us/daf/daf-patient-guidance.html#daf-patient.Patient.communication.language
   [All Language codes with language and optionally a region modifier]: ValueSet-simple-language.html
-  [All Languages]: http://hl7.org/fhir/STU3/valueset-all-languages.html
+  [All Languages]: {{site.data.fhir.path}}/valueset-all-languages.html
   [US Core Patient Birth Sex]:StructureDefinition-us-core-birthsex.html
   [US Core Birth Sex]: ValueSet-us-core-birthsex.html
   [US Core Patient Race]: StructureDefinition-us-core-race.html

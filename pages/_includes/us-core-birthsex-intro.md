@@ -2,4 +2,4 @@
 
 
 
-Context of Use: [US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)
+Context of Use: [US Core Patient Profile]({{site.data.fhir.canonical}}/us-core-patient)

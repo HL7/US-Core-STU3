@@ -24,4 +24,4 @@ When available the following must be sent:
 
 - [Location-hl7east](Location-hl7east.html)
 
-[Location]:  http://hl7.org/fhir/STU3/location.html
+[Location]:  {{site.data.fhir.path}}/location.html

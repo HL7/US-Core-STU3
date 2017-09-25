@@ -34,4 +34,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 - [CareTeam-example](CareTeam-example.html)
 
 
-[CareTeam]:  http://hl7.org/fhir/STU3/careteam.html
+[CareTeam]:  {{site.data.fhir.path}}/careteam.html

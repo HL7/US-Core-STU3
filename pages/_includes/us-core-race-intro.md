@@ -10,4 +10,4 @@ This Complex Extension for race allows one or more race codes of which:
 - Must include text description of race
 
 
-Context of Use: [US Core Patient Profile](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient)
+Context of Use: [US Core Patient Profile]({{site.data.structuredefinitions.us-core-patient.path}})
