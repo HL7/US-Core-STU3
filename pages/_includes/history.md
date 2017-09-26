@@ -1,6 +1,11 @@
 ## US-Core Implementation Guide
 
-This captures the base rules for all FHIR implementation in USA. The following versions of the US-Core Implementation Guide are been published:
+This table provides a list of all the versions of FHIR versions of the US-Core Implementation Guide that are available:
 
-* [Draft](index.html): Working Draft Version
-
+|Date|Version|Description|
+|---|---|---|
+|**Current Version**|
+|March 2017|1.0.0| Release 1 (STU1) - The current official published version of this IG|
+|**STU1 sequence**|
+|March 2017|1.0.0| Release 1 (STU1) - The current official published version of this IG|
+|January 2017|STU1 0.0.0| STU1 Ballot|

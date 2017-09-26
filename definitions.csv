@@ -7,7 +7,7 @@ dependencyList.name,
 dependencyList.source,
 do-transforms,FALSE
 extensions,
-fixed-business-version,1.0.0
+fixed-business-version,1.0.1
 gen-examples,FALSE
 jurisdiction,US
 no-inactive-codes,FALSE

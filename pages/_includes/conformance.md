@@ -202,7 +202,7 @@ Search Parameters:
 ##### 5. Condition
 {:.no_toc}
 
-Supported Profiles:  [US Core Condition Profile]({{site.data.structuredefinitions.us-core-Condition.path}})
+Supported Profiles:  [US Core Condition Profile]({{site.data.structuredefinitions.us-core-condition.path}})
 
 Search Criteria:
 
@@ -658,7 +658,7 @@ Search Criteria:
 ##### 5. Condition
 {:.no_toc}
 
-Supported Profiles:  [US Core Condition Profile]({{site.data.structuredefinitions.us-core-Condition.path}})
+Supported Profiles:  [US Core Condition Profile]({{site.data.structuredefinitions.us-core-condition.path}})
 
 Search Criteria:
 

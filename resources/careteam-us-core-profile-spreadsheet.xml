@@ -22,6 +22,7 @@
   <WindowTopY>0</WindowTopY>
   <ActiveSheet>2</ActiveSheet>
   <FirstVisibleSheet>1</FirstVisibleSheet>
+  <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -475,6 +476,10 @@
     ss:Bold="1"/>
    <Interior ss:Color="#DD0806" ss:Pattern="Solid"/>
   </Style>
+  <Style ss:ID="s115" ss:Parent="s63">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
   <Style ss:ID="s116">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:ShrinkToFit="1"
     ss:WrapText="1"/>
@@ -914,10 +919,6 @@
    </Borders>
    <Interior/>
   </Style>
-  <Style ss:ID="s168" ss:Parent="s63">
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
-   <Interior/>
-  </Style>
  </Styles>
  <Worksheet ss:Name="Instructions">
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="5" x:FullColumns="1"
@@ -1216,8 +1217,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s93"><Data ss:Type="String">CarePlan</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">USCoreCareTeam</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s94"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s96"><Data ss:Type="String">CareTeam</Data><NamedCell
@@ -1387,7 +1387,7 @@
     <Cell ss:StyleID="s108"><Data ss:Type="String">1..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s168"><Data ss:Type="String">Reference(Patient){http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient}|Reference(Practitioner){http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner}|Reference(Organization){http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization}|Reference( RelatedPerson)</Data><NamedCell
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Reference(Patient){http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient}|Reference(Practitioner){http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner}|Reference(Organization){http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization}|Reference( RelatedPerson)</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s108"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2306,8 +2306,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>8</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
