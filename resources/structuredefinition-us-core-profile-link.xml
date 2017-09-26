@@ -30,7 +30,9 @@
 	<snapshot>
 		<element id="Extension:profile-link">
 			<path value="Extension"/>
+			<!--
 			<sliceName value="profile-link"/>
+			-->
 			<short value="Resource that this profile is based on"/>
 			<definition value="This is a code that references a  resource listed in CapabilityStatement.rest.resource.  This is used to link the profile to the resources for the purpose of describing profile specific capababilties such as specific search criteria or operations which are supported on a profile by profile bases."/>
 			<comment value="This is helpful for publishing the CapabilityResource narrative."/>
@@ -162,7 +164,9 @@
 	<differential>
 		<element id="Extension:profile-link">
 			<path value="Extension"/>
+			<!--
 			<sliceName value="profile-link"/>
+			-->
 			<short value="Resource that this profile is based on"/>
 			<definition value="This is a code that references a  resource listed in CapabilityStatement.rest.resource.  This is used to link the profile to the resources for the purpose of describing profile specific capababilties such as specific search criteria or operations which are supported on a profile by profile bases."/>
 			<comment value="This is helpful for publishing the CapabilityResource narrative."/>

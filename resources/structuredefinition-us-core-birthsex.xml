@@ -30,7 +30,9 @@
 	<snapshot>
 		<element id="Extension:birthsex">
 			<path value="Extension"/>
+			<!--
 			<sliceName value="birthsex"/>
+			-->
 			<short value="Extension"/>
 			<definition value="A code classifying the person&#39;s sex assigned at birth  as specified by the [Office of the National Coordinator for Health IT (ONC)](https://www.healthit.gov/newsroom/about-onc)."/>
 			<comment value="The codes required are intended to present birth sex (i.e., the sex recorded on the patient’s birth certificate) and not gender identity or reassigned sex."/>
@@ -162,7 +164,9 @@
 	<differential>
 		<element id="Extension:birthsex">
 			<path value="Extension"/>
+			<!--
 			<sliceName value="birthsex"/>
+			-->
 			<definition value="A code classifying the person&#39;s sex assigned at birth  as specified by the [Office of the National Coordinator for Health IT (ONC)](https://www.healthit.gov/newsroom/about-onc)."/>
 			<comment value="The codes required are intended to present birth sex (i.e., the sex recorded on the patient’s birth certificate) and not gender identity or reassigned sex."/>
 			<min value="0"/>

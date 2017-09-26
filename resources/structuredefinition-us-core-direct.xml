@@ -30,7 +30,9 @@
 	<snapshot>
 		<element id="Extension:direct">
 			<path value="Extension"/>
+			<!--
 			<sliceName value="direct"/>
+			-->
 			<short value="Email is a &quot;direct&quot; email"/>
 			<definition value="This email address is associated with a [direct](http://wiki.directproject.org/Addressing+Specification) service."/>
 			<comment value="This extension can only be used on contact points where the system = &#39;email&#39;."/>
@@ -155,7 +157,9 @@
 	<differential>
 		<element id="Extension:direct">
 			<path value="Extension"/>
+			<!--
 			<sliceName value="direct"/>
+			-->
 			<short value="Email is a &quot;direct&quot; email"/>
 			<definition value="This email address is associated with a &quot;direct&quot; service - e.g. http://wiki.directproject.org/Addressing+Specification. This extension can only be used on contact points where the system = 'email'"/>
 			<comment value="This extension can only be used on contact points where the system = &#39;email&#39;."/>
