@@ -1,5 +1,3 @@
-## Change List
-
 #### Version 1.0.1
 
 |GForge reference|Description of Change|
