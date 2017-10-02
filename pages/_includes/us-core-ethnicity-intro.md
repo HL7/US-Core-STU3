@@ -10,4 +10,4 @@ This Complex Extension for ethnicity allows one or more ethnicity codes of which
 - Must include text description of ethnicity
 
 
-Context of Use: [US Core Patient Profile]({{site.data.fhir.canonical}}/us-core-patient)
+Context of Use: [US Core Patient Profile]({{site.data.structuredefinitions.us-core-patient.path}})
