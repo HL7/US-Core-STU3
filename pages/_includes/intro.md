@@ -30,7 +30,7 @@ The following actors are part of the US Core IG:
 
 The list of US Core Profiles is shown below.  Each profile defines the minimum mandatory elements, extensions and terminology requirements that **MUST** be present. For each profile requirements and guidance are given in a simple narrative summary. A formal hierarchical table that presents a [logical view] of the content in both a differential and snapshot view is also provided along with references to appropriate terminologies and examples.  In addition each profile has a "Quick Start" section which is intended as an implementer friendly overview of the required search and read operations.
 
-{% include list-simple-profiles.xhtml %}
+{% include list-ballot-profiles.xhtml %}
 US Core adopts the [Vitals Signs Profile](us-core-vitalsigns.html) from FHIR Core.
 
 *Note on Searches based on a date or date range:*
