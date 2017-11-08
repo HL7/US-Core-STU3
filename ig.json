@@ -38,6 +38,7 @@
         "CapabilityStatement": {"template-base": "capst.html"},
         "Goal": {"template-base": "ex.html"},
         "Condition": {"template-base": "ex.html"},
+        "DocumentReference": {"template-base": "ex.html"},
         "Procedure": {"template-base": "ex.html"},
         "CarePlan": {"template-base": "ex.html"},
         "Observation": {"template-base": "ex.html"},
@@ -69,6 +70,7 @@
         "condition-us-core-profile-spreadsheet.xml",
         "device-us-core-profile-spreadsheet.xml",
         "diagnosticreport-us-core-profile-spreadsheet.xml",
+        "documentreference-us-core-profile-spreadsheet.xml",
         "encounter-us-core-profile-spreadsheet.xml",
         "goal-us-core-profile-spreadsheet.xml",
         "immunization-us-core-profile-spreadsheet.xml",
@@ -135,6 +137,10 @@
         "StructureDefinition/us-core-allergyintolerance": {
             "base": "StructureDefinition-us-core-allergyintolerance.html",
             "defns": "StructureDefinition-us-core-allergyintolerance-definitions.html"
+        },
+        "StructureDefinition/us-core-documentreference": {
+            "base": "StructureDefinition-us-core-documentreference.html",
+            "defns": "StructureDefinition-us-core-documentreference-definitions.html"
         },
         "Encounter/1036": {
             "base": "Encounter-1036.html",

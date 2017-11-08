@@ -1,18 +1,18 @@
-This profile sets minimum expectations for the [Type] resource to record [content] associated with a patient. It identifies which core elements, extensions, vocabularies and value sets **SHALL** be present in the resource when using this profile.
+#### US Core DocumentReference Profile
 
 
-##### Mandatory Data Elements and Terminology
+##### Scope and Usage
+
+This profile sets minimum expectations  for searching and fetching patient documents using the [DocumentReference Resource]. It is inspired by ITI-68 in [IHE MHD] specification.  It identifies the mandatory core elements, extensions, vocabularies and value sets which **SHALL** be present in the DocumentReference resource when using this profile.
 
 
-The following data-elements are mandatory (i.e data MUST be present). These are presented below in a simple human-readable explanation.  Profile specific guidance and examples are provided as well.  The [**Formal Profile Definition**](#profile) below provides the  formal summary, definitions, and  terminology requirements.  
 
-**Each [Type] must have:**
 
-1.  a patient
-2.  [content]
-3.  a status of the allergy. 
 
-**Profile specific implementation guidance:**
 
-* 
 
+
+
+
+[DocumentReference Resource]: http://hl7.org/fhir/documentreference.html
+[IHE MHD]: http://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD.pdf
