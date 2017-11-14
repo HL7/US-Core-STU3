@@ -13,7 +13,7 @@ SHOULD have:
 
 1.  One identifier in `DocumentReference.identifier`
 1.  One dateTime value in `DocumentReference.created`
-1.  One time period value in `DocumentReference.context.period`
+1.  One reference to an encounter in `DocumentReference.context.encounter`
 
   [Document Type Value Set]: http://hl7.org/fhir/ValueSet-c80-doc-typecodes.html
   [DocumentReferenceStatus]: http://hl7.org/fhir/ValueSet-document-reference-status.html

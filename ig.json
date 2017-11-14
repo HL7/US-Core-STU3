@@ -606,6 +606,7 @@
             "base": "StructureDefinition-us-core-observationresults.html",
             "defns": "StructureDefinition-us-core-observationresults-definitions.html"
         },
+        "OperationDefinition/docref": {"base": "OperationDefinition-docref.html"},
         "CapabilityStatement/client": {
             "base": "CapabilityStatement-client.html",
             "source": "capabilitystatement-client.xml"
