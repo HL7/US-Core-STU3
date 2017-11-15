@@ -16,8 +16,8 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>12360</WindowHeight>
-  <WindowWidth>28800</WindowWidth>
+  <WindowHeight>9600</WindowHeight>
+  <WindowWidth>23940</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <TabRatio>663</TabRatio>
@@ -1669,7 +1669,7 @@
     <Cell ss:StyleID="s105"><Data ss:Type="String">1..1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s105"><Data ss:Type="String">Reference(Location)</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">Reference(Location){http://hl7.org/fhir/us/core/StructureDefinition/us-core-location}</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2803,8 +2803,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>6</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>6</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
