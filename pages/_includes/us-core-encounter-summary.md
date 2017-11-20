@@ -5,11 +5,8 @@
     -   each Encounter.identifier must have:
         -   an `identifier.system`
         -   an `identifier.value` that is unique within the system.
-
-2.  One status in `Encounter.status`
-  
-3.  At least one type in `Encounter.type` *ADD VALUE SET - [DAF value set](http://hl7.org/fhir/DSTU2/daf/valueset-daf-encounter-type.html)*, [FHIR Core](http://build.fhir.org/valueset-encounter-type.html)??
-
+2.  One status in `Encounter.status`  
+3.  At least one type in `Encounter.type` ADD VALUE SET - [DAF value set](http://hl7.org/fhir/DSTU2/daf/valueset-daf-encounter-type.html)?, [FHIR Core](http://build.fhir.org/valueset-encounter-type.html)?
 4.  One patient reference in `Encounter.subject`
 
 
