@@ -7,7 +7,7 @@ The following are example usage scenarios for the US Core Patient profile:
 
 -   Query for a specific patient encounter
 -   Query for recent patient encounters
--   Record or update an encoutner
+-   Record or update an encounter
 
 ##### Mandatory Data Elements and Terminology
 
@@ -16,13 +16,13 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 **Each Encounter must have:**
 
-1. an encounter identifier 
 1. a status
 1. an encounter type
 1. a patient
 
 Additionally your system [Must Support]:
 
+1. An encounter identifier 
 1. Providers involved in the encounter
 1. Where the encounter occurred
 1. When the encounter ocurred
