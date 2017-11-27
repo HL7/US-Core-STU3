@@ -122,6 +122,7 @@
             "base": "StructureDefinition-us-core-encounter.html",
             "defns": "StructureDefinition-us-core-encounter-definitions.html"
         },
+        "DocumentReference/episode-summary": {"base": "DocumentReference-episode-summary.html"},
         "Observation/serum-chloride": {
             "base": "Observation-serum-chloride.html",
             "source": "serum-chloride.json"
@@ -476,7 +477,7 @@
             "base": "AllergyIntolerance-example.html",
             "source": "allergyintolerance-example.xml"
         },
-        "Practitioner/practitioner-2": {
+       "Practitioner/practitioner-2": {
             "base": "Practitioner-practitioner-2.html",
             "source": "practitioner-2.xml"
         },

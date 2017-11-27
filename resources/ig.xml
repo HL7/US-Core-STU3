@@ -41,6 +41,12 @@
         <resource>
             <example value="true"/>
             <sourceReference>
+                <reference value="DocumentReference/episode-summary"/>
+            </sourceReference>
+        </resource>
+        <resource>
+            <example value="true"/>
+            <sourceReference>
                 <reference value="MedicationStatement/uscore-ms1"/>
             </sourceReference>
         </resource>
