@@ -23,3 +23,5 @@ http://build.fhir.org/ig/HL7/US-Core
 ### For a build log see
 
 http://build.fhir.org/ig/HL7/US-Core/build.log
+
+---
