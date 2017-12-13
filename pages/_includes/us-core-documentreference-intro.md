@@ -1,4 +1,4 @@
-This profile sets minimum expectations  for searching and fetching patient documents using the [DocumentReference Resource]. It is inspired by ITI-68 in [IHE MHD] specification.  It identifies the mandatory core elements, extensions, vocabularies and value sets which **SHALL** be present in the DocumentReference resource when using this profile.
+This profile sets minimum expectations  for searching and fetching patient documents using the [DocumentReference Resource]. It is compatible with the ITI-68 in [IHE MHD] specification.  It identifies the mandatory core elements, extensions, vocabularies and value sets which **SHALL** be present in the DocumentReference resource when using this profile.
 
 **Example Usage Scenarios:**
 
@@ -38,7 +38,7 @@ For a C-CDA Clinical Summary of Care (CCD):
 
 #### Examples
 
-   - [DocumentReference-episode-summary](DocumentReference-episode-summary.html) Retrieve a URL for an episode summary note (CCD).
+   - (need to update) [DocumentReference-episode-summary](DocumentReference-episode-summary.html) Retrieve a URL for an episode summary note (CCD).
 
 [DocumentReference Resource]: http://hl7.org/fhir/documentreference.html
 [IHE MHD]: http://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD.pdf
