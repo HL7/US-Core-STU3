@@ -1,8 +1,9 @@
 #### Complete Summary of the Mandatory Requirements 
 
 1.  One status in `Encounter.status`  
-2.  At least one type in `Encounter.type` ADD VALUE SET - [DAF value set](http://hl7.org/fhir/DSTU2/daf/valueset-daf-encounter-type.html)?, [FHIR Core](http://build.fhir.org/valueset-encounter-type.html)?
-3.  One patient reference in `Encounter.subject`
+2.  A class in `Encounter.class` from [EncounterCode]({{site.data.fhir.path}}/v3/ActEncounterCode/vs.html) value set.
+3.  At least one type in `Encounter.type` from [US Core Encounter Type](valueSet-us-core-encounter-type.html) value set.
+4.  One patient reference in `Encounter.subject`
 
 
 #### Summary of the Must Support Requirements
@@ -10,13 +11,12 @@
 Additionally your system must Support:
 
 1.  One or more Encounter numbers in `Encounter.identifier`
-2.  A class in `Encounter.class` from [EncounterCode]({{site.data.fhir.path}}/v3/ActEncounterCode/vs.html) value set.
-3.  One or more participants in `Encounter.participant`
-4.  An `Encounter.period`
-5.  One or more reasons in `Encounter.reason` from [EncounterReason]({{site.data.fhir.path}}/valueset-encounter-reason.html) value set.
-6.  One or more `Encounter.diagnosis.condition`
-7.  A disposition in `Encounter.hospitlization.dischargeDisposition` from example [dischargeDisposition]({{site.data.fhir.path}}/valueset-encounter-discharge-disposition.html) value set.
-8.  One or more locations in `Encounter.location`
+2.  One or more participants in `Encounter.participant`
+3.  An `Encounter.period`
+4.  One or more reasons in `Encounter.reason` from [EncounterReason]({{site.data.fhir.path}}/valueset-encounter-reason.html) value set.
+5.  One or more `Encounter.diagnosis.condition`
+6.  A disposition in `Encounter.hospitlization.dischargeDisposition` from example [dischargeDisposition]({{site.data.fhir.path}}/valueset-encounter-discharge-disposition.html) value set.
+7.  One or more locations in `Encounter.location`
 
 
 

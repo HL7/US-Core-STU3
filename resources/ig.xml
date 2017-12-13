@@ -563,6 +563,12 @@
         <resource>
             <example value="false"/>
             <sourceReference>
+                <reference value="ValueSet/us-core-encounter-type"/>
+            </sourceReference>
+        </resource>
+        <resource>
+            <example value="false"/>
+            <sourceReference>
                 <reference value="ValueSet/omb-ethnicity-category"/>
             </sourceReference>
         </resource>

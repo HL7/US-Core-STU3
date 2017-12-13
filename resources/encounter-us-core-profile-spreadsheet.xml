@@ -9,20 +9,21 @@
   <Author>Grahame</Author>
   <LastAuthor>Brett A Marquard</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
-  <LastSaved>2017-11-01T14:25:28Z</LastSaved>
+  <LastSaved>2017-12-13T14:01:37Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>9660</WindowHeight>
-  <WindowWidth>24000</WindowWidth>
+  <WindowHeight>10320</WindowHeight>
+  <WindowWidth>24210</WindowWidth>
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <TabRatio>663</TabRatio>
   <ActiveSheet>2</ActiveSheet>
   <FirstVisibleSheet>1</FirstVisibleSheet>
+  <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -838,13 +839,6 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s157" ss:Parent="s62">
-   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
-   <Borders>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Interior/>
-  </Style>
   <Style ss:ID="s159">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
   </Style>
@@ -920,6 +914,11 @@
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
     <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
    </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s171" ss:Parent="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
    <Interior/>
   </Style>
  </Styles>
@@ -1091,6 +1090,7 @@
    <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="96"/>
    <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="170.25"/>
    <Column ss:Index="7" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="348"/>
+   <Column ss:Index="9" ss:StyleID="s84" ss:Width="104.25"/>
    <Column ss:Index="11" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="120.75"/>
    <Column ss:Index="14" ss:StyleID="s85" ss:AutoFitWidth="0" ss:Span="1"/>
    <Column ss:Index="17" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="211.5"/>
@@ -1358,14 +1358,15 @@
     <Cell ss:StyleID="s104"><Data ss:Type="String">Encounter.type</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s105"><Data ss:Type="String">0..*</Data><NamedCell
+    <Cell ss:StyleID="s105"><Data ss:Type="String">1..*</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><Data ss:Type="String">CodeableConcept</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><Data ss:Type="String">Y</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">USCoreEncounterType</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s105"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2863,7 +2864,7 @@
     <Pane>
      <Number>0</Number>
      <ActiveRow>7</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveCol>8</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -5469,9 +5470,8 @@
    <Column ss:StyleID="s132" ss:AutoFitWidth="0" ss:Width="275.25"/>
    <Column ss:StyleID="s132" ss:Width="51"/>
    <Column ss:StyleID="s132" ss:Width="68.25"/>
-   <Column ss:StyleID="s132" ss:Width="54"/>
-   <Column ss:StyleID="s132" ss:Width="146.25"/>
-   <Column ss:StyleID="s132" ss:Width="173.25"/>
+   <Column ss:StyleID="s132" ss:AutoFitWidth="0" ss:Width="150.75" ss:Span="1"/>
+   <Column ss:Index="7" ss:StyleID="s132" ss:Width="173.25"/>
    <Column ss:StyleID="s132" ss:AutoFitWidth="0" ss:Width="98.25"/>
    <Column ss:StyleID="s132" ss:AutoFitWidth="0" ss:Width="89.25"/>
    <Column ss:StyleID="s132" ss:AutoFitWidth="0" ss:Width="114"/>
@@ -5537,14 +5537,14 @@
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s105"><Data ss:Type="String">!Role</Data></Cell>
-    <Cell ss:StyleID="s156"><Data ss:Type="String">Provider role codes consisting of NUCC Health Care Provider Taxonomy Code Set for providers. </Data></Cell>
-    <Cell ss:StyleID="s135"><Data ss:Type="String">value set</Data></Cell>
-    <Cell ss:StyleID="s135"><Data ss:Type="String">required</Data></Cell>
-    <Cell ss:StyleID="s135"/>
-    <Cell ss:StyleID="s157" ss:HRef="http://fhir.org/guides/argonaut-pd/ValueSet/provider-role"><Data
-      ss:Type="String">http://fhir.org/guides/argonaut-pd/ValueSet/provider-role</Data></Cell>
-    <Cell ss:StyleID="s135"/>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">USCoreEncounterType</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">Valueset to describe the Encounter Type</Data></Cell>
+    <Cell ss:StyleID="s138"><Data ss:Type="String">value set</Data></Cell>
+    <Cell ss:StyleID="s138"><Data ss:Type="String">extensible</Data></Cell>
+    <Cell ss:StyleID="s138"/>
+    <Cell ss:StyleID="s171" ss:HRef="http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type"><Data
+      ss:Type="String">http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type</Data></Cell>
+    <Cell ss:StyleID="s138"><Data ss:Type="String">Value set to identify the encounter type</Data></Cell>
     <Cell ss:StyleID="s135"/>
     <Cell ss:StyleID="s135"/>
     <Cell ss:StyleID="s135"/>
@@ -6035,7 +6035,7 @@
     <Pane>
      <Number>0</Number>
      <ActiveRow>2</ActiveRow>
-     <ActiveCol>0</ActiveCol>
+     <ActiveCol>6</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

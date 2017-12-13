@@ -105,6 +105,10 @@
             "base": "ValueSet-us-core-substance-sct.html",
             "source": "valueset-us-core-substance-sct.xml"
         },
+           "ValueSet/us-core-encounter-type": {
+            "base": "ValueSet-us-core-encounter-type.html",
+            "source": "valueset-us-core-encounter-type.xml"
+        },
         "ValueSet/omb-ethnicity-category": {
             "base": "ValueSet-omb-ethnicity-category.html",
             "source": "valueset-omb-ethnicity.xml"
