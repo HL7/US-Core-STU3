@@ -38,7 +38,7 @@ For a C-CDA Clinical Summary of Care (CCD):
 
 #### Examples
 
-   - (need to update) [DocumentReference-episode-summary](DocumentReference-episode-summary.html) Retrieve a URL for an episode summary note (CCD).
+   -  [DocumentReference-episode-summary](DocumentReference-episode-summary.html) Retrieve a URL for an episode summary note (CCD).
 
 [DocumentReference Resource]: http://hl7.org/fhir/documentreference.html
 [IHE MHD]: http://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_MHD.pdf

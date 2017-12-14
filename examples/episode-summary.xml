@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DocumentReference xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file://ERICS-AIR-2/ehaas/Documents/FHIR/FHIR%20tools/DSTU2Schema/conformance.xsd">
+<DocumentReference xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/account.xsd">
 	<id value="episode-summary"/>
 	<meta>
 		<profile value="http://fhir.org/guides/argonaut/StructureDefinition/argo-documentreference"/>
 	</meta>
-
 	<identifier>
 		<system value="urn:ietf:rfc:3986"/>
 		<value value="urn:oid:2.16.840.1.113883.19.5.99999.1"/>
 	</identifier>
-	<subject>
-		<reference value="Patient/peter-chalmers"/>
-		<display value="Peter Chalmers"/>
-	</subject>
+	<status value="current"/>
 	<type>
 		<coding>
 			<system value="http://loinc.org"/>
@@ -21,13 +17,16 @@
 		</coding>
 		<text value="CCD Document"/>
 	</type>
-	<author>
-		<reference value="Practitioner/1234"/>
-		<display value="John Smith, MD"/>
-	</author>
+	<subject>
+		<reference value="Patient/example"/>
+		<display value="Amy Shaw"/>
+	</subject>
 	<created value="2006-09-01"/>
 	<indexed value="2016-03-09T15:29:46Z"/>
-	<status value="current"/>
+	<author>
+		<reference value="Practitioner/practitioner-1"/>
+		<display value="Ronald Bone, MD"/>
+	</author>
 	<description value="Pulmonology clinic acute visit"/>
 	<content>
 		<attachment>
