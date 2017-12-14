@@ -23,7 +23,7 @@
 	<li><a href="{{[type]}}-{{[id]}}.ttl.html">Turtle</a></li>
 </ul>
 
-<h3><span class="sectioncount"> 1.0 - <a name="intro"> </a></span>{{[type]}}-{{[id]}}<a title="link to here" class="self-link" href="{{[type]}}-{{[id]}}.html#intro"><img src="target.png"/></a></h3>
+<h2><span class="sectioncount">SD.{{ site.data.structuredefinitions.{{[id]}}.index | plus: 1 }}</span> {{[type]}}-{{[id]}}</h2>
 
 
 <!-- introductiontext here-->
@@ -32,28 +32,39 @@
 
 {% capture my-include %}{% include {{[id]}}-intro.md %}{% endcapture %}{{ my-include | markdownify }}
 
-
-<!-- example here   moved to intro.md sections since the list doesn't render correctly and doesnt build if an example is absent.
+<!--{% raw %} example here   moved to intro.md sections since the list doesn't render correctly and doesnt build if an example is absent.
 <a name="example"> </a>
 
 <h5>{{[title]}} Examples:</h5>
 this is some liquid syntax to access the example list for each structuredefinition  - need to specify in ig.xml exampleFor
  include list-{{ site.data.structuredefinitions.{{[id]}}.type | slugify }}.xhtml
-
--->
+{% endraw %}-->
 
 <a name="profile"> </a>
-<h4><span class="sectioncount"> 1.2 - </span>
-Formal Views of Profile Content
- <a title="link to here" class="self-link" href="{{[type]}}-{{[id]}}.html#profile"><img src="target.png"/></a>
-</h4>
-<!-- uri -->
-{% include {{[type]}}-{{[id]}}-header.xhtml %}
+<h3><span class="sectioncount">SD.{{ site.data.structuredefinitions.{{[id]}}.index | plus: 1 }}.1 </span>
+Formal Views of Profile Content</h3>
 
-<!-- uri -->
 <p>
-<a href="{{site.data.fhir.path}}/profiling.html">Description of Profiles, Differentials, Snapshots, and how the XML and JSON presentations work</a>.
+<a href="{{site.data.fhir.path}}profiling.html#representation">Description of Profiles, Differentials, and Snapshots</a>.
 </p>
+
+<p>
+The official URL for this profile is: <code>{{site.data.structuredefinitions.{{[id]}}.url}}</code>
+</p>
+
+<p>
+Published on {{site.data.structuredefinitions.{{[id]}}.date}} as a {{site.data.structuredefinitions.{{[id]}}.status}} by {{site.data.structuredefinitions.{{[id]}}.publisher}}.
+</p>
+
+<p><strong>
+This profile builds on <a href= "{{site.data.structuredefinitions.{{[id]}}.basepath}}">{{site.data.structuredefinitions.{{[id]}}.basename}}</a>
+</strong></p>
+
+<!--{% raw %}
+{% include {{[type]}}-{{[id]}}-header.xhtml %}
+{% endraw %}-->
+
+<hr>
 
 <div id="tabs">
  <ul>
@@ -71,7 +82,7 @@ Formal Views of Profile Content
   <div id="tbl-summ">
    <div id="tbl-diff-inner">
      <a name="summary"> </a>
-<!--{% include {{[type]}}-{{[id]}}-summary.xhtml %}-->
+<!--{% raw %}{% include {{[type]}}-{{[id]}}-summary.xhtml %}{% endraw %}-->
 
 {% capture my-include %}{% include {{[id]}}-summary.md %}{% endcapture %}{{ my-include | markdownify }}
    </div>
@@ -94,7 +105,7 @@ Formal Views of Profile Content
   </div>
  </div>
 
-<!--
+<!--{% raw %}
  <div id="tabs-xml">
   <div id="xml">
    <div id="xml-inner">
@@ -110,13 +121,13 @@ Formal Views of Profile Content
    </div>
   </div>
  </div>
--->
+{% endraw %}-->
 
  <div id="tabs-all">
   <div id="tbl-summ">
    <div id="tbl-diff-inner">
      <a name="summary"> </a>
-<!--   {% include {{[type]}}-{{[id]}}-summary.xhtml %}  -->
+<!--{% raw %}   {% include {{[type]}}-{{[id]}}-summary.xhtml %} {% endraw %}-->
 {% capture my-include %}{% include {{[id]}}-summary.md %}{% endcapture %}{{ my-include | markdownify }}
    </div>
   </div>
@@ -134,7 +145,7 @@ Formal Views of Profile Content
    </div>
   </div>
 
-  <!--
+<!--{% raw %}
   <div id="all-xml">
    <p><b>XML Template</b></p>
    <div id="all-xml-inner">{% include {{[type]}}-{{[id]}}-pseudo-xml.xhtml %}
@@ -147,7 +158,7 @@ Formal Views of Profile Content
 {% include {{[type]}}-{{[id]}}-pseudo-json.xhtml %}
    </div>
   </div>
--->
+{% endraw %}-->
  </div>
 </div>
 
@@ -159,16 +170,12 @@ Formal Views of Profile Content
 
 <!-- search text here-->
 <a name="search"> </a>
-<h4><span class="sectioncount">1.3 - </span> Quick Start <a title="link to here" class="self-link" href="{{[type]}}-{{[id]}}.html#search"><img src="target.png"/></a></h4>
-<p>Below is an overview of the required search and read operations for this profile.  See the <a href="CapabilityStatement-server.html"/>Conformance requirements</a> for the US Core Server for a complete list of supported RESTful operations and search parameters for this IG.</p>
+<h3><span class="sectioncount">SD.{{ site.data.structuredefinitions.{{[id]}}.index | plus: 1 }}.2  </span>Quick Start</h3>
+<p>Below is an overview of the required set of RESTful FHIR interactions - for example, search and read operations - for this profile.  See the <a href="capstmnts.html"/>Conformance requirements</a> for a complete list of supported RESTful interactions for this IG.</p>
 
 {% capture my-include %}{% include {{[id]}}-search.md %}{% endcapture %}{{ my-include | markdownify }}
 
-
-
-
-<!--
-
+<!--{% raw %}
 <a name="tx"> </a>
 <h4><span class="sectioncount">D.4.1.3</span> Terminology Bindings <a title="link to here" class="self-link" href="{{[type]}}-{{[id]}}.html#tx"><img src="target.png"/></a></h4>
   {% include {{[type]}}-{{[id]}}-tx.xhtml %}
@@ -176,7 +183,7 @@ Formal Views of Profile Content
 <h4><span class="sectioncount">D.4.1.4<a name="D.4.1.4"> </a></span> Constraints <a title="link to here" class="self-link" href="{{[type]}}-{{[id]}}.html#D.4.1.3"><img src="target.png"/></a></h4>
 {% include {{[type]}}-{{[id]}}-inv.xhtml %}
 
--->
+{% endraw %}-->
 
   <!-- ==============END CONTENT END CONTENT=================== -->
 
@@ -210,5 +217,3 @@ $( '#tabs' ).tabs({
 </script>
 
 {% include footer.html %}
-</body>
-</html>

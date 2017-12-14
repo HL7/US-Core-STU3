@@ -1,5 +1,4 @@
 
------------
 
 `GET [base]/PractitionerRole?practitioner.identifier=[system]|[code]`
 

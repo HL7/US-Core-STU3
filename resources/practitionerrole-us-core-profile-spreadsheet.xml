@@ -10,7 +10,7 @@
   <LastAuthor>Microsoft Office User</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
   <LastSaved>2016-11-11T20:50:55Z</LastSaved>
-  <Version>16.00</Version>
+  <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
@@ -21,7 +21,8 @@
   <WindowTopX>0</WindowTopX>
   <WindowTopY>0</WindowTopY>
   <TabRatio>663</TabRatio>
-  <ActiveSheet>2</ActiveSheet>
+  <ActiveSheet>7</ActiveSheet>
+  <RefModeR1C1/>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -822,18 +823,6 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s155" ss:Parent="s62">
-   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
-   <Borders>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Interior/>
-  </Style>
-  <Style ss:ID="s156" ss:Parent="s62">
-   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
-   <Borders/>
-   <Interior/>
-  </Style>
   <Style ss:ID="s158">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
   </Style>
@@ -1079,7 +1068,7 @@
    <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="117"/>
    <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="96"/>
    <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="170.25"/>
-   <Column ss:Index="7" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="351.75"/>
+   <Column ss:Index="7" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="432.75"/>
    <Column ss:Index="11" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="120.75"/>
    <Column ss:Index="14" ss:StyleID="s85" ss:AutoFitWidth="0" ss:Span="1"/>
    <Column ss:Index="17" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="211.5"/>
@@ -3534,7 +3523,6 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <TabColorIndex>51</TabColorIndex>
-   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -3554,8 +3542,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>7</ActiveRow>
-     <ActiveCol>5</ActiveCol>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>6</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -6234,8 +6222,7 @@
     <Cell ss:StyleID="s133"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s133"><Data ss:Type="String">required</Data></Cell>
     <Cell ss:StyleID="s133"/>
-    <Cell ss:StyleID="s155" ss:HRef="http://www.fhir.org/guides/argonaut/pd/ValueSet-provider-role"><Data
-      ss:Type="String">http://www.fhir.org/guides/argonaut/pd/ValueSet-provider-role</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">http://fhir.org/guides/argonaut-pd/ValueSet/provider-role</Data></Cell>
     <Cell ss:StyleID="s133"/>
     <Cell ss:StyleID="s133"/>
     <Cell ss:StyleID="s133"/>
@@ -6251,8 +6238,7 @@
     <Cell ss:StyleID="s136"><Data ss:Type="String">value set</Data></Cell>
     <Cell ss:StyleID="s136"><Data ss:Type="String">required</Data></Cell>
     <Cell ss:StyleID="s136"/>
-    <Cell ss:StyleID="s156" ss:HRef="http://www.fhir.org/guides/argonaut/pd/ValueSet-provider-specialty"><Data
-      ss:Type="String">http://www.fhir.org/guides/argonaut/pd/ValueSet-provider-specialty</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">http://fhir.org/guides/argonaut-pd/ValueSet/provider-specialty</Data></Cell>
     <Cell ss:StyleID="s136"/>
     <Cell ss:StyleID="s136"/>
     <Cell ss:StyleID="s136"/>
@@ -6708,6 +6694,7 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
+   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -6727,7 +6714,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>2</ActiveRow>
+     <ActiveRow>7</ActiveRow>
      <ActiveCol>5</ActiveCol>
     </Pane>
    </Panes>

@@ -27,4 +27,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 ##### Examples
 
-- [Bundle-PractitionerRole-with-Practitioner-Endpoint](Bundle-66c8856b-ba11-4876-8aa8-467aad8c11a2.xml.html)
+- [Bundle-PractitionerRole-with-Practitioner-Endpoint](#)

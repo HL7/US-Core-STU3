@@ -6,7 +6,7 @@
     <profile value="http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"/>
   </meta>
 	<url value="http://hl7.org/fhir/us/core/ValueSet/us-core-procedure-icd10pcs"/>
-	<version value="1.0.0"/>
+	<version value="1.0.1"/>
 	<name value="US Core ICD-10-PCS Procedure Codes"/>
 	<status value="draft"/>
 

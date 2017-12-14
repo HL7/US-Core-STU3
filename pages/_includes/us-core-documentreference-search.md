@@ -1,7 +1,5 @@
-`\`
 
 Typically, DocumentReference resources are used with document indexing systems, such as [IHE XDS]. However, document references may also may be created "on-the-fly" in response to a Document Query request.  In other words there MAY NOT be pre-existing index of references to a patient's documents at the FHIR endpoint. This results in an empty bundle being returned when searching using a normal FHIR Query.  Therefore, the [$docref operation] has been defined to both create and fetch patient DocumentReference Resources.
-
 
 The following search criteria describe fetching pre-indexed documents and those created "on-the-fly".
 
@@ -44,7 +42,7 @@ Functional behavior of Server when responding to the $docref operation:
 
 Example:
 
-[todo](todo.html)
+[todo](#)
 
 
 *Support:* Mandatory to support response to operation.

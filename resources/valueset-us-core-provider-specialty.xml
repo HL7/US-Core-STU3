@@ -2,7 +2,7 @@
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<id value="us-core-provider-specialty"/>
 	<url value="http://hl7.org/fhir/us/core/ValueSet/us-core-provider-specialty"/>
-	<version value="1.0.0"/>
+	<version value="1.0.1"/>
 	<name value="US Core Provider Speciality (NUCC)"/>
 	<status value="draft"/>
 	<date value="2016-08-10"/>

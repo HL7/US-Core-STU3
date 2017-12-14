@@ -3,10 +3,9 @@
 
 **Example:** GET [base]/Encounter/12354
 
-*Support:* Mandatory. 
+*Support:* Mandatory.
 
 *Implementation Notes:* Fetches a single Encounter.
-
 
 
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/STU3/device.xsd">
 	<id value="us-core-birthsex"/>
-	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"/> <version value="1.0.0"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"/> <version value="1.0.1"/>
 	<name value="US Core Birth Sex Extension"/>
 	<title value="US Core Birth Sex Extension"/>
 	<status value="draft"/>

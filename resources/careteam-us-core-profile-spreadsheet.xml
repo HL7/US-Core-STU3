@@ -1013,7 +1013,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s74"><Data ss:Type="String">version</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">1.0.0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">1.0.1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s74"><Data ss:Type="String">fmm-level</Data></Cell>
@@ -1113,7 +1113,7 @@
    <Column ss:Index="25" ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="66"/>
    <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="119.25"/>
    <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s87">
-    <Cell><Data ss:Type="String">Argonaut DQ DSTU2 Mapping</Data></Cell>
+    <Cell><Data ss:Type="String">Argonaut-DQ-DSTU2 Mapping</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">Profile Name</Data><Comment
       ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40">        <Font
         html:Face="Tahoma" x:Family="Swiss" html:Size="8" html:Color="#000000">The name of an element for the purposes of this profile (used for slicing, code generation, etc. (see wiki for more details)</Font>       </ss:Data></Comment><NamedCell

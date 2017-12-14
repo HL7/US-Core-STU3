@@ -2,7 +2,7 @@
 <ValueSet xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<id value="detailed-ethnicity"/>
 	<url value="http://hl7.org/fhir/us/core/ValueSet/detailed-ethnicity"/>
-	<version value="1.0.0"/>
+	<version value="1.0.1"/>
 	<name value="US-Core Detailed ethnicity"/>
 	<status value="draft"/>
 	<date value="2016-08-30"/>

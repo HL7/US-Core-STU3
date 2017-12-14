@@ -22,7 +22,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 Additionally your system [Must Support]:
 
-1. An encounter identifier 
+1. An encounter identifier
 1. Providers involved in the encounter
 1. Where the encounter occurred
 1. When the encounter ocurred
