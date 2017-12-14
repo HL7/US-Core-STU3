@@ -669,7 +669,7 @@
 		<title value="US Core Homepage"/>
 		<kind value="page"/>
 	<page>
-		<source value="_includes/toc.xml"/>
+		<source value="_includes/toc.md"/>
 		<title value="US Core Table of Contents"/>
 		<kind value="page"/>
 	</page>
