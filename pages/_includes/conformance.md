@@ -77,6 +77,8 @@ Specific server search capabilities are described in detail in each of the resou
 |[Condition](#condition)|US Core Condition Profile |patient , category , clinicalstatus, patient + clinicalstatus , patient + category||
 |[Device](#device)|US Core Device Profile |patient ||
 |[DiagnosticReport](#diagnosticreport)|US Core DiagnosticReport Profile |patient , category , code , date, patient + category , patient + category + date , patient + category + code, patient + category + code + date||
+|[DocumentReference](#documentreference)|US Core DocumentReference Profile |patient , patient + start + end + type , patient + type + period ||
+|[Encounter](#encounter)|US Core Encounter Profile |patient , patient + date ||
 |[Goal](#goal)|US Core Goal Profile |patient , date, patient + date||
 |[Immunization](#immunization)|US Core Immunization Profile |patient ||
 |[Location](#location)|US Core Location Profile |name , address ||
@@ -86,6 +88,7 @@ Specific server search capabilities are described in detail in each of the resou
 |[Observation](#observation)|US Core Result Observation Profile, Vital Signs Profile, US Core Smoking Status Observation Profile |patient , category , code , date, patient + category , patient + category + date , patient + category + code, patient + category + code + date||
 |[Organization](#organization)|US Core Organization Profile |identifier , name , address ||
 |[Practitioner](#practitioner)|US Core Practitioner Profile |identifier , name ||
+|[PractitionerRole](#practitionerrole)|US Core PractitionerRole Profile |identifier , family + given, specialty ||
 |[Procedure](#procedure)|US Core Procedure Profile |patient , date , patient + date||
 {:.grid}
 
@@ -278,8 +281,58 @@ Search Parameters:
 |SHOULD|patient + category + code + date|reference + token + date|date modifiers ‘ge',‘le','gt','lt' |
 {:.grid}
 
+##### 8. DocumentReference
+{:.no_toc}
 
-##### 8. Goal
+Supported Profiles:  [US Core DocumentReference Profile]({{site.data.structuredefinitions.us-core-documentreference.path}})
+
+Search Criteria:
+
+  1. A server **SHALL** be capable of returning all of a patient's DocumentReferences using:
+
+  `GET [base]/DocumentReference?patient=[id]`
+
+  1. A server **SHALL** be capable of responding to a [$docref](OperationDefinition-docref.html) operation. At minimum, it must return a reference to a CCD document.
+  
+  `GET [base]/DocumentReference/$docref?patient=[id]`
+  
+  1. A server **SHOULD** be capable of returning all of all of a patient's DocumentReferences for a given time period and document type:
+
+  `GET [base]/DocumentReference?patient=[id]&type=[type]&period=[date]{&date=[date]}`
+
+Search Parameters:
+
+|Conformance|Parameter|Type|Modifiers|
+|---|---|---|---|
+|SHALL|patient|reference||
+|SHALL|patient + start + end + type|reference + date + date + CodeableConcept|date modifiers ‘ge',‘le','gt','lt'|
+|SHOULD|patient + type + period|reference + token + date|date modifiers ‘ge',‘le','gt','lt'|
+{:.grid}
+
+##### 9. Encounter
+{:.no_toc}
+
+Supported Profiles:  [US Core Encounter Profile]({{site.data.structuredefinitions.us-core-Encounter.path}})
+
+Search Criteria:
+
+1. A server **SHALL** be capable of returning all of a patient's encounters using:
+
+  `GET [base]/Encounter?patient=[id]`
+
+1. A server **SHALL** be capable of returning all of all of a patient's encounters over a specified time period using:
+
+  `GET [base]/Encounter?patient=[id]&date=[date]{&date=[date]}`
+
+Search Parameters:
+
+|Conformance|Parameter|Type|Modifiers|
+|---|---|---|---|
+|SHALL|patient|reference||
+|SHALL|patient + date|reference + date|date modifiers ‘ge',‘le','gt','lt' |
+{:.grid}
+
+##### 10. Goal
 {:.no_toc}
 
 Supported Profiles:  [US Core Goal Profile]({{site.data.structuredefinitions.us-core-goal.path}})
@@ -288,7 +341,7 @@ Search Criteria:
 
 1. A server **SHALL** be capable of returning all of a patient's goals using:
 
-  `Get [base]/Goal?patient=[id]`
+  `GET [base]/Goal?patient=[id]`
 
 1. A server **SHALL** be capable of returning all of all of a patient's goals over a specified time period using:
 
@@ -302,7 +355,7 @@ Search Parameters:
 |SHALL|patient + date|reference + date|date modifiers ‘ge',‘le','gt','lt' |
 {:.grid}
 
-##### 9. Immunization
+##### 11. Immunization
 {:.no_toc}
 
 Supported Profiles:  [US Core Immunization Profile]({{site.data.structuredefinitions.us-core-immunization.path}})
@@ -320,7 +373,7 @@ Search Parameters:
 |SHALL|patient|reference|
 {:.grid}
 
-##### 10. Location
+##### 12. Location
 {:.no_toc}
 
 Supported Profiles:  [US Core Location Profile]({{site.data.structuredefinitions.us-core-location.path}})
@@ -343,7 +396,7 @@ Search Parameters:
 |SHALL|address|string|
 {:.grid}
 
-##### 11. Medication
+##### 13. Medication
 {:.no_toc}
 
 Supported Profiles:  [US Core Medication Profile]({{site.data.structuredefinitions.us-core-medication.path}})
@@ -351,7 +404,7 @@ Supported Profiles:  [US Core Medication Profile]({{site.data.structuredefinitio
 
 The MedicationStatement and MedicationRequest resources can represent a medication, using an external reference to a Medication resource. If an external Medication Resource is used in a MedicationStatement or a MedicationRequest, then the READ and SEARCH Criteria SHALL be supported.
 
-##### 12. MedicationStatement
+##### 14. MedicationStatement
 {:.no_toc}
 
 Supported Profiles:  [US Core MedicationStatement Profile]({{site.data.structuredefinitions.us-core-medicationstatement.path}})
@@ -373,7 +426,7 @@ Search Parameters:
 | **SHALL** | patient | reference | MedicationStatement:medication
 {:.grid}
 
-##### 13. MedicationRequest
+##### 15. MedicationRequest
 {:.no_toc}
 
 Supported Profiles:  [US Core MedicationRequest Profile]({{site.data.structuredefinitions.us-core-medicationrequest.path}})
@@ -395,7 +448,7 @@ Search Parameters:
 | **SHALL** | patient | reference | MedicationRequest:medication
 {:.grid}
 
-##### 14. Observation
+##### 16. Observation
 {:.no_toc}
 
 Supported Profiles:
@@ -457,7 +510,7 @@ Search Parameters:
 |SHOULD|patient + category + code + date|reference + token + date|date modifiers ‘ge',‘le','gt','lt' |
 {:.grid}
 
-##### 15. Organization
+##### 17. Organization
 {:.no_toc}
 
 Supported Profiles:  [US Core Organization Profile]({{site.data.structuredefinitions.us-core-organization.path}})
@@ -485,7 +538,7 @@ Search Parameters:
 |SHALL|address|string|
 {:.grid}
 
-##### 16. Practitioner
+##### 18. Practitioner
 {:.no_toc}
 
 Supported Profiles:  [US Core Practitioner Profile]({{site.data.structuredefinitions.us-core-practitioner.path}})
@@ -508,7 +561,36 @@ Search Parameters:
 |SHALL|name|string|
 {:.grid}
 
-##### 17. Procedure
+##### 19. PractitionerRole
+{:.no_toc}
+
+Supported Profiles:  [US Core PractitionerRole Profile]({{site.data.structuredefinitions.us-core-practitionerrole.path}})
+
+Search Criteria:
+
+1. A server **SHALL** be capable of  returning PractitionerRoles by Practitioner.identifier using:
+
+  `GET [base]/PractitionerRole?practitioner.identifier=[system]|[code]`
+
+1. A server **SHALL** be capable of returning PractitionerRoles by Practitioner.family and Practitioner.given using:
+
+  `GET [base]/PractitionerRole?practitioner.family=[string]&given=[string]`
+
+ 1. A server **SHALL** be capable of returning PractitionerRoles by specialty using:
+
+  `GET [base]/PractitionerRole?specialty=[system]|[code]]` 
+  
+Search Parameters:
+
+|Conformance|Parameter|Type|
+|---|---|---|
+|SHALL|practitioner.identifier|reference + token|
+|SHALL|practitioner.family + practitioner.given|reference + string + string|
+|SHALL|specialty|token|
+{:.grid}
+
+
+##### 20. Procedure
 {:.no_toc}
 
 Supported Profiles:  [US Core Procedure Profile]({{site.data.structuredefinitions.us-core-procedure.path}})
@@ -568,6 +650,8 @@ The US Core Client **SHALL**:
 1. [Condition](#condition-1)
 1. [Device](#device-1)
 1. [DiagnosticReport](#diagnosticreport-1)
+1. [DocumentReference](#documentreference-1)
+1. [Encounter](#encounter-1)
 1. [Goal](#goal-1)
 1. [Immunization](#immunization-1)
 1. [Location](#location-1)
@@ -577,6 +661,7 @@ The US Core Client **SHALL**:
 1. [Observation](#observation-1)
 1. [Organization](#organization-1)
 1. [Practitioner](#practitioner-1)
+1. [PractitionerRole](#practitionerrole-1)
 1. [Procedure](#procedure-1)
 
 
@@ -713,8 +798,41 @@ Search Criteria:
   `GET [base]/DiagnosticReport?patient=[id]&category=LAB&code=[LOINC1{,LOINC2,LOINC3,…}]&date=[date]{&date=[date]}`
 
 
+##### 8. DocumentReference
+{:.no_toc}
 
-##### 8. Goal
+Supported Profiles:  [US Core DocumentReference Profile]({{site.data.structuredefinitions.us-core-documentreference.path}})
+
+Search Criteria:
+
+  1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's DocumentReferences using:
+
+  `GET [base]/DocumentReference?patient=[id]`
+
+  1. A client **SHOULD** be capable of connecting to a server to execute the [$docref](OperationDefinition-docref.html) operation:
+  
+  `GET [base]/DocumentReference/$docref?patient=[id]`
+  
+  1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's DocumentReferences for a given time period and document type:
+
+  `GET [base]/DocumentReference?patient=[id]&type=[type]&period=[date]{&date=[date]}`
+  
+##### 9. Encounter
+{:.no_toc}
+
+Supported Profiles:  [US Core Encounter Profile]({{site.data.structuredefinitions.us-core-Encounter.path}})
+
+Search Criteria:
+
+1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's encounters using:
+
+  `GET [base]/Encounter?patient=[id]`
+
+1. A client **SHOULD** be capable of connecting to a server and fetching all of all of a patient's encounters over a specified time period using:
+
+  `GET [base]/Encounter?patient=[id]&date=[date]{&date=[date]}`
+
+##### 10. Goal
 {:.no_toc}
 
 Supported Profiles:  [US Core Goal Profile]({{site.data.structuredefinitions.us-core-goal.path}})
@@ -730,7 +848,7 @@ Search Criteria:
   `GET [base]/Goal?patient=[id]&date=[date]{&date=[date]}`
 
 
-##### 9. Immunization
+##### 11. Immunization
 {:.no_toc}
 
 Supported Profiles:  [US Core Immunization Profile]({{site.data.structuredefinitions.us-core-immunization.path}})
@@ -743,7 +861,7 @@ Search Criteria:
 
 
 
-##### 10. Location
+##### 12. Location
 {:.no_toc}
 
 Supported Profiles:  [US Core Location Profile]({{site.data.structuredefinitions.us-core-location.path}})
@@ -759,7 +877,7 @@ Search Criteria:
   `GET [base]/Location?address=[string]`
 
 
-##### 11. Medication
+##### 13. Medication
 {:.no_toc}
 
 Supported Profiles:  [US Core Medication Profile]({{site.data.structuredefinitions.us-core-medication.path}})
@@ -785,7 +903,7 @@ A client **SHOULD** be capable of connecting to a server and fetching all medica
 
 
 
-##### 13. MedicationRequest
+##### 14. MedicationRequest
 {:.no_toc}
 
 Supported Profiles:  [US Core MedicationRequest Profile]({{site.data.structuredefinitions.us-core-medicationrequest.path}})
@@ -802,7 +920,7 @@ A client **SHOULD** be capable of connecting to a server and fetching all medica
 
   `GET /MedicationRequest?patient=[id]&_include=MedicationRequest:medication`
 
-##### 14. Observation
+##### 15. Observation
 {:.no_toc}
 
 Supported Profiles:
@@ -857,7 +975,7 @@ Supported Profiles:
 
 
 
-##### 15. Organization
+##### 16. Organization
 {:.no_toc}
 
 Supported Profiles:  [US Core Organization Profile]({{site.data.structuredefinitions.us-core-organization.path}})
@@ -877,8 +995,7 @@ Search Criteria:
   `GET [base]/Organization?address=[string]`
 
 
-
-##### 16. Practitioner
+##### 17. Practitioner
 {:.no_toc}
 
 Supported Profiles:  [US Core Practitioner Profile]({{site.data.structuredefinitions.us-core-practitioner.path}})
@@ -894,7 +1011,27 @@ Search Criteria:
   `GET [base]/Practitioner?family=[string]&given=[string]`
 
 
-##### 17. Procedure
+##### 18. PractitionerRole
+{:.no_toc}
+
+Supported Profiles:  [US Core PractitionerRole Profile]({{site.data.structuredefinitions.us-core-practitionerrole.path}})
+
+Search Criteria:
+
+1. A client **SHOULD** be capable of connecting to a server and fetching PractitionerRoles by identifier using:
+
+  `GET [base]/PractitionerRole?practitioner.identifier=[system]|[code]`
+
+1. A client **SHOULD** be capable of connecting to a server and fetching a PractitionerRoles by name using:
+
+  `GET [base]/PractitionerRole?practitioner.family=[string]&given=[string]`
+
+1. A client **SHOULD** be capable of connecting to a server and fetching a PractitionerRoles by specialty using:
+
+  `GET [base]/PractitionerRole?specialty=[system]|[code]]` 
+  
+  
+##### 19. Procedure
 {:.no_toc}
 
 Supported Profiles:  [US Core Procedure Profile]({{site.data.structuredefinitions.us-core-procedure.path}})

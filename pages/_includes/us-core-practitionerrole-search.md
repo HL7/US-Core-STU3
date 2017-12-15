@@ -32,9 +32,11 @@
 -----------
 **Searches to consider for future**
 
-  `GET [base]/Practitioner?location.address-city=[city]`
-  `GET [base]/Practitioner?location.address-city=[city]&specialty=[string]`
-  `GET [base]/Practitioner?location.near=-72.519854,42.373222&near-distance=2m`
+  `GET [base]/PractitionerRole?location.address-city=[city]`
+  
+  `GET [base]/PractitionerRole?location.address-city=[city]&specialty=[string]`
+  
+  `GET [base]/PractitionerRole?location.near=-72.519854,42.373222&near-distance=2m`
 
 
 *Implementation Notes:*  Search based on location [(how to search by reference)].
