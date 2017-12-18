@@ -22,7 +22,7 @@ Source Resource: [XML](CapabilityStatement-server.xml.html)/[JSON](CapabilitySta
 
 -  FHIR Version: 3.0.1
 -  Supported formats: xml, json
--  Published: 2017-03-08
+-  Published: 2017-12-22
 -  Published by: Health Level Seven International US Realm Steering Committee
 
 The Section describes the expected capabilities of the US Core Server actor which is responsible for providing responses to the queries submitted by the US Core Requestors. The complete list of FHIR profiles, RESTful operations, and search parameters supported by US Core Servers are defined. Systems implementing this capability statement should meet the ONC 2015 Common Clinical Data Set (CCDS) access requirement for Patient Selection 170.315(g)(7) and Application Access - Data Category Request 170.315(g)(8).  US Core Clients have the option of choosing from this list to access necessary data based on their local use cases and other contextual requirements.
@@ -660,7 +660,7 @@ Source Resource: [XML](CapabilityStatement-client.xml.html)/[JSON](CapabilitySta
 
 -  FHIR Version: 3.0.1
 -  Supported formats: xml, json
--  Published: 2017-03-08
+-  Published: 2017-12-22
 -  Published by: Health Level Seven International US Realm Steering Committee
 
 The Section describes the expected capabilities of the  US Core Client which is responsible for creating and initiating the queries for information about an individual patient. The complete list of FHIR profiles, RESTful operations, and search parameters supported by US Core Servers are defined in the [Conformance requirements for the US Core Server section](#conformance-requirements-for-the-us-core-server). US Core Clients have the option of choosing from this list to access necessary data based on their local use cases and other contextual requirements.

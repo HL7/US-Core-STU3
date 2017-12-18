@@ -1,3 +1,11 @@
+#### Version 1.1.0
+
+|GForge reference|Description of Change|
+|---|---|
+|NA|Add US-Core-Encounter Profile based on DSTU2 DAF Encounter profile|
+|NA|Add US-Core-PractitionerRole Profile based on Argonaut Provider Directory PractitionerRole profile|
+|NA|Add US-Core-DocumentReference Profile based on Argonaut Data Access DocumentReference profile|
+
 #### Version 1.0.1
 
 |GForge reference|Description of Change|

@@ -1,7 +1,7 @@
 ## {{site.data.fhir.igName}} Implementation Guide
 {:.no_toc}
 
-{% include pub-publish-box.html %}
+{% include ba-publish-box.html %}
 
 
 <!-- TOC  the css styling for this is \pages\assets\css\project.css under 'markdown-toc'-->
