@@ -532,6 +532,20 @@ queried by category using:</p>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-profile-link">
+			<valueCode value="DocumentReference"/>
+		</extension>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference"/>
+		<display value="US Core Goal DocumentReference"/>
+	</profile>
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-profile-link">
+			<valueCode value="Encounter"/>
+		</extension>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
+		<display value="US Core Goal Encounter"/>
+	</profile>
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-profile-link">
 			<valueCode value="Goal"/>
 		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-goal"/>
@@ -620,6 +634,13 @@ queried by category using:</p>
 		</extension>
 		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
 		<display value="US Core Practitioner Profile"/>
+	</profile>
+	<profile>
+		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-profile-link">
+			<valueCode value="PractitionerRole"/>
+		</extension>
+		<reference value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
+		<display value="US Core PractitionerRole Profile"/>
 	</profile>
 	<profile>
 		<extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-profile-link">
@@ -816,6 +837,68 @@ queried by category using:</p>
 				<documentation value="Allows retrieval of a historical version of a US Core device instance"/>
 			</interaction>
 		</resource>
+		<resource>
+			<type value="DocumentReference"/>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core DocumentReference resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core DocumentReference by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core DocumentReference instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core DocumentReference instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="Encounter"/>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core Encounter resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core Encounter by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core Encounter instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Allows retrieval of a historical version of a US Core Encounter instance"/>
+			</interaction>
+		</resource>		
 		<resource>
 			<type value="Goal"/>
 			<interaction>
@@ -1124,6 +1207,37 @@ queried by category using:</p>
 				</extension>
 				<code value="vread"/>
 				<documentation value="Afllows retrieval of a historical version of a US Core practitioner instance"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="PractitionerRole"/>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="search-type"/>
+				<documentation value="Allows discovery of existing US Core PractitionerRole resources using different search criteria"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="read"/>
+				<documentation value="Allows retrieval of a specific US Core PractitionerRole by id"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="history-instance"/>
+				<documentation value="Allows review of changes to US Core PractitionerRole instance over time"/>
+			</interaction>
+			<interaction>
+				<extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+					<valueCode value="SHOULD"/>
+				</extension>
+				<code value="vread"/>
+				<documentation value="Afllows retrieval of a historical version of a US Core PractitionerRole instance"/>
 			</interaction>
 		</resource>
 		<resource>
