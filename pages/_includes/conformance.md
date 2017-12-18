@@ -77,7 +77,7 @@ Specific server search capabilities are described in detail in each of the resou
 |[Condition](#condition)|US Core Condition Profile |patient , category , clinicalstatus, patient + clinicalstatus , patient + category||
 |[Device](#device)|US Core Device Profile |patient ||
 |[DiagnosticReport](#diagnosticreport)|US Core DiagnosticReport Profile |patient , category , code , date, patient + category , patient + category + date , patient + category + code, patient + category + code + date||
-|[DocumentReference](#documentreference)|US Core DocumentReference Profile |patient , patient + start + end + type , patient + type + period ||
+|[DocumentReference](#documentreference)|US Core DocumentReference Profile |patient , patient + period + type , patient + date + $docref ||
 |[Encounter](#encounter)|US Core Encounter Profile |patient , patient + date ||
 |[Goal](#goal)|US Core Goal Profile |patient , date, patient + date||
 |[Immunization](#immunization)|US Core Immunization Profile |patient ||
@@ -305,14 +305,14 @@ Search Parameters:
 |Conformance|Parameter|Type|Modifiers|
 |---|---|---|---|
 |SHALL|patient|reference||
-|SHALL|patient + start + end + type|reference + date + date + CodeableConcept|date modifiers ‘ge',‘le','gt','lt'|
+|SHALL|patient + $docref|reference + oepration||
 |SHOULD|patient + type + period|reference + token + date|date modifiers ‘ge',‘le','gt','lt'|
 {:.grid}
 
 ##### 9. Encounter
 {:.no_toc}
 
-Supported Profiles:  [US Core Encounter Profile]({{site.data.structuredefinitions.us-core-Encounter.path}})
+Supported Profiles:  [US Core Encounter Profile]({{site.data.structuredefinitions.us-core-encounter.path}})
 
 Search Criteria:
 
