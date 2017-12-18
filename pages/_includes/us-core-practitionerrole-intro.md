@@ -1,7 +1,7 @@
 
 ##### Scope and Usage
 
-This profile sets minimum expectations for the [PractitionerRole]({{ site.data.fhir.path }}/practitionerrole.html) resource to record, search and fetch the practioner role for a practitioner.  It identifies the mandatory core elements, extensions, vocabularies and value sets which **SHALL** be present in the PractitionerRole resource when using this profile.  The requirements for the US Core Practitioner were drawn from the Argonaut Provider Directory (http://www.fhir.org/guides/argonaut/pd//release1/index.html), [IHE Healthcare Provider Directory](http://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_HPD.pdf) and the [ONC Provider Directory Workshop](https://confluence.oncprojectracking.org/display/PDW/Workshop+Documents).
+This profile sets minimum expectations for the [PractitionerRole]({{ site.data.fhir.path }}/practitionerrole.html) resource to record, search and fetch the practitioner role for a practitioner.  It identifies the mandatory core elements, extensions, vocabularies and value sets which **SHALL** be present in the PractitionerRole resource when using this profile.  The requirements for the US Core Practitioner were drawn from the [Argonaut Provider Directory](http://www.fhir.org/guides/argonaut/pd//release1/index.html), [IHE Healthcare Provider Directory](http://ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_HPD.pdf) and the [ONC Provider Directory Workshop](https://confluence.oncprojectracking.org/display/PDW/Workshop+Documents).
 
 
 ##### Mandatory Data Elements and Terminology
@@ -27,4 +27,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 ##### Examples
 
-- [Bundle-PractitionerRole-with-Practitioner-Endpoint](#)
+- [Bundle-PractitionerRole-with-Practitioner-Endpoint](Bundle-66c8856b-ba11-4876-8aa8-467aad8c11a2.xml.html)
