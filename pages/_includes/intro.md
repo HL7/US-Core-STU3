@@ -77,4 +77,4 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [FHIR Data Types]: {{site.data.fhir.path}}/datatypes.html
 [FHIR Search]: {{site.data.fhir.path}}/search.html
 [FHIR Resource]: {{site.data.fhir.path}}/formats.html
-[2015 Edition Common Clinical Data Set]: guidance.html#2015-edition-common-clinical-data-set
+[2015 Edition Common Clinical Data Set]: guidance.html#the-2015-edition-common-clinical-data-set

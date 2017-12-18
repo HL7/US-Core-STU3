@@ -36,7 +36,7 @@
 		<resource>
 			<example value="true"/>
 			<sourceReference>
-				<reference value="Encounter/encounter-example-1"/>
+				<reference value="Encounter/example-1"/>
 			</sourceReference>
 		</resource>
 		<resource>

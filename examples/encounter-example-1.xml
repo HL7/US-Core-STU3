@@ -7,9 +7,9 @@
 	</meta>
 	<status value="finished"/>
 	<class>
-		<system value="http://hl7.org/fhir/v3/ActCode"/> 
-		<code value="outpatient"/>
-		<display value="outpatient"/> 
+		<system value="http://hl7.org/fhir/v3/ActCode"/>
+		<code value="AMB"/>
+		<display value="ambulatory"/> 
 	</class>
 	<type>
 		<coding>

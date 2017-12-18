@@ -878,7 +878,7 @@ Search Criteria:
 #### Encounter
 {:.no_toc}
 
-Supported Profiles:  [US Core Encounter Profile]({{site.data.structuredefinitions.us-core-Encounter.path}})
+Supported Profiles:  [US Core Encounter Profile]({{site.data.structuredefinitions.us-core-encounter.path}})
 
 Search Criteria:
 
