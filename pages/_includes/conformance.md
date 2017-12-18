@@ -20,10 +20,10 @@ This section outlines conformance requirements for the US Core Servers and Clien
 
 Source Resource: [XML](CapabilityStatement-server.xml.html)/[JSON](CapabilityStatement-server.json.html)
 
-1. FHIR Version: 3.0.1
-1. Supported formats: xml, json
-1. Published: 2017-03-08
-1. Published by: Health Level Seven International US Realm Steering Committee
+-  FHIR Version: 3.0.1
+-  Supported formats: xml, json
+-  Published: 2017-03-08
+-  Published by: Health Level Seven International US Realm Steering Committee
 
 The Section describes the expected capabilities of the US Core Server actor which is responsible for providing responses to the queries submitted by the US Core Requestors. The complete list of FHIR profiles, RESTful operations, and search parameters supported by US Core Servers are defined. Systems implementing this capability statement should meet the ONC 2015 Common Clinical Data Set (CCDS) access requirement for Patient Selection 170.315(g)(7) and Application Access - Data Category Request 170.315(g)(8).  US Core Clients have the option of choosing from this list to access necessary data based on their local use cases and other contextual requirements.
 
@@ -105,11 +105,11 @@ Search Criteria:
 
 1. A server **SHALL** be capable of returning a patient using:
 
-  `GET [base]/Patient/[id]`.
+   `GET [base]/Patient/[id]`.
 
 1. A server **SHALL** be capable of returning a patient by identifier using
 
-  `GET [base]/Patient?identifier=[system]|[code]`
+   `GET [base]/Patient?identifier=[system]|[code]`
 
 1. A server **SHALL** be capbable of returning a patient by supporting at a minimum the following search parameters when at least 2 are present:
    - name
@@ -118,7 +118,7 @@ Search Criteria:
 
       - for example:
 
-       `GET [base]/Patient?name=[name]&gender=[gender]`
+        `GET [base]/Patient?name=[name]&gender=[gender]`
 
 
 Search Parameters:
@@ -142,7 +142,7 @@ Search Criteria:
 
 1. A server **SHALL** be capable of returning all patient's allergies using:
 
-  `Get [base]/AllergyIntolerance?patient=[id]`
+   `GET [base]/AllergyIntolerance?patient=[id]`
 
 Search Parameters:
 
@@ -160,19 +160,19 @@ Search Criteria:
 
 1. A server **SHALL** be capable of returning all of a patient's Assessment and Plan of Treatment information using:
 
-  `Get [base]/CarePlan?patient=[id]&category=assess-plan`
+   `GET [base]/CarePlan?patient=[id]&category=assess-plan`
 
 1. A server **SHALL** be capable of returning a patient's Assessment and Plan of Treatment information over a specified time period using:
 
-  `Get [base]/CarePlan?patient=[id]&category=assess-plan&date=[date]`
+   `GET [base]/CarePlan?patient=[id]&category=assess-plan&date=[date]`
 
 1. A server **SHOULD** be capable returning all of a patient's active Assessment and Plan of Treatment information using
 
-  `Get [base]/CarePlan?patient=[id]&category=assess-plan&status=active`
+   `GET [base]/CarePlan?patient=[id]&category=assess-plan&status=active`
 
 1. A server **SHOULD** be capable returning a patient's active Assessment and Plan of Treatment information over a specified time period using
 
-  `Get [base]/CarePlan?patient=[id]&category=assess-plan&status=active&date=[date]`
+   `GET [base]/CarePlan?patient=[id]&category=assess-plan&status=active&date=[date]`
 
 Search Parameters:
 
@@ -193,7 +193,7 @@ Search Criteria:
 
 1. A server **SHALL** be capable of returning  a patient's current care team members using:
 
-  `Get [base]/CareTeam?patient=[id]&status=active`
+   `GET [base]/CareTeam?patient=[id]&status=active`
 
 Search Parameters:
 
@@ -211,15 +211,15 @@ Search Criteria:
 
 1. A server **SHALL** be capable of returning all problems and health concerns for a patient, including current as well as historical problems and health concerns using:
 
-  `Get [base]/Condition?patient=[id]`
+   `GET [base]/Condition?patient=[id]`
 
 1. A server **SHOULD** be capable returning all of a patient's *active* problems and health concerns using:
 
-  `Get [base]/Condition?patient=[id]&clinicalstatus=active,recurrance,remission`
+   `GET [base]/Condition?patient=[id]&clinicalstatus=active,recurrance,remission`
 
 1. A server **SHOULD** be capable returning all of a patient's problems or all of patient's health concerns using:
 
-  `Get [base]/Condition?patient=[id]&category=[problem|health-concern]`
+   `GET [base]/Condition?patient=[id]&category=[problem|health-concern]`
 
 Search Parameters:
 
@@ -239,7 +239,7 @@ Search Criteria:
 
 1. A server **SHALL** be capable of returning all Unique device identifier(s)(UDI) for a patient's implanted device(s):
 
-  `Get [base]/Device?patient=[id]`
+   `GET [base]/Device?patient=[id]`
 
 Search Parameters:
 
@@ -257,19 +257,19 @@ Search Criteria:
 
 1. A server **SHALL** be capable of returning all of a patient's laboratory diagnostic reports queried by category using:
 
-  `Get [base]/DiagnosticReport?patient=[id]&category=LAB`
+   `GET [base]/DiagnosticReport?patient=[id]&category=LAB`
 
 1. A server **SHALL** be capable of returning all of a patient's laboratory diagnostic reports queried by category code and date range using:
 
-  `GET [base]/DiagnosticReport?patient=[id]&category=LAB&date=[date]{&date=[date]}`
+   `GET [base]/DiagnosticReport?patient=[id]&category=LAB&date=[date]{&date=[date]}`
 
 1. A server **SHALL** be capable of returning all of a patient's laboratory diagnostic reports queried by category and code using:
 
-  `GET [base]/DiagnosticReport?patient=[id]&category=LAB&code=[LOINC]`
+   `GET [base]/DiagnosticReport?patient=[id]&category=LAB&code=[LOINC]`
 
 1. A server **SHOULD** be capable of returning all of a patient's laboratory diagnostic reports queried by category and one or more codes and date range using:
 
-  `GET [base]/DiagnosticReport?patient=[id]&category=LAB&code=[LOINC1{,LOINC2,LOINC3,…}]&date=[date]{&date=[date]}`
+   `GET [base]/DiagnosticReport?patient=[id]&category=LAB&code=[LOINC1{,LOINC2,LOINC3,…}]&date=[date]{&date=[date]}`
 
 Search Parameters:
 
@@ -288,17 +288,17 @@ Supported Profiles:  [US Core DocumentReference Profile]({{site.data.structurede
 
 Search Criteria:
 
-  1. A server **SHALL** be capable of returning all of a patient's DocumentReferences using:
+1. A server **SHALL** be capable of returning all of a patient's DocumentReferences using:
 
-  `GET [base]/DocumentReference?patient=[id]`
+   `GET [base]/DocumentReference?patient=[id]`
 
-  1. A server **SHALL** be capable of responding to a [$docref](OperationDefinition-docref.html) operation. At minimum, it must return a reference to a CCD document.
+1. A server **SHALL** be capable of responding to a [$docref](OperationDefinition-docref.html) operation. At minimum, it must return a reference to a CCD document.
 
-  `GET [base]/DocumentReference/$docref?patient=[id]`
+   `GET [base]/DocumentReference/$docref?patient=[id]`
 
-  1. A server **SHOULD** be capable of returning all of all of a patient's DocumentReferences for a given time period and document type:
+1. A server **SHOULD** be capable of returning all of all of a patient's DocumentReferences for a given time period and document type:
 
-  `GET [base]/DocumentReference?patient=[id]&type=[type]&period=[date]{&date=[date]}`
+   `GET [base]/DocumentReference?patient=[id]&type=[type]&period=[date]{&date=[date]}`
 
 Search Parameters:
 
@@ -318,11 +318,11 @@ Search Criteria:
 
 1. A server **SHALL** be capable of returning all of a patient's encounters using:
 
-  `GET [base]/Encounter?patient=[id]`
+   `GET [base]/Encounter?patient=[id]`
 
 1. A server **SHALL** be capable of returning all of all of a patient's encounters over a specified time period using:
 
-  `GET [base]/Encounter?patient=[id]&date=[date]{&date=[date]}`
+   `GET [base]/Encounter?patient=[id]&date=[date]{&date=[date]}`
 
 Search Parameters:
 
@@ -341,11 +341,11 @@ Search Criteria:
 
 1. A server **SHALL** be capable of returning all of a patient's goals using:
 
-  `GET [base]/Goal?patient=[id]`
+   `GET [base]/Goal?patient=[id]`
 
 1. A server **SHALL** be capable of returning all of all of a patient's goals over a specified time period using:
 
-  `GET [base]/Goal?patient=[id]&date=[date]{&date=[date]}`
+   `GET [base]/Goal?patient=[id]&date=[date]{&date=[date]}`
 
 Search Parameters:
 
@@ -364,7 +364,7 @@ Search Criteria:
 
 1. A server **SHALL** be capable of returning all immunizations for a patient using:
 
-  `Get [base]/Immunization?patient=[id]`
+   `GET [base]/Immunization?patient=[id]`
 
 Search Parameters:
 
@@ -382,11 +382,11 @@ Search Criteria:
 
 1. A server **SHALL** be capable of returning a location by name using:
 
-  `Get [base]/Location?name=[string]`
+   `GET [base]/Location?name=[string]`
 
 1. A server **SHALL** be capable of returning a location by address using:
 
-  `GET [base]/Location?address=[string]`
+   `GET [base]/Location?address=[string]`
 
 Search Parameters:
 
@@ -415,9 +415,9 @@ Search Criteria:
 
 A server **SHALL** be capable of returning all medications for a patient using one of or both:
 
-  `GET /MedicationStatement?patient=[id]`
+   `GET /MedicationStatement?patient=[id]`
 
-  `GET /MedicationStatement?patient=[id]&_include=MedicationStatement:medication`
+   `GET /MedicationStatement?patient=[id]&_include=MedicationStatement:medication`
 
 Search Parameters:
 
@@ -437,9 +437,9 @@ Search Criteria:
 
 A server **SHALL** be capable of returning all medications for a patient using one of or both:
 
-  `GET /MedicationRequest?patient=[id]`
+   `GET /MedicationRequest?patient=[id]`
 
-  `GET /MedicationRequest?patient=[id]&_include=MedicationRequest:medication`
+   `GET /MedicationRequest?patient=[id]&_include=MedicationRequest:medication`
 
 Search Parameters:
 
@@ -452,53 +452,54 @@ Search Parameters:
 {:.no_toc}
 
 Supported Profiles:
+
 1. [US Core Result Observation Profile]({{site.data.structuredefinitions.us-core-observationresults.path}})
 
-  Search Criteria:
+    Search Criteria:
 
-  - A server **SHALL** be capable of  returning all of a patient's laboratory results queried by category using:
+    1. A server **SHALL** be capable of  returning all of a patient's laboratory results queried by category using:
 
-    `GET [base]/Observation?patient=[id]&category=laboratory`
+       `GET [base]/Observation?patient=[id]&category=laboratory`
 
-  - A server **SHALL** be capable of  returning all of a patient's laboratory results queried by category code and date range using:
+    1. A server **SHALL** be capable of  returning all of a patient's laboratory results queried by category code and date range using:
 
-    `GET [base]/Observation?patient=[id]&category=laboratory&date=[date]{&date=[date]}`
+       `GET [base]/Observation?patient=[id]&category=laboratory&date=[date]{&date=[date]}`
 
-  - A server **SHALL** be capable of  returning all of a patient's laboratory results queried by category and code using:
+    1. A server **SHALL** be capable of  returning all of a patient's laboratory results queried by category and code using:
 
-    `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC]`
+        `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC]`
 
-  - A server **SHOULD** be capable of returning all of a patient's laboratory results queried by category and one or more codes and date range using:
+    1. A server **SHOULD** be capable of returning all of a patient's laboratory results queried by category and one or more codes and date range using:
 
-    `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC1{,LOINC2,LOINC3,...}]&date=[date]{&date=[date]}`
+       `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC1{,LOINC2,LOINC3,...}]&date=[date]{&date=[date]}`
 
 1. [Vital Signs Profile]({{site.data.fhir.path}}/vitalsigns.html)
 
-  Search Criteria
+    Search Criteria:
 
-  - A server **SHALL** be capable of  returning all of a patient's vital signs that it supports using:
+    1. A server **SHALL** be capable of  returning all of a patient's vital signs that it supports using:
 
-      `GET [base]/Observation?patient=[id]&category=vital-signs`
+         `GET [base]/Observation?patient=[id]&category=vital-signs`
 
-  - A server **SHALL** be capable of  returning all of a patient's vital signs queried by date range using:
+    1. A server **SHALL** be capable of  returning all of a patient's vital signs queried by date range using:
 
-    `GET [base]/Observation?patient=[id]&category=vital-signs&date=[date]{&date=[date]}`
+       `GET [base]/Observation?patient=[id]&category=vital-signs&date=[date]{&date=[date]}`
 
-  - A server **SHALL** be capable of  returning any of a patient's vital signs queried by one or more of the codes listed below using:
+    1. A server **SHALL** be capable of  returning any of a patient's vital signs queried by one or more of the codes listed below using:
 
-    `GET [base]/Observation?patient=[id]&code[vital sign LOINC{,LOINC2,LOINC3,…}]`
+       `GET [base]/Observation?patient=[id]&code[vital sign LOINC{,LOINC2,LOINC3,…}]`
 
-  - A server **SHOULD** be capable of returning any of a patient's vital signs queried by one or more of the codes listed below and date range using:
+    1. A server **SHOULD** be capable of returning any of a patient's vital signs queried by one or more of the codes listed below and date range using:
 
-      `GET [base]/Observation?patient=[id]&code=[LOINC{,LOINC2…}]vital-signs&date=[date]{&date=[date]}`
+         `GET [base]/Observation?patient=[id]&code=[LOINC{,LOINC2…}]vital-signs&date=[date]{&date=[date]}`
 
 1. [US Core Smoking Status Observation Profile]({{site.data.structuredefinitions.us-core-smokingstatus.path}})
 
-  Search Criteria:
+    Search Criteria:
 
-  - A server **SHALL** be capable of  returning a patient's smoking status using:
+    1. A server **SHALL** be capable of  returning a patient's smoking status using:
 
-    `GET [base]/Observation?patient=[id]&code=72166-2`
+       `GET [base]/Observation?patient=[id]&code=72166-2`
 
 Search Parameters:
 
@@ -519,15 +520,15 @@ Search Criteria:
 
 1. A server **SHALL** be capable of  returning an organization by identifier using:
 
-  `GET [base]/Organization?identifier=[system]|[code]'
+   `GET [base]/Organization?identifier=[system]|[code]'
 
 1. A server **SHALL** be capable of  returning an organization by name using:
 
-  `GET [base]/Organization?name=[string]`
+   `GET [base]/Organization?name=[string]`
 
 1. A server **SHALL** be capable of  returning an organization by address using:
 
-  `GET [base]/Organization?address=[string]`
+   `GET [base]/Organization?address=[string]`
 
 Search Parameters:
 
@@ -547,11 +548,11 @@ Search Criteria:
 
 1. A server **SHALL** be capable of  returning a practitioner by identifier using:
 
-  `GET [base]/Practitioner?identifier=[system]|[code]`
+   `GET [base]/Practitioner?identifier=[system]|[code]`
 
 1. A server **SHALL** be capable of  returning a practitioner by name using:
 
-  `GET [base]/Practitioner?family=[string]&given=[string]`
+   `GET [base]/Practitioner?family=[string]&given=[string]`
 
 Search Parameters:
 
@@ -570,15 +571,15 @@ Search Criteria:
 
 1. A server **SHALL** be capable of  returning PractitionerRoles by Practitioner.identifier using:
 
-  `GET [base]/PractitionerRole?practitioner.identifier=[system]|[code]`
+   `GET [base]/PractitionerRole?practitioner.identifier=[system]|[code]`
 
 1. A server **SHALL** be capable of returning PractitionerRoles by Practitioner.family and Practitioner.given using:
 
-  `GET [base]/PractitionerRole?practitioner.family=[string]&given=[string]`
+   `GET [base]/PractitionerRole?practitioner.family=[string]&given=[string]`
 
  1. A server **SHALL** be capable of returning PractitionerRoles by specialty using:
 
-  `GET [base]/PractitionerRole?specialty=[system]|[code]]`
+   `GET [base]/PractitionerRole?specialty=[system]|[code]]`
 
 Search Parameters:
 
@@ -598,11 +599,10 @@ Supported Profiles:  [US Core Procedure Profile]({{site.data.structuredefinition
 Search Criteria:
 
 1. A server **SHALL** be capable of  returning a patient's procedures using:
-  `GET/Procedure?patient=[id]`
+     `GET/Procedure?patient=[id]`
 
 1. A server **SHALL** be capable of  returning all of a patient's procedures over a specified time period using:
-
-  `GET /Procedure?patient=[id]&date=[date]{&date=[date]}`
+     `GET /Procedure?patient=[id]&date=[date]{&date=[date]}`
 
 Search Parameters:
 
@@ -618,10 +618,10 @@ Search Parameters:
 
 Source Resource: [XML](CapabilityStatement-client.xml.html)/[JSON](CapabilityStatement-client.json.html)
 
-1. FHIR Version: 3.0.1
-1. Supported formats: xml, json
-1. Published: 2017-03-08
-1. Published by: Health Level Seven International US Realm Steering Committee
+-  FHIR Version: 3.0.1
+-  Supported formats: xml, json
+-  Published: 2017-03-08
+-  Published by: Health Level Seven International US Realm Steering Committee
 
 The Section describes the expected capabilities of the  US Core Client which is responsible for creating and initiating the queries for information about an individual patient. The complete list of FHIR profiles, RESTful operations, and search parameters supported by US Core Servers are defined in the [Conformance requirements for the US Core Server section](#conformance-requirements-for-the-us-core-server). US Core Clients have the option of choosing from this list to access necessary data based on their local use cases and other contextual requirements.
 
@@ -675,11 +675,11 @@ Search Criteria:
 
 - A client **SHOULD** be capable of connecting to a server and fetching a patient using:
 
-  `GET [base]/Patient/[id]`.
+   `GET [base]/Patient/[id]`.
 
 - A client **SHOULD** be capable of connecting to a server and fetching a patient by identifier using
 
-  `GET [base]/Patient?identifier=[system]|[code]`
+   `GET [base]/Patient?identifier=[system]|[code]`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching a patient by supporting at a minimum the following search parameters when at least 2 are present. To limit overly broad search results, a client search with gender should include family and given name search parameters.:
    - name
@@ -688,7 +688,7 @@ Search Criteria:
 
       - for example:
 
-       `GET [base]/Patient?family=[name]&?given=[name]&gender=[gender]`
+        `GET [base]/Patient?family=[name]&?given=[name]&gender=[gender]`
 
 ##### 2. AllergyIntolerance
 {:.no_toc}
@@ -699,7 +699,7 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all patient's allergies using:
 
-  `Get [base]/AllergyIntolerance?patient=[id]`
+   `GET [base]/AllergyIntolerance?patient=[id]`
 
 ##### 3. CarePlan
 {:.no_toc}
@@ -710,19 +710,19 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's Assessment and Plan of Treatment information using:
 
-  `Get [base]/CarePlan?patient=[id]&category=assess-plan`
+   `GET [base]/CarePlan?patient=[id]&category=assess-plan`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching a patient's Assessment and Plan of Treatment information over a specified time period using:
 
-  `Get [base]/CarePlan?patient=[id]&category=assess-plan&date=[date]`
+   `GET [base]/CarePlan?patient=[id]&category=assess-plan&date=[date]`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's active Assessment and Plan of Treatment information using
 
-  `Get [base]/CarePlan?patient=[id]&category=assess-plan&status=active`
+   `GET [base]/CarePlan?patient=[id]&category=assess-plan&status=active`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching a patient's active Assessment and Plan of Treatment information over a specified time period using
 
-  `Get [base]/CarePlan?patient=[id]&category=assess-plan&status=active&date=[date]`
+   `GET [base]/CarePlan?patient=[id]&category=assess-plan&status=active&date=[date]`
 
 
 
@@ -736,7 +736,7 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching  a patient's current care team members using:
 
-  `Get [base]/CareTeam?patient=[id]&status=active`
+   `GET [base]/CareTeam?patient=[id]&status=active`
 
 
 
@@ -749,15 +749,15 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of fetching all problems and health concerns for a patient, including current as well as historical problems and health concerns using:
 
-  `Get [base]/Condition?patient=[id]`
+   `GET [base]/Condition?patient=[id]`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's *active* problems and health concerns using:
 
-  `Get [base]/Condition?patient=[id]&clinicalstatus=active,recurrance,remission`
+   `GET [base]/Condition?patient=[id]&clinicalstatus=active,recurrance,remission`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's problems *or* all of patient's health concerns using:
 
-  `Get [base]/Condition?patient=[id]&category=[problem|health-concern]`
+   `GET [base]/Condition?patient=[id]&category=[problem|health-concern]`
 
 
 
@@ -770,7 +770,7 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all Unique device identifier(s)(UDI) for a patient's implanted device(s):
 
-  `Get [base]/Device?patient=[id]`
+   `GET [base]/Device?patient=[id]`
 
 
 
@@ -783,19 +783,19 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's laboratory diagnostic reports queried by category using:
 
-  `Get [base]/DiagnosticReport?patient=[id]&category=LAB`
+   `GET [base]/DiagnosticReport?patient=[id]&category=LAB`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's laboratory diagnostic reports queried by category code and date range using:
 
-  `GET [base]/DiagnosticReport?patient=[id]&category=LAB&date=[date]{&date=[date]}`
+   `GET [base]/DiagnosticReport?patient=[id]&category=LAB&date=[date]{&date=[date]}`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's laboratory diagnostic reports queried by category and code using:
 
-  `GET [base]/DiagnosticReport?patient=[id]&category=LAB&code=[LOINC]`
+   `GET [base]/DiagnosticReport?patient=[id]&category=LAB&code=[LOINC]`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's laboratory diagnostic reports queried by category and one or more codes and date range using:
 
-  `GET [base]/DiagnosticReport?patient=[id]&category=LAB&code=[LOINC1{,LOINC2,LOINC3,…}]&date=[date]{&date=[date]}`
+   `GET [base]/DiagnosticReport?patient=[id]&category=LAB&code=[LOINC1{,LOINC2,LOINC3,…}]&date=[date]{&date=[date]}`
 
 
 ##### 8. DocumentReference
@@ -805,17 +805,17 @@ Supported Profiles:  [US Core DocumentReference Profile]({{site.data.structurede
 
 Search Criteria:
 
-  1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's DocumentReferences using:
+1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's DocumentReferences using:
 
-  `GET [base]/DocumentReference?patient=[id]`
+   `GET [base]/DocumentReference?patient=[id]`
 
-  1. A client **SHOULD** be capable of connecting to a server to execute the [$docref](OperationDefinition-docref.html) operation:
+1. A client **SHOULD** be capable of connecting to a server to execute the [$docref](OperationDefinition-docref.html) operation:
 
-  `GET [base]/DocumentReference/$docref?patient=[id]`
+   `GET [base]/DocumentReference/$docref?patient=[id]`
 
-  1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's DocumentReferences for a given time period and document type:
+1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's DocumentReferences for a given time period and document type:
 
-  `GET [base]/DocumentReference?patient=[id]&type=[type]&period=[date]{&date=[date]}`
+   `GET [base]/DocumentReference?patient=[id]&type=[type]&period=[date]{&date=[date]}`
 
 ##### 9. Encounter
 {:.no_toc}
@@ -826,11 +826,11 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's encounters using:
 
-  `GET [base]/Encounter?patient=[id]`
+   `GET [base]/Encounter?patient=[id]`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of all of a patient's encounters over a specified time period using:
 
-  `GET [base]/Encounter?patient=[id]&date=[date]{&date=[date]}`
+   `GET [base]/Encounter?patient=[id]&date=[date]{&date=[date]}`
 
 ##### 10. Goal
 {:.no_toc}
@@ -841,11 +841,11 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's goals using:
 
-  `Get [base]/Goal?patient=[id]`
+   `GET [base]/Goal?patient=[id]`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of all of a patient's goals over a specified time period using:
 
-  `GET [base]/Goal?patient=[id]&date=[date]{&date=[date]}`
+   `GET [base]/Goal?patient=[id]&date=[date]{&date=[date]}`
 
 
 ##### 11. Immunization
@@ -857,7 +857,7 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all immunizations for a patient using:
 
-  `Get [base]/Immunization?patient=[id]`
+   `GET [base]/Immunization?patient=[id]`
 
 
 
@@ -870,11 +870,11 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching a location by name using:
 
-  `Get [base]/Location?name=[string]`
+   `GET [base]/Location?name=[string]`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching a location by address using:
 
-  `GET [base]/Location?address=[string]`
+   `GET [base]/Location?address=[string]`
 
 
 ##### 13. Medication
@@ -895,11 +895,11 @@ The MedicationStatement resources can represent a medication using either a code
 
 A client **SHOULD** be capable of connecting to a server and fetching all medications for a patient using both:
 
-  `GET /MedicationStatement?patient=[id]`
+   `GET /MedicationStatement?patient=[id]`
 
   and
 
-  `GET /MedicationStatement?patient=[id]&_include=MedicationStatement:medication`
+   `GET /MedicationStatement?patient=[id]&_include=MedicationStatement:medication`
 
 
 
@@ -914,66 +914,64 @@ Search Criteria:
 
 A client **SHOULD** be capable of connecting to a server and fetching all medications for a patient using both:
 
-  `GET /MedicationRequest?patient=[id]`
+   `GET /MedicationRequest?patient=[id]`
 
   and
 
-  `GET /MedicationRequest?patient=[id]&_include=MedicationRequest:medication`
+   `GET /MedicationRequest?patient=[id]&_include=MedicationRequest:medication`
 
 ##### 16. Observation
 {:.no_toc}
 
 Supported Profiles:
+
 1. [US Core Result Observation Profile]({{site.data.structuredefinitions.us-core-observationresults.path}})
 
-  Search Criteria:
+   Search Criteria:
 
-  - A client **SHOULD** be capable of connecting to a server and fetching all of a patient's laboratory results queried by category using:
+    1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's laboratory results queried by category using:
 
-    `GET [base]/Observation?patient=[id]&category=laboratory`
+       `GET [base]/Observation?patient=[id]&category=laboratory`
 
-  - A client **SHOULD** be capable of connecting to a server and fetching all of a patient's laboratory results queried by category code and date range using:
+     1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's laboratory results queried by category code and date range using:
 
-    `GET [base]/Observation?patient=[id]&category=laboratory&date=[date]{&date=[date]}`
+        `GET [base]/Observation?patient=[id]&category=laboratory&date=[date]{&date=[date]}`
 
-  - A client **SHOULD** be capable of connecting to a server and fetching all of a patient's laboratory results queried by category and code using:
+      1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's laboratory results queried by category and code using:
 
-    `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC]`
+         `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC]`
 
-  - A client **SHOULD** be capable of connecting to a server and fetching all of a patient's laboratory results queried by category and one or more codes and date range using:
+      1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's laboratory results queried by category and one or more codes and date range using:
 
-    `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC1{,LOINC2,LOINC3,...}]&date=[date]{&date=[date]}`
+         `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC1{,LOINC2,LOINC3,...}]&date=[date]{&date=[date]}`
 
 1. [Vital Signs Profile]({{site.data.fhir.path}}/vitalsigns.html)
 
-  Search Criteria
+    Search Criteria
 
-  - A client **SHOULD** be capable of connecting to a server and fetching all of a patient's vital signs that it supports using:
+    1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's vital signs that it supports using:
 
-      `GET [base]/Observation?patient=[id]&category=vital-signs`
+       `GET [base]/Observation?patient=[id]&category=vital-signs`
 
-  - A client **SHOULD** be capable of connecting to a server and fetching all of a patient's vital signs queried by date range using:
+    1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's vital signs queried by date range using:
 
-    `GET [base]/Observation?patient=[id]&category=vital-signs&date=[date]{&date=[date]}`
+        `GET [base]/Observation?patient=[id]&category=vital-signs&date=[date]{&date=[date]}`
 
-  - A client **SHOULD** be capable of connecting to a server and fetching any of a patient's vital signs queried by one or more of the codes listed below using:
+     1. A client **SHOULD** be capable of connecting to a server and fetching any of a patient's vital signs queried by one or more of the codes listed below using:
 
-    `GET [base]/Observation?patient=[id]&code[vital sign LOINC{,LOINC2,LOINC3,…}]`
+        `GET [base]/Observation?patient=[id]&code[vital sign LOINC{,LOINC2,LOINC3,…}]`
 
-  - A client **SHOULD** be capable of connecting to a server and fetching any of a patient's vital signs queried by one or more of the codes listed below and date range using:
+      1. A client **SHOULD** be capable of connecting to a server and fetching any of a patient's vital signs queried by one or more of the codes listed below and date range using:
 
-      `GET [base]/Observation?patient=[id]&code=[LOINC{,LOINC2…}]vital-signs&date=[date]{&date=[date]}`
+          `GET [base]/Observation?patient=[id]&code=[LOINC{,LOINC2…}]vital-signs&date=[date]{&date=[date]}`
 
 1. [US Core Smoking Status Observation Profile]({{site.data.structuredefinitions.us-core-smokingstatus.path}})
 
-  Search Criteria:
+    Search Criteria:
 
-  - A client **SHOULD** be capable of connecting to a server and fetching a patient's smoking status using:
+    1. A client **SHOULD** be capable of connecting to a server and fetching a patient's smoking status using:
 
-    `GET [base]/Observation?patient=[id]&code=72166-2`
-
-
-
+       `GET [base]/Observation?patient=[id]&code=72166-2`
 
 ##### 17. Organization
 {:.no_toc}
@@ -984,15 +982,15 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching an organization by identifier using:
 
-  `GET [base]/Organization?identifier=[system]|[code]'
+   `GET [base]/Organization?identifier=[system]|[code]'
 
 1. A client **SHOULD** be capable of connecting to a server and fetching an organization by name using:
 
-  `GET [base]/Organization?name=[string]`
+   `GET [base]/Organization?name=[string]`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching an organization by address using:
 
-  `GET [base]/Organization?address=[string]`
+   `GET [base]/Organization?address=[string]`
 
 
 ##### 18. Practitioner
@@ -1004,11 +1002,11 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching a practitioner by identifier using:
 
-  `GET [base]/Practitioner?identifier=[system]|[code]`
+   `GET [base]/Practitioner?identifier=[system]|[code]`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching a practitioner by name using:
 
-  `GET [base]/Practitioner?family=[string]&given=[string]`
+   `GET [base]/Practitioner?family=[string]&given=[string]`
 
 
 ##### 19. PractitionerRole
@@ -1020,15 +1018,15 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching PractitionerRoles by identifier using:
 
-  `GET [base]/PractitionerRole?practitioner.identifier=[system]|[code]`
+   `GET [base]/PractitionerRole?practitioner.identifier=[system]|[code]`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching a PractitionerRoles by name using:
 
-  `GET [base]/PractitionerRole?practitioner.family=[string]&given=[string]`
+   `GET [base]/PractitionerRole?practitioner.family=[string]&given=[string]`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching a PractitionerRoles by specialty using:
 
-  `GET [base]/PractitionerRole?specialty=[system]|[code]]`
+   `GET [base]/PractitionerRole?specialty=[system]|[code]]`
 
 
 ##### 20. Procedure
@@ -1040,10 +1038,10 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching a patient's procedures using:
 
-  `GET/Procedure?patient=[id]`
+   `GET/Procedure?patient=[id]`
 
 1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's procedures over a specified time period using:
 
-  `GET /Procedure?patient=[id]&date=[date]{&date=[date]}`
+   `GET /Procedure?patient=[id]&date=[date]{&date=[date]}`
 
 <p></p>
