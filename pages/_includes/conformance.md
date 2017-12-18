@@ -20,7 +20,7 @@ This section outlines conformance requirements for the US Core Servers and Clien
 
 Source Resource: [XML](CapabilityStatement-server.xml.html)/[JSON](CapabilityStatement-server.json.html)
 
-1. FHIR Version: 3.0.0
+1. FHIR Version: 3.0.1
 1. Supported formats: xml, json
 1. Published: 2017-03-08
 1. Published by: Health Level Seven International US Realm Steering Committee
@@ -70,26 +70,26 @@ Specific server search capabilities are described in detail in each of the resou
 
 |Resource Type|Supported Profiles|Supported Searches|Supported Includes|
 |---|---|---|---|
-|[Patient](#patient)|US Core Patient Profile |name , family , given , identifier , gender , birthdate , name + gender , name + birthdate , family + gender , given + gender||
-|[AllergyIntolerance](#allergyintolerance)|US Core AllergyIntolerance Profile |patient ||
-|[CarePlan](#careplan)|US Core CarePlan Profile |patient , category , status , date, patient + category , patient + category + date , patient + category + status , patient + category + status + date||
-|[CareTeam](#careteam)|US Core CareTeam Profile |patient , status, patient + status||
-|[Condition](#condition)|US Core Condition Profile |patient , category , clinicalstatus, patient + clinicalstatus , patient + category||
-|[Device](#device)|US Core Device Profile |patient ||
-|[DiagnosticReport](#diagnosticreport)|US Core DiagnosticReport Profile |patient , category , code , date, patient + category , patient + category + date , patient + category + code, patient + category + code + date||
-|[DocumentReference](#documentreference)|US Core DocumentReference Profile |patient , patient + period + type , patient + date + $docref ||
-|[Encounter](#encounter)|US Core Encounter Profile |patient , patient + date ||
-|[Goal](#goal)|US Core Goal Profile |patient , date, patient + date||
-|[Immunization](#immunization)|US Core Immunization Profile |patient ||
-|[Location](#location)|US Core Location Profile |name , address ||
-|[Medication](#medication)|US Core Medication Profile |||
-|[MedicationStatement](#medicationstatement)|US Core MedicationStatement Profile |patient |MedicationStatement.medication|
-|[MedicationRequest](#medicationrequest)|US Core MedicationRequest Profile |patient |MedicationRequest.medication|
-|[Observation](#observation)|US Core Result Observation Profile, Vital Signs Profile, US Core Smoking Status Observation Profile |patient , category , code , date, patient + category , patient + category + date , patient + category + code, patient + category + code + date||
-|[Organization](#organization)|US Core Organization Profile |identifier , name , address ||
-|[Practitioner](#practitioner)|US Core Practitioner Profile |identifier , name ||
-|[PractitionerRole](#practitionerrole)|US Core PractitionerRole Profile |identifier , family + given, specialty ||
-|[Procedure](#procedure)|US Core Procedure Profile |patient , date , patient + date||
+|[Patient](#1-patient)|US Core Patient Profile |name , family , given , identifier , gender , birthdate , name + gender , name + birthdate , family + gender , given + gender||
+|[AllergyIntolerance](#2-allergyintolerance)|US Core AllergyIntolerance Profile |patient ||
+|[CarePlan](#3-careplan)|US Core CarePlan Profile |patient , category , status , date, patient + category , patient + category + date , patient + category + status , patient + category + status + date||
+|[CareTeam](#4-careteam)|US Core CareTeam Profile |patient , status, patient + status||
+|[Condition](#5-condition)|US Core Condition Profile |patient , category , clinicalstatus, patient + clinicalstatus , patient + category||
+|[Device](#6-device)|US Core Device Profile |patient ||
+|[DiagnosticReport](#7-diagnosticreport)|US Core DiagnosticReport Profile |patient , category , code , date, patient + category , patient + category + date , patient + category + code, patient + category + code + date||
+|[DocumentReference](#8-documentreference)|US Core DocumentReference Profile |patient , patient + period + type , patient + date + $docref ||
+|[Encounter](#9-encounter)|US Core Encounter Profile |patient , patient + date ||
+|[Goal](#10-goal)|US Core Goal Profile |patient , date, patient + date||
+|[Immunization](#11-immunization)|US Core Immunization Profile |patient ||
+|[Location](#12-location)|US Core Location Profile |name , address ||
+|[Medication](#13-medication)|US Core Medication Profile |||
+|[MedicationStatement](#14-medicationstatement)|US Core MedicationStatement Profile |patient |MedicationStatement.medication|
+|[MedicationRequest](#15-medicationrequest)|US Core MedicationRequest Profile |patient |MedicationRequest.medication|
+|[Observation](#16-observation)|US Core Result Observation Profile, Vital Signs Profile, US Core Smoking Status Observation Profile |patient , category , code , date, patient + category , patient + category + date , patient + category + code, patient + category + code + date||
+|[Organization](#17-organization)|US Core Organization Profile |identifier , name , address ||
+|[Practitioner](#18-practitioner)|US Core Practitioner Profile |identifier , name ||
+|[PractitionerRole](#19-practitionerrole)|US Core PractitionerRole Profile |identifier , family + given, specialty ||
+|[Procedure](#20-procedure)|US Core Procedure Profile |patient , date , patient + date||
 {:.grid}
 
 
@@ -293,9 +293,9 @@ Search Criteria:
   `GET [base]/DocumentReference?patient=[id]`
 
   1. A server **SHALL** be capable of responding to a [$docref](OperationDefinition-docref.html) operation. At minimum, it must return a reference to a CCD document.
-  
+
   `GET [base]/DocumentReference/$docref?patient=[id]`
-  
+
   1. A server **SHOULD** be capable of returning all of all of a patient's DocumentReferences for a given time period and document type:
 
   `GET [base]/DocumentReference?patient=[id]&type=[type]&period=[date]{&date=[date]}`
@@ -578,8 +578,8 @@ Search Criteria:
 
  1. A server **SHALL** be capable of returning PractitionerRoles by specialty using:
 
-  `GET [base]/PractitionerRole?specialty=[system]|[code]]` 
-  
+  `GET [base]/PractitionerRole?specialty=[system]|[code]]`
+
 Search Parameters:
 
 |Conformance|Parameter|Type|
@@ -618,7 +618,7 @@ Search Parameters:
 
 Source Resource: [XML](CapabilityStatement-client.xml.html)/[JSON](CapabilityStatement-client.json.html)
 
-1. FHIR Version: 3.0.0
+1. FHIR Version: 3.0.1
 1. Supported formats: xml, json
 1. Published: 2017-03-08
 1. Published by: Health Level Seven International US Realm Steering Committee
@@ -643,26 +643,26 @@ The US Core Client **SHALL**:
 
 **Contents:**
 
-1. [Patient](#patient-1)
-1. [AllergyIntolerance](#allergyintolerance-1)
-1. [CarePlan](#careplan-1)
-1. [CareTeam](#careteam-1)
-1. [Condition](#condition-1)
-1. [Device](#device-1)
-1. [DiagnosticReport](#diagnosticreport-1)
-1. [DocumentReference](#documentreference-1)
-1. [Encounter](#encounter-1)
-1. [Goal](#goal-1)
-1. [Immunization](#immunization-1)
-1. [Location](#location-1)
-1. [Medication](#medication-1)
-1. [MedicationStatement](#medicationstatement-1)
-1. [MedicationRequest](#medicationrequest-1)
-1. [Observation](#observation-1)
-1. [Organization](#organization-1)
-1. [Practitioner](#practitioner-1)
-1. [PractitionerRole](#practitionerrole-1)
-1. [Procedure](#procedure-1)
+1. [Patient](#1-patient-1)
+1. [AllergyIntolerance](#2-allergyintolerance-1)
+1. [CarePlan](#3-careplan-1)
+1. [CareTeam](#4-careteam-1)
+1. [Condition](#5-condition-1)
+1. [Device](#6-device-1)
+1. [DiagnosticReport](#7-diagnosticreport-1)
+1. [DocumentReference](#8-documentreference-1)
+1. [Encounter](#9-encounter-1)
+1. [Goal](#10-goal-1)
+1. [Immunization](#11-immunization-1)
+1. [Location](#12-location-1)
+1. [Medication](#13-medication-1)
+1. [MedicationStatement](#14-medicationstatement-1)
+1. [MedicationRequest](#15-medicationrequest-1)
+1. [Observation](#16-observation-1)
+1. [Organization](#17-organization-1)
+1. [Practitioner](#18-practitioner-1)
+1. [PractitionerRole](#19-practitionerrole-1)
+1. [Procedure](#20-procedure-1)
 
 
 
@@ -810,13 +810,13 @@ Search Criteria:
   `GET [base]/DocumentReference?patient=[id]`
 
   1. A client **SHOULD** be capable of connecting to a server to execute the [$docref](OperationDefinition-docref.html) operation:
-  
+
   `GET [base]/DocumentReference/$docref?patient=[id]`
-  
+
   1. A client **SHOULD** be capable of connecting to a server and fetching all of a patient's DocumentReferences for a given time period and document type:
 
   `GET [base]/DocumentReference?patient=[id]&type=[type]&period=[date]{&date=[date]}`
-  
+
 ##### 9. Encounter
 {:.no_toc}
 
@@ -884,7 +884,7 @@ Supported Profiles:  [US Core Medication Profile]({{site.data.structuredefinitio
 
 The MedicationStatement and MedicationRequest resources can represent a medication, using an external reference to a Medication resource. If an external Medication Resource is used in a MedicationStatement or a MedicationRequest, then the READ and SEARCH Criteria SHOULD be supported.
 
-##### 12. MedicationStatement
+##### 14. MedicationStatement
 {:.no_toc}
 
 Supported Profiles:  [US Core MedicationStatement Profile]({{site.data.structuredefinitions.us-core-medicationstatement.path}})
@@ -903,7 +903,7 @@ A client **SHOULD** be capable of connecting to a server and fetching all medica
 
 
 
-##### 14. MedicationRequest
+##### 15. MedicationRequest
 {:.no_toc}
 
 Supported Profiles:  [US Core MedicationRequest Profile]({{site.data.structuredefinitions.us-core-medicationrequest.path}})
@@ -920,7 +920,7 @@ A client **SHOULD** be capable of connecting to a server and fetching all medica
 
   `GET /MedicationRequest?patient=[id]&_include=MedicationRequest:medication`
 
-##### 15. Observation
+##### 16. Observation
 {:.no_toc}
 
 Supported Profiles:
@@ -975,7 +975,7 @@ Supported Profiles:
 
 
 
-##### 16. Organization
+##### 17. Organization
 {:.no_toc}
 
 Supported Profiles:  [US Core Organization Profile]({{site.data.structuredefinitions.us-core-organization.path}})
@@ -995,7 +995,7 @@ Search Criteria:
   `GET [base]/Organization?address=[string]`
 
 
-##### 17. Practitioner
+##### 18. Practitioner
 {:.no_toc}
 
 Supported Profiles:  [US Core Practitioner Profile]({{site.data.structuredefinitions.us-core-practitioner.path}})
@@ -1011,7 +1011,7 @@ Search Criteria:
   `GET [base]/Practitioner?family=[string]&given=[string]`
 
 
-##### 18. PractitionerRole
+##### 19. PractitionerRole
 {:.no_toc}
 
 Supported Profiles:  [US Core PractitionerRole Profile]({{site.data.structuredefinitions.us-core-practitionerrole.path}})
@@ -1028,10 +1028,10 @@ Search Criteria:
 
 1. A client **SHOULD** be capable of connecting to a server and fetching a PractitionerRoles by specialty using:
 
-  `GET [base]/PractitionerRole?specialty=[system]|[code]]` 
-  
-  
-##### 19. Procedure
+  `GET [base]/PractitionerRole?specialty=[system]|[code]]`
+
+
+##### 20. Procedure
 {:.no_toc}
 
 Supported Profiles:  [US Core Procedure Profile]({{site.data.structuredefinitions.us-core-procedure.path}})
