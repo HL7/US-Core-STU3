@@ -16,15 +16,15 @@
             <PractitionerRole xmlns="http://hl7.org/fhir">
                 <id value="PractitionerRole-1"/>
                 <meta>
-                    <profile value="http://fhir.org/guides/argonaut-pd/StructureDefinition/argo-practitionerrole"/>
+                    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
                 </meta>
                 <practitioner>
-                    <reference value="Practitioner/example-practitioner-1"/>
+                    <reference value="Practitioner/Practitioner-1011"/>
                     <display value="Brenda Jennings Richard MD"/>
                 </practitioner>
                 <organization>
-                    <reference value="Organization/example-organization-1"/>
-                    <display value="Maple Leaf Clinic"/>
+                    <reference value="Organization/acme-lab"/>
+                    <display value="Acme Lab"/>
                 </organization>
                 <code>
                     <coding>
@@ -41,16 +41,16 @@
                     </coding>
                 </specialty>
                 <location>
-                    <reference value="Location/example-location-1"/>
-                    <display value="Maple Leaf Clinic"/>
+                    <reference value="Location/hl7east"/>
+                    <display value="Health Level Seven International"/>
                 </location>
                 <endpoint>
-                    <reference value="Endpoint/example-endpoint-2"/>
+                    <reference value="http://52.90.126.238:8080/fhir/baseDstu3/Endpoint/Endpoint-71"/>
                     <display value="Westwood Physicians Organization ADT"/>
                 </endpoint>
                 <endpoint>
                     <reference value="http://52.90.126.238:8080/fhir/baseDstu3/Endpoint/Endpoint-71"/>
-                    <display value="Brenda.Jennings.Richard.MD@direct.argonaut.org"/>
+                    <display value="Brenda.Jennings.Richard.MD@direct.example.org"/>
                 </endpoint>
             </PractitionerRole>
         </resource>
@@ -64,7 +64,7 @@
             <Practitioner xmlns="http://hl7.org/fhir">
                 <id value="Practitioner-1011"/>
                 <meta>
-                    <profile value="http://fhir.org/guides/argonaut-pd/StructureDefinition/argo-practitioner"/>
+                    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
                 </meta>
                 <identifier>
                     <use value="official"/>
@@ -169,17 +169,14 @@
         <resource>
             <Endpoint xmlns="http://hl7.org/fhir">
                 <id value="71"/>
-                <meta>
-                    <profile value="http://fhir.org/guides/argonaut-pd/StructureDefinition/argo-endpoint"/>
-                </meta>
                 <status value="active"/>
                 <connectionType>
                     <system value="http://hl7.org/fhir/endpoint-connection-type"/>
                     <code value="direct-project"/>
                 </connectionType>
-                <name value="Brenda.Jennings.Richard.MD@direct.argonaut.org"/>
+                <name value="Brenda.Jennings.Richard.MD@direct.example.org"/>
                 <managingOrganization>
-                    <reference value="Organization/example-organization-1"/>
+                    <reference value="Organization/acme-lab"/>
                 </managingOrganization>
                 <payloadType>
                     <coding>
@@ -189,7 +186,7 @@
                 </payloadType>
                 <payloadMimeType value="text/xml">
                 </payloadMimeType>
-                <address value="Brenda.Jennings.Richard.MD@direct.argonaut.org"/>
+                <address value="Brenda.Jennings.Richard.MD@direct.example.org"/>
             </Endpoint>
         </resource>
         <search>
