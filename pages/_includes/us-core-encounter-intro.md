@@ -36,7 +36,7 @@ Additionally your system [Must Support]:
 
 #### Examples
 
-- [Outpatient Example](encounter-example-1.xml.html)
+- [Outpatient Example](Encounter-example-1.html)
 
 
 [Encounter]: {{site.data.fhir.path}}/encounter.html

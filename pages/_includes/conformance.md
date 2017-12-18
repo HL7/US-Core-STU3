@@ -70,33 +70,35 @@ Specific server search capabilities are described in detail in each of the resou
 
 |Resource Type|Supported Profiles|Supported Searches|Supported Includes|
 |---|---|---|---|
-|[Patient](#1-patient)|US Core Patient Profile |name , family , given , identifier , gender , birthdate , name + gender , name + birthdate , family + gender , given + gender||
-|[AllergyIntolerance](#2-allergyintolerance)|US Core AllergyIntolerance Profile |patient ||
-|[CarePlan](#3-careplan)|US Core CarePlan Profile |patient , category , status , date, patient + category , patient + category + date , patient + category + status , patient + category + status + date||
-|[CareTeam](#4-careteam)|US Core CareTeam Profile |patient , status, patient + status||
-|[Condition](#5-condition)|US Core Condition Profile |patient , category , clinicalstatus, patient + clinicalstatus , patient + category||
-|[Device](#6-device)|US Core Device Profile |patient ||
-|[DiagnosticReport](#7-diagnosticreport)|US Core DiagnosticReport Profile |patient , category , code , date, patient + category , patient + category + date , patient + category + code, patient + category + code + date||
-|[DocumentReference](#8-documentreference)|US Core DocumentReference Profile |patient , patient + period + type , patient + date + $docref ||
-|[Encounter](#9-encounter)|US Core Encounter Profile |patient , patient + date ||
-|[Goal](#10-goal)|US Core Goal Profile |patient , date, patient + date||
-|[Immunization](#11-immunization)|US Core Immunization Profile |patient ||
-|[Location](#12-location)|US Core Location Profile |name , address ||
-|[Medication](#13-medication)|US Core Medication Profile |||
-|[MedicationStatement](#14-medicationstatement)|US Core MedicationStatement Profile |patient |MedicationStatement.medication|
-|[MedicationRequest](#15-medicationrequest)|US Core MedicationRequest Profile |patient |MedicationRequest.medication|
-|[Observation](#16-observation)|US Core Result Observation Profile, Vital Signs Profile, US Core Smoking Status Observation Profile |patient , category , code , date, patient + category , patient + category + date , patient + category + code, patient + category + code + date||
-|[Organization](#17-organization)|US Core Organization Profile |identifier , name , address ||
-|[Practitioner](#18-practitioner)|US Core Practitioner Profile |identifier , name ||
-|[PractitionerRole](#19-practitionerrole)|US Core PractitionerRole Profile |identifier , family + given, specialty ||
-|[Procedure](#20-procedure)|US Core Procedure Profile |patient , date , patient + date||
+|[Patient](#patient)|US Core Patient Profile |name , family , given , identifier , gender , birthdate , name + gender , name + birthdate , family + gender , given + gender||
+|[AllergyIntolerance](#allergyintolerance)|US Core AllergyIntolerance Profile |patient ||
+|[CarePlan](#careplan)|US Core CarePlan Profile |patient , category , status , date, patient + category , patient + category + date , patient + category + status , patient + category + status + date||
+|[CareTeam](#careteam)|US Core CareTeam Profile |patient , status, patient + status||
+|[Condition](#condition)|US Core Condition Profile |patient , category , clinicalstatus, patient + clinicalstatus , patient + category||
+|[Device](#device)|US Core Device Profile |patient ||
+|[DiagnosticReport](#diagnosticreport)|US Core DiagnosticReport Profile |patient , category , code , date, patient + category , patient + category + date , patient + category + code, patient + category + code + date||
+|[DocumentReference](#documentreference)|US Core DocumentReference Profile |patient , patient + period + type , patient + date + $docref ||
+|[Encounter](#encounter)|US Core Encounter Profile |patient , patient + date ||
+|[Goal](#goal)|US Core Goal Profile |patient , date, patient + date||
+|[Immunization](#immunization)|US Core Immunization Profile |patient ||
+|[Location](#location)|US Core Location Profile |name , address ||
+|[Medication](#medication)|US Core Medication Profile |||
+|[MedicationStatement](#medicationstatement)|US Core MedicationStatement Profile |patient |MedicationStatement.medication|
+|[MedicationRequest](#medicationrequest)|US Core MedicationRequest Profile |patient |MedicationRequest.medication|
+|[Observation](#observation)|US Core Result Observation Profile, Vital Signs Profile, US Core Smoking Status Observation Profile |patient , category , code , date, patient + category , patient + category + date , patient + category + code, patient + category + code + date||
+|[Organization](#organization)|US Core Organization Profile |identifier , name , address ||
+|[Practitioner](#practitioner)|US Core Practitioner Profile |identifier , name ||
+|[PractitionerRole](#practitionerrole)|US Core PractitionerRole Profile |identifier , family + given, specialty ||
+|[Procedure](#procedure)|US Core Procedure Profile |patient , date , patient + date||
 {:.grid}
 
 
 #### Resource  Details:
 {:.no_toc}
 
-##### 1. Patient
+---
+
+#### Patient
 {:.no_toc}
 
 Supported Profiles:  [US Core Patient Profile]({{site.data.structuredefinitions.us-core-patient.path}})
@@ -133,7 +135,9 @@ Search Parameters:
 |SHALL|name + birthdate|string + date|
 {:.grid}
 
-##### 2. AllergyIntolerance
+---
+
+#### AllergyIntolerance
 {:.no_toc}
 
 Supported Profiles:  [US Core AllergyIntolerance Profile]({{site.data.structuredefinitions.us-core-allergyintolerance.path}})
@@ -151,7 +155,9 @@ Search Parameters:
 |SHALL|patient|reference|
 {:.grid}
 
-##### 3. CarePlan
+---
+
+#### CarePlan
 {:.no_toc}
 
 Supported Profiles:  [US Core CarePlan Profile]({{site.data.structuredefinitions.us-core-careplan.path}})
@@ -184,7 +190,9 @@ Search Parameters:
 |SHOULD|patient + category + date + status|reference + token + date|date modifiers ‘ge',‘le','gt','lt' |
 {:.grid}
 
-##### 4. CareTeam
+---
+
+#### CareTeam
 {:.no_toc}
 
 Supported Profiles:  [US Core CareTeam Profile]({{site.data.structuredefinitions.us-core-careteam.path}})
@@ -202,7 +210,9 @@ Search Parameters:
 |SHALL|patient + status|reference + token|
 {:.grid}
 
-##### 5. Condition
+---
+
+#### Condition
 {:.no_toc}
 
 Supported Profiles:  [US Core Condition Profile]({{site.data.structuredefinitions.us-core-condition.path}})
@@ -230,7 +240,9 @@ Search Parameters:
 |SHOULD|patient + clinicalstatus|reference + token|
 {:.grid}
 
-##### 6. Device
+---
+
+#### Device
 {:.no_toc}
 
 Supported Profiles:  [US Core Device Profile]({{site.data.structuredefinitions.us-core-device.path}})
@@ -248,7 +260,9 @@ Search Parameters:
 |SHALL|patient|reference|
 {:.grid}
 
-##### 7. DiagnosticReport
+---
+
+#### DiagnosticReport
 {:.no_toc}
 
 Supported Profiles:  [US Core DiagnosticReport Profile]({{site.data.structuredefinitions.us-core-diagnosticreport.path}})
@@ -281,7 +295,9 @@ Search Parameters:
 |SHOULD|patient + category + code + date|reference + token + date|date modifiers ‘ge',‘le','gt','lt' |
 {:.grid}
 
-##### 8. DocumentReference
+---
+
+#### DocumentReference
 {:.no_toc}
 
 Supported Profiles:  [US Core DocumentReference Profile]({{site.data.structuredefinitions.us-core-documentreference.path}})
@@ -309,7 +325,9 @@ Search Parameters:
 |SHOULD|patient + type + period|reference + token + date|date modifiers ‘ge',‘le','gt','lt'|
 {:.grid}
 
-##### 9. Encounter
+---
+
+#### Encounter
 {:.no_toc}
 
 Supported Profiles:  [US Core Encounter Profile]({{site.data.structuredefinitions.us-core-encounter.path}})
@@ -332,7 +350,9 @@ Search Parameters:
 |SHALL|patient + date|reference + date|date modifiers ‘ge',‘le','gt','lt' |
 {:.grid}
 
-##### 10. Goal
+---
+
+#### Goal
 {:.no_toc}
 
 Supported Profiles:  [US Core Goal Profile]({{site.data.structuredefinitions.us-core-goal.path}})
@@ -355,7 +375,9 @@ Search Parameters:
 |SHALL|patient + date|reference + date|date modifiers ‘ge',‘le','gt','lt' |
 {:.grid}
 
-##### 11. Immunization
+---
+
+#### Immunization
 {:.no_toc}
 
 Supported Profiles:  [US Core Immunization Profile]({{site.data.structuredefinitions.us-core-immunization.path}})
@@ -373,7 +395,9 @@ Search Parameters:
 |SHALL|patient|reference|
 {:.grid}
 
-##### 12. Location
+---
+
+#### Location
 {:.no_toc}
 
 Supported Profiles:  [US Core Location Profile]({{site.data.structuredefinitions.us-core-location.path}})
@@ -396,7 +420,9 @@ Search Parameters:
 |SHALL|address|string|
 {:.grid}
 
-##### 13. Medication
+---
+
+#### Medication
 {:.no_toc}
 
 Supported Profiles:  [US Core Medication Profile]({{site.data.structuredefinitions.us-core-medication.path}})
@@ -404,7 +430,9 @@ Supported Profiles:  [US Core Medication Profile]({{site.data.structuredefinitio
 
 The MedicationStatement and MedicationRequest resources can represent a medication, using an external reference to a Medication resource. If an external Medication Resource is used in a MedicationStatement or a MedicationRequest, then the READ and SEARCH Criteria SHALL be supported.
 
-##### 14. MedicationStatement
+---
+
+#### MedicationStatement
 {:.no_toc}
 
 Supported Profiles:  [US Core MedicationStatement Profile]({{site.data.structuredefinitions.us-core-medicationstatement.path}})
@@ -426,7 +454,9 @@ Search Parameters:
 | **SHALL** | patient | reference | MedicationStatement:medication
 {:.grid}
 
-##### 15. MedicationRequest
+---
+
+#### MedicationRequest
 {:.no_toc}
 
 Supported Profiles:  [US Core MedicationRequest Profile]({{site.data.structuredefinitions.us-core-medicationrequest.path}})
@@ -448,7 +478,9 @@ Search Parameters:
 | **SHALL** | patient | reference | MedicationRequest:medication
 {:.grid}
 
-##### 16. Observation
+---
+
+#### Observation
 {:.no_toc}
 
 Supported Profiles:
@@ -511,7 +543,9 @@ Search Parameters:
 |SHOULD|patient + category + code + date|reference + token + date|date modifiers ‘ge',‘le','gt','lt' |
 {:.grid}
 
-##### 17. Organization
+---
+
+#### Organization
 {:.no_toc}
 
 Supported Profiles:  [US Core Organization Profile]({{site.data.structuredefinitions.us-core-organization.path}})
@@ -539,7 +573,9 @@ Search Parameters:
 |SHALL|address|string|
 {:.grid}
 
-##### 18. Practitioner
+---
+
+#### Practitioner
 {:.no_toc}
 
 Supported Profiles:  [US Core Practitioner Profile]({{site.data.structuredefinitions.us-core-practitioner.path}})
@@ -562,7 +598,9 @@ Search Parameters:
 |SHALL|name|string|
 {:.grid}
 
-##### 19. PractitionerRole
+---
+
+#### PractitionerRole
 {:.no_toc}
 
 Supported Profiles:  [US Core PractitionerRole Profile]({{site.data.structuredefinitions.us-core-practitionerrole.path}})
@@ -591,7 +629,9 @@ Search Parameters:
 {:.grid}
 
 
-##### 20. Procedure
+---
+
+#### Procedure
 {:.no_toc}
 
 Supported Profiles:  [US Core Procedure Profile]({{site.data.structuredefinitions.us-core-procedure.path}})
@@ -643,30 +683,32 @@ The US Core Client **SHALL**:
 
 **Contents:**
 
-1. [Patient](#1-patient-1)
-1. [AllergyIntolerance](#2-allergyintolerance-1)
-1. [CarePlan](#3-careplan-1)
-1. [CareTeam](#4-careteam-1)
-1. [Condition](#5-condition-1)
-1. [Device](#6-device-1)
-1. [DiagnosticReport](#7-diagnosticreport-1)
-1. [DocumentReference](#8-documentreference-1)
-1. [Encounter](#9-encounter-1)
-1. [Goal](#10-goal-1)
-1. [Immunization](#11-immunization-1)
-1. [Location](#12-location-1)
-1. [Medication](#13-medication-1)
-1. [MedicationStatement](#14-medicationstatement-1)
-1. [MedicationRequest](#15-medicationrequest-1)
-1. [Observation](#16-observation-1)
-1. [Organization](#17-organization-1)
-1. [Practitioner](#18-practitioner-1)
-1. [PractitionerRole](#19-practitionerrole-1)
-1. [Procedure](#20-procedure-1)
+1. [Patient](#patient-1)
+1. [AllergyIntolerance](#allergyintolerance-1)
+1. [CarePlan](#careplan-1)
+1. [CareTeam](#careteam-1)
+1. [Condition](#condition-1)
+1. [Device](#device-1)
+1. [DiagnosticReport](#diagnosticreport-1)
+1. [DocumentReference](#documentreference-1)
+1. [Encounter](#encounter-1)
+1. [Goal](#goal-1)
+1. [Immunization](#immunization-1)
+1. [Location](#location-1)
+1. [Medication](#medication-1)
+1. [MedicationStatement](#medicationstatement-1)
+1. [MedicationRequest](#medicationrequest-1)
+1. [Observation](#observation-1)
+1. [Organization](#organization-1)
+1. [Practitioner](#practitioner-1)
+1. [PractitionerRole](#practitionerrole-1)
+1. [Procedure](#procedure-1)
 
 
 
-##### 1. Patient
+---
+
+#### Patient
 {:.no_toc}
 
 Supported Profiles:  [US Core Patient Profile]({{site.data.structuredefinitions.us-core-patient.path}})
@@ -690,7 +732,9 @@ Search Criteria:
 
         `GET [base]/Patient?family=[name]&?given=[name]&gender=[gender]`
 
-##### 2. AllergyIntolerance
+---
+
+#### AllergyIntolerance
 {:.no_toc}
 
 Supported Profiles:  [US Core AllergyIntolerance Profile]({{site.data.structuredefinitions.us-core-allergyintolerance.path}})
@@ -701,7 +745,9 @@ Search Criteria:
 
    `GET [base]/AllergyIntolerance?patient=[id]`
 
-##### 3. CarePlan
+---
+
+#### CarePlan
 {:.no_toc}
 
 Supported Profiles:  [US Core CarePlan Profile]({{site.data.structuredefinitions.us-core-careplan.path}})
@@ -727,7 +773,9 @@ Search Criteria:
 
 
 
-##### 4. CareTeam
+---
+
+#### CareTeam
 {:.no_toc}
 
 Supported Profiles:  [US Core CareTeam Profile]({{site.data.structuredefinitions.us-core-careteam.path}})
@@ -740,7 +788,9 @@ Search Criteria:
 
 
 
-##### 5. Condition
+---
+
+#### Condition
 {:.no_toc}
 
 Supported Profiles:  [US Core Condition Profile]({{site.data.structuredefinitions.us-core-condition.path}})
@@ -761,7 +811,9 @@ Search Criteria:
 
 
 
-##### 6. Device
+---
+
+#### Device
 {:.no_toc}
 
 Supported Profiles:  [US Core Device Profile]({{site.data.structuredefinitions.us-core-device.path}})
@@ -774,7 +826,9 @@ Search Criteria:
 
 
 
-##### 7. DiagnosticReport
+---
+
+#### DiagnosticReport
 {:.no_toc}
 
 Supported Profiles:  [US Core DiagnosticReport Profile]({{site.data.structuredefinitions.us-core-diagnosticreport.path}})
@@ -798,7 +852,9 @@ Search Criteria:
    `GET [base]/DiagnosticReport?patient=[id]&category=LAB&code=[LOINC1{,LOINC2,LOINC3,…}]&date=[date]{&date=[date]}`
 
 
-##### 8. DocumentReference
+---
+
+#### DocumentReference
 {:.no_toc}
 
 Supported Profiles:  [US Core DocumentReference Profile]({{site.data.structuredefinitions.us-core-documentreference.path}})
@@ -817,7 +873,9 @@ Search Criteria:
 
    `GET [base]/DocumentReference?patient=[id]&type=[type]&period=[date]{&date=[date]}`
 
-##### 9. Encounter
+---
+
+#### Encounter
 {:.no_toc}
 
 Supported Profiles:  [US Core Encounter Profile]({{site.data.structuredefinitions.us-core-Encounter.path}})
@@ -832,7 +890,9 @@ Search Criteria:
 
    `GET [base]/Encounter?patient=[id]&date=[date]{&date=[date]}`
 
-##### 10. Goal
+---
+
+#### Goal
 {:.no_toc}
 
 Supported Profiles:  [US Core Goal Profile]({{site.data.structuredefinitions.us-core-goal.path}})
@@ -848,7 +908,9 @@ Search Criteria:
    `GET [base]/Goal?patient=[id]&date=[date]{&date=[date]}`
 
 
-##### 11. Immunization
+---
+
+#### Immunization
 {:.no_toc}
 
 Supported Profiles:  [US Core Immunization Profile]({{site.data.structuredefinitions.us-core-immunization.path}})
@@ -861,7 +923,9 @@ Search Criteria:
 
 
 
-##### 12. Location
+---
+
+#### Location
 {:.no_toc}
 
 Supported Profiles:  [US Core Location Profile]({{site.data.structuredefinitions.us-core-location.path}})
@@ -877,14 +941,18 @@ Search Criteria:
    `GET [base]/Location?address=[string]`
 
 
-##### 13. Medication
+---
+
+#### Medication
 {:.no_toc}
 
 Supported Profiles:  [US Core Medication Profile]({{site.data.structuredefinitions.us-core-medication.path}})
 
 The MedicationStatement and MedicationRequest resources can represent a medication, using an external reference to a Medication resource. If an external Medication Resource is used in a MedicationStatement or a MedicationRequest, then the READ and SEARCH Criteria SHOULD be supported.
 
-##### 14. MedicationStatement
+---
+
+#### MedicationStatement
 {:.no_toc}
 
 Supported Profiles:  [US Core MedicationStatement Profile]({{site.data.structuredefinitions.us-core-medicationstatement.path}})
@@ -903,7 +971,9 @@ A client **SHOULD** be capable of connecting to a server and fetching all medica
 
 
 
-##### 15. MedicationRequest
+---
+
+#### MedicationRequest
 {:.no_toc}
 
 Supported Profiles:  [US Core MedicationRequest Profile]({{site.data.structuredefinitions.us-core-medicationrequest.path}})
@@ -920,7 +990,9 @@ A client **SHOULD** be capable of connecting to a server and fetching all medica
 
    `GET /MedicationRequest?patient=[id]&_include=MedicationRequest:medication`
 
-##### 16. Observation
+---
+
+#### Observation
 {:.no_toc}
 
 Supported Profiles:
@@ -973,7 +1045,9 @@ Supported Profiles:
 
        `GET [base]/Observation?patient=[id]&code=72166-2`
 
-##### 17. Organization
+---
+
+#### Organization
 {:.no_toc}
 
 Supported Profiles:  [US Core Organization Profile]({{site.data.structuredefinitions.us-core-organization.path}})
@@ -993,7 +1067,9 @@ Search Criteria:
    `GET [base]/Organization?address=[string]`
 
 
-##### 18. Practitioner
+---
+
+#### Practitioner
 {:.no_toc}
 
 Supported Profiles:  [US Core Practitioner Profile]({{site.data.structuredefinitions.us-core-practitioner.path}})
@@ -1009,7 +1085,9 @@ Search Criteria:
    `GET [base]/Practitioner?family=[string]&given=[string]`
 
 
-##### 19. PractitionerRole
+---
+
+#### PractitionerRole
 {:.no_toc}
 
 Supported Profiles:  [US Core PractitionerRole Profile]({{site.data.structuredefinitions.us-core-practitionerrole.path}})
@@ -1029,7 +1107,9 @@ Search Criteria:
    `GET [base]/PractitionerRole?specialty=[system]|[code]]`
 
 
-##### 20. Procedure
+---
+
+#### Procedure
 {:.no_toc}
 
 Supported Profiles:  [US Core Procedure Profile]({{site.data.structuredefinitions.us-core-procedure.path}})
