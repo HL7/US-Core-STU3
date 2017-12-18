@@ -36,7 +36,7 @@ Additionally your system [Must Support]:
 
 #### Examples
 
-- TBD - in progress
+- [Outpatient Example](encounter-example-1.xml.html)
 
 
 [Encounter]: {{site.data.fhir.path}}/encounter.html

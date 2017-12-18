@@ -213,6 +213,10 @@
       "base": "Encounter-1036.html",
       "source": "encounter-1036.xml"
     },
+    "Bundle/example-1": {
+       "source": "encounter-example.html",
+       "base": "example-1.xml"
+    },
     "Goal/goal-1": {
       "base": "Goal-goal-1.html",
       "source": "goal-1.xml"

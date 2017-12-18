@@ -36,6 +36,12 @@
 		<resource>
 			<example value="true"/>
 			<sourceReference>
+				<reference value="Encounter/encounter-example-1"/>
+			</sourceReference>
+		</resource>
+		<resource>
+			<example value="true"/>
+			<sourceReference>
 				<reference value="MedicationStatement/uscore-ms2"/>
 			</sourceReference>
 		</resource>
