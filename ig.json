@@ -98,12 +98,6 @@
       "template-base": "vs.html"
     }
   },
-  "dependencyList": [
-    {
-      "location": "http://www.fhir.org/guides/argonaut/pd/release1/",
-      "name": "argopd"
-    }
-  ],
   "do-transforms": "false",
   "extensions": [
   ],

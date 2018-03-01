@@ -2,8 +2,8 @@ Configuration Parameter,Configuration Value ( use '|' for lists)
 broken-links,warning
 canonicalBase,http://hl7.org/fhir/us/core
 codesystems,
-dependencyList.location,http://www.fhir.org/guides/argonaut/pd/release1/
-dependencyList.name,argopd
+dependencyList.location,
+dependencyList.name,
 dependencyList.source,
 do-transforms,FALSE
 extensions,
@@ -30,3 +30,4 @@ tool,jekyll
 valuesets,
 version,3.0.1
 working-dir,/Users/ehaas/Documents/FHIR/US-Core/
+igtemplate-dir,/Users/ehaas/Documents/FHIR/US-Core/
