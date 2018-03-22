@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="us-core-medication"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
+	<version value="1.1.0"/>
+	<name value="US__Core_Medication_Profile"/>
+	<title value="US  Core Medication Profile"/>
+	<status value="draft"/>
+	<date value="2016-08-01"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://www.healthit.gov"/>
+		</telecom>
+	</contact>
+	<description value="Defines constraints and extensions on the Medication resource for the minimal set of data to query and retrieve patient retrieving patient's medication information."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+			<display value="United States"/>
+		</coding>
+	</jurisdiction>
+	<fhirVersion value="3.0.1"/>
+	<mapping>
+		<identity value="argonaut-dq-dstu2"/>
+		<uri value="http://unknown.org/Argonaut-DQ-DSTU2"/>
+		<name value="Argonaut-DQ-DSTU2"/>
+	</mapping>
+	<mapping>
+		<identity value="script10.6"/>
+		<uri value="http://ncpdp.org/SCRIPT10_6"/>
+		<name value="Mapping to NCPDP SCRIPT 10.6"/>
+	</mapping>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="Medication"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Medication"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Medication">
+			<path value="Medication"/>
+			<short value="US Core Medication Profile"/>
+			<definition value="The US Core Medication Profile is based upon the core FHIR Medication Resource and created to meet the 2015 Edition Common Clinical Data Set 'Medications' requirements."/>
+			<mustSupport value="false"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Medication"/>
+			</mapping>
+		</element>
+		<element id="Medication.code">
+			<path value="Medication.code"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="extensible"/>
+				<description value="Prescribable medications"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/us/core/ValueSet/us-core-medication-codes"/>
+				</valueSetReference>
+			</binding>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Medication.code"/>
+			</mapping>
+		</element>
+	</differential>
+</StructureDefinition>

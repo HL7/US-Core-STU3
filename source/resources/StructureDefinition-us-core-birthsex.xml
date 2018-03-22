@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="us-core-birthsex"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"/>
+	<version value="1.1.0"/>
+	<name value="US_Core_Birth_Sex_Extension"/>
+	<title value="US Core Birth Sex Extension"/>
+	<title value="US Core Birth Sex Extension"/>
+	<status value="draft"/>
+	<date value="2016-08-01T00:00:00+10:00"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://www.healthit.gov"/>
+		</telecom>
+	</contact>
+	<description value="A code classifying the person's sex assigned at birth  as specified by the [Office of the National Coordinator for Health IT (ONC)](https://www.healthit.gov/newsroom/about-onc). This extension aligns with the C-CDA Birth Sex Observation (LOINC 76689-9)."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+			<display value="United States"/>
+		</coding>
+	</jurisdiction>
+	<fhirVersion value="3.0.1"/>
+	<kind value="complex-type"/>
+	<abstract value="false"/>
+	<contextType value="resource"/>
+	<context value="Patient"/>
+	<type value="Extension"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Extension:birthsex">
+			<path value="Extension"/>
+			<definition value="A code classifying the person's sex assigned at birth  as specified by the [Office of the National Coordinator for Health IT (ONC)](https://www.healthit.gov/newsroom/about-onc)."/>
+			<comment value="The codes required are intended to present birth sex (i.e., the sex recorded on the patient’s birth certificate) and not gender identity or reassigned sex."/>
+			<min value="0"/>
+			<max value="1"/>
+			<mapping>
+				<identity value="rim"/>
+				<map value="player[classCode=PSN|ANM and determinerCode=INSTANCE]/administrativeGender"/>
+			</mapping>
+			<mapping>
+				<identity value="iso11179"/>
+				<map value=".patient.administrativeGenderCode"/>
+			</mapping>
+		</element>
+		<element id="Extension:birthsex.url">
+			<path value="Extension.url"/>
+			<fixedUri value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"/>
+		</element>
+		<element id="Extension:birthsex.valueCode">
+			<path value="Extension.valueCode"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="code"/>
+			</type>
+			<binding>
+				<strength value="required"/>
+				<description value="Code for sex assigned at birth"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/us/core/ValueSet/us-core-birthsex"/>
+				</valueSetReference>
+			</binding>
+		</element>
+	</differential>
+</StructureDefinition>

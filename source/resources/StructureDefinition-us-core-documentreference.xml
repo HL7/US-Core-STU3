@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="us-core-documentreference"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference"/>
+	<version value="1.1.0"/>
+	<name value="US_Core_DocumentReference_Profile"/>
+	<title value="US Core DocumentReference Profile"/>
+	<status value="draft"/>
+	<date value="2017-12-10"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://www.healthit.gov"/>
+		</telecom>
+	</contact>
+	<description value="The document reference profile used in US Core."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+			<display value="United States"/>
+		</coding>
+	</jurisdiction>
+	<fhirVersion value="3.0.1"/>
+	<mapping>
+		<identity value="xds"/>
+		<uri value="http://ihe.net/xds"/>
+		<name value="XDS metadata equivalent"/>
+	</mapping>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="DocumentReference"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="DocumentReference">
+			<path value="DocumentReference"/>
+			<short value="US Core DocumentReference Profile"/>
+			<definition value="This is a basic constraint on DocumentRefernce for use in the US Core IG."/>
+			<mustSupport value="false"/>
+		</element>
+		<element id="DocumentReference.identifier">
+			<path value="DocumentReference.identifier"/>
+			<min value="0"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="DocumentReference.status">
+			<path value="DocumentReference.status"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/ValueSet/document-reference-status"/>
+				</valueSetReference>
+			</binding>
+		</element>
+		<element id="DocumentReference.type">
+			<path value="DocumentReference.type"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<description value="Provider role codes consisting of NUCC Health Care Provider Taxonomy Code Set for providers."/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/ValueSet/c80-doc-typecodes"/>
+				</valueSetReference>
+			</binding>
+		</element>
+		<element id="DocumentReference.subject">
+			<path value="DocumentReference.subject"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="DocumentReference.created">
+			<path value="DocumentReference.created"/>
+			<min value="0"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="DocumentReference.content">
+			<path value="DocumentReference.content"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="DocumentReference.content.attachment">
+			<path value="DocumentReference.content.attachment"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="DocumentReference.content.attachment.contentType">
+			<path value="DocumentReference.content.attachment.contentType"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="DocumentReference.content.attachment.url">
+			<path value="DocumentReference.content.attachment.url"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="DocumentReference.content.format">
+			<path value="DocumentReference.content.format"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="extensible"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/ValueSet/formatcodes"/>
+				</valueSetReference>
+			</binding>
+		</element>
+		<element id="DocumentReference.context">
+			<path value="DocumentReference.context"/>
+			<min value="0"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+		</element>
+		<element id="DocumentReference.context.encounter">
+			<path value="DocumentReference.context.encounter"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+	</differential>
+</StructureDefinition>

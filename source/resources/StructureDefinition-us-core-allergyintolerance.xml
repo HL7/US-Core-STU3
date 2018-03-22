@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="us-core-allergyintolerance"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"/>
+	<version value="1.1.0"/>
+	<name value="US__Core_AllergyIntolerance_Profile"/>
+	<title value="US  Core AllergyIntolerance Profile"/>
+	<status value="draft"/>
+	<date value="2016-08-01"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://www.healthit.gov"/>
+		</telecom>
+	</contact>
+	<description value="Defines constraints and extensions on the AllergyIntolerance resource for the minimal set of data to query and retrieve allergy information."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+			<display value="United States"/>
+		</coding>
+	</jurisdiction>
+	<fhirVersion value="3.0.1"/>
+	<mapping>
+		<identity value="argonaut-dq-dstu2"/>
+		<uri value="http://unknown.org/Argonaut-DQ-DSTU2"/>
+		<name value="Argonaut-DQ-DSTU2"/>
+	</mapping>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="AllergyIntolerance"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/AllergyIntolerance"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="AllergyIntolerance">
+			<path value="AllergyIntolerance"/>
+			<short value="US Core Allergies Profile"/>
+			<definition value="The US Core Allergies Profile is based upon the core FHIR AllergyIntolerance Resource and created to meet the 2015 Edition Common Clinical Data Set 'Medical allergies' requirements."/>
+			<mustSupport value="false"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="AllergyIntolerance"/>
+			</mapping>
+		</element>
+		<element id="AllergyIntolerance.clinicalStatus">
+			<path value="AllergyIntolerance.clinicalStatus"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="code"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/ValueSet/allergy-clinical-status"/>
+				</valueSetReference>
+			</binding>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="AllergyIntolerance.status"/>
+			</mapping>
+		</element>
+		<element id="AllergyIntolerance.verificationStatus">
+			<path value="AllergyIntolerance.verificationStatus"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="code"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/ValueSet/allergy-verification-status"/>
+				</valueSetReference>
+			</binding>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="AllergyIntolerance.status"/>
+			</mapping>
+		</element>
+		<element id="AllergyIntolerance.code">
+			<path value="AllergyIntolerance.code"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="extensible"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/us/core/ValueSet/us-core-substance"/>
+				</valueSetReference>
+			</binding>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="AllergyIntolerance.substance"/>
+			</mapping>
+		</element>
+		<element id="AllergyIntolerance.patient">
+			<path value="AllergyIntolerance.patient"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="AllergyIntolerance.patient"/>
+			</mapping>
+		</element>
+	</differential>
+</StructureDefinition>

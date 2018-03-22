@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="us-core-patient"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+	<version value="1.1.0"/>
+	<name value="US_Core_Patient_Profile"/>
+	<title value="US Core Patient Profile"/>
+	<status value="draft"/>
+	<date value="2016-08-01"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://www.healthit.gov"/>
+		</telecom>
+	</contact>
+	<description value="Defines constraints and extensions on the patient resource for the minimal set of data to query and retrieve patient demographic information."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+			<display value="United States"/>
+		</coding>
+	</jurisdiction>
+	<fhirVersion value="3.0.1"/>
+	<mapping>
+		<identity value="argonaut-dq-dstu2"/>
+		<uri value="http://unknown.org/Argonaut-DQ-DSTU2"/>
+		<name value="Argonaut-DQ-DSTU2"/>
+	</mapping>
+	<mapping>
+		<identity value="cda"/>
+		<uri value="http://hl7.org/v3/cda"/>
+		<name value="CDA (R2)"/>
+	</mapping>
+	<mapping>
+		<identity value="loinc"/>
+		<uri value="http://loinc.org"/>
+		<name value="LOINC code for the element"/>
+	</mapping>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="Patient"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Patient">
+			<path value="Patient"/>
+			<short value="US Core Patient Profile"/>
+			<definition value="The US Core Patient Profile is based upon the core FHIR Patient Resource and designed to meet the applicable patient demographic data elements from the 2015 Edition Common Clinical Data Set."/>
+			<mustSupport value="false"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient"/>
+			</mapping>
+		</element>
+		<element id="Patient.extension:race">
+			<path value="Patient.extension"/>
+			<sliceName value="race"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.extension"/>
+			</mapping>
+		</element>
+		<element id="Patient.extension:ethnicity">
+			<path value="Patient.extension"/>
+			<sliceName value="ethnicity"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.extension"/>
+			</mapping>
+		</element>
+		<element id="Patient.extension:birthsex">
+			<path value="Patient.extension"/>
+			<sliceName value="birthsex"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="Extension"/>
+				<profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<description value="Code for sex assigned at birth"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/us/core/ValueSet/us-core-birthsex"/>
+				</valueSetReference>
+			</binding>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.extension"/>
+			</mapping>
+		</element>
+		<element id="Patient.identifier">
+			<path value="Patient.identifier"/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="Identifier"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.identifier"/>
+			</mapping>
+		</element>
+		<element id="Patient.identifier.system">
+			<path value="Patient.identifier.system"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="uri"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.identifier.system"/>
+			</mapping>
+		</element>
+		<element id="Patient.identifier.value">
+			<path value="Patient.identifier.value"/>
+			<short value="The value that is unique within the system."/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="string"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.identifier.value"/>
+			</mapping>
+		</element>
+		<element id="Patient.name">
+			<path value="Patient.name"/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="HumanName"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.name"/>
+			</mapping>
+		</element>
+		<element id="Patient.name.family">
+			<path value="Patient.name.family"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="string"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.name.family"/>
+			</mapping>
+		</element>
+		<element id="Patient.name.given">
+			<path value="Patient.name.given"/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="string"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.name.given"/>
+			</mapping>
+		</element>
+		<element id="Patient.gender">
+			<path value="Patient.gender"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="code"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/ValueSet/administrative-gender"/>
+				</valueSetReference>
+			</binding>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.gender"/>
+			</mapping>
+		</element>
+		<element id="Patient.birthDate">
+			<path value="Patient.birthDate"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="date"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.birthDate"/>
+			</mapping>
+		</element>
+		<element id="Patient.animal">
+			<extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
+				<valueString value="Animal"/>
+			</extension>
+			<path value="Patient.animal"/>
+			<min value="0"/>
+			<max value="0"/>
+			<type>
+				<code value="BackboneElement"/>
+			</type>
+			<mustSupport value="false"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.animal"/>
+			</mapping>
+		</element>
+		<element id="Patient.communication">
+			<path value="Patient.communication"/>
+			<min value="0"/>
+			<max value="*"/>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.communication"/>
+			</mapping>
+		</element>
+		<element id="Patient.communication.language">
+			<path value="Patient.communication.language"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet">
+					<valueReference>
+						<reference value="http://hl7.org/fhir/us/core/ValueSet/simple-language"/>
+					</valueReference>
+				</extension>
+				<strength value="extensible"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/us/core/ValueSet/simple-language"/>
+				</valueSetReference>
+			</binding>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Patient.communication.language"/>
+			</mapping>
+		</element>
+	</differential>
+</StructureDefinition>

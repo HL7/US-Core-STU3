@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="us-core-profile-link"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-profile-link"/>
+	<version value="1.1.0"/>
+	<name value="Profile-resource_association_extension"/>
+	<title value="Profile-resource association extension"/>
+	<title value="Profile-resource association extension"/>
+	<status value="draft"/>
+	<date value="2017-12-20T12:39:40+11:00"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://www.healthit.gov"/>
+		</telecom>
+	</contact>
+	<description value="Used in the CapabilityStatment resource to link profiles to the resources they are based upon for the purpose of describing profile specific capababilties such as specific search criteria or operations which are supported on a profile by profile bases. It is a code that references a resource listed in Capability.rest.resource. For more information on how the Capability resource describes profiles on resources, see [Two uses of Profiles](http://hl7.org/fhir/STU3/profiling.html#profile-uses)."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+			<display value="United States"/>
+		</coding>
+	</jurisdiction>
+	<purpose value="To allow profiles to be associated with resources in CapabilityStatements."/>
+	<fhirVersion value="3.0.1"/>
+	<kind value="complex-type"/>
+	<abstract value="false"/>
+	<contextType value="resource"/>
+	<context value="CapabilityStatement.profile"/>
+	<type value="Extension"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Extension:profile-link">
+			<path value="Extension"/>
+			<short value="Resource that this profile is based on"/>
+			<definition value="This is a code that references a  resource listed in CapabilityStatement.rest.resource.  This is used to link the profile to the resources for the purpose of describing profile specific capababilties such as specific search criteria or operations which are supported on a profile by profile bases."/>
+			<comment value="This is helpful for publishing the CapabilityResource narrative."/>
+			<min value="0"/>
+			<max value="*"/>
+			<mapping>
+				<identity value="v2"/>
+				<map value="No v2 equivalent"/>
+			</mapping>
+			<mapping>
+				<identity value="rim"/>
+				<map value="No RIM equivalent"/>
+			</mapping>
+		</element>
+		<element id="Extension:profile-link.url">
+			<path value="Extension.url"/>
+			<fixedUri value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-profile-link"/>
+		</element>
+		<element id="Extension:profile-link.valueCode">
+			<path value="Extension.valueCode"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="code"/>
+			</type>
+			<binding>
+				<strength value="required"/>
+				<description value="One of the resource types defined as part of FHIR."/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/ValueSet/resource-types"/>
+				</valueSetReference>
+			</binding>
+		</element>
+	</differential>
+</StructureDefinition>

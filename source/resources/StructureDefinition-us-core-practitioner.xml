@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="us-core-practitioner"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+	<version value="1.1.0"/>
+	<name value="US__Core_Practitioner_Profile"/>
+	<title value="US  Core Practitioner Profile"/>
+	<status value="draft"/>
+	<date value="2016-08-01"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://www.healthit.gov"/>
+		</telecom>
+	</contact>
+	<description value="The practitioner(s) referenced in US Core profiles."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+			<display value="United States"/>
+		</coding>
+	</jurisdiction>
+	<fhirVersion value="3.0.1"/>
+	<mapping>
+		<identity value="servd"/>
+		<uri value="http://www.omg.org/spec/ServD/1.0/"/>
+		<name value="ServD"/>
+	</mapping>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="Practitioner"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Practitioner">
+			<path value="Practitioner"/>
+			<short value="US Core Practitioner"/>
+			<definition value="This is basic constraint on provider for use in US Core resources."/>
+			<alias value="Provider"/>
+			<mustSupport value="false"/>
+		</element>
+		<element id="Practitioner.identifier">
+			<path value="Practitioner.identifier"/>
+			<requirements value="Either id or name is needed."/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="Identifier"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Practitioner.identifier.system">
+			<path value="Practitioner.identifier.system"/>
+			<comment value="NPI should be used as the identifier system in the US, Tax id is allowed, Local id is allowed in addition to an 'authoritative' identifier."/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="uri"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Practitioner.identifier.value">
+			<path value="Practitioner.identifier.value"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="string"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Practitioner.name">
+			<path value="Practitioner.name"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="HumanName"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Practitioner.name.family">
+			<path value="Practitioner.name.family"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="string"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+	</differential>
+</StructureDefinition>

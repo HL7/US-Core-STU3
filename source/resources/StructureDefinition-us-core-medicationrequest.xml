@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="us-core-medicationrequest"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+	<version value="1.1.0"/>
+	<name value="US__Core_MedicationRequest_Profile"/>
+	<title value="US  Core MedicationRequest Profile"/>
+	<status value="draft"/>
+	<date value="2016-08-01"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://www.healthit.gov"/>
+		</telecom>
+	</contact>
+	<description value="Defines constraints and extensions on the MedicationRequest resource for the minimal set of data to query and retrieve prescription information."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+			<display value="United States"/>
+		</coding>
+	</jurisdiction>
+	<fhirVersion value="3.0.1"/>
+	<mapping>
+		<identity value="argonaut-dq-dstu2"/>
+		<uri value="http://unknown.org/Argonaut-DQ-DSTU2"/>
+		<name value="Argonaut-DQ-DSTU2"/>
+	</mapping>
+	<mapping>
+		<identity value="workflow"/>
+		<uri value="http://hl7.org/fhir/workflow"/>
+		<name value="Workflow Mapping"/>
+	</mapping>
+	<mapping>
+		<identity value="script10.6"/>
+		<uri value="http://ncpdp.org/SCRIPT10_6"/>
+		<name value="Mapping to NCPDP SCRIPT 10.6"/>
+	</mapping>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="MedicationRequest"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/MedicationRequest"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="MedicationRequest">
+			<path value="MedicationRequest"/>
+			<short value="US Core Medication Request Profile"/>
+			<definition value="The US Core Medication Request (Order) Profile is based upon the core FHIR MedicationRequest Resource and created to meet the 2015 Edition Common Clinical Data Set 'Medications' requirements."/>
+			<mustSupport value="false"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="MedicationOrder"/>
+			</mapping>
+		</element>
+		<element id="MedicationRequest.status">
+			<path value="MedicationRequest.status"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="code"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<description value="A code specifying the state of the prescribing event. Describes the lifecycle of the prescription."/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/ValueSet/medication-request-status"/>
+				</valueSetReference>
+			</binding>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="MedicationOrder.status"/>
+			</mapping>
+		</element>
+		<element id="MedicationRequest.medication[x]">
+			<path value="MedicationRequest.medication[x]"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="extensible"/>
+				<description value="Prescribable medications"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/us/core/ValueSet/us-core-medication-codes"/>
+				</valueSetReference>
+			</binding>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="MedicationOrder.medication[x]"/>
+			</mapping>
+		</element>
+		<element id="MedicationRequest.subject">
+			<path value="MedicationRequest.subject"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="MedicationOrder.patient"/>
+			</mapping>
+		</element>
+		<element id="MedicationRequest.authoredOn">
+			<path value="MedicationRequest.authoredOn"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="MedicationOrder.dateWritten"/>
+			</mapping>
+		</element>
+		<element id="MedicationRequest.requester">
+			<path value="MedicationRequest.requester"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="NA (new element in STU3)"/>
+			</mapping>
+		</element>
+		<element id="MedicationRequest.requester.agent">
+			<path value="MedicationRequest.requester.agent"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="MedicationOrder.prescriber"/>
+			</mapping>
+		</element>
+	</differential>
+</StructureDefinition>

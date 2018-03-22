@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="us-core-device"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-device"/>
+	<version value="1.1.0"/>
+	<name value="US__Core_Device_Profile"/>
+	<title value="US  Core Device Profile"/>
+	<status value="draft"/>
+	<date value="2016-08-01"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://www.healthit.gov"/>
+		</telecom>
+	</contact>
+	<description value="Defines constraints and extensions on the Device resource for the minimal set of data to query and retrieve a patient's Device(s)."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+			<display value="United States"/>
+		</coding>
+	</jurisdiction>
+	<fhirVersion value="3.0.1"/>
+	<mapping>
+		<identity value="argonaut-dq-dstu2"/>
+		<uri value="http://unknown.org/Argonaut-DQ-DSTU2"/>
+		<name value="Argonaut-DQ-DSTU2"/>
+	</mapping>
+	<mapping>
+		<identity value="udi"/>
+		<uri value="http://www.fda.gov/MedicalDevices/DeviceRegulationandGuidance/UniqueDeviceIdentification/default.htm"/>
+		<name value="UDI Mapping"/>
+	</mapping>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="Device"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Device"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Device">
+			<path value="Device"/>
+			<short value="US Core Implanted Device Profile"/>
+			<definition value="The US Core Implanted Device Profile is based upon the core FHIR Device Resource and created to meet the 2015 Edition Common Clinical Data Set 'Unique device identifier(s) for a patient’s implantable device(s)' requirements."/>
+			<mustSupport value="false"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Device"/>
+			</mapping>
+		</element>
+		<element id="Device.udi">
+			<path value="Device.udi"/>
+			<min value="1"/>
+			<max value="1"/>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Device.udi"/>
+			</mapping>
+		</element>
+		<element id="Device.udi.carrierHRF">
+			<path value="Device.udi.carrierHRF"/>
+			<alias value="UDI"/>
+			<alias value="Barcode String"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="string"/>
+			</type>
+			<mustSupport value="false"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Device.udi"/>
+			</mapping>
+		</element>
+		<element id="Device.udi.carrierAIDC">
+			<path value="Device.udi.carrierAIDC"/>
+			<alias value="UDI"/>
+			<alias value="Barcode String"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="base64Binary"/>
+			</type>
+			<mustSupport value="false"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="NA (not Supoorted)"/>
+			</mapping>
+		</element>
+		<element id="Device.type">
+			<path value="Device.type"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="extensible"/>
+				<description value="Codes to identify medical devices"/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/ValueSet/device-kind"/>
+				</valueSetReference>
+			</binding>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Device.type"/>
+			</mapping>
+		</element>
+		<element id="Device.patient">
+			<path value="Device.patient"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="argonaut-dq-dstu2"/>
+				<map value="Device.patient"/>
+			</mapping>
+		</element>
+	</differential>
+</StructureDefinition>

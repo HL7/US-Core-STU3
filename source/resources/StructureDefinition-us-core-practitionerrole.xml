@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="us-core-practitionerrole"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"/>
+	<version value="1.1.0"/>
+	<name value="US_Core_PractitionerRole_Profile"/>
+	<title value="US Core PractitionerRole Profile"/>
+	<status value="draft"/>
+	<date value="2017-12-10"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://www.healthit.gov"/>
+		</telecom>
+	</contact>
+	<description value="The practitioner roles referenced in the US Core profiles."/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+			<display value="United States"/>
+		</coding>
+	</jurisdiction>
+	<fhirVersion value="3.0.1"/>
+	<mapping>
+		<identity value="servd"/>
+		<uri value="http://www.omg.org/spec/ServD/1.0/"/>
+		<name value="ServD"/>
+	</mapping>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="PractitionerRole"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="PractitionerRole">
+			<path value="PractitionerRole"/>
+			<short value="US Core PractitionerRole Profile"/>
+			<definition value="This is basic constraint on PractitionerRole for use in US Core resources."/>
+			<constraint>
+				<key value="pd-1"/>
+				<severity value="error"/>
+				<human value="SHALL have contact information or a reference to an Endpoint"/>
+				<expression value="telecom or endpoint"/>
+				<xpath value="exists(f:telecom) or exists(f:endpoint)"/>
+			</constraint>
+			<mustSupport value="false"/>
+		</element>
+		<element id="PractitionerRole.practitioner">
+			<path value="PractitionerRole.practitioner"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="PractitionerRole.organization">
+			<path value="PractitionerRole.organization"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="PractitionerRole.code">
+			<path value="PractitionerRole.code"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<description value="Provider role codes consisting of NUCC Health Care Provider Taxonomy Code Set for providers."/>
+				<valueSetReference>
+					<reference value="http://fhir.org/guides/argonaut-pd/ValueSet/provider-role"/>
+				</valueSetReference>
+			</binding>
+		</element>
+		<element id="PractitionerRole.specialty">
+			<path value="PractitionerRole.specialty"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="CodeableConcept"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<description value="Provider specialty codes consist of NUCC Health Care Provider Taxonomy Code Set for providers."/>
+				<valueSetReference>
+					<reference value="http://fhir.org/guides/argonaut-pd/ValueSet/provider-specialty"/>
+				</valueSetReference>
+			</binding>
+		</element>
+		<element id="PractitionerRole.location">
+			<path value="PractitionerRole.location"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="PractitionerRole.telecom">
+			<path value="PractitionerRole.telecom"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="ContactPoint"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="PractitionerRole.telecom.system">
+			<path value="PractitionerRole.telecom.system"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="code"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="PractitionerRole.telecom.value">
+			<path value="PractitionerRole.telecom.value"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="string"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="PractitionerRole.endpoint">
+			<path value="PractitionerRole.endpoint"/>
+			<min value="0"/>
+			<max value="*"/>
+			<mustSupport value="true"/>
+		</element>
+	</differential>
+</StructureDefinition>

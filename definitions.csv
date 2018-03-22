@@ -11,13 +11,13 @@ fixed-business-version,1.0.1
 gen-examples,FALSE
 jurisdiction,US
 no-inactive-codes,FALSE
-paths.output,output
-paths.pages,pages
-paths.qa,qa
-paths.resources,resources|examples
+paths.pages,framework|source/pages
+paths.resources,source/resources|source/examples
+paths.temp,generated_output/temp
+paths.output,docs
+paths.txCache,generated_output/txCache
+paths.qa,generated_output/qa
 paths.specification,http://hl7.org/fhir/STU3
-paths.temp,temp
-paths.txCache,txCache
 publisher,HL7 US Realm Steering Committee
 sct-edition,http://snomed.info/sct/731000124108
 searches,

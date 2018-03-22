@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="us-core-organization"/>
+	<url value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
+	<version value="1.1.0"/>
+	<name value="US_Core_Organization_Profile"/>
+	<title value="US Core Organization Profile"/>
+	<status value="draft"/>
+	<date value="2016-08-01"/>
+	<publisher value="HL7 US Realm Steering Committee"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="http://www.healthit.gov"/>
+		</telecom>
+	</contact>
+	<description value="Defines basic constraints and extensions on the Organization resource for use with other US Core resources"/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="US"/>
+			<display value="United States"/>
+		</coding>
+	</jurisdiction>
+	<fhirVersion value="3.0.1"/>
+	<mapping>
+		<identity value="servd"/>
+		<uri value="http://www.omg.org/spec/ServD/1.0/"/>
+		<name value="ServD"/>
+	</mapping>
+	<kind value="resource"/>
+	<abstract value="false"/>
+	<type value="Organization"/>
+	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+	<derivation value="constraint"/>
+	<differential>
+		<element id="Organization">
+			<path value="Organization"/>
+			<short value="US Core Organization Profile"/>
+			<mustSupport value="false"/>
+			<mapping>
+				<identity value="servd"/>
+				<map value="Organization"/>
+			</mapping>
+		</element>
+		<element id="Organization.identifier">
+			<path value="Organization.identifier"/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="Identifier"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="servd"/>
+				<map value="n/a"/>
+			</mapping>
+		</element>
+		<element id="Organization.identifier.system">
+			<path value="Organization.identifier.system"/>
+			<comment value="NPI preferred (http://hl7.org/fhir/sid/us-npi), Tax id is allowed (http://hl7.org/fhir/sid/us-tin), Local id is allowed in addition to 'authoritative' identifier."/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="uri"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Organization.active">
+			<path value="Organization.active"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="boolean"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Organization.name">
+			<path value="Organization.name"/>
+			<min value="1"/>
+			<max value="1"/>
+			<type>
+				<code value="string"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="servd"/>
+				<map value="./PrimaryAddress and ./OtherAddresses"/>
+			</mapping>
+		</element>
+		<element id="Organization.telecom">
+			<path value="Organization.telecom"/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="ContactPoint"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Organization.address">
+			<path value="Organization.address"/>
+			<min value="1"/>
+			<max value="*"/>
+			<type>
+				<code value="Address"/>
+			</type>
+			<mustSupport value="true"/>
+			<mapping>
+				<identity value="servd"/>
+				<map value="n/a"/>
+			</mapping>
+		</element>
+		<element id="Organization.address.line">
+			<path value="Organization.address.line"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="string"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Organization.address.city">
+			<path value="Organization.address.city"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="string"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Organization.address.state">
+			<path value="Organization.address.state"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="string"/>
+			</type>
+			<mustSupport value="true"/>
+			<binding>
+				<strength value="required"/>
+				<description value="Two letter USPS alphabetic codes."/>
+				<valueSetReference>
+					<reference value="http://hl7.org/fhir/ValueSet/usps-state"/>
+				</valueSetReference>
+			</binding>
+			<mapping>
+				<identity value="servd"/>
+				<map value="./Sites"/>
+			</mapping>
+		</element>
+		<element id="Organization.address.postalCode">
+			<path value="Organization.address.postalCode"/>
+			<short value="US Zip Codes"/>
+			<min value="0"/>
+			<max value="1"/>
+			<type>
+				<code value="string"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+		<element id="Organization.endpoint">
+			<path value="Organization.endpoint"/>
+			<min value="0"/>
+			<max value="*"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="http://hl7.org/fhir/StructureDefinition/Endpoint"/>
+			</type>
+			<mustSupport value="true"/>
+		</element>
+	</differential>
+</StructureDefinition>
