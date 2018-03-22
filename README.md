@@ -30,5 +30,5 @@ http://build.fhir.org/ig/HL7/US-Core/build.log
 
 For implementation guides that are dependent upon US-Core the most current definitions and validation pack files are available for download here:
 
-- [validator pack](#)
-- [definitions.json.zip](#)
+- [validator pack](http://build.fhir.org/ig/HL7/US-Core/validator.pack)
+- [definitions.json.zip](http://build.fhir.org/ig/HL7/US-Core/definitions.json.zip)
