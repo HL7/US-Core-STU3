@@ -25,3 +25,10 @@ http://build.fhir.org/ig/HL7/US-Core
 http://build.fhir.org/ig/HL7/US-Core/build.log
 
 ---
+
+### Dependencies Files
+
+For implementation guides that are dependent upon US-Core the most current definitions and validation pack files are available for download here:
+
+- [validator pack](#)
+- [definitions.json.zip](#)
