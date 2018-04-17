@@ -48,7 +48,6 @@ output
 archive
 sandbox
 capstmnt_markup
-/txCache/*
 
 # Altova files #
 ################
