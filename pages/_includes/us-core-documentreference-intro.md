@@ -34,7 +34,6 @@ For a C-CDA Clinical Summary of Care (CCD):
 -   The document type code is the LOINC code  [34133-9](http://s.details.loinc.org/LOINC/34133-9.html?sections=Comprehensive) *Summary of episode note*.
 -   The format code is `urn:hl7-org:sdwg:ccda-structuredBody:2.1`
 -   The https address may refer to a FHIR Binary Resource (i.e. [base]/Binary/[id]) address on the server
--   The https address may have a parameter that identifies the patient (e.g. GET [url]?patient=[id]). US Core servers SHOULD not require this parameter, but for IHE compatibility reasons SHALL allow it to be provided, and SHALL check that it is correct if it is provided.
 
 #### Examples
 
