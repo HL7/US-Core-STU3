@@ -18,14 +18,13 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 1.  a code describing the type of document
 1.  a status
 1.  an https address where the document can be retrieved
-1.  a code identifying the specific details about the format of the document — over and above the content's MIME type
 
-In addition it should have ( if available) :
+In addition it should have (if available):
 
 1.  an identifier
 1.  a document creation date
+1.  a code identifying the specific details about the format of the document — over and above the content's MIME type
 1.  the patient encounter date that is being referenced
-
 
 **Profile specific implementation guidance:**
 
