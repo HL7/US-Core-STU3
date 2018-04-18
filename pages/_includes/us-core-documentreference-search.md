@@ -40,10 +40,7 @@ Functional behavior of Server when responding to the $docref operation:
 
 **`GET [base]/DocumentReference/$docref?patient=[id]`**
 
-Example:
-
-[todo](#)
-
+Example: see [$docref operation]
 
 *Support:* Mandatory to support response to operation.
 
