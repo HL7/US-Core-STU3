@@ -1,5 +1,5 @@
 
-**`GET /Procedure?patient=[id][edit]`**
+**`GET /Procedure?patient=[id]`**
 
 **Example:** GET [base]/Procedure?patient=1291938
 

@@ -10,7 +10,7 @@
 
 -----------
 
-`GET /Goal?patient=[id]&date=[date]{&date=[date]}[edit]`
+`GET /Goal?patient=[id]&date=[date]{&date=[date]}`
 
 **Example:**
 
