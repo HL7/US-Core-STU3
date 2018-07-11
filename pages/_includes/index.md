@@ -36,7 +36,7 @@ US Core adopts the [Vitals Signs Profile](us-core-vitalsigns.html) from FHIR Cor
 *Note on Searches based on a date or date range:*
 
 - Allergies, Immunizations, Medications, Problems and Health Concerns, UDI, Smoking Status do not require a date range search since a system should return all relevant resources.
-- Vital Signs, Laboratory Results, Goals, Procedures, and Assessment and Plan of Treatment include date range search requirements in the Quick Start section on the profile page.
+- Vital Signs, Laboratory Results, Goals, Encounters, Procedures, and Assessment and Plan of Treatment (CarePlan) include date range search requirements in the Quick Start section on the profile page.
 
 See [2015 Edition Common Clinical Data Set] for a mapping to the CCDS.
 
