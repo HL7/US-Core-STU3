@@ -33,7 +33,7 @@
 		</div>
 	</text>
 	<url value="http://hl7.org/fhir/us/core/OperationDefinition/docref"/>
-	<name value="US Core Get DocumentReferences"/>
+	<name value="US Core Fetch DocumentReferences"/>
 	<status value="draft"/>
 	<kind value="operation"/>
 	<date value="2016-10-18"/>
