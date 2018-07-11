@@ -10,8 +10,6 @@ The following are example usage scenarios for the US Core Patient profile:
     by identifier.system and may be location specific.
 -   Query for a Patient demographic information using first name, last
     name, birthdate, and gender.
--   Query for Patients less than 5 years of age
--   Query for Patients between ages of 25 and 50
 
 ##### Mandatory Data Elements and Terminology
 
