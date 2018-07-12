@@ -29,5 +29,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 
 [Organization-acme-lab](Organization-acme-lab.html)
 
+[Organization-with-EndPoint](Organization-Saint-Luke-w-endpoint.html)
+
 [Organization]: {{site.data.fhir.path}}/organization.html
 [Conformance requirements for the US Core Server]: CapabilityStatement-server.html
