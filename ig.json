@@ -376,7 +376,7 @@
             "source": "acme-lab.xml"
         },
         "Organization/saint-suke-w-endpoint": {
-            "base": "Organization-Saint-Luke-w-endpoint.html",
+            "base": "Organization-saint-luke-w-endpoint.html",
            "source": "saint-luke-w-endpoint.xml"
         },
         "Patient/example": {

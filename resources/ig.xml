@@ -448,6 +448,12 @@
 			</sourceReference>
 		</resource>
 		<resource>
+			<example value="true"/>
+			<sourceReference>
+				<reference value="Organization/saint-luke-w-endpoint"/>
+			</sourceReference>
+		</resource>
+		<resource>
 			<example value="false"/>
 			<sourceReference>
 				<reference value="ValueSet/us-core-substance"/>
