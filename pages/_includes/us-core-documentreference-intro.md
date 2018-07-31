@@ -17,6 +17,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 1.  a patient
 1.  a code describing the type of document
 1.  a status
+1.  date and time the reference was created (STU3 requirement, removed in R4)
 1.  an https address where the document can be retrieved
 
 In addition it should have (if available):

@@ -4,6 +4,7 @@
     -   DocumentReference.status is bound to [DocumentReferenceStatus] value set 
 1.  One document type code in `DocumentReference.type` which is bound to [Document Type] value set
 1.  One reference to a patient in `DocumentReference.subject`
+1.  A date and time in `DocumentReference.indexed`
 1.  One url of the document in `DocumentReference.content.attachment`
     -   a mime type in `DocumentReference.content.attachment.contentType` which is bound to [MimeType] value set 
     -   a url of the document in `DocumentReference.content.attachment.url`
