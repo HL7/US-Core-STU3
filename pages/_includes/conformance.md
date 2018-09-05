@@ -17,6 +17,7 @@ This section outlines conformance requirements for the US Core Servers and Clien
 
 
 ### Conformance requirements for the US Core Server
+{: #server}
 
 Source Resource: [XML](CapabilityStatement-server.xml.html)/[JSON](CapabilityStatement-server.json.html)
 
@@ -61,8 +62,8 @@ US Core Servers **SHALL**:
 
 #### Profile Interaction Summary:
 
-1. All servers **SHALL** make available the [read]({{site.data.fhir.path}}/http.html#read) and [search]({{site.data.fhir.path}}/http.html#search) interactions for the Profiles the server chooses to support.
-1. All servers **SHOULD** make available the [vread]({{site.data.fhir.path}}/http.html#vread) and [history-instance]({{site.data.fhir.path}}/http.html#history) interactions for the Profiles the server chooses to support.
+1. All servers **SHALL** make available the [read]({{site.data.fhir.path}}http.html#read) and [search]({{site.data.fhir.path}}http.html#search) interactions for the Profiles the server chooses to support.
+1. All servers **SHOULD** make available the [vread]({{site.data.fhir.path}}http.html#vread) and [history-instance]({{site.data.fhir.path}}http.html#history) interactions for the Profiles the server chooses to support.
 
 **Summary of US Core search criteria**
 
@@ -439,7 +440,7 @@ Supported Profiles:  [US Core MedicationStatement Profile]({{site.data.structure
 
 Search Criteria:
 
- The MedicationStatement resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained]({{site.data.fhir.path}}/references.html#contained) or an external resource. The server application **MAY** choose any one way or more than one method, but *if* an external reference to Medication is used, the server **SHALL** support the [`_include`]({{site.data.fhir.path}}/references.html#include) parameter for searching this element. The client application must support all methods.
+ The MedicationStatement resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained]({{site.data.fhir.path}}references.html#contained) or an external resource. The server application **MAY** choose any one way or more than one method, but *if* an external reference to Medication is used, the server **SHALL** support the [`_include`]({{site.data.fhir.path}}references.html#include) parameter for searching this element. The client application must support all methods.
 
 A server **SHALL** be capable of returning all medications for a patient using one of or both:
 
@@ -463,7 +464,7 @@ Supported Profiles:  [US Core MedicationRequest Profile]({{site.data.structurede
 
 Search Criteria:
 
- The MedicationRequest resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained]({{site.data.fhir.path}}/references.html#contained) or an external resource. The server application **MAY** choose any one way or more than one method, but *if* an external reference to Medication is used, the server **SHALL** support the [`_include`]({{site.data.fhir.path}}/references.html#include) parameter for searching this element. The client application must support all methods.
+ The MedicationRequest resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained]({{site.data.fhir.path}}references.html#contained) or an external resource. The server application **MAY** choose any one way or more than one method, but *if* an external reference to Medication is used, the server **SHALL** support the [`_include`]({{site.data.fhir.path}}references.html#include) parameter for searching this element. The client application must support all methods.
 
 A server **SHALL** be capable of returning all medications for a patient using one of or both:
 
@@ -505,7 +506,7 @@ Supported Profiles:
 
        `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC1{,LOINC2,LOINC3,...}]&date=[date]{&date=[date]}`
 
-1. [Vital Signs Profile]({{site.data.fhir.path}}/vitalsigns.html)
+1. [Vital Signs Profile]({{site.data.fhir.path}}vitalsigns.html)
 
     Search Criteria:
 
@@ -654,7 +655,8 @@ Search Parameters:
 
 <p></p>
 
-### Conformance requirements for the US Core Client
+### Conformance requirements for the US Core
+{: #client}
 
 Source Resource: [XML](CapabilityStatement-client.xml.html)/[JSON](CapabilityStatement-client.json.html)
 
@@ -663,7 +665,7 @@ Source Resource: [XML](CapabilityStatement-client.xml.html)/[JSON](CapabilitySta
 -  Published: 2017-12-22
 -  Published by: Health Level Seven International US Realm Steering Committee
 
-The Section describes the expected capabilities of the  US Core Client which is responsible for creating and initiating the queries for information about an individual patient. The complete list of FHIR profiles, RESTful operations, and search parameters supported by US Core Servers are defined in the [Conformance requirements for the US Core Server section](#conformance-requirements-for-the-us-core-server). US Core Clients have the option of choosing from this list to access necessary data based on their local use cases and other contextual requirements.
+The Section describes the expected capabilities of the  US Core Client which is responsible for creating and initiating the queries for information about an individual patient. The complete list of FHIR profiles, RESTful operations, and search parameters supported by US Core Servers are defined in the [Conformance requirements for the US Core Server section](#server). US Core Clients have the option of choosing from this list to access necessary data based on their local use cases and other contextual requirements.
 
 #### Behavior
 
@@ -959,7 +961,7 @@ Supported Profiles:  [US Core MedicationStatement Profile]({{site.data.structure
 
 Search Criteria:
 
-The MedicationStatement resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained]({{site.data.fhir.path}}/references.html#contained) or an external resource. IF, an external reference to Medication is used, the server **SHALL** support the [`_include`]({{site.data.fhir.path}}/references.html#include) parameter for searching this element. The client application **SHALL** support all methods.
+The MedicationStatement resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained]({{site.data.fhir.path}}references.html#contained) or an external resource. IF, an external reference to Medication is used, the server **SHALL** support the [`_include`]({{site.data.fhir.path}}references.html#include) parameter for searching this element. The client application **SHALL** support all methods.
 
 A client **SHOULD** be capable of connecting to a server and fetching all medications for a patient using both:
 
@@ -980,7 +982,7 @@ Supported Profiles:  [US Core MedicationRequest Profile]({{site.data.structurede
 
 Search Criteria:
 
- The MedicationRequest resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained]({{site.data.fhir.path}}/references.html#contained) or an external resource. If, an external reference to Medication is used, the server **SHALL** support the [`_include`]({{site.data.fhir.path}}/references.html#include) parameter for searching this element. The client application **SHALL** support all methods.
+ The MedicationRequest resources can represent a medication using either a code or refer to the Medication resource.  When referencing a Medication resource, the resource may be [contained]({{site.data.fhir.path}}references.html#contained) or an external resource. If, an external reference to Medication is used, the server **SHALL** support the [`_include`]({{site.data.fhir.path}}references.html#include) parameter for searching this element. The client application **SHALL** support all methods.
 
 A client **SHOULD** be capable of connecting to a server and fetching all medications for a patient using both:
 
@@ -1017,7 +1019,7 @@ Supported Profiles:
 
          `GET [base]/Observation?patient=[id]&category=laboratory&code=[LOINC1{,LOINC2,LOINC3,...}]&date=[date]{&date=[date]}`
 
-1. [Vital Signs Profile]({{site.data.fhir.path}}/vitalsigns.html)
+1. [Vital Signs Profile]({{site.data.fhir.path}}vitalsigns.html)
 
     Search Criteria
 

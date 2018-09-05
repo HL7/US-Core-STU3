@@ -1,6 +1,8 @@
 Configuration Parameter,Configuration Value ( use '|' for lists)
 broken-links,warning
 canonicalBase,http://hl7.org/fhir/us/core
+license,CC0-1.0
+npm-name,hl7.fhir.us.core
 codesystems,
 dependencyList.location,
 dependencyList.name,

@@ -14,7 +14,7 @@
 
 ## Introduction
 
-The US Core Implementation Guide is based on [FHIR Version {{site.data.fhir.version}}]({{site.data.fhir.path}}) and defines the minimum conformance requirements for accessing patient data as defined by the [Argonaut] pilot implementations and the [ONC 2015 Edition Common Clinical Data Set (CCDS)].  The Argonaut search and vocabulary requirements, based on [FHIR DSTU2](http://hl7.org/fhir/DSTU2/index.html), are updated in this guide to support [FHIR Version {{site.data.fhir.version}}]({{site.data.fhir.path}}). These profiles are intended to be the foundation for future US Realm FHIR implementation guides. In addition to Argonaut, they are used by [DAF-Research], [QI-Core], and [CIMI].  Under the guidance of HL7 and the HL7 US Realm Steering Committee, the content will expand in future versions to meet the needs specific to the US Realm.
+The US Core Implementation Guide is based on [FHIR Version {{site.data.fhir.version}}]({{site.data.fhir.path}}index.html) and defines the minimum conformance requirements for accessing patient data as defined by the [Argonaut] pilot implementations and the [ONC 2015 Edition Common Clinical Data Set (CCDS)].  The Argonaut search and vocabulary requirements, based on [FHIR DSTU2](http://hl7.org/fhir/DSTU2/index.html), are updated in this guide to support FHIR Version {{site.data.fhir.version}}. These profiles are intended to be the foundation for future US Realm FHIR implementation guides. In addition to Argonaut, they are used by [DAF-Research], [QI-Core], and [CIMI].  Under the guidance of HL7 and the HL7 US Realm Steering Committee, the content will expand in future versions to meet the needs specific to the US Realm.
 
 These requirements were originally developed, balloted, and published in FHIR DSTU2 as part of the [Office of the National Coordinator for Health Information Technology (ONC)] sponsored [Data Access Framework] (DAF) project. For more information on how DAF became US Core see the [US Core change notes](uscore-change-notes.html).  
 
@@ -62,19 +62,19 @@ Secondary Authors: Grahame Grieve, Lloyd McKenzie
 [Data Access Framework]: http://wiki.siframework.org/Data+Access+Framework+Homepage
 [Argonaut]: http://argonautwiki.hl7.org/index.php?title=Main_Page
 [ONC 2015 Edition Common Clinical Data Set (CCDS)]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf
-[profiles]: {{site.data.fhir.path}}/profiling.html
-[logical view]: {{site.data.fhir.path}}/formats.html#table
-[StructureDefinitions]: {{site.data.fhir.path}}/structuredefinition.html
-[Value sets]: {{site.data.fhir.path}}/valueset.html
-[CodeSystem]: {{site.data.fhir.path}}/codesystem.html
-[ConceptMap]: {{site.data.fhir.path}}/conceptmap.html
-[NamingSystem]: {{site.data.fhir.path}}/namingsystem.html
-[FHIR Conformance Rules]: {{site.data.fhir.path}}/CapabilityStatement-rules.html
-[dataAbsentReason]: {{site.data.fhir.path}}/extension-data-absent-reason.html
-[FHIR Terminology]: {{site.data.fhir.path}}/terminologies.html
-[FHIR RESTful API]: {{site.data.fhir.path}}/http.html
-[HTTP]: {{site.data.fhir.path}}/http.html
-[FHIR Data Types]: {{site.data.fhir.path}}/datatypes.html
-[FHIR Search]: {{site.data.fhir.path}}/search.html
-[FHIR Resource]: {{site.data.fhir.path}}/formats.html
+[profiles]: {{site.data.fhir.path}}profiling.html
+[logical view]: {{site.data.fhir.path}}formats.html#table
+[StructureDefinitions]: {{site.data.fhir.path}}structuredefinition.html
+[Value sets]: {{site.data.fhir.path}}valueset.html
+[CodeSystem]: {{site.data.fhir.path}}codesystem.html
+[ConceptMap]: {{site.data.fhir.path}}conceptmap.html
+[NamingSystem]: {{site.data.fhir.path}}namingsystem.html
+[FHIR Conformance Rules]: {{site.data.fhir.path}}CapabilityStatement-rules.html
+[dataAbsentReason]: {{site.data.fhir.path}}extension-data-absent-reason.html
+[FHIR Terminology]: {{site.data.fhir.path}}terminologies.html
+[FHIR RESTful API]: {{site.data.fhir.path}}http.html
+[HTTP]: {{site.data.fhir.path}}http.html
+[FHIR Data Types]: {{site.data.fhir.path}}datatypes.html
+[FHIR Search]: {{site.data.fhir.path}}search.html
+[FHIR Resource]: {{site.data.fhir.path}}formats.html
 [2015 Edition Common Clinical Data Set]: guidance.html#the-2015-edition-common-clinical-data-set

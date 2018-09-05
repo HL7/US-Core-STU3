@@ -42,9 +42,9 @@ Each Observation *should* have:
  - [observation-erythrocytes](Observation-erythrocytes.html)
 
  [SNOMED CT]: http://snomed.info/sct
-  [Observation Value Absent Reason]: {{site.data.fhir.path}}/valueset-observation-valueabsentreason.html
+  [Observation Value Absent Reason]: {{site.data.fhir.path}}valueset-observation-valueabsentreason.html
   [UCUM]: http://unitsofmeasure.org
   [LOINC]: http://loinc.org
-[Observation]:  {{site.data.fhir.path}}/observation.html
-[DiagnosticReport]:  {{site.data.fhir.path}}/diagnosticreport.html
+[Observation]:  {{site.data.fhir.path}}observation.html
+[DiagnosticReport]:  {{site.data.fhir.path}}diagnosticreport.html
 [General Guidance Section]: guidance.html#using-ucum-codes-in-the-quantity-datatype
