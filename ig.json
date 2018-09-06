@@ -8,7 +8,8 @@
         "AllergyIntolerance": {"template-base": "ex.html"},
         "Any": {
             "template-base": "base.html",
-            "template-format": "format.html"
+            "template-format": "format.html",
+            "swagger" : true
         },
         "Bundle": {"template-base": "ex.html"},
         "CapabilityStatement": {"template-base": "capst.html"},
