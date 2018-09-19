@@ -112,7 +112,7 @@ e: {
   "version" : "1.1.0",
   "name" : "US Core Substance RxNorm Codes",
   "status" : "draft",
-  "date" : "2018-09-04T18:09:01-07:00",
+  "date" : "2018-09-19T15:01:33-07:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -125,8 +125,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:b31c7af3-dc66-4a7f-b5d7-0f56b87e154f",
-    "timestamp" : "2018-09-05T01:14:28.891Z",
+    "identifier" : "urn:uuid:e119487f-9ba0-4f78-8227-40e271534cc4",
+    "timestamp" : "2018-09-19T22:07:00.845Z",
     "parameter" : [{
       "name" : "expansion-source",
       "valueString" : "ValueSet/us-core-substance-rxnorm"
@@ -5166,8 +5166,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:951f981a-a362-483e-ad4d-5b76562c3ef3",
-    "timestamp" : "2018-09-05T01:16:19.188Z",
+    "identifier" : "urn:uuid:453b5c1c-4178-4c56-ac3f-7b8b0c3205ca",
+    "timestamp" : "2018-09-19T22:08:43.767Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"

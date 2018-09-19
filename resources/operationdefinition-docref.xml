@@ -51,7 +51,8 @@ and returns a [Bundle](http://hl7.org/fhir/bundle.html) of type &quot;searchset&
 
 The server SHOULD return at least all references for documents that it has made available in a document indexing system. This is the same as a simple query (`GET [base]/DocumentReference?patient=[id]`). This operaton differs from a simple query in that  DocumentReferences may be created 'on-the-fly' in response to this operation.  For example, in some cases the documents themselves may not exist but can be generated when needed so a reference to them can be generated using this operation. If no documents exist and an 'on-demand' document cannot be created then the operation will return an empty search bundle."/>
 	<code value="docref"/>
-	<comment value="
+	<comment value="Note:
+
 - The server is responsible for determining what resources to return as included resources (rather than the client specifying which ones). This frees the client from needing to determine what it could or should ask for.
 
 - The document itself can be subsequently retrieved using the link provided from the DocumentQuery search results. The link could,for example, be a FHIR endpoint to a Binary Resource or some other document repository.

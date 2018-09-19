@@ -1,1 +1,0 @@
-{"resourceType":"OperationOutcome","issue":[{"details":{"text":"Error expanding ValueSet \"http://hl7.org/fhir/us/core/ValueSet/us-core-substance-sct: Error unmarshalling resource: Error: the element ExpansionProfile is not recognised as a valid resource name"}}]}
