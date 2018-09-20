@@ -447,6 +447,12 @@
 				<reference value="Organization/acme-lab"/>
 			</sourceReference>
 		</resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Organization/example-organization-2"/>
+      </sourceReference>
+    </resource>
 		<resource>
 			<example value="true"/>
 			<sourceReference>

@@ -376,6 +376,11 @@
             "base": "Organization-acme-lab.html",
             "source": "acme-lab.xml"
         },
+        "Organization/example-organization-2": {
+            "base": "Organization-example-organization-2.html",
+            "source": "example-organization-2.xml"
+        },
+
         "Organization/saint-suke-w-endpoint": {
             "base": "Organization-saint-luke-w-endpoint.html",
            "source": "saint-luke-w-endpoint.xml"
