@@ -50,7 +50,7 @@
                 </endpoint>
                 <endpoint>
                     <reference value="http://52.90.126.238:8080/fhir/baseDstu3/Endpoint/Endpoint-71"/>
-                    <display value="Brenda.Jennings.Richard.MD@direct.example.org"/>
+                    <display value="mailto:Brenda.Jennings.Richard.MD@direct.example.org"/>
                 </endpoint>
             </PractitionerRole>
         </resource>
@@ -174,7 +174,7 @@
                     <system value="http://hl7.org/fhir/endpoint-connection-type"/>
                     <code value="direct-project"/>
                 </connectionType>
-                <name value="Brenda.Jennings.Richard.MD@direct.example.org"/>
+                <name value="mailto:Brenda.Jennings.Richard.MD@direct.example.org"/>
                 <managingOrganization>
                     <reference value="Organization/acme-lab"/>
                 </managingOrganization>
@@ -186,7 +186,7 @@
                 </payloadType>
                 <payloadMimeType value="text/xml">
                 </payloadMimeType>
-                <address value="Brenda.Jennings.Richard.MD@direct.example.org"/>
+                <address value="mailto:Brenda.Jennings.Richard.MD@direct.example.org"/>
             </Endpoint>
         </resource>
         <search>

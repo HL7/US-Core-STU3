@@ -6,6 +6,6 @@
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "Unable to provide support for code system http://snomed.inbnm,fo/sct"
+  "error" : "The code system \"http://snomed.inbnm,fo/sct\" is not known; The code provided (http://snomed.inbnm,fo/sct#371244009) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------

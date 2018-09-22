@@ -6,7 +6,7 @@
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "Unable to provide support for code system http://www.ama-assn.org/go/cpt"
+  "error" : "The code system \"http://www.ama-assn.org/go/cpt\" is not known; The code provided (http://www.ama-assn.org/go/cpt#99201) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -34,7 +34,7 @@ v: {
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "Unable to provide support for code system http://www.ama-assn.org/go/cpt"
+  "error" : "The code system \"http://www.ama-assn.org/go/cpt\" is not known; The code provided (http://www.ama-assn.org/go/cpt#99201, (Office Visit)) is not  valid in the value set US Core Encounter Type"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{

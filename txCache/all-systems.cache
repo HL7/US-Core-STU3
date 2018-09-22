@@ -28,9 +28,9 @@
   }
 }}####
 v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Unable to provide support for code system http://www.ama-assn.org/go/cpt"
+  "display" : "Alcohol rehabilitation (regime/therapy)",
+  "severity" : "warning",
+  "error" : "The code system \"http://www.icd10data.com/icd10pcs\" is not known"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -53,9 +53,9 @@ v: {
   }
 }}####
 v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Unable to provide support for code system http://hl7.org/fhir/sid/cvx"
+  "display" : "influenza, injectable, quadrivalent",
+  "severity" : "warning",
+  "error" : "The code system \"http://hl7.org/fhir/sid/ndc\" is not known"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -354,34 +354,5 @@ e: {
 ####
 e: {
   "error" : "Error unmarshalling resource: Unable to provide support for code system http://www.ama-assn.org/go/cpt"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://nucc.org/provider-taxonomy"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "filter" : [{
-        "property" : "concept",
-        "op" : "is-a",
-        "value" : "125676002"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "filter" : [{
-        "property" : "concept",
-        "op" : "is-a",
-        "value" : "394730007"
-      }]
-    }]
-  }
-}}
-####
-e: {
-  "error" : "Error unmarshalling resource: Unable to provide support for code system http://nucc.org/provider-taxonomy"
 }
 -------------------------------------------------------------------------------------

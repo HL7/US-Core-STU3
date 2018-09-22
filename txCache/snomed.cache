@@ -1,5 +1,4 @@
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "84638005"
@@ -10,7 +9,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "260385009"
@@ -21,7 +19,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "10828004"
@@ -32,7 +29,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "260348001"
@@ -43,7 +39,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "260405006"
@@ -54,7 +49,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "81858005"
@@ -65,7 +59,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "260350009"
@@ -76,7 +69,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "468063009"
@@ -87,7 +79,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "428041000124106"
@@ -98,7 +89,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "35637008"
@@ -109,7 +99,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "442311008"
@@ -120,7 +109,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "116154003"
@@ -131,7 +119,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "271807003"
@@ -142,7 +129,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "716186003"
@@ -153,7 +139,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "105590001"
@@ -164,7 +149,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "410942007"
@@ -175,7 +159,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "438951008"
@@ -186,7 +169,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "312412007"
@@ -197,7 +179,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "312413002"
@@ -208,7 +189,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "312417001"
@@ -219,7 +199,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "71388002"
@@ -230,7 +209,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -276,8 +254,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:9a3f04fa-4c7f-4219-afe1-75d09c0b9b53",
-    "timestamp" : "2018-09-19T22:02:04.829Z",
+    "identifier" : "urn:uuid:b533a66f-2fd1-4dd7-ab91-4c6a0a8b373c",
+    "timestamp" : "2018-09-21T23:16:13.810Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -335,7 +313,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "125676002"
@@ -346,7 +323,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "394730007"
@@ -357,7 +333,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "84638005",
@@ -369,7 +344,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "260385009",
@@ -381,7 +355,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "10828004",
@@ -393,7 +366,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "260348001",
@@ -405,7 +377,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "260405006",
@@ -417,7 +388,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "81858005",
@@ -429,7 +399,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "260350009",
@@ -441,7 +410,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "coding" : [{
     "system" : "http://snomed.info/sct",
@@ -467,7 +435,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "468063009",
@@ -479,12 +446,10 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "coding" : [{
     "system" : "http://snomed.info/sct",
-    "code" : "428041000124106",
-    "display" : "Current some day smoker"
+    "code" : "428041000124106"
   }],
   "text" : "Current some day smoker"
 }, "valueSet" :{
@@ -529,23 +494,10 @@ v: {
 }}####
 v: {
   "display" : "Occasional tobacco smoker",
-  "severity" : "warning",
-  "error" : "The display \"Current some day smoker\" is not a valid display for the code {http://snomed.info/sct}428041000124106"
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
-
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "428041000124106",
-  "display" : "Current some day smoker"
-}, "valueSet" :null}####
-v: {
-  "display" : "Occasional tobacco smoker",
-  "severity" : "warning",
-  "error" : "The display \"Current some day smoker\" is not a valid display for the code {http://snomed.info/sct}428041000124106"
-}
--------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "35637008",
@@ -557,7 +509,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "coding" : [{
     "system" : "http://snomed.info/sct",
@@ -598,7 +549,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "442311008",
@@ -610,7 +560,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "coding" : [{
     "system" : "http://snomed.info/sct",
@@ -642,12 +591,11 @@ v: {
   }
 }}####
 v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Unable to provide support for code system http://nucc.org/provider-taxonomy"
+  "display" : "Patient",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "116154003",
@@ -659,7 +607,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "271807003",
@@ -671,7 +618,6 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -698,8 +644,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:7b81213a-512b-48bc-b555-f11778965d82",
-    "timestamp" : "2018-09-19T22:02:50.173Z",
+    "identifier" : "urn:uuid:198e7089-d20d-4088-bbd0-e8caa88fa634",
+    "timestamp" : "2018-09-21T23:16:54.373Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -5717,7 +5663,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -5740,8 +5685,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:65b563b0-f3c5-4267-a859-5a91a2daf512",
-    "timestamp" : "2018-09-19T22:03:54.626Z",
+    "identifier" : "urn:uuid:58640b5e-875f-4bdc-ba63-6745b488c034",
+    "timestamp" : "2018-09-21T23:17:39.842Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -7579,7 +7524,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -7606,8 +7550,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:4aae8cef-4acc-4420-a5d9-7667c36f88d1",
-    "timestamp" : "2018-09-19T22:04:21.751Z",
+    "identifier" : "urn:uuid:c3d212a6-57b7-4de6-b8d6-634a5131bdfe",
+    "timestamp" : "2018-09-21T23:17:56.560Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -12625,7 +12569,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -12652,8 +12595,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:d188f814-7435-4edb-b5f4-fddd209a8f5e",
-    "timestamp" : "2018-09-19T22:05:11.860Z",
+    "identifier" : "urn:uuid:ac232b9a-758b-4d79-a18d-83c9c248630a",
+    "timestamp" : "2018-09-21T23:18:42.092Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -17671,7 +17614,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -17694,8 +17636,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:b091247a-2cdd-4db9-a389-ff0a4ebf3e72",
-    "timestamp" : "2018-09-19T22:06:01.829Z",
+    "identifier" : "urn:uuid:b137fd1c-edd3-4dd2-b7f8-21fce42ffc13",
+    "timestamp" : "2018-09-21T23:19:27.842Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -18513,7 +18455,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -18536,8 +18477,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:79e2e68a-0b86-466f-b947-15daa18357b5",
-    "timestamp" : "2018-09-19T22:06:10.048Z",
+    "identifier" : "urn:uuid:8b1dd8c6-aadc-4cf5-a3b6-33e40eafb8ef",
+    "timestamp" : "2018-09-21T23:19:35.452Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -18585,7 +18526,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -18612,8 +18552,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:d3c5ec89-47f2-41d3-9946-6bf8f3e3e218",
-    "timestamp" : "2018-09-19T22:06:10.548Z",
+    "identifier" : "urn:uuid:8b66528e-7c7f-49f4-bc3a-6ee9f5ce9469",
+    "timestamp" : "2018-09-21T23:19:35.920Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -23631,7 +23571,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -23648,8 +23587,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:be13d421-0042-4f2a-a9c5-348e318cf388",
-    "timestamp" : "2018-09-19T22:07:03.329Z",
+    "identifier" : "urn:uuid:cfbfa8a8-7f51-415c-9ee0-30ed25afd2aa",
+    "timestamp" : "2018-09-21T23:20:25.717Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -23668,7 +23607,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -23695,8 +23633,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:7ce1d7a8-ffec-4302-a591-bfffa9dac744",
-    "timestamp" : "2018-09-19T22:07:03.595Z",
+    "identifier" : "urn:uuid:94b68398-7659-457d-a881-6bb95f2c5364",
+    "timestamp" : "2018-09-21T23:20:26.061Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -28714,7 +28652,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -28741,8 +28678,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:e8e52401-75bd-44a9-9eca-7bcce66bfdb8",
-    "timestamp" : "2018-09-19T22:07:52.954Z",
+    "identifier" : "urn:uuid:c03b64a3-d669-4aca-8c18-b9d786000de7",
+    "timestamp" : "2018-09-21T23:21:12.311Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -33760,7 +33697,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -33778,8 +33714,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:98d4928d-517a-4049-b5ed-24df2bdcc59f",
-    "timestamp" : "2018-09-19T22:08:43.235Z",
+    "identifier" : "urn:uuid:be28e1bf-a760-4129-85c2-eb7fbdf6f669",
+    "timestamp" : "2018-09-21T23:21:57.921Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -33789,7 +33725,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -33835,8 +33770,8 @@ e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
   "expansion" : {
-    "identifier" : "urn:uuid:24d14834-685c-4347-9ab9-974c299a8a62",
-    "timestamp" : "2018-09-19T22:08:43.485Z",
+    "identifier" : "urn:uuid:3fb5f438-d39a-4ba1-909e-0ea57ca32ada",
+    "timestamp" : "2018-09-21T23:21:58.280Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -33890,7 +33825,6 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -33913,8 +33847,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:6714acd4-6f65-493b-aa57-e6ce619d1191",
-    "timestamp" : "2018-09-19T22:08:44.642Z",
+    "identifier" : "urn:uuid:fac4b7f0-f614-4a7d-95e5-61011626aace",
+    "timestamp" : "2018-09-21T23:21:59.937Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueString" : "-1"
@@ -34978,55 +34912,2645 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "428041000124106"
-  }],
-  "text" : "Current some day smoker"
-}, "valueSet" :{
+{"hierarchical" : false, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "449868002",
-        "display" : "Current every day smoker"
-      },
-      {
-        "code" : "428041000124106",
-        "display" : "Current some day smoker"
-      },
-      {
-        "code" : "8517006",
-        "display" : "Former smoker"
-      },
-      {
-        "code" : "266919005",
-        "display" : "Never smoker"
-      },
-      {
-        "code" : "77176002",
-        "display" : "Smoker, current status unknown"
-      },
-      {
-        "code" : "266927001",
-        "display" : "Unknown if ever smoked"
-      },
-      {
-        "code" : "428071000124103",
-        "display" : "Current Heavy tobacco smoker"
-      },
-      {
-        "code" : "428061000124105",
-        "display" : "Current Light tobacco smoker"
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "125676002"
       }]
     }]
   }
-}}####
-v: {
-  "display" : "Occasional tobacco smoker",
-  "severity" : null,
+}}
+####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
+      "valueBoolean" : true
+    }],
+    "identifier" : "urn:uuid:3d13f42c-c172-4781-bfb9-6342a311f1c2",
+    "timestamp" : "2018-09-21T23:22:20.656Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "270002",
+      "display" : "Female first cousin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "375005",
+      "display" : "Sibling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444000",
+      "display" : "Legal sibling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609005",
+      "display" : "Adoptive father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1354005",
+      "display" : "Orphan female"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2272004",
+      "display" : "Half-sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2316007",
+      "display" : "Adoptive son"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2368000",
+      "display" : "Great-great grandmother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2481008",
+      "display" : "Working mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "2959006",
+      "display" : "Female cousin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3425009",
+      "display" : "Oldest daughter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "3851003",
+      "display" : "Surrogate daughter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4577005",
+      "display" : "First cousin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "6676009",
+      "display" : "Youngest daughter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8458002",
+      "display" : "Foster father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8674003",
+      "display" : "Step son"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9306000",
+      "display" : "Legal parent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9947008",
+      "display" : "Natural father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10896006",
+      "display" : "Identical twin sibling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10960006",
+      "display" : "Working father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11286003",
+      "display" : "Twin sibling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11393001",
+      "display" : "Great-great grand child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11434005",
+      "display" : "Male second cousin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11773006",
+      "display" : "Legal brother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11993008",
+      "display" : "Male first cousin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12241003",
+      "display" : "Foster son"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "12629003",
+      "display" : "Single mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13038009",
+      "display" : "Older brother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13157002",
+      "display" : "Older sibling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13443008",
+      "display" : "Second cousin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "13646006",
+      "display" : "Natural parent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14469008",
+      "display" : "Legal child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15130002",
+      "display" : "Surrogate parent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17219007",
+      "display" : "Male fiance"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17925003",
+      "display" : "Adoptive brother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17945006",
+      "display" : "Natural grandmother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18205005",
+      "display" : "Wesleyan Methodist, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18906004",
+      "display" : "Foster sibling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19343003",
+      "display" : "Twin sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "19686009",
+      "display" : "Younger sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21093007",
+      "display" : "Half-sibling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21464003",
+      "display" : "Adoptive mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "21506002",
+      "display" : "Female second cousin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22387007",
+      "display" : "Surrogate child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22573006",
+      "display" : "Stepdaughter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22609000",
+      "display" : "Adoptive grandparent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "22963000",
+      "display" : "Legal sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25211005",
+      "display" : "Aunt"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27508009",
+      "display" : "Surrogate mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27733009",
+      "display" : "Sr - Sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "28010004",
+      "display" : "Shiite muslim, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29539002",
+      "display" : "Younger sibling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29644004",
+      "display" : "Fraternal twin sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "29787005",
+      "display" : "Foster brother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "30578000",
+      "display" : "Stepfather"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31656007",
+      "display" : "Adoptive grandmother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "31831004",
+      "display" : "Foster daughter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "33969000",
+      "display" : "Great-grandparent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34581001",
+      "display" : "Niece"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34871008",
+      "display" : "Grandfather"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "34972000",
+      "display" : "Only daughter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38048003",
+      "display" : "Uncle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38248007",
+      "display" : "Oldest son"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38265003",
+      "display" : "Foster mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38312007",
+      "display" : "Grandparent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "39062003",
+      "display" : "Foster child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "40683002",
+      "display" : "Parent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "41057000",
+      "display" : "Surrogate son"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "41795004",
+      "display" : "Legal son"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "41953004",
+      "display" : "Adoptive parent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "44181008",
+      "display" : "Granddaughter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "45929001",
+      "display" : "Half-brother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "46363003",
+      "display" : "Stepsister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "47801002",
+      "display" : "Male cousin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "48385004",
+      "display" : "Acquaintance"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "48673000",
+      "display" : "Adoptive child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "50058005",
+      "display" : "Identical twin sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "50261002",
+      "display" : "Great-grandfather"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "51616000",
+      "display" : "Sephardic Jew, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "53201003",
+      "display" : "Older sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "54056000",
+      "display" : "Trustee"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "55538000",
+      "display" : "Cousin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "58293006",
+      "display" : "Foster sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "58626002",
+      "display" : "Legal guardian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "60614009",
+      "display" : "Natural brother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "62090008",
+      "display" : "Legal mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "62296006",
+      "display" : "Natural grand-father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "64988008",
+      "display" : "Sunni muslim, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "65412001",
+      "display" : "Step-mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "65616008",
+      "display" : "Son"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "65656005",
+      "display" : "Natural mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "65853000",
+      "display" : "Student"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "66089001",
+      "display" : "Daughter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "66839005",
+      "display" : "Father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "67005001",
+      "display" : "Adoptive daughter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "67147004",
+      "display" : "Legal father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "67822003",
+      "display" : "Child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "68021009",
+      "display" : "Great-great grand-parent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "70578009",
+      "display" : "Grand son"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "70862002",
+      "display" : "Contact person"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "70924004",
+      "display" : "Brother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "72012000",
+      "display" : "Great grand child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "72705000",
+      "display" : "Mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "73678001",
+      "display" : "Natural sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "74128007",
+      "display" : "Step parent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "74489007",
+      "display" : "Younger child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "75226009",
+      "display" : "Natural child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "75615008",
+      "display" : "Surrogate father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76022008",
+      "display" : "Adoptive sister"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "76087000",
+      "display" : "Step brother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "78194006",
+      "display" : "Identical twin brother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "78272007",
+      "display" : "Natural grand-parent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "78652007",
+      "display" : "Great grand-mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "78872000",
+      "display" : "Orphan male"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "79508001",
+      "display" : "Adoptive sibling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "79756005",
+      "display" : "Boyfriend"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "80386000",
+      "display" : "Great-great grand-father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "80587008",
+      "display" : "Jehovah's Witness, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "81173009",
+      "display" : "Only son"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "81276006",
+      "display" : "Twin brother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "81467001",
+      "display" : "Fraternal twin brother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "81706006",
+      "display" : "Ashkenazi Jew"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "82101005",
+      "display" : "Natural sibling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "83408003",
+      "display" : "Working parent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "83420006",
+      "display" : "Natural daughter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "83559000",
+      "display" : "Nephew"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "84390006",
+      "display" : "Girlfriend"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "85058002",
+      "display" : "Adoptive grandfather"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "85411004",
+      "display" : "Younger brother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "85683001",
+      "display" : "Single father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "86372007",
+      "display" : "Grand child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "86764008",
+      "display" : "Step child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "88510002",
+      "display" : "Step sibling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "89681006",
+      "display" : "Youngest son"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "90921004",
+      "display" : "Foster parent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105428002",
+      "display" : "Homosexual parents"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105429005",
+      "display" : "Elderly parents"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105431001",
+      "display" : "Adopted person"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105436006",
+      "display" : "Elderly person"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105437002",
+      "display" : "Elderly man"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105438007",
+      "display" : "Elderly woman"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105449001",
+      "display" : "Sick relative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105450001",
+      "display" : "Alcoholic relative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105451002",
+      "display" : "Demented relative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105452009",
+      "display" : "Diabetic relative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105453004",
+      "display" : "Schizophrenic relative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105454005",
+      "display" : "Disabled relative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105455006",
+      "display" : "Donor for medical or surgical procedure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105456007",
+      "display" : "Live donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105457003",
+      "display" : "Cadaver donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105458008",
+      "display" : "Candidate donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105459000",
+      "display" : "Accepted donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105460005",
+      "display" : "Rejected donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105461009",
+      "display" : "Organ donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105462002",
+      "display" : "Donor of kidney for transplant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105463007",
+      "display" : "Donor for liver transplant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105464001",
+      "display" : "Eye donor for corneal transplant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105465000",
+      "display" : "Donor for heart transplant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105466004",
+      "display" : "Donor for lung transplant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105467008",
+      "display" : "Donor for heart-lung transplant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105468003",
+      "display" : "Tissue donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105469006",
+      "display" : "Bone tissue donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105470007",
+      "display" : "Blood donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105471006",
+      "display" : "Bone marrow donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105472004",
+      "display" : "Sperm donor for artificial insemination"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105473009",
+      "display" : "Husband sperm donor for artificial insemination"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "105474003",
+      "display" : "Related sperm donor for artificial insemination"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "113157001",
+      "display" : "Grandmother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "113158006",
+      "display" : "Fraternal twin sibling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "113159003",
+      "display" : "Legal daughter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "113160008",
+      "display" : "Natural son"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "113161007",
+      "display" : "Female fiance"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "113163005",
+      "display" : "Friend"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "116153009",
+      "display" : "Donor of control material"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "116154003",
+      "display" : "Patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "125677006",
+      "display" : "Relative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "125678001",
+      "display" : "First degree blood relative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "125679009",
+      "display" : "Blood relative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "127848009",
+      "display" : "Spouse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "127849001",
+      "display" : "Husband"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "127850001",
+      "display" : "Wife"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "127851002",
+      "display" : "Fiance"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "133931009",
+      "display" : "Infant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "133932002",
+      "display" : "Caregiver"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "133933007",
+      "display" : "Newborn"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "133936004",
+      "display" : "Adult"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "133937008",
+      "display" : "Adolescent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160234004",
+      "display" : "Salvation Army member"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160498000",
+      "display" : "School child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160505009",
+      "display" : "Common-law husband"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160506005",
+      "display" : "Common-law wife"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160540005",
+      "display" : "Roman Catholic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160542002",
+      "display" : "Atheist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160543007",
+      "display" : "Jew"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160544001",
+      "display" : "Christian Science Church"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160545000",
+      "display" : "Hindu"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160549006",
+      "display" : "Christian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160557009",
+      "display" : "Baptist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160558004",
+      "display" : "Methodist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160560002",
+      "display" : "Presbyterian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160562005",
+      "display" : "Pentecostal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160563000",
+      "display" : "Evangelist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160566008",
+      "display" : "Christadelphian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160567004",
+      "display" : "Agnostic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "160772005",
+      "display" : "Voluntary worker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "161158003",
+      "display" : "Immigrant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224080001",
+      "display" : "Committed Christian, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224526002",
+      "display" : "Woman"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224527006",
+      "display" : "Person in the work environment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224528001",
+      "display" : "Employee"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224619008",
+      "display" : "Migrant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "224627004",
+      "display" : "General category of person"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "248544006",
+      "display" : "Rastafarian, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "255409004",
+      "display" : "Pregnant woman"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257497009",
+      "display" : "Animal rider"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257498004",
+      "display" : "Rider of motorcycle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257499007",
+      "display" : "Pedal cyclist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257500003",
+      "display" : "Passenger"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257501004",
+      "display" : "Occupant of motor vehicle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257502006",
+      "display" : "Occupant of tram"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257503001",
+      "display" : "Pillion passenger"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257504007",
+      "display" : "Person riding on outside of vehicle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257505008",
+      "display" : "Person travelling on outside of train"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257506009",
+      "display" : "Front seat passenger"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257508005",
+      "display" : "Back seat passenger"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257509002",
+      "display" : "Occupant of animal-drawn vehicle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257510007",
+      "display" : "Passenger on commercial watercraft"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257511006",
+      "display" : "Passenger on station"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257512004",
+      "display" : "Passenger on train"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257513009",
+      "display" : "Member of public"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257514003",
+      "display" : "Member of public involved incidentally"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257516001",
+      "display" : "Member of public on ground"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257517005",
+      "display" : "Occupant of nonmotor vehicle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257518000",
+      "display" : "Pedestrian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257519008",
+      "display" : "Person trespassing on railway line"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257521003",
+      "display" : "Railway employee on train"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257522005",
+      "display" : "Recreational watercraft user"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257523000",
+      "display" : "Swimmer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257524006",
+      "display" : "User of animal-drawn vehicle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257525007",
+      "display" : "Watercraft dweller"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "257526008",
+      "display" : "Waterskier"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "262043009",
+      "display" : "Companion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "266943008",
+      "display" : "Single parent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "268557009",
+      "display" : "Sportsman"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "271448006",
+      "display" : "Anglican, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "276035002",
+      "display" : "Voluntary helper"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "276036001",
+      "display" : "Voluntary visitor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "276037005",
+      "display" : "Volunteer helper"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "276119007",
+      "display" : "Nonconformist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303069001",
+      "display" : "Person in the transport environment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303071001",
+      "display" : "Person in the family"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303072008",
+      "display" : "Person in the home environment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303073003",
+      "display" : "Person in the religious environment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303118004",
+      "display" : "Person in the healthcare environment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303119007",
+      "display" : "Person in the community environment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303120001",
+      "display" : "Person in the recreational environment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303121002",
+      "display" : "Person in the educational environment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303122009",
+      "display" : "Crewmember"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303977004",
+      "display" : "Occupant of railway vehicle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303980003",
+      "display" : "Driver of motor vehicle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303981004",
+      "display" : "Driver of animal-drawn vehicle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303983001",
+      "display" : "Passenger of animal-drawn vehicle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303984007",
+      "display" : "Passenger on pedal cycle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303985008",
+      "display" : "Occupant of watercraft"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303986009",
+      "display" : "Occupant of aircraft"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303987000",
+      "display" : "Horse rider"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303988005",
+      "display" : "Passenger on aircraft"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303989002",
+      "display" : "Crewmember on aircraft"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303990006",
+      "display" : "Passenger of motor vehicle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303991005",
+      "display" : "Trespasser"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303992003",
+      "display" : "Car passenger"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303993008",
+      "display" : "Coach passenger"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309456003",
+      "display" : "Clergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309687009",
+      "display" : "Buddhist, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309884000",
+      "display" : "Muslim, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309885004",
+      "display" : "Protestant, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309886003",
+      "display" : "Quaker, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310543008",
+      "display" : "Graduate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313415001",
+      "display" : "Identical twin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313416000",
+      "display" : "Heterozygous twin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "314712007",
+      "display" : "Parachutist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "314767008",
+      "display" : "Bird fancier"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "339947000",
+      "display" : "Man"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "360852005",
+      "display" : "Bum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "360863008",
+      "display" : "Beggar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "360984002",
+      "display" : "Hasidic Jew, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "366740002",
+      "display" : "Sikh, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "373864002",
+      "display" : "Outpatient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "373929005",
+      "display" : "Orphan child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "385435006",
+      "display" : "Individual"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "390790000",
+      "display" : "Asylum seeker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394566006",
+      "display" : "Great-grandson"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394567002",
+      "display" : "Great-granddaughter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394568007",
+      "display" : "Extended family member"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394571004",
+      "display" : "Employer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394619001",
+      "display" : "Guardian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394738000",
+      "display" : "Other related persons"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394854006",
+      "display" : "Immediate family member"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394855007",
+      "display" : "Non-immediate family member"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394856008",
+      "display" : "Paternal grand-father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394857004",
+      "display" : "Maternal grand-father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394858009",
+      "display" : "Paternal grand-mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394859001",
+      "display" : "Maternal grand-mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394860006",
+      "display" : "Distant relative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394861005",
+      "display" : "Great-uncle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394862003",
+      "display" : "Great-aunt"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394863008",
+      "display" : "Non-family member"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394921008",
+      "display" : "Cohabitee"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "407542009",
+      "display" : "Informal carer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "407543004",
+      "display" : "Primary carer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "410597007",
+      "display" : "Person categorized by religious affiliation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "410598002",
+      "display" : "Person categorized by age"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "410599005",
+      "display" : "Minor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "410600008",
+      "display" : "Pre-teen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "410601007",
+      "display" : "Child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "410602000",
+      "display" : "Preschool child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "410603005",
+      "display" : "Person in the legal environment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "410604004",
+      "display" : "Subject of record"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "413327003",
+      "display" : "Student in full time education"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "414043009",
+      "display" : "Domestic partner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416034003",
+      "display" : "Primary screener"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416035002",
+      "display" : "Secondary screener"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416625007",
+      "display" : "Family reunion immigrant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416800000",
+      "display" : "Inpatient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "418119000",
+      "display" : "Infant child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "419358007",
+      "display" : "Subject of record or other provider of history"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "420058008",
+      "display" : "Provider of history other than subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "420158005",
+      "display" : "Performer of method"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "427568008",
+      "display" : "Neighbor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "427729003",
+      "display" : "Elim Pentecostalist, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "427754003",
+      "display" : "Liberal Jew"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "427755002",
+      "display" : "Lutheran, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "427874000",
+      "display" : "Congregationalist, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "427950002",
+      "display" : "Haredi Jew"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "427963008",
+      "display" : "Advaitin Hindu, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "427981006",
+      "display" : "Zen Buddhist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428024001",
+      "display" : "Clinical trial participant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428315004",
+      "display" : "Anabaptist, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428347009",
+      "display" : "Arya Samaj Hindu"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428373004",
+      "display" : "Coptic Orthodox, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428376007",
+      "display" : "Eastern Catholic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428378008",
+      "display" : "Ethiopian Orthodox Tewahedo, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428407001",
+      "display" : "Theravada Buddhist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428408006",
+      "display" : "Wiccan"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428410008",
+      "display" : "Shakti Hindu"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428496003",
+      "display" : "Tibetan Buddhist, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428503004",
+      "display" : "Orthodox Christian"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428504005",
+      "display" : "Christian Spiritualist, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428506007",
+      "display" : "Druid, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428620006",
+      "display" : "Smarta Hindu"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428666001",
+      "display" : "Nichiren Buddhist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428792000",
+      "display" : "Case contact"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428801007",
+      "display" : "Ismaili Muslim"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428815009",
+      "display" : "Ahmadi, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428816005",
+      "display" : "Armenian Catholic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428820009",
+      "display" : "Pure Land Buddhist, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428821008",
+      "display" : "Seventh Day Adventist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429158002",
+      "display" : "Greek Orthodox"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429171004",
+      "display" : "Spiritualist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429379008",
+      "display" : "Shiva Hindu, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429509008",
+      "display" : "Reform Jew, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429511004",
+      "display" : "Vaishnava Hindu"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429527006",
+      "display" : "New Kadampa Tradition Buddhist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429533002",
+      "display" : "Mahayana Buddhist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429534008",
+      "display" : "Masorti Jew, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429539003",
+      "display" : "Calvinist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429543004",
+      "display" : "Taoist, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429544005",
+      "display" : "Russian Orthodox, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429545006",
+      "display" : "Sanatana Dharma follower"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429547003",
+      "display" : "Shinto"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429577009",
+      "display" : "Patient advocate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429644000",
+      "display" : "Orthodox Jew, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429708003",
+      "display" : "Unitarian, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429732005",
+      "display" : "Baha'i"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429787006",
+      "display" : "Jain, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429790000",
+      "display" : "Zoroastrian, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "430098004",
+      "display" : "Donor for intestine transplant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "430101000",
+      "display" : "Whole blood donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "430792005",
+      "display" : "Stem cell donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "430882007",
+      "display" : "Egg donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "431549007",
+      "display" : "Female child"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "433152004",
+      "display" : "Boy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "433475001",
+      "display" : "Human oocyte donor, age 35 and older"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "438347000",
+      "display" : "Person categorized by affiliation with belief system"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441463002",
+      "display" : "Sperm donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441465009",
+      "display" : "Stranger is sperm donor for artificial insemination"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441468006",
+      "display" : "Unrelated known sperm donor for artificial insemination"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444018008",
+      "display" : "Person with characteristic related to subject of record"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444052006",
+      "display" : "Spouse of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444053001",
+      "display" : "Husband of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444054007",
+      "display" : "Wife of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444055008",
+      "display" : "Uncle of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444145006",
+      "display" : "Partner in relationship with subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444146007",
+      "display" : "Boyfriend of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444147003",
+      "display" : "Girlfriend of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444148008",
+      "display" : "Person in family of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444168002",
+      "display" : "Homemaker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444169005",
+      "display" : "House husband"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444191003",
+      "display" : "Aunt of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444192005",
+      "display" : "Child of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444193000",
+      "display" : "First degree blood relative of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444194006",
+      "display" : "Daughter of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444199001",
+      "display" : "Friend of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444210007",
+      "display" : "Cohabitee in relationship with subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444211006",
+      "display" : "Common law husband of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444212004",
+      "display" : "Common law wife of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444213009",
+      "display" : "Domestic partner of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444241008",
+      "display" : "Son of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444242001",
+      "display" : "Grandparent of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444243006",
+      "display" : "Maternal grandfather of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444244000",
+      "display" : "Maternal grandmother of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444278006",
+      "display" : "Fiance of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444279003",
+      "display" : "Female fiance of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444280000",
+      "display" : "Male fiance of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444292000",
+      "display" : "Paternal grandfather of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444293005",
+      "display" : "Paternal grandmother of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444294004",
+      "display" : "Parent of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444295003",
+      "display" : "Father of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444301002",
+      "display" : "Mother of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444302009",
+      "display" : "Sibling of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444303004",
+      "display" : "Brother of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444304005",
+      "display" : "Sister of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444464007",
+      "display" : "Recipient of biological material from subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444870008",
+      "display" : "Apostolic Pentecostalist, follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "446654005",
+      "display" : "Refugee"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "450768005",
+      "display" : "International student"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "699110007",
+      "display" : "Second degree blood relative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "699111006",
+      "display" : "Second degree blood relative of subject"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713176007",
+      "display" : "Cadaver donor for lung transplant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713177003",
+      "display" : "Cadaver donor for heart transplant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713178008",
+      "display" : "Cadaver donor for liver transplant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713179000",
+      "display" : "Cadaver donor for corneal transplant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713183000",
+      "display" : "Cadaver donor for kidney transplant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713184006",
+      "display" : "Blood product donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713352007",
+      "display" : "Skin donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713353002",
+      "display" : "Live related liver donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713369009",
+      "display" : "Live related kidney donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "715167002",
+      "display" : "Open Episcopal Church follower of religion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "471000122100",
+      "display" : "Multi-organ donor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "100217091000087103",
+      "display" : "Maternal aunt"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "166557991000087101",
+      "display" : "Maternal great grand-father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "173704201000087107",
+      "display" : "Paternal first cousin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "194907391000087109",
+      "display" : "Maternal great grand-mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "215424891000087101",
+      "display" : "Paternal great grand-mother"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "286864561000087100",
+      "display" : "Maternal cousin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "396762341000087100",
+      "display" : "Paternal cousin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "398524981000087101",
+      "display" : "Paternal great grand-father"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "583114651000087104",
+      "display" : "Maternal uncle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "589612571000087102",
+      "display" : "Paternal uncle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "691349461000087102",
+      "display" : "Paternal aunt"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "844670641000087109",
+      "display" : "Maternal first cousin"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "394730007"
+      }]
+    }]
+  }
+}}
+####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
+      "valueBoolean" : true
+    }],
+    "identifier" : "urn:uuid:56ad0221-f469-4bca-a5ba-de44828b5688",
+    "timestamp" : "2018-09-21T23:22:45.484Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20161031"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "394745000",
+      "display" : "General practice (organisation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394746004",
+      "display" : "Regional office"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394747008",
+      "display" : "Health Authority"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394748003",
+      "display" : "Primary Care Group"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394749006",
+      "display" : "Primary Care Trust"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394751005",
+      "display" : "Special Health Authority"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394757009",
+      "display" : "Hospice - independent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394758004",
+      "display" : "Independent provider"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394760002",
+      "display" : "GP practice"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394762005",
+      "display" : "GDP practice"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394763000",
+      "display" : "MoD practice"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394764006",
+      "display" : "MoD hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394765007",
+      "display" : "Prison practice"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "398154004",
+      "display" : "Quality Improvement Template Task Force"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "398255008",
+      "display" : "Association of anesthesia clinical directors"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "5581000087108",
+      "display" : "Canadian jurisdiction-based"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8051000087100",
+      "display" : "Jurisdiction driver license number"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8061000087102",
+      "display" : "Jurisdictional birth certificate registration number"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "8071000087106",
+      "display" : "Interim health program certificate number"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "183033871000087106",
+      "display" : "Ministry of Health Saskatchewan"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "189542671000087101",
+      "display" : "Ministry of Health Quebec"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "249236551000087105",
+      "display" : "Community health center"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "250624661000087107",
+      "display" : "Nova Scotia Department of Health and Wellness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254693751000087105",
+      "display" : "Nunavut Department of Health and Social Services"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "287697331000087102",
+      "display" : "Provider billing number"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "317817411000087104",
+      "display" : "Independent health care facility"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "357174231000087105",
+      "display" : "Health regulatory body for occupational therapists"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "371439331000087102",
+      "display" : "Health regulatory body for physiotherapists"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "392685081000087107",
+      "display" : "Health regulatory body for dental hygienists"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "420314821000087103",
+      "display" : "Health regulatory body for massage therapists"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "432233171000087103",
+      "display" : "Jurisdictional health number"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "437208901000087109",
+      "display" : "Provincial and/or territorial government plan - out of jurisdiction"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "439182891000087102",
+      "display" : "Provider number issued by third party"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441144831000087108",
+      "display" : "Health regulatory body for physicians and surgeons"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "443470051000087109",
+      "display" : "Ministry of health"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "460276491000087102",
+      "display" : "New Brunswick Department of Health"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "539773351000087101",
+      "display" : "Alberta Health and Wellness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "548886741000087101",
+      "display" : "Health regulatory body for denturists"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "549577861000087101",
+      "display" : "Health regulatory body for chiropractors"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "553641311000087101",
+      "display" : "Newfoundland and Labrador Department of Health and Community Services"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "567496441000087102",
+      "display" : "Cancer Plan (Saskatchewan) and Sexually Transmitted Diseases Plan"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "569232871000087107",
+      "display" : "Yukon Department of Health and Social Services"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "609564621000087104",
+      "display" : "Health regulatory body for pharmacists"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "643545671000087106",
+      "display" : "Health regulatory body for social workers"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "644191431000087105",
+      "display" : "Ministry of Health and Long-Term Care Ontario"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "666298511000087107",
+      "display" : "Health regulatory body for midwives"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "673433971000087102",
+      "display" : "Provider registration number"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "724022191000087108",
+      "display" : "Health regulatory body for respiratory therapists"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "726220521000087101",
+      "display" : "Provincial and/or territorial government plan - resident"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "745424761000087106",
+      "display" : "Workers' Compensation number"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "753977441000087109",
+      "display" : "Ministry of Health Northwest Territories"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "762510691000087106",
+      "display" : "Health regulatory body for audiologists and speech-language pathologists"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "859430851000087100",
+      "display" : "Medical Care Plan - Hospital Technical Services (Quebec)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "874107021000087108",
+      "display" : "Health regulatory body for nurses"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "876612791000087101",
+      "display" : "Health regulatory body for paramedics"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "882121321000087100",
+      "display" : "Ministry of Health British Columbia"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "912320101000087109",
+      "display" : "Health regulatory body for practical nurses"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "930012821000087105",
+      "display" : "Health regulatory body for dietitians"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "998711551000087102",
+      "display" : "Health PEI"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "998820271000087109",
+      "display" : "Manitoba Health"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "999483971000087108",
+      "display" : "Health regulatory body for naturopathic practitioners"
+    }]
+  }
+},
   "error" : ""
 }
 -------------------------------------------------------------------------------------

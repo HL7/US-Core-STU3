@@ -6,6 +6,6 @@
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "Unable to provide support for code system http://michigan.gov/lara/license-type"
+  "error" : "The code system \"http://michigan.gov/lara/license-type\" is not known; The code provided (http://michigan.gov/lara/license-type#4305) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------

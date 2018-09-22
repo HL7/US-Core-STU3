@@ -25,7 +25,7 @@ sct-edition,http://snomed.info/sct/731000124108
 searches,
 source,ig.xml
 special-urls,urn:oid:2.16.840.1.113883.6.238
-status,draft
+status,active
 structuremaps,
 title,US Core
 tool,jekyll
