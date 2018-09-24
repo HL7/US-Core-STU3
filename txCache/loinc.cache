@@ -1,4 +1,6 @@
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "29463-7"
@@ -9,6 +11,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "85353-1"
@@ -19,6 +23,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "5811-5"
@@ -29,6 +35,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "20405-7"
@@ -39,6 +47,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "5821-4"
@@ -49,6 +59,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "11279-7"
@@ -59,6 +71,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "13945-1"
@@ -69,6 +83,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "20454-5"
@@ -79,6 +95,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "5803-2"
@@ -89,6 +107,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "5802-4"
@@ -99,6 +119,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "5799-2"
@@ -109,6 +131,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "2514-8"
@@ -119,6 +143,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "5794-3"
@@ -129,6 +155,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "25428-4"
@@ -139,6 +167,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "5787-7"
@@ -149,6 +179,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "5778-6"
@@ -159,6 +191,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "32167-9"
@@ -169,6 +203,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "5770-3"
@@ -179,6 +215,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "25145-4"
@@ -189,6 +227,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "24356-8"
@@ -199,6 +239,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "8310-5"
@@ -209,6 +251,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "72166-2"
@@ -219,6 +263,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "1975-2"
@@ -229,6 +275,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "2951-2"
@@ -239,6 +287,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "2823-3"
@@ -249,6 +299,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "2160-0"
@@ -259,6 +311,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "2028-9"
@@ -269,6 +323,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "2075-0"
@@ -279,6 +335,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "17861-6"
@@ -289,6 +347,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "9279-1"
@@ -299,6 +359,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "59408-5"
@@ -309,6 +371,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "770-8"
@@ -319,6 +383,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "24323-8"
@@ -329,6 +395,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "786-4"
@@ -339,6 +407,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "8306-3"
@@ -349,6 +419,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "718-7"
@@ -359,6 +431,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "8302-2"
@@ -369,6 +443,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "8867-4"
@@ -379,6 +455,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "8287-5"
@@ -389,6 +467,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "789-8"
@@ -399,6 +479,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "34133-9"
@@ -409,6 +491,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "58410-2"
@@ -419,6 +503,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "3094-0"
@@ -429,6 +515,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "85354-9"
@@ -439,6 +527,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "8480-6"
@@ -449,6 +539,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "8462-4"
@@ -459,6 +551,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "39156-5"
@@ -469,6 +563,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "system" : "http://loinc.org",
   "code" : "2339-0"
@@ -479,6 +575,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -542,6 +640,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -605,6 +705,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -626,6 +728,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -647,6 +751,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -668,6 +774,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -689,6 +797,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -710,6 +820,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -731,6 +843,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -752,6 +866,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -773,6 +889,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -794,6 +912,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -815,6 +935,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -836,6 +958,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -857,6 +981,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -878,6 +1004,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -899,6 +1027,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -920,6 +1050,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -941,6 +1073,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -962,6 +1096,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -983,6 +1119,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1046,6 +1184,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1067,6 +1207,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1088,6 +1230,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1109,6 +1253,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1130,6 +1276,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1151,6 +1299,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1172,6 +1322,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1193,6 +1345,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1256,6 +1410,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1319,6 +1475,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1340,6 +1498,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1360,6 +1520,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1381,6 +1543,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1444,6 +1608,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1465,6 +1631,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1528,6 +1696,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1591,6 +1761,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1654,6 +1826,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -1675,6 +1849,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -27300,6 +27476,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -27320,6 +27498,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -27341,6 +27521,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -27404,6 +27586,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -27467,6 +27651,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -27530,6 +27716,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -27593,6 +27781,8 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
+
 {"code" : {
   "coding" : [{
     "system" : "http://loinc.org",
@@ -27610,6 +27800,593 @@ v: {
 }}####
 v: {
   "display" : "Glucose [Mass/volume] in Blood",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "29463-7",
+  "display" : "Body Weight"
+}, "valueSet" :null}####
+v: {
+  "display" : "Body weight",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85353-1",
+  "display" : "Vital signs, weight, height, head circumference, oxygen saturation and BMI panel"
+}, "valueSet" :null}####
+v: {
+  "display" : "Vital signs, weight, height, head circumference, oxygen saturation and BMI panel",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5811-5",
+  "display" : "Specific gravity of Urine by Test strip"
+}, "valueSet" :null}####
+v: {
+  "display" : "Specific gravity of Urine by Test strip",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "20405-7",
+  "display" : "Urobilinogen [Mass/volume] in Urine by Test strip"
+}, "valueSet" :null}####
+v: {
+  "display" : "Urobilinogen [Mass/volume] in Urine by Test strip",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5821-4",
+  "display" : "Leukocytes [#/area] in Urine sediment by Microscopy high power field"
+}, "valueSet" :null}####
+v: {
+  "display" : "Leukocytes [#/area] in Urine sediment by Microscopy high power field",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "11279-7",
+  "display" : "Urine sediment comments by Light microscopy Narrative"
+}, "valueSet" :null}####
+v: {
+  "display" : "Urine sediment comments by Light microscopy Narrative",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "13945-1",
+  "display" : "Erythrocytes [#/area] in Urine sediment by Microscopy high power field"
+}, "valueSet" :null}####
+v: {
+  "display" : "Erythrocytes [#/area] in Urine sediment by Microscopy high power field",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "20454-5",
+  "display" : "Protein [Presence] in Urine by Test strip"
+}, "valueSet" :null}####
+v: {
+  "display" : "Protein [Presence] in Urine by Test strip",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5803-2",
+  "display" : "pH of Urine by Test strip"
+}, "valueSet" :null}####
+v: {
+  "display" : "pH of Urine by Test strip",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5802-4",
+  "display" : "Nitrite [Presence] in Urine by Test strip"
+}, "valueSet" :null}####
+v: {
+  "display" : "Nitrite [Presence] in Urine by Test strip",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5799-2",
+  "display" : "Leukocyte esterase [Presence] in Urine by Test strip"
+}, "valueSet" :null}####
+v: {
+  "display" : "Leukocyte esterase [Presence] in Urine by Test strip",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "2514-8",
+  "display" : "Ketones [Presence] in Urine by Test strip"
+}, "valueSet" :null}####
+v: {
+  "display" : "Ketones [Presence] in Urine by Test strip",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5794-3",
+  "display" : "Hemoglobin [Presence] in Urine by Test strip"
+}, "valueSet" :null}####
+v: {
+  "display" : "Hemoglobin [Presence] in Urine by Test strip",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "25428-4",
+  "display" : "Glucose [Presence] in Urine by Test strip"
+}, "valueSet" :null}####
+v: {
+  "display" : "Glucose [Presence] in Urine by Test strip",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5787-7",
+  "display" : "Epithelial cells [#/area] in Urine sediment by Microscopy high power field"
+}, "valueSet" :null}####
+v: {
+  "display" : "Epithelial cells [#/area] in Urine sediment by Microscopy high power field",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5778-6",
+  "display" : "Color of Urine"
+}, "valueSet" :null}####
+v: {
+  "display" : "Color of Urine",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "32167-9",
+  "display" : "Clarity of Urine"
+}, "valueSet" :null}####
+v: {
+  "display" : "Clarity of Urine",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "5770-3",
+  "display" : "Bilirubin.total [Presence] in Urine by Test strip"
+}, "valueSet" :null}####
+v: {
+  "display" : "Bilirubin.total [Presence] in Urine by Test strip",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "25145-4",
+  "display" : "Bacteria [Presence] in Urine sediment by Light microscopy"
+}, "valueSet" :null}####
+v: {
+  "display" : "Bacteria [Presence] in Urine sediment by Light microscopy",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "24356-8",
+  "display" : "Urinalysis complete panel - Urine"
+}, "valueSet" :null}####
+v: {
+  "display" : "Urinalysis complete panel - Urine",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8310-5",
+  "display" : "Body temperature"
+}, "valueSet" :null}####
+v: {
+  "display" : "Body temperature",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "72166-2",
+  "display" : "Tobacco smoking status"
+}, "valueSet" :null}####
+v: {
+  "display" : "Tobacco smoking status NHIS",
+  "severity" : "warning",
+  "error" : "The display \"Tobacco smoking status\" is not a valid display for the code {http://loinc.org}72166-2 - should be one of [\"Tobacco smoking status NHIS\",\"Tobac smoke stat NHIS\"]"
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "1975-2",
+  "display" : "Bilirub SerPl-mCnc"
+}, "valueSet" :null}####
+v: {
+  "display" : "Bilirubin.total [Mass/volume] in Serum or Plasma",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "2951-2",
+  "display" : "Sodium SerPl-sCnc"
+}, "valueSet" :null}####
+v: {
+  "display" : "Sodium [Moles/volume] in Serum or Plasma",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "2823-3",
+  "display" : "Potassium SerPl-sCnc"
+}, "valueSet" :null}####
+v: {
+  "display" : "Potassium [Moles/volume] in Serum or Plasma",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "2160-0",
+  "display" : "Creat SerPl-mCnc"
+}, "valueSet" :null}####
+v: {
+  "display" : "Creatinine [Mass/volume] in Serum or Plasma",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "2028-9",
+  "display" : "CO2 SerPl-sCnc"
+}, "valueSet" :null}####
+v: {
+  "display" : "Carbon dioxide, total [Moles/volume] in Serum or Plasma",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "2075-0",
+  "display" : "Chloride SerPl-sCnc"
+}, "valueSet" :null}####
+v: {
+  "display" : "Chloride [Moles/volume] in Serum or Plasma",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "17861-6",
+  "display" : "Calcium SerPl-mCnc"
+}, "valueSet" :null}####
+v: {
+  "display" : "Calcium [Mass/volume] in Serum or Plasma",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "9279-1",
+  "display" : "Respiratory rate"
+}, "valueSet" :null}####
+v: {
+  "display" : "Respiratory rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "59408-5",
+  "display" : "Oxygen saturation in Arterial blood by Pulse oximetry"
+}, "valueSet" :null}####
+v: {
+  "display" : "Oxygen saturation in Arterial blood by Pulse oximetry",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "770-8",
+  "display" : "Neutrophils/100 leukocytes in Blood by Automated count"
+}, "valueSet" :null}####
+v: {
+  "display" : "Neutrophils/100 leukocytes in Blood by Automated count",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "24323-8",
+  "display" : "Comprehensive metabolic 2000 panel - Serum or Plasma"
+}, "valueSet" :null}####
+v: {
+  "display" : "Comprehensive metabolic 2000 panel - Serum or Plasma",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "786-4",
+  "display" : "MCHC RBC Auto-mCnc"
+}, "valueSet" :null}####
+v: {
+  "display" : "MCHC [Mass/volume] by Automated count",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8306-3",
+  "display" : "Body height --lying"
+}, "valueSet" :null}####
+v: {
+  "display" : "Body height --lying",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "718-7",
+  "display" : "Hgb Bld-mCnc"
+}, "valueSet" :null}####
+v: {
+  "display" : "Hemoglobin [Mass/volume] in Blood",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8302-2",
+  "display" : "Body height"
+}, "valueSet" :null}####
+v: {
+  "display" : "Body height",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8867-4",
+  "display" : "Heart Rate"
+}, "valueSet" :null}####
+v: {
+  "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8287-5",
+  "display" : "Head Occipital-frontal circumference by Tape measure"
+}, "valueSet" :null}####
+v: {
+  "display" : "Head Occipital-frontal circumference by Tape measure",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "789-8",
+  "display" : "RBC # Bld Auto"
+}, "valueSet" :null}####
+v: {
+  "display" : "Erythrocytes [#/volume] in Blood by Automated count",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "34133-9",
+  "display" : "Summary of episode note"
+}, "valueSet" :null}####
+v: {
+  "display" : "Summary of episode note",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "58410-2",
+  "display" : "Complete blood count (hemogram) panel - Blood by Automated count"
+}, "valueSet" :null}####
+v: {
+  "display" : "Complete blood count (hemogram) panel - Blood by Automated count",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "3094-0",
+  "display" : "BUN SerPl-mCnc"
+}, "valueSet" :null}####
+v: {
+  "display" : "Urea nitrogen [Mass/volume] in Serum or Plasma",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85354-9",
+  "display" : "Blood pressure panel with all children optional"
+}, "valueSet" :null}####
+v: {
+  "display" : "Blood pressure panel with all children optional",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8480-6",
+  "display" : "Systolic blood pressure"
+}, "valueSet" :null}####
+v: {
+  "display" : "Systolic blood pressure",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8462-4",
+  "display" : "Diastolic blood pressure"
+}, "valueSet" :null}####
+v: {
+  "display" : "Diastolic blood pressure",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "39156-5",
+  "display" : "Body mass index (BMI) [Ratio]"
+}, "valueSet" :null}####
+v: {
+  "display" : "Body mass index (BMI) [Ratio]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "2339-0",
+  "display" : "Glucose Bld-mCnc"
+}, "valueSet" :null}####
+v: {
+  "display" : "Glucose [Mass/volume] in Blood",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "72166-2",
+  "display" : "Tobacco smoking status NHIS"
+}, "valueSet" :null}####
+v: {
+  "display" : "Tobacco smoking status NHIS",
   "severity" : null,
   "error" : ""
 }

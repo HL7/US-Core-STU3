@@ -1,4 +1,5 @@
 -------------------------------------------------------------------------------------
+
 {"code" : {
   "system" : "http://hl7.org/fhir/sid/cvx",
   "code" : "158"
@@ -9,6 +10,7 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -1785,6 +1787,17 @@ e: {
     }]
   }
 },
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/cvx",
+  "code" : "158",
+  "display" : "influenza, injectable, quadrivalent"
+}, "valueSet" :null}####
+v: {
+  "display" : "influenza, injectable, quadrivalent",
+  "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
