@@ -13,7 +13,7 @@
       }
    ],
    "code": {
-      "text": "Tobacco smoking status",
+      "text": "Tobacco smoking status NHIS",
       "coding": [
          {
             "code": "72166-2",
