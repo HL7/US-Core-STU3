@@ -8,9 +8,9 @@
 	<verificationStatus value="confirmed"/>
 	<category>
 		<coding>
-			<system value="http://hl7.org/fhir/us/core/CodeSystem/condition-category"/>
-			<code value="problem"/>
-			<display value="Problem"/>
+			<system value="http://hl7.org/fhir/condition-category"/>
+			<code value="problem-list-item"/>
+			<display value="Problem List Item"/>
 		</coding>
 		<text value="Problem"/>
 	</category>
