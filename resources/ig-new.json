@@ -3,15 +3,15 @@
   "id" : "ig",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\US-Core\\resources"
+    "valueString" : "/Users/ehaas/Documents/FHIR/US-Core/resources"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\US-Core\\examples"
+    "valueString" : "/Users/ehaas/Documents/FHIR/US-Core/examples"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "C:\\US-Core\\pages"
+    "valueString" : "/Users/ehaas/Documents/FHIR/US-Core/pages"
   }],
   "url" : "http://hl7.org/fhir/us/core/ImplementationGuide/ig",
   "version" : "1.1.0",
