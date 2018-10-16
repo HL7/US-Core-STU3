@@ -26,3 +26,23 @@
 |Github Publishing Issue|Description of Change|
 |---|---|
 |[#19](https://github.com/HL7/US-Core/issues/19)|Remove all root slice names from spreadsheet generated StructureDefinitions|
+
+#### DAF Implementation Guide STU2 Ballot
+
+|Item|Description of Change|
+|---|---|
+|1.|Moved out of main FHIR publication package to it's own home|
+|2.|Updated DAF profiles to DAF-core with a minimal set of elements to support meaningful access and STU3|
+|4.|Added profiles to support the 2015 Edition Common clinical Data Set (CCDS): Assessment and Plan of Treatment (CarePlan)|
+|5.|Added profiles to support the 2015 CCDS: CareTeam (CareTeam)|
+|6.|Added profiles to support the 2015 CCDS: Goals (Goal)|
+|7.|Added profiles to support the 2015 CCDS: Implantable Devices/UDI (Device)|
+|8.|Added profiles to support the 2015 CCDS: Core Birth Sex|
+|9.|Removed the profile: DAF-AllergyList|
+|10.|Removed the profile: DAF-ProblemList|
+|11.|Removed the profile: DAF-MedicationList|
+|12.|Removed the profile: DAF-ImmunizationList|
+|13.|Removed the profile: DAF-EncounterList|
+|14.|Removed the profile: DAF-ResultsList|
+|15.|Removed the profile: DAF-ProcedureList|
+|16.|Removed the profile: DAF-RelatedPerson|
