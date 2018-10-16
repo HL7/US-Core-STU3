@@ -3,13 +3,13 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="ig"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/Users/ehaas/Documents/FHIR/US-Core/resources"/>
+    <valueString value="/Users/ehaas/Documents/FHIR/US-Core-R3/resources"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/Users/ehaas/Documents/FHIR/US-Core/examples"/>
+    <valueString value="/Users/ehaas/Documents/FHIR/US-Core-R3/examples"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
-    <valueString value="/Users/ehaas/Documents/FHIR/US-Core/pages"/>
+    <valueString value="/Users/ehaas/Documents/FHIR/US-Core-R3/pages"/>
   </extension>
   <url value="http://hl7.org/fhir/us/core/ImplementationGuide/ig"/>
   <version value="1.1.0"/>
@@ -27,799 +27,799 @@
   <license value="CC0-1.0"/>
   <fhirVersion value="3.0.1"/>
   <definition>
-    <package id="p1">
+    <grouping id="p1">
       <name value="base"/>
-    </package>
+    </grouping>
     <resource>
       <reference>
         <reference value="Observation/weight"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/vitals-panel"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/usg"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Bundle/uscore-ms3"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Encounter/example-1"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="MedicationStatement/uscore-ms2"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="MedicationStatement/uscore-ms1"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Bundle/uscore-mo3"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="MedicationRequest/uscore-mo2"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="MedicationRequest/uscore-mo1"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Medication/uscore-med2"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Medication/uscore-med1"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urobilinogen"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-wbcs"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-sediment"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-rbcs"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-protein"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-ph"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-nitrite"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-leukocyte-esterase"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-ketone"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-hemoglobin"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-glucose"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-epi-cells"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-color"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-clarity"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-cells"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-bilirubin"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/urine-bacteria"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="DiagnosticReport/urinalysis"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Device/udi-1"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/temperature"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/some-day-smoker"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/serum-total-bilirubin"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/serum-sodium"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/serum-potassium"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/serum-creatinine"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/serum-co2"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/serum-chloride"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/serum-calcium"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/respiratory-rate"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Procedure/rehab"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Practitioner/practitioner-2"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Practitioner/practitioner-1"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Patient/example"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/oxygen-saturation"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/neutrophils"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="DiagnosticReport/metabolic-panel"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/mchc"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/length"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Immunization/imm-1"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Location/hl7east"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/hemoglobin"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/height"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/heart-rate"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/head-circumference"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Condition/hc1"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Goal/goal-1"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/erythrocytes"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="DocumentReference/episode-summary"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Encounter/1036"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Condition/example"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="CarePlan/colonoscopy"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="DiagnosticReport/cbc"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="CareTeam/example"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/bun"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/bp-data-absent"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/bmi"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/blood-pressure"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Observation/blood-glucose"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="AllergyIntolerance/example"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Organization/acme-lab"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Organization/example-organization-2"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="Organization/saint-luke-w-endpoint"/>
       </reference>
       <exampleBoolean value="true"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-substance"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-substance-sct"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-substance-rxnorm"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-substance-ndfrt"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-provider-specialty"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-provider-role"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-procedure-icd10pcs"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-procedure-code"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-problem"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-observation-value-codes"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-observation-ccdasmokingstatus"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-ndc-vaccine-codes"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-narrative-status"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-medication-codes"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-encounter-type"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-cvx"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-condition-category"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-careteam-provider-roles"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/us-core-birthsex"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/simple-language"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/omb-race-category"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/omb-ethnicity-category"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/detailed-race"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/detailed-ethnicity"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/us-core-race"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/us-core-profile-link"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/us-core-ethnicity"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/us-core-direct"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="StructureDefinition/us-core-birthsex"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="SearchParameter/us-core-race"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="SearchParameter/us-core-ethnicity"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="OperationDefinition/docref"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="ConceptMap/ndc-cvx"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/condition-category"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/cdcrec"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="CodeSystem/careplan-category"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="CapabilityStatement/server"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
         <reference value="CapabilityStatement/client"/>
       </reference>
       <exampleBoolean value="false"/>
-      <package value="p1"/>
+      <groupingId value="p1"/>
     </resource>
     <page>
       <nameUrl value="index.html"/>
@@ -832,16 +832,12 @@
       </page>
     </page>
     <parameter>
-      <code value="apply-business-version"/>
-      <value value="1.1.0"/>
+      <code value="apply"/>
+      <value value="jurisdiction"/>
     </parameter>
     <parameter>
       <code value="html-template"/>
       <value value="html-template.html"/>
-    </parameter>
-    <parameter>
-      <code value="apply-jurisdiction"/>
-      <value value="true"/>
     </parameter>
     <parameter>
       <code value="generate-json"/>

@@ -28,7 +28,7 @@
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
 	<derivation value="constraint"/>
 	<snapshot>
-		<element id="Extension:direct">
+		<element id="Extension">
 			<path value="Extension"/>
 			<!--
 			<sliceName value="direct"/>
@@ -70,7 +70,7 @@
 				<map value="No RIM equivalent"/>
 			</mapping>
 		</element>
-		<element id="Extension:direct.id">
+		<element id="Extension.id">
 			<path value="Extension.id"/>
 			<representation value="xmlAttr"/>
 			<short value="xml:id (or equivalent in JSON)"/>
@@ -90,7 +90,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:direct.extension">
+		<element id="Extension.extension">
 			<path value="Extension.extension"/>
 			<short value="Additional Content defined by implementations"/>
 			<definition value="May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
@@ -112,7 +112,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:direct.url">
+		<element id="Extension.url">
 			<path value="Extension.url"/>
 			<representation value="xmlAttr"/>
 			<short value="identifies the meaning of the extension"/>
@@ -134,7 +134,7 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:direct.valueBoolean">
+		<element id="Extension.valueBoolean">
 			<path value="Extension.valueBoolean"/>
 			<short value="Value of extension"/>
 			<definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)."/>
@@ -155,7 +155,7 @@
 		</element>
 	</snapshot>
 	<differential>
-		<element id="Extension:direct">
+		<element id="Extension">
 			<path value="Extension"/>
 			<!--
 			<sliceName value="direct"/>
@@ -175,11 +175,11 @@
 				<map value="No RIM equivalent"/>
 			</mapping>
 		</element>
-		<element id="Extension:direct.url">
+		<element id="Extension.url">
 			<path value="Extension.url"/>
 			<fixedUri value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct"/>
 		</element>
-		<element id="Extension:direct.valueBoolean">
+		<element id="Extension.valueBoolean">
 			<path value="Extension.valueBoolean"/>
 			<min value="0"/>
 			<max value="1"/>

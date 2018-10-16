@@ -31,7 +31,7 @@
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
 	<derivation value="constraint"/>
 	<snapshot>
-		<element id="Extension:ethnicity">
+		<element id="Extension">
 			<path value="Extension"/>
 			<!--
 			<sliceName value="ethnicity"/>
@@ -66,7 +66,7 @@
 			</constraint>
 			<isModifier value="false"/>
 		</element>
-		<element id="Extension:ethnicity.id">
+		<element id="Extension.id">
 			<path value="Extension.id"/>
 			<representation value="xmlAttr"/>
 			<short value="xml:id (or equivalent in JSON)"/>
@@ -86,7 +86,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension">
+		<element id="Extension.extension">
 			<path value="Extension.extension"/>
 			<slicing id="2">
 				<discriminator>
@@ -109,7 +109,7 @@
 				<code value="Extension"/>
 			</type>
 		</element>
-		<element id="Extension:ethnicity.extension:ombcategory">
+		<element id="Extension.extension:ombcategory">
 			<path value="Extension.extension"/>
 			<sliceName value="ombCategory"/>
 			<short value="Hispanic or Latino|Not Hispanic or Latino"/>
@@ -131,7 +131,7 @@
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/ethnicGroupCode"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:ombcategory.id">
+		<element id="Extension.extension:ombcategory.id">
 			<path value="Extension.extension.id"/>
 			<representation value="xmlAttr"/>
 			<short value="xml:id (or equivalent in JSON)"/>
@@ -151,7 +151,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:ombcategory.extension">
+		<element id="Extension.extension:ombcategory.extension">
 			<path value="Extension.extension.extension"/>
 			<short value="Additional Content defined by implementations"/>
 			<definition value="May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
@@ -173,7 +173,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:ombcategory.url">
+		<element id="Extension.extension:ombcategory.url">
 			<path value="Extension.extension.url"/>
 			<representation value="xmlAttr"/>
 			<short value="identifies the meaning of the extension"/>
@@ -195,7 +195,7 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:ombcategory.valueCoding">
+		<element id="Extension.extension:ombcategory.valueCoding">
 			<path value="Extension.extension.valueCoding"/>
 			<short value="Value of extension"/>
 			<definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)."/>
@@ -221,7 +221,7 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:detailed">
+		<element id="Extension.extension:detailed">
 			<path value="Extension.extension"/>
 			<sliceName value="detailed"/>
 			<short value="Extended ethnicity codes"/>
@@ -242,7 +242,7 @@
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/sdtc:ethnicGroupCode"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:detailed.id">
+		<element id="Extension.extension:detailed.id">
 			<path value="Extension.extension.id"/>
 			<representation value="xmlAttr"/>
 			<short value="xml:id (or equivalent in JSON)"/>
@@ -262,7 +262,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:detailed.extension">
+		<element id="Extension.extension:detailed.extension">
 			<path value="Extension.extension.extension"/>
 			<short value="Additional Content defined by implementations"/>
 			<definition value="May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
@@ -284,7 +284,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:detailed.url">
+		<element id="Extension.extension:detailed.url">
 			<path value="Extension.extension.url"/>
 			<representation value="xmlAttr"/>
 			<short value="identifies the meaning of the extension"/>
@@ -306,7 +306,7 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:detailed.valueCoding">
+		<element id="Extension.extension:detailed.valueCoding">
 			<path value="Extension.extension.valueCoding"/>
 			<short value="Value of extension"/>
 			<definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)."/>
@@ -332,7 +332,7 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:text">
+		<element id="Extension.extension:text">
 			<path value="Extension.extension"/>
 			<sliceName value="text"/>
 			<short value="ethnicity Text"/>
@@ -350,7 +350,7 @@
 			<mustSupport value="true"/>
 			<isModifier value="false"/>
 		</element>
-		<element id="Extension:ethnicity.extension:text.id">
+		<element id="Extension.extension:text.id">
 			<path value="Extension.extension.id"/>
 			<representation value="xmlAttr"/>
 			<short value="xml:id (or equivalent in JSON)"/>
@@ -370,7 +370,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:text.extension">
+		<element id="Extension.extension:text.extension">
 			<path value="Extension.extension.extension"/>
 			<short value="Additional Content defined by implementations"/>
 			<definition value="May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
@@ -392,7 +392,7 @@
 				<map value="n/a"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:text.url">
+		<element id="Extension.extension:text.url">
 			<path value="Extension.extension.url"/>
 			<representation value="xmlAttr"/>
 			<short value="identifies the meaning of the extension"/>
@@ -414,7 +414,7 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:text.valueString">
+		<element id="Extension.extension:text.valueString">
 			<path value="Extension.extension.valueString"/>
 			<short value="Value of extension"/>
 			<definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)."/>
@@ -433,7 +433,7 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.url">
+		<element id="Extension.url">
 			<path value="Extension.url"/>
 			<representation value="xmlAttr"/>
 			<short value="identifies the meaning of the extension"/>
@@ -455,7 +455,7 @@
 				<map value="N/A"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.value[x]">
+		<element id="Extension.value[x]">
 			<path value="Extension.value[x]"/>
 			<short value="Value of extension"/>
 			<definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)."/>
@@ -587,7 +587,7 @@
 		</element>
 	</snapshot>
 	<differential>
-		<element id="Extension:ethnicity">
+		<element id="Extension">
 			<path value="Extension"/>
 			<!--
 			<sliceName value="ethnicity"/>
@@ -600,7 +600,7 @@
 			<max value="1"/>
 			<isModifier value="false"/>
 		</element>
-		<element id="Extension:ethnicity.extension:ombcategory">
+		<element id="Extension.extension:ombcategory">
 			<path value="Extension.extension"/>
 			<sliceName value="ombCategory"/>
 			<short value="Hispanic or Latino|Not Hispanic or Latino"/>
@@ -617,7 +617,7 @@
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/ethnicGroupCode"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:ombcategory.url">
+		<element id="Extension.extension:ombcategory.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -626,7 +626,7 @@
 			</type>
 			<fixedUri value="ombCategory"/>
 		</element>
-		<element id="Extension:ethnicity.extension:ombcategory.valueCoding">
+		<element id="Extension.extension:ombcategory.valueCoding">
 			<path value="Extension.extension.valueCoding"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -641,7 +641,7 @@
 				</valueSetReference>
 			</binding>
 		</element>
-		<element id="Extension:ethnicity.extension:detailed">
+		<element id="Extension.extension:detailed">
 			<path value="Extension.extension"/>
 			<sliceName value="detailed"/>
 			<short value="Extended ethnicity codes"/>
@@ -657,7 +657,7 @@
 				<map value="/ClinicalDocument/recordTarget/patientRole/patient/sdtc:ethnicGroupCode"/>
 			</mapping>
 		</element>
-		<element id="Extension:ethnicity.extension:detailed.url">
+		<element id="Extension.extension:detailed.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -666,7 +666,7 @@
 			</type>
 			<fixedUri value="detailed"/>
 		</element>
-		<element id="Extension:ethnicity.extension:detailed.valueCoding">
+		<element id="Extension.extension:detailed.valueCoding">
 			<path value="Extension.extension.valueCoding"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -681,7 +681,7 @@
 				</valueSetReference>
 			</binding>
 		</element>
-		<element id="Extension:ethnicity.extension:text">
+		<element id="Extension.extension:text">
 			<path value="Extension.extension"/>
 			<sliceName value="text"/>
 			<short value="ethnicity Text"/>
@@ -694,7 +694,7 @@
 			<mustSupport value="true"/>
 			<isModifier value="false"/>
 		</element>
-		<element id="Extension:ethnicity.extension:text.url">
+		<element id="Extension.extension:text.url">
 			<path value="Extension.extension.url"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -703,7 +703,7 @@
 			</type>
 			<fixedUri value="text"/>
 		</element>
-		<element id="Extension:ethnicity.extension:text.valueString">
+		<element id="Extension.extension:text.valueString">
 			<path value="Extension.extension.valueString"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -711,7 +711,7 @@
 				<code value="string"/>
 			</type>
 		</element>
-		<element id="Extension:ethnicity.url">
+		<element id="Extension.url">
 			<path value="Extension.url"/>
 			<min value="1"/>
 			<max value="1"/>

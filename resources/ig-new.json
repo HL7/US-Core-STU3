@@ -3,15 +3,15 @@
   "id" : "ig",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "/Users/ehaas/Documents/FHIR/US-Core/resources"
+    "valueString" : "/Users/ehaas/Documents/FHIR/US-Core-R3/resources"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "/Users/ehaas/Documents/FHIR/US-Core/examples"
+    "valueString" : "/Users/ehaas/Documents/FHIR/US-Core-R3/examples"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "/Users/ehaas/Documents/FHIR/US-Core/pages"
+    "valueString" : "/Users/ehaas/Documents/FHIR/US-Core-R3/pages"
   }],
   "url" : "http://hl7.org/fhir/us/core/ImplementationGuide/ig",
   "version" : "1.1.0",
@@ -27,9 +27,9 @@
   }],
   "packageId" : "hl7.fhir.us.core",
   "license" : "CC0-1.0",
-  "fhirVersion" : "3.0.1",
+  "fhirVersion" : ["3.0.1"],
   "definition" : {
-    "package" : [{
+    "grouping" : [{
       "id" : "p1",
       "name" : "base"
     }],
@@ -38,791 +38,791 @@
         "reference" : "Observation/weight"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/vitals-panel"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/usg"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Bundle/uscore-ms3"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Encounter/example-1"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "MedicationStatement/uscore-ms2"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "MedicationStatement/uscore-ms1"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Bundle/uscore-mo3"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "MedicationRequest/uscore-mo2"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "MedicationRequest/uscore-mo1"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Medication/uscore-med2"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Medication/uscore-med1"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urobilinogen"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-wbcs"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-sediment"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-rbcs"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-protein"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-ph"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-nitrite"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-leukocyte-esterase"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-ketone"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-hemoglobin"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-glucose"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-epi-cells"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-color"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-clarity"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-cells"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-bilirubin"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/urine-bacteria"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "DiagnosticReport/urinalysis"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Device/udi-1"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/temperature"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/some-day-smoker"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/serum-total-bilirubin"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/serum-sodium"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/serum-potassium"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/serum-creatinine"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/serum-co2"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/serum-chloride"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/serum-calcium"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/respiratory-rate"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Procedure/rehab"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Practitioner/practitioner-2"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Practitioner/practitioner-1"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Patient/example"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/oxygen-saturation"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/neutrophils"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "DiagnosticReport/metabolic-panel"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/mchc"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/length"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Immunization/imm-1"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Location/hl7east"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/hemoglobin"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/height"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/heart-rate"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/head-circumference"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Condition/hc1"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Goal/goal-1"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/erythrocytes"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "DocumentReference/episode-summary"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Encounter/1036"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Condition/example"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "CarePlan/colonoscopy"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "DiagnosticReport/cbc"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "CareTeam/example"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/bun"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/bp-data-absent"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/bmi"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/blood-pressure"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Observation/blood-glucose"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "AllergyIntolerance/example"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Organization/acme-lab"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Organization/example-organization-2"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "Organization/saint-luke-w-endpoint"
       },
       "exampleBoolean" : true,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-substance"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-substance-sct"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-substance-rxnorm"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-substance-ndfrt"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-provider-specialty"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-provider-role"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-procedure-icd10pcs"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-procedure-code"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-problem"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-observation-value-codes"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-observation-ccdasmokingstatus"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-ndc-vaccine-codes"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-narrative-status"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-medication-codes"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-encounter-type"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-cvx"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-condition-category"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-careteam-provider-roles"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/us-core-birthsex"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/simple-language"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/omb-race-category"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/omb-ethnicity-category"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/detailed-race"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ValueSet/detailed-ethnicity"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "StructureDefinition/us-core-race"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "StructureDefinition/us-core-profile-link"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "StructureDefinition/us-core-ethnicity"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "StructureDefinition/us-core-direct"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "StructureDefinition/us-core-birthsex"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "SearchParameter/us-core-race"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "SearchParameter/us-core-ethnicity"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "OperationDefinition/docref"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "ConceptMap/ndc-cvx"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "CodeSystem/condition-category"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "CodeSystem/cdcrec"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "CodeSystem/careplan-category"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "CapabilityStatement/server"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     },
     {
       "reference" : {
         "reference" : "CapabilityStatement/client"
       },
       "exampleBoolean" : false,
-      "package" : "p1"
+      "groupingId" : "p1"
     }],
     "page" : {
       "nameUrl" : "index.html",
@@ -835,16 +835,12 @@
       }]
     },
     "parameter" : [{
-      "code" : "apply-business-version",
-      "value" : "1.1.0"
+      "code" : "apply",
+      "value" : "jurisdiction"
     },
     {
       "code" : "html-template",
       "value" : "html-template.html"
-    },
-    {
-      "code" : "apply-jurisdiction",
-      "value" : "true"
     },
     {
       "code" : "generate-json",
