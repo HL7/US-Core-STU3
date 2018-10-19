@@ -1,6 +1,4 @@
 <nav class="breadcrumb">
-  <a class="breadcrumb-item" href="#">Home</a>
-  <a class="breadcrumb-item" href="#">Library</a>
-  <a class="breadcrumb-item" href="#">Data</a>
-  <span class="breadcrumb-item active">Bootstrap</span>
+  {% assign pagepath = {{page.path}} %}
+    <a class="breadcrumb-item btn btn-link btn-sm" href="uscoretoc.html">TOC</a>{{site.data.pages[pagepath].breadcrumb}}
 </nav>

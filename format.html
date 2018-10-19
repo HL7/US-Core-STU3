@@ -6,8 +6,8 @@
 {% include container-start.html %}
 
   <!-- ============CONTENT CONTENT=============== -->
-
-<h2>{{[title]}}</h2>
+{% assign pagepath = {{page.path}} %}
+<h2 {% unless {{site.data.pages[pagepath].label}} %} nocount=true {% endunless %}>{{[title]}}</h2>
 
 <p>
 Formats: <a href="{{[type]}}-{{[id]}}.html">Narrative</a>,

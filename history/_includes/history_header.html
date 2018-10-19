@@ -31,4 +31,27 @@
 </head>
 <body>
 
-{% include navbar.html %}
+  <div id="segment-header" class="segment">  <!-- segment-header -->
+   <div class="container">  <!-- container -->
+    <a id="logo" no-external="true" href="http://hl7.org/fhir"><img alt="logo fhir" src="assets/images/fhir-logo-www.png"/></a>
+ <div>
+ <a id="hl7-logo" no-external="true" href="http://www.hl7.org">
+      <img alt="visit the hl7 website" width="42" height="50" src="assets/images/hl7-logo.png"/>
+     </a>
+    </div>
+    <div id="ig-status" style="font-size:24px;padding-top: 20px;">
+ <b>{{ site.data.fhir.igName }} Version History</b>
+ <!-- (Release {{ site.data.fhir.ig.version }} ) -->
+ <!-- (Release {{ site.data.fhir.ig.version }} Ballot ) -->
+ </div>
+  </div>
+   <div class="container">  <!-- container -->
+  </div></div>  <!-- /segment-header -->
+
+  <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+   <div id="stripe"> </div>
+   <div class="container">  <!-- container -->
+    <!-- HEADER CONTENT -->
+   <!-- /HEADER CONTENT -->
+   </div>  <!-- /container -->
+  </div>  <!-- /segment-navbar -->

@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://nucc.org/provider-taxonomy",
+  "code" : "261QP2300X"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://nucc.org/provider-taxonomy",
+  "code" : "208D00000X"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://nucc.org/provider-taxonomy",
+  "code" : "207RC0000X"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://nucc.org/provider-taxonomy"
+    }]
+  }
+}}
+####
+e: {
+  "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------

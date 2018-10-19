@@ -1,0 +1,161 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "kg"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "{urine specific gravity}"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mL"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "d"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mg/dL"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "[pH]"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "Cel"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mmol/L"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "/min"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "%"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "g/dL"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "cm"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "{beats}/min"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "10*6/uL"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mm[Hg]"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "kg/m2"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------

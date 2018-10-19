@@ -1,701 +1,1046 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Hidden IG for de facto IG publishing-->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/account.xsd">
-	<id value="ig"/>
-	<url value="http://hl7.org/fhir/us/core/ImplementationGuide/ig"/>
-	<name value="US Core"/>
-	<status value="draft"/>
-	<experimental value="true"/>
-	<publisher value="HL7 US Realm Steering Committee"/>
-	<package>
-		<name value="base"/>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/weight"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/vitals-panel"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/usg"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Bundle/uscore-ms3"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Encounter/example-1"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="MedicationStatement/uscore-ms2"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="MedicationStatement/uscore-ms1"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Bundle/uscore-mo3"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="MedicationRequest/uscore-mo2"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="MedicationRequest/uscore-mo1"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Medication/uscore-med2"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Medication/uscore-med1"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urobilinogen"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-wbcs"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-sediment"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-rbcs"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-protein"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-ph"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-nitrite"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-leukocyte-esterase"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-ketone"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-hemoglobin"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-glucose"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-epi-cells"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-color"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-clarity"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-cells"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-bilirubin"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/urine-bacteria"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="DiagnosticReport/urinalysis"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Device/udi-1"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/temperature"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/some-day-smoker"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/serum-total-bilirubin"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/serum-sodium"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/serum-potassium"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/serum-creatinine"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/serum-co2"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/serum-chloride"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/serum-calcium"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/respiratory-rate"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Procedure/rehab"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Practitioner/practitioner-2"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Practitioner/practitioner-1"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Patient/example"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/oxygen-saturation"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/neutrophils"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="DiagnosticReport/metabolic-panel"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/mchc"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/length"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Immunization/imm-1"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Location/hl7east"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/hemoglobin"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/height"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/heart-rate"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/head-circumference"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Condition/hc1"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Goal/goal-1"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/erythrocytes"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="DocumentReference/episode-summary"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Encounter/1036"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Condition/example"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="CarePlan/colonoscopy"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="DiagnosticReport/cbc"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="CareTeam/example"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/bun"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/bp-data-absent"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/bmi"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/blood-pressure"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Observation/blood-glucose"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="AllergyIntolerance/example"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Organization/acme-lab"/>
-			</sourceReference>
-		</resource>
+  <id value="ig"/>
+  <url value="http://hl7.org/fhir/us/core/ImplementationGuide/ig"/>
+  <name value="US Core"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <publisher value="HL7 US Realm Steering Committee"/>
+  <package>
+    <name value="base"/>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/weight"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/vitals-panel"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/usg"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Bundle/uscore-ms3"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Encounter/example-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="MedicationStatement/uscore-ms2"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="MedicationStatement/uscore-ms1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Bundle/uscore-mo3"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Bundle/66c8856b-ba11-4876-8aa8-467aad8c11a2"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="MedicationRequest/uscore-mo2"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="MedicationRequest/uscore-mo1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Medication/uscore-med2"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Medication/uscore-med1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urobilinogen"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-wbcs"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-sediment"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-rbcs"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-protein"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-ph"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-nitrite"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-leukocyte-esterase"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-ketone"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-hemoglobin"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-glucose"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-epi-cells"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-color"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-clarity"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-cells"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-bilirubin"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/urine-bacteria"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="DiagnosticReport/urinalysis"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Device/udi-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/temperature"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/some-day-smoker"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/serum-total-bilirubin"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/serum-sodium"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/serum-potassium"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/serum-creatinine"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/serum-co2"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/serum-chloride"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/serum-calcium"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/respiratory-rate"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Procedure/rehab"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Practitioner/practitioner-2"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Practitioner/practitioner-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Patient/example"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/oxygen-saturation"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/neutrophils"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="DiagnosticReport/metabolic-panel"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/mchc"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/length"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Immunization/imm-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Location/hl7east"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/hemoglobin"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/height"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/heart-rate"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/head-circumference"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Condition/hc1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Goal/goal-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/erythrocytes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="DocumentReference/episode-summary"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Encounter/1036"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Condition/example"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="CarePlan/colonoscopy"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="DiagnosticReport/cbc"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="CareTeam/example"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/bun"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/bp-data-absent"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/bmi"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/blood-pressure"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Observation/blood-glucose"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="AllergyIntolerance/example"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Organization/acme-lab"/>
+      </sourceReference>
+    </resource>
     <resource>
       <example value="true"/>
       <sourceReference>
         <reference value="Organization/example-organization-2"/>
       </sourceReference>
     </resource>
-		<resource>
-			<example value="true"/>
-			<sourceReference>
-				<reference value="Organization/saint-luke-w-endpoint"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-substance"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-substance-sct"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-substance-rxnorm"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-substance-ndfrt"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-provider-specialty"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-provider-role"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-procedure-icd10pcs"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-procedure-code"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-problem"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-observation-value-codes"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-observation-ccdasmokingstatus"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-ndc-vaccine-codes"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-narrative-status"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-medication-codes"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-encounter-type"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-cvx"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-condition-category"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-careteam-provider-roles"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/us-core-birthsex"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/simple-language"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/omb-race-category"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/omb-ethnicity-category"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/detailed-race"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ValueSet/detailed-ethnicity"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/us-core-race"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/us-core-profile-link"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/us-core-ethnicity"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/us-core-direct"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="StructureDefinition/us-core-birthsex"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="SearchParameter/us-core-race"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="SearchParameter/us-core-ethnicity"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="OperationDefinition/docref"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="ConceptMap/ndc-cvx"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="CodeSystem/condition-category"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="CodeSystem/cdcrec"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="CodeSystem/careplan-category"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="CapabilityStatement/server"/>
-			</sourceReference>
-		</resource>
-		<resource>
-			<example value="false"/>
-			<sourceReference>
-				<reference value="CapabilityStatement/client"/>
-			</sourceReference>
-		</resource>
-	</package>
-	<page>
-		<source value="index.html"/>
-		<title value="US Core Homepage"/>
-		<kind value="page"/>
-	<page>
-		<source value="_includes/toc.md"/>
-		<title value="US Core Table of Contents"/>
-		<kind value="page"/>
-	</page>
-		</page>
+    <resource>
+      <example value="true"/>
+      <sourceReference>
+        <reference value="Organization/saint-luke-w-endpoint"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-substance"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-substance-sct"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-substance-rxnorm"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-substance-ndfrt"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-provider-specialty"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-provider-role"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-procedure-icd10pcs"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-procedure-code"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-problem"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-observation-value-codes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-observation-ccdasmokingstatus"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-ndc-vaccine-codes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-narrative-status"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-medication-codes"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-encounter-type"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-cvx"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-condition-category"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-careteam-provider-roles"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/us-core-birthsex"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/simple-language"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/omb-race-category"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/omb-ethnicity-category"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/detailed-race"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ValueSet/detailed-ethnicity"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/us-core-race"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/us-core-profile-link"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/us-core-ethnicity"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/us-core-direct"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="StructureDefinition/us-core-birthsex"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="SearchParameter/us-core-race"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="SearchParameter/us-core-ethnicity"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="OperationDefinition/docref"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="ConceptMap/ndc-cvx"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="CodeSystem/condition-category"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="CodeSystem/cdcrec"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="CodeSystem/careplan-category"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="CapabilityStatement/server"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <example value="false"/>
+      <sourceReference>
+        <reference value="CapabilityStatement/client"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <page>
+    <source value="index.html"/>
+    <title value="US Core Homepage"/>
+    <kind value="page"/>
+    <page>
+      <source value="guidance.html"/>
+      <title value="Guidance"/>
+      <kind value="page"/>
+    </page>
+    <page>
+      <source value="profiles.html"/>
+      <title value="Profiles"/>
+      <kind value="page"/>
+      <page>
+        <source value="StructureDefinition-us-core-allergyintolerance.html"/>
+        <title value="Structure Definition US Core Allergyintolerance"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-careplan.html"/>
+        <title value="Structure Definition US Core Careplan"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-careteam.html"/>
+        <title value="Structure Definition US Core Careteam"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-condition.html"/>
+        <title value="Structure Definition US Core Condition"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-device.html"/>
+        <title value="Structure Definition US Core Device"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-diagnosticreport.html"/>
+        <title value="Structure Definition US Core Diagnosticreport"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-documentreference.html"/>
+        <title value="Structure Definition US Core Documentreference"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-encounter.html"/>
+        <title value="Structure Definition US Core Encounter"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-goal.html"/>
+        <title value="Structure Definition US Core Goal"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-immunization.html"/>
+        <title value="Structure Definition US Core Immunization"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-location.html"/>
+        <title value="Structure Definition US Core Location"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-medication.html"/>
+        <title value="Structure Definition US Core Medication"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-medicationrequest.html"/>
+        <title value="Structure Definition US Core Medicationrequest"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-medicationstatement.html"/>
+        <title value="Structure Definition US Core Medicationstatement"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-observationresults.html"/>
+        <title value="Structure Definition US Core Observationresults"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-organization.html"/>
+        <title value="Structure Definition US Core Organization"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-patient.html"/>
+        <title value="Structure Definition US Core Patient"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-practitioner.html"/>
+        <title value="Structure Definition US Core Practitioner"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-practitionerrole.html"/>
+        <title value="Structure Definition US Core Practitionerrole"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-procedure.html"/>
+        <title value="Structure Definition US Core Procedure"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-smokingstatus.html"/>
+        <title value="Structure Definition US Core Smokingstatus"/>
+        <kind value="resource"/>
+      </page>
+    </page>
+    <page>
+      <source value="extensions.html"/>
+      <title value="Extensions"/>
+      <kind value="page"/>
+      <page>
+        <source value="StructureDefinition-us-core-birthsex.html"/>
+        <title value="Structure Definition US Core Birthsex"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-direct.html"/>
+        <title value="Structure Definition US Core Direct"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-race.html"/>
+        <title value="Structure Definition US Core Race"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-ethnicity.html"/>
+        <title value="Structure Definition US Core Ethnicity"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="StructureDefinition-us-core-profile-link.html"/>
+        <title value="Structure Definition US Core Profile Link"/>
+        <kind value="resource"/>
+      </page>
+    </page>
+    <page>
+      <source value="terminology.html"/>
+      <title value="Terminology"/>
+      <kind value="page"/>
+      <page>
+        <source value="CodeSystem-careplan-category.html"/>
+        <title value="Code System Careplan Category"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="CodeSystem-cdcrec.html"/>
+        <title value="Code System CDC Race and Ethnicity"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="CodeSystem-condition-category.html"/>
+        <title value="Code System Condition Category"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-detailed-ethnicity.html"/>
+        <title value="Value Set Detailed Ethnicity"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-detailed-race.html"/>
+        <title value="Value Set Detailed Race"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-omb-ethnicity-category.html"/>
+        <title value="Value Set OMB Ethnicity Category"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-omb-race-category.html"/>
+        <title value="Value Set OMB Race Category"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-simple-language.html"/>
+        <title value="Value Set Simple Language"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-birthsex.html"/>
+        <title value="Value Set US Core Birthsex"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-careteam-provider-roles.html"/>
+        <title value="Value Set US Core Careteam Provider Roles"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-condition-category.html"/>
+        <title value="Value Set US Core Condition Category"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-cvx.html"/>
+        <title value="Value Set US Core CVX"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-encounter-type.html"/>
+        <title value="Value Set US Core Encounter Type"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-medication-codes.html"/>
+        <title value="Value Set US Core Medication Codes"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-narrative-status.html"/>
+        <title value="Value Set US Core Narrative Status"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-ndc-vaccine-codes.html"/>
+        <title value="Value Set US Core Ndc Vaccine Codes"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-observation-ccdasmokingstatus.html"/>
+        <title value="Value Set US Core Observation CCCDA smokingstatus"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-observation-value-codes.html"/>
+        <title value="Value Set US Core Observation Value Codes"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-problem.html"/>
+        <title value="Value Set US Core Problem"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-procedure-code.html"/>
+        <title value="Value Set US Core Procedure Code"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-procedure-icd10pcs.html"/>
+        <title value="Value Set US Core Procedure ICD-10pcs"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-provider-role.html"/>
+        <title value="Value Set US Core Provider Role"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-provider-specialty.html"/>
+        <title value="Value Set US Core Provider Specialty"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-substance-ndfrt.html"/>
+        <title value="Value Set US Core Substance Ndfrt"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-substance-rxnorm.html"/>
+        <title value="Value Set US Core Substance Rxnorm"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-substance-sct.html"/>
+        <title value="Value Set US Core Substance Sct"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ValueSet-us-core-substance.html"/>
+        <title value="Value Set US Core Substance"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="ConceptMap-ndc-cvx.html"/>
+        <title value="Concept Map Ndc cvx"/>
+        <kind value="resource"/>
+      </page>
+    </page>
+    <page>
+      <source value="searchparams.html"/>
+      <title value="Search Parameters and Operations"/>
+      <kind value="page"/>
+      <page>
+        <source value="SearchParameter-us-core-ethnicity.html"/>
+        <title value="Search Parameter US Core Ethnicity"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="SearchParameter-us-core-race.html"/>
+        <title value="Search Parameter US Core Race"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="OperationDefinition-docref.html"/>
+        <title value="US Core Fetch DocumentReference"/>
+        <kind value="resource"/>
+      </page>
+    </page>
+    <page>
+      <source value="capstmnts.html"/>
+      <title value="Capability Statements"/>
+      <kind value="page"/>
+      <page>
+        <source value="CapabilityStatement-client.html"/>
+        <title value="Capability Statement Client"/>
+        <kind value="resource"/>
+      </page>
+      <page>
+        <source value="CapabilityStatement-server.html"/>
+        <title value="Capability Statement Server"/>
+        <kind value="resource"/>
+      </page>
+    </page>
+    <page>
+      <source value="security.html"/>
+      <title value="Security"/>
+      <kind value="page"/>
+    </page>
+    <page>
+      <source value="downloads.html"/>
+      <title value="Downloads"/>
+      <kind value="page"/>
+    </page>
+    <page>
+      <source value="all-examples.html"/>
+      <title value="All Examples"/>
+      <kind value="page"/>
+    </page>
+    <page>
+      <source value="uscore-change-notes.html"/>
+      <title value="US Core Change Notes"/>
+      <kind value="page"/>
+    </page>
+    <page>
+      <source value="uscoretoc.html"/>
+      <title value="US Core Table of Contents"/>
+      <kind value="toc"/>
+    </page>
+  </page>
 </ImplementationGuide>

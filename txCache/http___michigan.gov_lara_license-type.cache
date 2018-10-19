@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://michigan.gov/lara/license-type",
+  "code" : "4305"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------

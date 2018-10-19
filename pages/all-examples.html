@@ -1,5 +1,7 @@
 ---
 # jekyll header
+name: all-examples
+title: Examples
 ---
 {% include header.html %}
 
@@ -8,6 +10,10 @@
 {% include container-start.html %}
 
   <!-- ============CONTENT CONTENT=============== -->
+
+  <h2>{{page.title}}</h2>
+
+<p>Available for download <a href="downloads.html">here</a></p>
 
   {% include list-bundles.xhtml %}
   {% include list-careplans.xhtml %}

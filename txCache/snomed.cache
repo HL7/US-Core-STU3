@@ -1,0 +1,769 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "84638005"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260385009"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "10828004"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260348001"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260405006"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "81858005"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260350009"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "468063009"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "428041000124106"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "35637008"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "442311008"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "116154003"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "271807003"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "716186003"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "105590001"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "410942007"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "438951008"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "312412007"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "312413002"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "312417001"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "71388002"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "449868002",
+        "display" : "Current every day smoker"
+      },
+      {
+        "code" : "428041000124106",
+        "display" : "Current some day smoker"
+      },
+      {
+        "code" : "8517006",
+        "display" : "Former smoker"
+      },
+      {
+        "code" : "266919005",
+        "display" : "Never smoker"
+      },
+      {
+        "code" : "77176002",
+        "display" : "Smoker, current status unknown"
+      },
+      {
+        "code" : "266927001",
+        "display" : "Unknown if ever smoked"
+      },
+      {
+        "code" : "428071000124103",
+        "display" : "Current Heavy tobacco smoker"
+      },
+      {
+        "code" : "428061000124105",
+        "display" : "Current Light tobacco smoker"
+      }]
+    }]
+  }
+}}
+####
+e: {
+  "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "125676002"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "394730007"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "84638005",
+  "display" : "Occasional"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260385009",
+  "display" : "Negative"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "10828004",
+  "display" : "Positive"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260348001",
+  "display" : "++"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260405006",
+  "display" : "Trace"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "81858005",
+  "display" : "Cloudy"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260350009",
+  "display" : "++++"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "468063009",
+    "display" : "Coated femoral stem prosthesis, modular"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "49062001"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "Coated femoral stem prosthesis, modular (physical object)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "468063009",
+  "display" : "Coated femoral stem prosthesis, modular"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "428041000124106"
+  }],
+  "text" : "Current some day smoker"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "449868002",
+        "display" : "Current every day smoker"
+      },
+      {
+        "code" : "428041000124106",
+        "display" : "Current some day smoker"
+      },
+      {
+        "code" : "8517006",
+        "display" : "Former smoker"
+      },
+      {
+        "code" : "266919005",
+        "display" : "Never smoker"
+      },
+      {
+        "code" : "77176002",
+        "display" : "Smoker, current status unknown"
+      },
+      {
+        "code" : "266927001",
+        "display" : "Unknown if ever smoked"
+      },
+      {
+        "code" : "428071000124103",
+        "display" : "Current Heavy tobacco smoker"
+      },
+      {
+        "code" : "428061000124105",
+        "display" : "Current Light tobacco smoker"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "Occasional tobacco smoker",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "35637008",
+  "display" : "Alcohol rehabilitation"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "442311008",
+    "display" : "Liveborn born in hospital"
+  }],
+  "text" : "Single liveborn, born in hospital"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "160245001"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "404684003"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "243796009"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "Liveborn born in hospital",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "442311008",
+  "display" : "Liveborn born in hospital"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "116154003",
+    "display" : "Patient (person)"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://nucc.org/provider-taxonomy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "125676002"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "394730007"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "Patient",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "116154003",
+  "display" : "Patient (person)"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "271807003",
+  "display" : "skin rash"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "410942007"
+      }]
+    }]
+  }
+}}
+####
+e: {
+  "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "716186003"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "105590001"
+      }]
+    }],
+    "exclude" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "410942007"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "438951008"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "312412007"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "312413002"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "312417001"
+      }]
+    }]
+  }
+}}
+####
+e: {
+  "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "160245001"
+      }]
+    }]
+  }
+}}
+####
+e: {
+  "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "160245001"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "404684003"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "243796009"
+      }]
+    }]
+  }
+}}
+####
+e: {
+  "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct"
+    }]
+  }
+}}
+####
+e: {
+  "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "449868002",
+        "display" : "Current every day smoker"
+      },
+      {
+        "code" : "428041000124106",
+        "display" : "Current some day smoker"
+      },
+      {
+        "code" : "8517006",
+        "display" : "Former smoker"
+      },
+      {
+        "code" : "266919005",
+        "display" : "Never smoker"
+      },
+      {
+        "code" : "77176002",
+        "display" : "Smoker, current status unknown"
+      },
+      {
+        "code" : "266927001",
+        "display" : "Unknown if ever smoked"
+      },
+      {
+        "code" : "428071000124103",
+        "display" : "Current Heavy tobacco smoker"
+      },
+      {
+        "code" : "428061000124105",
+        "display" : "Current Light tobacco smoker"
+      }]
+    }]
+  }
+}}
+####
+e: {
+  "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "308335008"
+      }]
+    }]
+  }
+}}
+####
+e: {
+  "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------

@@ -1,0 +1,35 @@
+historypath : "http://hl7.org/fhir/us/core/history.html"
+foo: bar
+build: ci  # choice of ci|ballot|version
+example_types:
+  - Patient
+  - AllergyIntolerance
+  - CarePlan
+  - CareTeam
+  - Condition
+  - Device
+  - DiagnosticReport
+  - DocumentReference
+  - Encounter
+  - Goal
+  - Immunization
+  - Location
+  - Medication
+  - MedicationStatement
+  - MedicationRequest
+  - Observation
+  - Organization
+  - Practitioner
+  - PractitionerRole
+  - Procedure
+  - Bundle
+
+conformance_types:
+  - StructureDefinition
+  - ValueSet
+  - CodeSystem
+  - ConceptMap
+  - CapabilityStatement
+  - OperationDefinition
+  - SearchParameter
+  - ImplementationGuide

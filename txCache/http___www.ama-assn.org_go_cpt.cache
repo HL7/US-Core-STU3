@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.ama-assn.org/go/cpt",
+  "code" : "99201"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code system validation not supported in R2"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.ama-assn.org/go/cpt"
+    }]
+  }
+}}
+####
+e: {
+  "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------
