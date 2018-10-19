@@ -1,6 +1,8 @@
 ## US Core Table of Contents
+{: nocount="true"}
 
   - 1 - [US Core Homepage](index.html)
+
 
       -  1.1 - [Introduction](index.html#introduction)
       -  1.2 - [US Core Actors](index.html#us-core-actors)

@@ -1,5 +1,5 @@
 ## {{site.data.fhir.igName}} Implementation Guide
-{:.no_toc}
+{:.no_toc nocount="true"}
 
 <!-- TOC  the css styling for this is \pages\assets\css\project.css under 'markdown-toc'-->
 
