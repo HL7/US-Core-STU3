@@ -1,17 +1,20 @@
 ## Downloads
 
-**Validator Pack and Definitions:**
+**Package File**
 
-The following file contains all the value sets, profiles, extensions, list of pages and urls in the IG, etc. defined as part of the this Implementation Guides:
+The following package file includes an NPM package file used by many of the FHIR
+tools.  It contains all the value sets, profiles, extensions, list of pages and
+urls in the IG, etc defined as part of the this version of the Implementation
+Guides. This file should be the first choice whenever generating any
+implementation artifacts since it contains all of the rules about what makes the
+profiles valid. Implementers will still need to be familiar with the content of
+the specification and profiles that apply in order to make a conformant
+implementation. See the overview on validating [FHIR profiles and
+resources]({{site.data.fhir.path}}validation.html):
 
-- [Validator Pack](validator.pack)
+- [Package](package.tgz)
 
-In addition there are format specific definitions files:
-- [XML](definitions.xml.zip)
-- [JSON](definitions.json.zip)
-- [TTL](definitions.ttl.zip)
 
-These files should be the first choice whenever generating any implementation artifacts since they contain all of the rules about what makes these US Core profiles valid. Implementers will still need to be familiar with the content of the specification and profiles that apply in order to make a conformant implementation.  See the overview on [validating FHIR profiles and resources]({{site.data.fhir.path}}validation.html) for more information about validating profiles and how to use these artifacts.
 
 **Schematrons** are also available and listed below:
 
@@ -48,3 +51,8 @@ These files should be the first choice whenever generating any implementation ar
 - [XML](examples.xml.zip)
 - [JSON](examples.json.zip)
 - [TTl](examples.ttl.zip)
+
+**Downloadable Copy of Entire Specification**: A downloadable version is available so this Implementation Guide can be hosted
+locally:
+
+- [Downloadable Copy](full-ig.zip)
