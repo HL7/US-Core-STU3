@@ -1,4 +1,5 @@
 -------------------------------------------------------------------------------------
+
 {"code" : {
   "system" : "http://nucc.org/provider-taxonomy",
   "code" : "261QP2300X"
@@ -9,6 +10,7 @@ v: {
   "error" : "Code system validation not supported in R2"
 }
 -------------------------------------------------------------------------------------
+
 {"code" : {
   "system" : "http://nucc.org/provider-taxonomy",
   "code" : "208D00000X"
@@ -19,6 +21,7 @@ v: {
   "error" : "Code system validation not supported in R2"
 }
 -------------------------------------------------------------------------------------
+
 {"code" : {
   "system" : "http://nucc.org/provider-taxonomy",
   "code" : "207RC0000X"
@@ -29,6 +32,7 @@ v: {
   "error" : "Code system validation not supported in R2"
 }
 -------------------------------------------------------------------------------------
+
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -40,5 +44,117 @@ v: {
 ####
 e: {
   "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://nucc.org/provider-taxonomy",
+    "code" : "261QP2300X",
+    "display" : "Primary Care"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://nucc.org/provider-taxonomy"
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://nucc.org/provider-taxonomy\" is not known; The code provided (http://nucc.org/provider-taxonomy#261QP2300X) is not  valid in the value set US Core Provider Speciality (NUCC)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://nucc.org/provider-taxonomy",
+    "code" : "208D00000X",
+    "display" : "General Practice"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://nucc.org/provider-taxonomy"
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://nucc.org/provider-taxonomy\" is not known; The code provided (http://nucc.org/provider-taxonomy#208D00000X) is not  valid in the value set US Core Provider Speciality (NUCC)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://nucc.org/provider-taxonomy",
+    "code" : "207RC0000X",
+    "display" : "Cardiovascular Disease"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://nucc.org/provider-taxonomy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "125676002"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "394730007"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://nucc.org/provider-taxonomy\" is not known; The code provided (http://nucc.org/provider-taxonomy#207RC0000X) is not  valid in the value set CareTeam Provider Roles"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://nucc.org/provider-taxonomy",
+    "code" : "208D00000X",
+    "display" : "General Practice"
+  }]
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://nucc.org/provider-taxonomy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "125676002"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "394730007"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://nucc.org/provider-taxonomy\" is not known; The code provided (http://nucc.org/provider-taxonomy#208D00000X) is not  valid in the value set CareTeam Provider Roles"
 }
 -------------------------------------------------------------------------------------

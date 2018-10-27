@@ -88,13 +88,13 @@
             "source": "PractitionerRole_Practitioner_Endpoint_Bundle_Example.xml",
             "base": "Bundle-66c8856b-ba11-4876-8aa8-467aad8c11a2.html"
         },
-        "CapabilityStatement/client": {
-            "base": "CapabilityStatement-client.html",
-            "source": "capabilitystatement-client.xml"
+        "CapabilityStatement/us-core-client": {
+            "base": "CapabilityStatement-us-core-client.html",
+            "source": "capabilitystatement-us-core-client.xml"
         },
-        "CapabilityStatement/server": {
-            "base": "CapabilityStatement-server.html",
-            "source": "capabilitystatement-server.xml"
+        "CapabilityStatement/us-core-server": {
+            "base": "CapabilityStatement-us-core-server.html",
+            "source": "capabilitystatement-us-core-server.xml"
         },
         "CarePlan/colonoscopy": {
             "base": "CarePlan-colonoscopy.html",

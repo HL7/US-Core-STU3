@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Hidden IG for de facto IG publishing-->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir file:///C:/Users/Eric/Documents/HL7/FHIR/BUILD_EDIT_FILES/fhir-all-xsd/account.xsd">
-  <id value="ig"/>
+  <id value="us-core-ig"/>
   <url value="http://hl7.org/fhir/us/core/ImplementationGuide/ig"/>
   <name value="US Core"/>
   <status value="draft"/>
@@ -678,13 +678,13 @@
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="CapabilityStatement/server"/>
+        <reference value="CapabilityStatement/us-core-server"/>
       </sourceReference>
     </resource>
     <resource>
       <example value="false"/>
       <sourceReference>
-        <reference value="CapabilityStatement/client"/>
+        <reference value="CapabilityStatement/us-core-client"/>
       </sourceReference>
     </resource>
   </package>

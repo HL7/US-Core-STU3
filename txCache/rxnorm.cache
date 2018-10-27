@@ -1,4 +1,5 @@
 -------------------------------------------------------------------------------------
+
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "582620"
@@ -9,6 +10,7 @@ v: {
   "error" : "Code system validation not supported in R2"
 }
 -------------------------------------------------------------------------------------
+
 {"code" : {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
   "code" : "206765"
@@ -19,6 +21,7 @@ v: {
   "error" : "Code system validation not supported in R2"
 }
 -------------------------------------------------------------------------------------
+
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -45,6 +48,7 @@ e: {
   "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
 }
 -------------------------------------------------------------------------------------
+
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -61,5 +65,116 @@ e: {
 ####
 e: {
   "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+    "code" : "582620",
+    "display" : "Nizatidine 15 MG/ML Oral Solution [Axid]"
+  }],
+  "text" : "Nizatidine 15 MG/ML Oral Solution [Axid]"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "filter" : [{
+        "property" : "TTY",
+        "op" : "in",
+        "value" : "SCD,SBD,GPCK,BPCK,SCDG,SBDG,SCDF,SBDF"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "Nizatidine 15 MG/ML Oral Solution [Axid]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "code" : "582620",
+  "display" : "Nizatidine 15 MG/ML Oral Solution [Axid]"
+}, "valueSet" :null}####
+v: {
+  "display" : "Nizatidine 15 MG/ML Oral Solution [Axid]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "code" : "206765",
+  "display" : "Lisinopril 10 MG Oral Tablet [Prinivil]"
+}, "valueSet" :null}####
+v: {
+  "display" : "Prinivil 10 MG Oral Tablet",
+  "severity" : "warning",
+  "error" : "The display \"Lisinopril 10 MG Oral Tablet [Prinivil]\" is not a valid display for the code {http://www.nlm.nih.gov/research/umls/rxnorm}206765 - should be one of [\"Prinivil 10 MG Oral Tablet\",\"Prinivil 10 MG Oral Tablet\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+    "code" : "206765",
+    "display" : "Lisinopril 10 MG Oral Tablet [Prinivil]"
+  }],
+  "text" : "Lisinopril 10 MG Oral Tablet [Prinivil]"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "filter" : [{
+        "property" : "TTY",
+        "op" : "in",
+        "value" : "SCD,SBD,GPCK,BPCK,SCDG,SBDG,SCDF,SBDF"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "Lisinopril 10 MG Oral Tablet [Prinivil]",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+    "code" : "206765",
+    "display" : "Prinivil 10 MG Oral Tablet"
+  }],
+  "text" : "Prinivil 10 MG Oral Tablet"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+      "filter" : [{
+        "property" : "TTY",
+        "op" : "in",
+        "value" : "SCD,SBD,GPCK,BPCK,SCDG,SBDG,SCDF,SBDF"
+      }]
+    }]
+  }
+}}####
+v: {
+  "display" : "Lisinopril 10 MG Oral Tablet [Prinivil]",
+  "severity" : "warning",
+  "error" : "The display \"Prinivil 10 MG Oral Tablet\" is not a valid display for the code {http://www.nlm.nih.gov/research/umls/rxnorm}206765 - should be one of [\"Lisinopril 10 MG Oral Tablet [Prinivil]\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "code" : "206765",
+  "display" : "Prinivil 10 MG Oral Tablet"
+}, "valueSet" :null}####
+v: {
+  "display" : "Prinivil 10 MG Oral Tablet",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------

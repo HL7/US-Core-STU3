@@ -18,7 +18,7 @@ resources]({{site.data.fhir.path}}validation.html):
 
 **Schematrons** are also available and listed below:
 
-- [us-core-allergyintolerance](us-core-allergyintolerance.sch)
+- [us-core-allergyintolerance](us-core-allergyintolerance.sch){:download='true'}
 - [us-core-birthsex](us-core-birthsex.sch)
 - [us-core-careplan](us-core-careplan.sch)
 - [us-core-careteam](us-core-careteam.sch)

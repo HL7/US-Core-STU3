@@ -39,4 +39,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
   [Code on Dental Procedures and Nomenclature (CDT Code)]: http://www.ada.org/en/publications/cdt/
   [ProcedureStatus]: {{site.data.fhir.path}}valueset-procedure-status.html
   [Procedure]: {{site.data.fhir.path}}procedure.html
-  [Conformance requirements for the US Core Server]: CapabilityStatement-server.html
+  [Conformance requirements for the US Core Server]: CapabilityStatement-us-core-server.html

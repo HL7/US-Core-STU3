@@ -1,6 +1,6 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "ig",
+  "id" : "us-core-ig",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
     "valueString" : "/Users/ehaas/Documents/FHIR/US-Core-R3/resources"
@@ -812,14 +812,14 @@
     },
     {
       "reference" : {
-        "reference" : "CapabilityStatement/server"
+        "reference" : "CapabilityStatement/us-core-server"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"
     },
     {
       "reference" : {
-        "reference" : "CapabilityStatement/client"
+        "reference" : "CapabilityStatement/us-core-client"
       },
       "exampleBoolean" : false,
       "groupingId" : "p1"

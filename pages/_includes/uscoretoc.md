@@ -107,8 +107,8 @@
 
   - 7 - [Capability Statements](capstmnts.html)
 
-    - 7.1 - [Capability Statement Client](CapabilityStatement-client.html)
-    - 7.2 - [Capability Statement Server](CapabilityStatement-server.html)
+    - 7.1 - [Capability Statement US Core Client](CapabilityStatement-us-core-client.html)
+    - 7.2 - [Capability Statement US Core Server](CapabilityStatement-us-core-server.html)
 
   - 8 - [Security](security.html)
   - 9 - [Downloads](downloads.html)

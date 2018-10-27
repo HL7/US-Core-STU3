@@ -32,4 +32,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 [Organization-with-EndPoint](Organization-saint-luke-w-endpoint.html)
 
 [Organization]: {{site.data.fhir.path}}organization.html
-[Conformance requirements for the US Core Server]: CapabilityStatement-server.html
+[Conformance requirements for the US Core Server]: CapabilityStatement-us-core-server.html

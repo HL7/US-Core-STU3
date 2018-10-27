@@ -285,7 +285,7 @@ In order to manage the number of search results returned, the server may choose 
 [FHIR Conformance Rules]: {{site.data.fhir.path}}conformance-rules.html
 [Quantity]: {{site.data.fhir.path}}datatypes.html#quantity
 [UCUM]: http://unitsofmeasure.org
-[US Core Server Capability Statement]: CapabilityStatement-server.html
+[US Core Server Capability Statement]: CapabilityStatement-us-core-server.html
 [HL7 U.S. Data Access Framework (DAF)]: http://wiki.siframework.org/Data+Access+Framework+Homepage
 [UCUM Codes value set]: {{site.data.fhir.path}}valueset-ucum-units.html
 [2015 Edition Common Clinical Data Set (CCDS)]: https://www.healthit.gov/sites/default/files/2015Ed_CCG_CCDS.pdf

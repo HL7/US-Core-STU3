@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="ig"/>
+  <id value="us-core-ig"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
     <valueString value="/Users/ehaas/Documents/FHIR/US-Core-R3/resources"/>
   </extension>
@@ -809,14 +809,14 @@
     </resource>
     <resource>
       <reference>
-        <reference value="CapabilityStatement/server"/>
+        <reference value="CapabilityStatement/us-core-server"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>
     </resource>
     <resource>
       <reference>
-        <reference value="CapabilityStatement/client"/>
+        <reference value="CapabilityStatement/us-core-client"/>
       </reference>
       <exampleBoolean value="false"/>
       <groupingId value="p1"/>

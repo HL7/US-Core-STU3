@@ -1,4 +1,5 @@
 -------------------------------------------------------------------------------------
+
 {"code" : {
   "system" : "http://hl7.org/fhir/ndfrt",
   "code" : "N0000175503"
@@ -9,6 +10,7 @@ v: {
   "error" : "Code system validation not supported in R2"
 }
 -------------------------------------------------------------------------------------
+
 {"code" : {
   "system" : "http://hl7.org/fhir/ndfrt",
   "code" : "N0000000223"
@@ -19,6 +21,7 @@ v: {
   "error" : "Code system validation not supported in R2"
 }
 -------------------------------------------------------------------------------------
+
 {"code" : {
   "system" : "http://hl7.org/fhir/ndfrt",
   "code" : "N0000009802"
@@ -29,6 +32,7 @@ v: {
   "error" : "Code system validation not supported in R2"
 }
 -------------------------------------------------------------------------------------
+
 {"code" : {
   "system" : "http://hl7.org/fhir/ndfrt",
   "code" : "N0000000002"
@@ -39,6 +43,7 @@ v: {
   "error" : "Code system validation not supported in R2"
 }
 -------------------------------------------------------------------------------------
+
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -57,6 +62,7 @@ e: {
   "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
 }
 -------------------------------------------------------------------------------------
+
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -89,5 +95,32 @@ e: {
 ####
 e: {
   "error" : "org.hl7.fhir.dstu3.model.ExpansionProfile cannot be cast to org.hl7.fhir.dstu3.model.Parameters"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://hl7.org/fhir/ndfrt",
+    "code" : "N0000175503",
+    "display" : "sulfonamide antibacterial"
+  }],
+  "text" : "sulfonamide antibacterial"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://hl7.org/fhir/us/core/ValueSet/us-core-substance-ndfrt"]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/us/core/ValueSet/us-core-substance-rxnorm"]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/us/core/ValueSet/us-core-substance-sct"]
+    }]
+  }
+}}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Unable to find value set http://hl7.org/fhir/us/core/ValueSet/us-core-substance-ndfrt"
 }
 -------------------------------------------------------------------------------------

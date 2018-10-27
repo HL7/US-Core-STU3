@@ -29,4 +29,4 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 [Practitioner-1](Practitioner-practitioner-1.html)
 
 [Practitioner]: {{site.data.fhir.path}}practitioner.html
-[Conformance requirements for the US Core Server]: CapabilityStatement-server.html
+[Conformance requirements for the US Core Server]: CapabilityStatement-us-core-server.html

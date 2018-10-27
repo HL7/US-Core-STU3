@@ -1,4 +1,4 @@
-{% assign pagepath = {{page.path}} %}
+{% assign pagepath = page.path %}
 {% assign pagenumber = {{site.data.pages[pagepath].label | remove: ".0" }} %}
 {% unless pagenumber == '' %}
   <style type="text/css">

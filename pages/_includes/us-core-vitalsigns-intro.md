@@ -54,7 +54,7 @@ The following data-elements are mandatory (i.e data MUST be present). These are 
 [Vital Signs Profile]: {{site.data.fhir.path}}observation-profiles.html
 [Observation]: {{site.data.fhir.path}}observation.html
 [extensible]: {{site.data.fhir.path}}terminologies.html#extensible
-[Conformance requirements for the US Core Server]: CapabilityStatement-server.html
+[Conformance requirements for the US Core Server]: CapabilityStatement-us-core-server.html
 [General Guidance Section]: guidance.html
 [Vital Signs]: {{site.data.fhir.path}}vitalsigns.html
 [Vital Signs Panel]: {{site.data.fhir.path}}vitalspanel.html

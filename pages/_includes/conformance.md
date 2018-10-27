@@ -19,7 +19,7 @@ This section outlines conformance requirements for the US Core Servers and Clien
 ### Conformance requirements for the US Core Server
 {: #server}
 
-Source Resource: [XML](CapabilityStatement-server.xml.html)/[JSON](CapabilityStatement-server.json.html)
+Source Resource: [XML](CapabilityStatement-us-core-server.xml.html)/[JSON](CapabilityStatement-us-core-server.json.html)
 
 -  FHIR Version: 3.0.1
 -  Supported formats: xml, json
@@ -658,7 +658,7 @@ Search Parameters:
 ### Conformance requirements for the US Core
 {: #client}
 
-Source Resource: [XML](CapabilityStatement-client.xml.html)/[JSON](CapabilityStatement-client.json.html)
+Source Resource: [XML](CapabilityStatement-us-core-client.xml.html)/[JSON](CapabilityStatement-us-core-client.json.html)
 
 -  FHIR Version: 3.0.1
 -  Supported formats: xml, json
